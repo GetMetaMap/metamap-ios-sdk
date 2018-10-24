@@ -250,10 +250,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 + (MFKYC * _Nonnull)instance SWIFT_WARN_UNUSED_RESULT;
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable metadata;
 @property (nonatomic, copy) NSString * _Nullable identityId;
-+ (void)registerWithClientId:(NSString * _Nonnull)clientId identityId:(NSString * _Nullable)identityId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerWithClientId:(NSString * _Nonnull)clientId identityId:(NSString * _Nullable)identityId;
 + (void)registerWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerWithClientId:(NSString * _Nonnull)clientId;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
 @end
