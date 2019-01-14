@@ -9,7 +9,7 @@ Note that SDK requires Android version 5.0 (api version 21) or above.
 
 2. In module build.gradle (Module: ) file add the following dependency:
 
-    implementation 'com.matilock:mati-global-id-sdk:0.0.3'
+    implementation 'com.matilock:mati-global-id-sdk:0.0.4'
 
 3. Sync your project with gradle.
 
