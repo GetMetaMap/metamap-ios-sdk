@@ -25,6 +25,7 @@ In your XCode project Build Settings, please set
 Make the following changes in your AppDelegate file 
 
     //Swift
+    
     import MatiGlobalIDSDK
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
@@ -36,7 +37,10 @@ Make the following changes in your AppDelegate file
           return true
       }
       
+      
+      
     //Objective-C
+    
     #import <MatiGlobalIDSDK/MatiGlobalIDSDK.h>
     
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -56,6 +60,7 @@ Or
 Add using Swift or Objective-C 
 
     //Swift
+    
     MFKYC.instance.metadata = ["key": "value"]
     let matiButton = MFKYCButton()
     matiButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height :)
