@@ -28,12 +28,12 @@ You now need to place the Mati KYC button inside your App. Add it to your layout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:style="DARK"
-    								app:text="Custom"/>
+    				app:text="Custom"/>
 
 ## Metadata
 
     Metadata metadata = new Metadata.Builder()
-                    .with("userId", "5b2a3ae479b52928106c48ee")
+                    .with("userId", "Your Client ID")
                     .with("type", 2)
                     .build();
     
