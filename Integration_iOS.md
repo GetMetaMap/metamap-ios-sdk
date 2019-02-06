@@ -1,5 +1,7 @@
 # This document explains how to integrate the Mati button into your iOS app
 
+![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%208.png)
+
 # LOGIN
 
 ## Xcode configurations
