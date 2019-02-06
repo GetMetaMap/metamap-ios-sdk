@@ -3,16 +3,17 @@ Note that SDK requires Android version 5.0 (api version 21) or above.
 
 ## Gradle configurations
 
-1.  In top level build.gradle (Project: ) file add the following repository:
+In top level build.gradle (Project: ) file add the following repository:
 
     jcenter()
-
-2. In module build.gradle (Module: ) file add the following dependency:
+    
+In module build.gradle (Module: ) file add the following dependency:
 
     implementation 'com.matilock:mati-global-id-sdk:0.0.4'
+    
+Sync your project with gradle.
 
-3. Sync your project with gradle.
-
+    
 ## Mati SDK initialization
 
 Initialize Mati by calling the following in the onCreate() method of your application class:
