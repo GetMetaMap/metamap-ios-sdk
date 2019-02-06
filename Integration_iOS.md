@@ -22,8 +22,9 @@ In your XCode project Build Settings, please set
 
 ## AppDelegate - Mati KYC Initialisation
 
-Make the following changes in your AppDelegate file (swift on the left, Obj-C on the right)
+Make the following changes in your AppDelegate file 
 
+    //Swift
     import MatiGlobalIDSDK
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
@@ -34,7 +35,8 @@ Make the following changes in your AppDelegate file (swift on the left, Obj-C on
      	    
           return true
       }
-
+      
+    //Objective-C
     #import <MatiGlobalIDSDK/MatiGlobalIDSDK.h>
     
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
