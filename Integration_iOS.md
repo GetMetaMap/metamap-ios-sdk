@@ -6,10 +6,12 @@
 
 1. PODFILE
 
-    [//install Mati (your App pod file)
-    pod 'Mati-Global-ID-SDK'](//install)
+Install Mati (your App pod file)
+  
+    pod 'Mati-Global-ID-SDK'
+    
+Update your pods from the terminal
 
-    //update your pods from the terminal
     pod install
 
 2. XCODE PROJECT BUILD SETTINGS
@@ -29,16 +31,6 @@ Make the following changes in your AppDelegate file (swift on the left, Obj-C on
           MFKYC.register(clientId:"{custom_token}")
     			//or
     			MFKYC.register(clientId:"{custom_token}" identityId:"{identity_id}")
-    			
-    			//optional
-    			MFKYC.instance.icon = UIImage(named:"custom_image")
-    	    MFKYC.instance.buttonColor = UIColor.blue		
-    			MFKYC.instance.mainTitle = "Custom title."
-    	    MFKYC.instance.mainDescription = "Custom description."
-    	    MFKYC.instance.mainStepsTitle = "Custom 2 steps"
-    	    MFKYC.instance.mainStep1Text = "Custom step 1"
-    	    MFKYC.instance.mainStep2Text = "Custom step 2"
-    	    MFKYC.instance.mainButtonTitle = "Custom button title"
      	    
           return true
       }
@@ -49,17 +41,7 @@ Make the following changes in your AppDelegate file (swift on the left, Obj-C on
         [MFKYC registerWithClientId:@"{custom_token}"];
     		//or
     		[MFKYC registerWithClientId:@"{custom_token}" identityId:@"{identity_id}"];
-    		
-    		//optional
-    		MFKYC.instance.icon = [UIImage imageNamed:@"custom_image"];
-        MFKYC.instance.buttonColor = [UIColor blueColor];
-    		MFKYC.instance.mainTitle = @"Custom title.";
-        MFKYC.instance.mainDescription = @"Custom description.";
-        MFKYC.instance.mainStepsTitle = @"Custom 2 steps";
-        MFKYC.instance.mainStep1Text = @"Custom step 1";
-        MFKYC.instance.mainStep2Text = @"Custom step 2";
-        MFKYC.instance.mainButtonTitle = @"Custom button title";
-        
+
         return YES;
     }
 
