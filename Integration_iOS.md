@@ -49,21 +49,26 @@ Make the following changes in your AppDelegate file (swift on the left, Obj-C on
 
 You now need to place the Mati KYC button inside your App. You have 2 options for that (interface builder / code):
 
-- OPTION 1: You can include `MFKYCButton` into your view using XCode interface builder
-- OPTION 2: Add using Swift (left) or Objective-C (right)
+You can include `MFKYCButton` into your view using XCode interface builder
+Or
+Add using Swift or Objective-C 
 
+    //Swift
     MFKYC.instance.metadata = ["key": "value"]
     let matiButton = MFKYCButton()
     matiButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height :)
     matiButton.title = "Custom"
     view.addSubview(matiButton)
-
+    MFKYC.instance.metadata = ["key": "value"]
+    
+    //Objective-C
+    
     [MFKYC instance].metadata = @{"key": "value"};
     MFKYCButton *matiButton =[[MFKYCButton alloc] init];
     matiButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height :)
     matiButton.title = "Custom";
     [self.view addSubview:matiButton];
-
+    
 ## Mati KYC Delegate
 
 Use the delegate functions below in order to handle the success / failure of login
