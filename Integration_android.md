@@ -1,7 +1,7 @@
 # This document explains how to integrate the Mati Global ID SDK into your Android App.
 Note that SDK requires Android version 5.0 (api version 21) or above.
 
-![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%208.png)
+![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%209.png)
 
 ## Gradle configurations
 
