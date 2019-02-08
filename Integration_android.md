@@ -11,7 +11,7 @@ In top level build.gradle (Project: ) file add the following repository:
     
 In module build.gradle (Module: ) file add the following dependency:
 
-    implementation 'com.matilock:mati-global-id-sdk:0.0.4'
+    implementation 'com.matilock:mati-global-id-sdk:0.0.5'
     
 Sync your project with gradle.
 
