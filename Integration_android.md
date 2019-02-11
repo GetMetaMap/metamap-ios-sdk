@@ -44,6 +44,8 @@ You now need to place the Mati KYC button inside your App. Add it to your layout
 
 ## Metadata
 
+Choose what kind of metadata you want to receive as shown in example below.
+
     Metadata metadata = new Metadata.Builder()
                     .with("userId", "Your Client ID")
                     .with("type", 2)
