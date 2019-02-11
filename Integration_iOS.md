@@ -26,7 +26,7 @@ In your XCode project Build Settings, please set
 
 Make the following changes in your AppDelegate file 
 
-SWIFT
+### SWIFT
     
     import MatiGlobalIDSDK
     
