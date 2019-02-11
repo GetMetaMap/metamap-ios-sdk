@@ -4,7 +4,7 @@
 
 ## Xcode configurations
 
-### PODFILE
+### POD File
 
 Install Mati (your App pod file)
   
@@ -14,7 +14,7 @@ Update your pods from the terminal
 
     pod install
 
-### XCODE PROJECT BUILD SETTINGS
+### Xcode project build settings
 
 In your XCode project Build Settings, please set
 
