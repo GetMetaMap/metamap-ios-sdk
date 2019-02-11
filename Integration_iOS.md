@@ -68,7 +68,6 @@ Add using Swift or Objective-C
     matiButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height :)
     matiButton.title = "Custom"
     view.addSubview(matiButton)
-    MFKYC.instance.metadata = ["key": "value"]
     
 ### Objective-C
     
