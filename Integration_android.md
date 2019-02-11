@@ -15,7 +15,7 @@ Open the build.gradle file inside your application module directory and include 
     
 ![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/build.gradle.png?raw=true)
     
-Afterwards just sync your project with gradle.
+Once you make these two changes, simply sync your project with gradle.
 
     
 ## Mati SDK initialization
