@@ -9,8 +9,7 @@ Ensure that your top-level build.gradle contains a reference to the following re
 
     jcenter()
     
-Open the build.gradle file inside your application module directory
-And include the following dependencies into your app build.gradle file:
+Open the build.gradle file inside your application module directory and include the following dependencies into build.gradle file of your app:
 
     implementation 'com.matilock:mati-global-id-sdk:0.0.5'
     
