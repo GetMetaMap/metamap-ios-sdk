@@ -5,6 +5,8 @@ Our SDK requires Android v5.0 (API v21) or above.
 
 ## Gradle configurations
 
+![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/build.gradle.png?raw=true)
+
 Ensure that your top-level build.gradle contains a reference to the following repository:
 
     jcenter()
