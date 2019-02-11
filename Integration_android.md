@@ -29,9 +29,7 @@ In the onCreate() method of your application class, initialize Mati by calling t
         Mati.init(this, "your client ID here");
       }
     }
-    
-![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Init.png)
-
+   
 ## Mati KYC Button Placement (UI)
 
 You now need to place the Mati KYC button inside your App. Add it to your layout XML file:
