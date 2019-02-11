@@ -1,7 +1,7 @@
 # Mati Android SDK documentation.
 Our SDK requires Android v5.0 (API v21) or above.
 
-![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%209.png)
+![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%2011.png)
 
 ## Gradle configurations
 
