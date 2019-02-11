@@ -26,7 +26,7 @@ In your XCode project Build Settings, please set
 
 Make the following changes in your AppDelegate file 
 
-### SWIFT
+### Swift
     
     import MatiGlobalIDSDK
     
@@ -41,7 +41,7 @@ Make the following changes in your AppDelegate file
       
       
       
-    //Objective-C
+### Objective-C
     
     #import <MatiGlobalIDSDK/MatiGlobalIDSDK.h>
     
@@ -61,7 +61,7 @@ You can include `MFKYCButton` into your view using XCode interface builder
 Or
 Add using Swift or Objective-C 
 
-    //Swift
+### Swift
     
     MFKYC.instance.metadata = ["key": "value"]
     let matiButton = MFKYCButton()
@@ -70,7 +70,7 @@ Add using Swift or Objective-C
     view.addSubview(matiButton)
     MFKYC.instance.metadata = ["key": "value"]
     
-    //Objective-C
+### Objective-C
     
     [MFKYC instance].metadata = @{"key": "value"};
     MFKYCButton *matiButton =[[MFKYCButton alloc] init];
@@ -82,11 +82,10 @@ Add using Swift or Objective-C
 
 Use the delegate functions below in order to handle the success / failure of login
 
-    //as always, assign the controller of your choice to be the Mati button delegate
-    MFKYC.instance.delegate = self
+### Swift
 
     //as always, assign the controller of your choice to be the Mati button delegate
-    [MFKYC instance].delegate = self;
+    MFKYC.instance.delegate = self
 
     func mfKYCLoginSuccess(identityId: String) {
       print("Mati Login Success")
@@ -95,6 +94,11 @@ Use the delegate functions below in order to handle the success / failure of log
     func mfKYCLoginCancelled() {
         print("Mati Login Failed")
     }
+    
+### Objective-C
+    
+        //as always, assign the controller of your choice to be the Mati button delegate
+    [MFKYC instance].delegate = self;
 
     - (void)mfKYCLoginSuccessWithIdentityId:(NSString *)identityId {
       NSLog(@"Mati Login Success");
