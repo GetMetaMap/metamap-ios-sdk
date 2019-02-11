@@ -27,8 +27,8 @@ In the onCreate() method of your application class, initialize Mati by calling t
         super.onCreate();
 
         Mati.init(this, "your client ID here");
-            }
-        }
+      }
+    }
 
 ## Mati KYC Button Placement (UI)
 
