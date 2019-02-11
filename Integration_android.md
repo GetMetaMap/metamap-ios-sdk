@@ -1,9 +1,9 @@
-# Mati Android SDK documentation.
+# Mati Android SDK documentation
 Our SDK requires Android v5.0 (API v21) or above.
 
 ![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%2011.png)
 
-## Gradle configurations
+## Gradle configuration
 
 Ensure that your top-level build.gradle contains a reference to the following repository:
 
@@ -40,8 +40,8 @@ You now need to place the Mati KYC button inside your App. Add it to your layout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:style="DARK"
-    				app:text="Custom"/>
-
+                    app:text="Custom"/>
+                    
 ## Metadata
 
 Choose what kind of metadata you want to receive as shown in example below.
@@ -64,12 +64,12 @@ Now register callback to handle callback responses
     MatiLoginManager.getInstance().registerCallback(mCallbackManager, new MatiCallback() {
                 @Override
                 public void onSuccess(LoginResult pLoginResult) {
-                    Log.d(TAG, "Successfully logged in!");
+                    Log.d(TAG, "User finished verification process successfully!");
                 }
     
                 @Override
                 public void onCancel() {
-                    Log.d(TAG, "Cancelled");
+                    Log.d(TAG, "User cancelled verification flow");
                 }
     
                 @Override
