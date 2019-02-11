@@ -20,7 +20,16 @@ Afterwards just sync your project with gradle.
 
 In the onCreate() method of your application class, initialize Mati by calling the following line of code:
 
-    Mati.init(this, "your client ID here");
+    public class MyApplication extends Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+        Mati.init(this, "your client ID here");
+        
+    }
+}
 
 ## Mati KYC Button Placement (UI)
 
