@@ -1,15 +1,15 @@
-# This document explains how to integrate the Mati Global ID SDK into your Android App.
-Note that SDK requires Android version 5.0 (api version 21) or above.
+# Mati Android SDK documentation.
+Our SDK requires Android v5.0 (API v21) or above.
 
 ![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%209.png)
 
 ## Gradle configurations
 
-In top level build.gradle (Project: ) file add the following repository:
+In top level build.gradle (Project: ) file, add the following repository:
 
     jcenter()
     
-In module build.gradle (Module: ) file add the following dependency:
+In module build.gradle (Module: ) file, add the following dependency:
 
     implementation 'com.matilock:mati-global-id-sdk:0.0.5'
     
@@ -18,7 +18,7 @@ Sync your project with gradle.
     
 ## Mati SDK initialization
 
-Initialize Mati by calling the following in the onCreate() method of your application class:
+Initialize Mati by calling the following line in the onCreate() method of your application class:
 
     Mati.init(this, "your client ID here");
 
