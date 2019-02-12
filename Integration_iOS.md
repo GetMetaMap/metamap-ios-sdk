@@ -33,7 +33,7 @@ Make the following changes in your AppDelegate file
           
           MFKYC.register(clientId:"{custom_token}")
     			//or
-    			MFKYC.register(clientId:"{custom_token}" identityId:"{identity_id}")
+          MFKYC.register(clientId:"{custom_token}" identityId:"{identity_id}")
      	    
           return true
       }
@@ -48,7 +48,7 @@ Make the following changes in your AppDelegate file
         
         [MFKYC registerWithClientId:@"{custom_token}"];
     		//or
-    		[MFKYC registerWithClientId:@"{custom_token}" identityId:@"{identity_id}"];
+        [MFKYC registerWithClientId:@"{custom_token}" identityId:@"{identity_id}"];
 
         return YES;
     }
