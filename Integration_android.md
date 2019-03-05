@@ -1,24 +1,37 @@
-# This document explains how to integrate the Mati Global ID SDK into your Android App.
-Note that SDK requires Android version 5.0 (api version 21) or above.
+# Mati Android SDK documentation
+Our SDK requires Android v5.0 (API v21) or above.
 
-## Gradle configurations
+![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%2011.png)
 
-1.  In top level build.gradle (Project: ) file add the following repository:
+## Gradle configuration
+
+Ensure that your top-level build.gradle contains a reference to the following repository:
 
     jcenter()
+    
+Open the build.gradle file inside your application module directory and include the following dependencies into build.gradle file of your app:
 
-2. In module build.gradle (Module: ) file add the following dependency:
+    implementation 'com.matilock:mati-global-id-sdk:0.0.6'
+    
+![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/build.gradle.png?raw=true)
+    
+Once you make these two changes, simply sync your project with gradle.
 
-    implementation 'com.matilock:mati-global-id-sdk:0.0.4'
-
-3. Sync your project with gradle.
-
+    
 ## Mati SDK initialization
 
-Initialize Mati by calling the following in the onCreate() method of your application class:
+In the onCreate() method of your application class, initialize Mati by calling the following line of code:
 
-    Mati.init(this, "your client ID here");
+    public class MyApplication extends Application {
 
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+        Mati.init(this, "your client ID here");
+      }
+    }
+   
 ## Mati KYC Button Placement (UI)
 
 You now need to place the Mati KYC button inside your App. Add it to your layout XML file:
@@ -27,12 +40,14 @@ You now need to place the Mati KYC button inside your App. Add it to your layout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:style="DARK"
-    								app:text="Custom"/>
-
+                    app:text="Custom"/>
+                    
 ## Metadata
 
+Choose what kind of metadata you want to receive as shown in example below.
+
     Metadata metadata = new Metadata.Builder()
-                    .with("userId", "5b2a3ae479b52928106c48ee")
+                    .with("userId", "Your Client ID")
                     .with("type", 2)
                     .build();
     
@@ -49,12 +64,12 @@ Now register callback to handle callback responses
     MatiLoginManager.getInstance().registerCallback(mCallbackManager, new MatiCallback() {
                 @Override
                 public void onSuccess(LoginResult pLoginResult) {
-                    Log.d(TAG, "Successfully logged in!");
+                    Log.d(TAG, "User finished verification process successfully!");
                 }
     
                 @Override
                 public void onCancel() {
-                    Log.d(TAG, "Cancelled");
+                    Log.d(TAG, "User cancelled verification flow");
                 }
     
                 @Override
