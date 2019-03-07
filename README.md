@@ -107,3 +107,7 @@ Use the delegate functions below in order to handle the success / failure of eac
     - (void)mfKYCLoginCancelled {
         NSLog(@"Mati Login Failed");
     }
+    
+### Min Requirements 
+    iOS 9.0
+
