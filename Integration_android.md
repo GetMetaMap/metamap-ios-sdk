@@ -39,7 +39,6 @@ You now need to place the Mati KYC button inside your App. Add it to your layout
     <com.matilock.mati_kyc_sdk.MatiLoginButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:style="DARK"
                     app:text="Custom"/>
                     
 ## Metadata
