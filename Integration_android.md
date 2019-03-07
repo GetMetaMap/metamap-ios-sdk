@@ -11,7 +11,7 @@ Ensure that your top-level build.gradle contains a reference to the following re
     
 Open the build.gradle file inside your application module directory and include the following dependencies into build.gradle file of your app:
 
-    implementation 'com.matilock:mati-global-id-sdk:0.0.6'
+    implementation 'com.matilock:mati-global-id-sdk:0.0.7'
     
 ![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/build.gradle.png?raw=true)
     
@@ -39,7 +39,6 @@ You now need to place the Mati KYC button inside your App. Add it to your layout
     <com.matilock.mati_kyc_sdk.MatiLoginButton
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    app:style="DARK"
                     app:text="Custom"/>
                     
 ## Metadata
