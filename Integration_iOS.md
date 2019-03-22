@@ -4,7 +4,7 @@
 
 ## Xcode configurations
 
-### POD File
+### Install Mati SDK using CocoaPods (recommended)
 
 Install Mati (your App pod file)
   
@@ -14,17 +14,12 @@ Update your pods from the terminal
 
     pod install
 
-### Without POD File   
+### If you're not using CocoaPods (not recommended)
 
 Download Mati framework from GitHub and add it to your project.
 
 Note: Don't miss to add framework in Embedded Binaries.
 
-### Xcode project build settings
-
-In your XCode project Build Settings, please set
-
-    "Enable Bitcode" to "No".
 
 ## AppDelegate - Mati KYC Initialisation
 
@@ -80,7 +75,7 @@ Add using Swift or Objective-C
     [MFKYC instance].metadata = @{"key": "value"};
     MFKYCButton *matiButton =[[MFKYCButton alloc] init];
     matiButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
-    matiButton.title = "Custom";
+    matiButton.title = @"Custom";
     [self.view addSubview:matiButton];
     
 ## Mati KYC Delegate
@@ -112,6 +107,7 @@ Use the delegate functions below in order to handle the success / failure of eac
     - (void)mfKYCLoginCancelled {
         NSLog(@"Mati Login Failed");
     }
+    
+### Min Requirements 
+    iOS 9.0
 
-### Min Requirements
-   iOS 9.0
