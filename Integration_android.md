@@ -11,7 +11,7 @@ Ensure that your top-level build.gradle contains a reference to the following re
     
 Open the build.gradle file inside your application module directory and include the following dependencies into build.gradle file of your app:
 
-    implementation 'com.matilock:mati-global-id-sdk:0.0.7'
+    implementation 'com.matilock:mati-global-id-sdk:0.0.8'
     
 ![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/build.gradle.png?raw=true)
     

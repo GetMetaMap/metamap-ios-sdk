@@ -75,7 +75,7 @@ Add using Swift or Objective-C
     [MFKYC instance].metadata = @{"key": "value"};
     MFKYCButton *matiButton =[[MFKYCButton alloc] init];
     matiButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
-    matiButton.title = "Custom";
+    matiButton.title = @"Custom";
     [self.view addSubview:matiButton];
     
 ## Mati KYC Delegate
