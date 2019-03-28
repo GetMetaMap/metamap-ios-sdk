@@ -111,3 +111,5 @@ Use the delegate functions below in order to handle the success / failure of eac
 ### Min Requirements 
     iOS 9.0
 
+### Integration Demo Video
+    https://www.youtube.com/watch?v=sPS7_QoFhpY&feature=youtu.be
