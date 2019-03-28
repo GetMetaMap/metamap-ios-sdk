@@ -111,6 +111,6 @@ Use the delegate functions below in order to handle the success / failure of eac
 ### Min Requirements 
     iOS 9.0
 
-### Integration Demo Video
-    https://www.youtube.com/watch?v=sPS7_QoFhpY&feature=youtu.be
+## Mati iOS SDK integration video    
 
+[![Mati SDK integration demo video](https://img.youtube.com/vi/sPS7_QoFhpY/0.jpg)](https://www.youtube.com/watch?v=sPS7_QoFhpY)
