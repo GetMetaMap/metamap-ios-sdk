@@ -67,7 +67,6 @@ Add using Swift or Objective-C
     MFKYC.instance.metadata = ["key": "value"]
     let matiButton = MFKYCButton()
     matiButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height
-    matiButton.title = "Custom"
     view.addSubview(matiButton)
     
 ### Objective-C
@@ -75,7 +74,6 @@ Add using Swift or Objective-C
     [MFKYC instance].metadata = @{"key": "value"};
     MFKYCButton *matiButton =[[MFKYCButton alloc] init];
     matiButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
-    matiButton.title = @"Custom";
     [self.view addSubview:matiButton];
     
 ## Mati KYC Delegate
@@ -111,6 +109,6 @@ Use the delegate functions below in order to handle the success / failure of eac
 ### Min Requirements 
     iOS 9.0
 
-### Integration Demo Video
-    https://www.youtube.com/watch?v=sPS7_QoFhpY&feature=youtu.be
+## Mati iOS SDK integration video    
 
+[![Mati SDK integration demo video](https://img.youtube.com/vi/sPS7_QoFhpY/0.jpg)](https://www.youtube.com/watch?v=sPS7_QoFhpY)
