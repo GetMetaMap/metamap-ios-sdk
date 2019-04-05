@@ -259,6 +259,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 
 SWIFT_CLASS("_TtC15MatiGlobalIDSDK11MFKYCButton")
 @interface MFKYCButton : UIButton
+@property (nonatomic, copy) NSString * _Nullable title;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
