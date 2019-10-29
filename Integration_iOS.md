@@ -109,7 +109,10 @@ Use the delegate functions below in order to handle the success / failure of eac
     }
     
 ### Min Requirements 
-    iOS 9.0
+    iOS 9.0 
+    Xcode 10.2
+    Swift 5.0
+    For Xcode 10.1 and below, use [Version 2.3.13](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.3.13)
 
 ## Mati iOS SDK integration video    
 
