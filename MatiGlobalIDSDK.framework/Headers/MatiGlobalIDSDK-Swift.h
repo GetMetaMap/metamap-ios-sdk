@@ -281,7 +281,8 @@ SWIFT_CLASS("_TtC15MatiGlobalIDSDK11MFKYCButton")
 @interface MFKYCButton : UIButton
 @property (nonatomic, copy) NSString * _Nullable title;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (void)layoutSubviews;
 @end
@@ -598,7 +599,8 @@ SWIFT_CLASS("_TtC15MatiGlobalIDSDK11MFKYCButton")
 @interface MFKYCButton : UIButton
 @property (nonatomic, copy) NSString * _Nullable title;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (void)layoutSubviews;
 @end

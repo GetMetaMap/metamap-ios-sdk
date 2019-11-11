@@ -16,6 +16,8 @@ import WebKit
     @objc set(newValue)
   }
   @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc dynamic public init()
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
   @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
     @objc get
   }
