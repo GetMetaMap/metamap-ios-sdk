@@ -1,0 +1,102 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)
+// swift-module-flags: -target i386-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MatiGlobalIDSDK
+import AVFoundation
+import CoreTelephony
+import Foundation
+import ImageIO
+@_exported import MatiGlobalIDSDK
+import SafariServices
+import Swift
+import UIKit
+import WebKit
+@objc public class MFKYCButton : UIKit.UIButton {
+  @objc public var title: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc dynamic public init()
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
+    @objc get
+  }
+  @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@objc public protocol LiveChatDelegate : ObjectiveC.NSObjectProtocol {
+  @objc optional func received(message: MatiGlobalIDSDK.LiveChatMessage)
+  @objc optional func handle(URL: Foundation.URL)
+  @objc optional func chatPresented()
+  @objc optional func chatDismissed()
+}
+@objc public class LiveChat : ObjectiveC.NSObject {
+  @objc public static var licenseId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var groupId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var name: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var email: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public static var allCustomVariables: Swift.Dictionary<Swift.String, Swift.String>?
+  @objc weak public static var delegate: MatiGlobalIDSDK.LiveChatDelegate? {
+    @objc get
+    @objc set
+  }
+  @objc public static var isChatPresented: Swift.Bool {
+    @objc get
+  }
+  @objc public static var unreadMessagesCount: Swift.Int {
+    @objc get
+  }
+  @objc public class func setVariable(withKey key: Swift.String, value: Swift.String)
+  @objc public class func presentChat(animated: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc public class func dismissChat(animated: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc public class func clearSession()
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIImage {
+  convenience public init?(color: UIKit.UIColor, size: CoreGraphics.CGSize = CGSize(width: 1, height: 1))
+}
+@objc public class LiveChatMessage : ObjectiveC.NSObject {
+  @objc final public let id: Swift.String
+  @objc final public let text: Swift.String
+  @objc final public let date: Foundation.Date
+  @objc final public let authorName: Swift.String
+  @objc final public let rawMessage: Foundation.NSDictionary
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension UIImageView {
+  public func loadGif(name: Swift.String)
+}
+extension UIImage {
+  public class func gif(data: Foundation.Data) -> UIKit.UIImage?
+  public class func gif(url: Swift.String) -> UIKit.UIImage?
+  public class func gif(name: Swift.String) -> UIKit.UIImage?
+}
+@objc public protocol MFKYCDelegate : AnyObject {
+  @objc func mfKYCLoginSuccess(identityId: Swift.String)
+  @objc func mfKYCLoginCancelled()
+}
+@objc public class MFKYC : ObjectiveC.NSObject {
+  @objc weak public var delegate: MatiGlobalIDSDK.MFKYCDelegate?
+  @objc public static let instance: MatiGlobalIDSDK.MFKYC
+  @objc public var metadata: [Swift.String : Any]?
+  @objc public var identityId: Swift.String?
+  @objc public class func register(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
+  @objc deinit
+}
+extension UIColor {
+  convenience public init?(hexString: Swift.String)
+}
