@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)
-// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name MatiGlobalIDSDK
+// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MatiGlobalIDSDK
 import AVFoundation
 import CoreTelephony
 import Foundation
@@ -13,7 +13,7 @@ import WebKit
 @objc public class MFKYCButton : UIKit.UIButton {
   @objc public var title: Swift.String? {
     @objc get
-    @objc set(newValue)
+    @objc set
   }
   @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc dynamic public init()
@@ -33,24 +33,24 @@ import WebKit
 @objc public class LiveChat : ObjectiveC.NSObject {
   @objc public static var licenseId: Swift.String? {
     @objc get
-    @objc set(newValue)
+    @objc set
   }
   @objc public static var groupId: Swift.String? {
     @objc get
-    @objc set(newValue)
+    @objc set
   }
   @objc public static var name: Swift.String? {
     @objc get
-    @objc set(newValue)
+    @objc set
   }
   @objc public static var email: Swift.String? {
     @objc get
-    @objc set(newValue)
+    @objc set
   }
   @objc public static var allCustomVariables: Swift.Dictionary<Swift.String, Swift.String>?
   @objc weak public static var delegate: MatiGlobalIDSDK.LiveChatDelegate? {
     @objc get
-    @objc set(newValue)
+    @objc set
   }
   @objc public static var isChatPresented: Swift.Bool {
     @objc get
@@ -66,7 +66,7 @@ import WebKit
   @objc deinit
 }
 extension UIImage {
-  public convenience init?(color: UIKit.UIColor, size: CoreGraphics.CGSize = CGSize(width: 1, height: 1))
+  convenience public init?(color: UIKit.UIColor, size: CoreGraphics.CGSize = CGSize(width: 1, height: 1))
 }
 @objc public class LiveChatMessage : ObjectiveC.NSObject {
   @objc final public let id: Swift.String
@@ -91,12 +91,12 @@ extension UIImage {
 }
 @objc public class MFKYC : ObjectiveC.NSObject {
   @objc weak public var delegate: MatiGlobalIDSDK.MFKYCDelegate?
-  @objc public static var instance: MatiGlobalIDSDK.MFKYC
+  @objc public static let instance: MatiGlobalIDSDK.MFKYC
   @objc public var metadata: [Swift.String : Any]?
   @objc public var identityId: Swift.String?
   @objc public class func register(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
   @objc deinit
 }
 extension UIColor {
-  public convenience init?(hexString: Swift.String)
+  convenience public init?(hexString: Swift.String)
 }
