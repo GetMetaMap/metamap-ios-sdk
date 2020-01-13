@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)
+// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
 // swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MatiGlobalIDSDK
 import AVFoundation
 import CoreTelephony
@@ -9,7 +9,6 @@ import ImageIO
 import SafariServices
 import Swift
 import UIKit
-import WebKit
 @objc public class MFKYCButton : UIKit.UIButton {
   @objc public var title: Swift.String? {
     @objc get
@@ -22,59 +21,6 @@ import WebKit
     @objc get
   }
   @objc override dynamic public func layoutSubviews()
-  @objc deinit
-}
-@objc public protocol LiveChatDelegate : ObjectiveC.NSObjectProtocol {
-  @objc optional func received(message: MatiGlobalIDSDK.LiveChatMessage)
-  @objc optional func handle(URL: Foundation.URL)
-  @objc optional func chatPresented()
-  @objc optional func chatDismissed()
-}
-@objc public class LiveChat : ObjectiveC.NSObject {
-  @objc public static var licenseId: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc public static var groupId: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc public static var name: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc public static var email: Swift.String? {
-    @objc get
-    @objc set
-  }
-  @objc public static var allCustomVariables: Swift.Dictionary<Swift.String, Swift.String>?
-  @objc weak public static var delegate: MatiGlobalIDSDK.LiveChatDelegate? {
-    @objc get
-    @objc set
-  }
-  @objc public static var isChatPresented: Swift.Bool {
-    @objc get
-  }
-  @objc public static var unreadMessagesCount: Swift.Int {
-    @objc get
-  }
-  @objc public class func setVariable(withKey key: Swift.String, value: Swift.String)
-  @objc public class func presentChat(animated: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
-  @objc public class func dismissChat(animated: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
-  @objc public class func clearSession()
-  @objc override dynamic public init()
-  @objc deinit
-}
-extension UIImage {
-  convenience public init?(color: UIKit.UIColor, size: CoreGraphics.CGSize = CGSize(width: 1, height: 1))
-}
-@objc public class LiveChatMessage : ObjectiveC.NSObject {
-  @objc final public let id: Swift.String
-  @objc final public let text: Swift.String
-  @objc final public let date: Foundation.Date
-  @objc final public let authorName: Swift.String
-  @objc final public let rawMessage: Foundation.NSDictionary
-  @objc override dynamic public init()
   @objc deinit
 }
 extension UIImageView {
@@ -95,6 +41,9 @@ extension UIImage {
   @objc public var metadata: [Swift.String : Any]?
   @objc public var identityId: Swift.String?
   @objc public class func register(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
+  @objc public class func registerForDev(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
+  @objc public class func registerForProd(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
+  @objc public class func registerForStaging(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
   @objc deinit
 }
 extension UIColor {
