@@ -43,6 +43,3 @@ extension UIImage {
   @objc public class func register(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
   @objc deinit
 }
-extension UIColor {
-  convenience public init?(hexString: Swift.String)
-}
