@@ -214,9 +214,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable metadata;
 @property (nonatomic, copy) NSString * _Nullable identityId;
 + (void)registerWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForDevWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForProdWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForStagingWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -475,9 +472,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable metadata;
 @property (nonatomic, copy) NSString * _Nullable identityId;
 + (void)registerWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForDevWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForProdWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForStagingWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -739,9 +733,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable metadata;
 @property (nonatomic, copy) NSString * _Nullable identityId;
 + (void)registerWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForDevWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForProdWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForStagingWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -1000,9 +991,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 @property (nonatomic, copy) NSDictionary<NSString *, id> * _Nullable metadata;
 @property (nonatomic, copy) NSString * _Nullable identityId;
 + (void)registerWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForDevWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForProdWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
-+ (void)registerForStagingWithClientId:(NSString * _Nonnull)clientId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
