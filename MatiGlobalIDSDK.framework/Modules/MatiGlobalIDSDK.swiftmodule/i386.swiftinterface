@@ -41,8 +41,5 @@ extension UIImage {
   @objc public var metadata: [Swift.String : Any]?
   @objc public var identityId: Swift.String?
   @objc public class func register(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
-  @objc public class func registerForDev(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
-  @objc public class func registerForProd(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
-  @objc public class func registerForStaging(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
   @objc deinit
 }
