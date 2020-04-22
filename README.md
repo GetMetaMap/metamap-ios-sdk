@@ -33,9 +33,7 @@ Make the following changes in your AppDelegate file
                      launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
           
           MFKYC.register(clientId:"{custom_token}")
-    			//or
-          MFKYC.register(clientId:"{custom_token}" identityId:"{identity_id}")
-     	    
+          
           return true
       }
       
@@ -48,8 +46,6 @@ Make the following changes in your AppDelegate file
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
         
         [MFKYC registerWithClientId:@"{custom_token}"];
-    		//or
-        [MFKYC registerWithClientId:@"{custom_token}" identityId:@"{identity_id}"];
 
         return YES;
     }
