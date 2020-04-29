@@ -223,6 +223,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 SWIFT_CLASS("_TtC15MatiGlobalIDSDK11MFKYCButton")
 @interface MFKYCButton : UIButton
 @property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, copy) NSString * _Nullable flowId;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
@@ -481,6 +482,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 SWIFT_CLASS("_TtC15MatiGlobalIDSDK11MFKYCButton")
 @interface MFKYCButton : UIButton
 @property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, copy) NSString * _Nullable flowId;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
@@ -742,6 +744,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 SWIFT_CLASS("_TtC15MatiGlobalIDSDK11MFKYCButton")
 @interface MFKYCButton : UIButton
 @property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, copy) NSString * _Nullable flowId;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
@@ -1000,6 +1003,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MFKYC * _Non
 SWIFT_CLASS("_TtC15MatiGlobalIDSDK11MFKYCButton")
 @interface MFKYCButton : UIButton
 @property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, copy) NSString * _Nullable flowId;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;

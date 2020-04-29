@@ -14,6 +14,10 @@ import UIKit
     @objc get
     @objc set
   }
+  @objc public var flowId: Swift.String? {
+    @objc get
+    @objc set
+  }
   @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc dynamic public init()
   @objc override dynamic public init(frame: CoreGraphics.CGRect)
