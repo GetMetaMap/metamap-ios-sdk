@@ -1,6 +1,6 @@
 # Mati iOS SDK documentation 
 
-![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%2011-1.png)
+![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/readme_pic.png)
 
 ## Xcode configurations
 
