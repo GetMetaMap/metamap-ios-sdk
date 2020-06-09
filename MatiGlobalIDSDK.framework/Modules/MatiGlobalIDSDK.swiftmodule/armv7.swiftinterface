@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
 // swift-module-flags: -target armv7-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MatiGlobalIDSDK
 import AVFoundation
 import CoreTelephony
@@ -9,7 +9,7 @@ import ImageIO
 import SafariServices
 import Swift
 import UIKit
-@objc public class MFKYCButton : UIKit.UIButton {
+@_inheritsConvenienceInitializers @objc public class MFKYCButton : UIKit.UIButton {
   @objc public var title: Swift.String? {
     @objc get
     @objc set
@@ -39,11 +39,15 @@ extension UIImage {
   @objc func mfKYCLoginSuccess(identityId: Swift.String)
   @objc func mfKYCLoginCancelled()
 }
-@objc public class MFKYC : ObjectiveC.NSObject {
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MFKYC : ObjectiveC.NSObject {
   @objc weak public var delegate: MatiGlobalIDSDK.MFKYCDelegate?
   @objc public static let instance: MatiGlobalIDSDK.MFKYC
-  @objc public var metadata: [Swift.String : Any]?
   @objc public var identityId: Swift.String?
+  @objc public var metadata: [Swift.String : Any]?
+  @objc public var debugMerchant: Swift.Bool {
+    @objc get
+    @objc set
+  }
   @objc public class func register(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
   @objc public class func registerForDev(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
   @objc public class func registerForProd(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
