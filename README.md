@@ -21,7 +21,7 @@ Download Mati framework from GitHub and add it to your project.
 Note: Don't miss to add framework in Embedded Binaries.
 
 
-## AppDelegate - Mati KYC Initialisation
+## AppDelegate - Mati KYC Initialization
 
 Make the following changes in your AppDelegate file 
 
