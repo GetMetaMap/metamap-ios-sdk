@@ -54,3 +54,6 @@ extension UIImage {
   @objc public class func registerForStaging(clientId: Swift.String, metadata: [Swift.String : Any]? = nil)
   @objc deinit
 }
+extension UIDevice {
+  public static let modelName: Swift.String
+}
