@@ -1,16 +1,16 @@
 PODS:
-  - Mati-Global-ID-SDK (0.0.15)
+  - Mati-Global-ID-SDK (2.8.0)
 
 DEPENDENCIES:
   - Mati-Global-ID-SDK
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - Mati-Global-ID-SDK
 
 SPEC CHECKSUMS:
-  Mati-Global-ID-SDK: b76696f10a0080d1baf596f2bbd5c6d04f90d063
+  Mati-Global-ID-SDK: 670daa67cee202a7faa4ce8e2c4bd6d93728f884
 
-PODFILE CHECKSUM: 4cad9efd9216e7f5edd7d493f0ec978198c8511a
+PODFILE CHECKSUM: 461d1042d9de42d82bf1a5da85aeafac79878b24
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
