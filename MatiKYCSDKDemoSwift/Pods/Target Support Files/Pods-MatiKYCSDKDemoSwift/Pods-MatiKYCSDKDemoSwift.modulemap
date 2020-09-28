@@ -1,0 +1,6 @@
+framework module Pods_MatiKYCSDKDemoSwift {
+  umbrella header "Pods-MatiKYCSDKDemoSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
