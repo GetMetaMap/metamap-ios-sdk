@@ -1,1 +1,0 @@
-../../../../Mati-Global-ID-SDK/MatiGlobalIDSDK.framework/Headers/MatiGlobalIDSDK-Swift.h

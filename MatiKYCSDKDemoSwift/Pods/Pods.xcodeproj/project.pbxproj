@@ -6,107 +6,157 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		CB3DA2D277B8C676DAFAA681751A98AD /* Mati-Global-ID-SDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3F4C8C8BFC974C4C3811623CFDDB4101 /* Build configuration list for PBXAggregateTarget "Mati-Global-ID-SDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "Mati-Global-ID-SDK";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		530724B4FC048FB357677B65AA2A5477 /* Pods-MatiKYCSDKDemoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC927BDA8826A1DAC976D7ADF377CC4 /* Pods-MatiKYCSDKDemoSwift-dummy.m */; };
+		8F2B859525D3D4A081EB96CDFC4F6B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C9EAB05AD96D0D0E440F42CDB04AFD62 /* Pods-MatiKYCSDKDemoSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F706C3E6E52BB4A4E8F9A90917E6A06 /* Pods-MatiKYCSDKDemoSwift-dummy.m */; };
+		E523AC9070B34D48757B7463F2463AD7 /* Pods-MatiKYCSDKDemoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 225FA3CFF93A7537C061F026FFDB6212 /* Pods-MatiKYCSDKDemoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8600BEF1E9737094FC98EB8B5074132B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB3DA2D277B8C676DAFAA681751A98AD;
+			remoteInfo = "Mati-Global-ID-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		224C7A96695D1B5AAA220826D8B81376 /* Pods-MatiKYCSDKDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatiKYCSDKDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
-		22E88D632668FFABD7CF751C4DF088FC /* Pods-MatiKYCSDKDemoSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatiKYCSDKDemoSwift-frameworks.sh"; sourceTree = "<group>"; };
-		4479EEFCF46558DA0D19A9810B4293A5 /* Pods-MatiKYCSDKDemoSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MatiKYCSDKDemoSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4A8B106FCD720A89C9AEB731AFBD1652 /* Pods-MatiKYCSDKDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatiKYCSDKDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		504429083AD6B1257495944539A1BED2 /* MatiGlobalIDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MatiGlobalIDSDK.framework; sourceTree = "<group>"; };
-		5674AD9DBD56ABAF5552EAEDAFC79BAB /* Pods-MatiKYCSDKDemoSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatiKYCSDKDemoSwift-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93CD12DB266D6950227FFF65A0B2FB9E /* MatiGlobalIDSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MatiGlobalIDSDK-Swift.h"; path = "MatiGlobalIDSDK.framework/Headers/MatiGlobalIDSDK-Swift.h"; sourceTree = "<group>"; };
-		9DA4EB21457F43C17C7FE5BC873B3ADB /* libPods-MatiKYCSDKDemoSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MatiKYCSDKDemoSwift.a"; path = "libPods-MatiKYCSDKDemoSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DAC927BDA8826A1DAC976D7ADF377CC4 /* Pods-MatiKYCSDKDemoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MatiKYCSDKDemoSwift-dummy.m"; sourceTree = "<group>"; };
-		ECB916A3BD26073ECEE11B74148ACAEF /* MatiGlobalIDSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatiGlobalIDSDK.h; path = MatiGlobalIDSDK.framework/Headers/MatiGlobalIDSDK.h; sourceTree = "<group>"; };
-		EDC179176A32CD2C9BC912CE251E173D /* Pods-MatiKYCSDKDemoSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MatiKYCSDKDemoSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		021A78F9337EAD5796DA94A5F6A79C49 /* Mati-Global-ID-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Mati-Global-ID-SDK.xcconfig"; sourceTree = "<group>"; };
+		1CC18B9BC19B11067ACDF00FB717CA67 /* MatiGlobalIDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MatiGlobalIDSDK.framework; sourceTree = "<group>"; };
+		225FA3CFF93A7537C061F026FFDB6212 /* Pods-MatiKYCSDKDemoSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MatiKYCSDKDemoSwift-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6F4A0EB820800C70688B5B3F0069EDA3 /* MatiGlobalIDSDK-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MatiGlobalIDSDK-Swift.h"; path = "MatiGlobalIDSDK.framework/Headers/MatiGlobalIDSDK-Swift.h"; sourceTree = "<group>"; };
+		79C95B6EECC4A0166F59D934AF61ACC7 /* Pods-MatiKYCSDKDemoSwift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatiKYCSDKDemoSwift-frameworks.sh"; sourceTree = "<group>"; };
+		7F706C3E6E52BB4A4E8F9A90917E6A06 /* Pods-MatiKYCSDKDemoSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MatiKYCSDKDemoSwift-dummy.m"; sourceTree = "<group>"; };
+		984A2EC1D5C3912B8A968FA305AAED11 /* Pods-MatiKYCSDKDemoSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MatiKYCSDKDemoSwift-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F91793157C18D24AF351E6231828164 /* Pods_MatiKYCSDKDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MatiKYCSDKDemoSwift.framework; path = "Pods-MatiKYCSDKDemoSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC518B35AC0CB584687DC7766325F8E6 /* Pods-MatiKYCSDKDemoSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MatiKYCSDKDemoSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7333047AEAFBFB39660574BCA28BFEC /* Pods-MatiKYCSDKDemoSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatiKYCSDKDemoSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		C035937A9985A08FEA9E988D9FCC7C4F /* Pods-MatiKYCSDKDemoSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MatiKYCSDKDemoSwift.modulemap"; sourceTree = "<group>"; };
+		C090C35C1C96670BFF5B84EBC4D6CAED /* MatiGlobalIDSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MatiGlobalIDSDK.h; path = MatiGlobalIDSDK.framework/Headers/MatiGlobalIDSDK.h; sourceTree = "<group>"; };
+		EAB3D11912DFA731E65F377357F48DE9 /* Pods-MatiKYCSDKDemoSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MatiKYCSDKDemoSwift-Info.plist"; sourceTree = "<group>"; };
+		FAF2B29EB1DD8D063FD20DF4AE9F13FF /* Pods-MatiKYCSDKDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatiKYCSDKDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A979E7F657D5BDD5F504E88AFA71801A /* Frameworks */ = {
+		1BF630C76C010C1BD424821EF05AEFBC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F2B859525D3D4A081EB96CDFC4F6B77 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BC6AD8BCC11FDFF7E736C7AFB2BFDC2 /* Pods-MatiKYCSDKDemoSwift */ = {
+		33BFC0FBC60006B54850771D4E22E4C4 /* Pods-MatiKYCSDKDemoSwift */ = {
 			isa = PBXGroup;
 			children = (
-				4479EEFCF46558DA0D19A9810B4293A5 /* Pods-MatiKYCSDKDemoSwift-acknowledgements.markdown */,
-				EDC179176A32CD2C9BC912CE251E173D /* Pods-MatiKYCSDKDemoSwift-acknowledgements.plist */,
-				DAC927BDA8826A1DAC976D7ADF377CC4 /* Pods-MatiKYCSDKDemoSwift-dummy.m */,
-				22E88D632668FFABD7CF751C4DF088FC /* Pods-MatiKYCSDKDemoSwift-frameworks.sh */,
-				5674AD9DBD56ABAF5552EAEDAFC79BAB /* Pods-MatiKYCSDKDemoSwift-resources.sh */,
-				4A8B106FCD720A89C9AEB731AFBD1652 /* Pods-MatiKYCSDKDemoSwift.debug.xcconfig */,
-				224C7A96695D1B5AAA220826D8B81376 /* Pods-MatiKYCSDKDemoSwift.release.xcconfig */,
+				C035937A9985A08FEA9E988D9FCC7C4F /* Pods-MatiKYCSDKDemoSwift.modulemap */,
+				AC518B35AC0CB584687DC7766325F8E6 /* Pods-MatiKYCSDKDemoSwift-acknowledgements.markdown */,
+				984A2EC1D5C3912B8A968FA305AAED11 /* Pods-MatiKYCSDKDemoSwift-acknowledgements.plist */,
+				7F706C3E6E52BB4A4E8F9A90917E6A06 /* Pods-MatiKYCSDKDemoSwift-dummy.m */,
+				79C95B6EECC4A0166F59D934AF61ACC7 /* Pods-MatiKYCSDKDemoSwift-frameworks.sh */,
+				EAB3D11912DFA731E65F377357F48DE9 /* Pods-MatiKYCSDKDemoSwift-Info.plist */,
+				225FA3CFF93A7537C061F026FFDB6212 /* Pods-MatiKYCSDKDemoSwift-umbrella.h */,
+				B7333047AEAFBFB39660574BCA28BFEC /* Pods-MatiKYCSDKDemoSwift.debug.xcconfig */,
+				FAF2B29EB1DD8D063FD20DF4AE9F13FF /* Pods-MatiKYCSDKDemoSwift.release.xcconfig */,
 			);
 			name = "Pods-MatiKYCSDKDemoSwift";
 			path = "Target Support Files/Pods-MatiKYCSDKDemoSwift";
 			sourceTree = "<group>";
 		};
-		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+		366339CC348C61010A2C1049A6C9B23B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1CC18B9BC19B11067ACDF00FB717CA67 /* MatiGlobalIDSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2CECDD278F5E5F00DEDBCD475ACD406F /* Frameworks */ = {
+		3DDDCA0D34EBD2A9D1E1CB0A69C3A0D8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				504429083AD6B1257495944539A1BED2 /* MatiGlobalIDSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		57BD010A217263850D49B3786373CE38 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C6BA5E071F3E0EECBDB1D1E8CBD4D118 /* Mati-Global-ID-SDK */,
+				FDB8359411BB043236A260E5F648C23D /* Mati-Global-ID-SDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7B13318D61DA38A4DDBCE90FD2959D9A /* Products */ = {
+		8534752D63C84A0BD526965ECC24B8A3 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9DA4EB21457F43C17C7FE5BC873B3ADB /* libPods-MatiKYCSDKDemoSwift.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				57BD010A217263850D49B3786373CE38 /* Pods */,
-				7B13318D61DA38A4DDBCE90FD2959D9A /* Products */,
-				A3C8A6523BC433E5923116625F84844D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		A3C8A6523BC433E5923116625F84844D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0BC6AD8BCC11FDFF7E736C7AFB2BFDC2 /* Pods-MatiKYCSDKDemoSwift */,
+				33BFC0FBC60006B54850771D4E22E4C4 /* Pods-MatiKYCSDKDemoSwift */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C6BA5E071F3E0EECBDB1D1E8CBD4D118 /* Mati-Global-ID-SDK */ = {
+		910B724C8EC7FACA442821450013FED9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ECB916A3BD26073ECEE11B74148ACAEF /* MatiGlobalIDSDK.h */,
-				93CD12DB266D6950227FFF65A0B2FB9E /* MatiGlobalIDSDK-Swift.h */,
-				2CECDD278F5E5F00DEDBCD475ACD406F /* Frameworks */,
+				9F91793157C18D24AF351E6231828164 /* Pods_MatiKYCSDKDemoSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A11017B14BD748957106DD770DEB7113 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				021A78F9337EAD5796DA94A5F6A79C49 /* Mati-Global-ID-SDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Mati-Global-ID-SDK";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				3DDDCA0D34EBD2A9D1E1CB0A69C3A0D8 /* Pods */,
+				910B724C8EC7FACA442821450013FED9 /* Products */,
+				8534752D63C84A0BD526965ECC24B8A3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDB8359411BB043236A260E5F648C23D /* Mati-Global-ID-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				C090C35C1C96670BFF5B84EBC4D6CAED /* MatiGlobalIDSDK.h */,
+				6F4A0EB820800C70688B5B3F0069EDA3 /* MatiGlobalIDSDK-Swift.h */,
+				366339CC348C61010A2C1049A6C9B23B /* Frameworks */,
+				A11017B14BD748957106DD770DEB7113 /* Support Files */,
 			);
 			name = "Mati-Global-ID-SDK";
 			path = "Mati-Global-ID-SDK";
@@ -114,84 +164,135 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		EBE944161CB2571BD8044B3B6F26740D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E523AC9070B34D48757B7463F2463AD7 /* Pods-MatiKYCSDKDemoSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		7A8F59FF81A499ECC8E4A1F59DE1B373 /* Pods-MatiKYCSDKDemoSwift */ = {
+		0133E80A2495C82E58246F7504037A67 /* Pods-MatiKYCSDKDemoSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C903949661028A76DCACD0A4581C18C0 /* Build configuration list for PBXNativeTarget "Pods-MatiKYCSDKDemoSwift" */;
+			buildConfigurationList = EA787E947235C98506F97623917F0D57 /* Build configuration list for PBXNativeTarget "Pods-MatiKYCSDKDemoSwift" */;
 			buildPhases = (
-				781CC6837E663B72626205AEBB4F16AF /* Sources */,
-				A979E7F657D5BDD5F504E88AFA71801A /* Frameworks */,
+				EBE944161CB2571BD8044B3B6F26740D /* Headers */,
+				F09FCE85864193A09E837C35CAB36D3D /* Sources */,
+				1BF630C76C010C1BD424821EF05AEFBC /* Frameworks */,
+				0F34E3A1FB190A155667201F1F890E70 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				69AD4FEB0294C3353CAA5FA16A9F04A4 /* PBXTargetDependency */,
 			);
 			name = "Pods-MatiKYCSDKDemoSwift";
 			productName = "Pods-MatiKYCSDKDemoSwift";
-			productReference = 9DA4EB21457F43C17C7FE5BC873B3ADB /* libPods-MatiKYCSDKDemoSwift.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 9F91793157C18D24AF351E6231828164 /* Pods_MatiKYCSDKDemoSwift.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7B13318D61DA38A4DDBCE90FD2959D9A /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 910B724C8EC7FACA442821450013FED9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A8F59FF81A499ECC8E4A1F59DE1B373 /* Pods-MatiKYCSDKDemoSwift */,
+				CB3DA2D277B8C676DAFAA681751A98AD /* Mati-Global-ID-SDK */,
+				0133E80A2495C82E58246F7504037A67 /* Pods-MatiKYCSDKDemoSwift */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		0F34E3A1FB190A155667201F1F890E70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		781CC6837E663B72626205AEBB4F16AF /* Sources */ = {
+		F09FCE85864193A09E837C35CAB36D3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				530724B4FC048FB357677B65AA2A5477 /* Pods-MatiKYCSDKDemoSwift-dummy.m in Sources */,
+				C9EAB05AD96D0D0E440F42CDB04AFD62 /* Pods-MatiKYCSDKDemoSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		69AD4FEB0294C3353CAA5FA16A9F04A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Mati-Global-ID-SDK";
+			target = CB3DA2D277B8C676DAFAA681751A98AD /* Mati-Global-ID-SDK */;
+			targetProxy = 8600BEF1E9737094FC98EB8B5074132B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		014EE9A05EDE70ECDBDFA18393BADD81 /* Debug */ = {
+		27BFAB9443C71E7CE7AF9C64AF47A50D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A8B106FCD720A89C9AEB731AFBD1652 /* Pods-MatiKYCSDKDemoSwift.debug.xcconfig */;
+			baseConfigurationReference = B7333047AEAFBFB39660574BCA28BFEC /* Pods-MatiKYCSDKDemoSwift.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		063198AB09B9CDB3A695432FC17AD8CA /* Release */ = {
+		32C2FB3BD9A2402E2347CE50F405010A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -223,8 +324,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -243,36 +342,33 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		875045C466F39DCEA8EF76ADBD0DB0BA /* Release */ = {
+		3D0B95293C50292A971A5BE85B8BD2C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 224C7A96695D1B5AAA220826D8B81376 /* Pods-MatiKYCSDKDemoSwift.release.xcconfig */;
+			baseConfigurationReference = 021A78F9337EAD5796DA94A5F6A79C49 /* Mati-Global-ID-SDK.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		87EAC867385563488A6D8F1E74AC46B4 /* Debug */ = {
+		65E8432CA1AC1817F746BE6B5C4F067E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,8 +400,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -326,37 +420,105 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+		C7D4E91ABC0B16D68A2B0BA973C5D104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAF2B29EB1DD8D063FD20DF4AE9F13FF /* Pods-MatiKYCSDKDemoSwift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DE107BABED165A59181C180B209AF68D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 021A78F9337EAD5796DA94A5F6A79C49 /* Mati-Global-ID-SDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		3F4C8C8BFC974C4C3811623CFDDB4101 /* Build configuration list for PBXAggregateTarget "Mati-Global-ID-SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87EAC867385563488A6D8F1E74AC46B4 /* Debug */,
-				063198AB09B9CDB3A695432FC17AD8CA /* Release */,
+				3D0B95293C50292A971A5BE85B8BD2C9 /* Debug */,
+				DE107BABED165A59181C180B209AF68D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C903949661028A76DCACD0A4581C18C0 /* Build configuration list for PBXNativeTarget "Pods-MatiKYCSDKDemoSwift" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				014EE9A05EDE70ECDBDFA18393BADD81 /* Debug */,
-				875045C466F39DCEA8EF76ADBD0DB0BA /* Release */,
+				65E8432CA1AC1817F746BE6B5C4F067E /* Debug */,
+				32C2FB3BD9A2402E2347CE50F405010A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA787E947235C98506F97623917F0D57 /* Build configuration list for PBXNativeTarget "Pods-MatiKYCSDKDemoSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BFAB9443C71E7CE7AF9C64AF47A50D /* Debug */,
+				C7D4E91ABC0B16D68A2B0BA973C5D104 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

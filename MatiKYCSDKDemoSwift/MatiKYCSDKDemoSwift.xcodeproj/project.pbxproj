@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25EBED5BB69F53C0054A5088 /* libPods-MatiKYCSDKDemoSwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F2251D0B1A1F4755EDA2158B /* libPods-MatiKYCSDKDemoSwift.a */; };
 		3371A1C5224B8A7800729456 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3371A1C4224B8A7800729456 /* AppDelegate.swift */; };
 		3371A1C7224B8A7800729456 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3371A1C6224B8A7800729456 /* ViewController.swift */; };
 		3371A1CA224B8A7800729456 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3371A1C8224B8A7800729456 /* Main.storyboard */; };
 		3371A1CC224B8A7A00729456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3371A1CB224B8A7A00729456 /* Assets.xcassets */; };
 		3371A1CF224B8A7A00729456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3371A1CD224B8A7A00729456 /* LaunchScreen.storyboard */; };
+		F217A5683255066F31EB17F0 /* Pods_MatiKYCSDKDemoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE9C4640276751AB0115FF5 /* Pods_MatiKYCSDKDemoSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		3371A1CB224B8A7A00729456 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3371A1CE224B8A7A00729456 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3371A1D0224B8A7A00729456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE9C4640276751AB0115FF5 /* Pods_MatiKYCSDKDemoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatiKYCSDKDemoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8239A2CF1C52AA3A924C4A30 /* Pods-MatiKYCSDKDemoSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatiKYCSDKDemoSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift.release.xcconfig"; sourceTree = "<group>"; };
-		F2251D0B1A1F4755EDA2158B /* libPods-MatiKYCSDKDemoSwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MatiKYCSDKDemoSwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25EBED5BB69F53C0054A5088 /* libPods-MatiKYCSDKDemoSwift.a in Frameworks */,
+				F217A5683255066F31EB17F0 /* Pods_MatiKYCSDKDemoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 		9113B2CCB63351ED5A7DAD27 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F2251D0B1A1F4755EDA2158B /* libPods-MatiKYCSDKDemoSwift.a */,
+				5BE9C4640276751AB0115FF5 /* Pods_MatiKYCSDKDemoSwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,17 +180,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift-frameworks.sh",
-				"${PODS_ROOT}/Mati-Global-ID-SDK/MatiGlobalIDSDK.framework",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MatiGlobalIDSDK.framework",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MatiKYCSDKDemoSwift/Pods-MatiKYCSDKDemoSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
