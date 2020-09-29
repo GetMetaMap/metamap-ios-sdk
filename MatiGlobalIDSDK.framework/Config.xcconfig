@@ -1,0 +1,11 @@
+//
+//  Config.xcconfig
+//  MatiGlobalIDSDK
+//
+//  Created by Andrey Posnov on 29.09.2020.
+//  Copyright © 2020 Mati. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
