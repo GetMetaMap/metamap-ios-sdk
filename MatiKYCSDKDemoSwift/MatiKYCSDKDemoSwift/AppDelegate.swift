@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         // You can put your client id here instead
-        MFKYC.register(clientId:"5c7f82b7407f0e21e74ac042")
+        MFKYC.register(clientId:"5c7f82b7407f0e21e74ac043")
         
         
         return true
