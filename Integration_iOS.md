@@ -1,6 +1,6 @@
 # Mati iOS SDK documentation 
 
-![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/Group%2011-1.png)
+![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/readme_pic.png)
 
 ## Xcode configurations
 
@@ -21,7 +21,7 @@ Download Mati framework from GitHub and add it to your project.
 Note: Don't miss to add framework in Embedded Binaries.
 
 
-## AppDelegate - Mati KYC Initialisation
+## AppDelegate - Mati KYC Initialization
 
 Make the following changes in your AppDelegate file 
 
@@ -33,7 +33,7 @@ Make the following changes in your AppDelegate file
                      launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
           
           MFKYC.register(clientId:"{custom_token}")
-
+          
           return true
       }
       
@@ -74,6 +74,29 @@ Add using Swift or Objective-C
     matiButton.title = @"Custom Title";
     [self.view addSubview:matiButton];
     
+## Mati KYC Button Multiflow Support
+
+If you want to work with specific flow, please add "flowId" parameter.
+Add using Swift or Objective-C 
+
+### Swift
+    
+    MFKYC.instance.metadata = ["key": "value"]
+    let matiButton = MFKYCButton()
+    matiButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height
+    matiButton.title = "Custom Title"
+    matiButton.flowId = "SPECIFIC_FLOW_ID" // like "7e8zf446aa5b5e001a7769d0"
+    view.addSubview(matiButton)
+    
+### Objective-C
+    
+    [MFKYC instance].metadata = @{"key": "value"};
+    MFKYCButton *matiButton =[[MFKYCButton alloc] init];
+    matiButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
+    matiButton.title = @"Custom Title";
+    matiButton.flowId = @"SPECIFIC_FLOW_ID"; // like "7e8zf446aa5b5e001a7769d0"
+    [self.view addSubview:matiButton];
+    
 ## Mati KYC Delegate
 
 Use the delegate functions below in order to handle the success / failure of each verification.
@@ -104,11 +127,13 @@ Use the delegate functions below in order to handle the success / failure of eac
         NSLog(@"Mati Login Failed");
     }
     
-### Min Requirements 
-    iOS 9.0 
-    Xcode 10.2
-    Swift 5.0
-    For Xcode 10.1 and below, use [Version 2.3.13](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.3.13)
+### Requirements 
+   iOS 11.4  
+   Xcode 12.0  
+   Swift 5.0  
+   For Xcode 10 and below, use [Version 2.3.13](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.3.13)  
+   For Xcode 11 and below, use [Version 2.8.0](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.8.0)  
+
 
 ## Mati iOS SDK integration video    
 
