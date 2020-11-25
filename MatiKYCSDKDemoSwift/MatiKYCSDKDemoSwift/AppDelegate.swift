@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         MFKYC.register(clientId:"5c7f82b7407f0e21e74ac043")
         
         
+        
         return true
     }
 

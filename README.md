@@ -131,6 +131,7 @@ Use the delegate functions below in order to handle the success / failure of eac
    iOS 11.4  
    Xcode 12.0  
    Swift 5.0  
+   
    For Xcode 10 and below, use [Version 2.3.13](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.3.13)  
    For Xcode 11 and below, use [Version 2.8.0](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.8.0)  
 
