@@ -2,11 +2,11 @@
 // swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
 // swift-module-flags: -target arm64-apple-ios11.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MatiGlobalIDSDK
 import AVFoundation
-import AVKit
 import CoreTelephony
 import Foundation
 import ImageIO
 @_exported import MatiGlobalIDSDK
+import MobileCoreServices
 import SafariServices
 import Swift
 import UIKit
