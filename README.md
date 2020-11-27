@@ -127,6 +127,22 @@ Use the delegate functions below in order to handle the success / failure of eac
         NSLog(@"Mati Login Failed");
     }
     
+    
+
+### Info.plist – IMPORTANT add this descriptions to your project
+The following permissions are needed to capture video and access the photo gallery.
+
++ For voiceliveness feature please add NSMicrophoneUsageDescription
+
+```
+<key>NSCameraUsageDescription</key>
+<string>Mati needs access to your Camera</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Mati needs access to your media library</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>Mati needs access to your Microphone</string>
+```
+    
 ### Requirements 
    iOS 11.4  
    Xcode 12.0  
