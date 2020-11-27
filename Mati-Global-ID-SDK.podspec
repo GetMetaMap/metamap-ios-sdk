@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
 s.name                = "Mati-Global-ID-SDK"
-s.version             = "2.9.0"
+s.version             = "2.9.1"
 s.summary             = "Use Mati for login"
 s.description         = "User Mati for login"
 s.homepage            = "https://github.com/MatiFace/mati-global-id-sdk"
