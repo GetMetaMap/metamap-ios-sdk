@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     }
     
     private func setupMatiButton() {
+        // don't forget register your client id in appdelegate or viewcontroller (more prefer if you use several flow/buttons)
+        MFKYC.register(clientId:"5cz41e3c401ddc6001bec5557")
+        
         //init button
         let matiButton = MFKYCButton()
        
