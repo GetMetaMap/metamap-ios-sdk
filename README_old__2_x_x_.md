@@ -1,0 +1,157 @@
+# Mati iOS SDK documentation 
+
+![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/readme_pic.png)
+
+## Xcode configurations
+
+### Install Mati SDK using CocoaPods (recommended)
+
+Install Mati (your App pod file)
+  
+    pod 'Mati-Global-ID-SDK'
+    
+Update your pods from the terminal
+
+    pod install
+
+### If you're not using CocoaPods (not recommended)
+
+Download Mati framework from GitHub and add it to your project.
+
+Note: Don't miss to add framework in Embedded Binaries.
+
+
+## AppDelegate - Mati KYC Initialization
+
+Make the following changes in your AppDelegate file 
+
+### Swift
+    
+    import MatiGlobalIDSDK
+    
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions
+                     launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+          
+          MFKYC.register(clientId:"{custom_token}")
+          
+          return true
+      }
+      
+      
+      
+### Objective-C
+    
+    #import <MatiGlobalIDSDK/MatiGlobalIDSDK.h>
+    
+    - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+        
+        [MFKYC registerWithClientId:@"{custom_token}"];
+
+        return YES;
+    }
+
+## Mati KYC Button Placement (UI)
+
+You now need to place the Mati KYC button inside your App. You have 2 options for that (interface builder vs. code):
+
+You can include `MFKYCButton` into your view using XCode interface builder
+Or
+Add using Swift or Objective-C 
+
+### Swift
+    
+    MFKYC.instance.metadata = ["key": "value"]
+    let matiButton = MFKYCButton()
+    matiButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height
+    matiButton.title = "Custom Title"
+    view.addSubview(matiButton)
+    
+### Objective-C
+    
+    [MFKYC instance].metadata = @{"key": "value"};
+    MFKYCButton *matiButton =[[MFKYCButton alloc] init];
+    matiButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
+    matiButton.title = @"Custom Title";
+    [self.view addSubview:matiButton];
+    
+## Mati KYC Button Multiflow Support
+
+If you want to work with specific flow, please add "flowId" parameter.
+Add using Swift or Objective-C 
+
+### Swift
+    
+    MFKYC.instance.metadata = ["key": "value"]
+    let matiButton = MFKYCButton()
+    matiButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height
+    matiButton.title = "Custom Title"
+    matiButton.flowId = "SPECIFIC_FLOW_ID" // like "7e8zf446aa5b5e001a7769d0"
+    view.addSubview(matiButton)
+    
+### Objective-C
+    
+    [MFKYC instance].metadata = @{"key": "value"};
+    MFKYCButton *matiButton =[[MFKYCButton alloc] init];
+    matiButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
+    matiButton.title = @"Custom Title";
+    matiButton.flowId = @"SPECIFIC_FLOW_ID"; // like "7e8zf446aa5b5e001a7769d0"
+    [self.view addSubview:matiButton];
+    
+## Mati KYC Delegate
+
+Use the delegate functions below in order to handle the success / failure of each verification.
+
+### Swift
+
+    //Assign the controller of your choice to be the Mati button delegate
+    MFKYC.instance.delegate = self
+
+    func mfKYCLoginSuccess(identityId: String) {
+      print("Mati Login Success")
+    }
+    
+    func mfKYCLoginCancelled() {
+      print("Mati Login Failed")
+    }
+    
+### Objective-C
+    
+    //Assign the controller of your choice to be the Mati button delegate
+    [MFKYC instance].delegate = self;
+
+    - (void)mfKYCLoginSuccessWithIdentityId:(NSString *)identityId {
+        NSLog(@"Mati Login Success");
+    }
+    
+    - (void)mfKYCLoginCancelled {
+        NSLog(@"Mati Login Failed");
+    }
+    
+    
+
+### Info.plist – IMPORTANT add this descriptions to your project
+The following permissions are needed to capture video and access the photo gallery.
+
++ For voiceliveness feature please add NSMicrophoneUsageDescription
+
+```
+<key>NSCameraUsageDescription</key>
+<string>Mati needs access to your Camera</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Mati needs access to your media library</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>Mati needs access to your Microphone</string>
+```
+    
+### Requirements 
+   iOS 11.4  
+   Xcode 12.0  
+   Swift 5.0  
+   
+   For Xcode 10 and below, use [Version 2.3.13](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.3.13)  
+   For Xcode 11 and below, use [Version 2.8.0](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.8.0)  
+
+
+## Mati iOS SDK integration video    
+
+[![Mati SDK integration demo video](https://img.youtube.com/vi/sPS7_QoFhpY/0.jpg)](https://www.youtube.com/watch?v=sPS7_QoFhpY)
