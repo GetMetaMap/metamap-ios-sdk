@@ -1030,6 +1030,9 @@ public enum SocketClientEvent : Swift.String {
     get
   }
 }
+extension UIViewController {
+  public func hideKeyboardWhenTappedAround()
+}
 public protocol SocketParsable : AnyObject {
   func parseBinaryData(_ data: Foundation.Data) -> MatiSDK.SocketPacket?
   func parseSocketMessage(_ message: Swift.String) -> MatiSDK.SocketPacket?
