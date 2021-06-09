@@ -144,3 +144,26 @@ The following permissions are needed to capture video, access the photo gallery 
 
    For Mati SDK below 3.x.x please use this documentation https://github.com/MatiFace/mati-global-id-sdk/blob/master/README_old__2_x_x_.md
 
+
+## SPECIFIC PARAMETERS
+
+You can use metadata to set specific parameters
+
+##### Fixed selected language and hiding the language selection. (to make it permanent)
+
+key: fixedLanguage
+value: locale code of language
+
+###### example
+
+for Spain (it can be any country, if we doesnt support language yet it will be setted to English)
+
+##### fixedLanguage : es
+
+###### full example
+```swift
+metadata: ["fixedLanguage": "es"]
+```
+    
+
+
