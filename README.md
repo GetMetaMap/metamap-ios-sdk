@@ -37,55 +37,58 @@ You now need to place the Mati button inside your App.
 Add using Swift or Objective-C 
 
 ### Swift
-    
-    import UIKit
-	import MatiSDK
 
-	class ViewController: UIViewController {
+```swift
+import UIKit
+import MatiSDK
+
+class ViewController: UIViewController {
     
-      override func viewDidLoad() {
-          super.viewDidLoad()
-          self.setupMatiButton()
-      }
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		self.setupMatiButton()
+	}
     
-      private func setupMatiButton() {
+    private func setupMatiButton() {
+
+      //init button
+      let matiButton = MatiButton()
+
+      //add button action
+      matiButton.addTarget(self, action: #selector(self.matiButtonAction), for: .touchUpInside)
+
+      //set view of button
+      matiButton.frame = CGRect(x: 20, y: self.view.frame.size.height/2 - 50, width: view.frame.size.width - 40, height: 50)
+
+      //add button to yours view
+      view.addSubview(matiButton)
+
+      //set delegate to get result
+      MatiButtonResult.shared.delegate = self
       
-          //init button
-          let matiButton = MatiButton()
-
-            //add button action
-        matiButton.addTarget(self, action: #selector(self.matiButtonAction), for: .touchUpInside)
-          
-          //set view of button
-          matiButton.frame = CGRect(x: 20, y: self.view.frame.size.height/2 - 50, width: view.frame.size.width - 40, height: 50)
-
-          //add button to yours view
-          view.addSubview(matiButton)
-
-          //set delegate to get result
-          MatiButtonResult.shared.delegate = self
-      }
-
-	
- @objc private func matiButtonAction() {
-        //set params to showMatiFlow
-        MatiSDK.shared.showMatiFlow(clientId: "YOUR_CLIENT_ID",
-                                    flowId: "YOUR_FLOW_ID",
-                                    metadata: ["key1": "value1"])
     }
+  
+	@objc private func matiButtonAction() {
+		//set params to showMatiFlow
+		MatiSDK.shared.showMatiFlow(clientId: "YOUR_CLIENT_ID",
+									flowId: "YOUR_FLOW_ID",
+									metadata: ["key1": "value1"])
+	}
+}
+
+//MARK: MatiButtonResultDelegate
+extension ViewController: MatiButtonResultDelegate {
+    
+	func verificationSuccess(identityId: String) {
+		print("Mati Verification Success \(identityId)")
 	}
 
-    //MARK: MatiButtonResultDelegate
-    extension ViewController: MatiButtonResultDelegate {
-        func verificationSuccess(identityId: String) {
-            print("Mati Verification Success \(identityId)")
-        }
-
-        func verificationCancelled() {
-            print("Mati Verification Cancelled")
-        }
-    }
-    
+	func verificationCancelled() {
+		print("Mati Verification Cancelled")
+	}
+}
+```
+   
 ### Objective-C
     
     #import "ViewController.h"
@@ -105,8 +108,8 @@ Add using Swift or Objective-C
           //init button
           self.matiButton = [[MatiButton alloc] init];
           
-          //set params to your button
-          [self.matiButton setParamsWithClientId:@"YOUR_CLIENT_ID" flowId:@"YOUR_FLOW_ID" metadata:@{@"key":@"value"}];
+          //add action to yours button
+            [self.matiButton addTarget:self action:@selector(matiButtonAction:) forControlEvents:UIControlEventTouchUpInside];
           
           //set view of button
           self.matiButton.frame = CGRectMake(20, self.view.frame.size.height/2 - 25, self.view.frame.size.width - 40, 50);
@@ -118,10 +121,11 @@ Add using Swift or Objective-C
 		  //set delegate to get result
           [MatiButtonResult shared].delegate = self;
       }
-
-      - (IBAction)closeButtonAction:(id)sender {
-          [self dismissViewControllerAnimated:true completion:nil];
-      }
+      
+      //add showMatiFlow function with YOURS parameters
+      -(void)matiButtonAction:(UIButton *) sender{
+      	[MatiSDK.shared showMatiFlowWithClientId:@"YOUR_CLIENT_ID" flowId:@"YOUR_FLOW_ID"  metadata:@{@"key":@"value"}];
+	}
 
     #pragma mark - MatiButtonResultDelegate
 
@@ -176,6 +180,3 @@ for Spain (it can be any country, if we doesnt support language yet it will be s
 ```swift
 metadata: ["fixedLanguage": "es"]
 ```
-    
-
-
