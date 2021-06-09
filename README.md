@@ -166,13 +166,13 @@ The following permissions are needed to capture video, access the photo gallery 
 ## Button
 Please dont forget init button and add action ass we describe above
 
-# Title of button
+### Title of button
 matiButton.title = "Verify me"
 
-# Color of title
+### Color of title
 matiButton.textColor = .white
 
-# Color of button
+### Color of button
 matiButton.buttonColor = .black
 
 ## Metadata for settings
