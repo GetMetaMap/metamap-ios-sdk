@@ -149,10 +149,17 @@ public class WSEngine : MatiSDK.Engine, MatiSDK.TransportEventClient, MatiSDK.Fr
     @objc get
     @objc set
   }
+  @objc public var buttonColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
+  @objc public var textColor: UIKit.UIColor? {
+    @objc get
+    @objc set
+  }
   @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc dynamic public init()
   @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc public func setParams(clientId: Swift.String, flowId: Swift.String?, metadata: [Swift.String : Any]? = nil)
   @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
     @objc get
   }
@@ -556,6 +563,11 @@ extension SocketEngine {
 }
 extension SocketEngine {
   public func didReceive(event: MatiSDK.WebSocketEvent, client _: MatiSDK.WebSocket)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MatiSDK : ObjectiveC.NSObject {
+  @objc public static let shared: MatiSDK.MatiSDK
+  public func showMatiFlow(clientId: Swift.String, flowId: Swift.String?, metadata: [Swift.String : Any]? = nil)
+  @objc deinit
 }
 public enum SocketIOVersion : Swift.Int {
   case two

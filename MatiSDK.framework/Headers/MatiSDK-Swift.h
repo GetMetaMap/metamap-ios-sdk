@@ -220,15 +220,17 @@ SWIFT_CLASS("_TtC7MatiSDK19FoundationTransport")
 @end
 
 @class NSString;
+@class UIColor;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7MatiSDK10MatiButton")
 @interface MatiButton : UIButton
 @property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, strong) UIColor * _Nullable buttonColor;
+@property (nonatomic, strong) UIColor * _Nullable textColor;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)setParamsWithClientId:(NSString * _Nonnull)clientId flowId:(NSString * _Nullable)flowId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (void)layoutSubviews;
 @end
@@ -249,6 +251,15 @@ SWIFT_PROTOCOL("_TtP7MatiSDK24MatiButtonResultDelegate_")
 @protocol MatiButtonResultDelegate
 - (void)verificationSuccessWithIdentityId:(NSString * _Nonnull)identityId;
 - (void)verificationCancelled;
+@end
+
+
+SWIFT_CLASS("_TtC7MatiSDK7MatiSDK")
+@interface MatiSDK : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MatiSDK * _Nonnull shared;)
++ (MatiSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 
@@ -778,15 +789,17 @@ SWIFT_CLASS("_TtC7MatiSDK19FoundationTransport")
 @end
 
 @class NSString;
+@class UIColor;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC7MatiSDK10MatiButton")
 @interface MatiButton : UIButton
 @property (nonatomic, copy) NSString * _Nullable title;
+@property (nonatomic, strong) UIColor * _Nullable buttonColor;
+@property (nonatomic, strong) UIColor * _Nullable textColor;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (void)setParamsWithClientId:(NSString * _Nonnull)clientId flowId:(NSString * _Nullable)flowId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 @property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (void)layoutSubviews;
 @end
@@ -807,6 +820,15 @@ SWIFT_PROTOCOL("_TtP7MatiSDK24MatiButtonResultDelegate_")
 @protocol MatiButtonResultDelegate
 - (void)verificationSuccessWithIdentityId:(NSString * _Nonnull)identityId;
 - (void)verificationCancelled;
+@end
+
+
+SWIFT_CLASS("_TtC7MatiSDK7MatiSDK")
+@interface MatiSDK : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MatiSDK * _Nonnull shared;)
++ (MatiSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
 

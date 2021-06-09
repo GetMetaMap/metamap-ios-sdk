@@ -26,10 +26,14 @@ Note: Don't miss to add framework in Embedded Binaries.
 
 ## Example
 
-You now need to place the Mati KYC button inside your App. You have 2 options for that (interface builder vs. code):
+Please take a look at example
 
-You can include `MatiButton` into your view using XCode interface builder
-Or
+https://github.com/GetMati/mati-mobile-examples/tree/main/MatiSDKDemoSwift
+
+
+## Implemenatation
+You now need to place the Mati button inside your App. 
+
 Add using Swift or Objective-C 
 
 ### Swift
@@ -49,8 +53,8 @@ Add using Swift or Objective-C
           //init button
           let matiButton = MatiButton()
 
-          //set params to your button
-          matiButton.setParams(clientId: "YOUR_CLIENT_ID", flowId: "YOUR_FLOW_ID", metadata: ["key": "value"])
+            //add button action
+        matiButton.addTarget(self, action: #selector(self.matiButtonAction), for: .touchUpInside)
           
           //set view of button
           matiButton.frame = CGRect(x: 20, y: self.view.frame.size.height/2 - 50, width: view.frame.size.width - 40, height: 50)
@@ -61,6 +65,14 @@ Add using Swift or Objective-C
           //set delegate to get result
           MatiButtonResult.shared.delegate = self
       }
+
+	
+ @objc private func matiButtonAction() {
+        //set params to showMatiFlow
+        MatiSDK.shared.showMatiFlow(clientId: "YOUR_CLIENT_ID",
+                                    flowId: "YOUR_FLOW_ID",
+                                    metadata: ["key1": "value1"])
+    }
 	}
 
     //MARK: MatiButtonResultDelegate
