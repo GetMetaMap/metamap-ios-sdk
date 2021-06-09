@@ -163,6 +163,20 @@ The following permissions are needed to capture video, access the photo gallery 
 
 ## SPECIFIC PARAMETERS
 
+## Button
+Please dont forget init button and add action ass we describe above
+
+# Title of button
+matiButton.title = "Verify me"
+
+# Color of title
+matiButton.textColor = .white
+
+# Color of button
+matiButton.buttonColor = .black
+
+## Metadata for settings
+
 You can use metadata to set specific parameters
 
 ##### Fixed selected language and hiding the language selection. (to make it permanent)
