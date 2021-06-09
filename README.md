@@ -68,11 +68,11 @@ class ViewController: UIViewController {
       
     }
   
-	@objc private func matiButtonAction() {
-		//set params to showMatiFlow
-		MatiSDK.shared.showMatiFlow(clientId: "YOUR_CLIENT_ID",
-									flowId: "YOUR_FLOW_ID",
-									metadata: ["key1": "value1"])
+      @objc private func matiButtonAction() {
+	//set params to showMatiFlow
+	MatiSDK.shared.showMatiFlow(clientId: "YOUR_CLIENT_ID",
+				flowId: "YOUR_FLOW_ID",
+				metadata: ["key1": "value1"])
 	}
 }
 
