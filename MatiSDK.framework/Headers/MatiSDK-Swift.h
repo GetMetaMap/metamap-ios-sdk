@@ -260,6 +260,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MatiSDK * _N
 + (MatiSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)showMatiFlowWithClientId:(NSString * _Nonnull)clientId flowId:(NSString * _Nullable)flowId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 @end
 
 
@@ -829,6 +830,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MatiSDK * _N
 + (MatiSDK * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (void)showMatiFlowWithClientId:(NSString * _Nonnull)clientId flowId:(NSString * _Nullable)flowId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 @end
 
 

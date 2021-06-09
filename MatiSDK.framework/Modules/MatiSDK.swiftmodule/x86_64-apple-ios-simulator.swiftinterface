@@ -566,7 +566,7 @@ extension SocketEngine {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MatiSDK : ObjectiveC.NSObject {
   @objc public static let shared: MatiSDK.MatiSDK
-  public func showMatiFlow(clientId: Swift.String, flowId: Swift.String?, metadata: [Swift.String : Any]? = nil)
+  @objc public func showMatiFlow(clientId: Swift.String, flowId: Swift.String?, metadata: [Swift.String : Any]? = nil)
   @objc deinit
 }
 public enum SocketIOVersion : Swift.Int {
