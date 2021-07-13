@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target arm64-apple-ios11.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MatiSDK
 import AVFoundation
 import CommonCrypto
@@ -954,6 +954,9 @@ public protocol Engine {
   func write(data: Foundation.Data, opcode: MatiSDK.FrameOpCode, completion: (() -> ())?)
   func write(string: Swift.String, completion: (() -> ())?)
 }
+extension DateComponents {
+  public static func durationFrom8601String(_ durationString: Swift.String) -> Foundation.DateComponents?
+}
 public protocol SocketData {
   func socketRepresentation() throws -> MatiSDK.SocketData
 }
@@ -1067,6 +1070,7 @@ extension SocketParsable where Self : MatiSDK.SocketDataBufferable, Self : MatiS
   public func parseBinaryData(_ data: Foundation.Data) -> MatiSDK.SocketPacket?
 }
 extension UIDevice {
+  public static func vibrate()
   public static let modelName: Swift.String
 }
 public enum SecurityErrorCode : Swift.UInt16 {
