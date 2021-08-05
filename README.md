@@ -70,7 +70,7 @@ class ViewController: UIViewController {
   
       @objc private func matiButtonAction() {
 	//set params to showMatiFlow
-	MatiSDK.shared.showMatiFlow(clientId: "YOUR_CLIENT_ID",
+	Mati.shared.showMatiFlow(clientId: "YOUR_CLIENT_ID",
 				flowId: "YOUR_FLOW_ID",
 				metadata: ["key1": "value1"])
 	}
@@ -124,7 +124,7 @@ extension ViewController: MatiButtonResultDelegate {
       
       //add showMatiFlow function with YOURS parameters
       -(void)matiButtonAction:(UIButton *) sender{
-      	[MatiSDK.shared showMatiFlowWithClientId:@"YOUR_CLIENT_ID" flowId:@"YOUR_FLOW_ID"  metadata:@{@"key":@"value"}];
+      	[Mati.shared showMatiFlowWithClientId:@"YOUR_CLIENT_ID" flowId:@"YOUR_FLOW_ID"  metadata:@{@"key":@"value"}];
 	}
 
     #pragma mark - MatiButtonResultDelegate
