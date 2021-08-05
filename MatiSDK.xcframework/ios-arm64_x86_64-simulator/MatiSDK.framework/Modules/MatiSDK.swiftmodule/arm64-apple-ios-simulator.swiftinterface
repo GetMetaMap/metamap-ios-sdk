@@ -6,7 +6,6 @@ import CommonCrypto
 import CoreTelephony
 import Dispatch
 import Foundation
-import ImageIO
 @_exported import MatiSDK
 import MobileCoreServices
 import Network
@@ -337,6 +336,14 @@ public protocol Transport : AnyObject {
   func write(data: Foundation.Data, completion: @escaping ((Swift.Error?) -> ()))
   var usingTLS: Swift.Bool { get }
 }
+extension UIImageView {
+  public func loadGif(name: Swift.String)
+}
+extension UIImage {
+  public class func gif(data: Foundation.Data) -> UIKit.UIImage?
+  public class func gif(url: Swift.String) -> UIKit.UIImage?
+  public class func gif(name: Swift.String) -> UIKit.UIImage?
+}
 @_hasMissingDesignatedInitializers public class FoundationHTTPServerHandler : MatiSDK.HTTPServerHandler {
   public func register(delegate: MatiSDK.HTTPServerDelegate)
   public func createResponse(headers: [Swift.String : Swift.String]) -> Foundation.Data
@@ -621,14 +628,6 @@ public protocol FrameCollectorDelegate : AnyObject {
   }
   public func add(frame: MatiSDK.Frame)
   @objc deinit
-}
-extension UIImageView {
-  public func loadGif(name: Swift.String)
-}
-extension UIImage {
-  public class func gif(data: Foundation.Data) -> UIKit.UIImage?
-  public class func gif(url: Swift.String) -> UIKit.UIImage?
-  public class func gif(name: Swift.String) -> UIKit.UIImage?
 }
 public struct SocketPacket : Swift.CustomStringConvertible {
   public let nsp: Swift.String

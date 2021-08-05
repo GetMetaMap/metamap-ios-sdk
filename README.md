@@ -158,9 +158,6 @@ The following permissions are needed to capture video, access the photo gallery 
    Xcode 12.0  
    Swift 5.0  
 
-   For Mati SDK below 3.x.x please use this documentation https://github.com/MatiFace/mati-global-id-sdk/blob/master/README_old__2_x_x_.md
-
-
 ## SPECIFIC PARAMETERS
 
 ## Button
