@@ -87,6 +87,7 @@ extension ViewController: MatiButtonResultDelegate {
 		print("Mati Verification Cancelled")
 	}
 }
+```
 
 ```objc
    
@@ -139,7 +140,7 @@ extension ViewController: MatiButtonResultDelegate {
       }
 
     @end;
-    
+```
     
 
 ### Info.plist – IMPORTANT add this descriptions to your project
