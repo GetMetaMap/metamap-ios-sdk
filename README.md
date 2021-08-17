@@ -13,16 +13,6 @@ Create Podfile and add pod 'Mati-Global-ID-SDK':
 Update your pods from the terminal
 
     pod install
-    
-##### ! Dependencies (will be automatically installed with Mati pod)
-Starscream, SocketIO
-
-### If you're not using CocoaPods (not recommended)
-
-Download Mati framework from GitHub and add it to your project with all necessary dependencies.
-
-Note: Don't miss to add framework in Embedded Binaries.
-
 
 ## Example
 
