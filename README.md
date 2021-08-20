@@ -1,4 +1,8 @@
-# Mati iOS SDK documentation 
+# Mati iOS SDK Usage Guide
+
+
+The Mati iOS SDK usage guide can be found in the following location:
+* [Mati iOS SDK Usage Guide](mati-ios-sdk.md)
 
 ![alt text](https://github.com/MatiFace/mati-global-id-sdk/blob/master/readme_pic.png)
 
@@ -183,3 +187,4 @@ for Spain (it can be any country, if we doesnt support language yet it will be s
 ```swift
 metadata: ["fixedLanguage": "es"]
 ```
+
