@@ -6,7 +6,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Sentry.h"
 
 //! Project version number for MatiGlobalIDSDK.
 FOUNDATION_EXPORT double mati_sdkVersionNumber;
