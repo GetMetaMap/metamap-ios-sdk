@@ -760,6 +760,15 @@ public enum FoundationTransportError : Swift.Error {
     get
   }
 }
+public enum CodeType {
+  case phone
+  case email
+  public static func == (a: MatiSDK.CodeType, b: MatiSDK.CodeType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum HTTPUpgradeError : Swift.Error {
   case notAnUpgrade(Swift.Int)
   case invalidData
@@ -1110,6 +1119,8 @@ extension MatiSDK.FoundationTransportError : Swift.Hashable {}
 extension MatiSDK.SocketEnginePacketType : Swift.Equatable {}
 extension MatiSDK.SocketEnginePacketType : Swift.Hashable {}
 extension MatiSDK.SocketEnginePacketType : Swift.RawRepresentable {}
+extension MatiSDK.CodeType : Swift.Equatable {}
+extension MatiSDK.CodeType : Swift.Hashable {}
 extension MatiSDK.TCPTransportError : Swift.Equatable {}
 extension MatiSDK.TCPTransportError : Swift.Hashable {}
 extension MatiSDK.SocketClientEvent : Swift.Equatable {}
