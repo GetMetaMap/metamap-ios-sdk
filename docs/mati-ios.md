@@ -1,8 +1,18 @@
-# Mati iOS SDK Usage Guide
+---
+title: "iOS"
+excerpt: "Add the Mati button to your iOS app."
+slug: "mobile-sdks"
+category: 61141a8437375100442f3d20
+---
+# Mati iOS Usage Guide
 
 ![Mobile Mati start screen with 2 verification options (documentation or selfie) and a start button.](/readme_pic.png)
 
 The following describes how to install and use the Mati iOS SDK for your application.
+
+## iOS Demo App
+
+You can go to GitHub and download the [Mati iOS demo app](https://github.com/GetMati/mati-mobile-examples/tree/main/swiftDemoApp(native))
 
 ## Requirements
    iOS 11.4  
@@ -204,10 +214,3 @@ For instance, to set the language code for Spain to Spanish, we would set the `f
 ```swift
 metadata: ["fixedLanguage": "es"]
 ```
-
-
-## Example Application
-
-You can download an example app at:
-
-https://github.com/GetMati/mati-mobile-examples/tree/main/swiftDemoApp(native)
