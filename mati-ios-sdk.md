@@ -1,7 +1,5 @@
 # Mati iOS SDK Usage Guide
 
-![Mobile Mati start screen with 2 verification options (documentation or selfie) and a start button.](/readme_pic.png)
-
 The following describes how to install and use the Mati iOS SDK for your application.
 
 ## Requirements
