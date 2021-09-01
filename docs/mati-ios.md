@@ -84,7 +84,7 @@ Set the following parameters for your application:
 | `matiButton.title`         | string     | Required | `matiButton.title = "Verify Me" ` |
 | `matiButton.textColor`     | UIColor    | Optional | `matiButton.textColor = .white`     |
 | `matiButton.buttonColor`   | UIColor    | Optional | `matiButton.buttonColor = .black` |
-| Metadata <br /> _**Note**_ Go to the [Metadata section](#metadata-usage) to learn more about using metadata   | @Nullable Metadata   | Optional |
+| Metadata <br /> _**Note**_ Go to the [Metadata section](#metadata-usage) <br />to learn more about using metadata   | @Nullable Metadata   | Optional |
 
 
 
