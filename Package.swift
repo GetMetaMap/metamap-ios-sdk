@@ -11,9 +11,9 @@ let package = Package(
         .library(
             name: "MatiSDK",
             targets: ["MatiSDK"]),
-    ],
+    ],\
     targets: [
         .binaryTarget(
             name: "MatiSDK", 
-            path: "./MatiSDK.xcframework")
+            path: "MatiSDK.xcframework")
     ])
