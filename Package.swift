@@ -1,7 +1,5 @@
 // swift-tools-version:5.3
-
 import PackageDescription
-
 let package = Package(
     name: "MatiSDK",
     platforms: [
@@ -9,8 +7,8 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "MatiSDK",
-            targets: ["MatiSDK"]),
+            name: "MatiSDK", 
+            targets: ["MatiSDK"])
     ],
     targets: [
         .binaryTarget(
