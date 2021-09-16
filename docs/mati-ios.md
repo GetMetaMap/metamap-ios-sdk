@@ -18,10 +18,11 @@ You can go to GitHub and download the [Mati iOS demo app](https://github.com/Get
    Swift 5.0  
 
 ## Add the Mati SDK
-
+<!--
 There are two ways to add the Mati SDK for iOS:
 * [Using CocoaPods](#install-using-cocoapods)
 * [Using the Swift Package Manager](#install-using-spm)
+-->
 
 ### Install Using CocoaPods
 
@@ -49,10 +50,10 @@ _**IMPORTANT**_ The `Mati-Global-ID-SDK` requires the following dependencies:
 
 _**Note**_ Check that you've added the [Mati framework](https://github.com/GetMati/mati-ios-sdk/tree/master/MatiSDK.xcframework).
 
--->
+
 
 ### Install Using Swift Package Manager
-
+-->
 
 
 ## Implement Mati in Your App
