@@ -199,8 +199,7 @@ extension ViewController: MatiButtonResultDelegate {
 
 ## Metadata Usage
 
-You can use metadata to set specific parameters, including setting your default language and to hide language settings from users.
-
+####1) You can use metadata to set specific parameters, including setting your default language and to hide language settings from users.
 
 key: `fixedLanguage`
 value: locale code of language
@@ -212,4 +211,30 @@ For instance, to set the language code for Spain to Spanish, we would set the `f
 **Swift**
 ```swift
 metadata: ["fixedLanguage": "es"]
+```
+
+####2) Or you can set color of main buttons in flow you want.
+
+2.1)  Set the background color of button
+key: `buttonColor`
+value: hexColor
+
+
+### Example
+
+**Swift**
+```swift
+metadata: ["buttonColor": "#C0C8D1"]
+```
+
+2.2) Set the title color of button
+key: `buttonTextColor`
+value: hexColor
+
+
+### Example 
+
+**Swift**
+```swift
+metadata: ["buttonTextColor": "#C0C8D1"]
 ```
