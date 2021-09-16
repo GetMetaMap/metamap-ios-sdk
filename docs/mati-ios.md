@@ -199,6 +199,8 @@ extension ViewController: MatiButtonResultDelegate {
 
 ## Metadata Usage
 
+#### 0) Metadata – is used as an additional parameter for sending it to you via a webhook after passing verification and is also displayed in the verification on the dashboard
+
 #### 1) You can use metadata to set specific parameters, including setting your default language and to hide language settings from users.
 
 key: `fixedLanguage`
