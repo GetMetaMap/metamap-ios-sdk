@@ -50,6 +50,11 @@ framework module MatiSDK {
     private header "SentryTransactionContext.h"
     private header "SentryUser.h"
     private header "SentryUserFeedback.h"
+    
+    private header "PrivateSentrySDKOnly.h"
+    private header "SentryAppStartMeasurement.h"
+    private header "SentryScreenFrames.h"
+    private header "SentryTraceHeader.h"
 
     export *
     module * { export * }
