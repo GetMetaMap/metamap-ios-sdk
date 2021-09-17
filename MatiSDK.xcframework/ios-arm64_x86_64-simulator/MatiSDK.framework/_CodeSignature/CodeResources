@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		etlKLEih9/glvN112COnhJXWuEM=
+		Rxb0l1wWB4gddcR/JN7CP+uh4xg=
 		</data>
 		<key>DocumentOverviewViewController.nib</key>
 		<data>
-		DrAjl6y4aj/hFKzBt55HifWoVxY=
+		Mv2Dl42BAHFYiJKbwNaC83cgEJk=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
-		EbIWRWD8tNLlXdbzllqfFrfwct8=
+		cRcW59zoar9FTZoeGsoOBkiuV2Q=
 		</data>
 		<key>Headers/MatiSDK.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MBNAohYCKd62x61EOqexdlE/nXE=
+		YTZFICtddjKfHucwxchQ3za0moU=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -34,79 +34,79 @@
 		</data>
 		<key>MFCameraAccessViewController.nib</key>
 		<data>
-		dnbsNyANi2cE0DXcLNWoy2ADMv0=
+		Ab5abzrdLM4dHsnfn+q5zizt+E8=
 		</data>
 		<key>MFCancelAlertViewController.nib</key>
 		<data>
-		PYDG/Eb7RbjxfPHMDSMmkBLmRYM=
+		t03UcM6vXsGgYFHTDKVz0VZHxnI=
 		</data>
 		<key>MFCountriesListViewController.nib</key>
 		<data>
-		lTOOvZFNaXVkHovi4MVHtJtU358=
+		Tnf32uJdSzgftXnKAc94wI8vqFo=
 		</data>
 		<key>MFCountryTableViewCell.nib</key>
 		<data>
-		Ic1BfkaGjUU7csvOMvBdOqL9mK8=
+		A7h7f9CAr1c8YKPMhMh6J4A6HFA=
 		</data>
 		<key>MFDocumentListViewController.nib</key>
 		<data>
-		L9j40R0QeNDCfqL4u8dkuRiiErI=
+		Z7Fyl61l5xNOk2KEY2HtpmsaUdY=
 		</data>
 		<key>MFDocumentSelectCountryViewController.nib</key>
 		<data>
-		cr/US9wnyZMT9nVj+K2N1fynueI=
+		wmJIHTj6cfjpwHCu/wrcqGze9Q0=
 		</data>
 		<key>MFDocumentTableViewCell.nib</key>
 		<data>
-		O/L1YcbYc6u52bxaOsznTid8yX4=
+		Fmd9+twmcYyxCGVbNlzhZCCC3r4=
 		</data>
 		<key>MFDocumentTutorialViewController.nib</key>
 		<data>
-		7HtxQRpR+ug6dy4ys5Whli6/Jsw=
+		cw+WT+8K0UIF8kjCDymtiGHrnk4=
 		</data>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<data>
-		AlPV/aP9gJFKTooztZeOC1vN9rM=
+		eEROnFwpMZPuk3PHbHfPb1V549w=
 		</data>
 		<key>MFErrorViewController.nib</key>
 		<data>
-		OxQrHG4nMNtn4Lr8ahn4hY0MNxY=
+		z7TPnmqLCILEpcE7YqScyibmfgc=
 		</data>
 		<key>MFLanguageListViewController.nib</key>
 		<data>
-		o7tkIyRnOsNyE67lEscFCt4Ls2g=
+		jv6pA0QWe8hZ4/TCmRTHrHV/6lA=
 		</data>
 		<key>MFMainViewController.nib</key>
 		<data>
-		uxU6i/gb5LLDGHCTZrhAJ8PwGGo=
+		eld1HUnLixQGjzNQXlCiVi99tN8=
 		</data>
 		<key>MFRootViewController.nib</key>
 		<data>
-		Rfa8uR6PCD+3deQde11uQ7xQg10=
+		bQd4Pph37l9YVKbzFhqV7KpmWFo=
 		</data>
 		<key>MFSelfieCameraViewController.nib</key>
 		<data>
-		kld6lUKNCuHTHuKnNaVw+gMlzYA=
+		a7KntcyKtMbvz7xsWDCe1XAqqdk=
 		</data>
 		<key>MFSelfieTutorialViewController.nib</key>
 		<data>
-		nK86T7E6KcjL0TdemsK1lScDiyU=
+		F3JGXOP6UhYUi166gISutneGu4E=
 		</data>
 		<key>MFSelfieVerifyViewController.nib</key>
 		<data>
-		+BLxoA3oTSeQRA9Uwzs1Bde9n3Q=
+		45hw6356ZGLudPT1pB6QwH3wY0I=
 		</data>
 		<key>MFUploadViewController.nib</key>
 		<data>
-		DVQ4EyNSKsSavE0M+LEWaLWlj54=
+		YOGaNi0T/yHUFquASlYXZhfbdnw=
 		</data>
 		<key>MFVerifiedViewController.nib</key>
 		<data>
-		/g2LzAczHCluE+MckgLWdCZiG1A=
+		6o07DGsXXZIE3uSfERoyq6KLJfA=
 		</data>
 		<key>MatiCameraViewController.nib</key>
 		<data>
-		7G83pU78KjgaswhWeme2AETKJqA=
+		tKc5HM1ZOHJ5Gk3bojj77Ihfirs=
 		</data>
 		<key>MatiCountries.plist</key>
 		<data>
@@ -114,47 +114,47 @@
 		</data>
 		<key>MatiEmailCheckViewController.nib</key>
 		<data>
-		ZP9ORLczFpMNzaqw0gL4jt46p9s=
+		Ee6ZIAD7CyIkrdXmWtldAc+Xalw=
 		</data>
 		<key>MatiGeoIPErrorViewController.nib</key>
 		<data>
-		q7/mmOhGYl1AMIUx0XXK4Ivhf4c=
+		Rrqq9IGa2JwK5WP+Uyn1jKv+kXs=
 		</data>
 		<key>MatiMainTableViewCell.nib</key>
 		<data>
-		64P/yDagWCp8KpTk6HzcXG3riSs=
+		eS4qZs+rzqHpM2FwkcykoZ1Gi74=
 		</data>
 		<key>MatiPoRListViewController.nib</key>
 		<data>
-		+IxAV+sbutzhoUrfbVTM587t7a4=
+		R6f8mh1xwORo6/lRouysEPQ7U9k=
 		</data>
 		<key>MatiPoRTutorialViewController.nib</key>
 		<data>
-		FSlkMGPMj4W7GzQ3FM3ctoxV1z0=
+		9UfU3B3E3t0GE4dxVHZIuPV2zmY=
 		</data>
 		<key>MatiPoRViewController.nib</key>
 		<data>
-		AxxI84sAGXF1Bbx530GGJbmaZ0s=
+		zDI9sYP1PzoOrS0T/0lRml+dubc=
 		</data>
 		<key>MatiPorDocTableViewCell.nib</key>
 		<data>
-		6BiqoXW1Q7VEvtonUzBb4cN6iCA=
+		hgh57HgRKC2vl5295Is/wGepMvU=
 		</data>
 		<key>MatiSmsCheckViewController.nib</key>
 		<data>
-		kfe8sov56QmKXY7IYiiAim7jyrQ=
+		/Q1C1eO+wWPbCp/sqFEtIfRbOtw=
 		</data>
 		<key>MatiSmsCodeViewController.nib</key>
 		<data>
-		jC5bTkfu5wqjy4QNCukd16ZidMg=
+		CoN37X+iJ228156vbXmhiVDp5vM=
 		</data>
 		<key>MatiSmsCountryListViewController.nib</key>
 		<data>
-		zHQjetyDPCddyUlP/5jaQzekt4s=
+		06jXWH/k2AuUlUNnj5KknchW3tY=
 		</data>
 		<key>MatiSmsCountryTableViewCell.nib</key>
 		<data>
-		DF5AeP2KPSTk3JnVp5dt1qyoi4s=
+		uoxbt2NMWYKl8sy2pZoJ7jWQOYs=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kYf4wtN5FA8Q63DiGKkDaEIwZzk=
+		QVJDQaBJFQS6Pa1px1p/GMtk9Ek=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		kYf4wtN5FA8Q63DiGKkDaEIwZzk=
+		QVJDQaBJFQS6Pa1px1p/GMtk9Ek=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		73/GfZj8tXNbIgE4dueFAlnZIhI=
+		B9bHy9v+W0DkRqWdVr0sHPI9CI4=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -202,15 +202,27 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		73/GfZj8tXNbIgE4dueFAlnZIhI=
+		B9bHy9v+W0DkRqWdVr0sHPI9CI4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		iXKmI6Dif/f3ZoA8HIHShj1YPkY=
+		FwenBjAIozQuuyZLzdTJbvRRhsE=
+		</data>
+		<key>PrivateHeaders/PrivateSentrySDKOnly.h</key>
+		<data>
+		zVxyvaZsDUUoNiFw5KY65QiS3T4=
 		</data>
 		<key>PrivateHeaders/Sentry.h</key>
 		<data>
-		HAG994WQdX6+XZg6cCgsZHA42Jg=
+		FHTTiVLNSkycg/dVrIELvkEVCUU=
+		</data>
+		<key>PrivateHeaders/SentryAppStartMeasurement.h</key>
+		<data>
+		LNuok8N64Pe259jsDbo7otW03wU=
+		</data>
+		<key>PrivateHeaders/SentryAppStateManager.h</key>
+		<data>
+		wUk4/+/xtKHF4ls13AVPiDULRNw=
 		</data>
 		<key>PrivateHeaders/SentryAttachment.h</key>
 		<data>
@@ -228,6 +240,10 @@
 		<data>
 		BxIZbIXWReQkWS5iqiIFCopUloo=
 		</data>
+		<key>PrivateHeaders/SentryCrashReportFixer.h</key>
+		<data>
+		crra683CR1k3+o75CaY4B/XwtvE=
+		</data>
 		<key>PrivateHeaders/SentryDebugImageProvider.h</key>
 		<data>
 		IjI8DIKhFEekGz+W5dV329oJvkg=
@@ -235,6 +251,10 @@
 		<key>PrivateHeaders/SentryDebugMeta.h</key>
 		<data>
 		QXaNNMAB7NoCE9NOmkUY4/LZD0Q=
+		</data>
+		<key>PrivateHeaders/SentryDefaultRateLimits.h</key>
+		<data>
+		4svwo1y9YDgNhLL3lJLaFfG0snQ=
 		</data>
 		<key>PrivateHeaders/SentryDefines.h</key>
 		<data>
@@ -270,7 +290,7 @@
 		</data>
 		<key>PrivateHeaders/SentryHub.h</key>
 		<data>
-		Lxr5a+Dm3UgVKQ4zx1xra+SMjAo=
+		E8Pn7VY4xVLcjXoFWZTb98DEk9g=
 		</data>
 		<key>PrivateHeaders/SentryId.h</key>
 		<data>
@@ -298,11 +318,15 @@
 		</data>
 		<key>PrivateHeaders/SentryOptions.h</key>
 		<data>
-		kVifJP7GYgAw6NxqdvOzn39tphM=
+		7v7jmxjYV+jQbatpO5OHgbCZllQ=
+		</data>
+		<key>PrivateHeaders/SentrySDK+Private.h</key>
+		<data>
+		2wCBlNuFCk4OfmhOLv+Viz7Gf5g=
 		</data>
 		<key>PrivateHeaders/SentrySDK.h</key>
 		<data>
-		aJdPR9fNykuPo0P5Pe8pzxKIqk0=
+		y1id53ImX6BE3v6VsOIQTDyy9ns=
 		</data>
 		<key>PrivateHeaders/SentrySampleDecision.h</key>
 		<data>
@@ -314,7 +338,11 @@
 		</data>
 		<key>PrivateHeaders/SentryScope.h</key>
 		<data>
-		8oEUZLJHmcz0A14cZvCE3RgoeeY=
+		L5aqH848DHCiHwY+pj1ZkbthxfY=
+		</data>
+		<key>PrivateHeaders/SentryScreenFrames.h</key>
+		<data>
+		JePlFOE9D78qNX4WwHGDvfCiuwg=
 		</data>
 		<key>PrivateHeaders/SentrySdkInfo.h</key>
 		<data>
@@ -334,11 +362,11 @@
 		</data>
 		<key>PrivateHeaders/SentrySpanId.h</key>
 		<data>
-		TAT4mCzCwZqxJJ/WPAdqdeHzi3M=
+		ldLzCQIVgBQjWpCA4OmlB+Y8UbM=
 		</data>
 		<key>PrivateHeaders/SentrySpanProtocol.h</key>
 		<data>
-		Cl0qFGTXzvi4cXRm89Qw/dw9boY=
+		QkMuA6KufJ+ZKyWh3qUwiU1L3D4=
 		</data>
 		<key>PrivateHeaders/SentrySpanStatus.h</key>
 		<data>
@@ -348,9 +376,17 @@
 		<data>
 		FG/tGcOh/IMD4tarnZcfnlQAdFU=
 		</data>
+		<key>PrivateHeaders/SentryStacktraceBuilder.h</key>
+		<data>
+		8ETwys1sJ7Dnp8oeErbugpkyZZo=
+		</data>
 		<key>PrivateHeaders/SentryThread.h</key>
 		<data>
 		8uxa/4ah4hJma8b5jNzL+WLd4zo=
+		</data>
+		<key>PrivateHeaders/SentryTraceHeader.h</key>
+		<data>
+		I5mFYO+cr6v8oRYcWk2HHDM5r00=
 		</data>
 		<key>PrivateHeaders/SentryTransactionContext.h</key>
 		<data>
@@ -366,13 +402,13 @@
 		</data>
 		<key>VoiceLivenessScreen.nib</key>
 		<data>
-		tcq2bxMfIYbquTvc8+bbstF2KBE=
+		qutmM5dQ8k4XqJ8+6j7XUCk1uHA=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			QqKM7IlA7rHcOg7kLNmW1J5DIl0=
+			gisyajIkgssGsI253cG195yss9g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -381,7 +417,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0YaOUERFakMmLUo7i0bPADDr8SY=
+			EvTgNd4NXZ+iRfpJBr62Yysfins=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -390,7 +426,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OI2M1oXztvBYx13hWFABf8Bo7cA=
+			fMhPzMco3NWF7EFNZ6PR5GY78sY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -399,7 +435,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HDX0nLoEEXoBUa+KyF1TA68kwac=
+			Bayj+WWhap1nghL98eSFCAeLp1g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -408,7 +444,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S6PxITvZEO6iKbRkB+eVOm3bYBg=
+			plWhlrdRRMh7k2h52FdUh4v/UAM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -425,7 +461,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RfZA9ZSZjbbECooAXWaksAhbW/A=
+			44QzW1OcfH6r9XzGZ/5TUGPngZs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -434,7 +470,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BGN1AzYqa72zMLDfHMOkORtMqNc=
+			eufYKqX4mMgkxBFy1sioZkxvJjs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -443,7 +479,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/NSPxizU8DGLFpfo8QICWszNdOs=
+			Kq7SjcFRnu51bCiP/H6H7A1QSno=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -452,7 +488,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wZHPF/Qd7RkosdgUdoi5ub79zyE=
+			wIrK4PGGrd8jixYZHbOoKYel2bU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -461,7 +497,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UK1GRi3hopYrQNPgHucddJglhbw=
+			bb/mOOOq887LdXWxHAQjHANGl5Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -473,21 +509,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lKzgnegI1OUKvD9/3fZ2WkdGy8+VDSzGPVUGsGafp+E=
+			4PLpNN/cT+PA/LIskzExowGpDmO379nPOZaUC7u26q8=
 			</data>
 		</dict>
 		<key>DocumentOverviewViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Suf16iEFijf6v9t5NlAAr5VILQKxLmHOnbMh1IzSJqg=
+			gaISuM+NYndS0L6KsiSEBeCFhSxO6bJKS0he0b8J66k=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wAX2dHWyV2Qg619GcYephWxLoZzm95TeqfNKaiuGWlE=
+			gr2O5RvsPN4bDh+6c6aWWXg94Kc1+eoEGiVLkWNqJNQ=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK.h</key>
@@ -515,133 +551,133 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eU3zn4BBVRyokKdw9GOff03gXeLDInuJZ0SuhOOBNsg=
+			++ptfA1kzCgOsOWaJvE4rANdNvlrAqnTqmIcuM34bCQ=
 			</data>
 		</dict>
 		<key>MFCancelAlertViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JXxisQkhw3j5URLADjVZmxjzZ5CcT5AAIxUOiz4jG/A=
+			8ykX2Ax5s6giWK+Jq1G7xkF0IrqT0qXXyeqGR0ExEz8=
 			</data>
 		</dict>
 		<key>MFCountriesListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			p0iII0mRpTHf1CZCZ5PEFd3TSMuN6kn/pzqS24oaGcc=
+			ic7JnkJzXj+bVYPPnI2mD8+apu8sp5zRLhj+1KuWULc=
 			</data>
 		</dict>
 		<key>MFCountryTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EV/jOO3uJ57YCaV8lGC8v4Xo3L1fE8hZb/ubh5pTxz4=
+			skE9enSiH6A5fnxiKMhVSKooCJSuf2qczAqMMnu76z4=
 			</data>
 		</dict>
 		<key>MFDocumentListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gi53RTlJnI80bd60yPMNa7hEW+6GirZRPZz8QBxLlx4=
+			Jukvg2ILdrmEPImXUezqVs1d+h0mPL5jZWBf7KIKnfY=
 			</data>
 		</dict>
 		<key>MFDocumentSelectCountryViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yQYKdL3lQPb+oK3I4ApdIbP4UEta8Rny3gSFLnuIQv0=
+			5tc5xRVezPJYDdOwxFgEocWGzm6FQ0hYa5vuEVjUBoc=
 			</data>
 		</dict>
 		<key>MFDocumentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mH+CrljOERikK+00acE/2w4IXRRRBVaWA1d1qTxzoQg=
+			Tb3wkFvXuTiLG1p4LhPypQzk6hx+ERO+8TDBY2whLF0=
 			</data>
 		</dict>
 		<key>MFDocumentTutorialViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b34Cah33ewEaJM8tjuiup61Weue1gJRXLWvNm4Oyu7A=
+			SJ4HHxSpOLJ7/KCUAJIdl+agC4Bp4JMQl/ewp+zd4YU=
 			</data>
 		</dict>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n3PGkCDpA32CyuS1FJxAZwXdfLxnyliD+vztHT6uiH4=
+			JwF05bwbjbUeY6y+u70o89JNBOnYtsBmXEd0WmsYUCQ=
 			</data>
 		</dict>
 		<key>MFErrorViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jMNRH6m+Z9CMe4T2SY2c88a1fwstq20EhdMZihyX98Y=
+			9AVCrHjnvKILrCoCIDKxAH9qAUeWW1j8jMNlGaFZRok=
 			</data>
 		</dict>
 		<key>MFLanguageListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oy4FQf0/GRmh6v3waBHN4DNWvO8zuKYLDmR7yMoOYCk=
+			KJ1MtaHkb5o2GjZEwSaBaFzGKrZri2d1psgudS4RqxI=
 			</data>
 		</dict>
 		<key>MFMainViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f7/g3PMb+FLNucxJmRdCOGGPHHK5Uq3YK7BIE4meJBI=
+			/Dq3ljBSilf2ut1/URcLc4/Qb0n9JVR5g7GQEkNAi3E=
 			</data>
 		</dict>
 		<key>MFRootViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wF+FxdyeMzPizQUqgbwzbGrzwoAUBqqMI09PzR3nMFU=
+			5WN1VqryO/h1pTI2kFH1pindAS8TBWnheF2Emm8+rv8=
 			</data>
 		</dict>
 		<key>MFSelfieCameraViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ep8rvnB3sCm0RUifjOt8xgqhIHgOmxrK4ZprMvMGEP0=
+			K3o/h/2BlvXnjdxGc65a6x4oemH5M4giQ1udRWLcvwg=
 			</data>
 		</dict>
 		<key>MFSelfieTutorialViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ChAm9pBO/wyZDJ2ZhK76FQFPWus3qLpL2M9xUi41Rkk=
+			HHrRJiYwQo6nA03+g6M5qVdkdRvk3bWfJVqCISUEgwQ=
 			</data>
 		</dict>
 		<key>MFSelfieVerifyViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IR9xMeMW8SpU+s9YOEjTSF1+rCkSerffMva1YziwCIk=
+			K9qg3FkRIK0aEnXyJZrH2cn547xXKER0W+XHMZenwjI=
 			</data>
 		</dict>
 		<key>MFUploadViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/gyXUKUN0Mj/Sg+/uucp4NXWLLHvU9BkwAmoR/SRIfc=
+			s8ZF0RWglmh/ML7UNnFDxKfGD3AYse4pAzAJ1H7EKEc=
 			</data>
 		</dict>
 		<key>MFVerifiedViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+wb+Z4wZj10hg6FWhDOKGSQQBsTyzgWPG/RVNU8/0Y8=
+			+vyjoShSDI6sVrdWLfjaxYhyjZQhO/Q67TQDbEIU3ZE=
 			</data>
 		</dict>
 		<key>MatiCameraViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Su1MNqh5omBxrMHawrrWQuVw8YJtFJVmpceoqMQQVsc=
+			WJICErQc9zp5nxSLYTTdIRIjkVD6KjDX53bcmaoJ8jI=
 			</data>
 		</dict>
 		<key>MatiCountries.plist</key>
@@ -655,77 +691,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ad+pRfnW27x0MylAvYL+LZ6QxmMhNOaH7tgSMtHZeCE=
+			nfnJnYWn9D90mhlvw9IyjMJFsIZm3pzKa+5pjcBk25A=
 			</data>
 		</dict>
 		<key>MatiGeoIPErrorViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UAacK+oRnnfIiV4DUo1HZLtHrcOLbzvVndxTFUZ3bdo=
+			t38iYQ6NMsXHNhc/704x3P+Ni4g2Er4KgYbGEmo7cnk=
 			</data>
 		</dict>
 		<key>MatiMainTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BYhx2kWdC7v1HRNWBwRSbI9ql/v3tGrMJ9vOXF/0l5I=
+			9KBN22WPRsZPYSPYYFJZyH89GO4843dudDmDoyclstk=
 			</data>
 		</dict>
 		<key>MatiPoRListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TQU5FfJ1LLWDidxxsS3OeyW298uNIgKTaMoUn4MdBX4=
+			Gd7T0auk+bW7CK6KGvR7nX6sTH5XXiCSR8fiXx3Ojjw=
 			</data>
 		</dict>
 		<key>MatiPoRTutorialViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nXaYigV0ZFYgujuzNUhEGtguLJ7FhayHONHBvwXcnQI=
+			H5re0wHoBBVW1CXmZi2HZFlGFbsNHV27Z43z7ZPKHmc=
 			</data>
 		</dict>
 		<key>MatiPoRViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			78iv/RBROn3nSjZym+AuNPkupriY6Z2SD33zGHZggfs=
+			hSvMPnTtL5dssJhJJgI82y5+2F7G35P2kBt3z4UMpAw=
 			</data>
 		</dict>
 		<key>MatiPorDocTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TugfglWLNRBCUAGlyT8InwVa7iIfXrHgZsM1hyzG0Dg=
+			0ex39CiIWJ7OgNjtm3X+Fti5tj0vtH0FH2Easb9Nvj8=
 			</data>
 		</dict>
 		<key>MatiSmsCheckViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HyifwRIHSlpZUf3BbAjgWKHs05ALix0y+MWLVRW68W4=
+			/BKnEDih7hkbTwxKsEx2XB+KwGB6bxr62nqKE94Vq/M=
 			</data>
 		</dict>
 		<key>MatiSmsCodeViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dbvAOvbjs5SME8aGo4NcyZ6PtqkWfKzF8ortj/Q+uKU=
+			Cc2CLzYC9T3zPrK/56Y5gOKw4oe74z1pUEM8iO19yVY=
 			</data>
 		</dict>
 		<key>MatiSmsCountryListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dHyDPZ6Bcl6Y0C063hRrWDojMTDk6ZrywUxptLN728U=
+			ubRn+aJKDzA1Gji/HZugOErTejSA8HP1X6lUF2YP4fk=
 			</data>
 		</dict>
 		<key>MatiSmsCountryTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vojpQkxslSmQPU+m+d8N5ha6L81HTGHFufXKTlvNjmM=
+			voTz7W0iU95jMmL+QLyNVZsCy9dxGuRKYErpAnwZ4+0=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -746,7 +782,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EGdO8UMhU/rWLABvMtLTAjHGabnrhQfTyb8v8ueeHJ8=
+			3VOm5bARw/gwdKqYsXAPnqlFCnwDDjsmXRP5W6YFr7g=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -767,7 +803,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EGdO8UMhU/rWLABvMtLTAjHGabnrhQfTyb8v8ueeHJ8=
+			3VOm5bARw/gwdKqYsXAPnqlFCnwDDjsmXRP5W6YFr7g=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -788,7 +824,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/TGMGStIH5c9qdGWmmfDHMOZzmYZBIYuK/vV/V9JX4I=
+			V2u8ckqgpJ4kTdLSrJK+OF4/QFVeWhVIJ4sZ/WX26Q0=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -809,21 +845,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/TGMGStIH5c9qdGWmmfDHMOZzmYZBIYuK/vV/V9JX4I=
+			V2u8ckqgpJ4kTdLSrJK+OF4/QFVeWhVIJ4sZ/WX26Q0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m19QabC1TI4Wprm03ww22n+MWTnn+/PDb5s/ONuss70=
+			3nDuDZPc62XLLhLgjJKymMX/TDqXevpkuQZVu20+nuI=
+			</data>
+		</dict>
+		<key>PrivateHeaders/PrivateSentrySDKOnly.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sL9YUCTXLyg9IYN4784rp6NVvm1cwf53GXru22J4DjA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/Sentry.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y+wBA7AY3qwl6mWRdJxWENC0KS7o4ee7ARrsbdwxgrQ=
+			rfXbJa32KVhSQUTHPYoLShNOs4XqDIJcX7hFs7+6geg=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SentryAppStartMeasurement.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WH1YZyt91HMxOXmDL+bYWmR4KuYL06kI7cFtGmpqVyU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SentryAppStateManager.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TwtTaNSojJtQ6cXRU5SSYC42y5hghJ4IU2jNOoxE0dM=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryAttachment.h</key>
@@ -854,6 +911,13 @@
 			W5EfC6PqYsaz3TPyc7gCdP1ikXHLBGCVsnqKKkKxyfQ=
 			</data>
 		</dict>
+		<key>PrivateHeaders/SentryCrashReportFixer.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gfvB+D4OE6ZX21PhphY28dO+Khe6f6L5k5VI+gQXOJI=
+			</data>
+		</dict>
 		<key>PrivateHeaders/SentryDebugImageProvider.h</key>
 		<dict>
 			<key>hash2</key>
@@ -866,6 +930,13 @@
 			<key>hash2</key>
 			<data>
 			sN2NJnhYAeh1OZZldzWmQLJhrl1QoQc8bhGO5XSRXG0=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SentryDefaultRateLimits.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1QwZNwgvKqe7KJ9ByKNq2I4/PiuK0wogND5/hyRIWp0=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryDefines.h</key>
@@ -928,7 +999,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dEe081HOSH3R+34SyvdwYQChCq8mtPOv3k4eKzjxo9E=
+			kfhc+JywyR4CNEyYVx+dPpscQPA0SyGpy43BDR99riE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryId.h</key>
@@ -977,14 +1048,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pn2/CBhinqNlSPypoz+BjyTyfbbvlmq9B/0taf+d4ek=
+			I2vBI6z4n/8IwCmdEmE10TEQK8DkOtWL2/6bW8O19bI=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SentrySDK+Private.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lrtVpNJcxOvb9GvcARaYlOZjyGfm1oxQMS6xmSzKNOE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yTVIyD6HkU+hyauSO+DivsrMg92oDXx3uo7hQj7EsV4=
+			4igUypyY/vADvC74VLcbH2p0b4VbZorXaVDx6t3NErc=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySampleDecision.h</key>
@@ -1005,7 +1083,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5M+IB6oZcYpK+Ipx/tANMuOhqbgmYFjaHHwuvq5SAe8=
+			wNk/U9R8p1dTZSn9W5MbF73Jhn0/+h4M4E+4KrvlRck=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SentryScreenFrames.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nkjsJbN5fD0ARe/5Qf4hItV1QUxuReFWQhAmPPphpuA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySdkInfo.h</key>
@@ -1040,14 +1125,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F0htV6fsknFeVQdMWfSvH1zA9sCNDHluWGsB75yL0EM=
+			SduIqv/FnAyGpc5+P6XlHTo32xCWtPp3ZmR45m08130=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySpanProtocol.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2GRDQOjidftVZE9KNAwIm5iUSqfCVte6Lk+V0b/JV30=
+			eIzld5dmLHWRgNeboHJDSio7IOCOX5hyUvW5mQle1ls=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySpanStatus.h</key>
@@ -1064,11 +1149,25 @@
 			rL6yhSPbHZOJ/v3SwSV5SFnPl90FGSP0d6Y/Vfh3WuU=
 			</data>
 		</dict>
+		<key>PrivateHeaders/SentryStacktraceBuilder.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e5XUgZQLe+SMeAShByKQ7EbCR2SdmJ+h90bs1JdLcN4=
+			</data>
+		</dict>
 		<key>PrivateHeaders/SentryThread.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			BwJq6sY85RDci28fhFsj4/BWzCt4dGweBzmzcokMC1U=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SentryTraceHeader.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nYlArKSd9R5cFJebbzcHrJ4/S4MxphpL0kX1d5AfDBs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryTransactionContext.h</key>
@@ -1096,14 +1195,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mbAR1Dq8ONixT1Zw1rCkpTR4IXAT1kLEbq1fSAA/e50=
+			QnYa751JnOKtd9VoNRaX9c3mm8hSNtOk4fVp6X6GDMY=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3ttt1mjhFLUezm40voZ3yjXGyfOh2Azryi1Q6aBWrcc=
+			nsv3yvoXlQ+nNpNBTmNP6G2qS0tY+BphEArmkKO89IM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1112,7 +1211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ozXKTXiouIwrXWtz8e3euL9AUZNPWVRysV7ozdq0uf4=
+			/RZr2c1U2EzSO9OGt7vEBS9ZVun7f5yoh5BnWURJtQg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1121,7 +1220,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jp8GiuSM8SsdnzzsAGMmNaRVUhzoUId1wDD93xZkmkM=
+			MqwgIx/NilUXKKEgar4BbAVll0bKHpDQRlFgywhji1U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1130,7 +1229,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H3h2ApezLXCoe5l097pZPGYNbqrnWzeiJ52ZoBNu4mE=
+			xC1yXDCFvcHl7DjijJtRy64l1ZP60+dBp8HKUi2KplU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1139,7 +1238,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tssZQFxvkwo8gGzDXHSkBNZ4/jOvQTJuxMIrdfTVqMY=
+			4iOTgxok5XrWtmDIRssoHM/VoCnTA6NNDrYN5cTVWzo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1162,7 +1261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U/RRBuC7mUg35ruUjrI0infc0DWo9Q6qRF/AhQLWUcc=
+			pt9K5afnqjOYQ3kPN7n5GWhlwvtv5p0je9CZgwjvHGw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1171,7 +1270,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vnnz0Pj631z6hKsSYp8qvYxoEmEGRES71bfoUxmUI4c=
+			zJxpS7KUG7SSzjMtwXoSBrWxXLPO/5NWclX3EA5QfGI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1180,7 +1279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IAO1J3+zqeQoaWIuGhP0Et7/Ceijc/zI6MMF/O5II9g=
+			DSjgcJJQ9lD6ggeua8IGnLtAX5UVnM9YmPyk5i+gXfo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1189,7 +1288,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			su/PMH1b6uzgEMBq1hRuEucWD9RdznnymXhskMpTCgY=
+			b2vV0FMQhqYHL553Wn30jtb6iDL9BpOiRvdclWaLz3g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1198,7 +1297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y8Rj6O3S6llT8iIAfB2qJclW+G21iCK2yJkDtXp1zfM=
+			w0dhJTegI6DinvLYFsUi+EBIjBqwAhNy+ej1ZW4K4xU=
 			</data>
 			<key>optional</key>
 			<true/>
