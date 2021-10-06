@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target arm64-apple-ios11.4-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MatiSDK
 import AVFoundation
 import CommonCrypto
@@ -12,6 +12,7 @@ import Network
 import SafariServices
 import Swift
 import UIKit
+import _Concurrency
 import zlib
 @objc public protocol MatiButtonResultDelegate {
   @objc func verificationSuccess(identityId: Swift.String)
@@ -79,9 +80,9 @@ public class WSFramer : MatiSDK.Framer {
 }
 public protocol MyWSArrayType {
 }
-extension UInt8 : MatiSDK.MyWSArrayType {
+extension Swift.UInt8 : MatiSDK.MyWSArrayType {
 }
-extension Array where Element : MatiSDK.MyWSArrayType, Element : Swift.UnsignedInteger {
+extension Swift.Array where Element : MatiSDK.MyWSArrayType, Element : Swift.UnsignedInteger {
   public func readUint16(offset: Swift.Int) -> Swift.UInt16
   public func readUint64(offset: Swift.Int) -> Swift.UInt64
   public func unmaskData(maskStart: Swift.Int, offset: Swift.Int, length: Swift.Int) -> Foundation.Data
@@ -143,26 +144,26 @@ public class WSEngine : MatiSDK.Engine, MatiSDK.TransportEventClient, MatiSDK.Fr
   public func didForm(event: MatiSDK.FrameCollector.Event)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc public class MatiButton : UIKit.UIButton {
-  @objc public var title: Swift.String? {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class MatiButton : UIKit.UIButton {
+  @objc @_Concurrency.MainActor(unsafe) public var title: Swift.String? {
     @objc get
     @objc set
   }
-  @objc public var buttonColor: UIKit.UIColor? {
+  @objc @_Concurrency.MainActor(unsafe) public var buttonColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc public var textColor: UIKit.UIColor? {
+  @objc @_Concurrency.MainActor(unsafe) public var textColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc dynamic public init()
-  @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
-    @objc get
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
-  @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
 }
 @objc final public class SocketAckEmitter : ObjectiveC.NSObject {
@@ -175,13 +176,11 @@ public class WSEngine : MatiSDK.Engine, MatiSDK.TransportEventClient, MatiSDK.Fr
   public init(socket: MatiSDK.SocketIOClient, ackNum: Swift.Int)
   final public func with(_ items: MatiSDK.SocketData...)
   @objc final public func with(_ items: [Any])
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers final public class OnAckCallback : ObjectiveC.NSObject {
   @objc deinit
   @objc final public func timingOut(after seconds: Swift.Double, callback: @escaping MatiSDK.AckCallback)
-  @objc override dynamic public init()
 }
 public enum ErrorType : Swift.Error {
   case compressionError
@@ -209,7 +208,7 @@ public protocol WebSocketClient : AnyObject {
   func write(ping: Foundation.Data, completion: (() -> ())?)
   func write(pong: Foundation.Data, completion: (() -> ())?)
 }
-extension WebSocketClient {
+extension MatiSDK.WebSocketClient {
   public func write(string: Swift.String)
   public func write(data: Foundation.Data)
   public func write(ping: Foundation.Data)
@@ -252,8 +251,6 @@ open class WebSocket : MatiSDK.WebSocketClient, MatiSDK.EngineDelegate {
   public func write(pong: Foundation.Data, completion: (() -> ())?)
   public func didReceive(event: MatiSDK.WebSocketEvent)
   @objc deinit
-}
-extension Data {
 }
 public protocol SocketManagerSpec : MatiSDK.SocketEngineClient {
   var defaultSocket: MatiSDK.SocketIOClient { get }
@@ -314,7 +311,7 @@ public protocol SocketEngineWebsocket : MatiSDK.SocketEngineSpec {
   var wsConnected: Swift.Bool { get }
   func sendWebSocketMessage(_ str: Swift.String, withType type: MatiSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> ())?)
 }
-extension SocketEngineWebsocket {
+extension MatiSDK.SocketEngineWebsocket {
   public func sendWebSocketMessage(_ str: Swift.String, withType type: MatiSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())?)
 }
 public enum ConnectionState {
@@ -336,10 +333,10 @@ public protocol Transport : AnyObject {
   func write(data: Foundation.Data, completion: @escaping ((Swift.Error?) -> ()))
   var usingTLS: Swift.Bool { get }
 }
-extension UIImageView {
-  public func loadGif(name: Swift.String)
+extension UIKit.UIImageView {
+  @_Concurrency.MainActor(unsafe) public func loadGif(name: Swift.String)
 }
-extension UIImage {
+extension UIKit.UIImage {
   public class func gif(data: Foundation.Data) -> UIKit.UIImage?
   public class func gif(url: Swift.String) -> UIKit.UIImage?
   public class func gif(name: Swift.String) -> UIKit.UIImage?
@@ -428,10 +425,10 @@ public class FoundationSecurity {
   public init(allowSelfSigned: Swift.Bool = false)
   @objc deinit
 }
-extension FoundationSecurity : MatiSDK.CertificatePinning {
+extension MatiSDK.FoundationSecurity : MatiSDK.CertificatePinning {
   public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((MatiSDK.PinningState) -> ()))
 }
-extension FoundationSecurity : MatiSDK.HeaderValidator {
+extension MatiSDK.FoundationSecurity : MatiSDK.HeaderValidator {
   public func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> Swift.Error?
 }
 public protocol SocketLogger : AnyObject {
@@ -439,7 +436,7 @@ public protocol SocketLogger : AnyObject {
   func log(_ message: @autoclosure () -> Swift.String, type: Swift.String)
   func error(_ message: @autoclosure () -> Swift.String, type: Swift.String)
 }
-extension SocketLogger {
+extension MatiSDK.SocketLogger {
   public func log(_ message: @autoclosure () -> Swift.String, type: Swift.String)
   public func error(_ message: @autoclosure () -> Swift.String, type: Swift.String)
 }
@@ -455,13 +452,11 @@ public class WSCompression : MatiSDK.CompressionHandler {
   @objc final public func emit(_ event: Swift.String, with items: [Any])
   final public func emitWithAck(_ event: Swift.String, _ items: MatiSDK.SocketData...) -> MatiSDK.OnAckCallback
   @objc final public func emitWithAck(_ event: Swift.String, with items: [Any]) -> MatiSDK.OnAckCallback
-  @objc override dynamic public init()
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers final public class SocketRawAckView : ObjectiveC.NSObject {
   final public func with(_ items: MatiSDK.SocketData...)
   @objc final public func with(_ items: [Any])
-  @objc override dynamic public init()
   @objc deinit
 }
 public protocol SocketEnginePollable : MatiSDK.SocketEngineSpec {
@@ -474,7 +469,7 @@ public protocol SocketEnginePollable : MatiSDK.SocketEngineSpec {
   func sendPollMessage(_ message: Swift.String, withType type: MatiSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> ())?)
   func stopPolling()
 }
-extension SocketEnginePollable {
+extension MatiSDK.SocketEnginePollable {
   public func doPoll()
   public func sendPollMessage(_ message: Swift.String, withType type: MatiSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> ())? = nil)
   public func stopPolling()
@@ -563,12 +558,11 @@ extension SocketEnginePollable {
   open func parseEngineMessage(_ message: Swift.String)
   open func setConfigs(_ config: MatiSDK.SocketIOClientConfiguration)
   open func write(_ msg: Swift.String, withType type: MatiSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())? = nil)
-  @objc override dynamic public init()
 }
-extension SocketEngine {
+extension MatiSDK.SocketEngine {
   public func URLSession(session: Foundation.URLSession, didBecomeInvalidWithError error: Foundation.NSError?)
 }
-extension SocketEngine {
+extension MatiSDK.SocketEngine {
   public func didReceive(event: MatiSDK.WebSocketEvent, client _: MatiSDK.WebSocket)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Mati : ObjectiveC.NSObject {
@@ -652,7 +646,7 @@ public struct SocketPacket : Swift.CustomStringConvertible {
     get
   }
 }
-extension SocketPacket {
+extension MatiSDK.SocketPacket {
   public enum PacketType : Swift.Int {
     case connect
     case disconnect
@@ -721,7 +715,6 @@ extension SocketPacket {
   open func removeSocket(_ socket: MatiSDK.SocketIOClient) -> MatiSDK.SocketIOClient?
   open func setConfigs(_ config: MatiSDK.SocketIOClientConfiguration)
   open func socket(forNamespace nsp: Swift.String) -> MatiSDK.SocketIOClient
-  @objc override dynamic public init()
 }
 public enum FoundationTransportError : Swift.Error {
   case invalidRequest
@@ -744,7 +737,6 @@ public enum FoundationTransportError : Swift.Error {
   public func register(delegate: MatiSDK.TransportEventClient)
   public func write(data: Foundation.Data, completion: @escaping ((Swift.Error?) -> ()))
   @objc open func stream(_ aStream: Foundation.Stream, handle eventCode: Foundation.Stream.Event)
-  @objc override dynamic public init()
 }
 @objc public enum SocketEnginePacketType : Swift.Int {
   case open
@@ -799,7 +791,7 @@ public protocol HTTPServerHandler {
 }
 public struct URLParts {
 }
-extension URL {
+extension Foundation.URL {
   public var isTLSScheme: Swift.Bool {
     get
   }
@@ -906,7 +898,6 @@ public class ServerConnection : MatiSDK.Connection, MatiSDK.HTTPServerDelegate, 
   open func reconnect()
   open func removeAllHandlers()
   open func setReconnecting(reason: Swift.String)
-  @objc override dynamic public init()
 }
 public enum TCPTransportError : Swift.Error {
   case invalidRequest
@@ -948,7 +939,6 @@ public class NativeEngine : ObjectiveC.NSObject, MatiSDK.Engine, Foundation.URLS
   @objc override final public var description: Swift.String {
     @objc get
   }
-  @objc override dynamic public init()
   @objc deinit
 }
 public protocol EngineDelegate : AnyObject {
@@ -965,32 +955,32 @@ public protocol Engine {
 public protocol SocketData {
   func socketRepresentation() throws -> MatiSDK.SocketData
 }
-extension SocketData {
+extension MatiSDK.SocketData {
   public func socketRepresentation() -> MatiSDK.SocketData
 }
-extension Array : MatiSDK.SocketData {
+extension Swift.Array : MatiSDK.SocketData {
 }
-extension Bool : MatiSDK.SocketData {
+extension Swift.Bool : MatiSDK.SocketData {
 }
-extension Dictionary : MatiSDK.SocketData {
+extension Swift.Dictionary : MatiSDK.SocketData {
 }
-extension Double : MatiSDK.SocketData {
+extension Swift.Double : MatiSDK.SocketData {
 }
-extension Int : MatiSDK.SocketData {
+extension Swift.Int : MatiSDK.SocketData {
 }
-extension NSArray : MatiSDK.SocketData {
+extension Foundation.NSArray : MatiSDK.SocketData {
 }
-extension Data : MatiSDK.SocketData {
+extension Foundation.Data : MatiSDK.SocketData {
 }
-extension NSData : MatiSDK.SocketData {
+extension Foundation.NSData : MatiSDK.SocketData {
 }
-extension NSDictionary : MatiSDK.SocketData {
+extension Foundation.NSDictionary : MatiSDK.SocketData {
 }
-extension NSString : MatiSDK.SocketData {
+extension Foundation.NSString : MatiSDK.SocketData {
 }
-extension NSNull : MatiSDK.SocketData {
+extension Foundation.NSNull : MatiSDK.SocketData {
 }
-extension String : MatiSDK.SocketData {
+extension Swift.String : MatiSDK.SocketData {
 }
 public typealias AckCallback = ([Any]) -> ()
 public typealias NormalCallback = ([Any], MatiSDK.SocketAckEmitter) -> ()
@@ -1031,7 +1021,7 @@ public protocol SocketIOClientSpec : AnyObject {
   func removeAllHandlers()
   func setReconnecting(reason: Swift.String)
 }
-extension SocketIOClientSpec {
+extension MatiSDK.SocketIOClientSpec {
   public func didError(reason: Swift.String)
 }
 public enum SocketClientEvent : Swift.String {
@@ -1067,7 +1057,7 @@ public enum SocketParsableError : Swift.Error {
 public protocol SocketDataBufferable : AnyObject {
   var waitingPackets: [MatiSDK.SocketPacket] { get set }
 }
-extension SocketParsable where Self : MatiSDK.SocketDataBufferable, Self : MatiSDK.SocketManagerSpec {
+extension MatiSDK.SocketParsable where Self : MatiSDK.SocketDataBufferable, Self : MatiSDK.SocketManagerSpec {
   public func parseSocketMessage(_ message: Swift.String) -> MatiSDK.SocketPacket?
   public func parseBinaryData(_ data: Foundation.Data) -> MatiSDK.SocketPacket?
 }
