@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		O7kEN7Sr1dx+zKHb3L/zP4CwfVs=
+		Npl8DIDbrcEaHGH2tbaANKDV+q0=
 		</data>
 		<key>DocumentOverviewViewController.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		qHQwl2+D8C6q8DTuiPXWKoaljAU=
+		roaEeq5oWGYwWfrQ1TK5RRf+fhY=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>MFRootViewController.nib</key>
 		<data>
-		1G9IxZi0rzWn3j+8a8tgjPgoQjs=
+		rZTT/oUVP8nDDNHbAieJWccn0sc=
 		</data>
 		<key>MFSelfieCameraViewController.nib</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2UYFXIXSUnQfVtmrGzeYR+5wkYw=
+		TTc+P0jYYSSPj/tD3eE2qpqZhHM=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		2UYFXIXSUnQfVtmrGzeYR+5wkYw=
+		TTc+P0jYYSSPj/tD3eE2qpqZhHM=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sNdEnBpin/mjWI+5YOXGnP4ymKc=
+		Au0E1qE9Y+yaOYdtNxMBHz23WVA=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		sNdEnBpin/mjWI+5YOXGnP4ymKc=
+		Au0E1qE9Y+yaOYdtNxMBHz23WVA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -509,7 +509,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ztjkaKCPvyMJ8N96tn5JPg7nXRr3/LF0GAQPh9My4N4=
+			ZaZsIluO9VmbHUI5yJhMN8Qhq25iBAUXHjyiZ4nH7zk=
 			</data>
 		</dict>
 		<key>DocumentOverviewViewController.nib</key>
@@ -635,7 +635,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GyBJqRm/2CT8X1hn5gjbDxzl/z+QCuw0cxT+VsDw9A8=
+			2W22JGPNQTIQI1Kagw3IgZk7/sDigQOGkTDevhfgqd4=
 			</data>
 		</dict>
 		<key>MFSelfieCameraViewController.nib</key>
@@ -782,7 +782,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/DdCA5e351Qi6FXpDdcgkUirCHfHT4XCJ05JX4DTlPE=
+			CthMKAIkMyCKSz8dCza3QAcEGwvh9vU/X4YxG1a/5Wk=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -803,7 +803,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/DdCA5e351Qi6FXpDdcgkUirCHfHT4XCJ05JX4DTlPE=
+			CthMKAIkMyCKSz8dCza3QAcEGwvh9vU/X4YxG1a/5Wk=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -824,7 +824,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FepR7WPhaMdEjQaOA1oksjUleor/4mhO5AHcHMbUtWc=
+			Xm1z0G0c4Y4iac/trjujoKD+zJoxnCfNTYtqSBn+2TQ=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -845,7 +845,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FepR7WPhaMdEjQaOA1oksjUleor/4mhO5AHcHMbUtWc=
+			Xm1z0G0c4Y4iac/trjujoKD+zJoxnCfNTYtqSBn+2TQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

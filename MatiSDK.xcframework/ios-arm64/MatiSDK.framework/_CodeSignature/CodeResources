@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		6XCMtlFfRguXQVywDXHBLdn3jhI=
+		fTKk6UMeOFGWD7kwUsPaPsurk3k=
 		</data>
 		<key>DocumentOverviewViewController.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		DA8ftA9DIRTkFobz9D+TkZDitLE=
+		fRk3T53PKsKS5d379JJ2FRwEr6g=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>MFRootViewController.nib</key>
 		<data>
-		1G9IxZi0rzWn3j+8a8tgjPgoQjs=
+		rZTT/oUVP8nDDNHbAieJWccn0sc=
 		</data>
 		<key>MFSelfieCameraViewController.nib</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3zzMnIzYYXo8j2rXUNULtJFAIO8=
+		yd6enNZt3US9yCAJNsEwW82MKsg=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		3zzMnIzYYXo8j2rXUNULtJFAIO8=
+		yd6enNZt3US9yCAJNsEwW82MKsg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -485,7 +485,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4DXTAiNF1jaZBRm10v8bNMCpbjVZ655+zBXvv+gzVdc=
+			xwMzixz1UTwvl0mOaAFdikBtHpcnjUuK1vjyeoVOFWI=
 			</data>
 		</dict>
 		<key>DocumentOverviewViewController.nib</key>
@@ -611,7 +611,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GyBJqRm/2CT8X1hn5gjbDxzl/z+QCuw0cxT+VsDw9A8=
+			2W22JGPNQTIQI1Kagw3IgZk7/sDigQOGkTDevhfgqd4=
 			</data>
 		</dict>
 		<key>MFSelfieCameraViewController.nib</key>
@@ -758,7 +758,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePvD8cCUJkYmDsjyAMQ5191Oz8flYkSr9cqaItdazvY=
+			l53NQa38eSndbgowk+1JlfFSNF+V4zYfpOLrm/MRwIk=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -779,7 +779,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ePvD8cCUJkYmDsjyAMQ5191Oz8flYkSr9cqaItdazvY=
+			l53NQa38eSndbgowk+1JlfFSNF+V4zYfpOLrm/MRwIk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
