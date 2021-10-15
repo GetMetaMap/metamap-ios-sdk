@@ -9,6 +9,7 @@ import Foundation
 @_exported import MatiSDK
 import MobileCoreServices
 import Network
+import PDFKit
 import SafariServices
 import Swift
 import UIKit
@@ -568,6 +569,7 @@ extension MatiSDK.SocketEngine {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Mati : ObjectiveC.NSObject {
   @objc public static let shared: MatiSDK.Mati
   @objc public func showMatiFlow(clientId: Swift.String, flowId: Swift.String?, metadata: [Swift.String : Any]? = nil)
+  public func cleanUp()
   @objc deinit
 }
 public enum SocketIOVersion : Swift.Int {
