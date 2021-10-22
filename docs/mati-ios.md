@@ -18,6 +18,7 @@ You can go to GitHub and download the [Mati iOS demo app](https://github.com/Get
    Swift 5.0  
    
 SDK compiled size: ~10MB
+
 Source (in project files): 55MB
 
 ## Add the Mati SDK
