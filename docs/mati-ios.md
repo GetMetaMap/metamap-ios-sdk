@@ -203,25 +203,28 @@ extension ViewController: MatiButtonResultDelegate {
 
 ## Metadata Usage
 
-#### 0) Metadata – is used as an additional parameter for sending it to you via a webhook after passing verification and is also displayed in the verification on the dashboard
+Metadata is an additional optional parameter that you can receive using a webhook after passing verification. The metadata is also displayed in the verification on the [Dashboard](https://dashboard.getmati.com/).
 
-#### 1) You can use metadata to set specific parameters, including setting your default language and to hide language settings from users.
+### Metadata: Set the Language
+
+You can use metadata to set specific parameters, including setting your default language and to hide language settings from users.
 
 key: `fixedLanguage`
 value: locale code of language
 
 For instance, to set the language code for Spain to Spanish, we would set the `fixedLanguage` parameter to `es" `
 
-### Example: Set the Language Code for Spain
+#### Example: Set the Language Code for Spain
 
 **Swift**
 ```swift
 metadata: ["fixedLanguage": "es"]
 ```
+### Metadata: Set the Button Color
 
-#### 2) Or you can set color of main buttons in flow you want.
+You can use metadata to set the color of the main buttons in your flow.
 
-2.1)  Set the background color of button
+To set the background color of the button, use the following parameter:
 
 key: `buttonColor`
 value: hexColor
@@ -233,8 +236,7 @@ value: hexColor
 ```swift
 metadata: ["buttonColor": "#C0C8D1"]
 ```
-
-2.2) Set the title color of button
+To set the title color of the button:
 
 key: `buttonTextColor`
 value: hexColor
