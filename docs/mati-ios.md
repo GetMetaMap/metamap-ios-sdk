@@ -3,6 +3,7 @@ title: "iOS"
 excerpt: "Add the Mati button to your iOS app."
 slug: "mobile-sdks"
 category: 61141a8437375100442f3d20
+hidden: true
 ---
 # Mati iOS Usage Guide
 
