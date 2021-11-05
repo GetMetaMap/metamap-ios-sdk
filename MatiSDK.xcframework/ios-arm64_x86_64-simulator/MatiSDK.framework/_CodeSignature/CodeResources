@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		8RxfcfZqKSndNYyADBQGaWGqSuw=
+		NJQREikjphSHQOQfZ05Fejf5gOY=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		pc0kxh2xsBRKfBEb7SwobRWIoGY=
+		rYyqq/3wezDlqUCC2F6vemoV0mc=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gW0OyEspb/jJIaTU9yVLRt7YYGk=
+		bcpwer46B1TEaWfhwazF7x6hFKI=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		gW0OyEspb/jJIaTU9yVLRt7YYGk=
+		bcpwer46B1TEaWfhwazF7x6hFKI=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HObVHB/u3xTg97TgCgEiKlbFziE=
+		Ac71dY7RGKHXQr5UTB+JQxGRCxA=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		HObVHB/u3xTg97TgCgEiKlbFziE=
+		Ac71dY7RGKHXQr5UTB+JQxGRCxA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -509,7 +509,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GutiVARpHz6dWLHlRuw4JHBy8XKWsLr6Y3FlE39HhIM=
+			8+UP7rcRigYYoILRqpsoufzYd2TZmJtvUBJwKG9i8KI=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
@@ -782,7 +782,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cSHVMxUnnlTbRjfUIH73A+MSvayQBhEs6fNLS5F3F5U=
+			fvpeQeLDCZiHqzcbeXhUwkQM+v4JBdulmxQjHsFURE4=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -803,7 +803,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cSHVMxUnnlTbRjfUIH73A+MSvayQBhEs6fNLS5F3F5U=
+			fvpeQeLDCZiHqzcbeXhUwkQM+v4JBdulmxQjHsFURE4=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -824,7 +824,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kDT6RiiMRukw79clTjGHFYg7cysjAS+EgCbThS1lEOQ=
+			kbInj5eatfO4YAr9wcZX1rFbxdGCyqzft9byQfiUado=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -845,7 +845,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kDT6RiiMRukw79clTjGHFYg7cysjAS+EgCbThS1lEOQ=
+			kbInj5eatfO4YAr9wcZX1rFbxdGCyqzft9byQfiUado=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
