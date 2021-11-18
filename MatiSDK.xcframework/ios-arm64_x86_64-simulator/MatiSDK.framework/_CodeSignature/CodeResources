@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		vfgPsk8dXVbCyYBZNX69Nxzowa0=
+		/HYjgEpbATmwVnSX0Bo30Nkm9MU=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		mJrVobjEreexLSx0Oyiyv4PCXPc=
+		Tk339ZlNxckl0G718LXH1U6Wug8=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		mJrVobjEreexLSx0Oyiyv4PCXPc=
+		Tk339ZlNxckl0G718LXH1U6Wug8=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2CEOh9DXH4mR91jiSe3AJOzUpBE=
+		+cBXrMJBfAN7RJgcpXXBRgcchSU=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		2CEOh9DXH4mR91jiSe3AJOzUpBE=
+		+cBXrMJBfAN7RJgcpXXBRgcchSU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -509,7 +509,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sde+lL67/f2FcwuN1pog/GcAbumzhyNT1P7H6bciu7A=
+			3GwbjYXeG3OosQHh+2hVZnTuGMeA9nznbrvX1cNwmo0=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
@@ -782,7 +782,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HURTPY2+nJAoHsE/lK53cl60NM+0UWbTfGnBhqTdcu4=
+			o8kHBMkSwKF6irWe+fb5fEhc8Rd0dfDAKBCI8diNUPs=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -803,7 +803,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HURTPY2+nJAoHsE/lK53cl60NM+0UWbTfGnBhqTdcu4=
+			o8kHBMkSwKF6irWe+fb5fEhc8Rd0dfDAKBCI8diNUPs=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -824,7 +824,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SETb3tVdBLiUMO6Ism0uvrVbGqibqtGl71wokx2zicU=
+			QBat89hzQKGvrLXpRpHJUf6V0uQajcC95HbosJG3w/A=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -845,7 +845,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SETb3tVdBLiUMO6Ism0uvrVbGqibqtGl71wokx2zicU=
+			QBat89hzQKGvrLXpRpHJUf6V0uQajcC95HbosJG3w/A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
