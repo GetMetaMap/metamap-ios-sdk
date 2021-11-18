@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		zGDiMKX5H7I8l5nBcpzBkC/sh80=
+		R+cW22E0IlCQTGPZZJnIt9hniwk=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		VgWCsLQYxG29mruXQn33SbflxCk=
+		FNnzgoMfvQ4jpNuFR5NC+5Q+1q8=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		VgWCsLQYxG29mruXQn33SbflxCk=
+		FNnzgoMfvQ4jpNuFR5NC+5Q+1q8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -485,7 +485,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lc0BtNi7GDj6t9WV0oo18gzG2mLPIL0XJiuesN4+mx8=
+			rRbn0UaP57A8qA6gw63UouYRJfhNkIHQGrj/Th9VyfY=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
@@ -758,7 +758,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K2C1dnYyYsttU2TEnBs8Zh3jS1xv/Rrr921duxlHaoY=
+			B5IA7gQn52sdIHFP9wdkIK17k5U+UaGhzjwcBjTv4eA=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -779,7 +779,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K2C1dnYyYsttU2TEnBs8Zh3jS1xv/Rrr921duxlHaoY=
+			B5IA7gQn52sdIHFP9wdkIK17k5U+UaGhzjwcBjTv4eA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
