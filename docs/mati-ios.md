@@ -14,7 +14,7 @@ The following describes how to install and use the Mati iOS SDK for your applica
 You can go to GitHub and download the [Mati iOS demo app](https://github.com/GetMati/mati-mobile-examples/tree/main/swiftDemoApp(native))
 
 ## Requirements and size
-   iOS 11.4  
+   iOS 12+  
    Xcode 12.0  
    Swift 5.0  
    
