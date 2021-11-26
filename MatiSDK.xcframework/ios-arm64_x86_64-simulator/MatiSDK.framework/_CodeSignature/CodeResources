@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		To6Q6z5nSzTUJoTjFsgLcwpWRBo=
+		1pbWvUmErifB/sXHnbydDrPv5jo=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
-		o3SX0G3pYoOAWsgU2UT4WX8K4uc=
+		A9/qEmtgX0KyVdjv6KMzQ0xxet4=
 		</data>
 		<key>Headers/MatiSDK.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tDe8C3QxkNh7Xzt/n3gd8bHs/bs=
+		q1MYab6xxHka5v6U7iLtvuM/AVQ=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>MatiEmailCheckViewController.nib</key>
 		<data>
-		w7AQOGxbdQnHeKXiZilKPRPgyLw=
+		4TSMSHKBWqkK3neC6f5AqH9g+AQ=
 		</data>
 		<key>MatiGeoIPErrorViewController.nib</key>
 		<data>
@@ -138,11 +138,11 @@
 		</data>
 		<key>MatiSignatureViewController.nib</key>
 		<data>
-		2vVKafDwOykONQ+57B301xxjRPg=
+		4LwK2PrM84dR6TVqQcUXjVOTIGE=
 		</data>
 		<key>MatiSmsCheckViewController.nib</key>
 		<data>
-		SmMYao/FST0jQZHgKpcy+FwEqOM=
+		XRlXvZ0W/WRZNRR7E/OsvThRrdg=
 		</data>
 		<key>MatiSmsCodeViewController.nib</key>
 		<data>
@@ -158,51 +158,51 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gKzEmNOX+SDsxghK0L4XNDrJNH8=
+		aAuLXdEyJQ51h4qS0UwpMOIMrT8=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6wiDPAe4X9Kr1OdjfMtXIiOFNR4=
+		oJntuaJO41EnWFqo9jUYd09LROk=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F9skh5/vnU4w+1QjxK4Gpct0pRE=
+		qJV6fqQbwkG6sa+yUDJiy7D+rsQ=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		gKzEmNOX+SDsxghK0L4XNDrJNH8=
+		aAuLXdEyJQ51h4qS0UwpMOIMrT8=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		6wiDPAe4X9Kr1OdjfMtXIiOFNR4=
+		oJntuaJO41EnWFqo9jUYd09LROk=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		F9skh5/vnU4w+1QjxK4Gpct0pRE=
+		qJV6fqQbwkG6sa+yUDJiy7D+rsQ=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TXLSBQVnRu9av4kbLlstW1MlR/I=
+		7c1Zw38ABKQZ7J2fcFUQ4CtMAWU=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6vExB/L8Usdc82nnqytc0H7qVhk=
+		j99Os6G1WEfnrlGQATGz8m54cqc=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1w3b4cskyuhzW0MIX7Bx7j3mvjw=
+		oEXhQEwKUqewh/4ebLAZFEeWmSw=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		TXLSBQVnRu9av4kbLlstW1MlR/I=
+		7c1Zw38ABKQZ7J2fcFUQ4CtMAWU=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		6vExB/L8Usdc82nnqytc0H7qVhk=
+		j99Os6G1WEfnrlGQATGz8m54cqc=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		1w3b4cskyuhzW0MIX7Bx7j3mvjw=
+		oEXhQEwKUqewh/4ebLAZFEeWmSw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -509,14 +509,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eapypou/MJXmaZsMB2spappsHv/ewxLKwhSn0tEE4dI=
+			oHMddf17t6rtwknx87IN8Zk1iigphil3YUfm8T44af8=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xUlj9er8CLWsJNEObim1ayds3fW7t2oytR8Qt7jS6AA=
+			9Svdsi8y/yjO2FZfArxlkXOpE9+g6OJacMdA8Lx+lyM=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK.h</key>
@@ -684,7 +684,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+4fff4RpeuxFFy1moXTKDcz2blUFB/yNpbwXSPf7YU=
+			uVHE1JP12/GWLzR66bDWufAR6NFvHWSSoA3FZ/gKSKM=
 			</data>
 		</dict>
 		<key>MatiGeoIPErrorViewController.nib</key>
@@ -733,14 +733,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Q/39nl1ugLA3wvKy26JLEif1U799zFZ1oGi6NOT2ic=
+			FGdjQo8psY2ehBXCBpSJ6VL6Z03zSwFZUpdIQuvtZgw=
 			</data>
 		</dict>
 		<key>MatiSmsCheckViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uTzY08T2H6RmdVdTxP9uafaVDONRcap+8RHEtrmVmmQ=
+			xDyOdRmLXZJf6brVVHintpsQQAeIbCQR2Ui2XHP4SkU=
 			</data>
 		</dict>
 		<key>MatiSmsCodeViewController.nib</key>
@@ -768,84 +768,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uC8YgL1nwCTJyWhIAOzBlSxvafMV8bJwCJP//BT009k=
+			4O0gMvxfWtbcZcT71Bze2Y7kHgSBHRnNi+gi3SfcbHw=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5M5Ajri1+8g2r0PP5oQfOJCfctOLpOX5cqT203CkT9c=
+			qqRcEka9GzGmYQVI9EDeu4NeVScX6TpbuwmsY5X2Co0=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQUZjwTBLtQjUo7Q8iGbozVwXnVhPBsLi4ohgCuaqwk=
+			vLxpP4HbhuWw7f/UJZMxlANOATW5ceVT7WBDih2u8KE=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uC8YgL1nwCTJyWhIAOzBlSxvafMV8bJwCJP//BT009k=
+			4O0gMvxfWtbcZcT71Bze2Y7kHgSBHRnNi+gi3SfcbHw=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5M5Ajri1+8g2r0PP5oQfOJCfctOLpOX5cqT203CkT9c=
+			qqRcEka9GzGmYQVI9EDeu4NeVScX6TpbuwmsY5X2Co0=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VQUZjwTBLtQjUo7Q8iGbozVwXnVhPBsLi4ohgCuaqwk=
+			vLxpP4HbhuWw7f/UJZMxlANOATW5ceVT7WBDih2u8KE=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IkYDGXRurDgp1h/ySFIVMGCvhVbJy5LXPicuM2Hc6N8=
+			wKe9N+8nZwJ78TcegRzjf+ode11uyyVKYFx10kWrBXs=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lz7FWYDTFyz9y+KmAFFryrfWYMt1NJ3fHgacUMAXXec=
+			bZ2zgrWkRa38FZPxp6voMkuwZEu86Ch1X9HkfalZK1U=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Rh6HX0GPhWFHYGmmQUR4YTMx8khBfMZJghhknQDRMw=
+			PVtSyx6q7132RQPTkC+wALq/lgYUtL1eU4Yqpn0xXM4=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IkYDGXRurDgp1h/ySFIVMGCvhVbJy5LXPicuM2Hc6N8=
+			wKe9N+8nZwJ78TcegRzjf+ode11uyyVKYFx10kWrBXs=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lz7FWYDTFyz9y+KmAFFryrfWYMt1NJ3fHgacUMAXXec=
+			bZ2zgrWkRa38FZPxp6voMkuwZEu86Ch1X9HkfalZK1U=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Rh6HX0GPhWFHYGmmQUR4YTMx8khBfMZJghhknQDRMw=
+			PVtSyx6q7132RQPTkC+wALq/lgYUtL1eU4Yqpn0xXM4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
