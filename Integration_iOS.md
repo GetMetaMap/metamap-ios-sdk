@@ -128,7 +128,7 @@ Use the delegate functions below in order to handle the success / failure of eac
     }
     
 ### Requirements 
-   iOS 11.4  
+   iOS 12+ 
    Xcode 12.0  
    Swift 5.0  
    For Xcode 10 and below, use [Version 2.3.13](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.3.13)  
