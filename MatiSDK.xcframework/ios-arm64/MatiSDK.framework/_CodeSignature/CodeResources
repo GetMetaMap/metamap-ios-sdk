@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Lia2UFeWfE5EzjOpqDBL+9mHSYI=
+		+yILOsYysrKA7p4mf8c9ejFiY98=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NooC2Kk9SPYuCdc/j66VukMI5fg=
+		Ek57om4EDSeBd44lJ5V2PGTwLbw=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>MFCountryTableViewCell.nib</key>
 		<data>
-		mYSsnnRdb0Hhhi3jAOdnBIVRC0M=
+		34xA47onJnUVOtuR6NtrOupXHn8=
 		</data>
 		<key>MFDocumentListViewController.nib</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>MFRootViewController.nib</key>
 		<data>
-		LJssyW6t3nvTTCsm6D3ELXpGaBA=
+		Jxe+4J/LORGAkoZhfpicD4Z7TLY=
 		</data>
 		<key>MFSelfieCameraViewController.nib</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		SgxS8oFWVjnGEKSpenMyPcVE4/s=
+		YT7C9CcQ6HaJfyZeJpq2Mp3B3Lk=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		SgxS8oFWVjnGEKSpenMyPcVE4/s=
+		YT7C9CcQ6HaJfyZeJpq2Mp3B3Lk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -485,7 +485,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ofDNS5jGwyowg4o2sQxBe+KJUjM87dNuYv6q2o13iQ=
+			V+68jA4W3t/sslxxroZIhc+S1Wsy5MjpqnGMbn/hEV8=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
@@ -541,7 +541,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qbpZoum2tCrn5kpsi1aU6o18dHsxXFM98alWvb2LJKc=
+			VucSdHHMShBqYgHy3O8oghjKiDsoMCmTfwRPtxEWdeg=
 			</data>
 		</dict>
 		<key>MFDocumentListViewController.nib</key>
@@ -604,7 +604,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/7lCfh/aPhoTxW9HqSfXQZ4pGrXf5DwDx/GyNYudnDE=
+			OdQbIigWbQImHTO7xa0lQD8je63BdODPuw1u9y8f1O8=
 			</data>
 		</dict>
 		<key>MFSelfieCameraViewController.nib</key>
@@ -758,7 +758,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gmh3ufIWClLSFv8EwxteQxH+s2CaJOtQWHJawYjoRfk=
+			+sE0s4eKo1lGyv1hBwVUC7mtL6IxOrlpMEYhs0JE5IM=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -779,7 +779,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gmh3ufIWClLSFv8EwxteQxH+s2CaJOtQWHJawYjoRfk=
+			+sE0s4eKo1lGyv1hBwVUC7mtL6IxOrlpMEYhs0JE5IM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
