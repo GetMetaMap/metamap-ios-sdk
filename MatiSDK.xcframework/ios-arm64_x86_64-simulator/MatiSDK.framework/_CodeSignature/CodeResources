@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+yILOsYysrKA7p4mf8c9ejFiY98=
+		YGS4+r0SJyi5YRAdtynOSJsKQKg=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>MFRootViewController.nib</key>
 		<data>
-		Jxe+4J/LORGAkoZhfpicD4Z7TLY=
+		ovJLyxS7Wwz+O7qqu6/P7KVCg+Q=
 		</data>
 		<key>MFSelfieCameraViewController.nib</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		FwenBjAIozQuuyZLzdTJbvRRhsE=
+		3wVIVRjCcUKOR/hIRGMP0phwCxA=
 		</data>
 		<key>PrivateHeaders/PrivateSentrySDKOnly.h</key>
 		<data>
@@ -227,6 +227,10 @@
 		<key>PrivateHeaders/SentryAttachment.h</key>
 		<data>
 		mLXuGCPGTr++asjVhFyVK/CI0ik=
+		</data>
+		<key>PrivateHeaders/SentryAutoBreadcrumbTrackingIntegration.h</key>
+		<data>
+		6ws9KxhOnuIoV1THIeUasoJGtuc=
 		</data>
 		<key>PrivateHeaders/SentryBreadcrumb.h</key>
 		<data>
@@ -426,7 +430,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aR6GhVT2mlJ1zzFOY18/owXqmh4=
+			ZVHoE0aVZoxs3MR38Z8NywWwNKw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -509,7 +513,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V+68jA4W3t/sslxxroZIhc+S1Wsy5MjpqnGMbn/hEV8=
+			4K5Sgs6+vB1KF1qDptJK8Ttb2jyASRwqCZPh5b/N32w=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
@@ -628,7 +632,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OdQbIigWbQImHTO7xa0lQD8je63BdODPuw1u9y8f1O8=
+			HPGcdq5KlBfjbH0oMM/HdX0+IT+ieb90uZeRLGyI3v8=
 			</data>
 		</dict>
 		<key>MFSelfieCameraViewController.nib</key>
@@ -852,7 +856,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3nDuDZPc62XLLhLgjJKymMX/TDqXevpkuQZVu20+nuI=
+			4i76KN4UDByPs+OCh8wMZ6XKWY5HGyC+J1LuJprXQGo=
 			</data>
 		</dict>
 		<key>PrivateHeaders/PrivateSentrySDKOnly.h</key>
@@ -888,6 +892,13 @@
 			<key>hash2</key>
 			<data>
 			Pco0cvnAlbgtMYpNKy1xgF5UyVIXbbwuwA4cylX3Wsc=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SentryAutoBreadcrumbTrackingIntegration.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a/gV3Tux0O0q7wW6nt+hAY8WxkBFg13H+EcfbBpH0Og=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryBreadcrumb.h</key>
@@ -1220,7 +1231,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jJRBiXudMsbkcOsfaP92H9MeZVYTqQO+U552vSn4bS4=
+			hbp2IxxUrz8U/tSXffurPdMjaBuVxZ9B/26LilTdAqA=
 			</data>
 			<key>optional</key>
 			<true/>
