@@ -55,6 +55,7 @@ framework module MatiSDK {
     private header "SentryAppStartMeasurement.h"
     private header "SentryScreenFrames.h"
     private header "SentryTraceHeader.h"
+    private header "SentryAutoBreadcrumbTrackingIntegration.h"
 
     export *
     module * { export * }
