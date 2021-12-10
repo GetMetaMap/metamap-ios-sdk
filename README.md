@@ -1,6 +1,6 @@
-# Mati iOS SDK Usage Guide
+# Metamap iOS SDK Usage Guide
 
 
-The Mati iOS SDK usage guide can be found in the following location:
+The Metamap iOS SDK usage guide can be found in the following location:
 
-* [Mati iOS Usage Guide](docs/mati-ios.md)
+* [Metamap iOS Usage Guide](docs/metamap-ios.md)

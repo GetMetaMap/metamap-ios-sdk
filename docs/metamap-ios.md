@@ -1,30 +1,30 @@
 ---
 title: "iOS"
-excerpt: "Add the Mati button to your iOS app."
+excerpt: "Add the Metamap button to your iOS app."
 slug: "mobile-sdks"
 category: 61141a8437375100442f3d20
 hidden: true
 ---
-# Mati iOS Usage Guide
+# Metamap iOS Usage Guide
 
-The following describes how to install and use the Mati iOS SDK for your application.
+The following describes how to install and use the Metamap iOS SDK for your application.
 
 ## iOS Demo App
 
-You can go to GitHub and download the [Mati iOS demo app](https://github.com/GetMati/mati-mobile-examples/tree/main/swiftDemoApp(native))
+You can go to GitHub and download the [Metamap iOS demo app](https://github.com/GetMati/mati-mobile-examples/tree/main/swiftDemoApp(native))
 
 ## Requirements and size
    iOS 12+  
    Xcode 12.0  
    Swift 5.0  
-   
+
 SDK compiled size: ~10MB
 
 Source (in project files): 55MB
 
-## Add the Mati SDK
+## Add the Metamap SDK
 <!--
-There are two ways to add the Mati SDK for iOS:
+There are two ways to add the Metamap SDK for iOS:
 * [Using CocoaPods](#install-using-cocoapods)
 * [Using the Swift Package Manager](#install-using-spm)
 -->
@@ -46,14 +46,14 @@ _**Note**_ The following dependencies will be automatically installed with the p
 
 <!-- ### Download from GitHub
 
-Download the Mati framework directly from GitHub and add it to your project with all necessary dependencies.
+Download the Metamap framework directly from GitHub and add it to your project with all necessary dependencies.
 
 _**IMPORTANT**_ The `Mati-Global-ID-SDK` requires the following dependencies:
 
 * Starscream
 * SocketIO
 
-_**Note**_ Check that you've added the [Mati framework](https://github.com/GetMati/mati-ios-sdk/tree/master/MatiSDK.xcframework).
+_**Note**_ Check that you've added the [Metamap framework](https://github.com/GetMati/mati-ios-sdk/tree/master/MatiSDK.xcframework).
 
 
 
@@ -61,12 +61,12 @@ _**Note**_ Check that you've added the [Mati framework](https://github.com/GetMa
 -->
 
 
-## Implement Mati in Your App
+## Implement Metamap in Your App
 
-Add the Mati button to your App.
+Add the Metamap button to your App.
 
-* [Swift](#mati-button-swift)
-* [Objective-C](#mati-button-objc)
+* [Swift](#metamap-button-swift)
+* [Objective-C](#metamap-button-objc)
 
 _**IMPORTANT**_ **`Info.plist`**
 Add the following permissions to capture video, access the photo gallery, and access the microphone for the voiceliveness feature.
@@ -92,7 +92,7 @@ Set the following parameters for your application:
 
 
 
-_**Note**_ Be sure to initialize the Mati button before use.
+_**Note**_ Be sure to initialize the Metamap button before use.
 
 <a id="mati-button-swift"></a> **Swift**
 
@@ -243,7 +243,7 @@ key: `buttonTextColor`
 value: hexColor
 
 
-### Example 
+### Example
 
 **Swift**
 ```swift
