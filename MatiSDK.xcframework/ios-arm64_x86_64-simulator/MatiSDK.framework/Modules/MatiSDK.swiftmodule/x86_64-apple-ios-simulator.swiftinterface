@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MatiSDK
 import AVFoundation
 import CommonCrypto
@@ -16,12 +16,12 @@ import UIKit
 import _Concurrency
 import zlib
 @objc public protocol MatiButtonResultDelegate {
-  @objc func verificationSuccess(identityId: Swift.String)
+  @objc func verificationSuccess(identityId: Swift.String?, verificationID: Swift.String?)
   @objc func verificationCancelled()
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MatiButtonResult : ObjectiveC.NSObject {
   @objc weak public var delegate: MatiSDK.MatiButtonResultDelegate?
-  @objc public static let shared: MatiSDK.MatiButtonResult
+  @objc public static var shared: MatiSDK.MatiButtonResult
   @objc deinit
 }
 public enum CloseCode : Swift.UInt16 {
@@ -113,11 +113,11 @@ public struct SocketIOClientConfiguration : Swift.ExpressibleByArrayLiteral, Swi
   }
   public subscript(position: MatiSDK.SocketIOClientConfiguration.Index) -> MatiSDK.SocketIOClientConfiguration.Element {
     get
-    set
+    set(newValue)
   }
   public subscript(bounds: Swift.Range<MatiSDK.SocketIOClientConfiguration.Index>) -> MatiSDK.SocketIOClientConfiguration.SubSequence {
     get
-    set
+    set(newValue)
   }
   public init(arrayLiteral elements: MatiSDK.SocketIOClientConfiguration.Element...)
   public func makeIterator() -> MatiSDK.SocketIOClientConfiguration.Iterator
@@ -148,15 +148,15 @@ public class WSEngine : MatiSDK.Engine, MatiSDK.TransportEventClient, MatiSDK.Fr
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class MatiButton : UIKit.UIButton {
   @objc @_Concurrency.MainActor(unsafe) public var title: Swift.String? {
     @objc get
-    @objc set
+    @objc set(value)
   }
   @objc @_Concurrency.MainActor(unsafe) public var buttonColor: UIKit.UIColor? {
     @objc get
-    @objc set
+    @objc set(value)
   }
   @objc @_Concurrency.MainActor(unsafe) public var textColor: UIKit.UIColor? {
     @objc get
-    @objc set
+    @objc set(value)
   }
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc dynamic public init()
@@ -238,10 +238,10 @@ open class WebSocket : MatiSDK.WebSocketClient, MatiSDK.EngineDelegate {
   public var callbackQueue: Dispatch.DispatchQueue
   public var respondToPingWithPong: Swift.Bool {
     get
-    set
+    set(newValue)
   }
   public init(request: Foundation.URLRequest, engine: MatiSDK.Engine)
-  convenience public init(request: Foundation.URLRequest, certPinner: MatiSDK.CertificatePinning? = FoundationSecurity(), compressionHandler: MatiSDK.CompressionHandler? = nil, useCustomEngine: Swift.Bool = true)
+  public convenience init(request: Foundation.URLRequest, certPinner: MatiSDK.CertificatePinning? = FoundationSecurity(), compressionHandler: MatiSDK.CompressionHandler? = nil, useCustomEngine: Swift.Bool = true)
   public func connect()
   public func disconnect(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceDisconnect()
@@ -479,7 +479,7 @@ extension MatiSDK.SocketEnginePollable {
   final public let engineQueue: Dispatch.DispatchQueue
   public var connectParams: [Swift.String : Any]? {
     get
-    set
+    set(value)
   }
   public var extraHeaders: [Swift.String : Swift.String]?
   public var postWait: [MatiSDK.Post]
@@ -548,7 +548,7 @@ extension MatiSDK.SocketEnginePollable {
   }
   weak public var client: MatiSDK.SocketEngineClient?
   public init(client: MatiSDK.SocketEngineClient, url: Foundation.URL, config: MatiSDK.SocketIOClientConfiguration)
-  required convenience public init(client: MatiSDK.SocketEngineClient, url: Foundation.URL, options: [Swift.String : Any]?)
+  required public convenience init(client: MatiSDK.SocketEngineClient, url: Foundation.URL, options: [Swift.String : Any]?)
   @objc deinit
   open func connect()
   open func didError(reason: Swift.String)
@@ -567,7 +567,7 @@ extension MatiSDK.SocketEngine {
   public func didReceive(event: MatiSDK.WebSocketEvent, client _: MatiSDK.WebSocket)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class Mati : ObjectiveC.NSObject {
-  @objc public static let shared: MatiSDK.Mati
+  @objc public static var shared: MatiSDK.Mati
   @objc public func showMatiFlow(clientId: Swift.String, flowId: Swift.String?, metadata: [Swift.String : Any]? = nil)
   public func cleanUp()
   @objc deinit
@@ -674,7 +674,7 @@ extension MatiSDK.SocketPacket {
   final public let socketURL: Foundation.URL
   public var config: MatiSDK.SocketIOClientConfiguration {
     get
-    set
+    set(newValue)
   }
   public var engine: MatiSDK.SocketEngineSpec?
   public var forceNew: Swift.Bool
@@ -692,7 +692,7 @@ extension MatiSDK.SocketPacket {
   }
   public var waitingPackets: [MatiSDK.SocketPacket]
   public init(socketURL: Foundation.URL, config: MatiSDK.SocketIOClientConfiguration = [])
-  @objc convenience public init(socketURL: Foundation.URL, config: [Swift.String : Any]?)
+  @objc public convenience init(socketURL: Foundation.URL, config: [Swift.String : Any]?)
   @objc deinit
   open func connect()
   open func connectSocket(_ socket: MatiSDK.SocketIOClient, withPayload payload: [Swift.String : Any]? = nil)
@@ -1082,44 +1082,5 @@ public protocol CertificatePinning : AnyObject {
 public protocol HeaderValidator : AnyObject {
   func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> Swift.Error?
 }
-extension MatiSDK.CloseCode : Swift.Equatable {}
-extension MatiSDK.CloseCode : Swift.Hashable {}
-extension MatiSDK.CloseCode : Swift.RawRepresentable {}
-extension MatiSDK.FrameOpCode : Swift.Equatable {}
-extension MatiSDK.FrameOpCode : Swift.Hashable {}
-extension MatiSDK.FrameOpCode : Swift.RawRepresentable {}
-extension MatiSDK.ErrorType : Swift.Equatable {}
-extension MatiSDK.ErrorType : Swift.Hashable {}
-extension MatiSDK.SocketAckStatus : Swift.Equatable {}
-extension MatiSDK.SocketAckStatus : Swift.Hashable {}
-extension MatiSDK.SocketAckStatus : Swift.RawRepresentable {}
-extension MatiSDK.SocketIOStatus : Swift.Equatable {}
-extension MatiSDK.SocketIOStatus : Swift.Hashable {}
-extension MatiSDK.SocketIOStatus : Swift.RawRepresentable {}
-extension MatiSDK.FoundationSecurityError : Swift.Equatable {}
-extension MatiSDK.FoundationSecurityError : Swift.Hashable {}
-extension MatiSDK.SocketIOVersion : Swift.Equatable {}
-extension MatiSDK.SocketIOVersion : Swift.Hashable {}
-extension MatiSDK.SocketIOVersion : Swift.RawRepresentable {}
 extension MatiSDK.SocketIOClientOption : Swift.Equatable {}
 extension MatiSDK.SocketIOClientOption : Swift.CustomStringConvertible {}
-extension MatiSDK.SocketPacket.PacketType : Swift.Equatable {}
-extension MatiSDK.SocketPacket.PacketType : Swift.Hashable {}
-extension MatiSDK.SocketPacket.PacketType : Swift.RawRepresentable {}
-extension MatiSDK.FoundationTransportError : Swift.Equatable {}
-extension MatiSDK.FoundationTransportError : Swift.Hashable {}
-extension MatiSDK.SocketEnginePacketType : Swift.Equatable {}
-extension MatiSDK.SocketEnginePacketType : Swift.Hashable {}
-extension MatiSDK.SocketEnginePacketType : Swift.RawRepresentable {}
-extension MatiSDK.CodeType : Swift.Equatable {}
-extension MatiSDK.CodeType : Swift.Hashable {}
-extension MatiSDK.TCPTransportError : Swift.Equatable {}
-extension MatiSDK.TCPTransportError : Swift.Hashable {}
-extension MatiSDK.SocketClientEvent : Swift.Equatable {}
-extension MatiSDK.SocketClientEvent : Swift.Hashable {}
-extension MatiSDK.SocketClientEvent : Swift.RawRepresentable {}
-extension MatiSDK.SocketParsableError : Swift.Equatable {}
-extension MatiSDK.SocketParsableError : Swift.Hashable {}
-extension MatiSDK.SecurityErrorCode : Swift.Equatable {}
-extension MatiSDK.SecurityErrorCode : Swift.Hashable {}
-extension MatiSDK.SecurityErrorCode : Swift.RawRepresentable {}
