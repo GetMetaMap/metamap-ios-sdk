@@ -137,7 +137,7 @@ class ViewController: UIViewController {
 //MARK: MatiButtonResultDelegate
 extension ViewController: MatiButtonResultDelegate {
 
-	func verificationSuccess(identityId: String) {
+    func verificationSuccess(identityId: String?, verificationID: String?) {
 		print("Mati Verification Success \(identityId)")
 	}
 
@@ -188,8 +188,8 @@ extension ViewController: MatiButtonResultDelegate {
 	}
 
     #pragma mark - MatiButtonResultDelegate
-
-      -(void)verificationSuccessWithIdentityId:(NSString *)identityId {
+    
+      -(void)verificationSuccessWithIdentityId:(NSString *)identityId, verificationID(NSString *) {
           NSLog(@"Success: $@", identityId);
       }
 
