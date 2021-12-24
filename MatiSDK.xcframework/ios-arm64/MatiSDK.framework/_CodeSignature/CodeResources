@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		oOxh93iInTjgWdHWY9uJjEVYXt0=
+		lqxIw68lEJ+uYhHMN+4QvL/nWxQ=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
-		GNsv1IYPF7EKhoxXLa40n4u+Os8=
+		Cn6K+r2vWhaftWikrAakhabIzVU=
 		</data>
 		<key>Headers/MatiSDK.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		juNRTXBCB8E1LC3Cjv7Js1ARDh4=
+		zurJVRt7nH2OqxhBn8M9+xiG8Fw=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>MFSelfieCameraViewController.nib</key>
 		<data>
-		DezdyHYH6u8y47pj73IOwshgpkY=
+		lqCRFNkDGaB6zxTYXMk5QxibIMU=
 		</data>
 		<key>MFSelfieTutorialViewController.nib</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		X3xVHAxHgVU4NCmMH7tuuHwVGEI=
+		vbXTBzOvV3zksJRL6HSqwcvom2I=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		xfbwh41Zo59ye82x1VmU4/vW6TM=
+		oYEsUOIg2Eh72LHYTkO2/yW8viI=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -174,11 +174,11 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		X3xVHAxHgVU4NCmMH7tuuHwVGEI=
+		vbXTBzOvV3zksJRL6HSqwcvom2I=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		xfbwh41Zo59ye82x1VmU4/vW6TM=
+		oYEsUOIg2Eh72LHYTkO2/yW8viI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -382,7 +382,7 @@
 		</data>
 		<key>VoiceLivenessScreen.nib</key>
 		<data>
-		jjTxLnRiFJzsMZqAhibbQGswVf8=
+		IGc90V+X1g/4hE8wqo9N0eWgzIc=
 		</data>
 		<key>de.lproj/Localizable.strings</key>
 		<dict>
@@ -489,14 +489,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			h9bFf6epPsk5Z43VbMM/gRMya5RoXec4xey+UUEaq5o=
+			fQ0RJgYdP5bqMKrkMp7cnJ/Q2rM42Qy7rHb7hueiCc0=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7pH4E7220dbh/FQD2H5PwzipuuD0Tr84DpNRs6VLeDk=
+			qBPbCglJpUAdmx4jKMlkmKOFL38Z18Og7cazWYIX2fc=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK.h</key>
@@ -615,7 +615,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aRWEsHKs8M4CkMFX01yGJupqQCTFB48wvPODEJNM5rg=
+			7z/8cDI3/JowOixYH9yj3yifaTwo4qxiAnRYL59u6Ck=
 			</data>
 		</dict>
 		<key>MFSelfieTutorialViewController.nib</key>
@@ -755,14 +755,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ADFh5+AnvW9RyTnD2FU3mvkbmUQmFRkbI9l5hmzYR+A=
+			JRZ4Eu5zb1FaCwAEqLYyUwFFVgOiIa1YK9MnjJ1T8wM=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F2X1ZbBEabbwyvkEH3VnOlkWZ+b2bmfES9rp6r3SCHs=
+			cyykBQn6RXG4qI5pzYufwiMn9l850Y7R70jGj9dlPc4=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -776,14 +776,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ADFh5+AnvW9RyTnD2FU3mvkbmUQmFRkbI9l5hmzYR+A=
+			JRZ4Eu5zb1FaCwAEqLYyUwFFVgOiIa1YK9MnjJ1T8wM=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F2X1ZbBEabbwyvkEH3VnOlkWZ+b2bmfES9rp6r3SCHs=
+			cyykBQn6RXG4qI5pzYufwiMn9l850Y7R70jGj9dlPc4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1140,7 +1140,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KqJCd1vwfXuB0TPqFHKXSYdN/T6jzO3lITS82+1Wwcc=
+			YL2NZXiXh/bNupfBqS9kfLRcx+9rx3QVm4CAzdUvHRM=
 			</data>
 		</dict>
 		<key>de.lproj/Localizable.strings</key>
