@@ -315,6 +315,19 @@ public protocol SocketEngineWebsocket : MatiSDK.SocketEngineSpec {
 extension MatiSDK.SocketEngineWebsocket {
   public func sendWebSocketMessage(_ str: Swift.String, withType type: MatiSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())?)
 }
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class TransparentNavigationController : UIKit.UINavigationController {
+  @_Concurrency.MainActor(unsafe) public var statusBarStyle: UIKit.UIStatusBarStyle
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @available(iOS 5.0, *)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
 public enum ConnectionState {
   case connected
   case waiting
