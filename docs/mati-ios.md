@@ -148,30 +148,12 @@ extension ViewController: MatiButtonResultDelegate {
 ```
 
 
-<a id="mati-button-objc"></a>**SWIFTUI**
+<a id="mati-button-objc"></a>**SwiftUI**
 ```swiftUI
 
-import UIKit
-import MatiSDK
 import SwiftUI
-
-// Mati button
-
-struct ContentView: View {
-    var body: some View {
-        MatiContentView(clientId: "YOUR_CLIENT_ID",
-                        flowId: YOUR_FLOW_ID,
-                        metaData: ["key1": "value1", "key2": 123]) 
-//MARK: MatiDelegateObserver
-        { identityId, verificationId in
-            print("\(identityId), \(verificationId)")
-        } cancelled: {
-            print("cancelled")
-        }
-    }
-}
-
-//Custom button
+import MatiSDK
+import UIKit
 
 struct ContentView: View {
     var body: some View {
@@ -186,12 +168,52 @@ struct ContentView: View {
                 HStack {
                     Button(action: {
                         Mati.shared.showMatiFlow(clientId: "YOUR_CLIENT_ID", flowId: "YOUR_FLOW_ID", metadata: ["key1": "value1", "key2": 123])
-                    })
+                    }) {
+                        Text("press me")
+                    }
                 }
             }
         }
     }
 }
+
+struct MatiDelegateObserver: UIViewControllerRepresentable {
+    let vc = MatiViewController()
+    public func makeUIViewController(context: Context) -> MatiViewController {
+        return vc
+    }
+    
+    public func updateUIViewController(_ uiViewController: MatiViewController, context: Context) {}
+    
+    var success: (_ identityId: String?, _ verificationId: String?) -> Void
+    var cancelled: () -> Void
+    
+    public func makeCoordinator() -> Coordinator {
+        Coordinator(success: success, cancelled: cancelled)
+    }
+    
+    public  class Coordinator: NSObject, MatiButtonResultDelegate {
+        public  func verificationSuccess(identityId: String?, verificationID: String?) {
+            success(identityId, verificationID)
+        }
+        
+        public  func verificationCancelled() {
+            cancelled()
+        }
+        
+        var success: (_ identityId: String?, _ verificationId: String?) -> Void
+        var cancelled: () -> Void
+        
+        init(success: @escaping (_ identityId: String?, _ verificationId: String?) -> Void, cancelled: @escaping () -> Void) {
+            self.success = success
+            self.cancelled = cancelled
+            super.init()
+            MatiButtonResult.shared.delegate = self
+        }
+    }
+}
+
+class MatiViewController: UIViewController {}
 ```
 
 <a id="mati-button-objc"></a>**Objective-C**
