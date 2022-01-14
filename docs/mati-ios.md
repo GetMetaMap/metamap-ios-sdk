@@ -148,7 +148,7 @@ extension ViewController: MatiButtonResultDelegate {
 ```
 
 <a id="mati-button-objc"></a>**SwiftUI**
-```swift
+```swiftUI
 
 import SwiftUI
 import MatiSDK
