@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Hrmb1y1KuYN0TwDuEEhMCr7gYDY=
+		UFFY9O354X32ckZ5BSnmDhIlgD0=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		T0vxW9OTCubBf/v8NgPD7P3tn6E=
+		EY4rqpGy0mscUn46nBUQXdN1nVI=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		K6z/tjqDGXIZIoI3uWCrK32kLWQ=
+		OaZKvKizOQ8e73xRmlx08OxlVvg=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1LgD7Vu6t9qqtd5buP3LZPNgqdE=
+		qC4aLLWtVDbrBIjewnx6K+5E1zU=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -174,11 +174,11 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		K6z/tjqDGXIZIoI3uWCrK32kLWQ=
+		OaZKvKizOQ8e73xRmlx08OxlVvg=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		1LgD7Vu6t9qqtd5buP3LZPNgqdE=
+		qC4aLLWtVDbrBIjewnx6K+5E1zU=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -186,11 +186,11 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QuGeGluhTjVAjASe/88TmRBCXfk=
+		4PLFE8piIh0v0cyU8ii+yoa6Unc=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oSxUtwQnwA9P17QNc8QfA6i8Ok0=
+		qnPplzdaW1/OX2I8DGREMNvbhgE=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -198,11 +198,11 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		QuGeGluhTjVAjASe/88TmRBCXfk=
+		4PLFE8piIh0v0cyU8ii+yoa6Unc=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		oSxUtwQnwA9P17QNc8QfA6i8Ok0=
+		qnPplzdaW1/OX2I8DGREMNvbhgE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -513,7 +513,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a+36LVFHnCjm+jl+RjB/kjyZYS4qFGFlKzV3UjqCq58=
+			lPgoFWK2wnQUJVI7nwrvKGpIYk9At9Q8dY8ESlfYCvc=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
@@ -779,14 +779,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UfFtyKV/1XYAVckr1MnpRgEzuKYBKZeTTX47/ZjpUeU=
+			O+3D7bVqVk8fdBJVFdhlxyS9YekvqHatusvXvJU488M=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xuGs6w1pr4DXzgX0ekxASHpbY9MxMm2wDfVIiC/NBn8=
+			yvCzmSlW4GlvWcCV92rVLZtN9rd39xVr4F09k6S4P28=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -800,14 +800,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UfFtyKV/1XYAVckr1MnpRgEzuKYBKZeTTX47/ZjpUeU=
+			O+3D7bVqVk8fdBJVFdhlxyS9YekvqHatusvXvJU488M=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xuGs6w1pr4DXzgX0ekxASHpbY9MxMm2wDfVIiC/NBn8=
+			yvCzmSlW4GlvWcCV92rVLZtN9rd39xVr4F09k6S4P28=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -821,14 +821,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cqxKvTzC/+TTLknVCfPWakGq44PfkbtGHaC4v5FH1Dk=
+			r6iAnRdrx/uu1fUne8Jto79TWIZk19B7suROEUKb9fk=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vZCmzdGbyAYpHRUVoNyazCGD37JNsOV3UukD9T+KJJs=
+			dMlab17RrVaXDIt1oyPO/VMS+DVLghiFWL7nwuO9bUU=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -842,14 +842,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cqxKvTzC/+TTLknVCfPWakGq44PfkbtGHaC4v5FH1Dk=
+			r6iAnRdrx/uu1fUne8Jto79TWIZk19B7suROEUKb9fk=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vZCmzdGbyAYpHRUVoNyazCGD37JNsOV3UukD9T+KJJs=
+			dMlab17RrVaXDIt1oyPO/VMS+DVLghiFWL7nwuO9bUU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

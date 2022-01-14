@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		CjoOGYScSx4wQXkRDmWCYEVtZrc=
+		Hrmb1y1KuYN0TwDuEEhMCr7gYDY=
 		</data>
 		<key>Headers/MatiSDK-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		LuNlz8Jdve3xOH55SIZB+X3huBE=
+		wSNXoHzkFEY+4DyRm/rc2skY7i0=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ZIfmbK8/JT2Kh5fyYF8AZTbkjco=
+		MKEGfdkyuNCMihRF1jcG2Q89jIc=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		EnaESAFGoKF8kiSszh6l7ufEIek=
+		n+pYaEww7ntArqEFzGF4AWXc0bA=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -174,11 +174,11 @@
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		ZIfmbK8/JT2Kh5fyYF8AZTbkjco=
+		MKEGfdkyuNCMihRF1jcG2Q89jIc=
 		</data>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		EnaESAFGoKF8kiSszh6l7ufEIek=
+		n+pYaEww7ntArqEFzGF4AWXc0bA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -489,7 +489,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a/LseN0Yma3SNeP+e3IehSogQOWP8SoACX8t8RsQxJA=
+			a+36LVFHnCjm+jl+RjB/kjyZYS4qFGFlKzV3UjqCq58=
 			</data>
 		</dict>
 		<key>Headers/MatiSDK-Swift.h</key>
@@ -755,14 +755,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NsRE9mo+o9g6JAIXBE46Zmn/h9He6QgksmScJ8gbAL4=
+			X5UJS+6sJ/brc0q1Sdyi309Er51xK3U/h70cfY+T3zE=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O+QU0Q0lq1a5QqNbEURCzKaGR77JYySYLxBzjhbtoO8=
+			zSeEZGiBOI+7w9v4J3Vy9V+f4QaA29GHQPzPuAO8wVM=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftdoc</key>
@@ -776,14 +776,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NsRE9mo+o9g6JAIXBE46Zmn/h9He6QgksmScJ8gbAL4=
+			X5UJS+6sJ/brc0q1Sdyi309Er51xK3U/h70cfY+T3zE=
 			</data>
 		</dict>
 		<key>Modules/MatiSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O+QU0Q0lq1a5QqNbEURCzKaGR77JYySYLxBzjhbtoO8=
+			zSeEZGiBOI+7w9v4J3Vy9V+f4QaA29GHQPzPuAO8wVM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -363,6 +363,11 @@ extension UIKit.UIImage {
   @objc deinit
 }
 public struct MatiContentView : SwiftUI.View {
+  public var clientId: Swift.String
+  public var flowId: Swift.String
+  public var metaData: [Swift.String : Swift.String]?
+  public var success: (_ identityId: Swift.String?, _ verificationId: Swift.String?) -> Swift.Void
+  public var cancelled: () -> Swift.Void
   @available(iOS 13.0.0, *)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
