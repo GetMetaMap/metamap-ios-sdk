@@ -12,7 +12,6 @@ import Network
 import PDFKit
 import SafariServices
 import Swift
-import SwiftUI
 import UIKit
 import _Concurrency
 import zlib
@@ -361,18 +360,6 @@ extension UIKit.UIImage {
   public func createResponse(headers: [Swift.String : Swift.String]) -> Foundation.Data
   public func parse(data: Foundation.Data)
   @objc deinit
-}
-public struct MatiContentView : SwiftUI.View {
-  public var clientId: Swift.String
-  public var flowId: Swift.String
-  public var metaData: [Swift.String : Swift.String]?
-  public var success: (_ identityId: Swift.String?, _ verificationId: Swift.String?) -> Swift.Void
-  public var cancelled: () -> Swift.Void
-  @available(iOS 13.0.0, *)
-  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s7MatiSDK0A11ContentViewV4bodyQrvp", 0) __
 }
 public protocol CompressionHandler {
   func load(headers: [Swift.String : Swift.String])
@@ -959,23 +946,6 @@ public class NativeEngine : ObjectiveC.NSObject, MatiSDK.Engine, Foundation.URLS
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
   @objc override dynamic public init()
-  @objc deinit
-}
-@_Concurrency.MainActor(unsafe) public struct MatiDelegateObserver : SwiftUI.UIViewControllerRepresentable {
-  @_Concurrency.MainActor(unsafe) public func makeUIViewController(context: MatiSDK.MatiDelegateObserver.Context) -> MatiSDK.MatiViewController
-  @_Concurrency.MainActor(unsafe) public func updateUIViewController(_ uiViewController: MatiSDK.MatiViewController, context: MatiSDK.MatiDelegateObserver.Context)
-  @_Concurrency.MainActor(unsafe) public func makeCoordinator() -> MatiSDK.MatiDelegateObserver.Coordinator
-  @objc @_hasMissingDesignatedInitializers public class Coordinator : ObjectiveC.NSObject, MatiSDK.MatiButtonResultDelegate {
-    @objc public func verificationSuccess(identityId: Swift.String?, verificationID: Swift.String?)
-    @objc public func verificationCancelled()
-    @objc deinit
-  }
-  public typealias Body = Swift.Never
-  public typealias UIViewControllerType = MatiSDK.MatiViewController
-}
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class MatiViewController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers final public class SocketAnyEvent : ObjectiveC.NSObject {

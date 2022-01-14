@@ -262,14 +262,6 @@ SWIFT_PROTOCOL("_TtP7MatiSDK24MatiButtonResultDelegate_")
 - (void)verificationCancelled;
 @end
 
-@class NSBundle;
-
-SWIFT_CLASS("_TtC7MatiSDK18MatiViewController")
-@interface MatiViewController : UIViewController
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
 
 
 
@@ -556,6 +548,8 @@ SWIFT_CLASS("_TtC7MatiSDK13SocketRawView")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class UIViewController;
+@class NSBundle;
 
 SWIFT_CLASS("_TtC7MatiSDK31TransparentNavigationController")
 @interface TransparentNavigationController : UINavigationController
