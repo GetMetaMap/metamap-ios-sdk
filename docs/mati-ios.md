@@ -1,9 +1,8 @@
 ---
 title: "iOS"
-excerpt: "Add the Mati button to your iOS app."
-slug: "ios"
-category: 61141a8437375100442f3d20
-hidden: true
+excerpt: "Add the MetaMap button to your iOS app."
+slug: "mobile-sdks"
+category: 61ae8e8dba577a0010791480
 ---
 # Mati iOS Usage Guide
 
@@ -147,6 +146,74 @@ extension ViewController: MatiButtonResultDelegate {
 }
 ```
 
+<a id="mati-button-objc"></a>**SwiftUI**
+```swift
+
+import SwiftUI
+import MatiSDK
+import UIKit
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            ZStack {
+//MARK: MatiDelegateObserver
+                MatiDelegateObserver { identityId, verificationId in
+                    print("\(identityId), \(verificationId)")
+                } cancelled: {
+                    print("cancelled")
+                }
+                HStack {
+                    Button(action: {
+                        Mati.shared.showMatiFlow(clientId: "YOUR_CLIENT_ID", flowId: "YOUR_FLOW_ID", metadata: ["key1": "value1", "key2": 123])
+                    }) {
+                        Text("press me")
+                    }
+                }
+            }
+        }
+    }
+}
+
+struct MatiDelegateObserver: UIViewControllerRepresentable {
+    let vc = MatiViewController()
+    public func makeUIViewController(context: Context) -> MatiViewController {
+        return vc
+    }
+    
+    public func updateUIViewController(_ uiViewController: MatiViewController, context: Context) {}
+    
+    var success: (_ identityId: String?, _ verificationId: String?) -> Void
+    var cancelled: () -> Void
+    
+    public func makeCoordinator() -> Coordinator {
+        Coordinator(success: success, cancelled: cancelled)
+    }
+    
+    public  class Coordinator: NSObject, MatiButtonResultDelegate {
+        public  func verificationSuccess(identityId: String?, verificationID: String?) {
+            success(identityId, verificationID)
+        }
+        
+        public  func verificationCancelled() {
+            cancelled()
+        }
+        
+        var success: (_ identityId: String?, _ verificationId: String?) -> Void
+        var cancelled: () -> Void
+        
+        init(success: @escaping (_ identityId: String?, _ verificationId: String?) -> Void, cancelled: @escaping () -> Void) {
+            self.success = success
+            self.cancelled = cancelled
+            super.init()
+            MatiButtonResult.shared.delegate = self
+        }
+    }
+}
+
+class MatiViewController: UIViewController {}
+```
+
 <a id="mati-button-objc"></a>**Objective-C**
 ```objc
 
@@ -178,14 +245,14 @@ extension ViewController: MatiButtonResultDelegate {
            //add button to yours view
           [self.view addSubview:self.matiButton];
 
-		  //set delegate to get result
+          //set delegate to get result
           [MatiButtonResult shared].delegate = self;
       }
 
       //add showMatiFlow function with YOURS parameters
       -(void)matiButtonAction:(UIButton *) sender{
-      	[Mati.shared showMatiFlowWithClientId:@"YOUR_CLIENT_ID" flowId:@"YOUR_FLOW_ID"  metadata:@{@"key1":@"value"}];
-	}
+          [Mati.shared showMatiFlowWithClientId:@"YOUR_CLIENT_ID" flowId:@"YOUR_FLOW_ID"  metadata:@{@"key1":@"value"}];
+    }
 
     #pragma mark - MatiButtonResultDelegate
     
@@ -199,7 +266,6 @@ extension ViewController: MatiButtonResultDelegate {
 
     @end;
 ```
-
 
 
 ## Metadata Usage
@@ -217,7 +283,7 @@ For instance, to set the language code for Spain to Spanish, we would set the `f
 
 #### Example: Set the Language Code for Spain
 
-**Swift**
+**Swift, SwiftUI**
 ```swift
 metadata: ["fixedLanguage": "es"]
 ```
@@ -233,7 +299,7 @@ value: hexColor
 
 ### Example
 
-**Swift**
+**Swift, SwiftUI**
 ```swift
 metadata: ["buttonColor": "#C0C8D1"]
 ```
@@ -245,7 +311,7 @@ value: hexColor
 
 ### Example 
 
-**Swift**
+**Swift, SwiftUI**
 ```swift
 metadata: ["buttonTextColor": "#C0C8D1"]
 ```
