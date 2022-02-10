@@ -1,7 +1,7 @@
 ---
 title: "iOS"
 excerpt: "Add the MetaMap button to your iOS app."
-slug: "mobile-sdks"
+slug: "ios"
 category: 61ae8e8dba577a0010791480
 ---
 # Mati iOS Usage Guide
