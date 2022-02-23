@@ -16,6 +16,7 @@ import Swift
 import SwiftUI
 import SystemConfiguration
 import UIKit
+import Vision
 import WebKit
 import _Concurrency
 import zlib
