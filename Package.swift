@@ -1,17 +1,17 @@
 // swift-tools-version:5.3
 import PackageDescription
 let package = Package(
-    name: "MatiSDK",
+    name: "MetaMapSDK",
     platforms: [
         .iOS(.v12)
     ],
     products: [
         .library(
-            name: "MatiSDK", 
-            targets: ["MatiSDK"])
+            name: "MetaMapSDK", 
+            targets: ["MetaMapSDK"])
     ],
     targets: [
         .binaryTarget(
-            name: "MatiSDK", 
-            path: "MatiSDK.xcframework")
+            name: "MetaMapSDK", 
+            path: "MetaMapSDK.xcframework")
     ])
