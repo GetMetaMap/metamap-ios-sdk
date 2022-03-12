@@ -4,11 +4,11 @@
 
 ## Xcode configurations
 
-### Install Mati SDK using CocoaPods (recommended)
+### Install MetaMap SDK using CocoaPods (recommended)
 
-Install Mati (your App pod file)
+Install MetaMap (your App pod file)
   
-    pod 'Mati-Global-ID-SDK'
+    pod 'MetaMap-Global-ID-SDK'
     
 Update your pods from the terminal
 
@@ -16,18 +16,18 @@ Update your pods from the terminal
 
 ### If you're not using CocoaPods (not recommended)
 
-Download Mati framework from GitHub and add it to your project.
+Download MetaMap framework from GitHub and add it to your project.
 
 Note: Don't miss to add framework in Embedded Binaries.
 
 
-## AppDelegate - Mati KYC Initialization
+## AppDelegate - MetaMap KYC Initialization
 
 Make the following changes in your AppDelegate file 
 
 ### Swift
     
-    import MatiGlobalIDSDK
+    import MetaMapGlobalIDSDK
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions
                      launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -41,7 +41,7 @@ Make the following changes in your AppDelegate file
       
 ### Objective-C
     
-    #import <MatiGlobalIDSDK/MatiGlobalIDSDK.h>
+    #import <MetaMapGlobalIDSDK/MetaMapGlobalIDSDK.h>
     
     - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
         
@@ -50,9 +50,9 @@ Make the following changes in your AppDelegate file
         return YES;
     }
 
-## Mati KYC Button Placement (UI)
+## MetaMap KYC Button Placement (UI)
 
-You now need to place the Mati KYC button inside your App. You have 2 options for that (interface builder vs. code):
+You now need to place the MetaMap KYC button inside your App. You have 2 options for that (interface builder vs. code):
 
 You can include `MFKYCButton` into your view using XCode interface builder
 Or
@@ -61,20 +61,20 @@ Add using Swift or Objective-C
 ### Swift
     
     MFKYC.instance.metadata = ["key": "value"]
-    let matiButton = MFKYCButton()
-    matiButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height
-    matiButton.title = "Custom Title"
-    view.addSubview(matiButton)
+    let metaMapButton = MFKYCButton()
+    metaMapButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height
+    metaMapButton.title = "Custom Title"
+    view.addSubview(metaMapButton)
     
 ### Objective-C
     
     [MFKYC instance].metadata = @{"key": "value"};
-    MFKYCButton *matiButton =[[MFKYCButton alloc] init];
-    matiButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
-    matiButton.title = @"Custom Title";
-    [self.view addSubview:matiButton];
+    MFKYCButton *metaMapButton =[[MFKYCButton alloc] init];
+    metaMapButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
+    metaMapButton.title = @"Custom Title";
+    [self.view addSubview: metaMapButton];
     
-## Mati KYC Button Multiflow Support
+## MetaMap KYC Button Multiflow Support
 
 If you want to work with specific flow, please add "flowId" parameter.
 Add using Swift or Objective-C 
@@ -82,49 +82,49 @@ Add using Swift or Objective-C
 ### Swift
     
     MFKYC.instance.metadata = ["key": "value"]
-    let matiButton = MFKYCButton()
-    matiButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height
-    matiButton.title = "Custom Title"
-    matiButton.flowId = "SPECIFIC_FLOW_ID" // like "7e8zf446aa5b5e001a7769d0"
-    view.addSubview(matiButton)
+    let metaMapButton = MFKYCButton()
+    metaMapButton.frame = CGRect(x: 0, y: 20, width: 320, height: 60)//you can change position, width and height
+    metaMapButton.title = "Custom Title"
+    metaMapButton.flowId = "SPECIFIC_FLOW_ID" // like "7e8zf446aa5b5e001a7769d0"
+    view.addSubview(metaMapButton)
     
 ### Objective-C
     
     [MFKYC instance].metadata = @{"key": "value"};
-    MFKYCButton *matiButton =[[MFKYCButton alloc] init];
-    matiButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
-    matiButton.title = @"Custom Title";
-    matiButton.flowId = @"SPECIFIC_FLOW_ID"; // like "7e8zf446aa5b5e001a7769d0"
-    [self.view addSubview:matiButton];
+    MFKYCButton *metaMapButton =[[MFKYCButton alloc] init];
+    metaMapButton.frame = CGRectMake(0, 20, 320, 60);//you can change position,width and height
+    metaMapButton.title = @"Custom Title";
+    metaMapButton.flowId = @"SPECIFIC_FLOW_ID"; // like "7e8zf446aa5b5e001a7769d0"
+    [self.view addSubview:metaMapButton];
     
-## Mati KYC Delegate
+## MetaMap KYC Delegate
 
 Use the delegate functions below in order to handle the success / failure of each verification.
 
 ### Swift
 
-    //Assign the controller of your choice to be the Mati button delegate
+    //Assign the controller of your choice to be the MetaMap button delegate
     MFKYC.instance.delegate = self
 
     func mfKYCLoginSuccess(identityId: String) {
-      print("Mati Login Success")
+      print("MetaMap Login Success")
     }
     
     func mfKYCLoginCancelled() {
-      print("Mati Login Failed")
+      print("MetaMap Login Failed")
     }
     
 ### Objective-C
     
-    //Assign the controller of your choice to be the Mati button delegate
+    //Assign the controller of your choice to be the MetaMap button delegate
     [MFKYC instance].delegate = self;
 
     - (void)mfKYCLoginSuccessWithIdentityId:(NSString *)identityId {
-        NSLog(@"Mati Login Success");
+        NSLog(@"MetaMap Login Success");
     }
     
     - (void)mfKYCLoginCancelled {
-        NSLog(@"Mati Login Failed");
+        NSLog(@"MetaMap Login Failed");
     }
     
 ### Requirements 
@@ -135,6 +135,6 @@ Use the delegate functions below in order to handle the success / failure of eac
    For Xcode 11 and below, use [Version 2.8.0](https://github.com/MatiFace/mati-global-id-sdk/releases/tag/2.8.0)  
 
 
-## Mati iOS SDK integration video    
+## MetaMap iOS SDK integration video    
 
-[![Mati SDK integration demo video](https://img.youtube.com/vi/sPS7_QoFhpY/0.jpg)](https://www.youtube.com/watch?v=sPS7_QoFhpY)
+[![MetaMap SDK integration demo video](https://img.youtube.com/vi/sPS7_QoFhpY/0.jpg)](https://www.youtube.com/watch?v=sPS7_QoFhpY)
