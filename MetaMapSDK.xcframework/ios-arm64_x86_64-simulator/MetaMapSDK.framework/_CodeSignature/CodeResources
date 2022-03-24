@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		+M9FGrT13g7P0B6j0seF6c5CMBo=
+		+vrDhNyBooZm+xrb+lB7McAGmBc=
 		</data>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<data>
-		850lscWsBp8jx0+mJSbr555+rS4=
+		rZppHdvp0jx9Lpev5mHwRj+SWOg=
 		</data>
 		<key>Headers/MetaMapSDK.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zVRgdXWRufNi1zR7kP+uWPl0UJQ=
+		8h1NeHlybrb/xSzSTexZ6+UdZgc=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -162,51 +162,27 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		gGwbGTrdWanL2a4yGCkZJHRHR3o=
+		X+1JbWjtZM0Ywzs0Q1yLZRszZqY=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wtrJukZQVjzFKVcu9J7jvLJsSUs=
+		TE9/p8CCkWlDm45Y5cS5bVaaqdE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TZRWKWJdIDq22Wf+B0Dv8pSNVXE=
-		</data>
-		<key>Modules/MetaMapSDK.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		gGwbGTrdWanL2a4yGCkZJHRHR3o=
-		</data>
-		<key>Modules/MetaMapSDK.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		wtrJukZQVjzFKVcu9J7jvLJsSUs=
-		</data>
-		<key>Modules/MetaMapSDK.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		TZRWKWJdIDq22Wf+B0Dv8pSNVXE=
+		iizCyIqdqvlFr8SzXp/FvtnCD0o=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Kj85GahqblPetDUC3bHeuUg2Y/k=
+		asBnRDreRQPnDlFqi7mpWTCSTuM=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KGuPVToNfyp6s1uP5shiskNv5/8=
+		3RXotRXrz3VCy6acP53y9XtpVWQ=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Z6c5x3HleiXRP1nkX8Ig0H+oIM=
-		</data>
-		<key>Modules/MetaMapSDK.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		Kj85GahqblPetDUC3bHeuUg2Y/k=
-		</data>
-		<key>Modules/MetaMapSDK.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		KGuPVToNfyp6s1uP5shiskNv5/8=
-		</data>
-		<key>Modules/MetaMapSDK.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		+Z6c5x3HleiXRP1nkX8Ig0H+oIM=
+		KQnK20atx3EYdJQGHgrBmXcrFhw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -420,7 +396,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Jh4iLHTdSivAW760z4q4NqZD1E4=
+			sebLkhcNEiolLUexPUK/AFU9F8M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -429,7 +405,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h7Bv/dlZMzMO98vjSkS/CONXyNc=
+			l0cew1zqqkpQShhAfMeApDWOZek=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -438,7 +414,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EpcbZ9kzGhPuL5kXcaa/1wcnLz8=
+			d97j7vL1jyuGdrRzlVA6FhK9szE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -447,7 +423,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xd9dL8imsieCvU/AIyKHV4hQuYg=
+			N7s1mekTRhJ7vSpfGAjhHqX2IPk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -456,7 +432,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n1xrCVlcpnqpdkT5o2wG2TxfGrE=
+			XZLhzXtop0XcbD4kRm1CeyNzwGM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -473,7 +449,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eL30jLZl0o2uY/pYNF+AxT+81UQ=
+			n2bjESOVjCQYhRMqdbksuexhkyE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -482,7 +458,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iPHsXtbndBDhVgzxkYfEVU6yfxM=
+			yAucuYRLAanHmL3+aUMvT7bZkKw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -491,7 +467,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u2Xyu30IIUvyKGfBLnNBnqchTFI=
+			/vhz7z8efgw+5SB4m5gc4gso3hI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -500,7 +476,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kOZEEs6YvyoL41axZ2bRpE1p7hw=
+			HxJjlEB/ISE2fHC0q/icxfIRAWw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -509,7 +485,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FbhClfQZcsFKbjT7g/NFzjsISvU=
+			Lgy8M5flnSr7I+VH3wGioIUWx7Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -521,14 +497,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vIwq0YF8F6b3gtj/zvO2bycuBNP4ouPdIIdGo1W7LEc=
+			hHmlNdfXDRZtTA13lFzYmwYlrt0qG8dBCltpQFC6yK0=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lgZt6cv7OUzaDYjd1is/rmB5ECP4X5nbkcyDSq0QFiM=
+			Y7PwXR0P+zjcK6bApMVhG5M2Fmp6nSPwfzYUcFqFakM=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK.h</key>
@@ -787,84 +763,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gqjIfxH9Qwm8piPzVCe4O/tLv/KcB8saH+mGxGA+JVg=
+			1ARlEmr4XhwQfF9rJRMnb/Hs0yS2zxC82/vGIDexwvU=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iEEZ2bis0jo+Lm0TRHfHZxpmOrPvPgjWqvTm/aXUNho=
+			JlggKoSIwpYMeocso0aeOMymiUHOE1eiSEYkDMrxv58=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EDvvQSNOANr8lcm5uU3HEI5/1gq6DmqKLz33f6le1WI=
-			</data>
-		</dict>
-		<key>Modules/MetaMapSDK.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gqjIfxH9Qwm8piPzVCe4O/tLv/KcB8saH+mGxGA+JVg=
-			</data>
-		</dict>
-		<key>Modules/MetaMapSDK.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			iEEZ2bis0jo+Lm0TRHfHZxpmOrPvPgjWqvTm/aXUNho=
-			</data>
-		</dict>
-		<key>Modules/MetaMapSDK.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EDvvQSNOANr8lcm5uU3HEI5/1gq6DmqKLz33f6le1WI=
+			BeIgtkAarnemupzVh9zTIVXxPRI65KlR9zQrh7UQvkc=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kx/jpuLL6Qr2LTp6f8ryq+C2NZEF2Y4b5yChPpfiUWg=
+			FFTjlh6vU6TPbXC6ctNmus4/BCKbm7zEZnolwWil1a4=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4b6aw7lavVAYuYmK1Gbmoh+Smcax3RbBiPAtPNGnZtQ=
+			9oXBYPJIPyPRX/EVOyvczQ82NPO+x13bSbkP1Y/TEaE=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5cDhHr+c5tFvcCTbzdmKiztb2E7IkIVlZChTSOOjoCA=
-			</data>
-		</dict>
-		<key>Modules/MetaMapSDK.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Kx/jpuLL6Qr2LTp6f8ryq+C2NZEF2Y4b5yChPpfiUWg=
-			</data>
-		</dict>
-		<key>Modules/MetaMapSDK.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4b6aw7lavVAYuYmK1Gbmoh+Smcax3RbBiPAtPNGnZtQ=
-			</data>
-		</dict>
-		<key>Modules/MetaMapSDK.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5cDhHr+c5tFvcCTbzdmKiztb2E7IkIVlZChTSOOjoCA=
+			8VxyLUdx7cn75i/HRloGLNe5+R92oMmy63qtAh5wOVY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1235,7 +1169,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hLdouJMBFkG+GHPqKAWSqmjoUFmgm6m0JGyPZxRm098=
+			Y79rVe1/4eTQM9iECNfZIUpekglBAz2QKOLpNw3yRSI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1244,7 +1178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7k/bQ1s3XkKxfzaznMiPt17kLgeQF9rrgpHtY7r/qtI=
+			OUAyVjQKZJMR0lKU4NsAGN/Q+pA6skV0PY+OoK7TK+Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1253,7 +1187,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Engh5w67KPYVYh0D6dvKjIwdy9ivKz3aULTlmw//i+M=
+			wzb3LUej1AEJaIdCcSaagYpwhuDME6RW7+Fn94MUFbw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1262,7 +1196,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nWqTAnOSkiqMvzw11sUCR1kiB5reznDmtQ6bf6KUYyg=
+			Lg6bFUhoGXDGFQKcKA1s9Y8t/VxHyEIRXmTA0ErvMg0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1271,7 +1205,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hAEilyFxHF0J/lWY7c5cinqf264EOb7m9CPSZP5xNKk=
+			r/IcV9f7ZQPJ3FxgLeBeOgWC6geD6XIID+0/w6N2GQU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1294,7 +1228,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I3TLtgeGmcUwqt8RsJI8l3HJe7xPc6plx9C7+zriudA=
+			DgeB5sk9x4fEVSAZn2ZDLXo3JFgUCr0fSrVMd0Fcdpc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1303,7 +1237,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FX4lrKhZyV75f6wf0OpPiSr7ELxFQ0xlzgF/zB7Kt9Q=
+			FPnvNjgP5N7ZYpCiaBLJ8aAUVZHFmEI/SZMQ5LqAYss=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1312,7 +1246,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NvSI/UKHRpQnizWU6R+/PUULFF6A6EdGSgqFmMxX/Ng=
+			kmOJb2EgTpt0L5tk9vCQ2TvaOq1OcPO7QES2Ov47GT0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1321,7 +1255,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k5jkCrLg9D9vmyQI0hGJZeMZsDwsEVNq3XlngsZKIRQ=
+			ih8UfrDvLHKfeDmlFM/xH62rVR6vbNvPMjFJVzqw1z4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1330,7 +1264,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k6EIgfke++7ewRq8Gt0Xnqve9qUlXT30CO3H4eRT/jE=
+			+VIoWancTucPHwsmF0dYzJ2492LbBNcVtZd2b8MAKYY=
 			</data>
 			<key>optional</key>
 			<true/>
