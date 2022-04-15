@@ -4,6 +4,7 @@
 import AVFoundation
 import CommonCrypto
 import CoreGraphics
+import CoreLocation
 import CoreTelephony
 import Dispatch
 import Foundation
@@ -1345,6 +1346,9 @@ public protocol SocketDataBufferable : AnyObject {
 extension MetaMapSDK.SocketParsable where Self : MetaMapSDK.SocketDataBufferable, Self : MetaMapSDK.SocketManagerSpec {
   public func parseSocketMessage(_ message: Swift.String) -> MetaMapSDK.SocketPacket?
   public func parseBinaryData(_ data: Foundation.Data) -> MetaMapSDK.SocketPacket?
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public static let isIpad: Swift.Bool
 }
 public enum SecurityErrorCode : Swift.UInt16 {
   case acceptFailed
