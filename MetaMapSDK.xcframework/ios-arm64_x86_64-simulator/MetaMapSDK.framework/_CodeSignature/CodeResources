@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		E2Jhn7HwmzuFQB2tnuUrrQM0a2c=
+		gRU1EQwc+CqxJSkxhD2lyh/1RuQ=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3tvvJjsACDj2i3zddkVHODqAjGg=
+		VS1B98MQfcXmjx/fajweHdmrUiA=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Wpv2+zOjSHRV774LxNICknFT3hE=
+		JFeQDSN3rrXSwoVfZyyf7NRdTtk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -788,7 +788,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+HE6lszlmion+siwvjKVneWKAqo0boOBIdod3LUxOik=
+			uH+ZLX7k+pFqvB9W7iGua3Y52ih5Kjh+CGsWRsev6r0=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -809,7 +809,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ErHCdVJnaCOhKOh+8mRcfESqIbAO5eRy0xZzj8wbwm8=
+			+aKBpQSPIjUlHNfS2HNiL/+L8jmowuudYxAlwWN+fAs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
