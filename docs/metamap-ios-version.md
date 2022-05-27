@@ -1,7 +1,7 @@
 ---
 title: "iOS Changelog"
-excerpt: "MetaMap's Android SDK Changelog"
-slug: "iOS-changelog"
+excerpt: "MetaMap's iOS SDK Changelog"
+slug: "ios-changelog"
 category: 61ae8e8dba577a0010791480
 hidden: true
 ---
