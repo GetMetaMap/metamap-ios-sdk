@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		V/brH3CCWJmuuBf+MTpm55u6Ry0=
+		/ksJz7a8iOURQk4LoBY6h6I7mb4=
 		</data>
 		<key>ConfirmPupUpVC.nib</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<data>
-		FeZL/T0C7tcMgaOLYDC2kfWR7Vg=
+		QMhu9xkwgJDBQyXnGa3z5QYcTRo=
 		</data>
 		<key>Headers/MetaMapSDK.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gRU1EQwc+CqxJSkxhD2lyh/1RuQ=
+		nxr1XnxHw507JcQcfvZEWa7EEJI=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -39,6 +39,10 @@
 		<key>LocationServicePopupView.nib</key>
 		<data>
 		Umams4X+BYo9FfkxDh4vWeZmZAM=
+		</data>
+		<key>MFBRDLDocumentVerifyViewController.nib</key>
+		<data>
+		DZp4Kic49Qcqn55RKhhy5aIC/n0=
 		</data>
 		<key>MFCancelAlertViewController.nib</key>
 		<data>
@@ -70,7 +74,7 @@
 		</data>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<data>
-		mjh6R5r6U9UnzdhuTBIBrq2uios=
+		GeujxxZEvmcX5FauervUuOUTijQ=
 		</data>
 		<key>MFErrorViewController.nib</key>
 		<data>
@@ -107,6 +111,10 @@
 		<key>MFUploadViewController.nib</key>
 		<data>
 		dlNpSqgCQLMcSNIEVIGWKJz9sY0=
+		</data>
+		<key>MatiBRDLCameraViewController.nib</key>
+		<data>
+		AXZfX4BVCGchIBYtHR6KIeeHF2g=
 		</data>
 		<key>MatiCPFNumberDocumentViewController.nib</key>
 		<data>
@@ -166,27 +174,27 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		slDlwWMrLaPCiU3L3et58SMK44M=
+		gmxiaY+jJ20VCGFM3JGElkIDvJo=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mt0woAmdgsnr1a6Ruzzz8YBxRxE=
+		qzalMP9hVMV6hnwEE8hRR2Kv+Hw=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VS1B98MQfcXmjx/fajweHdmrUiA=
+		bwXiaIaLOywE8pzoHNUeOuFLjBc=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		bS7+QfXujLaVwkn8BG70QFHE6z8=
+		XOMd/LEP+COiUNdq5Rz+vr7fAb8=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		aja7PpylkcdxXs2k7D0ejOvXmV4=
+		A1mK34hfj+5J95PRcvEl3nNml/A=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		JFeQDSN3rrXSwoVfZyyf7NRdTtk=
+		snItQbPXgfCmsBVg6/4Z5ogXqFA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -400,7 +408,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/8WlKVWxXgAXTIC44WV2qaC/cjw=
+			Km9MOOw/mgFPotuXcRKq0VFKBzs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -409,7 +417,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			z0m1Dkh2ft/DXI2i0iC0uqsT4rk=
+			R83ShcjRBL+HDvUVCzBGm6NL7eQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -418,7 +426,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HlizQii6QVsjsyDruR5TDGzowKM=
+			r47uOufKF2dIJVLKcot5bv0X2wo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -427,7 +435,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SegNGpGw8ndiBp3pD5tV0H0Ikos=
+			WTcPSZ+oxNhHwiqiuW5q+nrnFkY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -436,7 +444,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4mrt3pcbuej7iCgEYzS0IEWxEvg=
+			tlTnk+B5NdIvGrFbg4h41fteO4k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -453,7 +461,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Wk3k1CogrRFGdaCouwjWyA5zMgY=
+			S3srNrwkxmBRqW3Mmw92Yuct3q8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -462,7 +470,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g/xavUi5KKUOjMu3ry1U4grmMgE=
+			ocksuVjUD1BUZql1Q6E0ywaK6Co=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -471,7 +479,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5jLzsvOU3OVkollA8+SfYCJcrYo=
+			93D5Cs8rYrrJUg5cN31UKZ8zO9g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -480,7 +488,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Nllm+CnerUH3A6OAMMssZtGS314=
+			QKJ7dD3mAfVKRffE6iTeZg0Fy+Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -489,7 +497,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PMgKnfWRzefVhitjjPVWdkS2Pao=
+			Mh8EAOjeNSHR5JGVTuII46qKKMU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -501,7 +509,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			377v1uKwLUva7XVAYVXRsMNffyfRlPZWDYqarO/fF/Q=
+			yV8E0lQzoke/XAOQ8uWqzaMFB6VFogX6xkjd+itgj34=
 			</data>
 		</dict>
 		<key>ConfirmPupUpVC.nib</key>
@@ -515,7 +523,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/4WHOGrbsncrG2JDsc4RueZE0+vN9H1xIGSwWQA60yc=
+			3DWCXyoHb0Kz+y9O/D1lFzQEWaXbnRDZihcbEMViksc=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK.h</key>
@@ -551,6 +559,13 @@
 			<key>hash2</key>
 			<data>
 			2j51n/PYyZn0fUrDJEgF46plcFU0SGdgfyRLnxYoYtg=
+			</data>
+		</dict>
+		<key>MFBRDLDocumentVerifyViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zzsgPAAdPICYYjCNqwhnV6Ptuy6oL6xVaf20AexElRg=
 			</data>
 		</dict>
 		<key>MFCancelAlertViewController.nib</key>
@@ -606,7 +621,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OM5Zig8wisPsqGzyIE3lqsaukpMrfAdNXPd8vWf4O94=
+			OuVaKmMf2/xZOfZsQacWIp5iU5/pqlygxiUnLYxuYT0=
 			</data>
 		</dict>
 		<key>MFErrorViewController.nib</key>
@@ -670,6 +685,13 @@
 			<key>hash2</key>
 			<data>
 			E2m6Q94vzpQOhLiNtpGkRkoedJ5Joy1lfyUOiHv0ddU=
+			</data>
+		</dict>
+		<key>MatiBRDLCameraViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TJZqC4x7WHY043zuMIoX4uEvD5xu24uYw7u8uZBrn6s=
 			</data>
 		</dict>
 		<key>MatiCPFNumberDocumentViewController.nib</key>
@@ -774,42 +796,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q+/z1DI6ayMcL2BFOb8y+aeabNKBQxNiRzug5/WWhVY=
+			Um5B3KfaVy4ILV3gEjkEY5cuU/qd/yYoXtlsdKQOUG8=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nNw09a+kN3rw71sIRIa0W6BPyqlql6XKgQZ6ibqlH8c=
+			FkB43MDBHQ6ijR8D+2tWwMObqzVhgfrIJ5xHKf1vNnc=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uH+ZLX7k+pFqvB9W7iGua3Y52ih5Kjh+CGsWRsev6r0=
+			K6ve5XZv+4yIahzwWSECw7SzweNSE1QivV4b1gIQC6Q=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2g3ZJ6Q0HabRTwORDhwKZ5bxxp072txyxzkG9YRO5i8=
+			1FnTaX9CLLAf+LSBTFxce5kmJr8T8MeNYJZbYEv5Mfw=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dzh/YJWS54p5ATMwxH2cQQWT9g7DP7828aEOOLJb0aI=
+			hYvoUc7PZSmWdWWjNdFfMJTGlT9YN8nwj/gcPbO4h+s=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+aKBpQSPIjUlHNfS2HNiL/+L8jmowuudYxAlwWN+fAs=
+			L1ZX5L+d4cuZYdM2PFFZNIgYtH8qJ0L62k7KxsKQ6Dc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1180,7 +1202,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			74Mpge2UsDoiflLo2IRkFZH7hprQ2z3wA7vpbC8Rf+Y=
+			09VBKMgHeRTI8HrMAyJfuNtXWZIpC7y6o6eKzFQXo9s=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1189,7 +1211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			W4sCvfCbAy8Ksfsqh6a8ZBpJ3MnkhLh8/jQAOrblDzg=
+			i+YvtkILR5OQAzYkXDR3fP+ToEjvB8XkCR4hR1ybj6Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1198,7 +1220,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NJK2+saUL6MTWwnql+gOT3mAS92HSDLPsN4TRnU1WBw=
+			ryQdJeH6/rGkw7Ea+pjpvGRZENbByhkQsGEFWKP5TfI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1207,7 +1229,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k8309NH3o4hfMHP3DFA/LuhrqS/5rOw1L/m3Nef2DtU=
+			Ntk4NAvc+q5lvvGT0tH7WLXEy0lNT5XWJtSYqjovCmU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1216,7 +1238,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OS8Hz5LFvLane4fMB2ZtY4u86p+Mr1sXDBB/T7Jt6Pw=
+			ph8VZq/w0y1TChD0RhFNi6GN1qjaxsyTiFNxkJ3Rnwo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1239,7 +1261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Ss7O7LqOM3S+nnm06HtC00zwXXlEnb6T4x4eRPG5RY=
+			5GBCbSIuh91EPPyf6xUKByuQ6ftoZwOQPKcMIZd2Jlg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1248,7 +1270,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xXsF3nuQeLvRk8z/I9yYqxhJcWYGIf6KT/uuZh86jm8=
+			wfFPMwwetyr5XW+ehBgVje6MPIjLGSgZQuWhAlG3ToI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1257,7 +1279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ycBf165CZlf0hya4P2BdLtcIAY3NBv3+PbFZfByoHI=
+			C4/MJZavnvsfiPdv5KGdSfxljxzV+0kkpzunUwe+B1Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1266,7 +1288,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gUp0UK1Ucm91hW+aFCBWYIf4Pi3wK/kvu62U8HnNhwo=
+			MH4nxlqlBewDHa4fgCjSXtlpJRXL0RNx4HlIBIvknlI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1275,7 +1297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BF1RHmywSE8nh1LmIfBx4I5/0dd3bnaCGBktbaSbzIs=
+			6q46BcIhwi0xn+gbsv7B/+uK9iwLljaWQiknqvSVC+U=
 			</data>
 			<key>optional</key>
 			<true/>
