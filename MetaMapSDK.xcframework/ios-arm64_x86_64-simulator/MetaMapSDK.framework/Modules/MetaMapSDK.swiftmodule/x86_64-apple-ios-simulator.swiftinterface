@@ -2,15 +2,19 @@
 // swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MetaMapSDK
 import AVFoundation
+import SystemConfiguration.CaptiveNetwork
 import CommonCrypto
 import CoreGraphics
 import CoreLocation
+import CoreMotion
 import CoreTelephony
 import Dispatch
+import ExternalAccessory
 import Foundation
 @_exported import MetaMapSDK
 import MobileCoreServices
 import Network
+import NotificationCenter
 import PDFKit
 import SafariServices
 import Swift
@@ -137,6 +141,22 @@ public struct SocketIOClientConfiguration : Swift.ExpressibleByArrayLiteral, Swi
 }
 public protocol ConfigSettable {
   mutating func setConfigs(_ config: MetaMapSDK.SocketIOClientConfiguration)
+}
+@objc public class MetaMapUIConfig : ObjectiveC.NSObject {
+  public init(buttonColor: Swift.String? = nil, buttonTextColor: Swift.String? = nil, fixedLanguage: MetaMapSDK.MFLanguage? = nil, enableLog: Swift.Bool = false)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class MetaMapMetadata : ObjectiveC.NSObject {
+  @_inheritsConvenienceInitializers @objc public class Builder : ObjectiveC.NSObject {
+    @objc override dynamic public init()
+    public func with(uiConfig: MetaMapSDK.MetaMapUIConfig) -> MetaMapSDK.MetaMapMetadata.Builder
+    public func with(matiServer: Swift.String) -> MetaMapSDK.MetaMapMetadata.Builder
+    public func with(additionalData: [Swift.String : Any]) -> MetaMapSDK.MetaMapMetadata.Builder
+    public func with(enableLog: Swift.Bool) -> MetaMapSDK.MetaMapMetadata.Builder
+    public func build() -> MetaMapSDK.MetaMapMetadata
+    @objc deinit
+  }
+  @objc deinit
 }
 public class WSEngine : MetaMapSDK.Engine, MetaMapSDK.TransportEventClient, MetaMapSDK.FramerEventClient, MetaMapSDK.FrameCollectorDelegate, MetaMapSDK.HTTPHandlerDelegate {
   public var respondToPingWithPong: Swift.Bool
@@ -316,6 +336,42 @@ public struct SocketEventHandler {
   public let callback: MetaMapSDK.NormalCallback
   public func executeCallback(with items: [Any], withAck ack: Swift.Int, withSocket socket: MetaMapSDK.SocketIOClient)
 }
+extension MetaMapSDK.Luminous {
+  public struct Disk {
+    @available(*, deprecated, message: "Use totalSpace(measureUnit:) instead.")
+    public static var totalSpace: Swift.String {
+      get
+    }
+    @available(*, deprecated, message: "Use freeSpace(measureUnit:) instead.")
+    public static var freeSpace: Swift.String {
+      get
+    }
+    @available(*, deprecated, message: "Use usedSpace(measureUnit:) instead.")
+    public static var usedSpace: Swift.String {
+      get
+    }
+    public static var totalSpaceInBytes: Swift.Int64 {
+      get
+    }
+    public static var freeSpaceInBytes: Swift.Int64 {
+      get
+    }
+    @available(*, deprecated, message: "Use usedSpace(measureUnit:) instead.")
+    public static var usedSpaceInBytes: Swift.Int64 {
+      get
+    }
+    @available(*, deprecated, message: "Use freeSpace(measureUnit:) instead.")
+    public static var freeSpaceInPercentage: Swift.Float {
+      get
+    }
+    public static var usedSpaceInPercentage: Swift.Float {
+      get
+    }
+    public static func totalSpace(measureUnit: MetaMapSDK.Luminous.MeasureUnit = .bytes) -> Swift.Double
+    public static func usedSpace(measureUnit: MetaMapSDK.Luminous.MeasureUnit = .bytes) -> Swift.Double
+    public static func freeSpace(measureUnit: MetaMapSDK.Luminous.MeasureUnit = .bytes) -> Swift.Double
+  }
+}
 public class FoundationHTTPHandler : MetaMapSDK.HTTPHandler {
   public init()
   public func convert(request: Foundation.URLRequest) -> Foundation.Data
@@ -476,6 +532,32 @@ extension Swift.FloatingPoint {
     get
   }
 }
+extension MetaMapSDK.Luminous {
+  public struct Audio {
+    public static var currentAudioOutputVolume: Swift.Double? {
+      get
+    }
+    public static var secondaryAudioShouldBeSilencedHint: Swift.Bool {
+      get
+    }
+  }
+}
+extension MetaMapSDK.Luminous {
+  public struct Application {
+    public static var version: Swift.String {
+      get
+    }
+    public static var build: Swift.String {
+      get
+    }
+    public static var completeAppVersion: Swift.String {
+      get
+    }
+    public static var clipboardString: Swift.String? {
+      get
+    }
+  }
+}
 @objc public enum SocketIOStatus : Swift.Int, Swift.CustomStringConvertible {
   case notConnected
   case disconnected
@@ -539,6 +621,23 @@ extension MetaMapSDK.FoundationSecurity : MetaMapSDK.CertificatePinning {
 }
 extension MetaMapSDK.FoundationSecurity : MetaMapSDK.HeaderValidator {
   public func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> Swift.Error?
+}
+extension MetaMapSDK.Luminous {
+  public struct Network {
+    public static var isConnectedViaWiFi: Swift.Bool {
+      get
+    }
+    public static var isConnectedViaCellular: Swift.Bool {
+      get
+    }
+    public static var isInternetAvailable: Swift.Bool {
+      get
+    }
+    @available(iOS, deprecated: 13.0, message: "It's no longer possible to get SSID info using CNCopySupportedInterfaces.")
+    public static var SSID: Swift.String {
+      get
+    }
+  }
 }
 public protocol SocketLogger : AnyObject {
   var log: Swift.Bool { get set }
@@ -693,7 +792,7 @@ extension MetaMapSDK.SocketEngine {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MetaMap : ObjectiveC.NSObject {
   @objc public static let shared: MetaMapSDK.MetaMap
   @objc public func showMetaMapFlow(clientId: Swift.String, flowId: Swift.String?, metadata: [Swift.String : Any]? = nil)
-  public func cleanUp()
+  public func showMetaMapFlow(clientId: Swift.String, flowId: Swift.String?, metaMapMetadata: MetaMapSDK.MetaMapMetadata? = nil)
   @objc deinit
 }
 public enum SocketIOVersion : Swift.Int {
@@ -748,6 +847,34 @@ public protocol FrameCollectorDelegate : AnyObject {
   }
   public func add(frame: MetaMapSDK.Frame)
   @objc deinit
+}
+extension MetaMapSDK.Luminous {
+  public struct Locale {
+    public static var currentLanguage: Swift.String? {
+      get
+    }
+    public static var currentTimeZone: Foundation.TimeZone {
+      get
+    }
+    public static var currentTimeZoneName: Swift.String {
+      get
+    }
+    public static var currentCountry: Swift.String? {
+      get
+    }
+    public static var currentCurrency: Swift.String? {
+      get
+    }
+    public static var currentCurrencySymbol: Swift.String? {
+      get
+    }
+    public static var usesMetricSystem: Swift.Bool {
+      get
+    }
+    public static var decimalSeparator: Swift.String? {
+      get
+    }
+  }
 }
 public struct SocketPacket : Swift.CustomStringConvertible {
   public let nsp: Swift.String
@@ -995,6 +1122,98 @@ extension UIKit.UIBezierPath {
 extension UIKit.UIColor {
   convenience public init?(cssName: Swift.String)
 }
+extension MetaMapSDK.Luminous {
+  public struct SystemVersion : Swift.Equatable, Swift.Comparable {
+    public var major: Swift.Int
+    public var minor: Swift.Int
+    public var patch: Swift.Int
+    public var stringValue: Swift.String
+    public static func == (lhs: MetaMapSDK.Luminous.SystemVersion, rhs: MetaMapSDK.Luminous.SystemVersion) -> Swift.Bool
+    public static func > (lhs: MetaMapSDK.Luminous.SystemVersion, rhs: MetaMapSDK.Luminous.SystemVersion) -> Swift.Bool
+    public static func < (lhs: MetaMapSDK.Luminous.SystemVersion, rhs: MetaMapSDK.Luminous.SystemVersion) -> Swift.Bool
+  }
+  public struct Hardware {
+    public static var processorsNumber: Swift.Int {
+      get
+    }
+    public static var activeProcessorsNumber: Swift.Int {
+      get
+    }
+    public static func physicalMemory(with sizeScale: MetaMapSDK.Luminous.MeasureUnit = .gigabytes) -> Swift.Double
+    public static var systemName: Swift.String {
+      get
+    }
+    public static var systemVersion: MetaMapSDK.Luminous.SystemVersion {
+      get
+    }
+    public static var bootTime: Foundation.TimeInterval {
+      get
+    }
+    @available(iOS 9.0, *)
+    public static var isLowPowerModeEnabled: Swift.Bool {
+      get
+    }
+    public struct Screen {
+      public static var brightness: Swift.Float {
+        get
+      }
+      public static var isScreenMirrored: Swift.Bool {
+        get
+      }
+      public static var nativeBounds: CoreGraphics.CGRect {
+        get
+      }
+      public static var nativeScale: Swift.Float {
+        get
+      }
+      public static var bounds: CoreGraphics.CGRect {
+        get
+      }
+      public static var scale: Swift.Float {
+        get
+      }
+      public static var snapshotOfCurrentView: UIKit.UIView {
+        get
+      }
+    }
+    public struct Device {
+      public static var identifierForVendor: Swift.String? {
+        get
+      }
+      public static var orientation: UIKit.UIDeviceOrientation {
+        get
+      }
+    }
+    public struct Accessory {
+      public static var count: Swift.Int {
+        get
+      }
+      public static var connectedAccessoriesNames: [Swift.String] {
+        get
+      }
+      public static var connectedAccessories: [ExternalAccessory.EAAccessory] {
+        get
+      }
+      public static var isHeadsetPluggedIn: Swift.Bool {
+        get
+      }
+    }
+    public struct Sensors {
+      public static var isAccelerometerAvailable: Swift.Bool {
+        get
+      }
+      public static var isGyroAvailable: Swift.Bool {
+        get
+      }
+      public static var isMagnetometerAvailable: Swift.Bool {
+        get
+      }
+      public static var isDeviceMotionAvailable: Swift.Bool {
+        get
+      }
+    }
+  }
+}
 public enum CodeType {
   case phone
   case email
@@ -1044,8 +1263,35 @@ extension QuartzCore.CALayer {
   open func applyOnSublayers<T>(ofType: T.Type, closure: (T) -> ()) where T : QuartzCore.CALayer
   public func sublayers<T, U>(in layer: T) -> [U] where T : QuartzCore.CALayer
 }
+public enum MFLanguage : Swift.String, Swift.Codable {
+  case english
+  case spanish
+  case french
+  case portugaly
+  case russian
+  case turkish
+  case german
+  case italian
+  case polish
+  case thai
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public protocol Transformable {
   var layerToTransform: QuartzCore.CALayer { get }
+}
+extension MetaMapSDK.Luminous {
+  public struct Battery {
+    public static var level: Swift.Float? {
+      get
+    }
+    public static var state: MetaMapSDK.Luminous.BatteryState {
+      get
+    }
+  }
 }
 public enum ConnectionEvent {
   case connected([Swift.String : Swift.String])
@@ -1261,6 +1507,54 @@ extension Swift.String : MetaMapSDK.SocketData {
 public typealias AckCallback = ([Any]) -> ()
 public typealias NormalCallback = ([Any], MetaMapSDK.SocketAckEmitter) -> ()
 public typealias Post = (msg: Swift.String, completion: (() -> ())?)
+extension MetaMapSDK.Luminous {
+  public struct Carrier {
+    public static var name: Swift.String? {
+      get
+    }
+    public static var ISOCountryCode: Swift.String? {
+      get
+    }
+    public static var mobileCountryCode: Swift.String? {
+      get
+    }
+    @available(*, deprecated, message: "Use mobileNetworkCode instead")
+    public static var networkCountryCode: Swift.String? {
+      get
+    }
+    public static var mobileNetworkCode: Swift.String? {
+      get
+    }
+    public static var isVoipAllowed: Swift.Bool? {
+      get
+    }
+  }
+}
+public struct Luminous {
+  public enum BatteryState : Swift.Int {
+    case unknown
+    case unplugged
+    case charging
+    case full
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum MeasureUnit {
+    case bytes
+    case kilobytes
+    case megabytes
+    case gigabytes
+    case percentage
+    public static func == (a: MetaMapSDK.Luminous.MeasureUnit, b: MetaMapSDK.Luminous.MeasureUnit) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
 public protocol SocketIOClientSpec : AnyObject {
   var anyHandler: ((MetaMapSDK.SocketAnyEvent) -> ())? { get }
   var handlers: [MetaMapSDK.SocketEventHandler] { get }
@@ -1406,8 +1700,16 @@ extension MetaMapSDK.SocketEnginePacketType : Swift.Hashable {}
 extension MetaMapSDK.SocketEnginePacketType : Swift.RawRepresentable {}
 extension MetaMapSDK.CodeType : Swift.Equatable {}
 extension MetaMapSDK.CodeType : Swift.Hashable {}
+extension MetaMapSDK.MFLanguage : Swift.Equatable {}
+extension MetaMapSDK.MFLanguage : Swift.Hashable {}
+extension MetaMapSDK.MFLanguage : Swift.RawRepresentable {}
 extension MetaMapSDK.TCPTransportError : Swift.Equatable {}
 extension MetaMapSDK.TCPTransportError : Swift.Hashable {}
+extension MetaMapSDK.Luminous.BatteryState : Swift.Equatable {}
+extension MetaMapSDK.Luminous.BatteryState : Swift.Hashable {}
+extension MetaMapSDK.Luminous.BatteryState : Swift.RawRepresentable {}
+extension MetaMapSDK.Luminous.MeasureUnit : Swift.Equatable {}
+extension MetaMapSDK.Luminous.MeasureUnit : Swift.Hashable {}
 extension MetaMapSDK.SocketClientEvent : Swift.Equatable {}
 extension MetaMapSDK.SocketClientEvent : Swift.Hashable {}
 extension MetaMapSDK.SocketClientEvent : Swift.RawRepresentable {}

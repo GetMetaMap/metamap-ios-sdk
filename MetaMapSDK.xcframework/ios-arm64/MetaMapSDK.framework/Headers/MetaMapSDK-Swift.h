@@ -275,6 +275,26 @@ SWIFT_PROTOCOL("_TtP10MetaMapSDK27MetaMapButtonResultDelegate_")
 @end
 
 
+SWIFT_CLASS("_TtC10MetaMapSDK15MetaMapMetadata")
+@interface MetaMapMetadata : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_CLASS("_TtCC10MetaMapSDK15MetaMapMetadata7Builder")
+@interface Builder : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC10MetaMapSDK15MetaMapUIConfig")
+@interface MetaMapUIConfig : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
 
 
 
@@ -354,11 +374,11 @@ SWIFT_CLASS("_TtC10MetaMapSDK8SVGLayer")
 @end
 
 
-
 @interface SVGLayer (SWIFT_EXTENSION(MetaMapSDK))
 /// Applies the given fill color to all sublayers
 @property (nonatomic) CGColorRef _Nullable fillColor;
 @end
+
 
 
 @interface SVGLayer (SWIFT_EXTENSION(MetaMapSDK))
