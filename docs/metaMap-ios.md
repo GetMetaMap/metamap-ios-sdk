@@ -77,6 +77,12 @@ Add the following permissions to capture video, access the photo gallery, and ac
 <string>MetaMap needs access to your media library</string>
 <key>NSMicrophoneUsageDescription</key>
 <string>MetaMap needs access to your Microphone</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>MetaMap will use your location information to provide best possible verification experience.</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>MetaMap will use your location information to provide best possible verification experience.</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>MetaMap will use your location information to provide best possible verification experience.</string>
 ```
 
 
