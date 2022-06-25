@@ -4,102 +4,29 @@ excerpt: "Add the MetaMap button to your iOS app."
 slug: "ios"
 category: 61ae8e8dba577a0010791480
 ---
+
 # MetaMap iOS Usage Guide
 
 The following describes how to install and use the MetaMap iOS SDK for your application.
 
-## iOS Demo App
-
-You can go to GitHub and download the [MetaMap iOS demo app](https://github.com/GetMati/mati-mobile-examples/tree/main/swiftDemoApp(native))
-
-## Requirements and size
-   iOS 12+  
-   Xcode 12.0  
-   Swift 5.0  
-   
-SDK compiled size: ~10MB
-
-Source (in project files): 55MB
-
-## Add the MetaMap SDK
-<!--
-There are two ways to add the MetaMap SDK for iOS:
-* [Using CocoaPods](#install-using-cocoapods)
-* [Using the Swift Package Manager](#install-using-spm)
--->
-
 ### Install Using CocoaPods
 
-Create a Podfile and add the pod `MetaMap-Global-ID-SDK`:
-
-    pod 'MetaMap-Global-ID-SDK'
-
-Update your pods from the terminal
-
-    pod install
-
-_**Note**_ The following dependencies will be automatically installed with the pod `MetaMap-Global-ID-SDK`:
-
-* Starscream
-* SocketIO
-
-<!-- ### Download from GitHub
-
-Download the MetaMap framework directly from GitHub and add it to your project with all necessary dependencies.
-
-_**IMPORTANT**_ The `MetaMap-Global-ID-SDK` requires the following dependencies:
-
-* Starscream
-* SocketIO
-
-_**Note**_ Check that you've added the [MetaMap framework](https://github.com/GetMati/mati-ios-sdk/tree/master/MetaMapSDK.xcframework).
-
-
-
-### Install Using Swift Package Manager
--->
-
-
-## Implement MetaMap in Your App
-
-Add the MetaMap button to your App.
-
-* [Swift](#metaMap-button-swift)
-* [Objective-C](#metaMap-button-objc)
-
+1. Create a Podfile and add the pod `MetaMap-Global-ID-SDK`:
+```bash
+pod 'MetaMap-Global-ID-SDK'
+```
 _**IMPORTANT**_ **`Info.plist`**
-Add the following permissions to capture video, access the photo gallery, and access the microphone for the voiceliveness feature.
+SDK minimum support version is 12.0
 
-```xml
-<key>NSCameraUsageDescription</key>
-<string>MetaMap needs access to your Camera</string>
-<key>NSPhotoLibraryUsageDescription</key>
-<string>MetaMap needs access to your media library</string>
-<key>NSMicrophoneUsageDescription</key>
-<string>MetaMap needs access to your Microphone</string>
-<key>NSLocationWhenInUseUsageDescription</key>
-<string>MetaMap will use your location information to provide best possible verification experience.</string>
-<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-<string>MetaMap will use your location information to provide best possible verification experience.</string>
-<key>NSLocationAlwaysUsageDescription</key>
-<string>MetaMap will use your location information to provide best possible verification experience.</string>
+
+2. Update your pods from the terminal
+```bash
+pod install
 ```
 
+3. Add the MetaMap button to your App.
 
-Set the following parameters for your application:
-
-| Parameter                  | Type       | Required | Example                            |
-|----------------------------|------------|----------|------------------------------------|
-| `metaMapButton.title`         | string     | Required | `metaMapButton.title = "Verify Me" ` |
-| `metaMapButton.textColor`     | UIColor    | Optional | `metaMapButton.textColor = .white`     |
-| `metaMapButton.buttonColor`   | UIColor    | Optional | `metaMapButton.buttonColor = .black` |
-| Metadata <br /> _**Note**_ Go to the [Metadata section](#metadata-usage) <br />to learn more about using metadata   | @Nullable Metadata   | Optional |
-
-
-
-_**Note**_ Be sure to initialize the MetaMap button before use.
-
-<a id="metaMap-button-swift"></a> **Swift**
+3.1 Implementation MetaMap button for Swift
 
 ```swift
 import UIKit
@@ -152,7 +79,8 @@ extension ViewController: MetaMapButtonResultDelegate {
 }
 ```
 
-<a id="metaMap-button-objc"></a>**SwiftUI**
+3.2 Implementation MetaMap button for SwiftUI
+
 ```swift
 
 import SwiftUI
@@ -220,10 +148,9 @@ struct MetaMapDelegateObserver: UIViewControllerRepresentable {
 class MetaMapViewController: UIViewController {}
 ```
 
-<a id="metaMap-button-objc"></a>**Objective-C**
+3.2 Implementation MetaMap button for Objective-C
+
 ```objc
-
-
     #import "ViewController.h"
     #import <MetaMapSDK/MetaMapSDK.h>
 
@@ -273,51 +200,44 @@ class MetaMapViewController: UIViewController {}
     @end;
 ```
 
+_**IMPORTANT**_ **`Info.plist`**
+4. Add the following permissions to capture video, access the photo gallery, access the microphone and access to the location
 
-## Metadata Usage
+```xml
+<key>NSCameraUsageDescription</key>
+<string>MetaMap needs access to your Camera</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>MetaMap needs access to your media library</string>
+<key>NSMicrophoneUsageDescription</key>
+<string>MetaMap needs access to your Microphone</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>MetaMap will use your location information to provide best possible verification experience.</string>
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>MetaMap will use your location information to provide best possible verification experience.</string>
+<key>NSLocationAlwaysUsageDescription</key>
+<string>MetaMap will use your location information to provide best possible verification experience.</string>
+```
 
-Metadata is an additional optional parameter that you can receive using a webhook after passing verification. The metadata is also displayed in the verification on the [Dashboard](https://dashboard.getmati.com/).
+## Metadata is an additional optional parameter:
 
-### Metadata: Set the Language
+1. Set the Language:
 
-You can use metadata to set specific parameters, including setting your default language and to hide language settings from users.
-
-key: `fixedLanguage`
-value: locale code of language
-
-For instance, to set the language code for Spain to Spanish, we would set the `fixedLanguage` parameter to `es" `
-
-#### Example: Set the Language Code for Spain
-
-**Swift, SwiftUI**
-```swift
+```bash
 metadata: ["fixedLanguage": "es"]
 ```
-### Metadata: Set the Button Color
+2. Set the Button Color:
 
-You can use metadata to set the color of the main buttons in your flow.
+```bash
+metadata: ["buttonColor": "hexColor"]
+   ```
 
-To set the background color of the button, use the following parameter:
+3. Set the Title color of the button:
 
-key: `buttonColor`
-value: hexColor
+```bash
+metadata: ["buttonTextColor": "hexColor"]
+   ```
 
-
-### Example
-
-**Swift, SwiftUI**
-```swift
-metadata: ["buttonColor": "#C0C8D1"]
-```
-To set the title color of the button:
-
-key: `buttonTextColor`
-value: hexColor
-
-
-### Example 
-
-**Swift, SwiftUI**
-```swift
-metadata: ["buttonTextColor": "#C0C8D1"]
-```
+4. Set identity Id as parameter for re-verification:
+```bash
+metadata: ["identityId": "value"]
+   ```
