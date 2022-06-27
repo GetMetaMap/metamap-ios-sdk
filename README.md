@@ -25,7 +25,7 @@ pod install
 
 3. Add the MetaMap button to your App.
 
-3.1 Implementation MetaMap button for Swift
+Implementation MetaMap button for Swift
 
 ```swift
 import UIKit
@@ -78,7 +78,7 @@ extension ViewController: MetaMapButtonResultDelegate {
 }
 ```
 
-3.2 Implementation MetaMap button for SwiftUI
+Implementation MetaMap button for SwiftUI
 
 ```swift
 
@@ -147,7 +147,7 @@ struct MetaMapDelegateObserver: UIViewControllerRepresentable {
 class MetaMapViewController: UIViewController {}
 ```
 
-3.2 Implementation MetaMap button for Objective-C
+Implementation MetaMap button for Objective-C
 
 ```objc
     #import "ViewController.h"
@@ -219,24 +219,24 @@ _**IMPORTANT**_ **`Info.plist`**
 
 ## Metadata is an additional optional parameter:
 
-1. Set the Language:
+Set the Language:
 
 ```bash
 metadata: ["fixedLanguage": "es"]
 ```
-2. Set the Button Color:
+Set the Button Color:
 
 ```bash
 metadata: ["buttonColor": "hexColor"]
    ```
 
-3. Set the Title color of the button:
+Set the Title color of the button:
 
 ```bash
 metadata: ["buttonTextColor": "hexColor"]
    ```
 
-4. Set identity Id as parameter for re-verification:
+Set identity Id as parameter for re-verification:
 ```bash
 metadata: ["identityId": "value"]
    ```

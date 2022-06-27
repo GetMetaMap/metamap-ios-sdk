@@ -4,7 +4,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SentrySDK (Private)
+@interface
+SentrySDK (Private)
 
 + (void)captureCrashEvent:(SentryEvent *)event;
 
@@ -16,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)setAppStartMeasurement:(nullable SentryAppStartMeasurement *)appStartMeasurement;
 
 + (nullable SentryAppStartMeasurement *)getAppStartMeasurement;
+
+@property (nonatomic, class) NSUInteger startInvocations;
 
 + (SentryHub *)currentHub;
 

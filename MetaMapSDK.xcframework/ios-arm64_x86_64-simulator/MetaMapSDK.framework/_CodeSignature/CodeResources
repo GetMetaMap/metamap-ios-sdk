@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		/ksJz7a8iOURQk4LoBY6h6I7mb4=
+		d1tUb76QwtOgaSC0ur+Iw+9GEbQ=
 		</data>
 		<key>ConfirmPupUpVC.nib</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nxr1XnxHw507JcQcfvZEWa7EEJI=
+		aNiF+zenpLETwh3WiBDTu+JLu1s=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>MFMainViewController.nib</key>
 		<data>
-		UgtoMFypJDP5LpT/6o6si/hg3iA=
+		knqbbQyc/DtIPmCnM453Y2QnYMM=
 		</data>
 		<key>MFRootViewController.nib</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>MatiMainTableViewCell.nib</key>
 		<data>
-		iwY6ZroX/PXHfJ82u/ZPnV7FRRc=
+		Wxu4rN6lZxyIL/q1pfhHjKQBAp8=
 		</data>
 		<key>MatiPoRListViewController.nib</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MatiSmsCheckViewController.nib</key>
 		<data>
-		ijToZSezUpeMEXQAGIep8ADoMxg=
+		GZl+lo4vfXRhg90PAU5lZXBMtmc=
 		</data>
 		<key>MatiSmsCodeViewController.nib</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bwXiaIaLOywE8pzoHNUeOuFLjBc=
+		jcJf3QnFslPKBnzkI43bagPgCgQ=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		snItQbPXgfCmsBVg6/4Z5ogXqFA=
+		xc34lNv0l3mSH5EGyY80XSDiJKU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>PrivateHeaders/PrivateSentrySDKOnly.h</key>
 		<data>
-		zVxyvaZsDUUoNiFw5KY65QiS3T4=
+		iWtSeOaoCygQJlQTwM/7SMh1IdU=
 		</data>
 		<key>PrivateHeaders/Sentry.h</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>PrivateHeaders/SentryAppStateManager.h</key>
 		<data>
-		wUk4/+/xtKHF4ls13AVPiDULRNw=
+		GWbju4JxhuntE3HjZH2UCAlkDBM=
 		</data>
 		<key>PrivateHeaders/SentryAttachment.h</key>
 		<data>
@@ -236,13 +236,9 @@
 		<data>
 		BxIZbIXWReQkWS5iqiIFCopUloo=
 		</data>
-		<key>PrivateHeaders/SentryCrashReportFixer.h</key>
-		<data>
-		crra683CR1k3+o75CaY4B/XwtvE=
-		</data>
 		<key>PrivateHeaders/SentryDebugImageProvider.h</key>
 		<data>
-		IjI8DIKhFEekGz+W5dV329oJvkg=
+		rLH3M3V1kj66IkvjMaEKXAgeUbE=
 		</data>
 		<key>PrivateHeaders/SentryDebugMeta.h</key>
 		<data>
@@ -262,15 +258,15 @@
 		</data>
 		<key>PrivateHeaders/SentryEnvelope.h</key>
 		<data>
-		r1HvE84zAFT1bXZPO0Hcf3oYWTA=
+		Jye7bmtY2uKMEyRKEExUcVySqNY=
 		</data>
 		<key>PrivateHeaders/SentryEnvelopeItemType.h</key>
 		<data>
-		QA0P9tfVsp1COr12MsfCkRERcYs=
+		HtOJ6yU0QUKsuQem+tOZAtiFAS0=
 		</data>
 		<key>PrivateHeaders/SentryError.h</key>
 		<data>
-		aR1DZww/LbJlPTEOEf63pRD6l+c=
+		AzqZcxCkvXKdvEbaFO7BFzeritI=
 		</data>
 		<key>PrivateHeaders/SentryEvent.h</key>
 		<data>
@@ -314,15 +310,15 @@
 		</data>
 		<key>PrivateHeaders/SentryOptions.h</key>
 		<data>
-		7v7jmxjYV+jQbatpO5OHgbCZllQ=
+		gV4irluFfKaKX3ZM9arLIAm3Muw=
 		</data>
 		<key>PrivateHeaders/SentrySDK+Private.h</key>
 		<data>
-		2wCBlNuFCk4OfmhOLv+Viz7Gf5g=
+		6sbqxJ1yCE3miJAOho/oLhXdV4Y=
 		</data>
 		<key>PrivateHeaders/SentrySDK.h</key>
 		<data>
-		y1id53ImX6BE3v6VsOIQTDyy9ns=
+		f6zYIq1656iVs2vmPPE9VAwAiI4=
 		</data>
 		<key>PrivateHeaders/SentrySampleDecision.h</key>
 		<data>
@@ -342,7 +338,7 @@
 		</data>
 		<key>PrivateHeaders/SentrySdkInfo.h</key>
 		<data>
-		y8FKFyf3/REPnTYolaHcCaO087s=
+		bmHceVg9jhxWkzAkqxPgbHeFWuY=
 		</data>
 		<key>PrivateHeaders/SentrySerializable.h</key>
 		<data>
@@ -362,7 +358,7 @@
 		</data>
 		<key>PrivateHeaders/SentrySpanProtocol.h</key>
 		<data>
-		QkMuA6KufJ+ZKyWh3qUwiU1L3D4=
+		LsQrj7wLkL4D7NC7k4cTEWVXlcE=
 		</data>
 		<key>PrivateHeaders/SentrySpanStatus.h</key>
 		<data>
@@ -379,6 +375,10 @@
 		<key>PrivateHeaders/SentryThread.h</key>
 		<data>
 		8uxa/4ah4hJma8b5jNzL+WLd4zo=
+		</data>
+		<key>PrivateHeaders/SentryTraceContext.h</key>
+		<data>
+		X+hk9c7+N/S0g0+Z3DQ0vcPrp6Y=
 		</data>
 		<key>PrivateHeaders/SentryTraceHeader.h</key>
 		<data>
@@ -408,7 +408,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Km9MOOw/mgFPotuXcRKq0VFKBzs=
+			6g5qfecHzKwIMNBP5FqiZ37zez4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -417,7 +417,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			R83ShcjRBL+HDvUVCzBGm6NL7eQ=
+			G/F5rf2yQK4mTBIHOPB4jd6Ov8Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -426,7 +426,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			r47uOufKF2dIJVLKcot5bv0X2wo=
+			8TBPA/wo9Qkuk/bHK0m0UEcUg9Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -435,7 +435,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WTcPSZ+oxNhHwiqiuW5q+nrnFkY=
+			SmVejzpQZfqHKkNYvLe5WCBDB/U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -444,7 +444,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tlTnk+B5NdIvGrFbg4h41fteO4k=
+			gIc/to3th8WsZO15ty9Vc3KBDTo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -461,7 +461,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S3srNrwkxmBRqW3Mmw92Yuct3q8=
+			w+8rUAoDg7nDnWhBPAypeyF2d6w=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -470,7 +470,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ocksuVjUD1BUZql1Q6E0ywaK6Co=
+			IKTXjaCHUI24CWI/Sok4jYTly1U=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -479,7 +479,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			93D5Cs8rYrrJUg5cN31UKZ8zO9g=
+			Lcfcf2sAdh4HKP5OfKUaYsygB1k=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -488,7 +488,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QKJ7dD3mAfVKRffE6iTeZg0Fy+Y=
+			s29j4TF+zodVXdUMgnbVb55uEB0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -497,7 +497,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Mh8EAOjeNSHR5JGVTuII46qKKMU=
+			7Y2zaTDHmaWk35TpZS3LHLfNvFU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -509,7 +509,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yV8E0lQzoke/XAOQ8uWqzaMFB6VFogX6xkjd+itgj34=
+			iVVDyPnyCA1aHIGmxocMlt1u7XCSuoyWkZmuhr9HNAE=
 			</data>
 		</dict>
 		<key>ConfirmPupUpVC.nib</key>
@@ -649,7 +649,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OjFjOJA4Oo4avMD/YAGslO1aJzDAVLSPj83BrIxOYbQ=
+			tisgF6eWS/U3FPYlRwpU4IYPKLS4+jbmYilMqDPR5VY=
 			</data>
 		</dict>
 		<key>MFRootViewController.nib</key>
@@ -733,7 +733,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hZjIuQnLaK2i2ns/i90CahQsXGFsvbKKuWnYt8Tx6Ow=
+			VGbQpkVB3jVFfKeW+ba6IouxkfMBtSdmJIV+TCED374=
 			</data>
 		</dict>
 		<key>MatiPoRListViewController.nib</key>
@@ -768,7 +768,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fdqpBtFRCLAQIhnLF2sRYXtIvvt7HTmzqqJeqqzjNRA=
+			YIAdnBapUQcKurwVBkOL6J4EDXmaPAazgcgfJlvCG88=
 			</data>
 		</dict>
 		<key>MatiSmsCodeViewController.nib</key>
@@ -810,7 +810,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K6ve5XZv+4yIahzwWSECw7SzweNSE1QivV4b1gIQC6Q=
+			TAga7/VfF9YsFyzUt/DoYLsaoGxy3HCVZHc5EJ8+jPM=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -831,7 +831,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			L1ZX5L+d4cuZYdM2PFFZNIgYtH8qJ0L62k7KxsKQ6Dc=
+			dO3pFDfF8BmbS5XfL+YYO0m2MEYq4IKRH5muWv5J6xc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -845,7 +845,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sL9YUCTXLyg9IYN4784rp6NVvm1cwf53GXru22J4DjA=
+			bRCmoOv8S3TIJXGsTH9/tw1LIZWMLxMCrOeeT/I0wG4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/Sentry.h</key>
@@ -866,7 +866,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TwtTaNSojJtQ6cXRU5SSYC42y5hghJ4IU2jNOoxE0dM=
+			ACDfveJkWni+dECUk63XOm8epiOA/ndlgIv4sgWPwyE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryAttachment.h</key>
@@ -904,18 +904,11 @@
 			W5EfC6PqYsaz3TPyc7gCdP1ikXHLBGCVsnqKKkKxyfQ=
 			</data>
 		</dict>
-		<key>PrivateHeaders/SentryCrashReportFixer.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gfvB+D4OE6ZX21PhphY28dO+Khe6f6L5k5VI+gQXOJI=
-			</data>
-		</dict>
 		<key>PrivateHeaders/SentryDebugImageProvider.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BIMPjAs0VHOt7xyhYv39QqdaPSx7E5PMQ2Iio3rivAQ=
+			YQHrKEMzQ15JDyxtSSflnVZ8WXp4b2Jw/YKqJ/UNEs8=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryDebugMeta.h</key>
@@ -950,21 +943,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y5PmVTYlUkygFs3CByZ5AOMY+1j0Mj1wN/XiqowtQZY=
+			yxrIyiZUIpxlvIVNYXBln0gWxZVtmVZxtrZgGdU/h+4=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryEnvelopeItemType.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MxZxVT8pj1wQulj4HcsDB0D0LWOvpLcN0BdwQ+xOVHI=
+			e5sPTBgpmk4ZCul4IqzKlqWYDa+GBJQgzqf/ytEguyA=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryError.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nmU3B0NyZDsHOGK9Ebq1S8wKib87fXk6TBlZMzsjxu8=
+			AGuekGrNagSgOAZf1oiQNSToNPehCeEcaMPk2B6ih90=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryEvent.h</key>
@@ -1041,21 +1034,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I2vBI6z4n/8IwCmdEmE10TEQK8DkOtWL2/6bW8O19bI=
+			O3/z5v5YJgzSUgLrZslfUN8jMp3Soxnn/Pxwh5KhLGk=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySDK+Private.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lrtVpNJcxOvb9GvcARaYlOZjyGfm1oxQMS6xmSzKNOE=
+			4mCcSH3GQvRoIyBtjfZGgT8SrGlHh0pHU/l6YLBgWAE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySDK.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4igUypyY/vADvC74VLcbH2p0b4VbZorXaVDx6t3NErc=
+			c1+tOC5xevCZf1rHYphWdTlCLdR90JHjEr/xDJd8cMQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySampleDecision.h</key>
@@ -1090,7 +1083,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HRYtdDlhFKCgODaqrMxy4pu9XMJNqMuX5UqCSfyqwPc=
+			AW9YHuJyWJSkmJ1NX7+/Dv1kHdjNvGG33WWwLGNTeEs=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySerializable.h</key>
@@ -1125,7 +1118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eIzld5dmLHWRgNeboHJDSio7IOCOX5hyUvW5mQle1ls=
+			8dnWFZ3e3rVRUdiuoAbjQRHjGuktts3cmMRxtzfEs1g=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentrySpanStatus.h</key>
@@ -1154,6 +1147,13 @@
 			<key>hash2</key>
 			<data>
 			BwJq6sY85RDci28fhFsj4/BWzCt4dGweBzmzcokMC1U=
+			</data>
+		</dict>
+		<key>PrivateHeaders/SentryTraceContext.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GNv5sB/mCqWhtFveKZxqxScgCUb4kpEawdS5UXaC/ZU=
 			</data>
 		</dict>
 		<key>PrivateHeaders/SentryTraceHeader.h</key>
@@ -1202,7 +1202,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			09VBKMgHeRTI8HrMAyJfuNtXWZIpC7y6o6eKzFQXo9s=
+			SUdwN+zKNCTLt0J/Ku3JdsDe3bWi7qB0eyZHdDi7Y6A=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1211,7 +1211,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i+YvtkILR5OQAzYkXDR3fP+ToEjvB8XkCR4hR1ybj6Q=
+			s0f2iLy77/VuCbe89zKfUQ5wik3r+f/kwTNJVmU1Ang=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1220,7 +1220,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ryQdJeH6/rGkw7Ea+pjpvGRZENbByhkQsGEFWKP5TfI=
+			tBVFWL2S0f7rEX/ZoOKF4mVmY3eyfGCUZWnRImL7iII=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1229,7 +1229,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ntk4NAvc+q5lvvGT0tH7WLXEy0lNT5XWJtSYqjovCmU=
+			a6/jougTMEIaiEkUZx2wrUVSxM7736fX6JVWIuP+6XQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1238,7 +1238,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ph8VZq/w0y1TChD0RhFNi6GN1qjaxsyTiFNxkJ3Rnwo=
+			Lab5Qix9dDZ7ETYA+b8lf134A7gPLjCJv8w/CmAZD48=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1261,7 +1261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5GBCbSIuh91EPPyf6xUKByuQ6ftoZwOQPKcMIZd2Jlg=
+			loHztE+pj96ACXhTva/UZwcSNsnpY7lv7DrysKUPge4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1270,7 +1270,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wfFPMwwetyr5XW+ehBgVje6MPIjLGSgZQuWhAlG3ToI=
+			u55pDFUNYWLo8kBxK6fq8ihFWRwcjXBzA7iAHVMdZRc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1279,7 +1279,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C4/MJZavnvsfiPdv5KGdSfxljxzV+0kkpzunUwe+B1Y=
+			5T+YQT6MYI0bUX2BwvOq0Tskd8qXdmrbi1mLCsYnCu0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1288,7 +1288,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MH4nxlqlBewDHa4fgCjSXtlpJRXL0RNx4HlIBIvknlI=
+			rmW3XOEnNvNh+L48Bv8nbe/OyNPKnG/GMxxqb0NX8E4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1297,7 +1297,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6q46BcIhwi0xn+gbsv7B/+uK9iwLljaWQiknqvSVC+U=
+			Xh1jrFOSu1sUGRBhMbkzRFSuJ2bpVhO787czdXULaXM=
 			</data>
 			<key>optional</key>
 			<true/>

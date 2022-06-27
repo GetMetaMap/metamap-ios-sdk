@@ -10,8 +10,6 @@ hidden: true
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
-<!-- Note to developers: copy/paste the template below for each version. Delete categories that don't apply the the release
-
 
 # Version 3.8.9
 ###### 25 June 2022
@@ -141,25 +139,16 @@ If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [
     * fixed issue related to the camera permission
 
 
+# Version 3.9.9
+###### 27 June 2022
 
-# Version
-###### Date
-  
 #### New Features
-* <new feature>
+    *  add "metamap_" prefix to string
 
 #### Updated Features
-* <changes in existing functionality>
-
-#### Deprecated Features
-* <soon-to-be removed features>
-
-#### Removed Features
-* <removed features>
+    * new Start screen style
+    
 
 #### Bug Fixes
-* <bug fixes>
-
-#### Security Vulnerabilities
-* <known vulnerabilities>
--->
+    * added the right error code to the Analytic
+    * fixed issue on the document country restriction
