@@ -65,6 +65,12 @@ NS_SWIFT_NAME(Options)
 @property (nonatomic, assign) NSUInteger maxBreadcrumbs;
 
 /**
+ * When enabled, the SDK adds breadcrumbs for each network request. Default value is YES.
+ * As this feature uses swizzling, disabling enableSwizzling also disables this feature.
+ */
+@property (nonatomic, assign) BOOL enableNetworkBreadcrumbs;
+
+/**
  * The maximum number of envelopes to keep in cache. Default is 30.
  */
 @property (nonatomic, assign) NSUInteger maxCacheItems;
@@ -103,9 +109,9 @@ NS_SWIFT_NAME(Options)
 + (NSArray<NSString *> *)defaultIntegrations;
 
 /**
- * Indicates the percentage of events being sent to Sentry. Setting this to 0 or NIL discards all
- * events, 1.0 sends all events, 0.01 collects 1% of all events. The default is 1. The value needs
- * to be >= 0.0 and <= 1.0. When setting a value out of range  the SDK sets it to the default
+ * Indicates the percentage of events being sent to Sentry. Setting this to 0 discards all
+ * events, 1.0 or NIL sends all events, 0.01 collects 1% of all events. The default is 1. The value
+ * needs to be >= 0.0 and <= 1.0. When setting a value out of range  the SDK sets it to the default
  * of 1.0.
  */
 @property (nullable, nonatomic, copy) NSNumber *sampleRate;
@@ -161,9 +167,12 @@ NS_SWIFT_NAME(Options)
  * When enabled, the SDK sends personal identifiable along with events. The default is
  * <code>NO</code>.
  *
- * @discussion When the user of an event doesn't contain an IP address, the SDK sets it to
- * <code>{{auto}}</code> to instruct the server to use the connection IP address as the user
- * address.
+ * @discussion When the user of an event doesn't contain an IP address, and this flag is
+ * <code>YES</code>, the SDK sets it to <code>{{auto}}</code> to instruct the server to use the
+ * connection IP address as the user address. Due to backward compatibility concerns, Sentry set the
+ * IP address to <code>{{auto}}</code> out of the box for Cocoa. If you want to stop Sentry from
+ * using the connections IP address, you have to enable Prevent Storing of IP Addresses in your
+ * project settings in Sentry.
  */
 @property (nonatomic, assign) BOOL sendDefaultPii;
 
@@ -174,6 +183,51 @@ NS_SWIFT_NAME(Options)
  * https://docs.sentry.io/platforms/apple/performance/
  */
 @property (nonatomic, assign) BOOL enableAutoPerformanceTracking;
+
+#if SENTRY_HAS_UIKIT
+/**
+ * When enabled, the SDK tracks performance for UIViewController subclasses. The default is
+ * <code>YES</code>.
+ */
+@property (nonatomic, assign) BOOL enableUIViewControllerTracking;
+
+/**
+ * Automatically attaches a screenshot when capturing an error or exception.
+ *
+ * Default value is <code>NO</code>
+ */
+@property (nonatomic, assign) BOOL attachScreenshot;
+
+/**
+ * This feature is EXPERIMENTAL.
+ *
+ * When enabled, the SDK creates transactions for UI events like buttons clicks, switch toggles,
+ * and other ui elements that uses UIControl `sendAction:to:forEvent:`.
+ */
+@property (nonatomic, assign) BOOL enableUserInteractionTracing;
+
+/**
+ * How long an idle transaction waits for new children after all its child spans finished. Only UI
+ * event transactions are idle transactions. The default is 3 seconds.
+ */
+@property (nonatomic, assign) NSTimeInterval idleTimeout;
+
+#endif
+
+/**
+ * When enabled, the SDK adds breadcrumbs for HTTP requests and tracks performance for HTTP
+ * requests if auto performance tracking and enableSwizzling are enabled. The default is
+ * <code>YES</code>.
+ */
+@property (nonatomic, assign) BOOL enableNetworkTracking;
+
+/**
+ * This feature is EXPERIMENTAL.
+ *
+ * When enabled, the SDK tracks performance for file IO reads and writes with NSData if auto
+ * performance tracking and enableSwizzling are enabled. The default is <code>NO</code>.
+ */
+@property (nonatomic, assign) BOOL enableFileIOTracking;
 
 /**
  * Indicates the percentage of the tracing data that is collected. Setting this to 0 or NIL discards
@@ -229,6 +283,49 @@ NS_SWIFT_NAME(Options)
  * Set as delegate on the NSURLSession used for all network data-transfer tasks performed by Sentry.
  */
 @property (nullable, nonatomic, weak) id<NSURLSessionDelegate> urlSessionDelegate;
+
+/**
+ * Controls if the `tracestate` header is attached to envelopes and HTTP client integrations.
+ *
+ * Note: this is an experimental API and will be removed without notice.
+ */
+@property (nonatomic) BOOL experimentalEnableTraceSampling;
+
+/**
+ * Wether the SDK should use swizzling or not. Default is YES.
+ *
+ * @discussion When turned off the following features are disabled: breadcrumbs for touch events and
+ * navigation with UIViewControllers, automatic instrumentation for UIViewControllers, automatic
+ * instrumentation for HTTP requests, automatic instrumentation for file IO with NSData, and
+ * automatically added sentry-trace header to HTTP requests for distributed tracing.
+ */
+@property (nonatomic, assign) BOOL enableSwizzling;
+
+/**
+ * This feature is experimental.
+ *
+ * When enabled, the SDK tracks the performance of Core Data operations. It requires enabling
+ * performance monitoring. The default is <code>NO</code>.
+ * @see <https://docs.sentry.io/platforms/apple/performance/>
+ */
+@property (nonatomic, assign) BOOL enableCoreDataTracking;
+
+#if SENTRY_TARGET_PROFILING_SUPPORTED
+/**
+ * Whether to enable the sampling profiler. Default is NO.
+ * @note This is a beta feature that is currently not available to all Sentry customers. This
+ * feature is not supported on watchOS or tvOS.
+ */
+@property (nonatomic, assign) BOOL enableProfiling;
+#endif
+
+/**
+ * Whether to send client reports, which contain statistics about discarded events. The default is
+ * <code>YES</code>.
+ *
+ * @see <https://develop.sentry.dev/sdk/client-reports/>
+ */
+@property (nonatomic, assign) BOOL sendClientReports;
 
 @end
 
