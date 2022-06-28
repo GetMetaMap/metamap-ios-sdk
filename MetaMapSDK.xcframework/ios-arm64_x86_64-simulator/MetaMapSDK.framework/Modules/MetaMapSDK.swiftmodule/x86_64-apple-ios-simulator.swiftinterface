@@ -524,6 +524,12 @@ public protocol SocketEngineSpec : AnyObject {
   func parseEngineMessage(_ message: Swift.String)
   func write(_ msg: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())?)
 }
+@_hasMissingDesignatedInitializers public class EnumerateNetworkInterfaces {
+  public struct NetworkInterfaceInfo {
+  }
+  public static func enumerate() -> [MetaMapSDK.EnumerateNetworkInterfaces.NetworkInterfaceInfo]
+  @objc deinit
+}
 extension Swift.FloatingPoint {
   public var toRadians: Self {
     get

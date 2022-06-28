@@ -10,93 +10,40 @@ hidden: true
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
-
-# Version 3.8.9
-###### 25 June 2022
-
-#### New Features
-    * support error case for face mask detection
-    * dynamic web containers
-    * support device language by default
-    * support internet disconnect case for all project
+# Version 3.9.10
+###### 28 June 2022
 
 #### Bug Fixes
-    * fixed issue related to the SMS resend timer freezes
+    * corrected IP address
 
-
-# Version 3.9.0
-###### 9 Febrary 2022
-
-#### New Features
-    * support CPF for Brazil NID
-    * support credit check
-    * support dynamic start screen
-    * replaced Mati logo to MetaMap
-
-#### Bug Fixes
-    * fixed crash on the iPad 
-    * fixed minor issue related to the mic. permission
-    * fixed layout issues related to the document scan and document previewers screens
-    * corrected ordering of verificationId and IdentityId - [ issue was in Flutter plugin ]
-
-
-# Version 3.9.1
-###### 23 Febrary 2022
+# Version 3.9.9
+###### 27 June 2022
 
 #### New Features
-    * added face detection
-    * document subType selection
-
-#### Bug Fixes
-    * fixed minor issues related to the e-sign step
-    * fixed retry button issue on the liveness screen
-    * fixed translation issues for Spanish
+    *  add "metamap_" prefix to string
 
 #### Updated Features
-    * corrected credit check contents feature
-    * fixed start button issue on several screens
-    * fixed minor issues on the Brazil CPF screen
-
-
-# Version 3.9.3
-###### 14 March 2022
-
-#### New Features
-    * rebranding to MetaMap
-    * updated Flutter & Capacitor plugins for support iOS and Android latest version
-    * updated documentation about deprecated methods
-
-
-# Version 3.9.4
-###### 25 March 2022
+    * new Start screen style
+    
 
 #### Bug Fixes
-    * fixed issue on update document
-    * fixed issue related to the country restrictions
-    * fixed issue related to the detecting and auto-correcting whitespace characters in Email ID input
-    * changed text on the success screen
-    * fixed Sentry error on the React-Native plugin
-    * fixed incorrect verificationId and identityId response on the Flutter plugin
+    * added the right error code to the Analytic
+    * fixed issue on the document country restriction
+
+
+# Version 3.9.8
+###### 10 June 2022
+
+#### New Features
+    * replaced metaData dictionary with the object
 
 #### Updated Features
-    * changed all things related to Mati on the plugins
-
-
-# Version 3.9.5
-###### 15 April 2022
-
-#### New Features
-    * document skip back
-    * document subtypes
+    * event queue for analytics
+    * identity Id to analytic events
 
 #### Bug Fixes
-    * server error & no internet connection screens
-    * fixed minor issue related to the back button
-    * fixed issue on the e-sign step
-    * fixed minor issue in the verification done screen
-    * fixed issue related to the sending CPF typed to the document
-    * fixed issue on the Cordova plugin related to [ iOS podFile] replacing
-    * corrected done button title in Spanish
+    * fixed issue on the E-sign flow
+    * fixed issue related to the camera permission
 
 
 # Version 3.9.6
@@ -124,31 +71,97 @@ If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [
     * fixed the issue on the self-verification flow
     * fixed minor issues after refactoring
 
-# Version 3.9.8
-###### 10 June 2022
+
+# Version 3.9.5
+###### 15 April 2022
 
 #### New Features
-    * replaced metaData dictionary with the object
-
-#### Updated Features
-    * event queue for analytics
-    * identity Id to analytic events
+    * document skip back
+    * document subtypes
 
 #### Bug Fixes
-    * fixed issue on the E-sign flow
-    * fixed issue related to the camera permission
+    * server error & no internet connection screens
+    * fixed minor issue related to the back button
+    * fixed issue on the e-sign step
+    * fixed minor issue in the verification done screen
+    * fixed issue related to the sending CPF typed to the document
+    * fixed issue on the Cordova plugin related to [ iOS podFile] replacing
+    * corrected done button title in Spanish
 
 
-# Version 3.9.9
-###### 27 June 2022
+# Version 3.9.4
+###### 25 March 2022
+
+#### Bug Fixes
+    * fixed issue on update document
+    * fixed issue related to the country restrictions
+    * fixed issue related to the detecting and auto-correcting whitespace characters in Email ID input
+    * changed text on the success screen
+    * fixed Sentry error on the React-Native plugin
+    * fixed incorrect verificationId and identityId response on the Flutter plugin
+
+#### Updated Features
+    * changed all things related to Mati on the plugins
+
+
+# Version 3.9.3
+###### 14 March 2022
 
 #### New Features
-    *  add "metamap_" prefix to string
+    * rebranding to MetaMap
+    * updated Flutter & Capacitor plugins for support iOS and Android latest version
+    * updated documentation about deprecated methods
 
-#### Updated Features
-    * new Start screen style
-    
+
+# Version 3.9.1
+###### 23 Febrary 2022
+
+#### New Features
+    * added face detection
+    * document subType selection
 
 #### Bug Fixes
-    * added the right error code to the Analytic
-    * fixed issue on the document country restriction
+    * fixed minor issues related to the e-sign step
+    * fixed retry button issue on the liveness screen
+    * fixed translation issues for Spanish
+
+#### Updated Features
+    * corrected credit check contents feature
+    * fixed start button issue on several screens
+    * fixed minor issues on the Brazil CPF screen
+
+
+# Version 3.9.0
+###### 9 Febrary 2022
+
+#### New Features
+    * support CPF for Brazil NID
+    * support credit check
+    * support dynamic start screen
+    * replaced Mati logo to MetaMap
+
+#### Bug Fixes
+    * fixed crash on the iPad 
+    * fixed minor issue related to the mic. permission
+    * fixed layout issues related to the document scan and document previewers screens
+    * corrected ordering of verificationId and IdentityId - [ issue was in Flutter plugin ]
+
+
+# Version 3.8.9
+###### 25 June 2022
+
+#### New Features
+    * support error case for face mask detection
+    * dynamic web containers
+    * support device language by default
+    * support internet disconnect case for all project
+
+#### Bug Fixes
+    * fixed issue related to the SMS resend timer freezes
+
+
+
+
+
+
+
