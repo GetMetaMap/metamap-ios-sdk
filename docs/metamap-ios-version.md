@@ -10,6 +10,24 @@ hidden: true
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.9.11
+###### 22 July 2022
+
+#### Bug Fixes
+    * fixed issue on the stop video at recording liveness button
+    * corrected no face document leads error
+    * fixed issue on the start screen financial icons
+    * corrected key of localization string on the e-sign screen 
+    * changed the Reachability public class to private
+    * fixed crash, on the cancel action on the country list screen
+    * fixed crash after verification finishes
+    
+#### Updated Features
+    * "metaMap_" prefix to string resources in localize
+    * server message of error for incorrect CPF code
+    * documentation of the plugins: added location permission information
+
+
 # Version 3.9.10
 ###### 28 June 2022
 
