@@ -11,7 +11,7 @@ The following describes how to install and use the MetaMap iOS SDK for your appl
 
 ### Install Using CocoaPods
 
-1. Create a Podfile and add the pod `MetaMap-Global-ID-SDK`:
+1. Create a Podfile and add the pod `MetaMap-ID-SDK`:
 ```bash
 pod 'MetaMap-ID-SDK'
 ```
