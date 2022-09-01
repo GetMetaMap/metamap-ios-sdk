@@ -13,7 +13,7 @@ The following describes how to install and use the MetaMap iOS SDK for your appl
 
 1. Create a Podfile and add the pod `MetaMap-Global-ID-SDK`:
 ```bash
-pod 'MetaMap-Global-ID-SDK'
+pod 'MetaMap-ID-SDK'
 ```
 _**IMPORTANT**_ **`Support version`**
 SDK minimum support version is 12.0

@@ -9,6 +9,31 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+
+
+# Version 3.10.0
+###### 1 September 2022
+
+#### Bug Fixes
+    * fixed crash on document upload screen
+    * fixed server error issue
+    * fixed issue related to the country selection when supported country is one 
+    
+### Updated Features
+    * refactored flows list screen (Main screen)
+    * replaced upload document screen to loading spinner
+    * removed RootViewController 
+    * fixed minor layout issues
+    * refactored video/voice liveness screen 
+    * added error code/id to the error screens
+    * refactored verification phone/E_mail flow
+
+### New Features
+    * added support 402/403 errors code
+    * added id to all UI elements
+
+
+
 # Version 3.9.11
 ###### 22 July 2022
 
