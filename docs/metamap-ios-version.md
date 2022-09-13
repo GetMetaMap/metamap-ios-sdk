@@ -190,7 +190,7 @@ If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [
 
 
 # Version 3.8.9
-###### 25 June 2022
+###### 25 January 2022
 
 #### New Features
     * support error case for face mask detection
