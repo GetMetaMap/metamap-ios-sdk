@@ -10,6 +10,19 @@ category: 61ae8e8dba577a0010791480
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
 
+# Version 3.10.1
+###### 19 September 2022
+
+#### Bug Fixes
+    * fixed issue on the CPF screen
+    * fixed issue on the selfie photo screen
+    * fixed verifications completed status for Brazilian Driving License verification
+    * corrected text/Title on the Main screen
+    
+### Updated Features
+        * support dark mode
+        * support country restriction enable mode 
+        
 
 # Version 3.10.0
 ###### 1 September 2022

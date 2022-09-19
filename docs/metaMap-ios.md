@@ -1,11 +1,12 @@
 ---
-title: "iOS"
-excerpt: "Add the MetaMap button to your iOS app."
-slug: "ios"
+title: "MetaMap iOS SDK"
+LTS version (Recommended for most users): "3.10.0"
+Current Version(Latest features): "3.10.1"
 category: 61ae8e8dba577a0010791480
 ---
 
 # MetaMap iOS Usage Guide
+
 
 The following describes how to install and use the MetaMap iOS SDK for your application.
 
@@ -13,7 +14,7 @@ The following describes how to install and use the MetaMap iOS SDK for your appl
 
 1. Create a Podfile and add the pod `MetaMap-Global-ID-SDK`:
 ```bash
-pod 'MetaMap-ID-SDK'
+pod 'MetaMap-ID-SDK', '3.10.0'
 ```
 _**IMPORTANT**_ **`Support version`**
 SDK minimum support version is 12.0
