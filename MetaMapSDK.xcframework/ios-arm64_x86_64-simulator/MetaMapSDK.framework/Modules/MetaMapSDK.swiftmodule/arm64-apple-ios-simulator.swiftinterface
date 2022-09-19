@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MetaMapSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
 import SystemConfiguration.CaptiveNetwork
@@ -25,6 +26,7 @@ import UIKit
 import Vision
 import WebKit
 import _Concurrency
+import _StringProcessing
 import zlib
 @objc public protocol MetaMapButtonResultDelegate {
   @objc func verificationSuccess(identityId: Swift.String?, verificationID: Swift.String?)
@@ -189,10 +191,10 @@ public class WSEngine : MetaMapSDK.Engine, MetaMapSDK.TransportEventClient, Meta
     @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @objc dynamic public init()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CoreGraphics.CGSize {
-    @_Concurrency.MainActor(unsafe) @objc get
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
   @objc deinit
@@ -355,7 +357,7 @@ extension MetaMapSDK.SocketEngineWebsocket {
   @_Concurrency.MainActor(unsafe) public var statusBarStyle: UIKit.UIStatusBarStyle
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
-    @_Concurrency.MainActor(unsafe) @objc get
+    @objc get
   }
   @available(iOS 5.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
@@ -390,14 +392,14 @@ extension MetaMapSDK.DelaysApplyingAttributes where Self : MetaMapSDK.SVGElement
   public mutating func applyDelayedAttributes()
 }
 public protocol SVGLayerType {
-  var boundingBox: CoreGraphics.CGRect { get }
+  var boundingBox: CoreFoundation.CGRect { get }
 }
 extension MetaMapSDK.SVGLayerType where Self : QuartzCore.CALayer {
   @discardableResult
-  public func resizeToFit(_ rect: CoreGraphics.CGRect) -> Self
+  public func resizeToFit(_ rect: CoreFoundation.CGRect) -> Self
 }
 @objc @_inheritsConvenienceInitializers open class SVGLayer : QuartzCore.CAShapeLayer, MetaMapSDK.SVGLayerType {
-  public var boundingBox: CoreGraphics.CGRect
+  public var boundingBox: CoreFoundation.CGRect
   @objc override dynamic public init()
   @objc override dynamic public init(layer: Any)
   @objc required dynamic public init?(coder: Foundation.NSCoder)
@@ -415,7 +417,7 @@ extension MetaMapSDK.SVGLayer {
   }
 }
 extension MetaMapSDK.SVGLayer {
-  @objc override dynamic open var lineWidth: CoreGraphics.CGFloat {
+  @objc override dynamic open var lineWidth: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
@@ -569,7 +571,7 @@ extension QuartzCore.CAShapeLayer {
   }
   @available(*, deprecated, renamed: "svgName")
   @_Concurrency.MainActor(unsafe) open var SVGName: Swift.String?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
