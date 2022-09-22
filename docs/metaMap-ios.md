@@ -17,7 +17,7 @@ The following describes how to install and use the MetaMap iOS SDK for your appl
 pod 'MetaMap-ID-SDK', '3.10.0'
 ```
 _**IMPORTANT**_ **`Support version`**
-SDK minimum support version is 12.0
+This SDK supports iOS version 12.0 and up.
 
 2. Update your pods from the terminal
 ```bash
