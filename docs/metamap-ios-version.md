@@ -10,6 +10,18 @@ category: 61ae8e8dba577a0010791480
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
 
+# Version 3.11.0
+###### 06 October 2022
+
+#### Bug Fixes
+  * fixed issue on the upload document error type
+  
+    
+### Updated Features
+       * Liveness and VoiceLiveness videos recording will automatically stop on the time limit of 20 seconds
+       * Show a meaningful error screen when the initialization of the SDK fails
+
+
 # Version 3.10.1
 ###### 19 September 2022
 
