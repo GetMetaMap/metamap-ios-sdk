@@ -1,9 +1,15 @@
 ---
-title: "MetaMap iOS SDK"
-LTS version (Recommended for most users): "3.10.0"
-Current Version(Latest features): "3.11.0"
+title: "iOS"
+excerpt: "Add the MetaMap button to your iOS app."
+slug: "ios"
 category: 61ae8e8dba577a0010791480
 ---
+
+
+| LTS version (Recommended for most users): |Current Version(Latest features)|
+|---|---|
+| 3.10.0 | 3.11.0 |
+
 
 # MetaMap iOS Usage Guide
 
