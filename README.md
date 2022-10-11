@@ -1,11 +1,18 @@
 ---
-title: "MetaMap iOS SDK"
-LTS version (Recommended for most users): "3.10.0"
-Current Version(Latest features): "3.11.1"
+title: "iOS"
+excerpt: "Add the MetaMap button to your iOS app."
+slug: "ios"
 category: 61ae8e8dba577a0010791480
 ---
 
+
+| LTS version (Recommended for most users): |Current Version(Latest features)|
+|---|---|
+| 3.10.0 | 3.11.2 |
+
+
 # MetaMap iOS Usage Guide
+
 
 The following describes how to install and use the MetaMap iOS SDK for your application.
 
@@ -13,10 +20,10 @@ The following describes how to install and use the MetaMap iOS SDK for your appl
 
 1. Create a Podfile and add the pod `MetaMap-ID-SDK`:
 ```bash
-pod 'MetaMap-ID-SDK', '3.11.1'
+pod 'MetaMap-ID-SDK', '3.11.2'
 ```
 _**IMPORTANT**_ **`Support version`**
-SDK minimum support version is 12.0
+This SDK supports iOS version 12.0 and up.
 
 2. Update your pods from the terminal
 ```bash
@@ -33,10 +40,10 @@ import MetaMapSDK
 
 class ViewController: UIViewController {
 
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		self.setupMetaMapButton()
-	}
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.setupMetaMapButton()
+    }
 
     private func setupMetaMapButton() {
 
@@ -58,23 +65,23 @@ class ViewController: UIViewController {
     }
 
       @objc private func metaMapButtonAction() {
-	//set params to showMetaMapFlow
-	MetaMap.shared.showMetaMapFlow(clientId: "YOUR_CLIENT_ID",
-				flowId: "YOUR_FLOW_ID",
-				metadata: ["key1": "value1", "key2": 123])
-	}
+    //set params to showMetaMapFlow
+    MetaMap.shared.showMetaMapFlow(clientId: "YOUR_CLIENT_ID",
+                flowId: "YOUR_FLOW_ID",
+                metadata: ["key1": "value1", "key2": 123])
+    }
 }
 
 //MARK: MetaMapButtonResultDelegate
 extension ViewController: MetaMapButtonResultDelegate {
 
     func verificationSuccess(identityId: String?, verificationID: String?) {
-		print("MetaMap Verification Success \(identityId)")
-	}
+        print("MetaMap Verification Success \(identityId)")
+    }
 
-	func verificationCancelled() {
-		print("MetaMap Verification Cancelled")
-	}
+    func verificationCancelled() {
+        print("MetaMap Verification Cancelled")
+    }
 }
 ```
 
@@ -240,3 +247,4 @@ Set identity Id as parameter for re-verification:
 ```bash
 metadata: ["identityId": "value"]
    ```
+
