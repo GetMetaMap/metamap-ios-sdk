@@ -8,7 +8,7 @@ category: 61ae8e8dba577a0010791480
 
 | LTS version (Recommended for most users): |Current Version(Latest features)|
 |---|---|
-| 3.10.0 | 3.11.0 |
+| 3.10.0 | 3.11.2 |
 
 
 # MetaMap iOS Usage Guide
@@ -20,7 +20,7 @@ The following describes how to install and use the MetaMap iOS SDK for your appl
 
 1. Create a Podfile and add the pod `MetaMap-ID-SDK`:
 ```bash
-pod 'MetaMap-ID-SDK', '3.11.0'
+pod 'MetaMap-ID-SDK', '3.11.2'
 ```
 _**IMPORTANT**_ **`Support version`**
 This SDK supports iOS version 12.0 and up.
