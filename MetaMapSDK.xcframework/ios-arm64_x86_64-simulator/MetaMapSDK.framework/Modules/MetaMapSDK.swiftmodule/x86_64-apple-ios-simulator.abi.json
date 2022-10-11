@@ -52608,7 +52608,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.11.1\""
+      "value": "\"3.11.2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiConstants\/MatiConfig.swift",
