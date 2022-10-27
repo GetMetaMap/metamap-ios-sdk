@@ -13,6 +13,10 @@ category: 61ae8e8dba577a0010791480
 
 # MetaMap iOS Usage Guide
 
+### Requirments
+* iOS SDK size ~ 10 MB
+* iOS support min version 12 
+* support Swift version 5
 
 The following describes how to install and use the MetaMap iOS SDK for your application.
 
@@ -22,8 +26,6 @@ The following describes how to install and use the MetaMap iOS SDK for your appl
 ```bash
 pod 'MetaMap-ID-SDK', '3.11.2'
 ```
-_**IMPORTANT**_ **`Support version`**
-This SDK supports iOS version 12.0 and up.
 
 2. Update your pods from the terminal
 ```bash
