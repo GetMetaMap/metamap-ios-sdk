@@ -9,6 +9,24 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+
+# Version 3.11.3
+###### 28 October 2022
+
+#### Bug Fixes
+    * fixed issue on the Error screen
+    * fixed socket connection ping-pong issue
+    * fixed crash on the voice liveness step
+    * fixed issue on the biometric step 
+    * fixed resend code timer
+    * fixed minor UI issues
+
+### New Features
+    * added Skeleton loader for Start screen
+    
+    
+    
+
 # Version 3.11.2
 ###### 11 October 2022
 
