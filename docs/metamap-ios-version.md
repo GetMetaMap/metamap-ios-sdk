@@ -10,6 +10,22 @@ category: 61ae8e8dba577a0010791480
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
 
+# Version 3.12.0
+###### 25 November 2022
+
+#### Bug Fixes
+    * fixed crash on the credit check verification Flow
+    * corrected close button image
+    * fixed Search bar logic on countries list screen
+    * fixed issue on IP restriction part
+
+### Updated Features
+    * redesign Location Intelligence flow
+    * added cancel event on the loading close action 
+
+
+
+
 # Version 3.11.3
 ###### 28 October 2022
 
