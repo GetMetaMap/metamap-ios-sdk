@@ -48051,21 +48051,21 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/Other\/MFLocationPermissionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 959,
+      "offset": 1045,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/Other\/MFLocationPermissionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 989,
+      "offset": 1075,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/Other\/MFLocationPermissionViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1029,
+      "offset": 1115,
       "length": 5,
       "value": "false"
     },
@@ -48233,28 +48233,35 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiMain\/MatiPrivate\/MatiModels\/MFKYCFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 1456,
+      "offset": 1450,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiMain\/MatiPrivate\/MatiModels\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1495,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiMain\/MatiPrivate\/MatiModels\/MFKYCFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 1504,
+      "offset": 1543,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiMain\/MatiPrivate\/MatiModels\/MFKYCFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 1542,
+      "offset": 1581,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiMain\/MatiPrivate\/MatiModels\/MFKYCFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 1579,
+      "offset": 1618,
       "length": 5,
       "value": "false"
     },
@@ -49486,28 +49493,28 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM_Error_screen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2825,
+      "offset": 2939,
       "length": 23,
       "value": "\"MFErrorViewController\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM_Error_screen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4272,
+      "offset": 4386,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM_Error_screen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4415,
+      "offset": 4529,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM_Error_screen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4452,
+      "offset": 4566,
       "length": 5,
       "value": "false"
     },
@@ -52090,42 +52097,42 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiBaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7175,
+      "offset": 7408,
       "length": 15,
       "value": "\"MetaMapSDK.CustomTitleView\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiBaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7175,
+      "offset": 7408,
       "length": 15,
       "value": "\"MetaMapSDK.CustomTitleView\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7702,
+      "offset": 7824,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7708,
+      "offset": 7830,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7718,
+      "offset": 7840,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7730,
+      "offset": 7852,
       "length": 2,
       "value": "44"
     },
@@ -52687,7 +52694,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.11.3\""
+      "value": "\"3.12.0\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiConstants\/MatiConfig.swift",
@@ -53217,7 +53224,7 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/Other\/MatiGeoIPErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 241,
+      "offset": 291,
       "length": 30,
       "value": "\"MatiGeoIPErrorViewController\""
     },
@@ -55296,63 +55303,35 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM Base Loading Screen \/MMLoadingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 410,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM Base Loading Screen \/MMLoadingViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 474,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM Base Loading Screen \/MMLoadingViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 570,
-      "length": 19,
-      "value": "\"close_button_icon\""
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM Base Loading Screen \/MMLoadingViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 647,
-      "length": 25,
-      "value": "\"btnCloseOnMMLoadingView\""
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM Base Loading Screen \/MMLoadingViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 832,
+      "offset": 438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM Base Loading Screen \/MMLoadingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 863,
+      "offset": 469,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM Base Loading Screen \/MMLoadingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 985,
+      "offset": 591,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM Base Loading Screen \/MMLoadingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 616,
       "length": 44,
       "value": "\"Something went wrong, restart flow please.\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiUI\/MatiViewControllers\/MM Base Loading Screen \/MMLoadingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1123,
+      "offset": 729,
       "length": 1,
       "value": "0"
     },
