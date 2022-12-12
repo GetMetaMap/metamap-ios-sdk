@@ -13242,6 +13242,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -50690,189 +50700,189 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 1579,
+      "offset": 1580,
       "length": 14,
       "value": "\"SocketEngine\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 1702,
+      "offset": 1703,
       "length": 32,
       "value": "\"com.socketio.engineHandleQueue\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 2416,
+      "offset": 2417,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 2637,
+      "offset": 2638,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 2722,
+      "offset": 2723,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 2840,
+      "offset": 2841,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 2992,
+      "offset": 2993,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 3287,
+      "offset": 3288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 3417,
+      "offset": 3418,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 3543,
+      "offset": 3544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 3649,
+      "offset": 3650,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 3764,
+      "offset": 3765,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 3896,
+      "offset": 3897,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 4081,
+      "offset": 4082,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 4157,
+      "offset": 4158,
       "length": 13,
       "value": "\"\/engine.io\/\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 4254,
+      "offset": 4255,
       "length": 19,
       "value": "\"http:\/\/localhost\/\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 4364,
+      "offset": 4365,
       "length": 19,
       "value": "\"http:\/\/localhost\/\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 4736,
+      "offset": 4737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 4887,
+      "offset": 4888,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 5080,
+      "offset": 5081,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5448,
+      "offset": 5449,
       "length": 5,
       "value": "25000"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5363,
+      "offset": 5364,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5503,
+      "offset": 5504,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 5538,
+      "offset": 5539,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 5610,
+      "offset": 5611,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 5693,
+      "offset": 5694,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiLibraries\/SocketIO\/Engine\/SocketEngine.swift",
       "kind": "StringLiteral",
-      "offset": 1388,
+      "offset": 1389,
       "length": 12,
       "value": "\"MetaMapSDK.SocketEngine\""
     },
@@ -52694,7 +52704,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.12.0\""
+      "value": "\"3.12.1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/Projects\/Mati\/ios-framework\/mati-kyc-sdk\/MatiSupportFiles\/MatiConstants\/MatiConfig.swift",
