@@ -15,7 +15,9 @@ If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [
     * fixes UI issue in shimmering screen
     * fixed crash on the backside document upload 
     * fixing issue on the email/phone verification step
-    
+
+### Updated Features
+    * replaced MetaMap-ID-SDK.podspec to MetaMapSDK.podspec
 
 # Version 3.12.0
 ###### 25 November 2022
