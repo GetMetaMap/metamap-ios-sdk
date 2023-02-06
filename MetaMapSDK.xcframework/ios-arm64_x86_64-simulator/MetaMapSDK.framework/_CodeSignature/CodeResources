@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		6FnYM+iVsnGBks7dzg9malTDZDw=
+		3tnG+GgGTFHU0HlkAuFIkEaljFo=
 		</data>
 		<key>Caveat-Regular.ttf</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		HDVo9FtJDzq+aiTvqWTL4q+p6fY=
+		u6ZcRMs1erWFPNbn3A2mGhz80NE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HDVo9FtJDzq+aiTvqWTL4q+p6fY=
+		u6ZcRMs1erWFPNbn3A2mGhz80NE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -525,7 +525,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lx1fWnBBPDXV8oSf9Ro+PnU+SeKjrLFX5heRFJWW0jU=
+			vQffXBxL93NimEsJuPG5ssH0xMJ99LX23HiBpiSfYAk=
 			</data>
 		</dict>
 		<key>Caveat-Regular.ttf</key>
@@ -756,7 +756,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQPzkoLd4a1gR8zhzyADcXkOGp/zAN4WgbdnTUOSUuo=
+			V5okXZJyvpmjDOhhMcU4TWBRpGclf8hO5IJyrwo+ZqU=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -791,7 +791,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jQPzkoLd4a1gR8zhzyADcXkOGp/zAN4WgbdnTUOSUuo=
+			V5okXZJyvpmjDOhhMcU4TWBRpGclf8hO5IJyrwo+ZqU=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>

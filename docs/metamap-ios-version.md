@@ -10,6 +10,23 @@ category: 61ae8e8dba577a0010791480
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
 
+# Version 3.13.0
+
+### New Features
+    * added video agreement feature support
+
+### Bug Fixes
+    * fixed issue on the Brazilian driver license back side skip request
+    * corrected VPN try again button behavior
+    
+    
+### Updated Features   
+    * redesigned Document, Biometric verification, Phone/Email, E-signature, verification steps
+    * redesigned errors, permissions, exit screens
+    * updated to the latest version of Socket.io (.three)
+    * IP restriction shows before start screen
+
+
 # Version 3.12.1
 #### Bug Fixes
     * fixes UI issue in shimmering screen
