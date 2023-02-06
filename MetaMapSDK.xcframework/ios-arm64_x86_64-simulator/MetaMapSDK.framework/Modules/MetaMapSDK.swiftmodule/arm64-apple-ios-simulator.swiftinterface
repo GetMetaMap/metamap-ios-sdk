@@ -1,7 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
 // swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MetaMapSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFAudio
 import AVFoundation
 import AVKit
 import SystemConfiguration.CaptiveNetwork
@@ -359,6 +360,12 @@ extension MetaMapSDK.SocketEngineWebsocket {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
     @objc get
   }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+    @objc get
+  }
   @available(iOS 5.0, *)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
@@ -384,6 +391,35 @@ public protocol Transport : AnyObject {
   func disconnect()
   func write(data: Foundation.Data, completion: @escaping ((Swift.Error?) -> ()))
   var usingTLS: Swift.Bool { get }
+}
+public enum ProgressBarState {
+  case indeterminate
+  case determinate(percentage: CoreFoundation.CGFloat)
+  public var isDeterminate: Swift.Bool {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class LinearProgressBar : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) open var state: MetaMapSDK.ProgressBarState {
+    get
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var primaryColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var secondaryColor: UIKit.UIColor {
+    @objc get
+    @objc set
+  }
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var animateDeterminateInitialization: Swift.Bool
+  @_Concurrency.MainActor(unsafe) open var indeterminateAnimationDuration: Swift.Double
+  @_Concurrency.MainActor(unsafe) open var determinateAnimationDuration: Swift.Double
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToSuperview()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToWindow()
+  @_Concurrency.MainActor(unsafe) public func transition(to state: MetaMapSDK.ProgressBarState, delay: Foundation.TimeInterval = 0, animateDeterminate: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc deinit
 }
 public protocol DelaysApplyingAttributes {
   var delayedAttributes: [Swift.String : Swift.String] { get set }
@@ -962,23 +998,6 @@ extension Foundation.URL {
 extension QuartzCore.CALayer {
   open func applyOnSublayers<T>(ofType: T.Type, closure: (T) -> ()) where T : QuartzCore.CALayer
 }
-public enum MFLanguage : Swift.String, Swift.Codable {
-  case english
-  case spanish
-  case french
-  case portugaly
-  case russian
-  case turkish
-  case german
-  case italian
-  case polish
-  case thai
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 public protocol Transformable {
   var layerToTransform: QuartzCore.CALayer { get }
 }
@@ -1290,6 +1309,23 @@ public protocol CertificatePinning : AnyObject {
 public protocol HeaderValidator : AnyObject {
   func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> Swift.Error?
 }
+public enum MFLanguage : Swift.String, Swift.Codable {
+  case english
+  case spanish
+  case french
+  case portugaly
+  case russian
+  case turkish
+  case german
+  case italian
+  case polish
+  case thai
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 extension MetaMapSDK.CloseCode : Swift.Equatable {}
 extension MetaMapSDK.CloseCode : Swift.Hashable {}
 extension MetaMapSDK.CloseCode : Swift.RawRepresentable {}
@@ -1319,9 +1355,6 @@ extension MetaMapSDK.FoundationTransportError : Swift.Hashable {}
 extension MetaMapSDK.SocketEnginePacketType : Swift.Equatable {}
 extension MetaMapSDK.SocketEnginePacketType : Swift.Hashable {}
 extension MetaMapSDK.SocketEnginePacketType : Swift.RawRepresentable {}
-extension MetaMapSDK.MFLanguage : Swift.Equatable {}
-extension MetaMapSDK.MFLanguage : Swift.Hashable {}
-extension MetaMapSDK.MFLanguage : Swift.RawRepresentable {}
 extension MetaMapSDK.TCPTransportError : Swift.Equatable {}
 extension MetaMapSDK.TCPTransportError : Swift.Hashable {}
 extension MetaMapSDK.SocketClientEvent : Swift.Equatable {}
@@ -1332,3 +1365,6 @@ extension MetaMapSDK.SocketParsableError : Swift.Hashable {}
 extension MetaMapSDK.SecurityErrorCode : Swift.Equatable {}
 extension MetaMapSDK.SecurityErrorCode : Swift.Hashable {}
 extension MetaMapSDK.SecurityErrorCode : Swift.RawRepresentable {}
+extension MetaMapSDK.MFLanguage : Swift.Equatable {}
+extension MetaMapSDK.MFLanguage : Swift.Hashable {}
+extension MetaMapSDK.MFLanguage : Swift.RawRepresentable {}
