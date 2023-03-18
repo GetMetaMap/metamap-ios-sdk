@@ -6,11 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		duN5vSlzuBhSoJZqWeHP0D+GGGE=
-		</data>
-		<key>Caveat-Regular.ttf</key>
-		<data>
-		bG4JQ8ihryqh/n11HGLoThjMTHI=
+		y/Cvo/tNnlT39ezB7Xs8YiKtuUo=
 		</data>
 		<key>ConfirmPupUpVC.nib</key>
 		<data>
@@ -26,19 +22,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v/ilk/GuVBO97AUDA/vuM9U+Vzk=
+		wZjNGzAp8AcQnP08MGEPoZ6d5oU=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
-		wzDVnz5k4HolccK6T0EJsgoWj2k=
-		</data>
-		<key>Lato-Medium.ttf</key>
-		<data>
-		7CMZvEUCzGu4jfif0azdcn+1XOk=
+		VCSYIh2XvuW9vM+G7oiQv46ABck=
 		</data>
 		<key>Lato-Regular.ttf</key>
 		<data>
-		En8kGHGp/kLNjQc6CDVBDzgk1Xw=
+		6SPHLtpeUKh+GP9ccenvSztkVaM=
 		</data>
 		<key>LocationServicePopupView.nib</key>
 		<data>
@@ -398,7 +390,7 @@
 		</data>
 		<key>VideoKYCPreviewViewController.nib</key>
 		<data>
-		EZ44U87TnnZL9Y3UDxjyyJzZIU0=
+		vwCHiBkQ76oGvsFFuWeJ0B1+9CY=
 		</data>
 		<key>VideoKYCRecordingViewController.nib</key>
 		<data>
@@ -525,14 +517,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d1d0CNHxcE1Aiqfh/aswEtn/zUJeZ6uux27XQojMBNE=
-			</data>
-		</dict>
-		<key>Caveat-Regular.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KCnZNc5ZGesrtry0TneXZA4n6iTbmsJc+Grl0+wtOt8=
+			9HEPU2TYVFm+KyUyx7Z72iNBc7StlK3fu7SQJLAzvI4=
 			</data>
 		</dict>
 		<key>ConfirmPupUpVC.nib</key>
@@ -560,21 +545,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FPfea2FpUDlQYpAuuPcPAcCpASI9tdQPKgVyisSoMPY=
-			</data>
-		</dict>
-		<key>Lato-Medium.ttf</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			06wYKmgz4AV0XddWefutCBwLElNd9Ok62O1XgXoxozg=
+			1/C38lcPLyi1BNoRgbTXGxQgsQvixP1pCSfxyO47GcM=
 			</data>
 		</dict>
 		<key>Lato-Regular.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eucUtjwsi5QL3SEaDMZ48BFoo07qiqE8DfJTZPKSOKc=
+			6CVCrtgpP0n8g8Sq6lZrH2tPx6mrXaEeb7m8CXO1Mks=
 			</data>
 		</dict>
 		<key>LocationServicePopupView.nib</key>
@@ -1204,7 +1182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			30+RHBGoMRQZ649+By2w1DJiaRzPt7lIMwtBjEvtc3w=
+			hHHcmqnnVmzLFVEcLHX0rl1t4twuoh7iW3Nh9tmacf4=
 			</data>
 		</dict>
 		<key>VideoKYCRecordingViewController.nib</key>
