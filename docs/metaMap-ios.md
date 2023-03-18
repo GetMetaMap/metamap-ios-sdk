@@ -14,7 +14,7 @@ category: 61ae8e8dba577a0010791480
 # MetaMap iOS Usage Guide
 
 ### Requirments
-* iOS SDK download size ~ 4.66 MB
+* iOS SDK download size ~ 3.66 MB
 * iOS support min version 12 
 * support Swift version 5.7
 
