@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		y/Cvo/tNnlT39ezB7Xs8YiKtuUo=
+		BnPA2H5regC4x4BbW/2eCuC3Qn8=
 		</data>
 		<key>ConfirmPupUpVC.nib</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<data>
-		XUoHoIlIPAJXWKF9DNnRt0i5S/E=
+		JeWJlA1/HEvqiM1w44vfLWo6CRA=
 		</data>
 		<key>Headers/MetaMapSDK.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wZjNGzAp8AcQnP08MGEPoZ6d5oU=
+		AWZdOoMsCiwNAZZrl2/YcW3Vc/k=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>MFCountriesListViewController.nib</key>
 		<data>
-		mH4sCHVhl28GxEzbmsg3tY9AD4w=
+		PkFuuDAvDWdKo9hrAUvu6XdCeI4=
 		</data>
 		<key>MFCountryTableViewCell.nib</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>MFDocumentListViewController.nib</key>
 		<data>
-		XCY34b8VHLYhyxg9tmZHtYYmSmE=
+		t/IF+ThHi0WYG8MxFH6VbcJgXak=
 		</data>
 		<key>MFDocumentSelectCountryViewController.nib</key>
 		<data>
@@ -134,43 +134,43 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vRbwrkdknl1QuXGeAVC6c60fAds=
+		ceSwOgp2I9r70I5g4/jLboVGWhI=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		6QENq6F2Pj9IpwgFs3q0mnf6xVs=
+		KCrI4L9MuMV3bukaPYiC0j1M3KM=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mA3aMOYBcHhl2Zyu9TC1bqm/53w=
+		xMnSYmrFF17WN3T9xMXpyN2FNqE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		6QENq6F2Pj9IpwgFs3q0mnf6xVs=
+		KCrI4L9MuMV3bukaPYiC0j1M3KM=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4BGhFYAJyiIfqnTOVxUCnLkEHJs=
+		0ofvwVZRDWdUkdk/ECgaDcNJKJQ=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vRbwrkdknl1QuXGeAVC6c60fAds=
+		ceSwOgp2I9r70I5g4/jLboVGWhI=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		ImC+z41jhPeHOrh5DSSOx5S5RSI=
+		9F/rv5TTY8Vr+KWav0E95WwhTpE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XCWJhdr31R+WBxdkR2KT2MPw+dM=
+		43DEZe+sdESCjpJIaAli1Ppk7nI=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ImC+z41jhPeHOrh5DSSOx5S5RSI=
+		9F/rv5TTY8Vr+KWav0E95WwhTpE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		COwGeK++OqhO9qTR3jSHLAgTdzs=
+		PSnIwT9g4Yjpf/nMWlwj5Yxu+cs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -382,7 +382,7 @@
 		</data>
 		<key>RequestManager/RequestManager.swift</key>
 		<data>
-		ds3RiGF3oITzbOlJ3wxG0JqaTHs=
+		Q4XD5icjbW4A6rFZH3GT+e/R5So=
 		</data>
 		<key>VideoKYCInstructionsViewController.nib</key>
 		<data>
@@ -390,7 +390,7 @@
 		</data>
 		<key>VideoKYCPreviewViewController.nib</key>
 		<data>
-		vwCHiBkQ76oGvsFFuWeJ0B1+9CY=
+		ecI7aSH6rWq4IU/PIfPK8fZ250w=
 		</data>
 		<key>VideoKYCRecordingViewController.nib</key>
 		<data>
@@ -412,7 +412,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GivCNPsNScaiyuvJC4fw5pXviOo=
+			Y9c+8LZnH8L6wD0CVcBjvYJJOqM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -421,7 +421,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5ql+ko0Kxt/NnwkVPyEZ41q9Aeo=
+			Vd/DZlc/+KtQIt0dnZHQhWh2AAQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -430,7 +430,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9OC6ZZUYdAnu3R235x8Ento4OH0=
+			JTLpRRN+BlOS4fjQF7+SUkIHgsQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -439,7 +439,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			23OGlAU/MUt3WzEcO1wN3d2Tbpo=
+			dklR42I1T2DPpF3HyzqUj7FLyf4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -448,7 +448,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			S6c6G6+T3ZeiejcYk0z5Lwhl/CI=
+			XraSvZIMXU+piYJzG4OO5vyv1T4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -465,7 +465,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pAqOKyGlLcSHa81EwOcWwjQt0Nc=
+			VvN4H19Dhp2Dzx25wo1A9SwRGdo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -474,7 +474,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xyKKpHrfMGvBNo5bYO/82DVD0AU=
+			+pLfq1IChq7M9gXass4Q/LJHtnI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -483,7 +483,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mwHn71DJUmLmbi0q+xbku8X0aD0=
+			1o/yMkBRZ4lSv8iByc0xJTloDrY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -492,7 +492,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZwGoVkmZxQapDOjrxcYpN9sM1t8=
+			ii1K51CEFjF74aW5uK79w/IxO90=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -505,7 +505,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hcowYJVZQn8qFu8Gb758Umd4Wgk=
+			rpbriXAfIbqFxxZJg8Up/vWOWvY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -517,7 +517,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9HEPU2TYVFm+KyUyx7Z72iNBc7StlK3fu7SQJLAzvI4=
+			H9UOVq1S2J8E1l1UPY7b0QeUlknXORw1wplg0ocPkCs=
 			</data>
 		</dict>
 		<key>ConfirmPupUpVC.nib</key>
@@ -531,7 +531,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3iqRwuLUPl5m8FYqkBS5GXNAZCB5RsXTBNS4Z9clezk=
+			RsbupnDvdDPakSD34kJci+Lx4A+oV7FqAbu5g8SVuVE=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK.h</key>
@@ -580,7 +580,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bXeHUlJXi4ACLNDItExwwUo5IGepGroWl7fsSih9h+E=
+			vo3B2rebUEXRjZ70hINb1almmOjN2UzCX+rPnQNrdPE=
 			</data>
 		</dict>
 		<key>MFCountryTableViewCell.nib</key>
@@ -594,7 +594,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XAQwFIhhXp98DQN0bzfskGvHCEH34o6qRNg+louFfiE=
+			y6hCBrSGXILV++kuY19yJVc5cAeaZ5tlIm4z8kdnCSw=
 			</data>
 		</dict>
 		<key>MFDocumentSelectCountryViewController.nib</key>
@@ -734,70 +734,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/m5ivF3By6bAdGUqXKI2sRBFg20mTOjs8XTgArswDNo=
+			X8MRlmm9nb4rZfBXz1if9/EUpfNnHj6Zgojf+CmqrOY=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ty82QvG5mv1pATQ4R0xYpqFRL1jttXqmlngl9l3aiyg=
+			ahT5p41l9FKOmeNsM53etNdFCAcxshrS71NLo+YZeds=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WICYmFKreLnrq5NHdy24UdI3PhzrgLRgxXs1sQHw9Wg=
+			zUvpm2ibRiL+cXWdejxWtsHzVjgfM4h5gA2UEXy10xg=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ty82QvG5mv1pATQ4R0xYpqFRL1jttXqmlngl9l3aiyg=
+			ahT5p41l9FKOmeNsM53etNdFCAcxshrS71NLo+YZeds=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0xFRhFRgjJocNj9BkOq7Sq2hB9V3/f4eaANnb6fLzN4=
+			NnKI3/EM3VN4K92F6hTZSegL0ljAfw79CqkYTZEGzMU=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/m5ivF3By6bAdGUqXKI2sRBFg20mTOjs8XTgArswDNo=
+			X8MRlmm9nb4rZfBXz1if9/EUpfNnHj6Zgojf+CmqrOY=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ev+BS3xWamgFEtWoIHWXQUwIkk7sbC1K5oLhURUq1Nw=
+			i+UBEExT1giMHLszaGYO2Il0qGuzmVxqkOWpA9SkB7o=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NY/kfTfxHIY9EDtivrO404d2qNJlWSx23XjaV+hnB88=
+			ce5t4z0wthks5vnjW0ETHxlZuQoCYEW8ZB07VhpVXfw=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ev+BS3xWamgFEtWoIHWXQUwIkk7sbC1K5oLhURUq1Nw=
+			i+UBEExT1giMHLszaGYO2Il0qGuzmVxqkOWpA9SkB7o=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9Sqa34gCgb41zzTf+9vPSH7nq8Qc7/8lml22AL8qyrk=
+			heVHaNeQKF/ALoiXuP6khv152MjEBEG8CrKG9w4NPYo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1168,7 +1168,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3Gmcn5gZJ26BSsFzYpDeOmVFOYIHYVPDZ6BZc7b0P7M=
+			jTz28CoonYhNlSqvbEZRxr1xVkaXYje1nhmq9Nu9Rho=
 			</data>
 		</dict>
 		<key>VideoKYCInstructionsViewController.nib</key>
@@ -1182,7 +1182,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hHHcmqnnVmzLFVEcLHX0rl1t4twuoh7iW3Nh9tmacf4=
+			zuPH9rob3xrFUBL+GR4g7MVSMJ6ChyIiV7fBk4LLB3s=
 			</data>
 		</dict>
 		<key>VideoKYCRecordingViewController.nib</key>
@@ -1217,7 +1217,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IV9pdtkNxnpu+kUS24D87dQr6dpYyZZIf9LBUXK1dJg=
+			l++6u/CP6RbcvJ/vcLb5XCxzgEukBKtQP5rzXq0twWw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1226,7 +1226,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ddkNxhyoSpxEhLkt5ZIQ3/xbPYOj+C+A/vTyqAp64M0=
+			bDyN82zxdBZlThJ5P0qwCA+QqPjRgt/FkRaPuX/Az0M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1235,7 +1235,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+tqboJ5nTXdSA9TmWr9R13Qt432AowO1QZ/xBIqKh8c=
+			5uUVSquSIl6PqRAtPuPBzDSereCDIymZODDAKerAfA8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1244,7 +1244,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BWemoaRBUQ+Pp06KxAm/Hgdg2b3HXYQ1hCQ/d4RFNCY=
+			bn20MQOwfH7yXjcqgOThv5MKcGNLUf58gdpCNqgpzhA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1253,7 +1253,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			G6cgXGhSlg1ZEfcocj77zC21UESYnY1RVlfzZbnV/34=
+			F4QEehyar1Z+twR0FYzsWjaSuLUwPif2HfiEHsccZtQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1276,7 +1276,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ftxancsKtTaVS4up1MOVHtLVrvATRa1sYPahNFfMGok=
+			akTJB0dcZmfTMxnIRlJ29bc/h5FDGoHxthWGItBJTaY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1285,7 +1285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x9VWOk3JxBygia7Exd+aiL+nlH+PYiu4H2NQQG+AojQ=
+			6FGYnN6rFH6fr4VuGObqGTuMeFiQ5O0fqpdHwpN5078=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1294,7 +1294,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OucdAgDy/g/aGd7o5sH9OuUR6Brrc8X7ZXHy9A90hc4=
+			n5YeFYIeam9yxg80rxwy/4O4+yZGp70JJNenAg1GkkU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1303,7 +1303,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gM1893+4RAhZCayZvz0Qn71uwlcxQyMNcVIwx3PKYcw=
+			5fseaR9LuCHOmO0kaJ9SyOMqGGVE5Z80X1PKaEjpuUE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1319,7 +1319,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mHMKsrRMvNfh5vBq554zqz7t8LzQDVG8e184y54jcVk=
+			aHcmnw/IyGeATCIx91RV+ql9jFm9akhfFgvhetF04Bs=
 			</data>
 			<key>optional</key>
 			<true/>
