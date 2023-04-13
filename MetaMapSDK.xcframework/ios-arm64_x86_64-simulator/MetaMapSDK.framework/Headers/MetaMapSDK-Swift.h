@@ -310,7 +310,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MetaMap * _N
 + (MetaMap * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)showMetaMapFlowWithClientId:(NSString * _Nonnull)clientId flowId:(NSString * _Nullable)flowId configurationId:(NSString * _Nullable)configurationId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
+- (void)showMetaMapFlowWithClientId:(NSString * _Nonnull)clientId flowId:(NSString * _Nullable)flowId configurationId:(NSString * _Nullable)configurationId encryptionConfigurationId:(NSString * _Nullable)encryptionConfigurationId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 @end
 
 
@@ -1087,7 +1087,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MetaMap * _N
 + (MetaMap * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-- (void)showMetaMapFlowWithClientId:(NSString * _Nonnull)clientId flowId:(NSString * _Nullable)flowId configurationId:(NSString * _Nullable)configurationId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
+- (void)showMetaMapFlowWithClientId:(NSString * _Nonnull)clientId flowId:(NSString * _Nullable)flowId configurationId:(NSString * _Nullable)configurationId encryptionConfigurationId:(NSString * _Nullable)encryptionConfigurationId metadata:(NSDictionary<NSString *, id> * _Nullable)metadata;
 @end
 
 

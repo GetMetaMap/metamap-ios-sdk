@@ -778,8 +778,8 @@ extension MetaMapSDK.SocketEngine {
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MetaMap : ObjectiveC.NSObject {
   @objc public static let shared: MetaMapSDK.MetaMap
-  @objc public func showMetaMapFlow(clientId: Swift.String, flowId: Swift.String?, configurationId: Swift.String? = nil, metadata: [Swift.String : Any]? = nil)
-  public func showMetaMapFlow(clientId: Swift.String, flowId: Swift.String?, configurationId: Swift.String? = nil, metaMapMetadata: MetaMapSDK.MetaMapMetadata? = nil)
+  @objc public func showMetaMapFlow(clientId: Swift.String, flowId: Swift.String?, configurationId: Swift.String? = nil, encryptionConfigurationId: Swift.String? = nil, metadata: [Swift.String : Any]? = nil)
+  public func showMetaMapFlow(clientId: Swift.String, flowId: Swift.String?, configurationId: Swift.String? = nil, encryptionConfigurationId: Swift.String? = nil, metaMapMetadata: MetaMapSDK.MetaMapMetadata? = nil)
   @objc deinit
 }
 public enum SocketIOVersion : Swift.Int {

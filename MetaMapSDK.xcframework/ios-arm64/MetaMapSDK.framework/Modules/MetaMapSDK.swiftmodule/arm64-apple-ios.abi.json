@@ -23592,7 +23592,7 @@
           {
             "kind": "Function",
             "name": "showMetaMapFlow",
-            "printedName": "showMetaMapFlow(clientId:flowId:configurationId:metadata:)",
+            "printedName": "showMetaMapFlow(clientId:flowId:configurationId:encryptionConfigurationId:metadata:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23617,6 +23617,21 @@
                     "usr": "s:SS"
                   }
                 ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
                 "usr": "s:Sq"
               },
               {
@@ -23664,10 +23679,10 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMap(im)showMetaMapFlowWithClientId:flowId:configurationId:metadata:",
-            "mangledName": "$s10MetaMapSDK0aB0C04showaB4Flow8clientId04flowG0013configurationG08metadataySS_SSSgAISDySSypGSgtF",
+            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMap(im)showMetaMapFlowWithClientId:flowId:configurationId:encryptionConfigurationId:metadata:",
+            "mangledName": "$s10MetaMapSDK0aB0C04showaB4Flow8clientId04flowG0013configurationG0023encryptionConfigurationG08metadataySS_SSSgA2JSDySSypGSgtF",
             "moduleName": "MetaMapSDK",
-            "objc_name": "showMetaMapFlowWithClientId:flowId:configurationId:metadata:",
+            "objc_name": "showMetaMapFlowWithClientId:flowId:configurationId:encryptionConfigurationId:metadata:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -23677,7 +23692,7 @@
           {
             "kind": "Function",
             "name": "showMetaMapFlow",
-            "printedName": "showMetaMapFlow(clientId:flowId:configurationId:metaMapMetadata:)",
+            "printedName": "showMetaMapFlow(clientId:flowId:configurationId:encryptionConfigurationId:metaMapMetadata:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -23722,6 +23737,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "MetaMapSDK.MetaMapMetadata?",
                 "children": [
                   {
@@ -23736,8 +23766,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:10MetaMapSDK0aB0C04showaB4Flow8clientId04flowG0013configurationG004metaB8MetadataySS_SSSgAiA0abK0CSgtF",
-            "mangledName": "$s10MetaMapSDK0aB0C04showaB4Flow8clientId04flowG0013configurationG004metaB8MetadataySS_SSSgAiA0abK0CSgtF",
+            "usr": "s:10MetaMapSDK0aB0C04showaB4Flow8clientId04flowG0013configurationG0023encryptionConfigurationG004metaB8MetadataySS_SSSgA2jA0abM0CSgtF",
+            "mangledName": "$s10MetaMapSDK0aB0C04showaB4Flow8clientId04flowG0013configurationG0023encryptionConfigurationG004metaB8MetadataySS_SSSgA2jA0abM0CSgtF",
             "moduleName": "MetaMapSDK",
             "declAttributes": [
               "AccessControl"
@@ -28721,6 +28751,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK"
       },
       {
         "kind": "Import",
@@ -51621,175 +51658,182 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 3134,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
       "offset": 3177,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "Array",
-      "offset": 3390,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "Array",
-      "offset": 3438,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "Array",
-      "offset": 3786,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "Array",
-      "offset": 3835,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 3921,
+      "offset": 3220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 3958,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3991,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4022,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4067,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4100,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4133,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4168,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4203,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4238,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4294,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4322,
+      "offset": 3266,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "Array",
-      "offset": 4370,
+      "offset": 3470,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "Array",
+      "offset": 3518,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "Array",
+      "offset": 3866,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "Array",
+      "offset": 3915,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 4410,
+      "offset": 4001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 4449,
+      "offset": 4038,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 4494,
+      "offset": 4071,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4102,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4147,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4180,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4213,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4248,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4283,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4318,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4374,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4402,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "Array",
+      "offset": 4450,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4490,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4529,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4574,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 4542,
+      "offset": 4622,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "IntegerLiteral",
-      "offset": 4580,
+      "offset": 4660,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "BooleanLiteral",
-      "offset": 4617,
+      "offset": 4697,
       "length": 5,
       "value": "false"
     },
@@ -52734,126 +52778,126 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 17834,
+      "offset": 18060,
       "length": 55,
       "value": "\"phoneNumberWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 17938,
+      "offset": 18164,
       "length": 56,
       "value": "\"emailAddressWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18032,
+      "offset": 18258,
       "length": 30,
       "value": "\"verification.input.processed\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18101,
+      "offset": 18327,
       "length": 50,
       "value": "\"emailAddressWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18190,
+      "offset": 18416,
       "length": 49,
       "value": "\"phoneNumberWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18276,
+      "offset": 18502,
       "length": 47,
       "value": "\"emailAddressWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18360,
+      "offset": 18586,
       "length": 46,
       "value": "\"phoneNumberWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18434,
+      "offset": 18660,
       "length": 28,
       "value": "\"connectionData.vpnDetected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18492,
+      "offset": 18718,
       "length": 27,
       "value": "\"connectionData.restricted\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 17834,
+      "offset": 18060,
       "length": 55,
       "value": "\"phoneNumberWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 17938,
+      "offset": 18164,
       "length": 56,
       "value": "\"emailAddressWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18032,
+      "offset": 18258,
       "length": 30,
       "value": "\"verification.input.processed\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18101,
+      "offset": 18327,
       "length": 50,
       "value": "\"emailAddressWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18190,
+      "offset": 18416,
       "length": 49,
       "value": "\"phoneNumberWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18276,
+      "offset": 18502,
       "length": 47,
       "value": "\"emailAddressWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18360,
+      "offset": 18586,
       "length": 46,
       "value": "\"phoneNumberWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18434,
+      "offset": 18660,
       "length": 28,
       "value": "\"connectionData.vpnDetected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18492,
+      "offset": 18718,
       "length": 27,
       "value": "\"connectionData.restricted\""
     },
@@ -53966,7 +54010,7 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/FinancialVerification\/FinancialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5751,
+      "offset": 5875,
       "length": 28,
       "value": "\"label_something_went_wrong\""
     },
@@ -56558,7 +56602,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.14.0\""
+      "value": "\"3.14.1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
