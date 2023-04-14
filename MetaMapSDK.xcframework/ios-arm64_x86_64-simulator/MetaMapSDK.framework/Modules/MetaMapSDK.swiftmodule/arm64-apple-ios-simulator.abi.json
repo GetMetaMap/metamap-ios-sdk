@@ -53372,43 +53372,43 @@
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
-      "kind": "FloatLiteral",
+      "kind": "IntegerLiteral",
       "offset": 2969,
-      "length": 3,
-      "value": "0.6"
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3260,
+      "offset": 3258,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3320,
+      "offset": 3318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3351,
+      "offset": 3349,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3457,
+      "offset": 3455,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3515,
+      "offset": 3513,
       "length": 25,
       "value": "\"label_error_creds_title\""
     },
@@ -56602,7 +56602,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.14.1\""
+      "value": "\"3.14.2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
