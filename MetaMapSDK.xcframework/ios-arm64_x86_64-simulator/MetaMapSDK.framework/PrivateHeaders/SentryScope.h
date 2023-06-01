@@ -6,12 +6,17 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/**
+ * The scope holds useful information that should be sent along with the event. For instance tags or
+ * breadcrumbs are stored on the scope.
+ * @see
+ * https://docs.sentry.io/platforms/apple/enriching-events/scopes/#whats-a-scope-whats-a-hub
+ */
 NS_SWIFT_NAME(Scope)
 @interface SentryScope : NSObject <SentrySerializable>
 
 /**
  * Returns current Span or Transaction.
- *
  * @return current Span or Transaction or null if transaction has not been set.
  */
 @property (nullable, nonatomic, strong) id<SentrySpan> span;
@@ -59,29 +64,32 @@ NS_SWIFT_NAME(Scope)
 - (void)removeExtraForKey:(NSString *)key NS_SWIFT_NAME(removeExtra(key:));
 
 /**
- * Set dist in the scope
+ * Set @c dist in the scope
  */
 - (void)setDist:(NSString *_Nullable)dist;
 
 /**
- * Set environment in the scope
+ * Set @c environment in the scope
  */
 - (void)setEnvironment:(NSString *_Nullable)environment;
 
 /**
- * Sets the fingerprint in the scope
+ * Sets the @c fingerprint in the scope
  */
 - (void)setFingerprint:(NSArray<NSString *> *_Nullable)fingerprint;
 
 /**
- * Sets the level in the scope
+ * Sets the @c level in the scope
  */
 - (void)setLevel:(enum SentryLevel)level;
 
 /**
  * Add a breadcrumb to the scope
  */
-- (void)addBreadcrumb:(SentryBreadcrumb *)crumb;
+- (void)addBreadcrumb:(SentryBreadcrumb *)crumb NS_SWIFT_NAME(addBreadcrumb(_:));
+
+- (void)add:(SentryBreadcrumb *)crumb DEPRECATED_MSG_ATTRIBUTE("use `addBreadcrumb` instead")
+                NS_SWIFT_NAME(add(_:));
 
 /**
  * Clears all breadcrumbs in the scope
@@ -92,14 +100,6 @@ NS_SWIFT_NAME(Scope)
  * Serializes the Scope to JSON
  */
 - (NSDictionary<NSString *, id> *)serialize;
-
-/**
- * Adds the Scope to the event
- */
-- (SentryEvent *__nullable)applyToEvent:(SentryEvent *)event
-                          maxBreadcrumb:(NSUInteger)maxBreadcrumbs;
-
-- (void)applyToSession:(SentrySession *)session;
 
 /**
  * Sets context values which will overwrite SentryEvent.context when event is
@@ -116,10 +116,14 @@ NS_SWIFT_NAME(Scope)
 /**
  * Adds an attachment to the Scope's list of attachments. The SDK adds the attachment to every event
  * sent to Sentry.
- *
  * @param attachment The attachment to add to the Scope's list of attachments.
  */
-- (void)addAttachment:(SentryAttachment *)attachment;
+- (void)addAttachment:(SentryAttachment *)attachment NS_SWIFT_NAME(addAttachment(_:));
+
+// We want to keep the old Swift `add(_ attachment:)` function as deprecated, but we cant have
+// another objc `add` method
+- (void)includeAttachment:(SentryAttachment *)attachment
+    DEPRECATED_MSG_ATTRIBUTE("use `addAttachment` instead")NS_SWIFT_NAME(add(_:));
 
 /**
  * Clears all attachments in the scope.
@@ -133,7 +137,6 @@ NS_SWIFT_NAME(Scope)
 
 /**
  * Mutates the current transaction atomically.
- *
  * @param callback the SentrySpanCallback.
  */
 - (void)useSpan:(SentrySpanCallback)callback;

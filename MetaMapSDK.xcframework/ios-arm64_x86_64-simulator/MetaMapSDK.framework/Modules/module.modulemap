@@ -8,8 +8,7 @@
 
 framework module MetaMapSDK {
     umbrella header "MetaMapSDK.h"
-
-    private header "Sentry.h"
+    
     private header "SentrySDK.h"
     private header "SentryDefines.h"
     private header "SentryAttachment.h"
@@ -50,13 +49,22 @@ framework module MetaMapSDK {
     private header "SentryTransactionContext.h"
     private header "SentryUser.h"
     private header "SentryUserFeedback.h"
-    
+
     private header "PrivateSentrySDKOnly.h"
     private header "SentryAppStartMeasurement.h"
     private header "SentryScreenFrames.h"
     private header "SentryTraceHeader.h"
     private header "SentryAutoBreadcrumbTrackingIntegration.h"
-
+    private header "PrivatesHeader.h"
+    private header "PrivateSentrySDKOnly.h"
+    private header "SentryProfilingConditionals.h"
+    private header "SentryBaseIntegration.h"
+    private header "SentryBreadcrumbDelegate.h"
+    private header "SentryEnvelopeItemHeader.h"
+    private header "SentryTraceContext.h"
+    private header "SentryInternalDefines.h"
+    private header "SentryGeo.h"
+    
     export *
     module * { export * }
 }

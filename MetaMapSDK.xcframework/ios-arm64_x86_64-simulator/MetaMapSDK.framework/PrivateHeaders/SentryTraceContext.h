@@ -1,34 +1,18 @@
-#import "SentryId.h"
-#import "SentrySerializable.h"
-#import <Foundation/Foundation.h>
+#if __has_include(<Sentry/SentrySerializable.h>)
+#    import <Sentry/SentrySerializable.h>
+#else
+#    import "SentrySerializable.h"
+#endif
+
+#if __has_include(<Sentry/SentryId.h>)
+#    import <Sentry/SentryId.h>
+#else
+#    import "SentryId.h"
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
 
 @class SentryScope, SentryOptions, SentryTracer, SentryUser, SentryBaggage;
-
-@interface SentryTraceContextUser : NSObject
-
-/**
- * The id attribute of the user context.
- */
-@property (nullable, nonatomic, readonly) NSString *userId;
-
-/**
- * The value of a segment attribute in the user's data bag, if it exists.
- */
-@property (nullable, nonatomic, readonly) NSString *segment;
-
-/**
- * Initializes a SentryTraceContextUser with given properties.
- */
-- (instancetype)initWithUserId:(nullable NSString *)userId segment:(nullable NSString *)segment;
-
-/**
- * Initializes a SentryTraceContextUser with data from SentryUser.
- */
-- (instancetype)initWithUser:(nullable SentryUser *)user;
-
-@end
 
 @interface SentryTraceContext : NSObject <SentrySerializable>
 
@@ -61,7 +45,12 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * A subset of the scope's user context.
  */
-@property (nullable, nonatomic, readonly) SentryTraceContextUser *user;
+@property (nullable, nonatomic, readonly) NSString *userSegment;
+
+/**
+ * Sample rate used for this trace.
+ */
+@property (nullable, nonatomic, strong) NSString *sampleRate;
 
 /**
  * Initializes a SentryTraceContext with given properties.
@@ -71,7 +60,8 @@ NS_ASSUME_NONNULL_BEGIN
                     releaseName:(nullable NSString *)releaseName
                     environment:(nullable NSString *)environment
                     transaction:(nullable NSString *)transaction
-                           user:(nullable SentryTraceContextUser *)user;
+                    userSegment:(nullable NSString *)userSegment
+                     sampleRate:(nullable NSString *)sampleRate;
 
 /**
  * Initializes a SentryTraceContext with data from scope and options.

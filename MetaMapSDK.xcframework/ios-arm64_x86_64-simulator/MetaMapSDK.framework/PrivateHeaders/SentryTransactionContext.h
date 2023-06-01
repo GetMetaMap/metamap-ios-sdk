@@ -4,6 +4,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @class SentrySpanId;
+@class SentryThread;
 
 NS_SWIFT_NAME(TransactionContext)
 @interface SentryTransactionContext : SentrySpanContext
@@ -13,6 +14,7 @@ SENTRY_NO_INIT
  * Transaction name
  */
 @property (nonatomic, readonly) NSString *name;
+@property (nonatomic, readonly) SentryTransactionNameSource nameSource;
 
 /**
  * Parent sampled
@@ -20,40 +22,33 @@ SENTRY_NO_INIT
 @property (nonatomic) SentrySampleDecision parentSampled;
 
 /**
- * Init a SentryTransactionContext with given name and set other fields by default
- *
+ * Sample rate used for this transaction
+ */
+@property (nonatomic, strong, nullable) NSNumber *sampleRate;
+
+/**
  * @param name Transaction name
  * @param operation The operation this span is measuring.
- *
  * @return SentryTransactionContext
  */
 - (instancetype)initWithName:(NSString *)name operation:(NSString *)operation;
 
 /**
- * Init a SentryTransactionContext with given name and set other fields by default
- *
  * @param name Transaction name
  * @param operation The operation this span is measuring.
  * @param sampled Determines whether the trace should be sampled.
- *
- * @return SentryTransactionContext
  */
 - (instancetype)initWithName:(NSString *)name
                    operation:(NSString *)operation
                      sampled:(SentrySampleDecision)sampled;
 
 /**
- * Init a SentryTransactionContext with given name, traceId, SpanId, parentSpanId and whether the
- * parent is sampled.
- *
  * @param name Transaction name
  * @param operation The operation this span is measuring.
  * @param traceId Trace Id
  * @param spanId Span Id
  * @param parentSpanId Parent span id
  * @param parentSampled Whether the parent is sampled
- *
- * @return SentryTransactionContext
  */
 - (instancetype)initWithName:(NSString *)name
                    operation:(NSString *)operation
