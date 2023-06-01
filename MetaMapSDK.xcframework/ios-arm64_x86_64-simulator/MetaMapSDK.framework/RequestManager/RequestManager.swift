@@ -84,7 +84,7 @@ class RequestManager {
     }
     
     func sendSignalData(data: [String: Any]) {
-        apiManager.sendSignalData(body: data)
+        socketManager.sendSignalData(body: data)
     }
     
     func vpnRetry(completion: @escaping (ResponseStatus) -> Void) {
@@ -121,10 +121,17 @@ class RequestManager {
         socketManager.sendAnalyticEvent(eventName: eventName, details: details)
     }
     
-    func createVerification(flowId: String, completion: @escaping (Bool) -> Void) {
-        apiManager.createVerificationRequest(flowId: flowId) { data in
-            guard let verification = data else { return }
-            guard let verificationId = verification.id else { return }
+    func sendSignalData(body: [String: Any]) {
+        socketManager.sendSignalData(body: body)
+    }
+    
+    func createVerification(flowId: String, completion: @escaping (Bool) -> Void, errorCompletion: ((NSError?) -> Void)? = nil) {
+        apiManager.createVerificationRequest(flowId: flowId) { (data, error) in
+            guard let verification = data, let verificationId = verification.id else {
+                completion(false)
+                errorCompletion?(error)
+                return
+            }
             MetaMapGlobalManager.instance.verificationId = verificationId
             MetaMapGlobalManager.instance.identity = verification.identity
             MetaMapGlobalManager.instance.checkCreditCard(inputs: verification.inputs)
