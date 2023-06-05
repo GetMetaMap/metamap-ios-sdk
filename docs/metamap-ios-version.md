@@ -9,6 +9,11 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.15.1
+
+### Bug Fixes
+    * fixed analytic event title
+
 
 # Version 3.15.0
 

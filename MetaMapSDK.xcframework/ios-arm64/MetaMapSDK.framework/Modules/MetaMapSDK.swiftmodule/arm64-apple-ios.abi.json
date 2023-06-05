@@ -67152,714 +67152,714 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5568,
+      "offset": 5773,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5574,
+      "offset": 5779,
       "length": 3,
       "value": "599"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5672,
+      "offset": 5877,
       "length": 13,
       "value": "\"label_close\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9395,
+      "offset": 10339,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10169,
+      "offset": 11410,
       "length": 12,
       "value": "\"noInternet\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10209,
+      "offset": 11450,
       "length": 36,
       "value": "\"label_no_internet_connection_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10292,
+      "offset": 11533,
       "length": 21,
       "value": "\"check_your_internet\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10469,
+      "offset": 11710,
       "length": 27,
       "value": "\"countryMismatchErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10551,
+      "offset": 11792,
       "length": 52,
       "value": "\"metamap_label_document_countryMismatch_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10650,
+      "offset": 11891,
       "length": 58,
       "value": "\"metamap_label_document_countryMismatch_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10861,
+      "offset": 12102,
       "length": 24,
       "value": "\"typeMismatchErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10913,
+      "offset": 12154,
       "length": 41,
       "value": "\"label_document_typeMismatch_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11001,
+      "offset": 12242,
       "length": 47,
       "value": "\"label_document_typeMismatch_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11204,
+      "offset": 12445,
       "length": 27,
       "value": "\"croppedDocumentErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11259,
+      "offset": 12500,
       "length": 42,
       "value": "\"label_document_image_cropped_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11348,
+      "offset": 12589,
       "length": 48,
       "value": "\"label_document_image_cropped_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11544,
+      "offset": 12785,
       "length": 19,
       "value": "\"badTextErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11591,
+      "offset": 12832,
       "length": 27,
       "value": "\"metamap_document_well_lit\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11665,
+      "offset": 12906,
       "length": 43,
       "value": "\"metamap_label_notext_descr_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11857,
+      "offset": 13098,
       "length": 25,
       "value": "\"multipleFacesErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11910,
+      "offset": 13151,
       "length": 33,
       "value": "\"metamap_multiple_faces_detected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11990,
+      "offset": 13231,
       "length": 35,
       "value": "\"metamap_multiple_face_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12169,
+      "offset": 13410,
       "length": 27,
       "value": "\"croppedDocumentErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12224,
+      "offset": 13465,
       "length": 44,
       "value": "\"metamap_label_document_badText_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12315,
+      "offset": 13556,
       "length": 38,
       "value": "\"label_document_mrz_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12505,
+      "offset": 13746,
       "length": 15,
       "value": "\"physicalError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12548,
+      "offset": 13789,
       "length": 28,
       "value": "\"label_physical_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12623,
+      "offset": 13864,
       "length": 34,
       "value": "\"label_physical_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12810,
+      "offset": 14051,
       "length": 19,
       "value": "\"similarPhotoError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12857,
+      "offset": 14098,
       "length": 38,
       "value": "\"baseErrorScreen_fileMatchError_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12942,
+      "offset": 14183,
       "length": 44,
       "value": "\"baseErrorScreen_fileMatchError_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13135,
+      "offset": 14376,
       "length": 23,
       "value": "\"noFaceInDocErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13186,
+      "offset": 14427,
       "length": 51,
       "value": "\"metamap_reuse_document_sidemismatch_error_heading\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13284,
+      "offset": 14525,
       "length": 51,
       "value": "\"metamap_reuse_document_sidemismatch_error_message\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13486,
+      "offset": 14727,
       "length": 26,
       "value": "\"documentNoFaceErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13540,
+      "offset": 14781,
       "length": 30,
       "value": "\"label_nodocument_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13617,
+      "offset": 14858,
       "length": 36,
       "value": "\"label_nodocument_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13813,
+      "offset": 15054,
       "length": 15,
       "value": "\"errorNoFaceVL\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13856,
+      "offset": 15097,
       "length": 23,
       "value": "\"label_error_vl_noface\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13926,
+      "offset": 15167,
       "length": 35,
       "value": "\"label_error_vl_noface_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14078,
+      "offset": 15319,
       "length": 28,
       "value": "\"label_something_went_wrong\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14153,
+      "offset": 15394,
       "length": 21,
       "value": "\"check_your_internet\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14246,
+      "offset": 15487,
       "length": 16,
       "value": "\"errorTimeoutVL\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14400,
+      "offset": 15641,
       "length": 25,
       "value": "\"noFaceSelfieIErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14453,
+      "offset": 15694,
       "length": 29,
       "value": "\"label_noface_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14529,
+      "offset": 15770,
       "length": 35,
       "value": "\"label_noface_descr_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14715,
+      "offset": 15956,
       "length": 27,
       "value": "\"croppedDocumentErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14770,
+      "offset": 16011,
       "length": 29,
       "value": "\"label_notext_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14846,
+      "offset": 16087,
       "length": 35,
       "value": "\"label_notext_descr_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15027,
+      "offset": 16268,
       "length": 22,
       "value": "\"blurryTextErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15077,
+      "offset": 16318,
       "length": 47,
       "value": "\"metamap_label_document_blurryText_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15171,
+      "offset": 16412,
       "length": 53,
       "value": "\"metamap_label_document_blurryText_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15389,
+      "offset": 16630,
       "length": 31,
       "value": "\"metamap_cpf_error_label_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15467,
+      "offset": 16708,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15604,
+      "offset": 16845,
       "length": 24,
       "value": "\"maskDetectedErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15656,
+      "offset": 16897,
       "length": 37,
       "value": "\"error_title_biometric_mask_detected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15741,
+      "offset": 16982,
       "length": 36,
       "value": "\"error_desc_biometric_mask_detected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15932,
+      "offset": 17173,
       "length": 25,
       "value": "\"noFaceSelfieIErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15985,
+      "offset": 17226,
       "length": 32,
       "value": "\"face_not_detected_selfie_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16065,
+      "offset": 17306,
       "length": 38,
       "value": "\"face_not_detected_selfie_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16258,
+      "offset": 17499,
       "length": 26,
       "value": "\"documentNoFaceErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16312,
+      "offset": 17553,
       "length": 35,
       "value": "\"label_document_noFace_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16394,
+      "offset": 17635,
       "length": 49,
       "value": "\"metamap_label_document_noFace_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16598,
+      "offset": 17839,
       "length": 25,
       "value": "\"label_large_image_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16670,
+      "offset": 17911,
       "length": 33,
       "value": "\"label_select_image_smaller_then\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16775,
+      "offset": 18016,
       "length": 16,
       "value": "\"imageSizeError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16964,
+      "offset": 18205,
       "length": 16,
       "value": "\"imageSizeError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17008,
+      "offset": 18249,
       "length": 37,
       "value": "\"metamap_error_too_small_image_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17092,
+      "offset": 18333,
       "length": 32,
       "value": "\"label_select_image_larger_then\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17249,
+      "offset": 18490,
       "length": 62,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17252,
+      "offset": 18493,
       "length": 38,
       "value": "\"metamap_something_wrong_socket_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17305,
+      "offset": 18546,
       "length": 1,
       "value": "\"(404)\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17344,
+      "offset": 18585,
       "length": 40,
       "value": "\"metamap_label_server_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17456,
+      "offset": 18697,
       "length": 13,
       "value": "\"serverError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17619,
+      "offset": 18860,
       "length": 65,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17628,
+      "offset": 18869,
       "length": 1,
       "value": "\") \""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17632,
+      "offset": 18873,
       "length": 36,
       "value": "\"metamap_label_something_went_wrong\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17683,
+      "offset": 18924,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17732,
+      "offset": 18973,
       "length": 36,
       "value": "\"metamap_label_something_went_wrong\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17825,
+      "offset": 19066,
       "length": 26,
       "value": "\"metamap_please_try_again\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17923,
+      "offset": 19164,
       "length": 14,
       "value": "\"genericError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18086,
+      "offset": 19327,
       "length": 63,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18095,
+      "offset": 19336,
       "length": 1,
       "value": "\") \""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18099,
+      "offset": 19340,
       "length": 34,
       "value": "\"metamap_label_server_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18148,
+      "offset": 19389,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18186,
+      "offset": 19427,
       "length": 40,
       "value": "\"metamap_label_server_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18288,
+      "offset": 19529,
       "length": 38,
       "value": "\"metamap_something_wrong_socket_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18377,
+      "offset": 19618,
       "length": 40,
       "value": "\"metamap_something_wrong_socket_message\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18499,
+      "offset": 19740,
       "length": 13,
       "value": "\"serverError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18712,
+      "offset": 19953,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18815,
+      "offset": 20056,
       "length": 17,
       "value": "\"label_back_side\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18970,
+      "offset": 20211,
       "length": 18,
       "value": "\"label_front_side\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19272,
+      "offset": 20513,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19338,
+      "offset": 20579,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20008,
+      "offset": 21249,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20133,
+      "offset": 21374,
       "length": 3,
       "value": "-40"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20211,
+      "offset": 21452,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20723,
+      "offset": 21964,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20793,
+      "offset": 22034,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21618,
+      "offset": 22859,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21884,
+      "offset": 23125,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21982,
+      "offset": 23223,
       "length": 4,
       "value": "true"
     },
@@ -84038,7 +84038,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.15.0\""
+      "value": "\"3.15.1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
