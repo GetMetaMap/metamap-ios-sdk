@@ -1,14 +1,14 @@
-// We need this because if Sentry library is added as a Framework
+// We need this because if MetaMapSentry library is added as a Framework
 // the reference should be in the form of <module/header>.
 // Otherwise, the reference is direct.
-#if __has_include(<Sentry/SentryDefines.h>)
-#    import <Sentry/SentryDefines.h>
+#if __has_include(<MetaMapSentry/MetaMapSentryDefines.h>)
+#    import <MetaMapSentry/MetaMapSentryDefines.h>
 #else
-#    import "SentryDefines.h"
+#    import "MetaMapSentryDefines.h"
 #endif
 
-#if __has_include(<Sentry/SentryProfilingConditionals.h>)
-#    import <Sentry/SentryProfilingConditionals.h>
+#if __has_include(<MetaMapSentry/MetaMapSentryProfilingConditionals.h>)
+#    import <MetaMapSentry/MetaMapSentryProfilingConditionals.h>
 #else
-#    import "SentryProfilingConditionals.h"
+#    import "MetaMapSentryProfilingConditionals.h"
 #endif
