@@ -9,8 +9,21 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.15.3
 
-# Version 3.15.1
+
+### Bug Fixes
+    * fixed UI minor issues
+    * fixing issue related to the MetaMap button/title colors
+    * did UX correctionsd
+
+
+### Updated Features  
+    * added error screen for unexpected error
+
+
+
+# Version 3.15.2
 
 ### Bug Fixes
     * fixed the issue related to creating verification twice
