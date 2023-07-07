@@ -320,6 +320,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1074,6 +1081,13 @@
             "printedName": "DocumentScanner",
             "usr": "s:10MetaMapSDK15DocumentScannerP",
             "mangledName": "$s10MetaMapSDK15DocumentScannerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
           },
           {
             "kind": "Conformance",
@@ -4020,6 +4034,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -4264,6 +4285,13 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "ImageCroppable",
+                "printedName": "ImageCroppable",
+                "usr": "s:10MetaMapSDK14ImageCroppableP",
+                "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Equatable",
                 "printedName": "Equatable",
                 "usr": "s:SQ",
@@ -4354,6 +4382,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5515,6 +5550,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6190,6 +6232,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6527,6 +6576,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6679,6 +6735,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -11262,6 +11325,582 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageCroppable",
+        "printedName": "ImageCroppable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "detector",
+            "printedName": "detector",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageDetect",
+                "printedName": "MetaMapSDK.ImageDetect<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:10MetaMapSDK11ImageDetectV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MetaMapSDK14ImageCroppablePAAE8detectorAA0D6DetectVyxGvp",
+            "mangledName": "$s10MetaMapSDK14ImageCroppablePAAE8detectorAA0D6DetectVyxGvp",
+            "moduleName": "MetaMapSDK",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageDetect",
+                    "printedName": "MetaMapSDK.ImageDetect<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10MetaMapSDK11ImageDetectV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MetaMapSDK14ImageCroppablePAAE8detectorAA0D6DetectVyxGvg",
+                "mangledName": "$s10MetaMapSDK14ImageCroppablePAAE8detectorAA0D6DetectVyxGvg",
+                "moduleName": "MetaMapSDK",
+                "genericSig": "<τ_0_0 where τ_0_0 : MetaMapSDK.ImageCroppable>",
+                "sugared_genericSig": "<Self where Self : MetaMapSDK.ImageCroppable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10MetaMapSDK14ImageCroppableP",
+        "mangledName": "$s10MetaMapSDK14ImageCroppableP",
+        "moduleName": "MetaMapSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DetectionType",
+        "printedName": "DetectionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "face",
+            "printedName": "face",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MetaMapSDK.DetectionType.Type) -> MetaMapSDK.DetectionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DetectionType",
+                    "printedName": "MetaMapSDK.DetectionType",
+                    "usr": "s:10MetaMapSDK13DetectionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MetaMapSDK.DetectionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DetectionType",
+                        "printedName": "MetaMapSDK.DetectionType",
+                        "usr": "s:10MetaMapSDK13DetectionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MetaMapSDK13DetectionTypeO4faceyA2CmF",
+            "mangledName": "$s10MetaMapSDK13DetectionTypeO4faceyA2CmF",
+            "moduleName": "MetaMapSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionType",
+                "printedName": "MetaMapSDK.DetectionType",
+                "usr": "s:10MetaMapSDK13DetectionTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionType",
+                "printedName": "MetaMapSDK.DetectionType",
+                "usr": "s:10MetaMapSDK13DetectionTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MetaMapSDK13DetectionTypeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s10MetaMapSDK13DetectionTypeO2eeoiySbAC_ACtFZ",
+            "moduleName": "MetaMapSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10MetaMapSDK13DetectionTypeO9hashValueSivp",
+            "mangledName": "$s10MetaMapSDK13DetectionTypeO9hashValueSivp",
+            "moduleName": "MetaMapSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10MetaMapSDK13DetectionTypeO9hashValueSivg",
+                "mangledName": "$s10MetaMapSDK13DetectionTypeO9hashValueSivg",
+                "moduleName": "MetaMapSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MetaMapSDK13DetectionTypeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s10MetaMapSDK13DetectionTypeO4hash4intoys6HasherVz_tF",
+            "moduleName": "MetaMapSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10MetaMapSDK13DetectionTypeO",
+        "mangledName": "$s10MetaMapSDK13DetectionTypeO",
+        "moduleName": "MetaMapSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageDetectResult",
+        "printedName": "ImageDetectResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (MetaMapSDK.ImageDetectResult<τ_0_0>.Type) -> ([τ_0_0]) -> MetaMapSDK.ImageDetectResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([τ_0_0]) -> MetaMapSDK.ImageDetectResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectResult",
+                        "printedName": "MetaMapSDK.ImageDetectResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10MetaMapSDK17ImageDetectResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[τ_0_0]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MetaMapSDK.ImageDetectResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectResult",
+                        "printedName": "MetaMapSDK.ImageDetectResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10MetaMapSDK17ImageDetectResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MetaMapSDK17ImageDetectResultO7successyACyxGSayxGcAEmlF",
+            "mangledName": "$s10MetaMapSDK17ImageDetectResultO7successyACyxGSayxGcAEmlF",
+            "moduleName": "MetaMapSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "notFound",
+            "printedName": "notFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (MetaMapSDK.ImageDetectResult<τ_0_0>.Type) -> MetaMapSDK.ImageDetectResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageDetectResult",
+                    "printedName": "MetaMapSDK.ImageDetectResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10MetaMapSDK17ImageDetectResultO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MetaMapSDK.ImageDetectResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectResult",
+                        "printedName": "MetaMapSDK.ImageDetectResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10MetaMapSDK17ImageDetectResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MetaMapSDK17ImageDetectResultO8notFoundyACyxGAEmlF",
+            "mangledName": "$s10MetaMapSDK17ImageDetectResultO8notFoundyACyxGAEmlF",
+            "moduleName": "MetaMapSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "failure",
+            "printedName": "failure",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (MetaMapSDK.ImageDetectResult<τ_0_0>.Type) -> (Swift.Error) -> MetaMapSDK.ImageDetectResult<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error) -> MetaMapSDK.ImageDetectResult<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectResult",
+                        "printedName": "MetaMapSDK.ImageDetectResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10MetaMapSDK17ImageDetectResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "MetaMapSDK.ImageDetectResult<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ImageDetectResult",
+                        "printedName": "MetaMapSDK.ImageDetectResult<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:10MetaMapSDK17ImageDetectResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10MetaMapSDK17ImageDetectResultO7failureyACyxGs5Error_pcAEmlF",
+            "mangledName": "$s10MetaMapSDK17ImageDetectResultO7failureyACyxGs5Error_pcAEmlF",
+            "moduleName": "MetaMapSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10MetaMapSDK17ImageDetectResultO",
+        "mangledName": "$s10MetaMapSDK17ImageDetectResultO",
+        "moduleName": "MetaMapSDK",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageDetect",
+        "printedName": "ImageDetect",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "crop",
+            "printedName": "crop(type:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionType",
+                "printedName": "MetaMapSDK.DetectionType",
+                "usr": "s:10MetaMapSDK13DetectionTypeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MetaMapSDK.ImageDetectResult<CoreGraphics.CGImage>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageDetectResult",
+                    "printedName": "MetaMapSDK.ImageDetectResult<CoreGraphics.CGImage>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGImage",
+                        "printedName": "CoreGraphics.CGImage",
+                        "usr": "c:@T@CGImageRef"
+                      }
+                    ],
+                    "usr": "s:10MetaMapSDK17ImageDetectResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MetaMapSDK11ImageDetectVAASo10CGImageRefaRbzlE4crop4type10completionyAA13DetectionTypeO_yAA0dE6ResultOyAEGctF",
+            "mangledName": "$s10MetaMapSDK11ImageDetectVAASo10CGImageRefaRbzlE4crop4type10completionyAA13DetectionTypeO_yAA0dE6ResultOyAEGctF",
+            "moduleName": "MetaMapSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : CoreGraphics.CGImage>",
+            "sugared_genericSig": "<T where T : CoreGraphics.CGImage>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "crop",
+            "printedName": "crop(type:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DetectionType",
+                "printedName": "MetaMapSDK.DetectionType",
+                "usr": "s:10MetaMapSDK13DetectionTypeO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(MetaMapSDK.ImageDetectResult<UIKit.UIImage>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImageDetectResult",
+                    "printedName": "MetaMapSDK.ImageDetectResult<UIKit.UIImage>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:10MetaMapSDK17ImageDetectResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10MetaMapSDK11ImageDetectVAASo7UIImageCRbzlE4crop4type10completionyAA13DetectionTypeO_yAA0dE6ResultOyAEGctF",
+            "mangledName": "$s10MetaMapSDK11ImageDetectVAASo7UIImageCRbzlE4crop4type10completionyAA13DetectionTypeO_yAA0dE6ResultOyAEGctF",
+            "moduleName": "MetaMapSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIImage>",
+            "sugared_genericSig": "<T where T : UIKit.UIImage>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10MetaMapSDK11ImageDetectV",
+        "mangledName": "$s10MetaMapSDK11ImageDetectV",
+        "moduleName": "MetaMapSDK",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -12612,6 +13251,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -14193,6 +14839,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -15190,6 +15843,13 @@
             "printedName": "SVGLayerType",
             "usr": "s:10MetaMapSDK12SVGLayerTypeP",
             "mangledName": "$s10MetaMapSDK12SVGLayerTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
           },
           {
             "kind": "Conformance",
@@ -19874,6 +20534,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -20604,6 +21271,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -20773,6 +21447,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -24009,6 +24690,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -24341,6 +25029,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -28799,6 +29494,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -31401,6 +32103,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -32149,6 +32858,13 @@
             "printedName": "Transport",
             "usr": "s:10MetaMapSDK9TransportP",
             "mangledName": "$s10MetaMapSDK9TransportP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
           },
           {
             "kind": "Conformance",
@@ -32992,6 +33708,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -33512,6 +34235,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -34002,6 +34732,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
           },
           {
             "kind": "Conformance",
@@ -35022,6 +35759,13 @@
             "printedName": "Encodable",
             "usr": "s:SE",
             "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
           },
           {
             "kind": "Conformance",
@@ -39507,6 +40251,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -40460,6 +41211,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -40802,6 +41560,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -48666,6 +49431,132 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "NSObject",
+        "printedName": "NSObject",
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSObject",
+        "moduleName": "ObjectiveC",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "NSObject",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CGImage",
+        "printedName": "CGImage",
+        "declKind": "Class",
+        "usr": "c:@T@CGImageRef",
+        "moduleName": "CoreGraphics",
+        "declAttributes": [
+          "SynthesizedProtocol",
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_CFObject",
+            "printedName": "_CFObject",
+            "usr": "s:14CoreFoundation9_CFObjectP",
+            "mangledName": "$s14CoreFoundation9_CFObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "FloatingPoint",
         "printedName": "FloatingPoint",
         "children": [
@@ -49319,6 +50210,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -49429,6 +50327,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -49573,6 +50478,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -50191,6 +51103,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -50300,6 +51219,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -51413,6 +52339,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -51559,6 +52492,13 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -51972,6 +52912,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -52144,6 +53091,13 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -52309,6 +53263,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ImageCroppable",
+            "printedName": "ImageCroppable",
+            "usr": "s:10MetaMapSDK14ImageCroppableP",
+            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
           },
           {
             "kind": "Conformance",
@@ -58463,6 +59424,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/FaceDetector\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2197,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/FaceDetector\/FaceDetector.swift",
+      "kind": "Dictionary",
+      "offset": 2440,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/FaceDetector\/FaceDetector.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2880,
+      "length": 1,
+      "value": "1"
+    },
+    {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
       "kind": "IntegerLiteral",
       "offset": 2530,
@@ -64437,440 +65419,440 @@
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
       "offset": 2332,
-      "length": 20,
-      "value": "\"label_allow_access\""
+      "length": 24,
+      "value": "\"metamap_label_continue\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2444,
+      "offset": 2448,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2930,
+      "offset": 2934,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2936,
+      "offset": 2940,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2946,
+      "offset": 2950,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3012,
+      "offset": 3016,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3017,
+      "offset": 3021,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3214,
+      "offset": 3218,
       "length": 19,
       "value": "\"close_button_icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3518,
+      "offset": 3522,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3534,
+      "offset": 3538,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4078,
+      "offset": 4082,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4118,
+      "offset": 4122,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4132,
+      "offset": 4136,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4337,
+      "offset": 4341,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4377,
+      "offset": 4381,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4392,
+      "offset": 4396,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4603,
+      "offset": 4607,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4643,
+      "offset": 4647,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4659,
+      "offset": 4663,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4876,
+      "offset": 4880,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4916,
+      "offset": 4920,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4931,
+      "offset": 4935,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5122,
+      "offset": 5126,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5162,
+      "offset": 5166,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5176,
+      "offset": 5180,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5363,
+      "offset": 5367,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5405,
+      "offset": 5409,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5419,
+      "offset": 5423,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 5618,
+      "offset": 5622,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5660,
+      "offset": 5664,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5674,
+      "offset": 5678,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5878,
+      "offset": 5882,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5918,
+      "offset": 5922,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5933,
+      "offset": 5937,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6136,
+      "offset": 6140,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6176,
+      "offset": 6180,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6190,
+      "offset": 6194,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6364,
+      "offset": 6368,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6379,
+      "offset": 6383,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6393,
+      "offset": 6397,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6560,
+      "offset": 6564,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6573,
+      "offset": 6577,
       "length": 3,
       "value": "-35"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6589,
+      "offset": 6593,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6758,
+      "offset": 6762,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6771,
+      "offset": 6775,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6785,
+      "offset": 6789,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6971,
+      "offset": 6975,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6984,
+      "offset": 6988,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6999,
+      "offset": 7003,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7120,
+      "offset": 7124,
       "length": 38,
       "value": "\"Camera is not supported in Simulator\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7192,
+      "offset": 7196,
       "length": 71,
       "value": "\"Read more https:\/\/help.apple.com\/simulator\/mac\/current\/#\/devb0244142d\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7446,
+      "offset": 7450,
       "length": 29,
       "value": "\"requestCameraAccessBlockImg\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7505,
+      "offset": 7509,
       "length": 29,
       "value": "\"requestCameraAccessFirstImg\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7611,
+      "offset": 7615,
       "length": 30,
       "value": "\"AllowCameraMobileBlock_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7658,
+      "offset": 7662,
       "length": 25,
       "value": "\"AllowCameraMobile_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7776,
+      "offset": 7780,
       "length": 36,
       "value": "\"AllowCameraMobileBlock_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7845,
+      "offset": 7849,
       "length": 31,
       "value": "\"AllowCameraMobile_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8028,
+      "offset": 8032,
       "length": 26,
       "value": "\"requestMicAccessBlockImg\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8084,
+      "offset": 8088,
       "length": 26,
       "value": "\"requestMicAccessFirstImg\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8187,
+      "offset": 8191,
       "length": 34,
       "value": "\"AllowMicrophoneMobileBlock_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8238,
+      "offset": 8242,
       "length": 29,
       "value": "\"AllowMicrophoneMobile_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8360,
+      "offset": 8364,
       "length": 40,
       "value": "\"AllowMicrophoneMobileBlock_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFCameraAccessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8417,
+      "offset": 8421,
       "length": 35,
       "value": "\"AllowMicrophoneMobile_description\""
     },
@@ -84066,7 +85048,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.15.4\""
+      "value": "\"3.15.5\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
@@ -85058,315 +86040,336 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8869,
+      "offset": 8909,
       "length": 38,
       "value": "\"metamap_your_photo_is_being_uploaded\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10596,
+      "length": 9,
+      "value": "\"no_face\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10777,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 10858,
+      "length": 9,
+      "value": "\"no_face\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9758,
+      "offset": 11189,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9815,
+      "offset": 11246,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9827,
+      "offset": 11258,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9877,
+      "offset": 11308,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9908,
+      "offset": 11339,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10701,
+      "offset": 12132,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10950,
+      "offset": 12381,
       "length": 9,
       "value": "\"timeOut\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11137,
+      "offset": 12568,
       "length": 9,
       "value": "\"timeOut\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11413,
+      "offset": 12844,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11475,
+      "offset": 12906,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11518,
+      "offset": 12949,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11680,
+      "offset": 13111,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11741,
+      "offset": 13172,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11783,
+      "offset": 13214,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11874,
+      "offset": 13305,
       "length": 22,
       "value": "\"label_is_photo_clear\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12141,
+      "offset": 13572,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12843,
+      "offset": 14274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13833,
+      "offset": 15264,
       "length": 4,
       "value": "\"BR\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13859,
+      "offset": 15290,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14012,
+      "offset": 15443,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14327,
+      "offset": 15758,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14345,
+      "offset": 15776,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14712,
+      "offset": 16143,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14739,
+      "offset": 16170,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16027,
+      "offset": 17458,
       "length": 33,
       "value": "\"unexpected_error_document_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16164,
+      "offset": 17595,
       "length": 26,
       "value": "\"document_too_small_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17354,
+      "offset": 18785,
       "length": 5,
       "value": "\"413\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17485,
+      "offset": 18916,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19016,
+      "offset": 20447,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19067,
+      "offset": 20498,
       "length": 13,
       "value": "\"national_id\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19133,
+      "offset": 20564,
       "length": 17,
       "value": "\"driving_licence\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19197,
+      "offset": 20628,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19262,
+      "offset": 20693,
       "length": 17,
       "value": "\"proof_residence\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19322,
+      "offset": 20753,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19361,
+      "offset": 20792,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19416,
+      "offset": 20847,
       "length": 4,
       "value": "\"US\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19486,
+      "offset": 20917,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19597,
+      "offset": 21028,
       "length": 59,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19641,
+      "offset": 21072,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19644,
+      "offset": 21075,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19655,
+      "offset": 21086,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19745,
+      "offset": 21176,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19798,
+      "offset": 21229,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19898,
+      "offset": 21329,
       "length": 2,
       "value": "\"\""
     },

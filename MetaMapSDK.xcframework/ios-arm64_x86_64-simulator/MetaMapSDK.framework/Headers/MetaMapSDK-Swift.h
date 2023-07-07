@@ -469,6 +469,7 @@ SWIFT_CLASS("_TtC10MetaMapSDK15MetaMapUIConfig")
 
 
 
+
 /// Concrete implementation of <code>SVGParser</code> that uses Foundation’s <code>XMLParser</code> to parse a given SVG file.
 SWIFT_CLASS("_TtC10MetaMapSDK14NSXMLSVGParser")
 @interface NSXMLSVGParser : NSXMLParser <NSXMLParserDelegate>
@@ -542,11 +543,11 @@ SWIFT_CLASS("_TtC10MetaMapSDK8SVGLayer")
 @end
 
 
+
 @interface SVGLayer (SWIFT_EXTENSION(MetaMapSDK))
 /// Applies the given fill color to all sublayers
 @property (nonatomic) CGColorRef _Nullable fillColor;
 @end
-
 
 
 @interface SVGLayer (SWIFT_EXTENSION(MetaMapSDK))
@@ -1351,6 +1352,7 @@ SWIFT_CLASS("_TtC10MetaMapSDK15MetaMapUIConfig")
 
 
 
+
 /// Concrete implementation of <code>SVGParser</code> that uses Foundation’s <code>XMLParser</code> to parse a given SVG file.
 SWIFT_CLASS("_TtC10MetaMapSDK14NSXMLSVGParser")
 @interface NSXMLSVGParser : NSXMLParser <NSXMLParserDelegate>
@@ -1424,11 +1426,11 @@ SWIFT_CLASS("_TtC10MetaMapSDK8SVGLayer")
 @end
 
 
+
 @interface SVGLayer (SWIFT_EXTENSION(MetaMapSDK))
 /// Applies the given fill color to all sublayers
 @property (nonatomic) CGColorRef _Nullable fillColor;
 @end
-
 
 
 @interface SVGLayer (SWIFT_EXTENSION(MetaMapSDK))
