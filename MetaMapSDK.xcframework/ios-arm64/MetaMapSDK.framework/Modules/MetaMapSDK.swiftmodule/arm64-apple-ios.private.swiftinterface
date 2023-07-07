@@ -382,6 +382,38 @@ public class StringHTTPHandler : MetaMapSDK.HTTPHandler {
 }
 public protocol Strokable {
 }
+extension ObjectiveC.NSObject : MetaMapSDK.ImageCroppable {
+}
+extension CoreGraphics.CGImage : MetaMapSDK.ImageCroppable {
+}
+public protocol ImageCroppable {
+}
+public enum DetectionType {
+  case face
+  public static func == (a: MetaMapSDK.DetectionType, b: MetaMapSDK.DetectionType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ImageDetectResult<T> {
+  case success([T])
+  case notFound
+  case failure(any Swift.Error)
+}
+public struct ImageDetect<T> {
+}
+extension MetaMapSDK.ImageCroppable {
+  public var detector: MetaMapSDK.ImageDetect<Self> {
+    get
+  }
+}
+extension MetaMapSDK.ImageDetect where T : CoreGraphics.CGImage {
+  public func crop(type: MetaMapSDK.DetectionType, completion: @escaping (MetaMapSDK.ImageDetectResult<CoreGraphics.CGImage>) -> Swift.Void)
+}
+extension MetaMapSDK.ImageDetect where T : UIKit.UIImage {
+  public func crop(type: MetaMapSDK.DetectionType, completion: @escaping (MetaMapSDK.ImageDetectResult<UIKit.UIImage>) -> Swift.Void)
+}
 public struct SocketEventHandler {
   public let event: Swift.String
   public let id: Foundation.UUID
@@ -1458,6 +1490,8 @@ extension MetaMapSDK.ErrorType : Swift.Hashable {}
 extension MetaMapSDK.SocketAckStatus : Swift.Equatable {}
 extension MetaMapSDK.SocketAckStatus : Swift.Hashable {}
 extension MetaMapSDK.SocketAckStatus : Swift.RawRepresentable {}
+extension MetaMapSDK.DetectionType : Swift.Equatable {}
+extension MetaMapSDK.DetectionType : Swift.Hashable {}
 extension MetaMapSDK.SocketIOStatus : Swift.Equatable {}
 extension MetaMapSDK.SocketIOStatus : Swift.Hashable {}
 extension MetaMapSDK.SocketIOStatus : Swift.RawRepresentable {}

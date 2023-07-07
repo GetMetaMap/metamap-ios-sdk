@@ -12,13 +12,19 @@ If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [
 
 # Version 3.15.4
 
+### Updated Features  
+    * replaced main button title on the camera permission screen
+
+
+
+# Version 3.15.4
+
 ### Bug Fixes
     * fixed crash on the iOS 12, 14.0.1 versions
     * fixed minor UI issue on the document verification step
 
 
 # Version 3.15.3
-
 
 ### Bug Fixes
     * fixed UI minor issues
