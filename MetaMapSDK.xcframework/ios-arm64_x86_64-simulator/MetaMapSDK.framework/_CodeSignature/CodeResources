@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		JSrDpxTIs/+9KzmloZp3TSJT3YM=
+		eVsFReccm90pjiDYCR3oq8Dr3b0=
 		</data>
 		<key>ConfirmPupUpVC.nib</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<data>
-		vIQHrcfDqU4os6YOiJh+vlirMM0=
+		u9M31+O3qwQSE+M5O0t8gAZiVx8=
 		</data>
 		<key>Headers/MetaMapSDK.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OS/PDRE3KNU7UN/SLw/r+OTaCxg=
+		Pn3X+DND4WYA9jevQ+PjxIP6bQE=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -138,11 +138,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6zHqKcusZdkYSx/wJvyZJ31fl6M=
+		+h1ED68uSLK2IyDJerlv9dYf2Mo=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		JEJi1RVyPY0R3hJ/6RRiftZnxms=
+		A77GKVzr3VSn6KOTAoTJVLt8eBI=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -150,19 +150,19 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		JEJi1RVyPY0R3hJ/6RRiftZnxms=
+		A77GKVzr3VSn6KOTAoTJVLt8eBI=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p1Bj7rm9dxNXe6uchpLVgwExJKk=
+		Sb7oksp1OV7xxGMcY2ns5dX5AlE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6zHqKcusZdkYSx/wJvyZJ31fl6M=
+		+h1ED68uSLK2IyDJerlv9dYf2Mo=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		diGfYS2v1GwTUlNMubiXD/J6iQA=
+		MWGTWM29bf8nkYzzGcRznXEUHUk=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -170,11 +170,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		diGfYS2v1GwTUlNMubiXD/J6iQA=
+		MWGTWM29bf8nkYzzGcRznXEUHUk=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VkKmCK4wEr3+BtezCrgZczhJR9Q=
+		LuCk92BTPbO16we4GpcG+bbIz50=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -456,7 +456,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mlLaTSqT3S2ZA1gXIHA6AzE1yyQ=
+			qXBmD/5R4B0osgnrGdCxfalEd0I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -465,7 +465,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GpWKEesGVNdxcQEGFAEpP5/9JEY=
+			1V1YzdOsPjBklJzwLJ9nD+vuG0Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -474,7 +474,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RIiO5A7isw6iZfF0gXFRDjfz950=
+			jbQJwMej1y5ahl5pmXAhZsuSdPE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -483,7 +483,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			amkfvd/H03mhh2kxYsjEDi5FsVk=
+			hrQQfU2iNqyIpH7jPVsALrqL8no=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -492,7 +492,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cq1h/r6ARHbuGjS0J7rW9kiuTyc=
+			Ecmw/YN1kzUe/H2SNlRCzkQs5rM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -509,7 +509,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			HBawvPHaMj3ZOvPzWJKoNlIujII=
+			vZgBTpyqcqU97+7RRwaFzRXM7vc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -518,7 +518,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			plyPTTlh3DsppIEhk1Gv6R3UfPA=
+			88acRi+UgigDqvMsNvFVPR3YS9Y=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -527,7 +527,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O3VoG0yviMcrkyjtYdM+aTyarjE=
+			iQwuEpagjxHFNxBi+4L0/32yS6Q=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -536,7 +536,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			bqRKvwOY0vhWsz07O9hAtmckr/U=
+			i8/FODJSGzgR/hSmh/sfVtBUaVc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -549,7 +549,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			cYy5q6h6R2BZWocIEzabiCvGpm0=
+			EEmYv/7SeAkfRHbPryB0Uzz7vpU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -561,7 +561,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+yoDrfxmtDV3p5mFjiRlixEMZz0Be9ArfEEhLL1QD+U=
+			mZAVTIPy2x7MlyZVHZyFfreWBxNPpNOyeOrB+W+LXm8=
 			</data>
 		</dict>
 		<key>ConfirmPupUpVC.nib</key>
@@ -582,7 +582,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			At1BvHvf4b1KcPle420nYDnZ6Ss87tEdI7AAMH2F6JI=
+			Ti0l8G3IDQIwuLoubBaOnhT/nLGzpgR3UlzJcQlf2DA=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK.h</key>
@@ -785,14 +785,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uouoduD/UJx8bToWlQNnPRxsxyC10E/NFhC2jDcKjQQ=
+			4pyk9GrsFohODDo2AibF0iG0MrSN+ph1twje/EnQoKc=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GC+Or0TwfJCAXCSZoqhZvLyqKC7bmVTgo6M4oki5XNY=
+			KrTsECvrD42HS9oLPIyf4jQxYvBhSrGJP/RXIl0Kp3Q=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -806,28 +806,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GC+Or0TwfJCAXCSZoqhZvLyqKC7bmVTgo6M4oki5XNY=
+			KrTsECvrD42HS9oLPIyf4jQxYvBhSrGJP/RXIl0Kp3Q=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KUQiK+2SP27+bEczsBjDkbh5098k5xjzt3NLaYNzlE8=
+			pHUgMUeZviBDR2UJKrDeEqIlbQj1Eh1TCO4ODMt7SSo=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uouoduD/UJx8bToWlQNnPRxsxyC10E/NFhC2jDcKjQQ=
+			4pyk9GrsFohODDo2AibF0iG0MrSN+ph1twje/EnQoKc=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S6YjtVg6ONSVznx6A1UmiQpLNVW3nuDHGnkRCVmgKU4=
+			chbjONQxLh2IWpDJiZvzmM1CSjyVuStv8FbzubqCoqM=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -841,14 +841,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S6YjtVg6ONSVznx6A1UmiQpLNVW3nuDHGnkRCVmgKU4=
+			chbjONQxLh2IWpDJiZvzmM1CSjyVuStv8FbzubqCoqM=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4sz4a9E+p46enkiPuKqDQyZ2Ko9Yzt7NIDAZ3n5rZZM=
+			457DjDVxbBvwRyMFiz5n+HLb/kJjOG3Sf5SPUlAXFBY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1338,7 +1338,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r0KcHkygsg9CuMBoul7OtN+utaA15g78LTjct6jN2fk=
+			yU2Cq8lxLFO4bniSSNHR2IQc6Ga/sS5K6h/xNZksdvk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1347,7 +1347,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HeFre5rdH3FgXMkRjfcv37VOrm00rwXI1t05Q6ECvVs=
+			saS4SyuOH1nzU7Dw2O17XF72pN4mIGbh9Y959JYTGPk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1356,7 +1356,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hWCjhhw87kAPcjwcvyUYPEDoXr7i/zW71WSz6IAcsyc=
+			BXelvNu3+cySMSQmEXy9ABUxNTAL345DbgksM28IS84=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1365,7 +1365,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wWzVQomLhMwB1+ZltPrvJ4yVv2QWA0uKRtZZA6LeA2g=
+			wEHRLDJHWAkOYIQCKwo3l8Vob3cnRMdo5z8z76bjkM4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1374,7 +1374,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TIJGzqIkDsqnboPugG8uFWQTloe4oIEcQi/TLcWirHk=
+			fk3KkjdSCWmn1UfN9djd7iDQjbfipEICHyjGXQOivG8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1397,7 +1397,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zfvfBvlNR+5lvysKbkg3hb46EYgv1S9sj6Zx0cRov1Y=
+			LwRc7VNEdXEAGJTntTkyKVvi/ygeuQsHoTF4Mji6Rvw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1406,7 +1406,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			om3Yfm4HHzdireB+lqh1HKISUuVXHxSiXxKOhXlYJhk=
+			2WdS63rpmfTb3ongIj4Nbl+qIPlN5ZOXXOVSWRi472I=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1415,7 +1415,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iBRuprz/pEKNTcvdhFdYZQ3ClBGY81WtpVocV3yhnnM=
+			QrwdPzmGyOOTf3rjTaBbUWlt6WFLaR3EokvmrYfHpVw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1424,7 +1424,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DsxHiPYyy1Qs6t4P3PJaKjM+D1nFjaaj6Fmx/AwwmCQ=
+			2EQqlaVv7Rk7Ds4en+G3+YoXdURe5cjpfcb7oWX54BA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1440,7 +1440,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CxnquB1uKUQzXwP1MzE1LonQui062cYEmfGs49jocxs=
+			f4/NWeuUgtSnoQ+jt1G3htetK2ba7cGXC/9po2Ff6Sk=
 			</data>
 			<key>optional</key>
 			<true/>

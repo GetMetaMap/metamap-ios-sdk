@@ -624,6 +624,9 @@ extension Swift.FloatingPoint {
 public protocol Fillable {
 }
 extension UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) public func allSubViewsOf<T>(type: T.Type) -> [T] where T : UIKit.UIView
+}
+extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) convenience public init(pathString: Swift.String)
   @_Concurrency.MainActor(unsafe) convenience public init(svgNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
   @available(*, deprecated, renamed: "init(svgNamed:parser:completion:)")
