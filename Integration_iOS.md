@@ -8,7 +8,7 @@
 
 Install MetaMap (your App pod file)
   
-    pod 'MetaMap-ID-SDK'
+    pod 'MetaMapSDK'
     
 Update your pods from the terminal
 

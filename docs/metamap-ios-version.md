@@ -10,6 +10,24 @@ category: 61ae8e8dba577a0010791480
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
 
+# Version 3.15.6
+
+### New Features
+    * skip Document  
+    * handling document occlusion error 
+    * face detection to the document from the mobile side
+
+### Bug Fixes
+    * replaced access token key
+    
+
+
+# Version 3.15.5
+
+### Updated Features 
+    * replaced main button title on the camera permission screen
+
+
 # Version 3.15.4
 
 ### Updated Features  
