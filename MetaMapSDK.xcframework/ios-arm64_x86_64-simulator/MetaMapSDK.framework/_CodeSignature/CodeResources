@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		eVsFReccm90pjiDYCR3oq8Dr3b0=
+		Z6+MYBMQK5gZ1bWEEVOKXKDrkaI=
 		</data>
 		<key>ConfirmPupUpVC.nib</key>
 		<data>
-		SO1gnq1mBohuTSmnyrMaQpuX4w4=
+		t9VmaFzhDiZ/gCpsC2uWGjmDlF4=
 		</data>
 		<key>DeploymentTargets.xcconfig</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<data>
-		u9M31+O3qwQSE+M5O0t8gAZiVx8=
+		zMFy2sIr0aoEaTu3RMH/gmmWsTg=
 		</data>
 		<key>Headers/MetaMapSDK.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Pn3X+DND4WYA9jevQ+PjxIP6bQE=
+		55+ON+ddKSJbT5vpsLBzoBlWQ6I=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -38,67 +38,67 @@
 		</data>
 		<key>LocationServicePopupView.nib</key>
 		<data>
-		Rrh5u8wv588QwL2jdaCN83pJlBg=
+		hRVLQpIvxJht14SzZq2qEKl5EW8=
 		</data>
 		<key>MFBRDLDocumentVerifyViewController.nib</key>
 		<data>
-		DPNuR8RTs2gn1M7GtC/A9y9YykQ=
+		rCygXt4/UiAl6wNjD0V5J3OKmwg=
 		</data>
 		<key>MFCancelAlertViewController.nib</key>
 		<data>
-		anXNNDAle+4lu5sMmNhNZoo4+FM=
+		LwNceSxcADCIrF7sLuT9C11ozZk=
 		</data>
 		<key>MFCountriesListViewController.nib</key>
 		<data>
-		PkFuuDAvDWdKo9hrAUvu6XdCeI4=
+		1Yt4us8ZYNIyZTuPkn3SPC1bzn8=
 		</data>
 		<key>MFCountryTableViewCell.nib</key>
 		<data>
-		cZw/hHA2RqKoQyBqbifBZRWeA+M=
+		4MrZO8XFtsuM33Vj0V0Lr9tP6io=
 		</data>
 		<key>MFDocumentListViewController.nib</key>
 		<data>
-		i0KGE1AL/dLOGvYyvxT4roMJOS4=
+		Pgq9pAciVynweNPNaLgK9QjsrOU=
 		</data>
 		<key>MFDocumentSelectCountryViewController.nib</key>
 		<data>
-		b+QLZaj4dG7S61SeKjlSf/+LrXA=
+		i7SJTlDh1p36wtFH8XHEGtR+hPU=
 		</data>
 		<key>MFDocumentTableViewCell.nib</key>
 		<data>
-		+GkdMISus0OeyVki7YUKWrdEZ6M=
+		PbhCsVzZqc3Ychn8YXaTogqFYTs=
 		</data>
 		<key>MFDocumentTutorialViewController.nib</key>
 		<data>
-		SwO24N/hhVfoYAYwHn9qakTTmuA=
+		z6dHr3NqNvjTZwLRzlj0tBSeIr8=
 		</data>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<data>
-		GgoX7hl6kRCfR1O5QdRvPEsJ5c0=
+		xbCFghAu3QGKLu0rgv8qvFinJTY=
 		</data>
 		<key>MFErrorViewController.nib</key>
 		<data>
-		YXR5X0YjzSw1SPpMctMyCb3LWgo=
+		g4WRWX63yUGFLS4oXsodH39rwSc=
 		</data>
 		<key>MFLocationPermissionViewController.nib</key>
 		<data>
-		KGFmMBwNQ1gvMWa7IarsuAQWjsg=
+		q5GB8dosXI0v5999ulKTi4PR2zE=
 		</data>
 		<key>MFSelfieCameraViewController.nib</key>
 		<data>
-		XiSYJyRmi+sWdsCDujYtrtPLTV0=
+		P+24N0s/uqqsfw0WllpqchRDh5o=
 		</data>
 		<key>MatiBRDLCameraViewController.nib</key>
 		<data>
-		uPP/hLT+Md0fhRGeb7SdObUU7yE=
+		7y9yYcVer4EFEXkSP5k2WdzZglU=
 		</data>
 		<key>MatiCPFNumberDocumentViewController.nib</key>
 		<data>
-		EfJ3+tocHrF6SAP8N55WKxX7cEE=
+		vAWuxkq999ZOeEDXawkN0+nsTy0=
 		</data>
 		<key>MatiCameraViewController.nib</key>
 		<data>
-		Cds+pNAXhAnpUYOVugfOqF4tiv4=
+		T9JGlk+DA5iCSvKKV/niL5yGC64=
 		</data>
 		<key>MatiCountries.plist</key>
 		<data>
@@ -106,75 +106,75 @@
 		</data>
 		<key>MatiGeoIPErrorViewController.nib</key>
 		<data>
-		Py96TZX5+k4wC8QZyOAPlAzItWI=
+		Jq/z42dHkSTLmbjEIOyUePyXDaE=
 		</data>
 		<key>MatiMainTableViewCell.nib</key>
 		<data>
-		IpLQcMO5+fCAi1xKbi8Uv9wGS8Q=
+		fvMonzDOL4KHCbbalQD7SBcA21k=
 		</data>
 		<key>MatiPoRListViewController.nib</key>
 		<data>
-		lulJfLMLfKdSz9OXnmabKhRYnv8=
+		feja3JYTaxdcAQP2P2egavvQvAE=
 		</data>
 		<key>MatiPoRTutorialViewController.nib</key>
 		<data>
-		pAR5TG25riEURxSqTT1twlKTbEI=
+		0qnyoLIN1/ArHLeVJDQoYJ6lgkg=
 		</data>
 		<key>MatiPoRViewController.nib</key>
 		<data>
-		N8VBgl++CeA/n/n6qmBB3Q6dOsk=
+		y9YkhTAHaoqZzFtPQIPBU/fu5oE=
 		</data>
 		<key>MatiPorDocTableViewCell.nib</key>
 		<data>
-		mkgWxe1t7O79fvJJISWO7hyHfZM=
+		6vQnmkCQdHqS2lrTOStx8b9Vr68=
 		</data>
 		<key>MatiSmsCountryListViewController.nib</key>
 		<data>
-		25wZs+4L8rebOh1zZcEXMd6GHJE=
+		3pwjx3C76h/9gbSzI0kpstAkVLw=
 		</data>
 		<key>MatiSmsCountryTableViewCell.nib</key>
 		<data>
-		Lq4zzehCA3J4hQb9xWfMehC/Ktw=
+		6ola6pOl/pGk1GDHMIZQnU2ZV2o=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		+h1ED68uSLK2IyDJerlv9dYf2Mo=
+		6oVHmSLfM0DKtsNXkMLd0lk0gSM=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		A77GKVzr3VSn6KOTAoTJVLt8eBI=
+		V5p/jD2UyLpAxNW8vgUL0Ju9qp4=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Xv/WhC3imgraJkPdM7koAUpK6eQ=
+		K/U0Xhvua++hNzmla1sVns4AfeE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		A77GKVzr3VSn6KOTAoTJVLt8eBI=
+		V5p/jD2UyLpAxNW8vgUL0Ju9qp4=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Sb7oksp1OV7xxGMcY2ns5dX5AlE=
+		BglW/jCeAb53ZneuAqiJthn78So=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		+h1ED68uSLK2IyDJerlv9dYf2Mo=
+		6oVHmSLfM0DKtsNXkMLd0lk0gSM=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		MWGTWM29bf8nkYzzGcRznXEUHUk=
+		wsk6DJxsaQwqF9vVio+1693TWvk=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		CCFP9J3u3otm5F+bpPMG6lFqiDU=
+		eGGo7BIxTSUKC1X5UWOnbPJ2HO0=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		MWGTWM29bf8nkYzzGcRznXEUHUk=
+		wsk6DJxsaQwqF9vVio+1693TWvk=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LuCk92BTPbO16we4GpcG+bbIz50=
+		F6HLLvK1FTJsYFk7ZH0lkUuiXCM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -182,11 +182,11 @@
 		</data>
 		<key>OTPVerificationViewController.nib</key>
 		<data>
-		lHCvYTVyJwBoImwpvMozYbrYD0k=
+		VnqOVpsUY1Rwjt8Pbq2OC4ZFKQs=
 		</data>
 		<key>PhoneEmailVerificationViewController.nib</key>
 		<data>
-		YsIXXcCrvBXdP5LplAHSu0QjUt0=
+		t9cLgudgLNirBkE/woKuuCxKQN8=
 		</data>
 		<key>PrivateHeaders/MetaMapSentry.h</key>
 		<data>
@@ -410,7 +410,7 @@
 		</data>
 		<key>RequestManager/RequestManager.swift</key>
 		<data>
-		Xz6o7YzbyRM3DzYjKT3FGpYLIf8=
+		KlFUH0cFfLDUJfsKRF+riMEHMI8=
 		</data>
 		<key>SDK.xcconfig</key>
 		<data>
@@ -430,23 +430,23 @@
 		</data>
 		<key>VideoKYCInstructionsViewController.nib</key>
 		<data>
-		SupSBtpGGKd0Buf7RCVyMtbtiRk=
+		JXBBU4yxzZvs/t3VnsuhV4S3IJM=
 		</data>
 		<key>VideoKYCPreviewViewController.nib</key>
 		<data>
-		0VXs+vZKgTHmdclrOKUQh8FK4PY=
+		x9ipu4W/75RnRaxzQpsssxEJC6U=
 		</data>
 		<key>VideoKYCRecordingViewController.nib</key>
 		<data>
-		mTVUepH8PFby8LAKx/Of3gcAiRs=
+		CpMfg9T3mW1CI7XqsQ2TNy6KFhs=
 		</data>
 		<key>VideoKYCTutorialView.nib</key>
 		<data>
-		y4gKB8VFy79vawsKa//aosu91J4=
+		yclp9lZSJ4ekOzM6o+CQ+v6Td00=
 		</data>
 		<key>VoiceLivenessScreen.nib</key>
 		<data>
-		xVNUvEJGa47nsb4JsgbMIvKtdec=
+		oe4Bfm1rp+9cfQwgkVxG1LwHhAw=
 		</data>
 		<key>cssColorNames.json</key>
 		<data>
@@ -549,7 +549,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EEmYv/7SeAkfRHbPryB0Uzz7vpU=
+			AT2x6a2ycQlGiqtoAE/Vpo723bY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -561,14 +561,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mZAVTIPy2x7MlyZVHZyFfreWBxNPpNOyeOrB+W+LXm8=
+			hDu1kUbug6QeVgDP4wDTQIuL5B/4ZUbi9f4JmhJn2MY=
 			</data>
 		</dict>
 		<key>ConfirmPupUpVC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z0ElC4tnVEnm+Gb8OH9CS1DEjwQeVUHSg7OeSdtkp40=
+			65mM485zBEJPG9EfM5DHNo+VpRdYZgCdWVZlP/0131Y=
 			</data>
 		</dict>
 		<key>DeploymentTargets.xcconfig</key>
@@ -582,7 +582,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ti0l8G3IDQIwuLoubBaOnhT/nLGzpgR3UlzJcQlf2DA=
+			cRQcvVbspy+AZE5+DLaHBqUQ8cYScM94m5cukSF6njg=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK.h</key>
@@ -610,112 +610,112 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rvWUhYiHORDs1iv0MvtYhJ8NayzNXI27c7MdMZSDdWw=
+			GbkW6C6bR2Noa8GLS9L8XC1zpVC9y2fLq8mC4BjnZR4=
 			</data>
 		</dict>
 		<key>MFBRDLDocumentVerifyViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RSYERLmvWFheLoK0tFlAhBi0IeGBEPJjX6YCYMaPx8Q=
+			2Y7yQ3GHQ3bXOPV9q3+pOS6rvG6t6CY1oc76D7aQVtw=
 			</data>
 		</dict>
 		<key>MFCancelAlertViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ldyjb5EiBYxgnRrXgn1OaEB3/x4wa2/WL/K1eXq4WbA=
+			ifwrX0dvKWB2ie0Zq4DXmsFucVznbMqsP8PtZ4snBO8=
 			</data>
 		</dict>
 		<key>MFCountriesListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vo3B2rebUEXRjZ70hINb1almmOjN2UzCX+rPnQNrdPE=
+			7AU5Q/SGb3bcIa0SM8J7v0rX1XjDSoya3+qYY1qUvlI=
 			</data>
 		</dict>
 		<key>MFCountryTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Va8KFYIMMPYljrYdTRRZ+8pN7HW8s2niZ77s7cfTDec=
+			m2Ic13nIFUMC6HllR4V3usqTLkhA65bgqICXmd/Gu/w=
 			</data>
 		</dict>
 		<key>MFDocumentListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wvCLLzcEXHwJ2twPBcQdH9bYGhr26NGbA8SPi+AxQD4=
+			Yf3ojpjhHsU+Aawn7MnnabUBddOIWWxxiQD4usIRcQg=
 			</data>
 		</dict>
 		<key>MFDocumentSelectCountryViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uds0i3FO5oJFgwx77yQFbOf8QIp9CYKnwMvKTcp6Cy8=
+			U33QlmxSFRdNZBWBvX1PKvqxNuDc4WG0N0yA5nL2yiE=
 			</data>
 		</dict>
 		<key>MFDocumentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			svYDAAV4ldEzktud+vZGPmXfYeeQQFfjMEOV9/v2jQM=
+			yh01HAEEX9jd83uOA9PuR1QfnXL0GN4Kg0ZKt1XBxDo=
 			</data>
 		</dict>
 		<key>MFDocumentTutorialViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0HylYm3OTOSNfI0dUO+XRoHHzjuESk2BEL8l/dZlg4=
+			EUNQu7Fg5pVSTj7FUQs4KuaegY4xoOFIYHdJPXpaMok=
 			</data>
 		</dict>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBrr4LNBhcJlBpiCONnU2H6L/modBnxWlNEoQ7ckItA=
+			/ir2s/8s7i0mCAQrSh73m71wchTHLhepv9S4hwiGuIo=
 			</data>
 		</dict>
 		<key>MFErrorViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n7z/qLd7c7NfR5r6OF4mRYJjOuUic+KzoQJxfKzPq0c=
+			MPQ1GIBrYfgDHZ1RcTvhhZm2LrXfg0BYRO69TWtENNU=
 			</data>
 		</dict>
 		<key>MFLocationPermissionViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6FLFIIP33azS/GgwHn2DUc2D2KuoiJmnryL0sL2QatA=
+			KZM2TZ+ThoiYE7F1sofO7sqbQDUrPEjhn78IkSo9t4k=
 			</data>
 		</dict>
 		<key>MFSelfieCameraViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vuCwysKnv80OMqiUPDUQy3CuDAlp2Anw+zYUZy7wWHw=
+			jAzlNLhGCpj+M5zOjon9Nji44NvSjOXsI1o9DaldA1k=
 			</data>
 		</dict>
 		<key>MatiBRDLCameraViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kQQdRr8P4m2WIW5zn3BkU07sxfSTJT0iqVIn8ZjVeLs=
+			YweIaGIsNB/1vGzMg8EfyIToyJZrlfQIPv4krjp7ayc=
 			</data>
 		</dict>
 		<key>MatiCPFNumberDocumentViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cwfvk9OYyNB5wsytQikyIBcNcIwUhN5wuOGQQe77lLk=
+			9YxNfQmVry7urWjre958YvIu+Jqcer/xaK624J3xo+o=
 			</data>
 		</dict>
 		<key>MatiCameraViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ojL/jqXi/5fq2P2OTcLiEHGjHl+83x5d8sEyMUx6wOs=
+			RBrakeJPjKKmOR4eJgbuL5HAZVHUNmm2K3k9RZhAN8M=
 			</data>
 		</dict>
 		<key>MatiCountries.plist</key>
@@ -729,126 +729,126 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZeckDO++EWbMOm6ejGdKzI0AnO88enleqwc4+6Ks6is=
+			KDP8GNDmgRuLiALphIBdiCmkhIYmuNkUu+pSgsIBLxU=
 			</data>
 		</dict>
 		<key>MatiMainTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ISe28HqEf4o+Gms9Y2Cu3HYKTnw6ePiZVMsv/NYjS9E=
+			6fxLLU7M75JO5JSETg0fXo8FnpA6bezGk4fVYBpHw5U=
 			</data>
 		</dict>
 		<key>MatiPoRListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dziYlWWDRZgXNnTlWAGjXGk/xbH9XQvKAnkBx5qO3j0=
+			xfxLMhEkUqBKg0+bV37xd+AlEwegS3aVM5u5GP784pw=
 			</data>
 		</dict>
 		<key>MatiPoRTutorialViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/+P+A2N0FSyi6FmhV77p1CPL2QdW7otUJ5Y9u1sVJNE=
+			tN+1WJonutQthySiPTDAgxalS+XNVDN3u6T+S7cvigs=
 			</data>
 		</dict>
 		<key>MatiPoRViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EwjptDTAGf6rsDYVCut8kCNVT9ul8yeb1pl3QPNXQgY=
+			CCm8KDhMxth4UGqIzHkFoZM6f1gSCi38i041XM5FcRs=
 			</data>
 		</dict>
 		<key>MatiPorDocTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			37f9pAn7lgLwq2wuwRdcgjLhASKayBIggSCsNWlutNc=
+			FmIGtDS6CwubF4F56111SetcT0OYpGcV5OH6UCL+e0I=
 			</data>
 		</dict>
 		<key>MatiSmsCountryListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CkzfSoyWO+lIoM7rQlNDUW6LnKNudivvFxL4E1qt1KI=
+			5c3VyP/CkLKVgdTIF6Ar1fwG7DPHcAZieSptUzDLIT4=
 			</data>
 		</dict>
 		<key>MatiSmsCountryTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n9z+LlnpB2Ark71duef0kxVPY0NcSOC+jVjRM6pTmpk=
+			wA0ZgxEKOhBOyppEqfCOOLiJpbZiUUTUxGVZmAUiz1A=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4pyk9GrsFohODDo2AibF0iG0MrSN+ph1twje/EnQoKc=
+			GDgdqojZvJyG0S8k1kB8SERflPn6YhhYLv7CHlsJEDc=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KrTsECvrD42HS9oLPIyf4jQxYvBhSrGJP/RXIl0Kp3Q=
+			aKIIgt70z78EZRBy7D/rs7DcKtE7UtfDIzDHMaSlIeo=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TccupIf3/yzv0niOYbIL6ZQxxJkK8p78S4QNXE21eo8=
+			Hal5AYoZGMfKbvhRsrytWk4ur1GjV+m58r48Uu8OPcc=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KrTsECvrD42HS9oLPIyf4jQxYvBhSrGJP/RXIl0Kp3Q=
+			aKIIgt70z78EZRBy7D/rs7DcKtE7UtfDIzDHMaSlIeo=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pHUgMUeZviBDR2UJKrDeEqIlbQj1Eh1TCO4ODMt7SSo=
+			zw+NdOApJm4s5/vLNokqDJJtHCOcPwB7QrV3oDLfshA=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4pyk9GrsFohODDo2AibF0iG0MrSN+ph1twje/EnQoKc=
+			GDgdqojZvJyG0S8k1kB8SERflPn6YhhYLv7CHlsJEDc=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			chbjONQxLh2IWpDJiZvzmM1CSjyVuStv8FbzubqCoqM=
+			BFTg4MAhFOGX+13ALe3ICR3w0K8/nGNYJOTkKU5FkkY=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			es7KDCpnFMySCNEcDiuc46Gst7/NQtBsPEyF1pQe15o=
+			102guDAqYQX9d5v9F4Q04lcNMchnQYN5Lwf6tjKFzUY=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			chbjONQxLh2IWpDJiZvzmM1CSjyVuStv8FbzubqCoqM=
+			BFTg4MAhFOGX+13ALe3ICR3w0K8/nGNYJOTkKU5FkkY=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			457DjDVxbBvwRyMFiz5n+HLb/kJjOG3Sf5SPUlAXFBY=
+			ulkXTeR6wkt+H6OzJ0PuCTP6RQ5KPlrhr+55SnjO280=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -862,14 +862,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NJWc7eqiLkL0dNTpQsM3+9KdjclpnF6j7tQgCJx89QY=
+			7DD00WZTagj3KSA9y2rnfu//h8Ail6OTXE3WPMq0fiM=
 			</data>
 		</dict>
 		<key>PhoneEmailVerificationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M5RqJFaKq2/KBhPls4gRh50/SESaXjVv0Lg+wd/Q5+s=
+			xEwXKo3eW7nTUDuRzwJeEcsVj85nuE7qCwuhZ5De21s=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MetaMapSentry.h</key>
@@ -1261,7 +1261,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kNQAMFcJIR0whGBacYAG+qrB1PcYEPrjhvhBcHyqcVg=
+			zbODdUQJqjYaEw/9Hkiv3sQCMem9+4O/zmcddOrPu/w=
 			</data>
 		</dict>
 		<key>SDK.xcconfig</key>
@@ -1296,35 +1296,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qmZhpRd2P+jRYc6Czzd8hSBhwQJDVpnXOPkQt6D+tAk=
+			VDhFfW5xFM3TFNc+1X1AZ+NBKIGz/fcMdzDCnu+mY8M=
 			</data>
 		</dict>
 		<key>VideoKYCPreviewViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QbPpVdl4twIdcIIMDFvBM4XVaYabukOL5kzyhojFpLc=
+			zsaxk/qQUsoIW+Am1Xb2DmRaLWbj7gzw/5ifREPe3SI=
 			</data>
 		</dict>
 		<key>VideoKYCRecordingViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IeYUlIx/AlwKeboLb+d7II8NVYLc47muS5PD2l1E8rc=
+			YUIC4Dh+7etYOnuWAwdP06A7UwI4svthK1YZBgryKsc=
 			</data>
 		</dict>
 		<key>VideoKYCTutorialView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u1IspxKjzwpNzZqVOt0FUVM50exjB20BKrdr/2YR6+I=
+			NjKFnVWaxon8art11CvL9I2G9TlfLJWK/kSkgdj0ac4=
 			</data>
 		</dict>
 		<key>VoiceLivenessScreen.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YCF2I4xwCn0+OcGEZeu7Py4Y2nc8kIZaiB5vdmDuZAM=
+			dXjXEHKIsJrBRVwrdDzL98UioO9YtpZVneljsUyjwGQ=
 			</data>
 		</dict>
 		<key>cssColorNames.json</key>
@@ -1440,7 +1440,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f4/NWeuUgtSnoQ+jt1G3htetK2ba7cGXC/9po2Ff6Sk=
+			ibJR/pAuYKOKA20ZO/n5h7eDmwMZs5Bragb2KiPzsxY=
 			</data>
 			<key>optional</key>
 			<true/>
