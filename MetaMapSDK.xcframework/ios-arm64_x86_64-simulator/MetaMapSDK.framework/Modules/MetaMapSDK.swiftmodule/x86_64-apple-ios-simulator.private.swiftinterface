@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
 // swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MetaMapSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFAudio
@@ -12,6 +12,7 @@ import CoreImage
 import CoreLocation
 import CoreMotion
 import CoreTelephony
+import DeveloperToolsSupport
 import Dispatch
 import ExternalAccessory
 import Foundation
@@ -32,6 +33,7 @@ import Vision
 import WebKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 import zlib
 @objc public protocol MetaMapButtonResultDelegate {
   @objc func verificationSuccess(identityId: Swift.String?, verificationID: Swift.String?)
@@ -175,7 +177,7 @@ public protocol ConfigSettable {
   mutating func setConfigs(_ config: MetaMapSDK.SocketIOClientConfiguration)
 }
 @objc public class MetaMapUIConfig : ObjectiveC.NSObject {
-  public init(buttonColor: Swift.String? = nil, buttonTextColor: Swift.String? = nil, fixedLanguage: MetaMapSDK.MFLanguage? = nil, enableLog: Swift.Bool = false)
+  public init(buttonColor: Swift.String? = nil, buttonTextColor: Swift.String? = nil, fixedLanguage: MetaMapSDK.MFLanguage? = nil, enableLog: Swift.Bool = false, regularFont: Swift.String? = nil, boldFont: Swift.String? = nil)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class MetaMapMetadata : ObjectiveC.NSObject {
@@ -185,6 +187,8 @@ public protocol ConfigSettable {
     public func with(matiServer: Swift.String) -> MetaMapSDK.MetaMapMetadata.Builder
     public func with(additionalData: [Swift.String : Any]) -> MetaMapSDK.MetaMapMetadata.Builder
     public func with(enableLog: Swift.Bool) -> MetaMapSDK.MetaMapMetadata.Builder
+    public func with(boldFont: Swift.String) -> MetaMapSDK.MetaMapMetadata.Builder
+    public func with(regularFont: Swift.String) -> MetaMapSDK.MetaMapMetadata.Builder
     public func build() -> MetaMapSDK.MetaMapMetadata
     @objc deinit
   }
@@ -437,6 +441,7 @@ extension MetaMapSDK.SocketEngineWebsocket {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class TransparentNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) public var statusBarStyle: UIKit.UIStatusBarStyle
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
     @objc get
   }

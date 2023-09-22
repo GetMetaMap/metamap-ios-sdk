@@ -91,6 +91,10 @@ class RequestManager {
         apiManager.vpnTryAgain(completion: completion)
     }
     
+    func uploadDynamicInputs(inputData: MatiDynamicInputsRequest, completion: @escaping (ResponseStatus) -> Void)  {
+        apiManager.uploadDynamicInputsRequest(inputData: inputData, completion: completion)
+    }
+    
     func uploadInput(inputData: InputDataProtocol, completion: @escaping (ResponseStatus) -> Void)  {
         apiManager.uploadInputRequest(inputData: inputData, completion: completion)
     }
@@ -125,17 +129,25 @@ class RequestManager {
         socketManager.sendSignalData(body: body)
     }
     
-    func createVerification(flowId: String, completion: @escaping (Bool) -> Void, errorCompletion: ((NSError?) -> Void)? = nil) {
-        apiManager.createVerificationRequest(flowId: flowId) { (data, error) in
-            guard let verification = data, let verificationId = verification.id else {
+    func createVerification(flowId: String,
+                            completion: @escaping (Bool) -> Void,
+                            statusCompletion: @escaping (CreateVerificationStatus?) -> Void)
+    {
+        
+        apiManager.createVerificationRequest(flowId: flowId) { model, error, errorMode in
+            switch errorMode {
+            case .blocked:
+                statusCompletion(.blocked)
+            case .error(_):
                 completion(false)
-                errorCompletion?(error)
-                return
+            case .successed:
+                MetaMapGlobalManager.instance.verificationId = model?.id
+                MetaMapGlobalManager.instance.identity = model?.identity
+                MetaMapGlobalManager.instance.checkCreditCard(inputs:model?.inputs)
+                self.socketManager.openWsConnection(flowId: flowId,
+                                                    method: API.Path.wsVerificationFlow.value,
+                                                    completion: completion)
             }
-            MetaMapGlobalManager.instance.verificationId = verificationId
-            MetaMapGlobalManager.instance.identity = verification.identity
-            MetaMapGlobalManager.instance.checkCreditCard(inputs: verification.inputs)
-            self.socketManager.openWsConnection(flowId: flowId, method: API.Path.wsVerificationFlow.value, completion: completion)
         }
     }
 }
