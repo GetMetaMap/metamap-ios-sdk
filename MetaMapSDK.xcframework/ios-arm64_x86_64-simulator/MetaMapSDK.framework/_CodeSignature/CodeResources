@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Z6+MYBMQK5gZ1bWEEVOKXKDrkaI=
+		BjNJHFgqrznbEyeZ9z/d6+DnvbI=
 		</data>
 		<key>ConfirmPupUpVC.nib</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>MFBRDLDocumentVerifyViewController.nib</key>
 		<data>
-		rCygXt4/UiAl6wNjD0V5J3OKmwg=
+		XOiUoi9O6H3J8v686kiyQ0jg6nc=
 		</data>
 		<key>MFCancelAlertViewController.nib</key>
 		<data>
-		LwNceSxcADCIrF7sLuT9C11ozZk=
+		Cphjr60OnG7iIiZTyhDA2mpPit8=
 		</data>
 		<key>MFCountriesListViewController.nib</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>MFDocumentSelectCountryViewController.nib</key>
 		<data>
-		i7SJTlDh1p36wtFH8XHEGtR+hPU=
+		bXHIRRpwcd/AvA59tP81FzJvbDs=
 		</data>
 		<key>MFDocumentTableViewCell.nib</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<data>
-		xbCFghAu3QGKLu0rgv8qvFinJTY=
+		2+PN9HDOV0SU7oZAjQGkZHGHLuI=
 		</data>
 		<key>MFErrorViewController.nib</key>
 		<data>
@@ -86,11 +86,11 @@
 		</data>
 		<key>MFSelfieCameraViewController.nib</key>
 		<data>
-		P+24N0s/uqqsfw0WllpqchRDh5o=
+		eGPsAfYZb4AovkrhU4O/Q2594d8=
 		</data>
 		<key>MatiBRDLCameraViewController.nib</key>
 		<data>
-		7y9yYcVer4EFEXkSP5k2WdzZglU=
+		Zjso/XdtXr60yrPntYpry7NvJJk=
 		</data>
 		<key>MatiCPFNumberDocumentViewController.nib</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>MatiCameraViewController.nib</key>
 		<data>
-		T9JGlk+DA5iCSvKKV/niL5yGC64=
+		cHP7VWAvlMsF4jOBS+FE0IhFUNU=
 		</data>
 		<key>MatiCountries.plist</key>
 		<data>
@@ -118,11 +118,11 @@
 		</data>
 		<key>MatiPoRTutorialViewController.nib</key>
 		<data>
-		0qnyoLIN1/ArHLeVJDQoYJ6lgkg=
+		Z3ljhI2KTu82Wo1iUjSHYiTaaRQ=
 		</data>
 		<key>MatiPoRViewController.nib</key>
 		<data>
-		y9YkhTAHaoqZzFtPQIPBU/fu5oE=
+		OEzFW9HiTZpM8nmCM6uxFdCjfHg=
 		</data>
 		<key>MatiPorDocTableViewCell.nib</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		6oVHmSLfM0DKtsNXkMLd0lk0gSM=
+		wuxH8hcJU3hsvONKjaKgBrvG6Ko=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -154,11 +154,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BglW/jCeAb53ZneuAqiJthn78So=
+		hehMIP+KDHxpfbFrqXlzJf6PXVA=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		6oVHmSLfM0DKtsNXkMLd0lk0gSM=
+		wuxH8hcJU3hsvONKjaKgBrvG6Ko=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		F6HLLvK1FTJsYFk7ZH0lkUuiXCM=
+		i38lS0Q6y6wfeZ9poUQ6V8iHXBo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -182,11 +182,11 @@
 		</data>
 		<key>OTPVerificationViewController.nib</key>
 		<data>
-		VnqOVpsUY1Rwjt8Pbq2OC4ZFKQs=
+		NuYAyL1sTdw7Wcn2FFsVt4LhVRw=
 		</data>
 		<key>PhoneEmailVerificationViewController.nib</key>
 		<data>
-		t9cLgudgLNirBkE/woKuuCxKQN8=
+		MEgU8hZwKuXhNWpni4oKLPf7sUE=
 		</data>
 		<key>PrivateHeaders/MetaMapSentry.h</key>
 		<data>
@@ -561,7 +561,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hDu1kUbug6QeVgDP4wDTQIuL5B/4ZUbi9f4JmhJn2MY=
+			nQxOURVP69R5N/hnec45daateFbyCBAIfFsVQ87kf1Y=
 			</data>
 		</dict>
 		<key>ConfirmPupUpVC.nib</key>
@@ -617,14 +617,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Y7yQ3GHQ3bXOPV9q3+pOS6rvG6t6CY1oc76D7aQVtw=
+			euU75vlgKZNoTSRZdUCj05nEVJ7VU+XR/tyHe2d9VmQ=
 			</data>
 		</dict>
 		<key>MFCancelAlertViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ifwrX0dvKWB2ie0Zq4DXmsFucVznbMqsP8PtZ4snBO8=
+			9UZJPDdinNsSZFeBU1igWFMbPASYaAPf5xGGBaFho2A=
 			</data>
 		</dict>
 		<key>MFCountriesListViewController.nib</key>
@@ -652,7 +652,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U33QlmxSFRdNZBWBvX1PKvqxNuDc4WG0N0yA5nL2yiE=
+			4Ob7C61UJ5LophzSdwJ3U/lrm71N9V9Gb1iOHUxsAOY=
 			</data>
 		</dict>
 		<key>MFDocumentTableViewCell.nib</key>
@@ -673,7 +673,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ir2s/8s7i0mCAQrSh73m71wchTHLhepv9S4hwiGuIo=
+			DWEu54lkl3aYXHGabZ6Ke8thL109ms+jNFYLKlokwac=
 			</data>
 		</dict>
 		<key>MFErrorViewController.nib</key>
@@ -694,14 +694,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jAzlNLhGCpj+M5zOjon9Nji44NvSjOXsI1o9DaldA1k=
+			S+GU7QQiFGgfZUI7pvyJvvprsEUORRmGKYkzmIy9YTc=
 			</data>
 		</dict>
 		<key>MatiBRDLCameraViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YweIaGIsNB/1vGzMg8EfyIToyJZrlfQIPv4krjp7ayc=
+			h1rYrpPHQ4Vf1dYpJLGMY7fC0p2PkXiJI2PAEv4MuzA=
 			</data>
 		</dict>
 		<key>MatiCPFNumberDocumentViewController.nib</key>
@@ -715,7 +715,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBrakeJPjKKmOR4eJgbuL5HAZVHUNmm2K3k9RZhAN8M=
+			1SrYQq+GKV1fcCUvW8UqvcMwMfgYsdya8lMMUykspkw=
 			</data>
 		</dict>
 		<key>MatiCountries.plist</key>
@@ -750,14 +750,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tN+1WJonutQthySiPTDAgxalS+XNVDN3u6T+S7cvigs=
+			ugaymmw9wj6TfWsW7QLiK76yApaZp+9kxZiOPEcSv54=
 			</data>
 		</dict>
 		<key>MatiPoRViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CCm8KDhMxth4UGqIzHkFoZM6f1gSCi38i041XM5FcRs=
+			DZ6n3DflaVMu04rviUprXqPODszlrTB/LyLFSr/uLwU=
 			</data>
 		</dict>
 		<key>MatiPorDocTableViewCell.nib</key>
@@ -785,7 +785,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GDgdqojZvJyG0S8k1kB8SERflPn6YhhYLv7CHlsJEDc=
+			g5yGycG79CeVbd4ia+59tJOe+l204MRlJCqSNAwvIUE=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -813,14 +813,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zw+NdOApJm4s5/vLNokqDJJtHCOcPwB7QrV3oDLfshA=
+			lVGvNr/txg/bPCIGa9BaGYCevzJonipFHdEeM3c5khk=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GDgdqojZvJyG0S8k1kB8SERflPn6YhhYLv7CHlsJEDc=
+			g5yGycG79CeVbd4ia+59tJOe+l204MRlJCqSNAwvIUE=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -848,7 +848,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ulkXTeR6wkt+H6OzJ0PuCTP6RQ5KPlrhr+55SnjO280=
+			1vrkMFjB7j9L39qSv9L8YFfz+zcBZYskECJr46KjK04=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -862,14 +862,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7DD00WZTagj3KSA9y2rnfu//h8Ail6OTXE3WPMq0fiM=
+			cnlIskI3ore82hgly0Z9TKYFq2W9iltVWF5loUKaMes=
 			</data>
 		</dict>
 		<key>PhoneEmailVerificationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xEwXKo3eW7nTUDuRzwJeEcsVj85nuE7qCwuhZ5De21s=
+			hCRnNccVtOvNOar12Ef+Lqa7LoI6cXvXJrYvrer2wdE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/MetaMapSentry.h</key>
