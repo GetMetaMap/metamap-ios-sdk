@@ -228,24 +228,38 @@ _**IMPORTANT**_ **`Info.plist`**
 
 ## Metadata is an additional optional parameter:
 
-Set the Language:
+### Set the Language: 
+By default the SDK language is set to "en" but it is editable to the language from the list: "es", "fr", "pt", "ru", "tr", "de", "it", "pl", "th".
 
 ```bash
-metadata: ["fixedLanguage": "es"]
+metadata: ["fixedLanguage": "value"]
 ```
-Set the Button Color:
-
+### Set the Button Color:
+By default main button color is white but it is editable by using hex Color format "hexColor".
 ```bash
-metadata: ["buttonColor": "hexColor"]
+metadata: ["buttonColor": "value"]
    ```
 
-Set the Title color of the button:
+### Set the Title color of the button:
+By default main button title color is black but it is editable by using hex Color format "hexColor".
 
 ```bash
-metadata: ["buttonTextColor": "hexColor"]
+metadata: ["buttonTextColor": "value"]
    ```
 
-Set identity Id as parameter for re-verification:
+### Set identity Id as parameter for re-verification:
 ```bash
 metadata: ["identityId": "value"]
    ```
+
+### Set encryption Configuration Id as parameter for encrypting data.
+```bash
+metaData: ["encryptionConfigurationId": "value"]
+   ```
+
+### Set customization fonts as parameter.
+to add custom fonts, the project needs to have these font files, otherwise SDK will use default fonts: 
+```bash
+metadata: ["regularFont": "REGULAR_FONT_NAME.ttf", "boldFont":  "BOLD_FONT_NAME.ttf"]
+   ```
+
