@@ -21741,6 +21741,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -38745,8 +38755,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "MetaMapSDK",
         "declAttributes": [
@@ -65554,49 +65564,49 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/MetaMapRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1313,
+      "offset": 1335,
       "length": 53,
       "value": "\"httpResponse.statusCode: \""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/MetaMapRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1365,
+      "offset": 1387,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/MetaMapRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1404,
+      "offset": 1426,
       "length": 61,
       "value": "\"error?.localizedDescription: \""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/MetaMapRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1464,
+      "offset": 1486,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/MetaMapRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1565,
+      "offset": 1586,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/MetaMapRequest.swift",
       "kind": "StringLiteral",
-      "offset": 1708,
+      "offset": 1730,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/MetaMapRequest.swift",
       "kind": "IntegerLiteral",
-      "offset": 2464,
+      "offset": 2486,
       "length": 3,
       "value": "100"
     },
@@ -66155,260 +66165,274 @@
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11525,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 12274,
+      "offset": 12015,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12256,
       "length": 14,
       "value": "\"input.locked\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 12475,
+      "offset": 12457,
       "length": 30,
       "value": "\"documentPhoto.unexpectedData\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 13945,
+      "offset": 13927,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 14241,
+      "offset": 14223,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 14605,
+      "offset": 14587,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15001,
+      "offset": 14983,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15122,
+      "offset": 15104,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 15409,
+      "offset": 15391,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16373,
+      "offset": 16355,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16377,
+      "offset": 16359,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16553,
+      "offset": 16535,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 17067,
+      "offset": 17049,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 17083,
+      "offset": 17065,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18819,
+      "offset": 18801,
       "length": 55,
       "value": "\"phoneNumberWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18923,
+      "offset": 18905,
       "length": 56,
       "value": "\"emailAddressWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19017,
+      "offset": 18999,
       "length": 30,
       "value": "\"verification.input.processed\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19086,
+      "offset": 19068,
       "length": 50,
       "value": "\"emailAddressWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19175,
+      "offset": 19157,
       "length": 49,
       "value": "\"phoneNumberWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19261,
+      "offset": 19243,
       "length": 47,
       "value": "\"emailAddressWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19345,
+      "offset": 19327,
       "length": 46,
       "value": "\"phoneNumberWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19419,
+      "offset": 19401,
       "length": 28,
       "value": "\"connectionData.vpnDetected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19477,
+      "offset": 19459,
       "length": 27,
       "value": "\"connectionData.restricted\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18819,
+      "offset": 18801,
       "length": 55,
       "value": "\"phoneNumberWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18923,
+      "offset": 18905,
       "length": 56,
       "value": "\"emailAddressWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19017,
+      "offset": 18999,
       "length": 30,
       "value": "\"verification.input.processed\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19086,
+      "offset": 19068,
       "length": 50,
       "value": "\"emailAddressWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19175,
+      "offset": 19157,
       "length": 49,
       "value": "\"phoneNumberWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19261,
+      "offset": 19243,
       "length": 47,
       "value": "\"emailAddressWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19345,
+      "offset": 19327,
       "length": 46,
       "value": "\"phoneNumberWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19419,
+      "offset": 19401,
       "length": 28,
       "value": "\"connectionData.vpnDetected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19477,
+      "offset": 19459,
       "length": 27,
       "value": "\"connectionData.restricted\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 20473,
+      "offset": 20455,
       "length": 9,
       "value": "\"sdkType\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 20556,
+      "offset": 20538,
       "length": 16,
       "value": "\"iOS_\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 20571,
+      "offset": 20553,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "Dictionary",
-      "offset": 20678,
+      "offset": 20660,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "Dictionary",
-      "offset": 20739,
+      "offset": 20721,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 20971,
+      "offset": 20953,
       "length": 2,
       "value": "\"\""
     },
@@ -69208,833 +69232,1001 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1929,
+      "offset": 2055,
       "length": 13,
       "value": "\"serverError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1985,
+      "offset": 2111,
       "length": 22,
       "value": "\"http.request.timeout\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2251,
+      "offset": 2377,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2468,
+      "offset": 2594,
       "length": 23,
       "value": "\"MFErrorViewController\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2968,
+      "offset": 3094,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3111,
+      "offset": 3237,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3148,
+      "offset": 3274,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3347,
+      "offset": 3373,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3416,
+      "offset": 3501,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3570,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3488,
+      "offset": 3642,
       "length": 13,
       "value": "\"label_retry\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4082,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4214,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4645,
+      "offset": 5069,
       "length": 13,
       "value": "\"label_close\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5492,
+      "offset": 5916,
       "length": 3,
       "value": "400"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5498,
+      "offset": 5922,
       "length": 3,
       "value": "599"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5596,
+      "offset": 6020,
       "length": 13,
       "value": "\"label_close\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9533,
+      "offset": 10187,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10307,
+      "offset": 10961,
       "length": 12,
       "value": "\"noInternet\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10347,
+      "offset": 11001,
       "length": 36,
       "value": "\"label_no_internet_connection_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10430,
+      "offset": 11084,
       "length": 21,
       "value": "\"check_your_internet\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10607,
+      "offset": 11261,
       "length": 27,
       "value": "\"countryMismatchErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10689,
+      "offset": 11343,
       "length": 52,
       "value": "\"metamap_label_document_countryMismatch_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10788,
+      "offset": 11442,
       "length": 58,
       "value": "\"metamap_label_document_countryMismatch_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10999,
+      "offset": 11653,
       "length": 24,
       "value": "\"typeMismatchErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11051,
+      "offset": 11705,
       "length": 41,
       "value": "\"label_document_typeMismatch_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11139,
+      "offset": 11793,
       "length": 47,
       "value": "\"label_document_typeMismatch_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11337,
+      "offset": 11991,
       "length": 16,
       "value": "\"duplicateError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11381,
+      "offset": 12035,
       "length": 58,
       "value": "\"metamap_error_heading_duplicate_document_upload_detected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11486,
+      "offset": 12140,
       "length": 48,
       "value": "\"metamap_document_error_message_duplicate_input\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11690,
+      "offset": 12344,
       "length": 27,
       "value": "\"croppedDocumentErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11745,
+      "offset": 12399,
       "length": 42,
       "value": "\"label_document_image_cropped_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11834,
+      "offset": 12488,
       "length": 48,
       "value": "\"label_document_image_cropped_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12030,
+      "offset": 12684,
       "length": 19,
       "value": "\"badTextErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12077,
+      "offset": 12731,
       "length": 27,
       "value": "\"metamap_document_well_lit\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12151,
+      "offset": 12805,
       "length": 43,
       "value": "\"metamap_label_notext_descr_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12343,
+      "offset": 12997,
       "length": 25,
       "value": "\"multipleFacesErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12396,
+      "offset": 13050,
       "length": 33,
       "value": "\"metamap_multiple_faces_detected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12476,
+      "offset": 13130,
       "length": 35,
       "value": "\"metamap_multiple_face_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12655,
+      "offset": 13309,
       "length": 27,
       "value": "\"croppedDocumentErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12710,
+      "offset": 13364,
       "length": 44,
       "value": "\"metamap_label_document_badText_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12801,
+      "offset": 13455,
       "length": 38,
       "value": "\"label_document_mrz_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12991,
+      "offset": 13645,
       "length": 15,
       "value": "\"physicalError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13034,
+      "offset": 13688,
       "length": 28,
       "value": "\"label_physical_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13109,
+      "offset": 13763,
       "length": 34,
       "value": "\"label_physical_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13296,
+      "offset": 13950,
       "length": 19,
       "value": "\"similarPhotoError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13343,
+      "offset": 13997,
       "length": 38,
       "value": "\"baseErrorScreen_fileMatchError_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13428,
+      "offset": 14082,
       "length": 44,
       "value": "\"baseErrorScreen_fileMatchError_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13621,
+      "offset": 14275,
       "length": 25,
       "value": "\"occlusion_document_icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13674,
+      "offset": 14328,
       "length": 43,
       "value": "\"metamap_error_heading_document_obstructed\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13764,
+      "offset": 14418,
       "length": 43,
       "value": "\"metamap_error_message_document_obstructed\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 13956,
+      "offset": 14610,
       "length": 23,
       "value": "\"noFaceInDocErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14007,
+      "offset": 14661,
       "length": 51,
       "value": "\"metamap_reuse_document_sidemismatch_error_heading\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14105,
+      "offset": 14759,
       "length": 51,
       "value": "\"metamap_reuse_document_sidemismatch_error_message\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14307,
+      "offset": 14961,
       "length": 26,
       "value": "\"documentNoFaceErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14361,
+      "offset": 15015,
       "length": 30,
       "value": "\"label_nodocument_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14438,
+      "offset": 15092,
       "length": 36,
       "value": "\"label_nodocument_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14634,
+      "offset": 15288,
       "length": 15,
       "value": "\"errorNoFaceVL\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14677,
+      "offset": 15331,
       "length": 23,
       "value": "\"label_error_vl_noface\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14747,
+      "offset": 15401,
       "length": 35,
       "value": "\"label_error_vl_noface_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14899,
+      "offset": 15553,
       "length": 28,
       "value": "\"label_something_went_wrong\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14974,
+      "offset": 15628,
       "length": 21,
       "value": "\"check_your_internet\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15067,
+      "offset": 15721,
       "length": 16,
       "value": "\"errorTimeoutVL\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15221,
+      "offset": 15875,
       "length": 25,
       "value": "\"noFaceSelfieIErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15274,
+      "offset": 15928,
       "length": 29,
       "value": "\"label_noface_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15350,
+      "offset": 16004,
       "length": 35,
       "value": "\"label_noface_descr_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15536,
+      "offset": 16190,
       "length": 27,
       "value": "\"croppedDocumentErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15591,
+      "offset": 16245,
       "length": 29,
       "value": "\"label_notext_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15667,
+      "offset": 16321,
       "length": 35,
       "value": "\"label_notext_descr_document_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15848,
+      "offset": 16502,
       "length": 22,
       "value": "\"blurryTextErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15898,
+      "offset": 16552,
       "length": 47,
       "value": "\"metamap_label_document_blurryText_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15992,
+      "offset": 16646,
       "length": 53,
       "value": "\"metamap_label_document_blurryText_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16210,
+      "offset": 16864,
       "length": 31,
       "value": "\"metamap_cpf_error_label_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16288,
+      "offset": 16942,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16425,
+      "offset": 17079,
       "length": 24,
       "value": "\"maskDetectedErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16477,
+      "offset": 17131,
       "length": 37,
       "value": "\"error_title_biometric_mask_detected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16562,
+      "offset": 17216,
       "length": 36,
       "value": "\"error_desc_biometric_mask_detected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16753,
+      "offset": 17407,
       "length": 25,
       "value": "\"noFaceSelfieIErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16806,
+      "offset": 17460,
       "length": 32,
       "value": "\"face_not_detected_selfie_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16886,
+      "offset": 17540,
       "length": 38,
       "value": "\"face_not_detected_selfie_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17079,
+      "offset": 17733,
       "length": 26,
       "value": "\"documentNoFaceErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17133,
+      "offset": 17787,
       "length": 35,
       "value": "\"label_document_noFace_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17215,
+      "offset": 17869,
       "length": 49,
       "value": "\"metamap_label_document_noFace_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17419,
+      "offset": 18073,
       "length": 25,
       "value": "\"label_large_image_error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17491,
+      "offset": 18145,
       "length": 33,
       "value": "\"label_select_image_smaller_then\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17596,
+      "offset": 18250,
       "length": 16,
       "value": "\"imageSizeError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17785,
+      "offset": 18439,
       "length": 16,
       "value": "\"imageSizeError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17829,
+      "offset": 18483,
       "length": 37,
       "value": "\"metamap_error_too_small_image_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17913,
+      "offset": 18567,
       "length": 32,
       "value": "\"label_select_image_larger_then\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18070,
+      "offset": 18724,
       "length": 62,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18073,
+      "offset": 18727,
       "length": 38,
       "value": "\"metamap_something_wrong_socket_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18126,
+      "offset": 18780,
       "length": 1,
       "value": "\"(404)\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18165,
+      "offset": 18819,
       "length": 40,
       "value": "\"metamap_label_server_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18277,
+      "offset": 18931,
       "length": 13,
       "value": "\"serverError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18440,
+      "offset": 19024,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19129,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19183,
+      "length": 13,
+      "value": "\"label_close\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19237,
+      "length": 47,
+      "value": "\"metamap_error_message_sdk_cooldown_user_block\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19331,
+      "length": 47,
+      "value": "\"metamap_error_heading_sdk_cooldown_user_block\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19450,
+      "length": 25,
+      "value": "\"block_verification_icon\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19585,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19637,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19681,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19710,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19718,
+      "length": 5,
+      "value": "\" hours  \""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19797,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19826,
+      "length": 22,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19837,
+      "length": 7,
+      "value": "\" minutes  \""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19918,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19947,
+      "length": 20,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 19958,
+      "length": 7,
+      "value": "\" seconds\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 20001,
+      "length": 13,
+      "value": "\"label_close\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 20070,
+      "length": 58,
+      "value": "\"metamap_error_message_sdk_cooldown_user_block_custom_ios\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 20195,
+      "length": 54,
+      "value": "\"metamap_error_heading_sdk_cooldown_user_block_custom\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 20321,
+      "length": 32,
+      "value": "\"custom_block_verification_icon\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 20503,
       "length": 65,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18449,
+      "offset": 20512,
       "length": 1,
       "value": "\") \""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18453,
+      "offset": 20516,
       "length": 36,
       "value": "\"metamap_label_something_went_wrong\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18504,
+      "offset": 20567,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18553,
+      "offset": 20616,
       "length": 36,
       "value": "\"metamap_label_something_went_wrong\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18646,
+      "offset": 20709,
       "length": 26,
       "value": "\"metamap_please_try_again\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18744,
+      "offset": 20807,
       "length": 14,
       "value": "\"genericError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18907,
+      "offset": 20970,
       "length": 63,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18916,
+      "offset": 20979,
       "length": 1,
       "value": "\") \""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18920,
+      "offset": 20983,
       "length": 34,
       "value": "\"metamap_label_server_error_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18969,
+      "offset": 21032,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19007,
+      "offset": 21070,
       "length": 40,
       "value": "\"metamap_label_server_error_description\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19109,
+      "offset": 21172,
       "length": 38,
       "value": "\"metamap_something_wrong_socket_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19198,
+      "offset": 21261,
       "length": 40,
       "value": "\"metamap_something_wrong_socket_message\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19320,
+      "offset": 21383,
       "length": 13,
       "value": "\"serverError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19533,
+      "offset": 21596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19636,
+      "offset": 21699,
       "length": 17,
       "value": "\"label_back_side\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19791,
+      "offset": 21854,
       "length": 18,
       "value": "\"label_front_side\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20093,
+      "offset": 22156,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20159,
+      "offset": 22222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20829,
+      "offset": 22892,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21020,
+      "offset": 23083,
       "length": 3,
       "value": "-40"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21098,
+      "offset": 23161,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21610,
+      "offset": 23673,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21680,
+      "offset": 23743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22505,
+      "offset": 24736,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22771,
+      "offset": 25020,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/ErrorScreens\/ErrorScreen\/MFErrorViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22869,
+      "offset": 25118,
       "length": 4,
       "value": "true"
     },
@@ -72715,28 +72907,28 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 1930,
+      "offset": 1904,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 1944,
+      "offset": 1918,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2012,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 2117,
+      "offset": 2091,
       "length": 5,
       "value": "\"otf\""
     },
@@ -74321,6 +74513,118 @@
       "offset": 5233,
       "length": 16,
       "value": "\"MetaMapSDK.SocketRawAckView\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 499,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 415,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 445,
+      "length": 6,
+      "value": "\"code\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 472,
+      "length": 6,
+      "value": "\"type\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 499,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 11,
+      "value": "\"expiredAt\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 753,
+      "length": 11,
+      "value": "\"createdAt\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 684,
+      "length": 6,
+      "value": "\"mode\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 11,
+      "value": "\"expiredAt\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MatiNetworkModels\/VerificationBlockData.swift",
+      "kind": "StringLiteral",
+      "offset": 753,
+      "length": 11,
+      "value": "\"createdAt\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/SwiftSVG\/Iterators\/PathDLexer.swift",
@@ -77594,140 +77898,154 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 917,
+      "offset": 961,
       "length": 3,
       "value": "402"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 953,
+      "offset": 997,
       "length": 38,
       "value": "\"No sufficient funds on your account.\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1037,
+      "offset": 1081,
       "length": 3,
       "value": "403"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 1073,
+      "offset": 1117,
       "length": 72,
       "value": "\"Incorrect FLOW_ID or CLIENT_ID, please check if they are not mixed up.\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 1644,
+      "offset": 1688,
       "length": 8,
       "value": "\"flowId\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 1682,
+      "offset": 1726,
       "length": 10,
       "value": "\"metadata\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "Dictionary",
-      "offset": 1740,
+      "offset": 1784,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 1870,
+      "offset": 1914,
       "length": 12,
       "value": "\"identityId\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 1903,
+      "offset": 1947,
       "length": 12,
       "value": "\"identityId\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2082,
       "length": 17,
       "value": "\"configurationId\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 2212,
+      "offset": 2256,
       "length": 27,
       "value": "\"encryptionConfigurationId\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "Array",
-      "offset": 2682,
+      "offset": 2726,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 3333,
+      "offset": 3377,
       "length": 15,
       "value": "\"PARSING_ISSUE\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3356,
+      "offset": 3400,
       "length": 3,
       "value": "999"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 3600,
+      "offset": 3665,
       "length": 3,
       "value": "409"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 4066,
+      "offset": 3832,
+      "length": 7,
+      "value": "\"block\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3989,
+      "length": 14,
+      "value": "\"block-custom\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4539,
       "length": 33,
       "value": "\"Boundary-\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 4098,
+      "offset": 4571,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 5520,
+      "offset": 5993,
       "length": 11,
       "value": "\"inputType\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 5533,
+      "offset": 6006,
       "length": 21,
       "value": "\"additional-consents\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
       "kind": "StringLiteral",
-      "offset": 5580,
+      "offset": 6053,
       "length": 6,
       "value": "\"data\""
     },
@@ -86661,7 +86979,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.16.0\""
+      "value": "\"3.17.0\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
@@ -94086,590 +94404,597 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 1538,
+      "offset": 1533,
       "length": 3,
       "value": "\"-\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 1549,
+      "offset": 1544,
       "length": 3,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 1588,
+      "offset": 1583,
       "length": 3,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 1599,
+      "offset": 1594,
       "length": 3,
       "value": "\"\/\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "IntegerLiteral",
-      "offset": 1709,
+      "offset": 1704,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "FloatLiteral",
-      "offset": 1727,
+      "offset": 1722,
       "length": 3,
       "value": "4.0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "IntegerLiteral",
-      "offset": 1807,
+      "offset": 1802,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 1833,
+      "offset": 1828,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 1883,
+      "offset": 1878,
       "length": 3,
       "value": "\"=\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "IntegerLiteral",
-      "offset": 1900,
+      "offset": 1895,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2216,
+      "offset": 2211,
       "length": 9,
       "value": "\"iPod5,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2266,
+      "offset": 2261,
       "length": 29,
       "value": "\"iPod touch (5th generation)\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2309,
+      "offset": 2304,
       "length": 9,
       "value": "\"iPod7,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2359,
+      "offset": 2354,
       "length": 29,
       "value": "\"iPod touch (6th generation)\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2402,
+      "offset": 2397,
       "length": 9,
       "value": "\"iPod9,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2452,
+      "offset": 2447,
       "length": 29,
       "value": "\"iPod touch (7th generation)\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2495,
+      "offset": 2490,
       "length": 11,
       "value": "\"iPhone3,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2508,
+      "offset": 2503,
       "length": 11,
       "value": "\"iPhone3,2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2521,
+      "offset": 2516,
       "length": 11,
       "value": "\"iPhone3,3\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2545,
+      "offset": 2540,
       "length": 10,
       "value": "\"iPhone 4\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2569,
+      "offset": 2564,
       "length": 11,
       "value": "\"iPhone4,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2619,
+      "offset": 2614,
       "length": 11,
       "value": "\"iPhone 4s\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2644,
+      "offset": 2639,
       "length": 11,
       "value": "\"iPhone5,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2657,
+      "offset": 2652,
       "length": 11,
       "value": "\"iPhone5,2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2694,
+      "offset": 2689,
       "length": 10,
       "value": "\"iPhone 5\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2718,
+      "offset": 2713,
       "length": 11,
       "value": "\"iPhone5,3\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2731,
+      "offset": 2726,
       "length": 11,
       "value": "\"iPhone5,4\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2768,
+      "offset": 2763,
       "length": 11,
       "value": "\"iPhone 5c\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2793,
+      "offset": 2788,
       "length": 11,
       "value": "\"iPhone6,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2806,
+      "offset": 2801,
       "length": 11,
       "value": "\"iPhone6,2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2843,
+      "offset": 2838,
       "length": 11,
       "value": "\"iPhone 5s\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2868,
+      "offset": 2863,
       "length": 11,
       "value": "\"iPhone7,2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2918,
+      "offset": 2913,
       "length": 10,
       "value": "\"iPhone 6\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2942,
+      "offset": 2937,
       "length": 11,
       "value": "\"iPhone7,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 2992,
+      "offset": 2987,
       "length": 15,
       "value": "\"iPhone 6 Plus\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3021,
+      "offset": 3016,
       "length": 11,
       "value": "\"iPhone8,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3071,
+      "offset": 3066,
       "length": 11,
       "value": "\"iPhone 6s\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3096,
+      "offset": 3091,
       "length": 11,
       "value": "\"iPhone8,2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3146,
+      "offset": 3141,
       "length": 16,
       "value": "\"iPhone 6s Plus\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3176,
+      "offset": 3171,
       "length": 11,
       "value": "\"iPhone9,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3189,
+      "offset": 3184,
       "length": 11,
       "value": "\"iPhone9,3\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3226,
+      "offset": 3221,
       "length": 10,
       "value": "\"iPhone 7\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3250,
+      "offset": 3245,
       "length": 11,
       "value": "\"iPhone9,2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3263,
+      "offset": 3258,
       "length": 11,
       "value": "\"iPhone9,4\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3300,
+      "offset": 3295,
       "length": 15,
       "value": "\"iPhone 7 Plus\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3329,
+      "offset": 3324,
       "length": 11,
       "value": "\"iPhone8,4\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3379,
+      "offset": 3374,
       "length": 11,
       "value": "\"iPhone SE\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3404,
+      "offset": 3399,
       "length": 12,
       "value": "\"iPhone10,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3418,
+      "offset": 3413,
       "length": 12,
       "value": "\"iPhone10,4\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3454,
+      "offset": 3449,
       "length": 10,
       "value": "\"iPhone 8\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3478,
+      "offset": 3473,
       "length": 12,
       "value": "\"iPhone10,2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3492,
+      "offset": 3487,
       "length": 12,
       "value": "\"iPhone10,5\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3528,
+      "offset": 3523,
       "length": 15,
       "value": "\"iPhone 8 Plus\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3557,
+      "offset": 3552,
       "length": 12,
       "value": "\"iPhone10,3\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3571,
+      "offset": 3566,
       "length": 12,
       "value": "\"iPhone10,6\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3607,
+      "offset": 3602,
       "length": 10,
       "value": "\"iPhone X\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3631,
+      "offset": 3626,
       "length": 12,
       "value": "\"iPhone11,2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3681,
+      "offset": 3676,
       "length": 11,
       "value": "\"iPhone XS\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3706,
+      "offset": 3701,
       "length": 12,
       "value": "\"iPhone11,4\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3720,
+      "offset": 3715,
       "length": 12,
       "value": "\"iPhone11,6\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3756,
+      "offset": 3751,
       "length": 15,
       "value": "\"iPhone XS Max\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3785,
+      "offset": 3780,
       "length": 12,
       "value": "\"iPhone11,8\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3835,
+      "offset": 3830,
       "length": 11,
       "value": "\"iPhone XR\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3860,
+      "offset": 3855,
       "length": 12,
       "value": "\"iPhone12,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3910,
+      "offset": 3905,
       "length": 11,
       "value": "\"iPhone 11\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3935,
+      "offset": 3930,
       "length": 12,
       "value": "\"iPhone12,3\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 3985,
+      "offset": 3980,
       "length": 15,
       "value": "\"iPhone 11 Pro\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4014,
+      "offset": 4009,
       "length": 12,
       "value": "\"iPhone12,5\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4064,
+      "offset": 4059,
       "length": 19,
       "value": "\"iPhone 11 Pro Max\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4097,
+      "offset": 4092,
       "length": 12,
       "value": "\"iPhone12,8\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4119,
+      "offset": 4114,
       "length": 19,
       "value": "\"iPhone SE 2nd Gen\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4152,
+      "offset": 4147,
       "length": 12,
       "value": "\"iPhone13,1\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4174,
+      "offset": 4169,
       "length": 16,
       "value": "\"iPhone 12 Mini\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4204,
+      "offset": 4199,
       "length": 12,
       "value": "\"iPhone13,2\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4226,
+      "offset": 4221,
       "length": 11,
       "value": "\"iPhone 12\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4251,
+      "offset": 4246,
       "length": 12,
       "value": "\"iPhone13,3\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4273,
+      "offset": 4268,
       "length": 15,
       "value": "\"iPhone 12 Pro\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4302,
+      "offset": 4297,
       "length": 12,
       "value": "\"iPhone13,4\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 4324,
+      "offset": 4319,
       "length": 19,
       "value": "\"iPhone 12 Pro Max\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "Array",
-      "offset": 4699,
+      "offset": 4694,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "IntegerLiteral",
-      "offset": 4923,
+      "offset": 4918,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "IntegerLiteral",
-      "offset": 5075,
+      "offset": 5070,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "IntegerLiteral",
-      "offset": 5336,
+      "offset": 5331,
       "length": 6,
       "value": "127397"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
       "kind": "StringLiteral",
-      "offset": 6045,
+      "offset": 6040,
       "length": 12,
       "value": "\"yyyy-MM-dd\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 6233,
+      "length": 32,
+      "value": "\"yyyy-MM-dd'T'HH:mm:ss.SSSZZZZZ\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/SwiftSVG\/Elements\/SVGEllipse.swift",
@@ -97642,49 +97967,63 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/LoadingScreen\/MMLoadingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3426,
+      "offset": 3461,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/LoadingScreen\/MMLoadingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3494,
+      "offset": 3574,
       "length": 3,
       "value": "404"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/LoadingScreen\/MMLoadingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3703,
+      "offset": 3783,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/LoadingScreen\/MMLoadingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3766,
+      "offset": 3846,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/LoadingScreen\/MMLoadingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3986,
+      "offset": 4043,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/LoadingScreen\/MMLoadingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4333,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/LoadingScreen\/MMLoadingViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4645,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/LoadingScreen\/MMLoadingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4084,
+      "offset": 4743,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/LoadingScreen\/MMLoadingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4558,
+      "offset": 5217,
       "length": 4,
       "value": "true"
     },
@@ -99546,7 +99885,7 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/RequestManager\/RequestManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5576,
+      "offset": 5688,
       "length": 5,
       "value": "false"
     },
@@ -101815,13 +102154,13 @@
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFLocationPermissionViewModel.swift",
       "kind": "StringLiteral",
       "offset": 2194,
-      "length": 23,
-      "value": "\"allow_locaiton_access\""
+      "length": 24,
+      "value": "\"metamap_label_continue\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/UI\/Permissions\/MFLocationPermissionViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2285,
       "length": 13,
       "value": "\"label_retry\""
     },
@@ -103410,49 +103749,49 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "StringLiteral",
-      "offset": 14311,
+      "offset": 14331,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "StringLiteral",
-      "offset": 14425,
+      "offset": 14445,
       "length": 17,
       "value": "\"can-use-reusage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "StringLiteral",
-      "offset": 14452,
+      "offset": 14472,
       "length": 30,
       "value": "\"can-use-verification-reusage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "Array",
-      "offset": 14489,
+      "offset": 14509,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14582,
+      "offset": 14602,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "Array",
-      "offset": 14708,
+      "offset": 14728,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14811,
+      "offset": 14831,
       "length": 5,
       "value": "false"
     },
@@ -107400,854 +107739,868 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 4899,
+      "offset": 4908,
+      "length": 25,
+      "value": "\"block_verification_icon\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 5078,
       "length": 22,
       "value": "\"blurryTextErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5077,
+      "offset": 5256,
       "length": 25,
       "value": "\"brazilianDrivingLicense\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5270,
+      "offset": 5449,
       "length": 31,
       "value": "\"brazilianDrivingLicenseCamera\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5477,
+      "offset": 5656,
       "length": 35,
       "value": "\"brazilianDrivingLicenseCameraBack\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5690,
+      "offset": 5869,
       "length": 36,
       "value": "\"brazilianDrivingLicenseCameraFront\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5854,
+      "offset": 6033,
       "length": 11,
       "value": "\"camerIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 5987,
+      "offset": 6166,
       "length": 8,
       "value": "\"camera\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6125,
+      "offset": 6304,
       "length": 12,
       "value": "\"cameraIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6276,
+      "offset": 6455,
       "length": 17,
       "value": "\"captureIconV0.9\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6435,
+      "offset": 6614,
       "length": 18,
       "value": "\"changeCameraIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6601,
+      "offset": 6780,
       "length": 22,
       "value": "\"change_language_icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6743,
+      "offset": 6922,
       "length": 7,
       "value": "\"check\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 6886,
+      "offset": 7065,
       "length": 16,
       "value": "\"check_box_icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7051,
+      "offset": 7230,
       "length": 24,
       "value": "\"chosePhotoGalleryImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7203,
+      "offset": 7382,
       "length": 11,
       "value": "\"clearIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7334,
+      "offset": 7513,
       "length": 7,
       "value": "\"close\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7473,
+      "offset": 7652,
       "length": 13,
       "value": "\"closeButton\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7628,
+      "offset": 7807,
       "length": 19,
       "value": "\"close_button_icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7802,
+      "offset": 7981,
       "length": 27,
       "value": "\"countryMismatchErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 7984,
+      "offset": 8163,
       "length": 27,
       "value": "\"croppedDocumentErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8157,
+      "offset": 8336,
       "length": 20,
       "value": "\"customDocumentIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8299,
+      "offset": 8523,
+      "length": 32,
+      "value": "\"custom_block_verification_icon\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 8677,
       "length": 8,
       "value": "\"deIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8463,
+      "offset": 8841,
       "length": 26,
       "value": "\"deSelected_language_icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8645,
+      "offset": 9023,
       "length": 25,
       "value": "\"documentDriveBackCamera\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8818,
+      "offset": 9196,
       "length": 21,
       "value": "\"documentDriveCamera\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 8977,
+      "offset": 9355,
       "length": 16,
       "value": "\"documentDriver\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9139,
+      "offset": 9517,
       "length": 20,
       "value": "\"documentDriverBack\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9309,
+      "offset": 9687,
       "length": 22,
       "value": "\"documentNationalBack\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9493,
+      "offset": 9871,
       "length": 28,
       "value": "\"documentNationalBackCamera\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9674,
+      "offset": 10052,
       "length": 26,
       "value": "\"documentNoFaceErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 9842,
+      "offset": 10220,
       "length": 18,
       "value": "\"documentPassport\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10014,
+      "offset": 10392,
       "length": 24,
       "value": "\"documentPassportCamera\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10190,
+      "offset": 10568,
       "length": 23,
       "value": "\"documentPassportSpain\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10361,
+      "offset": 10739,
       "length": 21,
       "value": "\"documentProofCamera\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10522,
+      "offset": 10900,
       "length": 17,
       "value": "\"documentStepImg\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10665,
+      "offset": 11043,
       "length": 10,
       "value": "\"doneIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10813,
+      "offset": 11191,
       "length": 16,
       "value": "\"duplicateError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 10959,
+      "offset": 11337,
       "length": 12,
       "value": "\"emailCheck\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11093,
+      "offset": 11471,
       "length": 8,
       "value": "\"enIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11229,
+      "offset": 11607,
       "length": 11,
       "value": "\"errorIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11376,
+      "offset": 11754,
       "length": 15,
       "value": "\"errorNoFaceVL\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11529,
+      "offset": 11907,
       "length": 16,
       "value": "\"errorTimeoutVL\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11674,
+      "offset": 12052,
       "length": 12,
       "value": "\"es-419Icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11808,
+      "offset": 12186,
       "length": 8,
       "value": "\"esIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 11942,
+      "offset": 12320,
       "length": 10,
       "value": "\"exitDoor\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12074,
+      "offset": 12452,
       "length": 8,
       "value": "\"frIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12233,
+      "offset": 12611,
       "length": 24,
       "value": "\"front_side_second_part\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12391,
+      "offset": 12769,
       "length": 14,
       "value": "\"genericError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12535,
+      "offset": 12913,
       "length": 12,
       "value": "\"gigAccount\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12669,
+      "offset": 13047,
       "length": 8,
       "value": "\"globus\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12807,
+      "offset": 13185,
       "length": 12,
       "value": "\"iconCamera\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 12947,
+      "offset": 13325,
       "length": 11,
       "value": "\"iconCheck\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13088,
+      "offset": 13466,
       "length": 12,
       "value": "\"iconRotate\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13238,
+      "offset": 13616,
       "length": 16,
       "value": "\"imageSizeError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13376,
+      "offset": 13754,
       "length": 8,
       "value": "\"itIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13510,
+      "offset": 13888,
       "length": 10,
       "value": "\"lineStep\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13670,
+      "offset": 14048,
       "length": 22,
       "value": "\"livenessErorrCircles\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 13852,
+      "offset": 14230,
       "length": 27,
       "value": "\"livenessErrorLookAtCamera\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14039,
+      "offset": 14417,
       "length": 27,
       "value": "\"livenessErrorSlowMovement\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14192,
+      "offset": 14570,
       "length": 10,
       "value": "\"location\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14344,
+      "offset": 14722,
       "length": 18,
       "value": "\"locationDisabled\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14502,
+      "offset": 14880,
       "length": 17,
       "value": "\"locationEnabled\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14655,
+      "offset": 15033,
       "length": 15,
       "value": "\"locationFetch\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14804,
+      "offset": 15182,
       "length": 14,
       "value": "\"locationIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 14967,
+      "offset": 15345,
       "length": 24,
       "value": "\"maskDetectedErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15127,
+      "offset": 15505,
       "length": 15,
       "value": "\"matiLogoWhite\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15275,
+      "offset": 15653,
       "length": 14,
       "value": "\"metaMap_icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15440,
+      "offset": 15818,
       "length": 25,
       "value": "\"multipleFacesErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15597,
+      "offset": 15975,
       "length": 13,
       "value": "\"newMatiLogo\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15746,
+      "offset": 16124,
       "length": 15,
       "value": "\"newSelfieIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 15908,
+      "offset": 16286,
       "length": 23,
       "value": "\"noFaceInDocErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16082,
+      "offset": 16460,
       "length": 25,
       "value": "\"noFaceSelfieIErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16237,
+      "offset": 16615,
       "length": 12,
       "value": "\"noInternet\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16401,
+      "offset": 16779,
       "length": 23,
       "value": "\"noMoreSmsAttempsError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16578,
+      "offset": 16956,
       "length": 25,
       "value": "\"occlusion_document_icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16727,
+      "offset": 17105,
       "length": 9,
       "value": "\"pdfIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 16872,
+      "offset": 17250,
       "length": 15,
       "value": "\"physicalError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17009,
+      "offset": 17387,
       "length": 8,
       "value": "\"plIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17138,
+      "offset": 17516,
       "length": 10,
       "value": "\"porImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17290,
+      "offset": 17668,
       "length": 18,
       "value": "\"previewFirstStep\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17452,
+      "offset": 17830,
       "length": 19,
       "value": "\"previewFourthStep\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17613,
+      "offset": 17991,
       "length": 18,
       "value": "\"previewThirdStep\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17773,
+      "offset": 18151,
       "length": 18,
       "value": "\"previewVoiceStep\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 17915,
+      "offset": 18293,
       "length": 9,
       "value": "\"privacy\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18071,
+      "offset": 18449,
       "length": 23,
       "value": "\"proofOfResidencyImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18216,
+      "offset": 18594,
       "length": 8,
       "value": "\"ptIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18376,
+      "offset": 18754,
       "length": 23,
       "value": "\"recordingDisabledIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18549,
+      "offset": 18927,
       "length": 22,
       "value": "\"recordingEnabledIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18713,
+      "offset": 19091,
       "length": 18,
       "value": "\"recordingStarted\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 18867,
+      "offset": 19245,
       "length": 15,
       "value": "\"recordingStop\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19046,
+      "offset": 19424,
       "length": 29,
       "value": "\"requestCameraAccessBlockImg\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19239,
+      "offset": 19617,
       "length": 29,
       "value": "\"requestCameraAccessFirstImg\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19426,
+      "offset": 19804,
       "length": 26,
       "value": "\"requestMicAccessBlockImg\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19610,
+      "offset": 19988,
       "length": 26,
       "value": "\"requestMicAccessFirstImg\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19778,
+      "offset": 20156,
       "length": 18,
       "value": "\"resendOTPAttempt\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 19918,
+      "offset": 20296,
       "length": 8,
       "value": "\"retake\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20054,
+      "offset": 20432,
       "length": 11,
       "value": "\"retryIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20187,
+      "offset": 20565,
       "length": 8,
       "value": "\"ruIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20341,
+      "offset": 20719,
       "length": 20,
       "value": "\"selectDropdownIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20513,
+      "offset": 20891,
       "length": 24,
       "value": "\"selected_language_icon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20667,
+      "offset": 21045,
       "length": 12,
       "value": "\"selfieStep\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20811,
+      "offset": 21189,
       "length": 13,
       "value": "\"serverError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 20950,
+      "offset": 21328,
       "length": 10,
       "value": "\"settings\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21086,
+      "offset": 21464,
       "length": 10,
       "value": "\"signIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21240,
+      "offset": 21618,
       "length": 19,
       "value": "\"similarPhotoError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21407,
+      "offset": 21785,
       "length": 21,
       "value": "\"smallSizeImageError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21562,
+      "offset": 21940,
       "length": 14,
       "value": "\"smsCheckIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21720,
+      "offset": 22098,
       "length": 19,
       "value": "\"smsRectangleInput\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21885,
+      "offset": 22263,
       "length": 20,
       "value": "\"startRecordingIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22029,
+      "offset": 22407,
       "length": 8,
       "value": "\"switch\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22159,
+      "offset": 22537,
       "length": 8,
       "value": "\"thIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22289,
+      "offset": 22667,
       "length": 8,
       "value": "\"trIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22446,
+      "offset": 22824,
       "length": 24,
       "value": "\"typeMismatchErrorImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22608,
+      "offset": 22986,
       "length": 16,
       "value": "\"uploadDoneIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22754,
+      "offset": 23132,
       "length": 12,
       "value": "\"videoClose\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22900,
+      "offset": 23278,
       "length": 14,
       "value": "\"videoKYCFace\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23056,
+      "offset": 23434,
       "length": 18,
       "value": "\"videoKYCReadText\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23210,
+      "offset": 23588,
       "length": 15,
       "value": "\"videoKYCVoice\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23351,
+      "offset": 23729,
       "length": 10,
       "value": "\"videoKyc\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23505,
+      "offset": 23883,
       "length": 19,
       "value": "\"videoLivenessStep\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23668,
+      "offset": 24046,
       "length": 19,
       "value": "\"voiceLivenessStep\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-gigtpuskngzlzmcpwdejregnpejw\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23811,
+      "offset": 24189,
       "length": 9,
       "value": "\"warning\""
     }
