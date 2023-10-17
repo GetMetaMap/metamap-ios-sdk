@@ -136,8 +136,10 @@ class RequestManager {
         
         apiManager.createVerificationRequest(flowId: flowId) { model, error, errorMode in
             switch errorMode {
-            case .blocked:
-                statusCompletion(.blocked)
+            case .blocked(let data):
+                statusCompletion(.blocked(data))
+            case .block_custom(let data):
+                statusCompletion(.block_custom(data))
             case .error(_):
                 completion(false)
             case .successed:
