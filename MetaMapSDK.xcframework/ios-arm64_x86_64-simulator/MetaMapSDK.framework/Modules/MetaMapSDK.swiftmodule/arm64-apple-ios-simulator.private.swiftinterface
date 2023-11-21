@@ -201,8 +201,8 @@ public class WSEngine : MetaMapSDK.Engine, MetaMapSDK.TransportEventClient, Meta
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceStop()
-  public func write(string: Swift.String, completion: (() -> ())?)
-  public func write(data: Foundation.Data, opcode: MetaMapSDK.FrameOpCode, completion: (() -> ())?)
+  public func write(string: Swift.String, completion: (() -> Swift.Void)?)
+  public func write(data: Foundation.Data, opcode: MetaMapSDK.FrameOpCode, completion: (() -> Swift.Void)?)
   public func connectionChanged(state: MetaMapSDK.ConnectionState)
   public func didReceiveHTTP(event: MetaMapSDK.HTTPEvent)
   public func frameProcessed(event: MetaMapSDK.FrameEvent)
@@ -291,11 +291,11 @@ public struct WSError : Swift.Error {
 public protocol WebSocketClient : AnyObject {
   func connect()
   func disconnect(closeCode: Swift.UInt16)
-  func write(string: Swift.String, completion: (() -> ())?)
-  func write(stringData: Foundation.Data, completion: (() -> ())?)
-  func write(data: Foundation.Data, completion: (() -> ())?)
-  func write(ping: Foundation.Data, completion: (() -> ())?)
-  func write(pong: Foundation.Data, completion: (() -> ())?)
+  func write(string: Swift.String, completion: (() -> Swift.Void)?)
+  func write(stringData: Foundation.Data, completion: (() -> Swift.Void)?)
+  func write(data: Foundation.Data, completion: (() -> Swift.Void)?)
+  func write(ping: Foundation.Data, completion: (() -> Swift.Void)?)
+  func write(pong: Foundation.Data, completion: (() -> Swift.Void)?)
 }
 extension MetaMapSDK.WebSocketClient {
   public func write(string: Swift.String)
@@ -333,11 +333,11 @@ open class WebSocket : MetaMapSDK.WebSocketClient, MetaMapSDK.EngineDelegate {
   public func connect()
   public func disconnect(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceDisconnect()
-  public func write(data: Foundation.Data, completion: (() -> ())?)
-  public func write(string: Swift.String, completion: (() -> ())?)
-  public func write(stringData: Foundation.Data, completion: (() -> ())?)
-  public func write(ping: Foundation.Data, completion: (() -> ())?)
-  public func write(pong: Foundation.Data, completion: (() -> ())?)
+  public func write(data: Foundation.Data, completion: (() -> Swift.Void)?)
+  public func write(string: Swift.String, completion: (() -> Swift.Void)?)
+  public func write(stringData: Foundation.Data, completion: (() -> Swift.Void)?)
+  public func write(ping: Foundation.Data, completion: (() -> Swift.Void)?)
+  public func write(pong: Foundation.Data, completion: (() -> Swift.Void)?)
   public func didReceive(event: MetaMapSDK.WebSocketEvent)
   @objc deinit
 }
@@ -433,10 +433,10 @@ public class FoundationHTTPHandler : MetaMapSDK.HTTPHandler {
 }
 public protocol SocketEngineWebsocket : MetaMapSDK.SocketEngineSpec {
   var wsConnected: Swift.Bool { get }
-  func sendWebSocketMessage(_ str: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> ())?)
+  func sendWebSocketMessage(_ str: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> Swift.Void)?)
 }
 extension MetaMapSDK.SocketEngineWebsocket {
-  public func sendWebSocketMessage(_ str: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())?)
+  public func sendWebSocketMessage(_ str: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> Swift.Void)?)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class TransparentNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor(unsafe) public var statusBarStyle: UIKit.UIStatusBarStyle
@@ -474,7 +474,7 @@ public protocol Transport : AnyObject {
   func register(delegate: any MetaMapSDK.TransportEventClient)
   func connect(url: Foundation.URL, timeout: Swift.Double, certificatePinning: (any MetaMapSDK.CertificatePinning)?)
   func disconnect()
-  func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> Swift.Void))
   var usingTLS: Swift.Bool { get }
 }
 public enum ProgressBarState {
@@ -599,7 +599,7 @@ public protocol SocketEngineSpec : AnyObject {
   func flushWaitingForPostToWebSocket()
   func parseEngineData(_ data: Foundation.Data)
   func parseEngineMessage(_ message: Swift.String)
-  func write(_ msg: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())?)
+  func write(_ msg: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> Swift.Void)?)
 }
 extension Swift.FloatingPoint {
   public var toRadians: Self {
@@ -633,15 +633,15 @@ extension UIKit.UIView {
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor(unsafe) convenience public init(pathString: Swift.String)
-  @_Concurrency.MainActor(unsafe) convenience public init(svgNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(svgNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
   @available(*, deprecated, renamed: "init(svgNamed:parser:completion:)")
-  @_Concurrency.MainActor(unsafe) convenience public init(SVGNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
-  @_Concurrency.MainActor(unsafe) convenience public init(svgURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(SVGNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(svgURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
   @available(*, deprecated, renamed: "init(svgURL:parser:completion:)")
-  @_Concurrency.MainActor(unsafe) convenience public init(SVGURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
-  @_Concurrency.MainActor(unsafe) convenience public init(svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(SVGURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
   @available(*, deprecated, renamed: "init(svgData:parser:completion:)")
-  @_Concurrency.MainActor(unsafe) convenience public init(SVGData svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(SVGData svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
 }
 @objc public protocol SocketEngineClient {
   @objc func engineDidError(reason: Swift.String)
@@ -671,7 +671,7 @@ public class FoundationSecurity {
   @objc deinit
 }
 extension MetaMapSDK.FoundationSecurity : MetaMapSDK.CertificatePinning {
-  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((MetaMapSDK.PinningState) -> ()))
+  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((MetaMapSDK.PinningState) -> Swift.Void))
 }
 extension MetaMapSDK.FoundationSecurity : MetaMapSDK.HeaderValidator {
   public func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
@@ -738,12 +738,12 @@ public protocol SocketEnginePollable : MetaMapSDK.SocketEngineSpec {
   var waitingForPoll: Swift.Bool { get set }
   var waitingForPost: Swift.Bool { get set }
   func doPoll()
-  func sendPollMessage(_ message: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> ())?)
+  func sendPollMessage(_ message: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> Swift.Void)?)
   func stopPolling()
 }
 extension MetaMapSDK.SocketEnginePollable {
   public func doPoll()
-  public func sendPollMessage(_ message: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> ())? = nil)
+  public func sendPollMessage(_ message: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> Swift.Void)? = nil)
   public func stopPolling()
 }
 @objc open class SocketEngine : ObjectiveC.NSObject, MetaMapSDK.WebSocketDelegate, Foundation.URLSessionDelegate, MetaMapSDK.SocketEnginePollable, MetaMapSDK.SocketEngineWebsocket, MetaMapSDK.ConfigSettable {
@@ -829,7 +829,7 @@ extension MetaMapSDK.SocketEnginePollable {
   open func parseEngineData(_ data: Foundation.Data)
   open func parseEngineMessage(_ message: Swift.String)
   open func setConfigs(_ config: MetaMapSDK.SocketIOClientConfiguration)
-  open func write(_ msg: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> ())? = nil)
+  open func write(_ msg: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> Swift.Void)? = nil)
 }
 extension MetaMapSDK.SocketEngine {
   public func URLSession(session: Foundation.URLSession, didBecomeInvalidWithError error: Foundation.NSError?)
@@ -952,15 +952,15 @@ public protocol DocumentScanner {
 extension MetaMapSDK.NSXMLSVGParser : MetaMapSDK.SVGParser {
 }
 @objc @_hasMissingDesignatedInitializers open class NSXMLSVGParser : Foundation.XMLParser, Foundation.XMLParserDelegate {
-  public var completionBlock: ((MetaMapSDK.SVGLayer) -> ())?
+  public var completionBlock: ((MetaMapSDK.SVGLayer) -> Swift.Void)?
   public var supportedElements: MetaMapSDK.SVGParserSupportedElements?
   open var containerLayer: MetaMapSDK.SVGLayer
-  convenience public init(svgURL: Foundation.URL, supportedElements: MetaMapSDK.SVGParserSupportedElements? = nil, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
+  convenience public init(svgURL: Foundation.URL, supportedElements: MetaMapSDK.SVGParserSupportedElements? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
   @available(*, deprecated, renamed: "init(svgURL:supportedElements:completion:)")
-  convenience public init(SVGURL: Foundation.URL, supportedElements: MetaMapSDK.SVGParserSupportedElements? = nil, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
-  required public init(svgData: Foundation.Data, supportedElements: MetaMapSDK.SVGParserSupportedElements? = SVGParserSupportedElements.allSupportedElements, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
+  convenience public init(SVGURL: Foundation.URL, supportedElements: MetaMapSDK.SVGParserSupportedElements? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  required public init(svgData: Foundation.Data, supportedElements: MetaMapSDK.SVGParserSupportedElements? = SVGParserSupportedElements.allSupportedElements, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
   @available(*, deprecated, renamed: "init(svgData:supportedElements:completion:)")
-  convenience public init(SVGData: Foundation.Data, supportedElements: MetaMapSDK.SVGParserSupportedElements? = SVGParserSupportedElements.allSupportedElements, completion: ((MetaMapSDK.SVGLayer) -> ())? = nil)
+  convenience public init(SVGData: Foundation.Data, supportedElements: MetaMapSDK.SVGParserSupportedElements? = SVGParserSupportedElements.allSupportedElements, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
   public func startParsing()
   @objc open func parser(_ parser: Foundation.XMLParser, didStartElement elementName: Swift.String, namespaceURI: Swift.String?, qualifiedName qName: Swift.String?, attributes attributeDict: [Swift.String : Swift.String])
   @objc open func parser(_ parser: Foundation.XMLParser, didEndElement elementName: Swift.String, namespaceURI: Swift.String?, qualifiedName qName: Swift.String?)
@@ -969,8 +969,8 @@ extension MetaMapSDK.NSXMLSVGParser : MetaMapSDK.SVGParser {
   @objc deinit
 }
 public protocol SVGParser {
-  init(svgData: Foundation.Data, supportedElements: MetaMapSDK.SVGParserSupportedElements?, completion: ((MetaMapSDK.SVGLayer) -> ())?)
-  var completionBlock: ((MetaMapSDK.SVGLayer) -> ())? { get }
+  init(svgData: Foundation.Data, supportedElements: MetaMapSDK.SVGParserSupportedElements?, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)?)
+  var completionBlock: ((MetaMapSDK.SVGLayer) -> Swift.Void)? { get }
   var supportedElements: MetaMapSDK.SVGParserSupportedElements? { get }
   var containerLayer: MetaMapSDK.SVGLayer { get }
   func startParsing()
@@ -1047,7 +1047,7 @@ public enum FoundationTransportError : Swift.Error {
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any MetaMapSDK.CertificatePinning)? = nil)
   public func disconnect()
   public func register(delegate: any MetaMapSDK.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> Swift.Void))
   @objc open func stream(_ aStream: Foundation.Stream, handle eventCode: Foundation.Stream.Event)
 }
 @objc public enum SocketEnginePacketType : Swift.Int {
@@ -1150,7 +1150,7 @@ extension Foundation.URL {
   public func getParts() -> MetaMapSDK.URLParts?
 }
 extension QuartzCore.CALayer {
-  open func applyOnSublayers<T>(ofType: T.Type, closure: (T) -> ()) where T : QuartzCore.CALayer
+  open func applyOnSublayers<T>(ofType: T.Type, closure: (T) -> Swift.Void) where T : QuartzCore.CALayer
 }
 public protocol Transformable {
   var layerToTransform: QuartzCore.CALayer { get }
@@ -1204,7 +1204,7 @@ public class ServerConnection : MetaMapSDK.Connection, MetaMapSDK.HTTPServerDele
 }
 @objc open class SocketIOClient : ObjectiveC.NSObject, MetaMapSDK.SocketIOClientSpec {
   final public let nsp: Swift.String
-  public var anyHandler: ((MetaMapSDK.SocketAnyEvent) -> ())? {
+  public var anyHandler: ((MetaMapSDK.SocketAnyEvent) -> Swift.Void)? {
     get
   }
   public var handlers: [MetaMapSDK.SocketEventHandler] {
@@ -1225,12 +1225,12 @@ public class ServerConnection : MetaMapSDK.Connection, MetaMapSDK.HTTPServerDele
   public init(manager: any MetaMapSDK.SocketManagerSpec, nsp: Swift.String)
   @objc deinit
   open func connect(withPayload payload: [Swift.String : Any]? = nil)
-  open func connect(withPayload payload: [Swift.String : Any]? = nil, timeoutAfter: Swift.Double, withHandler handler: (() -> ())?)
+  open func connect(withPayload payload: [Swift.String : Any]? = nil, timeoutAfter: Swift.Double, withHandler handler: (() -> Swift.Void)?)
   open func didConnect(toNamespace namespace: Swift.String, payload: [Swift.String : Any]?)
   open func didDisconnect(reason: Swift.String)
   open func disconnect()
-  open func emit(_ event: Swift.String, _ items: any MetaMapSDK.SocketData..., completion: (() -> ())? = nil)
-  open func emit(_ event: Swift.String, with items: [any MetaMapSDK.SocketData], completion: (() -> ())?)
+  open func emit(_ event: Swift.String, _ items: any MetaMapSDK.SocketData..., completion: (() -> Swift.Void)? = nil)
+  open func emit(_ event: Swift.String, with items: [any MetaMapSDK.SocketData], completion: (() -> Swift.Void)?)
   open func emitWithAck(_ event: Swift.String, _ items: any MetaMapSDK.SocketData...) -> MetaMapSDK.OnAckCallback
   open func emitWithAck(_ event: Swift.String, with items: [any MetaMapSDK.SocketData]) -> MetaMapSDK.OnAckCallback
   open func emitAck(_ ack: Swift.Int, with items: [Any])
@@ -1251,7 +1251,7 @@ public class ServerConnection : MetaMapSDK.Connection, MetaMapSDK.HTTPServerDele
   open func once(clientEvent event: MetaMapSDK.SocketClientEvent, callback: @escaping MetaMapSDK.NormalCallback) -> Foundation.UUID
   @discardableResult
   open func once(_ event: Swift.String, callback: @escaping MetaMapSDK.NormalCallback) -> Foundation.UUID
-  open func onAny(_ handler: @escaping (MetaMapSDK.SocketAnyEvent) -> ())
+  open func onAny(_ handler: @escaping (MetaMapSDK.SocketAnyEvent) -> Swift.Void)
   @available(*, unavailable, message: "Call the manager's reconnect method")
   open func reconnect()
   open func removeAllHandlers()
@@ -1275,7 +1275,7 @@ public class TCPTransport : MetaMapSDK.Transport {
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any MetaMapSDK.CertificatePinning)? = nil)
   public func disconnect()
   public func register(delegate: any MetaMapSDK.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> ()))
+  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> Swift.Void))
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
@@ -1284,8 +1284,8 @@ public class NativeEngine : ObjectiveC.NSObject, MetaMapSDK.Engine, Foundation.U
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16)
   public func forceStop()
-  public func write(string: Swift.String, completion: (() -> ())?)
-  public func write(data: Foundation.Data, opcode: MetaMapSDK.FrameOpCode, completion: (() -> ())?)
+  public func write(string: Swift.String, completion: (() -> Swift.Void)?)
+  public func write(data: Foundation.Data, opcode: MetaMapSDK.FrameOpCode, completion: (() -> Swift.Void)?)
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
   @objc override dynamic public init()
@@ -1306,20 +1306,20 @@ extension Swift.String {
 }
 public protocol SVGElement {
   static var elementName: Swift.String { get }
-  var supportedAttributes: [Swift.String : (Swift.String) -> ()] { get set }
+  var supportedAttributes: [Swift.String : (Swift.String) -> Swift.Void] { get set }
   func didProcessElement(in container: (any MetaMapSDK.SVGContainerElement)?)
 }
 extension QuartzCore.CALayer {
   @discardableResult
-  convenience public init(svgURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> ())
+  convenience public init(svgURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> Swift.Void)
   @available(*, deprecated, renamed: "init(svgURL:parser:completion:)")
   @discardableResult
-  convenience public init(SVGURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> ())
+  convenience public init(SVGURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> Swift.Void)
   @discardableResult
-  convenience public init(svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> ())
+  convenience public init(svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> Swift.Void)
   @available(*, deprecated, renamed: "init(svgData:parser:completion:)")
   @discardableResult
-  convenience public init(SVGData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> ())
+  convenience public init(SVGData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> Swift.Void)
 }
 public protocol EngineDelegate : AnyObject {
   func didReceive(event: MetaMapSDK.WebSocketEvent)
@@ -1329,8 +1329,8 @@ public protocol Engine {
   func start(request: Foundation.URLRequest)
   func stop(closeCode: Swift.UInt16)
   func forceStop()
-  func write(data: Foundation.Data, opcode: MetaMapSDK.FrameOpCode, completion: (() -> ())?)
-  func write(string: Swift.String, completion: (() -> ())?)
+  func write(data: Foundation.Data, opcode: MetaMapSDK.FrameOpCode, completion: (() -> Swift.Void)?)
+  func write(string: Swift.String, completion: (() -> Swift.Void)?)
 }
 extension Foundation.NSMutableAttributedString {
   public func setAsLink(textToFind: Swift.String, linkURL: Swift.String) -> Swift.Bool
@@ -1365,15 +1365,15 @@ extension Foundation.NSNull : MetaMapSDK.SocketData {
 }
 extension Swift.String : MetaMapSDK.SocketData {
 }
-public typealias AckCallback = ([Any]) -> ()
-public typealias NormalCallback = ([Any], MetaMapSDK.SocketAckEmitter) -> ()
-public typealias Post = (msg: Swift.String, completion: (() -> ())?)
+public typealias AckCallback = ([Any]) -> Swift.Void
+public typealias NormalCallback = ([Any], MetaMapSDK.SocketAckEmitter) -> Swift.Void
+public typealias Post = (msg: Swift.String, completion: (() -> Swift.Void)?)
 public protocol DocumentScannerDelegate : AnyObject {
   func didCapture(image: UIKit.UIImage)
   func didRecognize(feature: MetaMapSDK.RectangleFeature?, in image: CoreImage.CIImage)
 }
 public protocol SocketIOClientSpec : AnyObject {
-  var anyHandler: ((MetaMapSDK.SocketAnyEvent) -> ())? { get }
+  var anyHandler: ((MetaMapSDK.SocketAnyEvent) -> Swift.Void)? { get }
   var handlers: [MetaMapSDK.SocketEventHandler] { get }
   var manager: (any MetaMapSDK.SocketManagerSpec)? { get }
   var nsp: Swift.String { get }
@@ -1381,13 +1381,13 @@ public protocol SocketIOClientSpec : AnyObject {
   var sid: Swift.String? { get }
   var status: MetaMapSDK.SocketIOStatus { get }
   func connect(withPayload payload: [Swift.String : Any]?)
-  func connect(withPayload payload: [Swift.String : Any]?, timeoutAfter: Swift.Double, withHandler handler: (() -> ())?)
+  func connect(withPayload payload: [Swift.String : Any]?, timeoutAfter: Swift.Double, withHandler handler: (() -> Swift.Void)?)
   func didConnect(toNamespace namespace: Swift.String, payload: [Swift.String : Any]?)
   func didDisconnect(reason: Swift.String)
   func didError(reason: Swift.String)
   func disconnect()
-  func emit(_ event: Swift.String, _ items: any MetaMapSDK.SocketData..., completion: (() -> ())?)
-  func emit(_ event: Swift.String, with items: [any MetaMapSDK.SocketData], completion: (() -> ())?)
+  func emit(_ event: Swift.String, _ items: any MetaMapSDK.SocketData..., completion: (() -> Swift.Void)?)
+  func emit(_ event: Swift.String, with items: [any MetaMapSDK.SocketData], completion: (() -> Swift.Void)?)
   func emitAck(_ ack: Swift.Int, with items: [Any])
   func emitWithAck(_ event: Swift.String, _ items: any MetaMapSDK.SocketData...) -> MetaMapSDK.OnAckCallback
   func emitWithAck(_ event: Swift.String, with items: [any MetaMapSDK.SocketData]) -> MetaMapSDK.OnAckCallback
@@ -1404,7 +1404,7 @@ public protocol SocketIOClientSpec : AnyObject {
   func on(clientEvent event: MetaMapSDK.SocketClientEvent, callback: @escaping MetaMapSDK.NormalCallback) -> Foundation.UUID
   func once(clientEvent event: MetaMapSDK.SocketClientEvent, callback: @escaping MetaMapSDK.NormalCallback) -> Foundation.UUID
   func once(_ event: Swift.String, callback: @escaping MetaMapSDK.NormalCallback) -> Foundation.UUID
-  func onAny(_ handler: @escaping (MetaMapSDK.SocketAnyEvent) -> ())
+  func onAny(_ handler: @escaping (MetaMapSDK.SocketAnyEvent) -> Swift.Void)
   func removeAllHandlers()
   func setReconnecting(reason: Swift.String)
 }
@@ -1465,7 +1465,7 @@ public enum PinningState {
   case failed(CoreFoundation.CFError?)
 }
 public protocol CertificatePinning : AnyObject {
-  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((MetaMapSDK.PinningState) -> ()))
+  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((MetaMapSDK.PinningState) -> Swift.Void))
 }
 public protocol HeaderValidator : AnyObject {
   func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?

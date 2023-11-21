@@ -10,7 +10,7 @@ import Foundation
 
 class RequestManager {
     private static var sharedInstance: RequestManager?
-      class var shared : RequestManager {
+      class var shared: RequestManager {
           guard let sharedInstance = self.sharedInstance else {
               let sharedInstance = RequestManager()
               self.sharedInstance = sharedInstance
@@ -18,10 +18,10 @@ class RequestManager {
           }
           return sharedInstance
       }
-    
+
     private let socketManager = MetaMapSocketManager()
     private let apiManager = MetaMapApiManager()
-    
+
     func subscribeReusage(event: @escaping () -> Void) {
         socketManager.reusageManager.subscribe {
             DispatchQueue.main.async {
@@ -59,56 +59,56 @@ class RequestManager {
         })
     }
 
-    func uploadFile(fileData: FileUploadModelProtocol, completion: @escaping (ResponseStatus) -> Void, progressHandler: ((_ progress: CGFloat) -> Void)? = nil)  {
+    func uploadFile(fileData: FileUploadModelProtocol, completion: @escaping (ResponseStatus) -> Void, progressHandler: ((_ progress: CGFloat) -> Void)? = nil) {
         apiManager.uploadFileRequest(fileData: fileData, completion: completion, progressHandler: progressHandler)
     }
-    
+
     func creditCheckSubmit(data: CreditCheck, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.creditCheckRequest(data: data, completion: completion)
     }
-    
+
     func customDocSkip(data: SkipHeaderData, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.skipStepsRequest(data: data, type: .customDocumentSkip, completion: completion)
     }
-    
+
     func docBackSideSkip(data: DocBackSideSkip, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.skipStepsRequest(data: data, type: .documentSkip, completion: completion)
     }
-    
-    func skipInput(input: InputId, completion: @escaping (ResponseStatus) -> Void)  {
+
+    func skipInput(input: InputId, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.skipStepsRequest(data: nil, type: .skip(subType: input.rawValue), completion: completion)
     }
-    
+
     func downloadPDF(path: String, completion: @escaping (ResponseStatus, Data?) -> Void) {
         apiManager.downloadPDF(path: path, completion: completion)
     }
-    
+
     func sendSignalData(data: [String: Any]) {
         socketManager.sendSignalData(body: data)
     }
-    
+
     func vpnRetry(completion: @escaping (ResponseStatus) -> Void) {
         apiManager.vpnTryAgain(completion: completion)
     }
-    
-    func uploadDynamicInputs(inputData: MatiDynamicInputsRequest, completion: @escaping (ResponseStatus) -> Void)  {
+
+    func uploadDynamicInputs(inputData: MatiDynamicInputsRequest, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.uploadDynamicInputsRequest(inputData: inputData, completion: completion)
     }
-    
-    func uploadInput(inputData: InputDataProtocol, completion: @escaping (ResponseStatus) -> Void)  {
+
+    func uploadInput(inputData: InputDataProtocol, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.uploadInputRequest(inputData: inputData, completion: completion)
     }
-    
+
     func sendLocationData(inputData: InputDataProtocol, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.sendLoation(inputData: inputData, completion: completion)
     }
-    
-    func downloadImagefromUrl(path: String?, completion: @escaping (ResponseStatus ,UIImage?) -> Void) {
+
+    func downloadImagefromUrl(path: String?, completion: @escaping (ResponseStatus, UIImage?) -> Void) {
         guard let path = path, !path.isEmpty, let url = URL(string: path) else {
             completion(.error(error: nil), nil)
             return
         }
-        socketManager.getData(from: url) { data, response, error in
+        socketManager.getData(from: url) { data, _, error in
             guard let data = data, let image = UIImage(data: data) else {
                 completion(.error(error: error as? NSError), nil)
                 return
@@ -116,36 +116,35 @@ class RequestManager {
             completion(.success, image)
         }
     }
-    
+
     func closeWebSocketConnection() {
         socketManager.closewWsConnection()
     }
-    
+
     func sendAnalyticEvent(eventName: String, details: Codable) {
         socketManager.sendAnalyticEvent(eventName: eventName, details: details)
     }
-    
+
     func sendSignalData(body: [String: Any]) {
         socketManager.sendSignalData(body: body)
     }
-    
+
     func createVerification(flowId: String,
                             completion: @escaping (Bool) -> Void,
-                            statusCompletion: @escaping (CreateVerificationStatus?) -> Void)
-    {
-        
-        apiManager.createVerificationRequest(flowId: flowId) { model, error, errorMode in
+                            statusCompletion: @escaping (CreateVerificationStatus?) -> Void) {
+
+        apiManager.createVerificationRequest(flowId: flowId) { model, _, errorMode in
             switch errorMode {
             case .blocked(let data):
                 statusCompletion(.blocked(data))
             case .block_custom(let data):
                 statusCompletion(.block_custom(data))
-            case .error(_):
+            case .error:
                 completion(false)
             case .successed:
                 MetaMapGlobalManager.instance.verificationId = model?.id
                 MetaMapGlobalManager.instance.identity = model?.identity
-                MetaMapGlobalManager.instance.checkCreditCard(inputs:model?.inputs)
+                MetaMapGlobalManager.instance.checkCreditCard(inputs: model?.inputs)
                 self.socketManager.openWsConnection(flowId: flowId,
                                                     method: API.Path.wsVerificationFlow.value,
                                                     completion: completion)
@@ -153,4 +152,3 @@ class RequestManager {
         }
     }
 }
-
