@@ -8,7 +8,7 @@ category: 61ae8e8dba577a0010791480
 
 | LTS version (Recommended for most users): |Current Version(Latest features)|
 |---|---|
-| 3.17.1 | 3.17.1 |
+| 3.18.0 | 3.18.0 |
 
 
 # MetaMap iOS Usage Guide
