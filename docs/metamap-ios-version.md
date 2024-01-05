@@ -9,6 +9,24 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+
+# Version 3.18.0
+
+
+### New Features
+    * support dynamic input
+
+### Updated Features
+    * updated Sentry
+    * support pre-load, shimmering screens color and font customization
+    * support font/color customization for dynamic input screen
+    
+### Bug Fixes
+    * fixed issue related to the restrict image upload from gallery
+    * fixed issue on the biometric verification step - record buttons appear second time
+    * fixed issue on the revision feature
+ 
+
 # Version 3.17.1
     
 ### Bug Fixes

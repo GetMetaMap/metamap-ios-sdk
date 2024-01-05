@@ -94,6 +94,10 @@ class RequestManager {
     func uploadDynamicInputs(inputData: MatiDynamicInputsRequest, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.uploadDynamicInputsRequest(inputData: inputData, completion: completion)
     }
+    
+    func dynamicInputsTitleLocalization(completion: @escaping (_ dict: [String: String]) -> Void) {
+        apiManager.dynamicInputsTitleLocalization(completion: completion)
+    }
 
     func uploadInput(inputData: InputDataProtocol, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.uploadInputRequest(inputData: inputData, completion: completion)

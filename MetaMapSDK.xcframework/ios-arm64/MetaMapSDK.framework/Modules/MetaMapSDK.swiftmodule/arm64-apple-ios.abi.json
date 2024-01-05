@@ -3922,7 +3922,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(buttonColor:buttonTextColor:fixedLanguage:enableLog:regularFont:boldFont:)",
+            "printedName": "init(buttonColor:buttonTextColor:fixedLanguage:enableLog:regularFont:boldFont:shimmerBackgroundColor:gradientStartColor:gradientEndColor:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4011,11 +4011,56 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10MetaMapSDK0aB8UIConfigC11buttonColor0e4TextF013fixedLanguage9enableLog11regularFont04boldM0ACSSSg_AjA10MFLanguageOSgSbA2Jtcfc",
-            "mangledName": "$s10MetaMapSDK0aB8UIConfigC11buttonColor0e4TextF013fixedLanguage9enableLog11regularFont04boldM0ACSSSg_AjA10MFLanguageOSgSbA2Jtcfc",
+            "usr": "s:10MetaMapSDK0aB8UIConfigC11buttonColor0e4TextF013fixedLanguage9enableLog11regularFont04boldM0017shimmerBackgroundF0013gradientStartF00q3EndF0ACSSSg_AmA10MFLanguageOSgSbA5Mtcfc",
+            "mangledName": "$s10MetaMapSDK0aB8UIConfigC11buttonColor0e4TextF013fixedLanguage9enableLog11regularFont04boldM0017shimmerBackgroundF0013gradientStartF00q3EndF0ACSSSg_AmA10MFLanguageOSgSbA5Mtcfc",
             "moduleName": "MetaMapSDK",
             "declAttributes": [
               "AccessControl"
@@ -56205,7 +56250,7 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "BooleanLiteral",
-      "offset": 550,
+      "offset": 677,
       "length": 5,
       "value": "false"
     },
@@ -56219,77 +56264,77 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "BooleanLiteral",
-      "offset": 1093,
+      "offset": 1575,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 3133,
+      "offset": 3838,
       "length": 19,
       "value": "\"stage.getmati.com\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 3155,
+      "offset": 3860,
       "length": 16,
       "value": "\"qa.metamap.com\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 3274,
+      "offset": 3979,
       "length": 66,
       "value": "\"https:\/\/product-frontend-builds-staging.metamap.com\/stage-builds\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 3377,
+      "offset": 4082,
       "length": 52,
       "value": "\"https:\/\/product-frontend-builds.metamap.com\/builds\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 3834,
+      "offset": 4655,
       "length": 13,
       "value": "\"getmati.com\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 4516,
+      "offset": 5804,
       "length": 9,
       "value": "\"staging\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "BooleanLiteral",
-      "offset": 4530,
+      "offset": 5818,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 4562,
+      "offset": 5850,
       "length": 7,
       "value": "\"stage\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "BooleanLiteral",
-      "offset": 4574,
+      "offset": 5862,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadata.swift",
       "kind": "StringLiteral",
-      "offset": 876,
+      "offset": 1358,
       "length": 15,
       "value": "\"MetaMapSDK.MetaMapMetadata\""
     },
@@ -56828,30 +56873,44 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDateInputItemView.swift",
       "kind": "StringLiteral",
-      "offset": 1159,
+      "offset": 1165,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDateInputItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1328,
+      "offset": 1334,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDateInputItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1805,
+      "offset": 1811,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDateInputItemView.swift",
       "kind": "StringLiteral",
-      "offset": 2510,
-      "length": 41,
-      "value": "\"metamap_dynamicinput_patter_match_error\""
+      "offset": 1917,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDateInputItemView.swift",
+      "kind": "StringLiteral",
+      "offset": 2025,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDateInputItemView.swift",
+      "kind": "StringLiteral",
+      "offset": 2694,
+      "length": 36,
+      "value": "\"metamap_empty_input _error_message\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/Starscream\/Engine\/WSEngine.swift",
@@ -57598,322 +57657,350 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 931,
+      "offset": 938,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "StringLiteral",
-      "offset": 976,
+      "offset": 983,
       "length": 12,
       "value": "\"label_skip\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 1052,
       "length": 9,
       "value": "\"btnSkip\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1213,
+      "offset": 1220,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1269,
+      "offset": 1276,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "StringLiteral",
-      "offset": 1460,
+      "offset": 1467,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "Array",
-      "offset": 2010,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
-      "kind": "Array",
-      "offset": 2656,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
-      "kind": "Array",
-      "offset": 3259,
+      "offset": 2017,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3618,
+      "offset": 2066,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2112,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
+      "kind": "Array",
+      "offset": 2778,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
+      "kind": "Array",
+      "offset": 3393,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3752,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "Dictionary",
-      "offset": 3962,
+      "offset": 4096,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "StringLiteral",
-      "offset": 4092,
+      "offset": 4226,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "StringLiteral",
-      "offset": 4229,
+      "offset": 4363,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4620,
+      "offset": 4613,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4847,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "Dictionary",
-      "offset": 5034,
+      "offset": 5261,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "StringLiteral",
-      "offset": 5164,
+      "offset": 5391,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "StringLiteral",
-      "offset": 5301,
+      "offset": 5528,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5645,
+      "offset": 5777,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5964,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6277,
+      "offset": 6596,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6361,
+      "offset": 6680,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6435,
+      "offset": 6754,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6539,
+      "offset": 6858,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6644,
+      "offset": 6963,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6739,
+      "offset": 7058,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6840,
+      "offset": 7159,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6939,
+      "offset": 7258,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6988,
+      "offset": 7307,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7078,
+      "offset": 7397,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7093,
+      "offset": 7412,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7158,
+      "offset": 7477,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7173,
+      "offset": 7492,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7224,
+      "offset": 7543,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7237,
+      "offset": 7556,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7249,
+      "offset": 7568,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7263,
+      "offset": 7582,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7312,
+      "offset": 7631,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7382,
+      "offset": 7701,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7395,
+      "offset": 7714,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7406,
+      "offset": 7725,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7420,
+      "offset": 7739,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7487,
+      "offset": 7806,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7603,
+      "offset": 7922,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7690,
+      "offset": 8009,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7820,
+      "offset": 8139,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7927,
+      "offset": 8246,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/MatiDynamicInputsView.swift",
       "kind": "StringLiteral",
-      "offset": 8064,
+      "offset": 8383,
       "length": 39,
       "value": "\"metamap_subtitle_custominput_rational\""
     },
@@ -60069,91 +60156,91 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 416,
+      "offset": 453,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 439,
+      "offset": 476,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 503,
       "length": 9,
       "value": "\"Options\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 575,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 602,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 633,
       "length": 9,
       "value": "\"Options\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 575,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 565,
+      "offset": 602,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 633,
       "length": 9,
       "value": "\"Options\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 416,
+      "offset": 453,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 439,
+      "offset": 476,
       "length": 6,
       "value": "\"date\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 466,
+      "offset": 503,
       "length": 9,
       "value": "\"Options\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Models\/MatiDynamicInputModel.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 829,
       "length": 24,
       "value": "\"MetaMapSDK.MatiDynamicDataContainer\""
     },
@@ -60321,37 +60408,37 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicTextInputItemView.swift",
       "kind": "StringLiteral",
-      "offset": 892,
+      "offset": 917,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicTextInputItemView.swift",
       "kind": "StringLiteral",
-      "offset": 1133,
+      "offset": 1158,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicTextInputItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1302,
+      "offset": 1327,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicTextInputItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1475,
+      "offset": 1500,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicTextInputItemView.swift",
       "kind": "StringLiteral",
-      "offset": 1841,
-      "length": 5,
-      "value": "\"AAA\""
+      "offset": 1868,
+      "length": 36,
+      "value": "\"metamap_empty_input _error_message\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/models\/MFKYCFlow.swift",
@@ -60944,609 +61031,609 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "StringLiteral",
-      "offset": 2253,
+      "offset": 2303,
       "length": 9,
       "value": "\"#232939\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2328,
+      "offset": 2378,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2390,
+      "offset": 2440,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2560,
+      "offset": 2610,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "StringLiteral",
-      "offset": 2612,
+      "offset": 2712,
       "length": 9,
       "value": "\"#232939\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2687,
+      "offset": 2787,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2749,
+      "offset": 2849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "StringLiteral",
-      "offset": 2872,
+      "offset": 2972,
       "length": 41,
       "value": "\"metamap_label_loading_your_verification\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "StringLiteral",
-      "offset": 3037,
+      "offset": 3137,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "FloatLiteral",
-      "offset": 3262,
+      "offset": 3370,
       "length": 3,
       "value": "0.3"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "FloatLiteral",
-      "offset": 3274,
+      "offset": 3382,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3366,
+      "offset": 3474,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "FloatLiteral",
-      "offset": 3437,
+      "offset": 3544,
       "length": 3,
       "value": "3.5"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3577,
+      "offset": 3684,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3665,
+      "offset": 3772,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4476,
+      "offset": 4675,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4566,
+      "offset": 4765,
       "length": 3,
       "value": "-15"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4737,
+      "offset": 4936,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4825,
+      "offset": 5024,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4915,
+      "offset": 5114,
       "length": 3,
       "value": "-15"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4954,
+      "offset": 5153,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4979,
+      "offset": 5178,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5292,
+      "offset": 5491,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5297,
+      "offset": 5496,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5312,
+      "offset": 5511,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5374,
+      "offset": 5573,
       "length": 3,
       "value": "104"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5390,
+      "offset": 5589,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5477,
+      "offset": 5676,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5540,
+      "offset": 5739,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5555,
+      "offset": 5754,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5692,
+      "offset": 5891,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5697,
+      "offset": 5896,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5712,
+      "offset": 5911,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5778,
+      "offset": 5977,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5793,
+      "offset": 5992,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5877,
+      "offset": 6076,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5892,
+      "offset": 6091,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 5959,
+      "offset": 6158,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 5974,
+      "offset": 6173,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6096,
+      "offset": 6295,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6111,
+      "offset": 6310,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6175,
+      "offset": 6374,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6190,
+      "offset": 6389,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6277,
+      "offset": 6476,
       "length": 3,
       "value": "127"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6293,
+      "offset": 6492,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6381,
+      "offset": 6580,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6512,
+      "offset": 6711,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6527,
+      "offset": 6726,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6595,
+      "offset": 6794,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6610,
+      "offset": 6809,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6702,
+      "offset": 6901,
       "length": 3,
       "value": "-35"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6718,
+      "offset": 6917,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6810,
+      "offset": 7009,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 6956,
+      "offset": 7155,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 6970,
+      "offset": 7169,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7056,
+      "offset": 7255,
       "length": 3,
       "value": "-37"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7072,
+      "offset": 7271,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7136,
+      "offset": 7335,
       "length": 3,
       "value": "174"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7152,
+      "offset": 7351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7241,
+      "offset": 7440,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7341,
+      "offset": 7540,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7355,
+      "offset": 7554,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7418,
+      "offset": 7617,
       "length": 3,
       "value": "262"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7434,
+      "offset": 7633,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7522,
+      "offset": 7721,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7537,
+      "offset": 7736,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7625,
+      "offset": 7824,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7727,
+      "offset": 7926,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7742,
+      "offset": 7941,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7830,
+      "offset": 8029,
       "length": 3,
       "value": "-17"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7846,
+      "offset": 8045,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 7934,
+      "offset": 8133,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 7949,
+      "offset": 8148,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8039,
+      "offset": 8238,
       "length": 3,
       "value": "-18"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8055,
+      "offset": 8254,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8118,
+      "offset": 8317,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8143,
+      "offset": 8342,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "FloatLiteral",
-      "offset": 8183,
+      "offset": 8382,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8195,
+      "offset": 8394,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8498,
+      "offset": 8697,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8537,
+      "offset": 8736,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8703,
+      "offset": 8902,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8760,
+      "offset": 8959,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8766,
+      "offset": 8965,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8863,
+      "offset": 9062,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8869,
+      "offset": 9068,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/ShimmerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 8947,
+      "offset": 9146,
       "length": 1,
       "value": "0"
     },
@@ -63107,42 +63194,42 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDropdownItemView.swift",
       "kind": "Array",
-      "offset": 472,
+      "offset": 495,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDropdownItemView.swift",
       "kind": "StringLiteral",
-      "offset": 1037,
+      "offset": 1060,
       "length": 39,
       "value": "\"init(coder:) has not been implemented\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDropdownItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1206,
+      "offset": 1229,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDropdownItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1487,
+      "offset": 1510,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDropdownItemView.swift",
       "kind": "StringLiteral",
-      "offset": 1929,
-      "length": 5,
-      "value": "\"AAA\""
+      "offset": 1954,
+      "length": 36,
+      "value": "\"metamap_empty_input _error_message\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/Views\/Inputs\/MatiDynamicDropdownItemView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2438,
+      "offset": 2508,
       "length": 1,
       "value": "1"
     },
@@ -66179,253 +66266,274 @@
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11151,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 12397,
+      "offset": 12162,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 12936,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
+      "kind": "StringLiteral",
+      "offset": 13200,
       "length": 14,
       "value": "\"input.locked\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 13769,
+      "offset": 14572,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 14064,
+      "offset": 14867,
       "length": 7,
       "value": "\"error\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 14427,
+      "offset": 15230,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14934,
+      "offset": 15737,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15055,
+      "offset": 15858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 15342,
+      "offset": 16145,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16298,
+      "offset": 17101,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 16302,
+      "offset": 17105,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 16478,
+      "offset": 17281,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 16992,
+      "offset": 17795,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 17008,
+      "offset": 17811,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18720,
+      "offset": 19523,
       "length": 55,
       "value": "\"phoneNumberWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18824,
+      "offset": 19627,
       "length": 56,
       "value": "\"emailAddressWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18918,
+      "offset": 19721,
       "length": 30,
       "value": "\"verification.input.processed\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18987,
+      "offset": 19790,
       "length": 50,
       "value": "\"emailAddressWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19076,
+      "offset": 19879,
       "length": 49,
       "value": "\"phoneNumberWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19162,
+      "offset": 19965,
       "length": 47,
       "value": "\"emailAddressWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19246,
+      "offset": 20049,
       "length": 46,
       "value": "\"phoneNumberWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19320,
+      "offset": 20123,
       "length": 28,
       "value": "\"connectionData.vpnDetected\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19378,
+      "offset": 20181,
       "length": 27,
       "value": "\"connectionData.restricted\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18720,
+      "offset": 19523,
       "length": 55,
       "value": "\"phoneNumberWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18824,
+      "offset": 19627,
       "length": 56,
       "value": "\"emailAddressWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18918,
+      "offset": 19721,
       "length": 30,
       "value": "\"verification.input.processed\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 18987,
+      "offset": 19790,
       "length": 50,
       "value": "\"emailAddressWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19076,
+      "offset": 19879,
       "length": 49,
       "value": "\"phoneNumberWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19162,
+      "offset": 19965,
       "length": 47,
       "value": "\"emailAddressWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19246,
+      "offset": 20049,
       "length": 46,
       "value": "\"phoneNumberWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19320,
+      "offset": 20123,
       "length": 28,
       "value": "\"connectionData.vpnDetected\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19378,
+      "offset": 20181,
       "length": 27,
       "value": "\"connectionData.restricted\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 20367,
+      "offset": 21170,
       "length": 9,
       "value": "\"sdkType\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 20450,
+      "offset": 21253,
       "length": 16,
       "value": "\"iOS_\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 20465,
+      "offset": 21268,
       "length": 30,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "Dictionary",
-      "offset": 20572,
+      "offset": 21375,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "Dictionary",
-      "offset": 20633,
+      "offset": 21436,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 20858,
+      "offset": 21661,
       "length": 2,
       "value": "\"\""
     },
@@ -70646,49 +70754,49 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8343,
+      "offset": 8348,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8366,
+      "offset": 8371,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8443,
+      "offset": 8448,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8583,
+      "offset": 8588,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8692,
+      "offset": 8697,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8733,
+      "offset": 8738,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9207,
+      "offset": 9212,
       "length": 4,
       "value": "true"
     },
@@ -71073,105 +71181,105 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "FloatLiteral",
-      "offset": 1328,
+      "offset": 1387,
       "length": 4,
       "value": "0.85"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "FloatLiteral",
-      "offset": 1341,
+      "offset": 1400,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "FloatLiteral",
-      "offset": 1409,
+      "offset": 1525,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "FloatLiteral",
-      "offset": 1422,
+      "offset": 1538,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "FloatLiteral",
-      "offset": 1570,
+      "offset": 1686,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "FloatLiteral",
-      "offset": 1578,
+      "offset": 1694,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "FloatLiteral",
-      "offset": 1627,
+      "offset": 1743,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "FloatLiteral",
-      "offset": 1635,
+      "offset": 1751,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "Array",
-      "offset": 1760,
+      "offset": 1876,
       "length": 15,
       "value": "[0.0, 0.0, 1.0]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "StringLiteral",
-      "offset": 1924,
+      "offset": 2040,
       "length": 11,
       "value": "\"locations\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "Array",
-      "offset": 1967,
+      "offset": 2083,
       "length": 17,
       "value": "[-1.0, -0.5, 0.0]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "Array",
-      "offset": 2013,
+      "offset": 2129,
       "length": 15,
       "value": "[1.0, 1.5, 2.0]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2100,
+      "offset": 2216,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2470,
+      "offset": 2586,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIView.swift",
       "kind": "StringLiteral",
-      "offset": 2723,
+      "offset": 2839,
       "length": 39,
       "value": "\"_UISearchBarSearchFieldBackgroundView\""
     },
@@ -72731,57 +72839,71 @@
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 535,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 611,
+      "length": 2,
+      "value": "17"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 497,
+      "offset": 652,
       "length": 64,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 517,
+      "offset": 672,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 538,
+      "offset": 693,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 712,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 560,
+      "offset": 715,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 596,
+      "offset": 751,
       "length": 45,
       "value": "\"+\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 635,
+      "offset": 790,
       "length": 4,
       "value": "\"52\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/OTPViewController\/countryList\/OTPCountryList\/cell\/MatiSmsCountryTableViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 640,
+      "offset": 795,
       "length": 1,
       "value": "\"\""
     },
@@ -72893,56 +73015,56 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 751,
+      "offset": 750,
       "length": 7,
       "value": "\"Lato-\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 969,
+      "offset": 968,
       "length": 7,
       "value": "\"Lato-\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "Array",
-      "offset": 1138,
+      "offset": 1137,
       "length": 70,
       "value": "[\"Lato-Regular\", \"Lato-Bold\"]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 1576,
+      "offset": 1575,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 1827,
+      "offset": 1826,
       "length": 3,
       "value": "\".\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 1841,
+      "offset": 1840,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 1935,
+      "offset": 1934,
       "length": 5,
       "value": "\"ttf\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/extensions\/UIFont.swift",
       "kind": "StringLiteral",
-      "offset": 2014,
+      "offset": 2013,
       "length": 5,
       "value": "\"otf\""
     },
@@ -76673,84 +76795,105 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "StringLiteral",
-      "offset": 592,
+      "offset": 745,
       "length": 12,
       "value": "\"matiServer\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "StringLiteral",
-      "offset": 673,
+      "offset": 826,
       "length": 15,
       "value": "\"fixedLanguage\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "StringLiteral",
-      "offset": 755,
+      "offset": 908,
       "length": 13,
       "value": "\"buttonColor\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "StringLiteral",
-      "offset": 839,
+      "offset": 992,
       "length": 17,
       "value": "\"buttonTextColor\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "StringLiteral",
-      "offset": 921,
+      "offset": 1074,
       "length": 11,
       "value": "\"enableLog\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "StringLiteral",
-      "offset": 997,
+      "offset": 1150,
       "length": 13,
       "value": "\"regularFont\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "StringLiteral",
-      "offset": 1074,
+      "offset": 1227,
       "length": 10,
       "value": "\"boldFont\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "StringLiteral",
-      "offset": 1328,
+      "offset": 1324,
+      "length": 24,
+      "value": "\"shimmerBackgroundColor\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
+      "kind": "StringLiteral",
+      "offset": 1422,
+      "length": 16,
+      "value": "\"titleTextColor\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
+      "kind": "StringLiteral",
+      "offset": 1510,
+      "length": 19,
+      "value": "\"subtitleTextColor\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
+      "kind": "StringLiteral",
+      "offset": 1791,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "BooleanLiteral",
-      "offset": 1396,
+      "offset": 1859,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "BooleanLiteral",
-      "offset": 2163,
+      "offset": 3053,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "StringLiteral",
-      "offset": 2205,
+      "offset": 3095,
       "length": 60,
       "value": "\"Setting category to AVAudioSessionCategoryPlayback failed.\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMap.swift",
       "kind": "BooleanLiteral",
-      "offset": 3304,
+      "offset": 4199,
       "length": 4,
       "value": "true"
     },
@@ -78062,6 +78205,13 @@
       "offset": 5990,
       "length": 6,
       "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapApiManager.swift",
+      "kind": "StringLiteral",
+      "offset": 7379,
+      "length": 4,
+      "value": "\"en\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/SwiftSVG\/parser\/NSXMLSVGParser.swift",
@@ -79683,371 +79833,371 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2424,
+      "offset": 2464,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2430,
+      "offset": 2470,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2440,
+      "offset": 2480,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2506,
+      "offset": 2546,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2511,
+      "offset": 2551,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2704,
+      "offset": 2744,
       "length": 19,
       "value": "\"close_button_icon\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3008,
+      "offset": 3048,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3024,
+      "offset": 3064,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3936,
+      "offset": 3976,
       "length": 19,
       "value": "\"label_attach_file\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4278,
+      "offset": 4318,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4366,
+      "offset": 4406,
       "length": 18,
       "value": "\"label_take_photo\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4705,
+      "offset": 4745,
       "length": 27,
       "value": "\"label_por_type_hint_title\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4780,
+      "offset": 4820,
       "length": 23,
       "value": "\"select_por_first_hint\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4874,
+      "offset": 4914,
       "length": 16,
       "value": "\"Bank statement\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4893,
+      "offset": 4933,
       "length": 37,
       "value": "\"select_por_second_hint_utility_bill\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4947,
+      "offset": 4987,
       "length": 37,
       "value": "\"select_por_second_hint_utility_bill\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5029,
+      "offset": 5069,
       "length": 23,
       "value": "\"select_por_third_hint\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5098,
+      "offset": 5138,
       "length": 24,
       "value": "\"select_por_fourth_hint\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5170,
+      "offset": 5210,
       "length": 19,
       "value": "\"por_warning_label\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5206,
+      "offset": 5246,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5280,
+      "offset": 5320,
       "length": 22,
       "value": "\"label_bank_statement\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5464,
+      "offset": 5504,
       "length": 13,
       "value": "\"d MMM, YYYY\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5572,
+      "offset": 5612,
       "length": 2,
       "value": "-3"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6302,
+      "offset": 6342,
       "length": 19,
       "value": "\"label_file_button\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6464,
+      "offset": 6504,
       "length": 27,
       "value": "\"label_photolibrary_button\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6652,
+      "offset": 6692,
       "length": 21,
       "value": "\"label_cancel_button\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6872,
+      "offset": 6912,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7317,
+      "offset": 7357,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7596,
+      "offset": 7636,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7708,
+      "offset": 7748,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7889,
+      "offset": 7929,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8178,
+      "offset": 8218,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8245,
+      "offset": 8285,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8253,
+      "offset": 8293,
       "length": 4,
       "value": "-1.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8520,
+      "offset": 8570,
       "length": 23,
       "value": "\"custom-document-photo\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8600,
+      "offset": 8650,
       "length": 13,
       "value": "\"national_id\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8674,
+      "offset": 8724,
       "length": 17,
       "value": "\"custom-passport\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8746,
+      "offset": 8796,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8819,
+      "offset": 8869,
       "length": 17,
       "value": "\"proof_residence\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8888,
+      "offset": 8938,
       "length": 6,
       "value": "\"none\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8934,
+      "offset": 8984,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9182,
+      "offset": 9232,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9302,
+      "offset": 9352,
       "length": 59,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9346,
+      "offset": 9396,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9349,
+      "offset": 9399,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9360,
+      "offset": 9410,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9456,
+      "offset": 9506,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9515,
+      "offset": 9565,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9614,
+      "offset": 9664,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10465,
+      "offset": 10515,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11067,
+      "offset": 11117,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11388,
+      "offset": 11438,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/PoRScreen\/MatiPoRTutorialViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12018,
+      "offset": 12068,
       "length": 5,
       "value": "false"
     },
@@ -80466,295 +80616,316 @@
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4454,
+      "length": 2,
+      "value": "25"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4528,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4603,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4414,
+      "offset": 4634,
       "length": 37,
       "value": "\"metamap_phone_verification_subtitle\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4494,
+      "offset": 4714,
       "length": 34,
       "value": "\"metamap_phone_verification_label\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4591,
+      "offset": 4811,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4640,
+      "offset": 4860,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4708,
+      "offset": 4928,
       "length": 8,
       "value": "\"D3D4D7\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4893,
+      "offset": 5113,
       "length": 40,
       "value": "\"metamap_phone_verification_placeholder\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5070,
+      "offset": 5290,
       "length": 8,
       "value": "\"B8B9BE\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5244,
+      "offset": 5464,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5308,
+      "offset": 5528,
       "length": 8,
       "value": "\"232939\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5455,
+      "offset": 5675,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5498,
+      "offset": 5718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5530,
+      "offset": 5750,
       "length": 28,
       "value": "\"error_invalid_phone_number\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5791,
+      "offset": 6011,
       "length": 41,
       "value": "\"metamap_title_email_submission_fragment\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5874,
+      "offset": 6094,
       "length": 44,
       "value": "\"metamap_subtitle_email_submission_fragment\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5961,
+      "offset": 6181,
       "length": 34,
       "value": "\"metamap_email_verification_label\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6058,
+      "offset": 6278,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6107,
+      "offset": 6327,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6175,
+      "offset": 6395,
       "length": 8,
       "value": "\"D3D4D7\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6267,
+      "offset": 6487,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6325,
+      "offset": 6545,
       "length": 8,
       "value": "\"232939\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6483,
+      "offset": 6703,
       "length": 40,
       "value": "\"metamap_email_verification_placeholder\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6660,
+      "offset": 6880,
       "length": 8,
       "value": "\"B8B9BE\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6712,
+      "offset": 6932,
       "length": 55,
       "value": "\"invalid_email_error_message_email_submission_fragment\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7029,
+      "offset": 7249,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7073,
+      "offset": 7293,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7153,
+      "offset": 7373,
       "length": 44,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7191,
+      "offset": 7411,
       "length": 4,
       "value": "\"MX\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7196,
+      "offset": 7416,
       "length": 5,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7200,
+      "offset": 7420,
       "length": 5,
       "value": "\"  +\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7208,
+      "offset": 7428,
       "length": 49,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7253,
+      "offset": 7473,
       "length": 2,
       "value": "52"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7256,
+      "offset": 7476,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8625,
+      "offset": 8845,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8629,
+      "offset": 8849,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9223,
+      "offset": 9443,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9845,
+      "offset": 10065,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 9887,
+      "offset": 10107,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10180,
+      "offset": 10400,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 10383,
+      "offset": 10603,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11106,
+      "offset": 11326,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 12023,
+      "offset": 12243,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13160,
+      "offset": 13380,
       "length": 5,
       "value": "false"
     },
@@ -80768,49 +80939,49 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14183,
+      "offset": 14403,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14204,
+      "offset": 14424,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14305,
+      "offset": 14525,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14410,
+      "offset": 14630,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14728,
+      "offset": 14948,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14734,
+      "offset": 14954,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14742,
+      "offset": 14962,
       "length": 4,
       "value": "true"
     },
@@ -86993,7 +87164,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.17.1\""
+      "value": "\"3.18.0\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
@@ -88153,142 +88324,121 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14093,
+      "offset": 14084,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14783,
+      "offset": 14786,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15733,
+      "offset": 15894,
       "length": 4,
       "value": "\"BR\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 15759,
-      "length": 9,
-      "value": "\"success\""
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15912,
+      "offset": 16037,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16227,
+      "offset": 16352,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16245,
+      "offset": 16370,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16612,
+      "offset": 16737,
       "length": 11,
       "value": "\"errorCode\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16639,
+      "offset": 16764,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18132,
+      "offset": 18257,
       "length": 26,
       "value": "\"document_too_small_title\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19322,
+      "offset": 19447,
       "length": 5,
       "value": "\"413\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 19453,
+      "offset": 19578,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 20957,
+      "offset": 21082,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21008,
+      "offset": 21133,
       "length": 13,
       "value": "\"national_id\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21074,
+      "offset": 21199,
       "length": 17,
       "value": "\"driving_licence\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21138,
+      "offset": 21263,
       "length": 10,
       "value": "\"passport\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21203,
+      "offset": 21328,
       "length": 17,
       "value": "\"proof_residence\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21263,
+      "offset": 21388,
       "length": 6,
       "value": "\"none\""
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 21302,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 21357,
-      "length": 4,
-      "value": "\"US\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
@@ -88300,49 +88450,63 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21538,
+      "offset": 21482,
+      "length": 4,
+      "value": "\"US\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 21552,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 21663,
       "length": 59,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21582,
+      "offset": 21707,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21585,
+      "offset": 21710,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21596,
+      "offset": 21721,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21686,
+      "offset": 21811,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21739,
+      "offset": 21864,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 21839,
+      "offset": 21964,
       "length": 2,
       "value": "\"\""
     },
@@ -89546,861 +89710,882 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 788,
+      "offset": 836,
       "length": 21,
       "value": "\"url can not be null\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "IntegerLiteral",
-      "offset": 843,
+      "offset": 891,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "IntegerLiteral",
-      "offset": 916,
+      "offset": 964,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "IntegerLiteral",
-      "offset": 969,
+      "offset": 1017,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1078,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 1560,
+      "offset": 1669,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 1579,
+      "offset": 1688,
       "length": 23,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 1601,
+      "offset": 1710,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 1725,
+      "offset": 1834,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 1742,
+      "offset": 1851,
       "length": 23,
       "value": "\"Bearer \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 1764,
+      "offset": 1873,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 2111,
+      "offset": 2220,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 2138,
+      "offset": 2247,
       "length": 26,
       "value": "\"openid verification_flow\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 2200,
+      "offset": 2309,
       "length": 17,
       "value": "\"application_key\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 2342,
+      "offset": 2451,
       "length": 17,
       "value": "\"application_key\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 2453,
+      "offset": 2562,
       "length": 9,
       "value": "\"flow_id\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 2554,
+      "offset": 2663,
       "length": 12,
       "value": "\"grant_type\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 2661,
+      "offset": 2770,
       "length": 7,
       "value": "\"scope\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "Array",
-      "offset": 2883,
+      "offset": 2992,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3169,
+      "offset": 3278,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3183,
+      "offset": 3292,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3257,
+      "offset": 3366,
       "length": 58,
       "value": "\"Content-Disposition: form-data; name=\"inputId\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3384,
+      "offset": 3493,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3395,
+      "offset": 3504,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3550,
+      "offset": 3659,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3564,
+      "offset": 3673,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3638,
+      "offset": 3747,
       "length": 63,
       "value": "\"Content-Disposition: form-data; name=\"documentType\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3770,
+      "offset": 3879,
       "length": 21,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3786,
+      "offset": 3895,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 4038,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 3943,
+      "offset": 4052,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4017,
+      "offset": 4126,
       "length": 57,
       "value": "\"Content-Disposition: form-data; name=\"pageId\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4143,
+      "offset": 4252,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4153,
+      "offset": 4262,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4298,
+      "offset": 4407,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4312,
+      "offset": 4421,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4386,
+      "offset": 4495,
       "length": 58,
       "value": "\"Content-Disposition: form-data; name=\"country\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4513,
+      "offset": 4622,
       "length": 16,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4524,
+      "offset": 4633,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4667,
+      "offset": 4776,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4681,
+      "offset": 4790,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4755,
+      "offset": 4864,
       "length": 57,
       "value": "\"Content-Disposition: form-data; name=\"region\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4881,
+      "offset": 4990,
       "length": 15,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 4891,
+      "offset": 5000,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5050,
+      "offset": 5159,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5064,
+      "offset": 5173,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5138,
+      "offset": 5247,
       "length": 65,
       "value": "\"Content-Disposition: form-data; name=\"verificationId\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5272,
+      "offset": 5381,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5290,
+      "offset": 5399,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5458,
+      "offset": 5567,
       "length": 16,
       "value": "\"taxpayerNumber\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5510,
+      "offset": 5619,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5524,
+      "offset": 5633,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5598,
+      "offset": 5707,
       "length": 63,
       "value": "\"Content-Disposition: form-data; name=\"overriddenFields\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5730,
+      "offset": 5839,
       "length": 40,
       "value": "\"Content-Type: application\/json\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5839,
+      "offset": 5948,
       "length": 49,
       "value": "\"{\"taxpayerNumber\": \"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 5880,
+      "offset": 5989,
       "length": 1,
       "value": "\"\"}\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6044,
+      "offset": 6153,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6058,
+      "offset": 6167,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6132,
+      "offset": 6241,
       "length": 66,
       "value": "\"Content-Disposition: form-data; name=\"documentSubtype\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6267,
+      "offset": 6376,
       "length": 24,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6286,
+      "offset": 6395,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6539,
+      "offset": 6648,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6553,
+      "offset": 6662,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6706,
+      "offset": 6815,
       "length": 8,
       "value": "\"custom\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6753,
+      "offset": 6862,
       "length": 17,
       "value": "\"custom-document\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6825,
+      "offset": 6934,
       "length": 88,
       "value": "\"Content-Disposition: form-data; name=\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6876,
+      "offset": 6985,
       "length": 1,
       "value": "\"\"; filename=\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6906,
+      "offset": 7015,
       "length": 1,
       "value": "\"\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 6982,
+      "offset": 7091,
       "length": 40,
       "value": "\"Content-Type: \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7013,
+      "offset": 7122,
       "length": 1,
       "value": "\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7129,
+      "offset": 7238,
       "length": 6,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7204,
+      "offset": 7313,
       "length": 21,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7218,
+      "offset": 7327,
       "length": 2,
       "value": "\"--\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7469,
+      "offset": 7578,
       "length": 19,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7483,
+      "offset": 7592,
       "length": 1,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7636,
+      "offset": 7745,
       "length": 8,
       "value": "\"custom\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7683,
+      "offset": 7792,
       "length": 17,
       "value": "\"custom-document\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7755,
+      "offset": 7864,
       "length": 88,
       "value": "\"Content-Disposition: form-data; name=\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7806,
+      "offset": 7915,
       "length": 1,
       "value": "\"\"; filename=\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7836,
+      "offset": 7945,
       "length": 1,
       "value": "\"\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7912,
+      "offset": 8021,
       "length": 40,
       "value": "\"Content-Type: \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 7943,
+      "offset": 8052,
       "length": 1,
       "value": "\"\r\n\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 8059,
+      "offset": 8168,
       "length": 6,
       "value": "\"\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 8134,
+      "offset": 8243,
       "length": 21,
       "value": "\"--\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 8148,
+      "offset": 8257,
       "length": 2,
       "value": "\"--\r\n\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 8404,
+      "offset": 8513,
       "length": 21,
       "value": "\"yyyy-MM-dd_HH:mm:ss\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 9035,
+      "offset": 9144,
       "length": 14,
       "value": "\"documentType\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 9057,
+      "offset": 9166,
       "length": 7,
       "value": "\"group\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "Array",
-      "offset": 9185,
+      "offset": 9294,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 9437,
+      "offset": 9546,
       "length": 14,
       "value": "\"documentType\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 9459,
+      "offset": 9568,
       "length": 7,
       "value": "\"group\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 9475,
+      "offset": 9584,
       "length": 6,
       "value": "\"skip\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "Array",
-      "offset": 9605,
+      "offset": 9714,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 9714,
+      "offset": 9823,
       "length": 14,
       "value": "\"documentType\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 9736,
+      "offset": 9845,
       "length": 7,
       "value": "\"group\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "Array",
-      "offset": 9868,
+      "offset": 9977,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "Array",
-      "offset": 10109,
+      "offset": 10218,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "Array",
-      "offset": 10286,
+      "offset": 10395,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 10714,
+      "offset": 10879,
       "length": 5,
       "value": "\"%@:\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 10721,
+      "offset": 10886,
       "length": 13,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 10733,
+      "offset": 10898,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 10923,
+      "offset": 11088,
       "length": 15,
       "value": "\"Authorization\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 10940,
+      "offset": 11105,
       "length": 28,
       "value": "\"Basic \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 10967,
+      "offset": 11132,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 11085,
+      "offset": 11250,
       "length": 8,
       "value": "\"accept\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 11097,
+      "offset": 11262,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 11205,
+      "offset": 11370,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 11221,
+      "offset": 11386,
       "length": 43,
       "value": "\"multipart\/form-data; boundary=\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 11263,
+      "offset": 11428,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "Dictionary",
-      "offset": 11302,
+      "offset": 11467,
       "length": 36,
       "value": "[(\"Content-Type\", \"application\/json\")]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 11825,
+      "offset": 12010,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 12200,
+      "offset": 12385,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 12509,
+      "offset": 12694,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 12955,
+      "offset": 13140,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 13364,
+      "offset": 13549,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 13516,
+      "offset": 13701,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 13665,
+      "offset": 13850,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 14141,
+      "offset": 14009,
+      "length": 13,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
+      "kind": "StringLiteral",
+      "offset": 14016,
+      "length": 1,
+      "value": "\".json\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
+      "kind": "StringLiteral",
+      "offset": 14448,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 14341,
+      "offset": 14648,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 14363,
+      "offset": 14670,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 14607,
+      "offset": 14914,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 14965,
+      "offset": 15272,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 15011,
+      "offset": 15318,
       "length": 5,
       "value": "\"PUT\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/TargetTypes\/MetaMapTargetType.swift",
       "kind": "StringLiteral",
-      "offset": 15063,
+      "offset": 15393,
       "length": 5,
       "value": "\"GET\""
     },
@@ -90969,7 +91154,7 @@
       "kind": "IntegerLiteral",
       "offset": 1074,
       "length": 5,
-      "value": "20000"
+      "value": "30000"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/VoiceLivenessViewController.swift",
@@ -92584,238 +92769,252 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 199,
+      "offset": 201,
       "length": 18,
       "value": "\"https:\/\/product.\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 241,
+      "offset": 243,
       "length": 6,
       "value": "\"\/api\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 275,
+      "offset": 277,
       "length": 14,
       "value": "\"https:\/\/api.\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 324,
       "length": 16,
       "value": "\"https:\/\/media.\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 199,
+      "offset": 201,
       "length": 18,
       "value": "\"https:\/\/product.\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 241,
+      "offset": 243,
       "length": 6,
       "value": "\"\/api\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 275,
+      "offset": 277,
       "length": 14,
       "value": "\"https:\/\/api.\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 322,
+      "offset": 324,
       "length": 16,
       "value": "\"https:\/\/media.\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 456,
+      "offset": 494,
+      "length": 41,
+      "value": "\"https:\/\/i18n.metamap.com\/dynamicinputs\/\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 41,
+      "value": "\"https:\/\/i18n.metamap.com\/dynamicinputs\/\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
       "length": 14,
       "value": "\"\/oauth\/token\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 500,
+      "offset": 705,
       "length": 16,
       "value": "\"\/verifications\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 749,
       "length": 46,
       "value": "\"\/verifications\/%@\/inputs\/additional-consents\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 613,
+      "offset": 818,
       "length": 26,
       "value": "\"\/verification\/v1\/signals\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 865,
       "length": 7,
       "value": "\"\/file\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 907,
       "length": 53,
       "value": "\"\/verifications\/%@\/inputs\/custom-document-photo\/skip\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 989,
       "length": 46,
       "value": "\"\/verifications\/%@\/inputs\/document-photo\/skip\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 851,
+      "offset": 1056,
       "length": 34,
       "value": "\"\/verifications\/%@\/inputs\/%@\/skip\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 913,
+      "offset": 1118,
       "length": 29,
       "value": "\"\/verifications\/%@\/inputs\/%@\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 972,
+      "offset": 1177,
       "length": 43,
       "value": "\"\/verifications\/%@\/inputs\/geolocation-data\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1255,
       "length": 20,
       "value": "\"\/verification-flow\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 1097,
+      "offset": 1302,
       "length": 12,
       "value": "\"\/sdk-stats\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1342,
       "length": 42,
       "value": "\"\/verifications\/%@\/inputs\/connection-data\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 456,
+      "offset": 661,
       "length": 14,
       "value": "\"\/oauth\/token\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 500,
+      "offset": 705,
       "length": 16,
       "value": "\"\/verifications\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 544,
+      "offset": 749,
       "length": 46,
       "value": "\"\/verifications\/%@\/inputs\/additional-consents\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 613,
+      "offset": 818,
       "length": 26,
       "value": "\"\/verification\/v1\/signals\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 660,
+      "offset": 865,
       "length": 7,
       "value": "\"\/file\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 702,
+      "offset": 907,
       "length": 53,
       "value": "\"\/verifications\/%@\/inputs\/custom-document-photo\/skip\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 989,
       "length": 46,
       "value": "\"\/verifications\/%@\/inputs\/document-photo\/skip\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 851,
+      "offset": 1056,
       "length": 34,
       "value": "\"\/verifications\/%@\/inputs\/%@\/skip\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 913,
+      "offset": 1118,
       "length": 29,
       "value": "\"\/verifications\/%@\/inputs\/%@\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 972,
+      "offset": 1177,
       "length": 43,
       "value": "\"\/verifications\/%@\/inputs\/geolocation-data\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1255,
       "length": 20,
       "value": "\"\/verification-flow\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 1097,
+      "offset": 1302,
       "length": 12,
       "value": "\"\/sdk-stats\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/resurses\/APIResurses\/API.swift",
       "kind": "StringLiteral",
-      "offset": 1137,
+      "offset": 1342,
       "length": 42,
       "value": "\"\/verifications\/%@\/inputs\/connection-data\""
     },
@@ -93046,7 +93245,7 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/MatiMain\/MetaMap\/MetaMapMetadataHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 627,
+      "offset": 850,
       "length": 5,
       "value": "false"
     },
@@ -99892,7 +100091,7 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/RequestManager\/RequestManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 5589,
+      "offset": 5774,
       "length": 5,
       "value": "false"
     },
@@ -102328,28 +102527,35 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MatiMainViewCell\/MatiMainTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1282,
+      "offset": 1107,
+      "length": 2,
+      "value": "18"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MatiMainViewCell\/MatiMainTableViewCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1359,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MatiMainViewCell\/MatiMainTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1288,
+      "offset": 1365,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MatiMainViewCell\/MatiMainTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1298,
+      "offset": 1375,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MatiMainViewCell\/MatiMainTableViewCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1311,
+      "offset": 1388,
       "length": 3,
       "value": "120"
     },
@@ -103714,91 +103920,91 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12567,
+      "offset": 12982,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "Array",
-      "offset": 12639,
+      "offset": 13054,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 12987,
+      "offset": 13402,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 13027,
+      "offset": 13442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13102,
+      "offset": 13517,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 13138,
+      "offset": 13553,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "StringLiteral",
-      "offset": 14137,
+      "offset": 14552,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "StringLiteral",
-      "offset": 14251,
+      "offset": 14666,
       "length": 17,
       "value": "\"can-use-reusage\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "StringLiteral",
-      "offset": 14278,
+      "offset": 14693,
       "length": 30,
       "value": "\"can-use-verification-reusage\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "Array",
-      "offset": 14315,
+      "offset": 14730,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14408,
+      "offset": 14823,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "Array",
-      "offset": 14534,
+      "offset": 14949,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 14637,
+      "offset": 15052,
       "length": 5,
       "value": "false"
     },
@@ -104148,182 +104354,182 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1907,
+      "offset": 1961,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1940,
+      "offset": 2047,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1952,
+      "offset": 2112,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2428,
+      "offset": 2588,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2487,
+      "offset": 2647,
       "length": 4,
       "value": "\"US\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2583,
+      "offset": 2743,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2706,
+      "offset": 2866,
       "length": 111,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2772,
+      "offset": 2932,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2775,
+      "offset": 2935,
       "length": 1,
       "value": "\", \""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2813,
+      "offset": 2973,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2816,
+      "offset": 2976,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2936,
+      "offset": 3096,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3000,
+      "offset": 3160,
       "length": 27,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3013,
+      "offset": 3173,
       "length": 1,
       "value": "\" (\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3025,
+      "offset": 3185,
       "length": 1,
       "value": "\")\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3090,
+      "offset": 3250,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3581,
+      "offset": 3741,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3673,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3985,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4291,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 4374,
+      "offset": 3833,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4644,
+      "offset": 4145,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5255,
+      "offset": 4451,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 4534,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4804,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 5415,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5327,
+      "offset": 5487,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5387,
+      "offset": 5547,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/DynamicInputs\/MatiDynamicInputsViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5770,
+      "offset": 5930,
       "length": 4,
       "value": "true"
     },
