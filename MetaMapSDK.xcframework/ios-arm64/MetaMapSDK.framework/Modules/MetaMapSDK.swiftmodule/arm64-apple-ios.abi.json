@@ -5192,573 +5192,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "MetaMapSDK"
-      },
-      {
-        "kind": "Import",
-        "name": "MetricKit",
-        "printedName": "MetricKit",
-        "declKind": "Import",
-        "moduleName": "MetaMapSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MetaMapSentryMXManagerDelegate",
-        "printedName": "MetaMapSentryMXManagerDelegate",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "didReceiveCrashDiagnostic",
-            "printedName": "didReceiveCrashDiagnostic(_:callStackTree:timeStampBegin:timeStampEnd:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MXCrashDiagnostic",
-                "printedName": "MetricKit.MXCrashDiagnostic",
-                "usr": "c:objc(cs)MXCrashDiagnostic"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStackTree",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStackTree",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(pl)MetaMapSentryMXManagerDelegate(im)didReceiveCrashDiagnostic:callStackTree:timeStampBegin:timeStampEnd:",
-            "mangledName": "$s10MetaMapSDK0aB23SentryMXManagerDelegateP25didReceiveCrashDiagnostic_13callStackTree14timeStampBegin0nO3EndySo07MXCrashJ0C_AA0abd6MXCalllM0C10Foundation4DateVANtF",
-            "moduleName": "MetaMapSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MetaMapSDK.MetaMapSentryMXManagerDelegate>",
-            "sugared_genericSig": "<Self where Self : MetaMapSDK.MetaMapSentryMXManagerDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didReceiveDiskWriteExceptionDiagnostic",
-            "printedName": "didReceiveDiskWriteExceptionDiagnostic(_:callStackTree:timeStampBegin:timeStampEnd:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MXDiskWriteExceptionDiagnostic",
-                "printedName": "MetricKit.MXDiskWriteExceptionDiagnostic",
-                "usr": "c:objc(cs)MXDiskWriteExceptionDiagnostic"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStackTree",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStackTree",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(pl)MetaMapSentryMXManagerDelegate(im)didReceiveDiskWriteExceptionDiagnostic:callStackTree:timeStampBegin:timeStampEnd:",
-            "mangledName": "$s10MetaMapSDK0aB23SentryMXManagerDelegateP38didReceiveDiskWriteExceptionDiagnostic_13callStackTree14timeStampBegin0pQ3EndySo06MXDiskjkL0C_AA0abd6MXCallnO0C10Foundation4DateVANtF",
-            "moduleName": "MetaMapSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MetaMapSDK.MetaMapSentryMXManagerDelegate>",
-            "sugared_genericSig": "<Self where Self : MetaMapSDK.MetaMapSentryMXManagerDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didReceiveCpuExceptionDiagnostic",
-            "printedName": "didReceiveCpuExceptionDiagnostic(_:callStackTree:timeStampBegin:timeStampEnd:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MXCPUExceptionDiagnostic",
-                "printedName": "MetricKit.MXCPUExceptionDiagnostic",
-                "usr": "c:objc(cs)MXCPUExceptionDiagnostic"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStackTree",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStackTree",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(pl)MetaMapSentryMXManagerDelegate(im)didReceiveCpuExceptionDiagnostic:callStackTree:timeStampBegin:timeStampEnd:",
-            "mangledName": "$s10MetaMapSDK0aB23SentryMXManagerDelegateP32didReceiveCpuExceptionDiagnostic_13callStackTree14timeStampBegin0oP3EndySo014MXCPUExceptionK0C_AA0abd6MXCallmN0C10Foundation4DateVANtF",
-            "moduleName": "MetaMapSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MetaMapSDK.MetaMapSentryMXManagerDelegate>",
-            "sugared_genericSig": "<Self where Self : MetaMapSDK.MetaMapSentryMXManagerDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didReceiveHangDiagnostic",
-            "printedName": "didReceiveHangDiagnostic(_:callStackTree:timeStampBegin:timeStampEnd:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MXHangDiagnostic",
-                "printedName": "MetricKit.MXHangDiagnostic",
-                "usr": "c:objc(cs)MXHangDiagnostic"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStackTree",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStackTree",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(pl)MetaMapSentryMXManagerDelegate(im)didReceiveHangDiagnostic:callStackTree:timeStampBegin:timeStampEnd:",
-            "mangledName": "$s10MetaMapSDK0aB23SentryMXManagerDelegateP24didReceiveHangDiagnostic_13callStackTree14timeStampBegin0nO3EndySo06MXHangJ0C_AA0abd6MXCalllM0C10Foundation4DateVANtF",
-            "moduleName": "MetaMapSDK",
-            "genericSig": "<τ_0_0 where τ_0_0 : MetaMapSDK.MetaMapSentryMXManagerDelegate>",
-            "sugared_genericSig": "<Self where Self : MetaMapSDK.MetaMapSentryMXManagerDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@MetaMapSDK@objc(pl)MetaMapSentryMXManagerDelegate",
-        "mangledName": "$s10MetaMapSDK0aB23SentryMXManagerDelegateP",
-        "moduleName": "MetaMapSDK",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "intro_Macosx": "12.0",
-        "intro_iOS": "15.0",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MetaMapSentryMXManager",
-        "printedName": "MetaMapSentryMXManager",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(disableCrashDiagnostics:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXManager",
-                "printedName": "MetaMapSDK.MetaMapSentryMXManager",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager(im)initWithDisableCrashDiagnostics:",
-            "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerC23disableCrashDiagnosticsACSb_tcfc",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "delegate",
-            "printedName": "delegate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "WeakStorage",
-                "printedName": "MetaMapSDK.MetaMapSentryMXManagerDelegate?"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager(py)delegate",
-            "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerC8delegateAA0abdE8Delegate_pSgvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "ReferenceOwnership",
-              "AccessControl",
-              "ObjC"
-            ],
-            "ownership": 1,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "MetaMapSDK.MetaMapSentryMXManagerDelegate?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXManagerDelegate",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXManagerDelegate",
-                        "usr": "c:@M@MetaMapSDK@objc(pl)MetaMapSentryMXManagerDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager(im)delegate",
-                "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerC8delegateAA0abdE8Delegate_pSgvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "MetaMapSDK.MetaMapSentryMXManagerDelegate?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXManagerDelegate",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXManagerDelegate",
-                        "usr": "c:@M@MetaMapSDK@objc(pl)MetaMapSentryMXManagerDelegate"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager(im)setDelegate:",
-                "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerC8delegateAA0abdE8Delegate_pSgvs",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB15SentryMXManagerC8delegateAA0abdE8Delegate_pSgvM",
-                "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerC8delegateAA0abdE8Delegate_pSgvM",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "intro_Macosx": "12.0",
-                "intro_iOS": "15.0",
-                "declAttributes": [
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available",
-                  "Available"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "receiveReports",
-            "printedName": "receiveReports()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager(im)receiveReports",
-            "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerC14receiveReportsyyF",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "pauseReports",
-            "printedName": "pauseReports()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager(im)pauseReports",
-            "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerC12pauseReportsyyF",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "didReceive",
-            "printedName": "didReceive(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MetricKit.MXDiagnosticPayload]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MXDiagnosticPayload",
-                    "printedName": "MetricKit.MXDiagnosticPayload",
-                    "usr": "c:objc(cs)MXDiagnosticPayload"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager(im)didReceiveDiagnosticPayloads:",
-            "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerC10didReceiveyySaySo19MXDiagnosticPayloadCGF",
-            "moduleName": "MetaMapSDK",
-            "objc_name": "didReceiveDiagnosticPayloads:",
-            "declAttributes": [
-              "ObjC",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXManager",
-                "printedName": "MetaMapSDK.MetaMapSentryMXManager",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager(im)init",
-            "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerCACycfc",
-            "moduleName": "MetaMapSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXManager",
-        "mangledName": "$s10MetaMapSDK0aB15SentryMXManagerC",
-        "moduleName": "MetaMapSDK",
-        "intro_Macosx": "12.0",
-        "intro_iOS": "15.0",
-        "declAttributes": [
-          "AccessControl",
-          "ObjCMembers",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "Available",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ImageCroppable",
-            "printedName": "ImageCroppable",
-            "usr": "s:10MetaMapSDK14ImageCroppableP",
-            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "MetaMapSDK",
         "declAttributes": [
           "RawDocComment"
@@ -16619,6 +16052,13 @@
       },
       {
         "kind": "Import",
+        "name": "Sentry",
+        "printedName": "Sentry",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -26946,16 +26386,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MetaMapSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
         "declKind": "Import",
@@ -33887,184 +33317,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MetaMapSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "SwiftDescriptor",
-        "printedName": "SwiftDescriptor",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "getObjectClassName",
-            "printedName": "getObjectClassName(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ProtocolComposition",
-                "printedName": "AnyObject"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(cs)SwiftDescriptor(cm)getObjectClassName:",
-            "mangledName": "$s10MetaMapSDK15SwiftDescriptorC18getObjectClassNameySSyXlFZ",
-            "moduleName": "MetaMapSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getSwiftErrorDescription",
-            "printedName": "getSwiftErrorDescription(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Error",
-                "printedName": "Swift.Error",
-                "usr": "s:s5ErrorP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(cs)SwiftDescriptor(cm)getSwiftErrorDescription:",
-            "mangledName": "$s10MetaMapSDK15SwiftDescriptorC03getD16ErrorDescriptionySSSgs0G0_pFZ",
-            "moduleName": "MetaMapSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "SwiftDescriptor",
-                "printedName": "MetaMapSDK.SwiftDescriptor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)SwiftDescriptor"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MetaMapSDK@objc(cs)SwiftDescriptor(im)init",
-            "mangledName": "$s10MetaMapSDK15SwiftDescriptorCACycfc",
-            "moduleName": "MetaMapSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@MetaMapSDK@objc(cs)SwiftDescriptor",
-        "mangledName": "$s10MetaMapSDK15SwiftDescriptorC",
-        "moduleName": "MetaMapSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "ImageCroppable",
-            "printedName": "ImageCroppable",
-            "usr": "s:10MetaMapSDK14ImageCroppableP",
-            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -34219,1902 +33471,6 @@
         "moduleName": "MetaMapSDK",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "MetaMapSDK"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MetaMapSentryMXCallStackTree",
-        "printedName": "MetaMapSentryMXCallStackTree",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "callStacks",
-            "printedName": "callStacks",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MetaMapSDK.MetaMapSentryMXCallStack]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MetaMapSentryMXCallStack",
-                    "printedName": "MetaMapSDK.MetaMapSentryMXCallStack",
-                    "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree(py)callStacks",
-            "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeC10callStacksSayAA0abdeF0CGvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXCallStack]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXCallStack",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXCallStack",
-                        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree(im)callStacks",
-                "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeC10callStacksSayAA0abdeF0CGvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "callStackPerThread",
-            "printedName": "callStackPerThread",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree(py)callStackPerThread",
-            "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeC04callF9PerThreadSbvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree(im)callStackPerThread",
-                "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeC04callF9PerThreadSbvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "Final",
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(callStacks:callStackPerThread:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStackTree",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStackTree",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MetaMapSDK.MetaMapSentryMXCallStack]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MetaMapSentryMXCallStack",
-                    "printedName": "MetaMapSDK.MetaMapSentryMXCallStack",
-                    "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree(im)initWithCallStacks:callStackPerThread:",
-            "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeC10callStacks0hF9PerThreadACSayAA0abdeF0CG_Sbtcfc",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "from",
-            "printedName": "from(data:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStackTree",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStackTree",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree(cm)fromData:error:",
-            "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeC4from4dataAC10Foundation4DataV_tKFZ",
-            "moduleName": "MetaMapSDK",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStackTree",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStackTree",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree(im)init",
-            "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeCACycfc",
-            "moduleName": "MetaMapSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStackTree",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStackTree",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10MetaMapSDK0aB21SentryMXCallStackTreeC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "MetaMapSDK",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MetaMapSDK0aB21SentryMXCallStackTreeC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeC6encode2toys7Encoder_p_tKF",
-            "moduleName": "MetaMapSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStackTree",
-        "mangledName": "$s10MetaMapSDK0aB21SentryMXCallStackTreeC",
-        "moduleName": "MetaMapSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjCMembers",
-          "RawDocComment",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ImageCroppable",
-            "printedName": "ImageCroppable",
-            "usr": "s:10MetaMapSDK14ImageCroppableP",
-            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MetaMapSentryMXCallStack",
-        "printedName": "MetaMapSentryMXCallStack",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "threadAttributed",
-            "printedName": "threadAttributed",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Bool?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MetaMapSDK0aB17SentryMXCallStackC16threadAttributedSbSgvp",
-            "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC16threadAttributedSbSgvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB17SentryMXCallStackC16threadAttributedSbSgvg",
-                "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC16threadAttributedSbSgvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB17SentryMXCallStackC16threadAttributedSbSgvs",
-                "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC16threadAttributedSbSgvs",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB17SentryMXCallStackC16threadAttributedSbSgvM",
-                "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC16threadAttributedSbSgvM",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "callStackRootFrames",
-            "printedName": "callStackRootFrames",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MetaMapSentryMXFrame",
-                    "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                    "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack(py)callStackRootFrames",
-            "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC04callF10RootFramesSayAA0abD7MXFrameCGvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXFrame",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack(im)callStackRootFrames",
-                "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC04callF10RootFramesSayAA0abD7MXFrameCGvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXFrame",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack(im)setCallStackRootFrames:",
-                "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC04callF10RootFramesSayAA0abD7MXFrameCGvs",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB17SentryMXCallStackC04callF10RootFramesSayAA0abD7MXFrameCGvM",
-                "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC04callF10RootFramesSayAA0abD7MXFrameCGvM",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "flattenedRootFrames",
-            "printedName": "flattenedRootFrames",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MetaMapSentryMXFrame",
-                    "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                    "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack(py)flattenedRootFrames",
-            "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC19flattenedRootFramesSayAA0abD7MXFrameCGvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXFrame",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack(im)flattenedRootFrames",
-                "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC19flattenedRootFramesSayAA0abD7MXFrameCGvg",
-                "moduleName": "MetaMapSDK",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(threadAttributed:rootFrames:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStack",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStack",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MetaMapSentryMXFrame",
-                    "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                    "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack(im)initWithThreadAttributed:rootFrames:",
-            "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC16threadAttributed10rootFramesACSb_SayAA0abD7MXFrameCGtcfc",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStack",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStack",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack(im)init",
-            "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackCACycfc",
-            "moduleName": "MetaMapSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXCallStack",
-                "printedName": "MetaMapSDK.MetaMapSentryMXCallStack",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10MetaMapSDK0aB17SentryMXCallStackC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "MetaMapSDK",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MetaMapSDK0aB17SentryMXCallStackC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC6encode2toys7Encoder_p_tKF",
-            "moduleName": "MetaMapSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXCallStack",
-        "mangledName": "$s10MetaMapSDK0aB17SentryMXCallStackC",
-        "moduleName": "MetaMapSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjCMembers",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ImageCroppable",
-            "printedName": "ImageCroppable",
-            "usr": "s:10MetaMapSDK14ImageCroppableP",
-            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "MetaMapSentryMXFrame",
-        "printedName": "MetaMapSentryMXFrame",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "binaryUUID",
-            "printedName": "binaryUUID",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UUID",
-                "printedName": "Foundation.UUID",
-                "usr": "s:10Foundation4UUIDV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(py)binaryUUID",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC10binaryUUID10Foundation0G0Vvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UUID",
-                    "printedName": "Foundation.UUID",
-                    "usr": "s:10Foundation4UUIDV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)binaryUUID",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC10binaryUUID10Foundation0G0Vvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UUID",
-                    "printedName": "Foundation.UUID",
-                    "usr": "s:10Foundation4UUIDV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)setBinaryUUID:",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC10binaryUUID10Foundation0G0Vvs",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB13SentryMXFrameC10binaryUUID10Foundation0G0VvM",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC10binaryUUID10Foundation0G0VvM",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "offsetIntoBinaryTextSegment",
-            "printedName": "offsetIntoBinaryTextSegment",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(py)offsetIntoBinaryTextSegment",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC27offsetIntoBinaryTextSegmentSivp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)offsetIntoBinaryTextSegment",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC27offsetIntoBinaryTextSegmentSivg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)setOffsetIntoBinaryTextSegment:",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC27offsetIntoBinaryTextSegmentSivs",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB13SentryMXFrameC27offsetIntoBinaryTextSegmentSivM",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC27offsetIntoBinaryTextSegmentSivM",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "binaryName",
-            "printedName": "binaryName",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(py)binaryName",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC10binaryNameSSSgvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)binaryName",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC10binaryNameSSSgvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)setBinaryName:",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC10binaryNameSSSgvs",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB13SentryMXFrameC10binaryNameSSSgvM",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC10binaryNameSSSgvM",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "address",
-            "printedName": "address",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "UInt64",
-                "printedName": "Swift.UInt64",
-                "usr": "s:s6UInt64V"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(py)address",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC7addresss6UInt64Vvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt64",
-                    "printedName": "Swift.UInt64",
-                    "usr": "s:s6UInt64V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)address",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC7addresss6UInt64Vvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UInt64",
-                    "printedName": "Swift.UInt64",
-                    "usr": "s:s6UInt64V"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)setAddress:",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC7addresss6UInt64Vvs",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB13SentryMXFrameC7addresss6UInt64VvM",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC7addresss6UInt64VvM",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "subFrames",
-            "printedName": "subFrames",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXFrame",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(py)subFrames",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC9subFramesSayACGSgvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "MetaMapSentryMXFrame",
-                            "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)subFrames",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC9subFramesSayACGSgvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "MetaMapSentryMXFrame",
-                            "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)setSubFrames:",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC9subFramesSayACGSgvs",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB13SentryMXFrameC9subFramesSayACGSgvM",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC9subFramesSayACGSgvM",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "sampleCount",
-            "printedName": "sampleCount",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:10MetaMapSDK0aB13SentryMXFrameC11sampleCountSiSgvp",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC11sampleCountSiSgvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB13SentryMXFrameC11sampleCountSiSgvg",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC11sampleCountSiSgvg",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB13SentryMXFrameC11sampleCountSiSgvs",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC11sampleCountSiSgvs",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:10MetaMapSDK0aB13SentryMXFrameC11sampleCountSiSgvM",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC11sampleCountSiSgvM",
-                "moduleName": "MetaMapSDK",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(binaryUUID:offsetIntoBinaryTextSegment:sampleCount:binaryName:address:subFrames:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXFrame",
-                "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UUID",
-                "printedName": "Foundation.UUID",
-                "usr": "s:10Foundation4UUIDV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Int?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UInt64",
-                "printedName": "Swift.UInt64",
-                "usr": "s:s6UInt64V"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXFrame",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10MetaMapSDK0aB13SentryMXFrameC10binaryUUID27offsetIntoBinaryTextSegment11sampleCount0F4Name7address9subFramesAC10Foundation0G0V_S2iSgSSSgs6UInt64VSayACGSgtcfc",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC10binaryUUID27offsetIntoBinaryTextSegment11sampleCount0F4Name7address9subFramesAC10Foundation0G0V_S2iSgSSSgs6UInt64VSayACGSgtcfc",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Var",
-            "name": "frames",
-            "printedName": "frames",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MetaMapSentryMXFrame",
-                    "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                    "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(py)frames",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC6framesSayACGvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXFrame",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)frames",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC6framesSayACGvg",
-                "moduleName": "MetaMapSDK",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "framesIncludingSelf",
-            "printedName": "framesIncludingSelf",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "MetaMapSentryMXFrame",
-                    "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                    "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(py)framesIncludingSelf",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC19framesIncludingSelfSayACGvp",
-            "moduleName": "MetaMapSDK",
-            "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[MetaMapSDK.MetaMapSentryMXFrame]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "MetaMapSentryMXFrame",
-                        "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)framesIncludingSelf",
-                "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC19framesIncludingSelfSayACGvg",
-                "moduleName": "MetaMapSDK",
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXFrame",
-                "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame(im)init",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameCACycfc",
-            "moduleName": "MetaMapSDK",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(from:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MetaMapSentryMXFrame",
-                "printedName": "MetaMapSDK.MetaMapSentryMXFrame",
-                "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Decoder",
-                "printedName": "Swift.Decoder",
-                "usr": "s:s7DecoderP"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:10MetaMapSDK0aB13SentryMXFrameC4fromACs7Decoder_p_tKcfc",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC4fromACs7Decoder_p_tKcfc",
-            "moduleName": "MetaMapSDK",
-            "implicit": true,
-            "declAttributes": [
-              "Required"
-            ],
-            "throwing": true,
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Function",
-            "name": "encode",
-            "printedName": "encode(to:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Encoder",
-                "printedName": "Swift.Encoder",
-                "usr": "s:s7EncoderP"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:10MetaMapSDK0aB13SentryMXFrameC6encode2toys7Encoder_p_tKF",
-            "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC6encode2toys7Encoder_p_tKF",
-            "moduleName": "MetaMapSDK",
-            "implicit": true,
-            "throwing": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "c:@M@MetaMapSDK@objc(cs)MetaMapSentryMXFrame",
-        "mangledName": "$s10MetaMapSDK0aB13SentryMXFrameC",
-        "moduleName": "MetaMapSDK",
-        "declAttributes": [
-          "AccessControl",
-          "ObjCMembers",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ImageCroppable",
-            "printedName": "ImageCroppable",
-            "usr": "s:10MetaMapSDK14ImageCroppableP",
-            "mangledName": "$s10MetaMapSDK14ImageCroppableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          }
         ]
       },
       {
@@ -57018,20 +54374,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/Sentry\/Swift\/SentryMXManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1389,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/Sentry\/Swift\/SentryMXManager.swift",
-      "kind": "StringLiteral",
-      "offset": 1239,
-      "length": 22,
-      "value": "\"MetaMapSDK.MetaMapSentryMXManager\""
-    },
-    {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/coordinators\/RootCoordinator.swift",
       "kind": "Array",
       "offset": 578,
@@ -65476,161 +62818,161 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 517,
+      "offset": 482,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "FloatLiteral",
-      "offset": 567,
+      "offset": 532,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 711,
+      "offset": 676,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 767,
+      "offset": 732,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 818,
+      "offset": 783,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 904,
+      "offset": 869,
       "length": 16,
       "value": "\"verificationId\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 970,
+      "offset": 935,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1026,
+      "offset": 991,
       "length": 12,
       "value": "\"merchantId\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1084,
+      "offset": 1049,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1227,
+      "offset": 1185,
       "length": 11,
       "value": "\"sdk_start\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1251,
+      "offset": 1209,
       "length": 10,
       "value": "\"sdk_load\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1369,
+      "offset": 1327,
       "length": 10,
       "value": "\"sdk_load\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1422,
+      "offset": 1380,
       "length": 11,
       "value": "\"sdk_start\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1498,
+      "offset": 1456,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1577,
+      "offset": 1535,
       "length": 9,
       "value": "\"sdkType\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1632,
+      "offset": 1590,
       "length": 16,
       "value": "\"iOS_\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1647,
+      "offset": 1605,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1704,
+      "offset": 1662,
       "length": 11,
       "value": "\"Mеrchant\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 1731,
       "length": 18,
       "value": "\"mati-sdk-version\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1828,
+      "offset": 1786,
       "length": 10,
       "value": "\"clientId\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1896,
+      "offset": 1854,
       "length": 8,
       "value": "\"flowId\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 1969,
+      "offset": 1927,
       "length": 15,
       "value": "\"mati-sdk-type\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/SentryManager\/MMSentryManager.swift",
       "kind": "StringLiteral",
-      "offset": 2016,
+      "offset": 1974,
       "length": 17,
       "value": "\"verificаtionId\""
     },
@@ -68269,966 +65611,966 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3930,
+      "offset": 3923,
       "length": 28,
       "value": "\"label_verify_your_identity\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4016,
+      "offset": 4009,
       "length": 40,
       "value": "\"label_to_get_verified_you_will_need_to\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4119,
+      "offset": 4112,
       "length": 27,
       "value": "\"metamap_button_lets_start\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4240,
+      "offset": 4233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4307,
+      "offset": 4300,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4351,
+      "offset": 4344,
       "length": 28,
       "value": "\"metamap_label_welcome_back\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4437,
+      "offset": 4430,
       "length": 51,
       "value": "\"metamap_label_completed_verification_welcome_back\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4551,
+      "offset": 4544,
       "length": 24,
       "value": "\"metamap_label_continue\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4685,
+      "offset": 4678,
       "length": 17,
       "value": "\"label_poweredby\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5154,
+      "offset": 5147,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5160,
+      "offset": 5153,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5207,
+      "offset": 5200,
       "length": 2,
       "value": "80"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5310,
+      "offset": 5303,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 5315,
+      "offset": 5308,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5607,
+      "offset": 5579,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5726,
+      "offset": 5698,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6114,
+      "offset": 6086,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6340,
+      "offset": 6312,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6353,
+      "offset": 6325,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6368,
+      "offset": 6340,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
+      "offset": 6514,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6527,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
+      "kind": "BooleanLiteral",
       "offset": 6542,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6555,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6570,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6746,
+      "offset": 6718,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6759,
+      "offset": 6731,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6775,
+      "offset": 6747,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
+      "offset": 6925,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6938,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
+      "kind": "BooleanLiteral",
       "offset": 6953,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 6966,
-      "length": 2,
-      "value": "20"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 6981,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7161,
+      "offset": 7133,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7174,
+      "offset": 7146,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7190,
+      "offset": 7162,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7378,
+      "offset": 7350,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7391,
+      "offset": 7363,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7405,
+      "offset": 7377,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 7565,
+      "offset": 7537,
       "length": 3,
       "value": "0.8"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7580,
+      "offset": 7552,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7594,
+      "offset": 7566,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7758,
+      "offset": 7730,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7771,
+      "offset": 7743,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7785,
+      "offset": 7757,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7949,
+      "offset": 7921,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7962,
+      "offset": 7934,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7976,
+      "offset": 7948,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8163,
+      "offset": 8135,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8234,
+      "offset": 8206,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8261,
+      "offset": 8233,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8267,
+      "offset": 8239,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8345,
+      "offset": 8317,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8536,
+      "offset": 8508,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8549,
+      "offset": 8521,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8564,
+      "offset": 8536,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8739,
+      "offset": 8711,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8752,
+      "offset": 8724,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8767,
+      "offset": 8739,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 8960,
+      "offset": 8932,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8975,
+      "offset": 8947,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8989,
+      "offset": 8961,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9184,
+      "offset": 9156,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9197,
+      "offset": 9169,
       "length": 3,
       "value": "-35"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9213,
+      "offset": 9185,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9410,
+      "offset": 9382,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9423,
+      "offset": 9395,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9437,
+      "offset": 9409,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9592,
+      "offset": 9564,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9605,
+      "offset": 9577,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9619,
+      "offset": 9591,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9781,
+      "offset": 9753,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9794,
+      "offset": 9766,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9808,
+      "offset": 9780,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9972,
+      "offset": 9944,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 9985,
+      "offset": 9957,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9999,
+      "offset": 9971,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10159,
+      "offset": 10131,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10172,
+      "offset": 10144,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10186,
+      "offset": 10158,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10356,
+      "offset": 10328,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10369,
+      "offset": 10341,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10383,
+      "offset": 10355,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10552,
+      "offset": 10524,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10565,
+      "offset": 10537,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10579,
+      "offset": 10551,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10750,
+      "offset": 10722,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10763,
+      "offset": 10735,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10779,
+      "offset": 10751,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10948,
+      "offset": 10920,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10961,
+      "offset": 10933,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10976,
+      "offset": 10948,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11016,
+      "offset": 10988,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11209,
+      "offset": 11181,
       "length": 13,
       "value": "\"closeButton\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 11670,
+      "offset": 11642,
       "length": 22,
       "value": "\"change_language_icon\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12030,
+      "offset": 12002,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12046,
+      "offset": 12018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12823,
+      "offset": 12795,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13002,
+      "offset": 12974,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13142,
+      "offset": 13114,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 13286,
+      "offset": 13258,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14561,
+      "offset": 14533,
       "length": 17,
       "value": "\"locationEnabled\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 14591,
+      "offset": 14563,
       "length": 42,
       "value": "\"metamap_label_location_validation_action\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 15644,
+      "offset": 15616,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16145,
+      "offset": 16117,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16301,
+      "offset": 16273,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16468,
+      "offset": 16440,
       "length": 3,
       "value": "131"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 16472,
+      "offset": 16444,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16486,
+      "offset": 16458,
       "length": 3,
       "value": "146"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 16490,
+      "offset": 16462,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16503,
+      "offset": 16475,
       "length": 3,
       "value": "184"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 16507,
+      "offset": 16479,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16521,
+      "offset": 16493,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16590,
+      "offset": 16562,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16622,
+      "offset": 16594,
       "length": 17,
       "value": "\"label_agreement\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16762,
+      "offset": 16734,
       "length": 17,
       "value": "\"label_agreement\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16817,
+      "offset": 16789,
       "length": 17,
       "value": "\"label_agreement\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16876,
+      "offset": 16848,
       "length": 17,
       "value": "\"label_agreement\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 16931,
+      "offset": 16903,
       "length": 27,
       "value": "\"label_user_terms_and_cond\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17002,
+      "offset": 16974,
       "length": 17,
       "value": "\"label_agreement\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 17057,
+      "offset": 17029,
       "length": 22,
       "value": "\"label_privacy_notice\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17639,
+      "offset": 17611,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17749,
+      "offset": 17721,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18049,
+      "offset": 18021,
       "length": 17,
       "value": "\"label_agreement\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18104,
+      "offset": 18076,
       "length": 27,
       "value": "\"label_user_terms_and_cond\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18175,
+      "offset": 18147,
       "length": 17,
       "value": "\"label_agreement\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18230,
+      "offset": 18202,
       "length": 22,
       "value": "\"label_privacy_notice\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19466,
+      "offset": 19438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19692,
+      "offset": 19664,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19797,
+      "offset": 19769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20681,
+      "offset": 20653,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20703,
+      "offset": 20675,
       "length": 3,
       "value": "250"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20743,
+      "offset": 20715,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 22366,
+      "offset": 22338,
       "length": 5,
       "value": "\"ios\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22599,
+      "offset": 22571,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22875,
+      "offset": 22847,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "StringLiteral",
-      "offset": 23065,
+      "offset": 23037,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23665,
+      "offset": 23637,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23823,
+      "offset": 23795,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24071,
+      "offset": 24043,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 24111,
+      "offset": 24083,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/MFMainViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24172,
+      "offset": 24144,
       "length": 5,
       "value": "false"
     },
@@ -87164,7 +84506,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.18.0\""
+      "value": "\"3.18.1\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
@@ -87190,21 +84532,21 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 352,
+      "offset": 345,
       "length": 75,
       "value": "\"https:\/\/af8a47c7ee5040af9b12025ddf490040@o566293.ingest.Sentry.io\/5708998\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 471,
+      "offset": 464,
       "length": 36,
       "value": "\"https:\/\/getmati.com\/termsofservice\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
       "kind": "StringLiteral",
-      "offset": 545,
+      "offset": 538,
       "length": 35,
       "value": "\"https:\/\/getmati.com\/privacypolicy\""
     },
@@ -90889,34 +88231,6 @@
       "offset": 5247,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/Sentry\/Swift\/SentryMXCallStackTree.swift",
-      "kind": "StringLiteral",
-      "offset": 232,
-      "length": 28,
-      "value": "\"MetaMapSDK.MetaMapSentryMXCallStackTree\""
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/Sentry\/Swift\/SentryMXCallStackTree.swift",
-      "kind": "StringLiteral",
-      "offset": 762,
-      "length": 24,
-      "value": "\"MetaMapSDK.MetaMapSentryMXCallStack\""
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/Sentry\/Swift\/SentryMXCallStackTree.swift",
-      "kind": "Array",
-      "offset": 2059,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/libraries\/Sentry\/Swift\/SentryMXCallStackTree.swift",
-      "kind": "StringLiteral",
-      "offset": 1247,
-      "length": 20,
-      "value": "\"MetaMapSDK.MetaMapSentryMXFrame\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiCodeTextField.swift",
@@ -103962,49 +101276,49 @@
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "StringLiteral",
-      "offset": 14552,
+      "offset": 14545,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "StringLiteral",
-      "offset": 14666,
+      "offset": 14659,
       "length": 17,
       "value": "\"can-use-reusage\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "StringLiteral",
-      "offset": 14693,
+      "offset": 14686,
       "length": 30,
       "value": "\"can-use-verification-reusage\""
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "Array",
-      "offset": 14730,
+      "offset": 14723,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 14823,
+      "offset": 14816,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "Array",
-      "offset": 14949,
+      "offset": 14942,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/avetik.sukiasyan\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/MetaMapGlobalManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 15052,
+      "offset": 15045,
       "length": 5,
       "value": "false"
     },
