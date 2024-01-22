@@ -1,7 +1,0 @@
-PRODUCT_NAME = MetaMapSentry
-INFOPLIST_FILE = Sources/MetaMapSentry/Info.plist
-PRODUCT_BUNDLE_IDENTIFIER = io.MetaMapSentry.MetaMapSentry
-
-CURRENT_PROJECT_VERSION = 8.17.1
-
-MODULEMAP_FILE = $(SRCROOT)/Sources/MetaMapSentry/MetaMapSentry.modulemap

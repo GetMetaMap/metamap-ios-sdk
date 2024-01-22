@@ -6,19 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		NjEjEn+J20mYYwjAbaqdtNl8JyI=
+		BbVkqnbNHTWo0EI4JB/W0K6V5iE=
 		</data>
 		<key>ConfirmPupUpVC.nib</key>
 		<data>
 		wNbKXBT7Z2fSKhLNY5wou1xdVZo=
 		</data>
-		<key>DeploymentTargets.xcconfig</key>
-		<data>
-		pEhL91ejM0zTJ+yEUQ8NVXas38Y=
-		</data>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<data>
-		1cvUn+dJsjZZQF2pk2lC6JXdtqQ=
+		KVWS3AA2pLwUHdHJjoP+KdBKe9o=
 		</data>
 		<key>Headers/MetaMapSDK.h</key>
 		<data>
@@ -26,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ZqbFZ8K+6T2JVyoh1B97LbLeBCA=
+		Cb3uNcLD4OuSC83BCjM/TGhpccM=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -138,47 +134,47 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		M5cL2F0cZNJG9x3nxqncpIHDn80=
+		fzop1Y2DN00NPk1axjmJIhORSKA=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HmEO9tDEpm8a/ypQ7Uxn9Ll5FXg=
+		o3yMozQ1+VWrr/LQllMxbHt4X74=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		NroYzngCtVk+dw0blFGT+PwFcXc=
+		ezIHrlEcffrhc48YGopyOzMvo6c=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HmEO9tDEpm8a/ypQ7Uxn9Ll5FXg=
+		o3yMozQ1+VWrr/LQllMxbHt4X74=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pBPyfTvlciwpO0oxMYbZbLxpNyU=
+		nIWlTyXbqbIKQ+ayKhbc4r8VCPc=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		M5cL2F0cZNJG9x3nxqncpIHDn80=
+		fzop1Y2DN00NPk1axjmJIhORSKA=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Osb8VZKwlOBE3mysZAwMDggi3W8=
+		pokiMwbC2CjYAZgWsnoZoqN2/Lk=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Mr6A6IsgKPWP24sanSGsD7qsX3o=
+		zvHG62EGQduqPlsLYRvh/7J8PJ4=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Osb8VZKwlOBE3mysZAwMDggi3W8=
+		pokiMwbC2CjYAZgWsnoZoqN2/Lk=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3uePZobXbDm95AsGbgdWOMp12rU=
+		XfqAUSAVolaSfxQMvAuvC9tMG4g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		BEFxixFajAD6RitJgKlaVmYA3xY=
+		SQ3iQWENNoM8IjSc0F803NwzTCE=
 		</data>
 		<key>OTPVerificationViewController.nib</key>
 		<data>
@@ -188,245 +184,9 @@
 		<data>
 		XOrweBXq6bH7B/IuTQuaXI8RJlU=
 		</data>
-		<key>PrivateHeaders/MetaMapSentry.h</key>
-		<data>
-		rjkPTiik/iXtxeR8w0oL0Psauvw=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryAppStartMeasurement.h</key>
-		<data>
-		wsxACkd9I62TxM6/is/w13Ji3VA=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryAttachment.h</key>
-		<data>
-		RWjypNaJ2aqVcHp1EQpdhOTCleo=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryAutoBreadcrumbTrackingIntegration.h</key>
-		<data>
-		zmEPDFcvk+8XBbw98cUewnhy7+E=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryBaseIntegration.h</key>
-		<data>
-		hi1TG8I9msf0+nJeWeh+D572eHE=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryBreadcrumb.h</key>
-		<data>
-		zFZgOl4GkCudqnAokWxyRWKJAEg=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryBreadcrumbDelegate.h</key>
-		<data>
-		WiachsWX1bylC/5lrDWihUagoo8=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryClient.h</key>
-		<data>
-		Fhfh80TpvtRA/09as0o1Hze/qGU=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryCrashExceptionApplication.h</key>
-		<data>
-		2AB8QQUE6Pc51vaA9D4jFGDcmTY=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryDebugImageProvider.h</key>
-		<data>
-		jmHJ08sVk6euIuwCI2HUOV49O/c=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryDebugMeta.h</key>
-		<data>
-		HL8zgDdOFbLTX/gjTzrlTq2UIw4=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryDefines.h</key>
-		<data>
-		ljpm5VOTrb6K3MtCUNMkjE0eu+Q=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryDsn.h</key>
-		<data>
-		3W5ef5x5a6ENugAgtHP2BBWe6EM=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryEnvelope.h</key>
-		<data>
-		NlUtmdX/xuo3NiyjUiYtrXPh5u8=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryEnvelopeItemHeader.h</key>
-		<data>
-		4DIhoIDnOS4hyX2kA8tzinInblI=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryEnvelopeItemType.h</key>
-		<data>
-		zdEQ9Jt0jvKYPgKCUnFqAQcSy+E=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryError.h</key>
-		<data>
-		rXfCnvdvU3ynCoboqigKYxwFN3M=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryEvent.h</key>
-		<data>
-		DhVTkJ29bN83A4wl/rW1my3p0gc=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryException.h</key>
-		<data>
-		5urJrQVGwta9lVWBmGYoxndt4ao=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryFrame.h</key>
-		<data>
-		jWLfMFaab1Py3ekkQFcZd4o8zMg=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryGeo.h</key>
-		<data>
-		UGmye8g7wDhUnoMkztyRgBfY1Eg=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryHttpStatusCodeRange.h</key>
-		<data>
-		ToQhHRlq5/v4vXA801JUp+Jq87I=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryHub.h</key>
-		<data>
-		Y7/wG3TBCMYNMLj9hi3u6mobPuE=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryId.h</key>
-		<data>
-		f8MD4QpD64tzHPSbUFvUqN7q7ew=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryIntegrationProtocol.h</key>
-		<data>
-		wuaDrkG1E2h7e5QAx/PgsK/IlOs=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryInternalDefines.h</key>
-		<data>
-		PCXJvJORiy1fBDdbHjhabqTvfjk=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryMeasurementUnit.h</key>
-		<data>
-		NQmNXceFjb/vsO/L+1ZGzmCHqPc=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryMechanism.h</key>
-		<data>
-		BJmKg/OuMokinwT3DIW+KQLuIMk=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryMechanismMeta.h</key>
-		<data>
-		QHuzvvZYhVf/BcjKsvPgffzqYJM=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryMessage.h</key>
-		<data>
-		K6kmAYCKrUEzA/3vu3Xbvg6cZZs=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryNSError.h</key>
-		<data>
-		6JTMzXRR1qC7RLekIcjKMd6DcnA=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryOptions.h</key>
-		<data>
-		lb9TsCXsMVDkBVxOkMAhoYG2v7M=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryProfilingConditionals.h</key>
-		<data>
-		7olkhdB/ym4WXuDr0cIJ36KRrpg=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryRequest.h</key>
-		<data>
-		OJNWLGQO56Eso5mTrRi2gXhLhiQ=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySDK.h</key>
-		<data>
-		HsSUBo4Eh4eyq0MJSvcxJuRq4ME=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySampleDecision.h</key>
-		<data>
-		1Vw54wzNqw3W3KdVfceWGLWI/Wc=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySamplingContext.h</key>
-		<data>
-		wteYmgI7zwSU57kGlvGfD3/10aE=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryScope.h</key>
-		<data>
-		ewV4g80Y1tZbtxmH66CKcmHbswc=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryScreenFrames.h</key>
-		<data>
-		o68R+OrNLtB/BxkniiqijCoC15E=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySdkInfo.h</key>
-		<data>
-		bXjOzPmnwgjOAYqWWha6iS6Vi1A=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySerializable.h</key>
-		<data>
-		3Sl15MkC8Xisb4sn6aUawS3wiM0=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySession.h</key>
-		<data>
-		MumRJS4ttJK7VfiJqE9K3qhjXtw=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySpanContext.h</key>
-		<data>
-		feNDN3hk2h4BMnEROB3dgJC7EgQ=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySpanId.h</key>
-		<data>
-		VNcYSSPuDUiqtRZuvaWRPeCN/D8=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySpanProtocol.h</key>
-		<data>
-		T/5fUPbgCL7gdE6DZeO82NhOjTk=
-		</data>
-		<key>PrivateHeaders/MetaMapSentrySpanStatus.h</key>
-		<data>
-		PvEuTawMldjaLYjW/dtm60KJZXU=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryStacktrace.h</key>
-		<data>
-		B7pPMYHUNqigoCkfHojRSow1ECU=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryThread.h</key>
-		<data>
-		zw1efBSsaKlY53R5PrsTr9ZkTTk=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryTraceContext.h</key>
-		<data>
-		8ZskS/mR5CNGD7eFAyUQW8kYUdI=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryTraceHeader.h</key>
-		<data>
-		D193sqKp3HKKDvrC9BSl4Jw7Aw4=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryTransactionContext.h</key>
-		<data>
-		AIBtDIoz5ZFx5lbTGMyKhpKumrY=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryUser.h</key>
-		<data>
-		g8Vhas8JQNDYysth7MyyTEga7hE=
-		</data>
-		<key>PrivateHeaders/MetaMapSentryUserFeedback.h</key>
-		<data>
-		O/k3x5/qzOeWmyWeOYuCoOJR3FQ=
-		</data>
-		<key>PrivateHeaders/PrivateMetaMapSentrySDKOnly.h</key>
-		<data>
-		Dv8j2wtUgihF07XcJWlH5swHX7k=
-		</data>
-		<key>PrivateHeaders/PrivatesHeader.h</key>
-		<data>
-		XHXHIEg9keYgvK9/hPmBtyIwmCA=
-		</data>
 		<key>RequestManager/RequestManager.swift</key>
 		<data>
 		zToBeWFfzFjikaZxBYCbctR9ahU=
-		</data>
-		<key>SDK.xcconfig</key>
-		<data>
-		F9Fugd7G6ZdmB8Op8Q513+PqdWQ=
-		</data>
-		<key>Sentry.xcconfig</key>
-		<data>
-		I6X8uDNIW94tWyLu7HB9GzyK83c=
-		</data>
-		<key>SentryPrivate.xcconfig</key>
-		<data>
-		aFbZzPfxakFTnFGAZUU6jjmXVOM=
-		</data>
-		<key>SentrySwiftUI.xcconfig</key>
-		<data>
-		iAjnR0sFwRehi1kYXkITccd2Dao=
 		</data>
 		<key>VideoKYCInstructionsViewController.nib</key>
 		<data>
@@ -561,7 +321,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k1OXseGVAGxPnzntiBHZhOK7DP3TMRssC1YJdYMCUu4=
+			92bvJa3bA6wDmXoFcN0bUqsXzTJMQUzk7ZrsLrOAQ0k=
 			</data>
 		</dict>
 		<key>ConfirmPupUpVC.nib</key>
@@ -571,18 +331,11 @@
 			bQikZ25CMLyaIj6nrCJ0jeu4DV7giCDuX25JIpy1tC8=
 			</data>
 		</dict>
-		<key>DeploymentTargets.xcconfig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ogvdK5bTae9mg2CLHX9sLFsh1S+0SUIINvIedYVRUqc=
-			</data>
-		</dict>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0h1ZQ3HAOwRSjouqMkBcLIHd2EHYtuInHRNU1mHtGHk=
+			urUPftozwaKV6dJmIFAjGYOKtVqzLWiNyQWeSQHmXyo=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK.h</key>
@@ -785,77 +538,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LzVUAePHNyjyjbJhle+r0nhic/dHSQJvNWTks/gvM2g=
+			jlqj4dIn4JPGMkdoPxXsOvu+5HSBBDBeH7rVGso0a/0=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q2eIlCBcp51MIXDuPCgVGBSbJHkxjWbilD8kpgIP7NY=
+			VQbsdRwkWX1auTl0azfOu/Ihc1OaXvFlKmE3NKJ4nzE=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jfVHGEMVhSOSUNpUfxrY2ocXxImyPctGbsz7Vakx+os=
+			nT4GNFXoM/C+usZY7u5Gs4cpKgk3XJiZn/fYRaZ7LgY=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q2eIlCBcp51MIXDuPCgVGBSbJHkxjWbilD8kpgIP7NY=
+			VQbsdRwkWX1auTl0azfOu/Ihc1OaXvFlKmE3NKJ4nzE=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k8ysKZNSfwZhdMa4GMKwz/Pf/aAzfuOurIz+tLrNcao=
+			1cTuE8ccfI3vuGmymX3+KXyy3hqdxjSP5bhpgNvy7Ms=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LzVUAePHNyjyjbJhle+r0nhic/dHSQJvNWTks/gvM2g=
+			jlqj4dIn4JPGMkdoPxXsOvu+5HSBBDBeH7rVGso0a/0=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E05PULXw+iCWIG04P1VZW0ugDD7oxSLxMDRJUQ06nbo=
+			whnwRpXEoLjT2eaI09SR6MvMry3Ge4px7LxZr6FrR7E=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bcZqP5W/tqvTKgNHBAUvjAOk/RtuyILAvZrR2mpSyjE=
+			apf2FUBbyKW7bIN06Q+lSWln6wzprUdT92BFxkwZcDs=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E05PULXw+iCWIG04P1VZW0ugDD7oxSLxMDRJUQ06nbo=
+			whnwRpXEoLjT2eaI09SR6MvMry3Ge4px7LxZr6FrR7E=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c3hL+tC7v0cWdXGJvQk/OYF7Dcr4tc1jLLQQWEr2Li8=
+			kTM6J5ezWzh7whY2TpZi9J8eXxoSji51xDJiVzBiCVI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d0TWKd1t/pgHBRKprAgFUkecKz2v3+Ej626EBf8ifz0=
+			oRBrHnUMR6RAMVWJg1SPEbPHN0f6HOhPNf2cAk4r21M=
 			</data>
 		</dict>
 		<key>OTPVerificationViewController.nib</key>
@@ -872,424 +625,11 @@
 			nsMkdexaQa67WJr1ygQQ5p1QtO0UyE24646fcAMJlbY=
 			</data>
 		</dict>
-		<key>PrivateHeaders/MetaMapSentry.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			x8YnnrjW/t7XgpRAi1Fthar0mXzWg3oKOJxpFeNXXPQ=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryAppStartMeasurement.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BGwrQd/uHUAPw7TRXNjScNMrykZQMsdqzkdUkZZ77/g=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryAttachment.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ohKQ6mySIrMNrwem8Epw9CBedPPHwK8lyW0dDh3BVfs=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryAutoBreadcrumbTrackingIntegration.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/M0WU/hNhaWhd/Y/0FE8qmj1T9R8Sg3dX2889oENuAE=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryBaseIntegration.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sgjFwgg1dQkqqMmfPHk10MabDScj2PcnnPUCE4SJ/Qc=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryBreadcrumb.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LerXFSioI0ez1nDi6aEy0Nm76Mp2uwM3mGdc015tmLw=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryBreadcrumbDelegate.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pcapdyy8wuBTeqbWcbA/CTA/UCEV0epar7xIy1GElwc=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryClient.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AUl3OpA3Z6MKrY6wjM1OouZbNLxhIFQzL5uWOokvF14=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryCrashExceptionApplication.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+OXrsXNcC/6Y+EbMUL1enOU0H8INYe7veAQJNbZ2Jx4=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryDebugImageProvider.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rxIL1tv+8VhmO1eaKq+0aYh/wWJm+pUduQW6dvPacTk=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryDebugMeta.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GEdiX54T2gCaMGgkbPFk7IrbHqKbnj6pN5qXSN8ocOs=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryDefines.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EzxKcLv84ylATmWGYs7l94caETNknEYKQjQ3d5uU3/U=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryDsn.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sjB3Iv5a7BUjmXapZvxj8jsogtZK9vHAWN8PbcXUAB0=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryEnvelope.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MYlw62Y8KDhnVj+HvoRgW9Jq3v8QhNEhWneuCkHh4xs=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryEnvelopeItemHeader.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			/bG/2IdNlb/cjsma4ITJU+qE6M408EXBqPB2xaRLjkA=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryEnvelopeItemType.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BBFc8LMPVkZsyf1/TudbjehrboRuN+5dJvBNlnxgmZ8=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryError.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DmI3ceBi58Xj88aOCIL7ZeUI5BWlb778b+gvNoKz2wM=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryEvent.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NRuMZXO8NKwxp0NpUdRwiI8dx3zEvatTxPv1G/gDrBQ=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryException.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vxGw8pbzO2z0yW+NWJ4svyfU1mB/WvGdR1PNcKtPE6M=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryFrame.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hkEfgeRzRJFmAz5VBPhEzKV0zm5oSy4TcYgqC+qwDCI=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryGeo.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			rFgfrZ6CsOKIH4btxPHQA5sVpXHE4Nywpk7oo1g35ec=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryHttpStatusCodeRange.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W4wibcQOFXTIADDO/OlPhFPF1xMxUYJI52xErvq+5r4=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryHub.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			oOPc1+pCKQIeOpneROsEE+FiRYVZJEhlTiKFKGMZIFU=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryId.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AfYMRPO3uLutwMLk4X7ppiirKi+WUpxUl496cx6REAI=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryIntegrationProtocol.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cXIFYUIWKVZyiiCArV6g6XeZVgwiIefe9WrnnNpgXBY=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryInternalDefines.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KjzkYEpay9mTjheHyz+mZCFM4Tcy9Qyn71/fUYdeXF0=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryMeasurementUnit.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G/Qjq82t5kohg3ClJP94Jn8zfkOJ7uhYzLY/QwNQaRU=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryMechanism.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			khW4szWLk4JhY9uUL95miLKHLHPj3SCS3MGUTGud04I=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryMechanismMeta.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mb4s+aT5QObxCnSve+ivvIw/T2jhCNVeU+CzFzQIaXo=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryMessage.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nVLL8vw64eKqF6L+WSrxTuPE3t4VGPJDTeTeKB6HYb4=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryNSError.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9wLkoaTD3Hej9cmv8zOMw+jVXHaCd6wKvfSVEG0ZOiE=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryOptions.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yDU0Z1hOlGt+6IbsuG5ySdkKLVAt2WNJvjdE7mLM7Ls=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryProfilingConditionals.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ln+ymTWelvvxY6nosc4zr2HJRhyC2NlfhJi4oVc2aqw=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryRequest.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KTMAjSyakx8OrqiJ7reAieopX6ubkHc9T/Gmt5dTceA=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySDK.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0sBoNSILNp1vWv+BSkNo56v0QQHvAtomitgSJxp2Sjs=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySampleDecision.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kWYCKCmSFpbKuuAxuW4lAiedFiOjGyjAHoXsi5osytg=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySamplingContext.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gqVGzXpDfzTz3rGJ+Swnn72JNxuBFvui+7yHLBLw3LU=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryScope.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PzaX+TAmMLaSViTwu5ySc6lpsz37uZO1CQSoQ6JJxwg=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryScreenFrames.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			COBA+G+tUJYNtr7XerVrOelmrxrkIhKNSyd/QtLDKYI=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySdkInfo.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AFIkG2eyr7CTYlPN13LgQHORfJ6yp19zAZdTN7aI7R0=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySerializable.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CBLl9zvM6IWlyQd3Ot+bBblukNAO13BmqzjuOySofTg=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySession.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			P2HWn5cqk3x1TDTgRLFIhQgiLlKBylt6m46SvuSp8SU=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySpanContext.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0nWv/ZsTqU7Fggiy4r5iZ5xN9EY7jtq/7Mhkw9LbIO4=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySpanId.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			7eSFJWdZgy8Mx+e3IAMYPYXysljb80zQXcvsBXdL4Q4=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySpanProtocol.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2klu0PUXtwrtR9NFu8Hcv42mFkRvLy/PzMWIEcfkqSk=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentrySpanStatus.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZxoznymFX3asUzjKYT/nu79MX3pQQ2JEa3+sNtDQqKI=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryStacktrace.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RBMuTh4grqP55sHGHT6m6sMnqAegFxrAVn/1PqffJfc=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryThread.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zLTSOf1JSrPJuDfbs4rFv6Y77CvZdVByDWe1w9iS9rk=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryTraceContext.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			P3JeVOU29y7h9O39RZVAV49MrZ+oqL6xyZX3xmBNwVs=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryTraceHeader.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lu2tBS4BqxKK4INVy2ZEkEO9XgRIBrepx3VVq8xIZo0=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryTransactionContext.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mT/c85E4OydLCFyXudWyDNrJ/wMcIBFJ56cPGj6HSpM=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryUser.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VQuIcyQI5OPPBCkZkct7nMFlcIdg/p/kEV6zvEjJoK8=
-			</data>
-		</dict>
-		<key>PrivateHeaders/MetaMapSentryUserFeedback.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ET8QCPDF+gqRgw6ztEXleCkvM80aNqK1VReS7XTdGSQ=
-			</data>
-		</dict>
-		<key>PrivateHeaders/PrivateMetaMapSentrySDKOnly.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hjt34Hzocs9WDcoRtqt4f3vpfUdq0efdX3GshwW30+s=
-			</data>
-		</dict>
-		<key>PrivateHeaders/PrivatesHeader.h</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Uymms97yM+qLGENi2uG3llri6qYy9gsg3KC9JyEQpdk=
-			</data>
-		</dict>
 		<key>RequestManager/RequestManager.swift</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			6WShF6mtLDpGybOysiXn9mXqz3nQYSElnixQV24afCM=
-			</data>
-		</dict>
-		<key>SDK.xcconfig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xKUCpgKPK2qu5UyyHQE9aFj3qyphEyhFAmRDlvWXLIc=
-			</data>
-		</dict>
-		<key>Sentry.xcconfig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bvWg7hByBoeihIyl9Pb5aKgyjhBGgq406Hj6zK5FstY=
-			</data>
-		</dict>
-		<key>SentryPrivate.xcconfig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Y2tvv7QqZWa3+A9vT7dacSTDGiE2njipBN/vSg5pmZM=
-			</data>
-		</dict>
-		<key>SentrySwiftUI.xcconfig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			XQKeSeEqSyaXhxdLX8EtJHBHPQZAVndw4jfOZCmKbwA=
 			</data>
 		</dict>
 		<key>VideoKYCInstructionsViewController.nib</key>

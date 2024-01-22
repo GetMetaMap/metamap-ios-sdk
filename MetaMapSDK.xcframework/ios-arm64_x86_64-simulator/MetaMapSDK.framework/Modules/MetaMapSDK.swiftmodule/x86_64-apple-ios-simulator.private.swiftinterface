@@ -17,13 +17,13 @@ import Dispatch
 import ExternalAccessory
 import Foundation
 @_exported import MetaMapSDK
-import MetricKit
 import MobileCoreServices
 import Network
 import NotificationCenter
 import PDFKit
 import PencilKit
 import SafariServices
+import Sentry
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -208,26 +208,6 @@ public class WSEngine : MetaMapSDK.Engine, MetaMapSDK.TransportEventClient, Meta
   public func frameProcessed(event: MetaMapSDK.FrameEvent)
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
   public func didForm(event: MetaMapSDK.FrameCollector.Event)
-  @objc deinit
-}
-@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, *)
-@available(tvOS, unavailable)
-@available(watchOS, unavailable)
-@objc public protocol MetaMapSentryMXManagerDelegate {
-  @objc func didReceiveCrashDiagnostic(_ diagnostic: MetricKit.MXCrashDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
-  @objc func didReceiveDiskWriteExceptionDiagnostic(_ diagnostic: MetricKit.MXDiskWriteExceptionDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
-  @objc func didReceiveCpuExceptionDiagnostic(_ diagnostic: MetricKit.MXCPUExceptionDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
-  @objc func didReceiveHangDiagnostic(_ diagnostic: MetricKit.MXHangDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
-}
-@objc @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, *)
-@available(tvOS, unavailable)
-@available(watchOS, unavailable)
-@objcMembers public class MetaMapSentryMXManager : ObjectiveC.NSObject, MetricKit.MXMetricManagerSubscriber {
-  @objc public init(disableCrashDiagnostics: Swift.Bool = true)
-  @objc weak public var delegate: (any MetaMapSDK.MetaMapSentryMXManagerDelegate)?
-  @objc public func receiveReports()
-  @objc public func pauseReports()
-  @objc public func didReceive(_ payloads: [MetricKit.MXDiagnosticPayload])
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class MetaMapButton : UIKit.UIButton {
@@ -1068,50 +1048,6 @@ extension UIKit.UIBezierPath {
   convenience public init(pathString: Swift.String)
   @available(*, deprecated, message: "This method is deprecated. If you want to parse a single path, instantiate a new instance of SVGPath using the SVGPath(singlePathString:) initializer and pass the path string.")
   public class func pathWithSVGURL(_ SVGURL: Foundation.URL) -> UIKit.UIBezierPath?
-}
-@_inheritsConvenienceInitializers @objc public class SwiftDescriptor : ObjectiveC.NSObject {
-  @objc public static func getObjectClassName(_ object: Swift.AnyObject) -> Swift.String
-  @objc public static func getSwiftErrorDescription(_ error: any Swift.Error) -> Swift.String?
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc @objcMembers public class MetaMapSentryMXCallStackTree : ObjectiveC.NSObject, Swift.Codable {
-  @objc final public let callStacks: [MetaMapSDK.MetaMapSentryMXCallStack]
-  @objc final public let callStackPerThread: Swift.Bool
-  @objc public init(callStacks: [MetaMapSDK.MetaMapSentryMXCallStack], callStackPerThread: Swift.Bool)
-  @objc public static func from(data: Foundation.Data) throws -> MetaMapSDK.MetaMapSentryMXCallStackTree
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@objc @objcMembers public class MetaMapSentryMXCallStack : ObjectiveC.NSObject, Swift.Codable {
-  public var threadAttributed: Swift.Bool?
-  @objc public var callStackRootFrames: [MetaMapSDK.MetaMapSentryMXFrame]
-  @objc public var flattenedRootFrames: [MetaMapSDK.MetaMapSentryMXFrame] {
-    @objc get
-  }
-  @objc public init(threadAttributed: Swift.Bool, rootFrames: [MetaMapSDK.MetaMapSentryMXFrame])
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@objc @objcMembers public class MetaMapSentryMXFrame : ObjectiveC.NSObject, Swift.Codable {
-  @objc public var binaryUUID: Foundation.UUID
-  @objc public var offsetIntoBinaryTextSegment: Swift.Int
-  @objc public var binaryName: Swift.String?
-  @objc public var address: Swift.UInt64
-  @objc public var subFrames: [MetaMapSDK.MetaMapSentryMXFrame]?
-  public var sampleCount: Swift.Int?
-  public init(binaryUUID: Foundation.UUID, offsetIntoBinaryTextSegment: Swift.Int, sampleCount: Swift.Int? = nil, binaryName: Swift.String? = nil, address: Swift.UInt64, subFrames: [MetaMapSDK.MetaMapSentryMXFrame]?)
-  @objc public var frames: [MetaMapSDK.MetaMapSentryMXFrame] {
-    @objc get
-  }
-  @objc public var framesIncludingSelf: [MetaMapSDK.MetaMapSentryMXFrame] {
-    @objc get
-  }
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum HTTPUpgradeError : Swift.Error {
   case notAnUpgrade(Swift.Int)

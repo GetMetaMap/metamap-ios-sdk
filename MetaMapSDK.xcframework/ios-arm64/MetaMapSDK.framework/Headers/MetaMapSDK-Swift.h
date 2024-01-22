@@ -282,7 +282,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import CoreMedia;
 @import Foundation;
-@import MetricKit;
 @import ObjectiveC;
 @import QuartzCore;
 @import UIKit;
@@ -405,73 +404,6 @@ SWIFT_CLASS("_TtCC10MetaMapSDK15MetaMapMetadata7Builder")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class MetaMapSentryMXFrame;
-
-SWIFT_CLASS("_TtC10MetaMapSDK24MetaMapSentryMXCallStack")
-@interface MetaMapSentryMXCallStack : NSObject
-@property (nonatomic, copy) NSArray<MetaMapSentryMXFrame *> * _Nonnull callStackRootFrames;
-@property (nonatomic, readonly, copy) NSArray<MetaMapSentryMXFrame *> * _Nonnull flattenedRootFrames;
-- (nonnull instancetype)initWithThreadAttributed:(BOOL)threadAttributed rootFrames:(NSArray<MetaMapSentryMXFrame *> * _Nonnull)rootFrames OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class NSData;
-
-/// JSON specification of MXCallStackTree can be found here https://developer.apple.com/documentation/metrickit/mxcallstacktree/3552293-jsonrepresentation
-SWIFT_CLASS("_TtC10MetaMapSDK28MetaMapSentryMXCallStackTree")
-@interface MetaMapSentryMXCallStackTree : NSObject
-@property (nonatomic, readonly, copy) NSArray<MetaMapSentryMXCallStack *> * _Nonnull callStacks;
-@property (nonatomic, readonly) BOOL callStackPerThread;
-- (nonnull instancetype)initWithCallStacks:(NSArray<MetaMapSentryMXCallStack *> * _Nonnull)callStacks callStackPerThread:(BOOL)callStackPerThread OBJC_DESIGNATED_INITIALIZER;
-+ (MetaMapSentryMXCallStackTree * _Nullable)fromData:(NSData * _Nonnull)data error:(NSError * _Nullable * _Nullable)error SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class NSUUID;
-
-SWIFT_CLASS("_TtC10MetaMapSDK20MetaMapSentryMXFrame")
-@interface MetaMapSentryMXFrame : NSObject
-@property (nonatomic, copy) NSUUID * _Nonnull binaryUUID;
-@property (nonatomic) NSInteger offsetIntoBinaryTextSegment;
-@property (nonatomic, copy) NSString * _Nullable binaryName;
-@property (nonatomic) uint64_t address;
-@property (nonatomic, copy) NSArray<MetaMapSentryMXFrame *> * _Nullable subFrames;
-@property (nonatomic, readonly, copy) NSArray<MetaMapSentryMXFrame *> * _Nonnull frames;
-@property (nonatomic, readonly, copy) NSArray<MetaMapSentryMXFrame *> * _Nonnull framesIncludingSelf;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@protocol MetaMapSentryMXManagerDelegate;
-@class MXDiagnosticPayload;
-
-SWIFT_CLASS("_TtC10MetaMapSDK22MetaMapSentryMXManager") SWIFT_AVAILABILITY(watchos,unavailable) SWIFT_AVAILABILITY(tvos,unavailable) SWIFT_AVAILABILITY(maccatalyst,introduced=15.0) SWIFT_AVAILABILITY(macos,introduced=12.0) SWIFT_AVAILABILITY(ios,introduced=15.0)
-@interface MetaMapSentryMXManager : NSObject <MXMetricManagerSubscriber>
-- (nonnull instancetype)initWithDisableCrashDiagnostics:(BOOL)disableCrashDiagnostics OBJC_DESIGNATED_INITIALIZER;
-@property (nonatomic, weak) id <MetaMapSentryMXManagerDelegate> _Nullable delegate;
-- (void)receiveReports;
-- (void)pauseReports;
-- (void)didReceiveDiagnosticPayloads:(NSArray<MXDiagnosticPayload *> * _Nonnull)payloads;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class MXCrashDiagnostic;
-@class NSDate;
-@class MXDiskWriteExceptionDiagnostic;
-@class MXCPUExceptionDiagnostic;
-@class MXHangDiagnostic;
-
-SWIFT_PROTOCOL("_TtP10MetaMapSDK30MetaMapSentryMXManagerDelegate_") SWIFT_AVAILABILITY(watchos,unavailable) SWIFT_AVAILABILITY(tvos,unavailable) SWIFT_AVAILABILITY(maccatalyst,introduced=15.0) SWIFT_AVAILABILITY(macos,introduced=12.0) SWIFT_AVAILABILITY(ios,introduced=15.0)
-@protocol MetaMapSentryMXManagerDelegate
-- (void)didReceiveCrashDiagnostic:(MXCrashDiagnostic * _Nonnull)diagnostic callStackTree:(MetaMapSentryMXCallStackTree * _Nonnull)callStackTree timeStampBegin:(NSDate * _Nonnull)timeStampBegin timeStampEnd:(NSDate * _Nonnull)timeStampEnd;
-- (void)didReceiveDiskWriteExceptionDiagnostic:(MXDiskWriteExceptionDiagnostic * _Nonnull)diagnostic callStackTree:(MetaMapSentryMXCallStackTree * _Nonnull)callStackTree timeStampBegin:(NSDate * _Nonnull)timeStampBegin timeStampEnd:(NSDate * _Nonnull)timeStampEnd;
-- (void)didReceiveCpuExceptionDiagnostic:(MXCPUExceptionDiagnostic * _Nonnull)diagnostic callStackTree:(MetaMapSentryMXCallStackTree * _Nonnull)callStackTree timeStampBegin:(NSDate * _Nonnull)timeStampBegin timeStampEnd:(NSDate * _Nonnull)timeStampEnd;
-- (void)didReceiveHangDiagnostic:(MXHangDiagnostic * _Nonnull)diagnostic callStackTree:(MetaMapSentryMXCallStackTree * _Nonnull)callStackTree timeStampBegin:(NSDate * _Nonnull)timeStampBegin timeStampEnd:(NSDate * _Nonnull)timeStampEnd;
-@end
-
 
 SWIFT_CLASS("_TtC10MetaMapSDK15MetaMapUIConfig")
 @interface MetaMapUIConfig : NSObject
@@ -486,6 +418,7 @@ SWIFT_CLASS("_TtC10MetaMapSDK15MetaMapUIConfig")
 
 
 
+@class NSData;
 
 /// Concrete implementation of <code>SVGParser</code> that uses Foundation’s <code>XMLParser</code> to parse a given SVG file.
 SWIFT_CLASS("_TtC10MetaMapSDK14NSXMLSVGParser")
@@ -827,14 +760,6 @@ SWIFT_CLASS("_TtC10MetaMapSDK13SocketRawView")
 - (OnAckCallback * _Nonnull)emitWithAck:(NSString * _Nonnull)event with:(NSArray * _Nonnull)items SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS("_TtC10MetaMapSDK15SwiftDescriptor")
-@interface SwiftDescriptor : NSObject
-+ (NSString * _Nonnull)getObjectClassName:(id _Nonnull)object SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nullable)getSwiftErrorDescription:(NSError * _Nonnull)error SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UIViewController;
