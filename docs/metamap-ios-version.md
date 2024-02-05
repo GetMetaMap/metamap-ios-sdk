@@ -9,6 +9,15 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.18.2
+
+### Updated Features
+    * Phone check validation doesn't select by default the country allow in Country Restrictions
+    * face detection on the realtime video recording - biometric verification
+
+### Bug Fixes
+    * fixed issue related to depandeses integration mechanism
+
 
 # Version 3.18.1
 
