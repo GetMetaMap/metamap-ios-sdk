@@ -5,11 +5,13 @@
 import AVFAudio
 import AVFoundation
 import AVKit
+import Accelerate
 import SystemConfiguration.CaptiveNetwork
 import CommonCrypto
 import CoreGraphics
 import CoreImage
 import CoreLocation
+import CoreML
 import CoreMotion
 import CoreTelephony
 import DeveloperToolsSupport
@@ -17,18 +19,19 @@ import Dispatch
 import ExternalAccessory
 import Foundation
 @_exported import MetaMapSDK
+import MetricKit
 import MobileCoreServices
 import Network
 import NotificationCenter
 import PDFKit
 import PencilKit
 import SafariServices
-import Sentry
 import Swift
 import SwiftUI
 import SystemConfiguration
 import UIKit.UIGestureRecognizerSubclass
 import UIKit
+import VideoToolbox
 import Vision
 import WebKit
 import _Concurrency
@@ -606,6 +609,44 @@ extension Swift.FloatingPoint {
     get
   }
 }
+@objc @objcMembers public class MetaMapSentryMXCallStackTree : ObjectiveC.NSObject, Swift.Codable {
+  @objc final public let callStacks: [MetaMapSDK.MetaMapSentryMXCallStack]
+  @objc final public let callStackPerThread: Swift.Bool
+  @objc public init(callStacks: [MetaMapSDK.MetaMapSentryMXCallStack], callStackPerThread: Swift.Bool)
+  @objc public static func from(data: Foundation.Data) throws -> MetaMapSDK.MetaMapSentryMXCallStackTree
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @objcMembers public class MetaMapSentryMXCallStack : ObjectiveC.NSObject, Swift.Codable {
+  public var threadAttributed: Swift.Bool?
+  @objc public var callStackRootFrames: [MetaMapSDK.MetaMapSentryMXFrame]
+  @objc public var flattenedRootFrames: [MetaMapSDK.MetaMapSentryMXFrame] {
+    @objc get
+  }
+  @objc public init(threadAttributed: Swift.Bool, rootFrames: [MetaMapSDK.MetaMapSentryMXFrame])
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@objc @objcMembers public class MetaMapSentryMXFrame : ObjectiveC.NSObject, Swift.Codable {
+  @objc public var binaryUUID: Foundation.UUID
+  @objc public var offsetIntoBinaryTextSegment: Swift.Int
+  @objc public var binaryName: Swift.String?
+  @objc public var address: Swift.UInt64
+  @objc public var subFrames: [MetaMapSDK.MetaMapSentryMXFrame]?
+  public var sampleCount: Swift.Int?
+  public init(binaryUUID: Foundation.UUID, offsetIntoBinaryTextSegment: Swift.Int, sampleCount: Swift.Int? = nil, binaryName: Swift.String? = nil, address: Swift.UInt64, subFrames: [MetaMapSDK.MetaMapSentryMXFrame]?)
+  @objc public var frames: [MetaMapSDK.MetaMapSentryMXFrame] {
+    @objc get
+  }
+  @objc public var framesIncludingSelf: [MetaMapSDK.MetaMapSentryMXFrame] {
+    @objc get
+  }
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
 public protocol Fillable {
 }
 extension UIKit.UIView {
@@ -667,6 +708,26 @@ extension MetaMapSDK.SocketLogger {
 }
 extension QuartzCore.CAShapeLayer {
   convenience public init(pathString: Swift.String)
+}
+@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@objc public protocol MetaMapSentryMXManagerDelegate {
+  @objc func didReceiveCrashDiagnostic(_ diagnostic: MetricKit.MXCrashDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
+  @objc func didReceiveDiskWriteExceptionDiagnostic(_ diagnostic: MetricKit.MXDiskWriteExceptionDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
+  @objc func didReceiveCpuExceptionDiagnostic(_ diagnostic: MetricKit.MXCPUExceptionDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
+  @objc func didReceiveHangDiagnostic(_ diagnostic: MetricKit.MXHangDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
+}
+@objc @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, *)
+@available(tvOS, unavailable)
+@available(watchOS, unavailable)
+@objcMembers public class MetaMapSentryMXManager : ObjectiveC.NSObject, MetricKit.MXMetricManagerSubscriber {
+  @objc public init(disableCrashDiagnostics: Swift.Bool = true)
+  @objc weak public var delegate: (any MetaMapSDK.MetaMapSentryMXManagerDelegate)?
+  @objc public func receiveReports()
+  @objc public func pauseReports()
+  @objc public func didReceive(_ payloads: [MetricKit.MXDiagnosticPayload])
+  @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class SVGView : UIKit.UIView {
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var svgName: Swift.String? {
@@ -823,6 +884,7 @@ extension MetaMapSDK.SocketEngine {
   public func showMetaMapFlow(clientId: Swift.String, flowId: Swift.String?, configurationId: Swift.String? = nil, encryptionConfigurationId: Swift.String? = nil, metaMapMetadata: MetaMapSDK.MetaMapMetadata? = nil)
   @objc deinit
 }
+public func IOU(_ a: Swift.SIMD16<Swift.Float32>, _ b: Swift.SIMD16<Swift.Float32>) -> Swift.Float
 public enum SocketIOVersion : Swift.Int {
   case two
   case three
@@ -1304,6 +1366,12 @@ extension Swift.String : MetaMapSDK.SocketData {
 public typealias AckCallback = ([Any]) -> Swift.Void
 public typealias NormalCallback = ([Any], MetaMapSDK.SocketAckEmitter) -> Swift.Void
 public typealias Post = (msg: Swift.String, completion: (() -> Swift.Void)?)
+@_inheritsConvenienceInitializers @objc public class SwiftDescriptor : ObjectiveC.NSObject {
+  @objc public static func getObjectClassName(_ object: Swift.AnyObject) -> Swift.String
+  @objc public static func getSwiftErrorDescription(_ error: any Swift.Error) -> Swift.String?
+  @objc override dynamic public init()
+  @objc deinit
+}
 public protocol DocumentScannerDelegate : AnyObject {
   func didCapture(image: UIKit.UIImage)
   func didRecognize(feature: MetaMapSDK.RectangleFeature?, in image: CoreImage.CIImage)
