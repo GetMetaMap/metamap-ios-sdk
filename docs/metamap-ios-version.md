@@ -9,6 +9,16 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.20.0
+
+
+### Updated Features
+ * updated user consent
+ * added support pdf upload with many pages in Document verification step
+ * aadded support option for  skip OTP screen in Phone verification stepa
+
+
+
 # Version 3.19.0
 
 ### Updated Features

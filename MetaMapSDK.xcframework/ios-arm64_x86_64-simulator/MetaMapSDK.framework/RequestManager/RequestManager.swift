@@ -78,6 +78,10 @@ class RequestManager {
     func skipInput(input: InputId, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.skipStepsRequest(data: nil, type: .skip(subType: input.rawValue), completion: completion)
     }
+    
+    func termCondition(data: ConsentDetails, completion: @escaping (ResponseStatus, Data?) -> Void) {
+        apiManager.termConditionRequest(data: data, completion: completion)
+    }
 
     func downloadPDF(path: String, completion: @escaping (ResponseStatus, Data?) -> Void) {
         apiManager.downloadPDF(path: path, completion: completion)
@@ -97,6 +101,10 @@ class RequestManager {
     
     func dynamicInputsTitleLocalization(completion: @escaping (_ dict: [String: String]) -> Void) {
         apiManager.dynamicInputsTitleLocalization(completion: completion)
+    }
+    
+    func dynamicErrorsLocalization(completion: @escaping (_ dict: [String: String]) -> Void) {
+        apiManager.dynamicErrosLocalization(completion: completion)
     }
 
     func uploadInput(inputData: InputDataProtocol, completion: @escaping (ResponseStatus) -> Void) {
