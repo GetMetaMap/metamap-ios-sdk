@@ -15,7 +15,7 @@ If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [
 ### Updated Features
  * updated user consent
  * added support pdf upload with many pages in Document verification step
- * aadded support option for  skip OTP screen in Phone verification stepa
+ * added support option for  skip OTP screen in Phone verification step
 
 
 
