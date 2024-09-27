@@ -30,6 +30,9 @@
     "specificationVersion" : 4,
     "computePrecision" : "Float16",
     "isUpdatable" : "0",
+    "stateSchema" : [
+
+    ],
     "availability" : {
       "macOS" : "10.15",
       "tvOS" : "13.0",
@@ -38,25 +41,6 @@
       "iOS" : "13.0",
       "macCatalyst" : "13.0"
     },
-    "neuralNetworkLayerTypeHistogram" : {
-      "Convolution" : 37,
-      "ActivationSigmoid" : 1,
-      "ReshapeStatic" : 4,
-      "LoadConstantND" : 30,
-      "PaddingConstant" : 4,
-      "ConstantPad" : 11,
-      "Stack" : 1,
-      "PoolingMax" : 3,
-      "Squeeze" : 17,
-      "Transpose" : 4,
-      "SliceStatic" : 16,
-      "Add" : 32,
-      "ExpandDims" : 1,
-      "ConcatND" : 2,
-      "Multiply" : 36,
-      "ActivationReLU" : 17,
-      "SubtractBroadcastable" : 2
-    },
     "modelType" : {
       "name" : "MLModelType_neuralNetwork"
     },
@@ -64,7 +48,6 @@
       "com.github.apple.coremltools.version" : "4.0b3",
       "com.github.apple.coremltools.source" : "torch==1.5.0"
     },
-    "generatedClassName" : "BlazeFaceScaled",
     "inputSchema" : [
       {
         "height" : "128",
@@ -79,6 +62,26 @@
         "name" : "image"
       }
     ],
+    "generatedClassName" : "BlazeFaceScaled",
+    "neuralNetworkLayerTypeHistogram" : {
+      "Convolution" : 37,
+      "PoolingINVALID" : 3,
+      "Transpose" : 4,
+      "ReshapeStatic" : 4,
+      "ActivationSigmoid" : 1,
+      "PaddingConstant" : 4,
+      "ConstantPad" : 11,
+      "LoadConstantND" : 30,
+      "Stack" : 1,
+      "Squeeze" : 17,
+      "SliceStatic" : 16,
+      "Add" : 32,
+      "Multiply" : 36,
+      "ConcatND" : 2,
+      "ExpandDims" : 1,
+      "ActivationReLU" : 17,
+      "SubtractBroadcastable" : 2
+    },
     "method" : "predict"
   }
 ]
