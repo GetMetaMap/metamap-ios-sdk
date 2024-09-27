@@ -1,0 +1,4 @@
+framework module IncdOnboarding {
+  header "IncdOnboarding-Swift.h"
+  requires objc
+}
