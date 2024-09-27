@@ -1,0 +1,110 @@
+[
+    {
+        "code": "AC",
+        "displayValue": "Acre"
+    },
+    {
+        "code": "AL",
+        "displayValue": "Alagoas"
+    },
+    {
+        "code": "AM",
+        "displayValue": "Amazonas"
+    },
+    {
+        "code": "AP",
+        "displayValue": "Amapá"
+    },
+    {
+        "code": "BA",
+        "displayValue": "Bahia"
+    },
+    {
+        "code": "CE",
+        "displayValue": "Ceará"
+    },
+    {
+        "code": "DF",
+        "displayValue": "Distrito Federal"
+    },
+    {
+        "code": "ES",
+        "displayValue": "Espírito Santo"
+    },
+    {
+        "code": "GO",
+        "displayValue": "Goiás"
+    },
+    {
+        "code": "MA",
+        "displayValue": "Maranhão"
+    },
+    {
+        "code": "MT",
+        "displayValue": "Mato Grosso"
+    },
+    {
+        "code": "MS",
+        "displayValue": "Mato Grosso do Sul"
+    },
+    {
+        "code": "MG",
+        "displayValue": "Minas Gerais"
+    },
+    {
+        "code": "PA",
+        "displayValue": "Pará"
+    },
+    {
+        "code": "PB",
+        "displayValue": "Paraíba"
+    },
+    {
+        "code": "PR",
+        "displayValue": "Paraná"
+    },
+    {
+        "code": "PE",
+        "displayValue": "Pernambuco"
+    },
+    {
+        "code": "PI",
+        "displayValue": "Piauí"
+    },
+    {
+        "code": "RJ",
+        "displayValue": "Rio de Janeiro"
+    },
+    {
+        "code": "RN",
+        "displayValue": "Rio Grande do Norte"
+    },
+    {
+        "code": "RS",
+        "displayValue": "Rio Grande do Sul"
+    },
+    {
+        "code": "RO",
+        "displayValue": "Rondônia"
+    },
+    {
+        "code": "RR",
+        "displayValue": "Roraima"
+    },
+    {
+        "code": "SC",
+        "displayValue": "Santa Catarina"
+    },
+    {
+        "code": "SP",
+        "displayValue": "São Paulo"
+    },
+    {
+        "code": "SE",
+        "displayValue": "Sergipe"
+    },
+    {
+        "code": "TO",
+        "displayValue": "Tocantins"
+    }
+]
