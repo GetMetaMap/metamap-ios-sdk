@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MetaMapSDK
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MetaMapSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFAudio
 import AVFoundation
 import AVKit
@@ -17,6 +18,7 @@ import DeveloperToolsSupport
 import Dispatch
 import ExternalAccessory
 import Foundation
+import IncdOnboarding
 @_exported import MetaMapSDK
 import MetricKit
 import MobileCoreServices
@@ -212,26 +214,26 @@ public class WSEngine : MetaMapSDK.Engine, MetaMapSDK.TransportEventClient, Meta
   public func didForm(event: MetaMapSDK.FrameCollector.Event)
   @objc deinit
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class MetaMapButton : UIKit.UIButton {
-  @objc @_Concurrency.MainActor(unsafe) public var title: Swift.String? {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class MetaMapButton : UIKit.UIButton {
+  @objc @_Concurrency.MainActor @preconcurrency public var title: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var buttonColor: UIKit.UIColor? {
+  @objc @_Concurrency.MainActor @preconcurrency public var buttonColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @objc @_Concurrency.MainActor(unsafe) public var textColor: UIKit.UIColor? {
+  @objc @_Concurrency.MainActor @preconcurrency public var textColor: UIKit.UIColor? {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   @objc deinit
 }
 extension Swift.Dictionary {
@@ -420,24 +422,24 @@ public protocol SocketEngineWebsocket : MetaMapSDK.SocketEngineSpec {
 extension MetaMapSDK.SocketEngineWebsocket {
   public func sendWebSocketMessage(_ str: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> Swift.Void)?)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class TransparentNavigationController : UIKit.UINavigationController {
-  @_Concurrency.MainActor(unsafe) public var statusBarStyle: UIKit.UIStatusBarStyle
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class TransparentNavigationController : UIKit.UINavigationController {
+  @_Concurrency.MainActor @preconcurrency public var statusBarStyle: UIKit.UIStatusBarStyle
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
     @objc get
   }
   @available(iOS 5.0, *)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(rootViewController: UIKit.UIViewController)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc deinit
 }
 public enum ConnectionState {
@@ -466,26 +468,26 @@ public enum ProgressBarState {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class LinearProgressBar : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) open var state: MetaMapSDK.ProgressBarState {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class LinearProgressBar : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency open var state: MetaMapSDK.ProgressBarState {
     get
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var primaryColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var primaryColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var secondaryColor: UIKit.UIColor {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var secondaryColor: UIKit.UIColor {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var animateDeterminateInitialization: Swift.Bool
-  @_Concurrency.MainActor(unsafe) open var indeterminateAnimationDuration: Swift.Double
-  @_Concurrency.MainActor(unsafe) open var determinateAnimationDuration: Swift.Double
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToSuperview()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func didMoveToWindow()
-  @_Concurrency.MainActor(unsafe) public func transition(to state: MetaMapSDK.ProgressBarState, delay: Foundation.TimeInterval = 0, animateDeterminate: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var animateDeterminateInitialization: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var indeterminateAnimationDuration: Swift.Double
+  @_Concurrency.MainActor @preconcurrency open var determinateAnimationDuration: Swift.Double
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func didMoveToSuperview()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func didMoveToWindow()
+  @_Concurrency.MainActor @preconcurrency public func transition(to state: MetaMapSDK.ProgressBarState, delay: Foundation.TimeInterval = 0, animateDeterminate: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
   @objc deinit
 }
 public protocol DelaysApplyingAttributes {
@@ -649,19 +651,19 @@ extension Swift.FloatingPoint {
 public protocol Fillable {
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public func allSubViewsOf<T>(type: T.Type) -> [T] where T : UIKit.UIView
+  @_Concurrency.MainActor @preconcurrency public func allSubViewsOf<T>(type: T.Type) -> [T] where T : UIKit.UIView
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) convenience public init(pathString: Swift.String)
-  @_Concurrency.MainActor(unsafe) convenience public init(svgNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(pathString: Swift.String)
+  @_Concurrency.MainActor @preconcurrency convenience public init(svgNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
   @available(*, deprecated, renamed: "init(svgNamed:parser:completion:)")
-  @_Concurrency.MainActor(unsafe) convenience public init(SVGNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) convenience public init(svgURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(SVGNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(svgURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
   @available(*, deprecated, renamed: "init(svgURL:parser:completion:)")
-  @_Concurrency.MainActor(unsafe) convenience public init(SVGURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
-  @_Concurrency.MainActor(unsafe) convenience public init(svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(SVGURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
   @available(*, deprecated, renamed: "init(svgData:parser:completion:)")
-  @_Concurrency.MainActor(unsafe) convenience public init(SVGData svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency convenience public init(SVGData svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
 }
 @objc public protocol SocketEngineClient {
   @objc func engineDidError(reason: Swift.String)
@@ -728,15 +730,15 @@ extension QuartzCore.CAShapeLayer {
   @objc public func didReceive(_ payloads: [MetricKit.MXDiagnosticPayload])
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class SVGView : UIKit.UIView {
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var svgName: Swift.String? {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class SVGView : UIKit.UIView {
+  @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var svgName: Swift.String? {
     @objc get
     @objc set
   }
   @available(*, deprecated, renamed: "svgName")
-  @_Concurrency.MainActor(unsafe) open var SVGName: Swift.String?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency open var SVGName: Swift.String?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 public protocol Identifiable {
