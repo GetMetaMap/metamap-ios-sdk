@@ -13,7 +13,7 @@ If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [
 
 ### Updated Features
  * fixed issue related to Error screen 
- * changed Incode SDK implementation tecnologic
+ * changed Incode SDK implementation technology
 
 
 ### New Features
