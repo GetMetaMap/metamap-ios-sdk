@@ -63004,7 +63004,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.21.1\""
+      "value": "\"3.22.0\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
@@ -67928,1064 +67928,1064 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/CoreMLGenerated\/BlazeFaceScaled\/BlazeFaceScaled.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/CoreMLGenerated\/BlazeFaceScaled\/BlazeFaceScaled.swift",
       "kind": "Array",
       "offset": 441,
       "length": 9,
       "value": "[\"image\"]"
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 723,
       "length": 7,
       "value": "\"IpGeo\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 910,
       "length": 37,
       "value": "\"MFCameraBrazilianDrivingLicenseIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1097,
       "length": 22,
       "value": "\"MFCameraDocumentIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1292,
       "length": 34,
       "value": "\"MFDocumentTutorialBackgroundV0.9\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1476,
       "length": 22,
       "value": "\"MFDrivingLicenseIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1644,
       "length": 20,
       "value": "\"MFGalleryIconWhite\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1806,
       "length": 18,
       "value": "\"MFLiveBackground\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 1986,
       "length": 28,
       "value": "\"MFMatiButtonLeftBackground\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2156,
       "length": 18,
       "value": "\"MFNationalIDIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2312,
       "length": 16,
       "value": "\"MFPassportIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2490,
       "length": 28,
       "value": "\"MFProofOfAddressWithBorder\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2664,
       "length": 20,
       "value": "\"MFProofOfResidency\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 2847,
       "length": 29,
       "value": "\"MFProofOfResidencyFrontV0.9\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3030,
       "length": 24,
       "value": "\"MFProofOfResidencyIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3201,
       "length": 21,
       "value": "\"MFUploadSuccessV0.9\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3344,
       "length": 8,
       "value": "\"Record\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3468,
       "length": 5,
       "value": "\"Vpn\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3611,
       "length": 16,
       "value": "\"attachFileIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3757,
       "length": 12,
       "value": "\"attachIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 3899,
       "length": 12,
       "value": "\"backButton\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4060,
       "length": 23,
       "value": "\"back_side_second_part\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4222,
       "length": 19,
       "value": "\"badTextErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4373,
       "length": 13,
       "value": "\"bankAccount\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4548,
       "length": 28,
       "value": "\"biometricSignatureDescIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4730,
       "length": 24,
       "value": "\"biometricSignatureIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 4908,
       "length": 25,
       "value": "\"block_verification_icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5078,
       "length": 22,
       "value": "\"blurryTextErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5256,
       "length": 25,
       "value": "\"brazilianDrivingLicense\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5449,
       "length": 31,
       "value": "\"brazilianDrivingLicenseCamera\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5656,
       "length": 35,
       "value": "\"brazilianDrivingLicenseCameraBack\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 5869,
       "length": 36,
       "value": "\"brazilianDrivingLicenseCameraFront\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6033,
       "length": 11,
       "value": "\"camerIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6166,
       "length": 8,
       "value": "\"camera\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6304,
       "length": 12,
       "value": "\"cameraIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6455,
       "length": 17,
       "value": "\"captureIconV0.9\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6614,
       "length": 18,
       "value": "\"changeCameraIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6780,
       "length": 22,
       "value": "\"change_language_icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 6922,
       "length": 7,
       "value": "\"check\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7065,
       "length": 16,
       "value": "\"check_box_icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7230,
       "length": 24,
       "value": "\"chosePhotoGalleryImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7382,
       "length": 11,
       "value": "\"clearIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7513,
       "length": 7,
       "value": "\"close\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7652,
       "length": 13,
       "value": "\"closeButton\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7807,
       "length": 19,
       "value": "\"close_button_icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 7981,
       "length": 27,
       "value": "\"countryMismatchErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 8163,
       "length": 27,
       "value": "\"croppedDocumentErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 8336,
       "length": 20,
       "value": "\"customDocumentIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 8523,
       "length": 32,
       "value": "\"custom_block_verification_icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 8677,
       "length": 8,
       "value": "\"deIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 8841,
       "length": 26,
       "value": "\"deSelected_language_icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 9023,
       "length": 25,
       "value": "\"documentDriveBackCamera\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 9196,
       "length": 21,
       "value": "\"documentDriveCamera\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 9355,
       "length": 16,
       "value": "\"documentDriver\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 9517,
       "length": 20,
       "value": "\"documentDriverBack\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 9687,
       "length": 22,
       "value": "\"documentNationalBack\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 9871,
       "length": 28,
       "value": "\"documentNationalBackCamera\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 10052,
       "length": 26,
       "value": "\"documentNoFaceErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 10220,
       "length": 18,
       "value": "\"documentPassport\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 10392,
       "length": 24,
       "value": "\"documentPassportCamera\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 10568,
       "length": 23,
       "value": "\"documentPassportSpain\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 10739,
       "length": 21,
       "value": "\"documentProofCamera\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 10900,
       "length": 17,
       "value": "\"documentStepImg\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 11043,
       "length": 10,
       "value": "\"doneIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 11191,
       "length": 16,
       "value": "\"duplicateError\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 11337,
       "length": 12,
       "value": "\"emailCheck\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 11471,
       "length": 8,
       "value": "\"enIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 11607,
       "length": 11,
       "value": "\"errorIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 11754,
       "length": 15,
       "value": "\"errorNoFaceVL\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 11907,
       "length": 16,
       "value": "\"errorTimeoutVL\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 12052,
       "length": 12,
       "value": "\"es-419Icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 12186,
       "length": 8,
       "value": "\"esIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 12320,
       "length": 10,
       "value": "\"exitDoor\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 12452,
       "length": 8,
       "value": "\"frIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 12611,
       "length": 24,
       "value": "\"front_side_second_part\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 12769,
       "length": 14,
       "value": "\"genericError\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 12913,
       "length": 12,
       "value": "\"gigAccount\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 13047,
       "length": 8,
       "value": "\"globus\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 13185,
       "length": 12,
       "value": "\"iconCamera\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 13325,
       "length": 11,
       "value": "\"iconCheck\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 13466,
       "length": 12,
       "value": "\"iconRotate\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 13616,
       "length": 16,
       "value": "\"imageSizeError\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 13754,
       "length": 8,
       "value": "\"itIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 13890,
       "length": 11,
       "value": "\"leftArrow\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 14027,
       "length": 10,
       "value": "\"lineStep\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 14187,
       "length": 22,
       "value": "\"livenessErorrCircles\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 14369,
       "length": 27,
       "value": "\"livenessErrorLookAtCamera\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 14556,
       "length": 27,
       "value": "\"livenessErrorSlowMovement\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 14709,
       "length": 10,
       "value": "\"location\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 14861,
       "length": 18,
       "value": "\"locationDisabled\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 15019,
       "length": 17,
       "value": "\"locationEnabled\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 15172,
       "length": 15,
       "value": "\"locationFetch\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 15321,
       "length": 14,
       "value": "\"locationIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 15484,
       "length": 24,
       "value": "\"maskDetectedErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 15644,
       "length": 15,
       "value": "\"matiLogoWhite\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 15792,
       "length": 14,
       "value": "\"metaMap_icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 15957,
       "length": 25,
       "value": "\"multipleFacesErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 16114,
       "length": 13,
       "value": "\"newMatiLogo\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 16263,
       "length": 15,
       "value": "\"newSelfieIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 16425,
       "length": 23,
       "value": "\"noFaceInDocErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 16599,
       "length": 25,
       "value": "\"noFaceSelfieIErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 16754,
       "length": 12,
       "value": "\"noInternet\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 16918,
       "length": 23,
       "value": "\"noMoreSmsAttempsError\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 17095,
       "length": 25,
       "value": "\"occlusion_document_icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 17244,
       "length": 9,
       "value": "\"pdfIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 17389,
       "length": 15,
       "value": "\"physicalError\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 17526,
       "length": 8,
       "value": "\"plIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 17655,
       "length": 10,
       "value": "\"porImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 17807,
       "length": 18,
       "value": "\"previewFirstStep\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 17969,
       "length": 19,
       "value": "\"previewFourthStep\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 18130,
       "length": 18,
       "value": "\"previewThirdStep\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 18290,
       "length": 18,
       "value": "\"previewVoiceStep\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 18432,
       "length": 9,
       "value": "\"privacy\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 18588,
       "length": 23,
       "value": "\"proofOfResidencyImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 18733,
       "length": 8,
       "value": "\"ptIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 18893,
       "length": 23,
       "value": "\"recordingDisabledIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 19066,
       "length": 22,
       "value": "\"recordingEnabledIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 19230,
       "length": 18,
       "value": "\"recordingStarted\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 19384,
       "length": 15,
       "value": "\"recordingStop\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 19563,
       "length": 29,
       "value": "\"requestCameraAccessBlockImg\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 19756,
       "length": 29,
       "value": "\"requestCameraAccessFirstImg\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 19943,
       "length": 26,
       "value": "\"requestMicAccessBlockImg\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 20127,
       "length": 26,
       "value": "\"requestMicAccessFirstImg\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 20295,
       "length": 18,
       "value": "\"resendOTPAttempt\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 20435,
       "length": 8,
       "value": "\"retake\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 20571,
       "length": 11,
       "value": "\"retryIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 20712,
       "length": 12,
       "value": "\"rightArrow\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 20846,
       "length": 8,
       "value": "\"ruIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 21000,
       "length": 20,
       "value": "\"selectDropdownIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 21172,
       "length": 24,
       "value": "\"selected_language_icon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 21326,
       "length": 12,
       "value": "\"selfieStep\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 21470,
       "length": 13,
       "value": "\"serverError\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 21609,
       "length": 10,
       "value": "\"settings\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 21745,
       "length": 10,
       "value": "\"signIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 21899,
       "length": 19,
       "value": "\"similarPhotoError\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 22066,
       "length": 21,
       "value": "\"smallSizeImageError\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 22221,
       "length": 14,
       "value": "\"smsCheckIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 22379,
       "length": 19,
       "value": "\"smsRectangleInput\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 22544,
       "length": 20,
       "value": "\"startRecordingIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 22688,
       "length": 8,
       "value": "\"switch\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 22818,
       "length": 8,
       "value": "\"thIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 22948,
       "length": 8,
       "value": "\"trIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 23105,
       "length": 24,
       "value": "\"typeMismatchErrorImage\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 23267,
       "length": 16,
       "value": "\"uploadDoneIcon\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 23413,
       "length": 12,
       "value": "\"videoClose\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 23559,
       "length": 14,
       "value": "\"videoKYCFace\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 23715,
       "length": 18,
       "value": "\"videoKYCReadText\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 23869,
       "length": 15,
       "value": "\"videoKYCVoice\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 24010,
       "length": 10,
       "value": "\"videoKyc\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 24164,
       "length": 19,
       "value": "\"videoLivenessStep\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 24327,
       "length": 19,
       "value": "\"voiceLivenessStep\""
     },
     {
-      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-fbfycedwxrrphcerlyalddnatxwf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "filePath": "\/Users\/avo\/Library\/Developer\/Xcode\/DerivedData\/MetaMapSDK-ertvczdffruxthbclapjvwuntbel\/Build\/Intermediates.noindex\/ArchiveIntermediates\/MetaMapSDK\/IntermediateBuildFilesPath\/MetaMapSDK.build\/Release-iphoneos\/MetaMapSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
       "offset": 24470,
       "length": 9,
