@@ -9,6 +9,15 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+
+# Version 3.22.1
+
+### Updated Features
+* enable face mask and lens checks for Passive liveness verification step
+ 
+### Bug Fixes
+* fixed issue related to dynamic colors on the Start screen 
+
 # Version 3.22.0
 
 ### Updated Features

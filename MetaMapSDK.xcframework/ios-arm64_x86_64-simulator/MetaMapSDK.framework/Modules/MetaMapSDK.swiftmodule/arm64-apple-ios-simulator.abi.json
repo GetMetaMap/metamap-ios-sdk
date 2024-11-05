@@ -62596,149 +62596,51 @@
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 939,
+      "offset": 935,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1159,
+      "offset": 1155,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1261,
+      "offset": 1257,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1331,
+      "offset": 1327,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1403,
+      "offset": 1399,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1566,
+      "offset": 1562,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1678,
+      "offset": 1674,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3933,
-      "length": 3,
-      "value": "131"
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3937,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3951,
-      "length": 3,
-      "value": "146"
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3955,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3968,
-      "length": 3,
-      "value": "184"
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "FloatLiteral",
-      "offset": 3972,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3986,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4055,
-      "length": 2,
-      "value": "12"
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "StringLiteral",
-      "offset": 4184,
-      "length": 17,
-      "value": "\"label_agreement\""
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "StringLiteral",
-      "offset": 4424,
-      "length": 17,
-      "value": "\"label_agreement\""
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "StringLiteral",
-      "offset": 4559,
-      "length": 17,
-      "value": "\"label_agreement\""
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "StringLiteral",
-      "offset": 4709,
-      "length": 17,
-      "value": "\"label_agreement\""
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "StringLiteral",
-      "offset": 4832,
-      "length": 37,
-      "value": "\"metamap_credit_check_Privacy_Policy\""
-    },
-    {
-      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/PrivacyPolicy\/PrivacyPolicyView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5468,
-      "length": 1,
-      "value": "1"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiBaseViewController.swift",
@@ -63004,7 +62906,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.22.0\""
+      "value": "\"3.22.1\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
@@ -65837,56 +65739,56 @@
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 706,
+      "offset": 673,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 772,
+      "offset": 739,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1023,
+      "offset": 990,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1132,
+      "offset": 1099,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 1204,
+      "offset": 1171,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 1406,
+      "offset": 1373,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
       "kind": "BooleanLiteral",
-      "offset": 2019,
+      "offset": 1986,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
       "kind": "IntegerLiteral",
-      "offset": 2170,
+      "offset": 2137,
       "length": 2,
       "value": "12"
     },
