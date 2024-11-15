@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'opencv2.framework'
   s.frameworks   = ['Accelerate', 'CoreGraphics', 'Foundation', 'QuartzCore', 'UIKit']
   s.requires_arc = true
-
+  s.static_framework = false
   s.pod_target_xcconfig = {
     'OTHER_LDFLAGS' => '-lObjC'
   }
