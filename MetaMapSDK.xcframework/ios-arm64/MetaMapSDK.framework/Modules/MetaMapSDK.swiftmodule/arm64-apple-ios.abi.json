@@ -62906,7 +62906,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.22.1\""
+      "value": "\"3.22.2\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
