@@ -61894,6 +61894,13 @@
       "value": "\"(((\\w+)-?(\\w*)?):?([ #\\w]*\\.?\\w+))\""
     },
     {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/PhoneEmailVerification\/PhoneEmailViewController\/View\/PhoneEmailVerificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 14241,
+      "length": 28,
+      "value": "\"error_invalid_phone_number\""
+    },
+    {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/FinancialVerification\/FinancialAccountCoordinator.swift",
       "kind": "Array",
       "offset": 259,
@@ -62644,50 +62651,57 @@
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiBaseViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 871,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiBaseViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1307,
+      "offset": 1364,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7878,
+      "offset": 8226,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7890,
+      "offset": 8238,
       "length": 2,
       "value": "50"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8054,
+      "offset": 8402,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8060,
+      "offset": 8408,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8070,
+      "offset": 8418,
       "length": 2,
       "value": "44"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/assets\/MatiBaseViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8082,
+      "offset": 8430,
       "length": 2,
       "value": "44"
     },
@@ -62906,7 +62920,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.22.2\""
+      "value": "\"3.22.3\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
