@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		sXpm7b1l65mYtUF3d80GStugc74=
+		idbT1AC456R1/YkIcdBCxyBfCOw=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<data>
-		Fc7lIwZSpT52LyXtX/Zuxfn9MNk=
+		OSLQ5/fzeDneRWuHc5i8XiOcft0=
 		</data>
 		<key>Headers/MetaMapSDK.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		YZO9GgkBrirhKY7Yeqi0bX9SW50=
+		T1BwbfCKsNaePQ7HbPUt9wi2ufM=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -150,7 +150,7 @@
 		</data>
 		<key>MatiPoRTutorialViewController.nib</key>
 		<data>
-		5vcoI9bT23Z1URespD2PnU9emwM=
+		SGTQyiFwqVy3BJeZEWr75SateJc=
 		</data>
 		<key>MatiPoRViewController.nib</key>
 		<data>
@@ -170,43 +170,43 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dOHIG+o86dm41eNa2je1+pizhUc=
+		E6w5BqHVzPElGE8yBvidSH72/40=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		uA6JQi93H+UQoLbKeQ8j+7KEMtE=
+		GaEN9N+2h4fn3mhEXquGRUIs3zI=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		WxN4jtwHMn9imy6vKR0XV8kcLog=
+		6P3GZx3QxS0Yd5RPHwQO2YN2Uoc=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		uA6JQi93H+UQoLbKeQ8j+7KEMtE=
+		GaEN9N+2h4fn3mhEXquGRUIs3zI=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uAxuGhygGarfcWluc8cED9vmYVc=
+		+Yo3e/QYZuVHvQMB+l11yPbktN8=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dOHIG+o86dm41eNa2je1+pizhUc=
+		E6w5BqHVzPElGE8yBvidSH72/40=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FhHFD9Y1vpwIY7+Rpyl6LQohl8E=
+		QOLeGVcQK1Tvh5DuptTfuxFX/eY=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		idCAFWmsr67z488J43hkfnzX1FM=
+		+N08y6RnDxV/1fH4CaTN9Kny4Sg=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FhHFD9Y1vpwIY7+Rpyl6LQohl8E=
+		QOLeGVcQK1Tvh5DuptTfuxFX/eY=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ksFUva87Uj1HwA34+i0Qy7ugtUk=
+		04EHrz7QY2AlkH4ABI7x3j/s1hI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>OTPVerificationViewController.nib</key>
 		<data>
-		wN3mNwE6VthFG1C2HqxIcVNPjxY=
+		xbASjnj4URoXAaYcjaIGzYFYrdY=
 		</data>
 		<key>PhoneEmailVerificationViewController.nib</key>
 		<data>
@@ -426,7 +426,7 @@
 		</data>
 		<key>RequestManager/RequestManager.swift</key>
 		<data>
-		9R9FxnyvePjRNkFPvF5OXsfsJcc=
+		75DvoyRYc1ux0tQOnNFflgA8gZI=
 		</data>
 		<key>SDK.xcconfig</key>
 		<data>
@@ -581,7 +581,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ld+OjcRmbbyMTX7WRaYVVGvBCpgDUfq0wbvChsOYmQI=
+			xWsU5uG6X363Cm1SnbsrcdGA5Egm/MbbiiXzomaEwlk=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -658,7 +658,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fHK1o2c7BU/aFdxSleB/Ahsp7zlobKUl2+EN8ZcAOFc=
+			8dzba3rbKQ6RCW3w2K7oE6ianbvZwkgp+V4KTV/fZrk=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK.h</key>
@@ -826,7 +826,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v4KU7Z4KXG/340/xE9Z1zqnNpU5AagUgDocVkU03Xn4=
+			AggXAMBfuTCwOcOKkrAnq+RaCQcCGF++OhdWLvzKGhI=
 			</data>
 		</dict>
 		<key>MatiPoRViewController.nib</key>
@@ -861,70 +861,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WltfeLODlpEHrbK3Fz5iyEZODqpnaw/p11DYmgx36fo=
+			oZzOSKLVHm47jzgB206W6GStftuuEyr4ONxdcExxprA=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W/t2CjC/THw9lF+5JD6B8F2x2H/ppV1DZj+l5ruKg4Q=
+			/BxHZMtT/XgjQkXoAAr4p8IMzPLQflHyhDfQ8ZtWN/w=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XN3HyuTOzxSOPJx8e3TYAoiCicAMSYWlFyqGpisWeMY=
+			O/ULWlKk1MoO2XDtZcArKLppX5feXyJKNlM1apL3cEU=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W/t2CjC/THw9lF+5JD6B8F2x2H/ppV1DZj+l5ruKg4Q=
+			/BxHZMtT/XgjQkXoAAr4p8IMzPLQflHyhDfQ8ZtWN/w=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5I/3b78D07Zcx8VrQP88BAAS0BpvFES6+/PloHMkvUo=
+			x+gO5pqGJf5jSs8TbTNj6e6pULA27XUgXpiAh93iNyk=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WltfeLODlpEHrbK3Fz5iyEZODqpnaw/p11DYmgx36fo=
+			oZzOSKLVHm47jzgB206W6GStftuuEyr4ONxdcExxprA=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XejrUg/XmkTHl0L5t5gs80flNmUp5Et4Hx4X52ZCZYw=
+			pJMWqpZ+6HagxvSUvz4LZdK8Do0zS/fBaef2nNMlig8=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YFrq0sheu7MKLlGtkGizpcUClSPGug46AcSFfT1xe4I=
+			SV93m7U9iVR7B1YLRaBf7jzYGZuVm/SOGyFlYTyK6TM=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XejrUg/XmkTHl0L5t5gs80flNmUp5Et4Hx4X52ZCZYw=
+			pJMWqpZ+6HagxvSUvz4LZdK8Do0zS/fBaef2nNMlig8=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wr4/tr6tmQ96Lqmo42fjkfVlrtOr4RvVF1G+urufUhs=
+			7pX5QTBi4Tua95q/nLy/xMFDTstFPdj8wF7NdhQEy0M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -938,7 +938,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VMixdi+VjUtzITOOUFLAW+XEfRaHvryNGnATbqd4HvQ=
+			ogAwL0U0BOBLGnpMK4XouHU+5OcDOPKn4TEmCJngr2o=
 			</data>
 		</dict>
 		<key>PhoneEmailVerificationViewController.nib</key>
@@ -1309,7 +1309,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Dl4LxKhGbSOXOuELFzTf0HqtTJtaf6o+Rs4+GRMmLaE=
+			8iQSn8KiQ9OjsmHePMZkn46K2MOtm9G/UvbCYTAnDnw=
 			</data>
 		</dict>
 		<key>SDK.xcconfig</key>

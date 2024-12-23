@@ -140,26 +140,35 @@ class RequestManager {
     func sendSignalData(body: [String: Any]) {
         socketManager.sendSignalData(body: body)
     }
+    
+    func socketconnection(flowId: String?, verificationId: String?, identityId: String?, inputs: [Input]?, completion: @escaping (Bool) -> Void ) {
+        if let flowId = flowId {
+            MetaMapGlobalManager.instance.verificationId = verificationId
+            MetaMapGlobalManager.instance.identity = identityId
+            MetaMapGlobalManager.instance.checkCreditCard(inputs: inputs)
+            self.socketManager.openWsConnection(flowId: flowId,
+                                                method: API.Path.wsVerificationFlow.value,
+                                                completion: completion)
+        }
+    }
 
     func createVerification(flowId: String,
                             completion: @escaping (Bool) -> Void,
                             statusCompletion: @escaping (CreateVerificationStatus?) -> Void) {
-
-        apiManager.createVerificationRequest(flowId: flowId) { model, _, errorMode in
-            switch errorMode {
-            case .blocked(let data):
-                statusCompletion(.blocked(data))
-            case .block_custom(let data):
-                statusCompletion(.block_custom(data))
-            case .error:
-                completion(false)
-            case .successed:
-                MetaMapGlobalManager.instance.verificationId = model?.id
-                MetaMapGlobalManager.instance.identity = model?.identity
-                MetaMapGlobalManager.instance.checkCreditCard(inputs: model?.inputs)
-                self.socketManager.openWsConnection(flowId: flowId,
-                                                    method: API.Path.wsVerificationFlow.value,
-                                                    completion: completion)
+        if  let verificationId = MetaDataHandler.shared.data.verificationId, let identityId = MetaDataHandler.shared.data.identityId {
+            self.socketconnection(flowId: flowId, verificationId: verificationId, identityId: identityId, inputs: [], completion: completion)
+        } else {
+            apiManager.createVerificationRequest(flowId: flowId) { model, _, errorMode in
+                switch errorMode {
+                case .blocked(let data):
+                    statusCompletion(.blocked(data))
+                case .block_custom(let data):
+                    statusCompletion(.block_custom(data))
+                case .error:
+                    completion(false)
+                case .successed:
+                    self.socketconnection(flowId: flowId, verificationId: model?.id, identityId: model?.identity, inputs: model?.inputs, completion: completion)
+                }
             }
         }
     }
