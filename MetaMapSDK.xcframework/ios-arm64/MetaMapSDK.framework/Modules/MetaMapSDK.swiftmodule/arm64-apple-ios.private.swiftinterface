@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MetaMapSDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFAudio
@@ -181,7 +181,7 @@ public protocol ConfigSettable {
   mutating func setConfigs(_ config: MetaMapSDK.SocketIOClientConfiguration)
 }
 @objc public class MetaMapUIConfig : ObjectiveC.NSObject {
-  public init(buttonColor: Swift.String? = nil, buttonTextColor: Swift.String? = nil, fixedLanguage: MetaMapSDK.MFLanguage? = nil, enableLog: Swift.Bool = false, regularFont: Swift.String? = nil, boldFont: Swift.String? = nil, shimmerBackgroundColor: Swift.String? = nil, gradientStartColor: Swift.String? = nil, gradientEndColor: Swift.String? = nil)
+  public init(buttonColor: Swift.String? = nil, buttonTextColor: Swift.String? = nil, fixedLanguage: MetaMapSDK.MFLanguage? = nil, enableLog: Swift.Bool = false, regularFont: Swift.String? = nil, boldFont: Swift.String? = nil, shimmerBackgroundColor: Swift.String? = nil, gradientStartColor: Swift.String? = nil, gradientEndColor: Swift.String? = nil, verificationId: Swift.String? = nil, identityId: Swift.String? = nil)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class MetaMapMetadata : ObjectiveC.NSObject {
