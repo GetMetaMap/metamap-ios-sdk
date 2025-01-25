@@ -50711,6 +50711,20 @@
             ],
             "usr": "s:10Accelerate0A6BufferP",
             "mangledName": "$s10Accelerate0A6BufferP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Interpolatable",
+            "printedName": "Interpolatable",
+            "usr": "s:14IncdOnboarding14InterpolatableP",
+            "mangledName": "$s14IncdOnboarding14InterpolatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AnyInterpolatable",
+            "printedName": "AnyInterpolatable",
+            "usr": "s:14IncdOnboarding17AnyInterpolatableP",
+            "mangledName": "$s14IncdOnboarding17AnyInterpolatableP"
           }
         ]
       },
@@ -55132,6 +55146,20 @@
             "printedName": "MLShapedArrayScalar",
             "usr": "s:6CoreML19MLShapedArrayScalarP",
             "mangledName": "$s6CoreML19MLShapedArrayScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Interpolatable",
+            "printedName": "Interpolatable",
+            "usr": "s:14IncdOnboarding14InterpolatableP",
+            "mangledName": "$s14IncdOnboarding14InterpolatableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AnyInterpolatable",
+            "printedName": "AnyInterpolatable",
+            "usr": "s:14IncdOnboarding17AnyInterpolatableP",
+            "mangledName": "$s14IncdOnboarding17AnyInterpolatableP"
           }
         ]
       },
@@ -62964,7 +62992,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.22.4\""
+      "value": "\"3.22.5\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
@@ -65237,21 +65265,21 @@
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFBRDLDocumentVerifyViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1573,
+      "offset": 1569,
       "length": 27,
       "value": "\"label_yes_selfie_is_clear\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFBRDLDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1707,
+      "offset": 1703,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFBRDLDocumentVerifyViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1779,
+      "offset": 1775,
       "length": 4,
       "value": "true"
     },

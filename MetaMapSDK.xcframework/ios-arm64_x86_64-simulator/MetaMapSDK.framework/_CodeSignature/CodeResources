@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		idbT1AC456R1/YkIcdBCxyBfCOw=
+		iVlt76Q252Tb4TCH6X/ImE8SdNQ=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		T1BwbfCKsNaePQ7HbPUt9wi2ufM=
+		ki90XrYVNUuASkBPQ+CZkdMq1zQ=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>MFBRDLDocumentVerifyViewController.nib</key>
 		<data>
-		Ci7+bwh0ySQPOynphQoFGpWfZ+A=
+		LZZCIObE5M67kOsFI8A2x9MDDHc=
 		</data>
 		<key>MFCancelAlertViewController.nib</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		E6w5BqHVzPElGE8yBvidSH72/40=
+		Vx7r5Xss/4d2j/R4tWXrSiEDdU4=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -186,11 +186,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+Yo3e/QYZuVHvQMB+l11yPbktN8=
+		YaVP94LgkTJKabDm07iRB/Bd8Nc=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		E6w5BqHVzPElGE8yBvidSH72/40=
+		Vx7r5Xss/4d2j/R4tWXrSiEDdU4=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		04EHrz7QY2AlkH4ABI7x3j/s1hI=
+		sefA7zqWi3S8+/BjGY/ztr+681w=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -462,7 +462,7 @@
 		</data>
 		<key>VideoKYCTutorialView.nib</key>
 		<data>
-		yclp9lZSJ4ekOzM6o+CQ+v6Td00=
+		27cts+gPr1dH17UGzBPnlut0rA8=
 		</data>
 		<key>VoiceLivenessScreen.nib</key>
 		<data>
@@ -581,7 +581,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xWsU5uG6X363Cm1SnbsrcdGA5Egm/MbbiiXzomaEwlk=
+			BQzlktkxP1UmbGtT6J+F2L4Hb784hjLHkzA1L/IjoMk=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -693,7 +693,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zU9SBF9Eow7jfxR8CfxkvO9RIZGQTOEuYIY+aRmk4VA=
+			ylwQyAR0NOQ02kBuIfGDDR+XqVCVgvkpa0U1MvBX2/w=
 			</data>
 		</dict>
 		<key>MFCancelAlertViewController.nib</key>
@@ -861,7 +861,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oZzOSKLVHm47jzgB206W6GStftuuEyr4ONxdcExxprA=
+			53wNruePfIwb+ctmDvImT8ef/XQYedL5Mhac7UpBsyU=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -889,14 +889,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x+gO5pqGJf5jSs8TbTNj6e6pULA27XUgXpiAh93iNyk=
+			x0t646gojmWt/KQPmvGdwsOrxdm5gUt2T88h4ek95T4=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oZzOSKLVHm47jzgB206W6GStftuuEyr4ONxdcExxprA=
+			53wNruePfIwb+ctmDvImT8ef/XQYedL5Mhac7UpBsyU=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -924,7 +924,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7pX5QTBi4Tua95q/nLy/xMFDTstFPdj8wF7NdhQEy0M=
+			Yey54pdDw1bcLg/kfxdEnQSL2kQpXTwlLC3xfwrG6eE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1372,7 +1372,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NjKFnVWaxon8art11CvL9I2G9TlfLJWK/kSkgdj0ac4=
+			LRiZZSrAb2RIbHyLMefu1Wjc47q+m4XfP8QxLLiymvs=
 			</data>
 		</dict>
 		<key>VoiceLivenessScreen.nib</key>
