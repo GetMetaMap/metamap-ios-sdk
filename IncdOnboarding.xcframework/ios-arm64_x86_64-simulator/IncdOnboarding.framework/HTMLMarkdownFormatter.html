@@ -12,10 +12,12 @@
 
     body {
         font-family: incodeFont;font-size: 16px;
+        background: transparent;
     }
 </style>
 <body>
-<div id="content"></div>
+<!-- <<text_pattern_to_replace>> should be replaced at runtime with the hex value of a UIColor -->
+<div id="content" style="color:<<text_pattern_to_replace>>"></div>
 <script>
     /**
      * marked v12.0.1 - a markdown parser

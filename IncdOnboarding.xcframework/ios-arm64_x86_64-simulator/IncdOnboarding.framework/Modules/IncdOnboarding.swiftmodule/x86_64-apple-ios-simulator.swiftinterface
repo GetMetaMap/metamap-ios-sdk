@@ -50,6 +50,162 @@ public enum UIFlavor : Swift.String {
     get
   }
 }
+public enum LottieBackgroundBehavior {
+  case stop
+  case pause
+  case pauseAndRestore
+  case forceFinish
+  case continuePlaying
+  public static func `default`(for renderingEngine: IncdOnboarding.RenderingEngine) -> IncdOnboarding.LottieBackgroundBehavior
+  public static func == (a: IncdOnboarding.LottieBackgroundBehavior, b: IncdOnboarding.LottieBackgroundBehavior) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LottieLoopMode : Swift.Hashable {
+  case playOnce
+  case loop
+  case autoReverse
+  case `repeat`(Swift.Float)
+  case repeatBackwards(Swift.Float)
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension IncdOnboarding.LottieLoopMode : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.LottieLoopMode, rhs: IncdOnboarding.LottieLoopMode) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) open class LottieAnimationView : IncdOnboarding.LottieAnimationViewBase {
+  @_Concurrency.MainActor(unsafe) public init(animation: IncdOnboarding.LottieAnimation?, imageProvider: (any IncdOnboarding.AnimationImageProvider)? = nil, textProvider: any IncdOnboarding.AnimationKeypathTextProvider = DefaultTextProvider(), fontProvider: any IncdOnboarding.AnimationFontProvider = DefaultFontProvider(), configuration: IncdOnboarding.LottieConfiguration = .shared, logger: IncdOnboarding.LottieLogger = .shared)
+  @_Concurrency.MainActor(unsafe) public init(dotLottie: IncdOnboarding.DotLottieFile?, animationId: Swift.String? = nil, textProvider: any IncdOnboarding.AnimationKeypathTextProvider = DefaultTextProvider(), fontProvider: any IncdOnboarding.AnimationFontProvider = DefaultFontProvider(), configuration: IncdOnboarding.LottieConfiguration = .shared, logger: IncdOnboarding.LottieLogger = .shared)
+  @_Concurrency.MainActor(unsafe) public init(configuration: IncdOnboarding.LottieConfiguration = .shared, logger: IncdOnboarding.LottieLogger = .shared)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) open func play(_ mode: IncdOnboarding.LottiePlaybackMode.PlaybackMode, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) open func play(completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) open func play(fromProgress: IncdOnboarding.AnimationProgressTime? = nil, toProgress: IncdOnboarding.AnimationProgressTime, loopMode: IncdOnboarding.LottieLoopMode? = nil, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) open func play(fromFrame: IncdOnboarding.AnimationFrameTime? = nil, toFrame: IncdOnboarding.AnimationFrameTime, loopMode: IncdOnboarding.LottieLoopMode? = nil, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) open func play(fromMarker: Swift.String? = nil, toMarker: Swift.String, playEndMarkerFrame: Swift.Bool = true, loopMode: IncdOnboarding.LottieLoopMode? = nil, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) open func play(marker: Swift.String, loopMode: IncdOnboarding.LottieLoopMode? = nil, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) open func play(markers: [Swift.String], completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) open func stop()
+  @_Concurrency.MainActor(unsafe) open func pause()
+  @available(*, deprecated, renamed: "setPlaybackMode(_:completion:)", message: "Will be removed in a future major release.")
+  @_Concurrency.MainActor(unsafe) open func play(_ playbackMode: IncdOnboarding.LottiePlaybackMode, animationCompletionHandler: IncdOnboarding.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) open func setPlaybackMode(_ playbackMode: IncdOnboarding.LottiePlaybackMode, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) public var animateLayoutChangesWithCurrentCoreAnimationContext: Swift.Bool
+  @_Concurrency.MainActor(unsafe) public var configuration: IncdOnboarding.LottieConfiguration {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var valueProviders: [IncdOnboarding.AnimationKeypath : any IncdOnboarding.AnyValueProvider] {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var backgroundBehavior: IncdOnboarding.LottieBackgroundBehavior {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var animation: IncdOnboarding.LottieAnimation? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var animationLoaded: ((_ animationView: IncdOnboarding.LottieAnimationView, _ animation: IncdOnboarding.LottieAnimation) -> Swift.Void)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var imageProvider: any IncdOnboarding.AnimationImageProvider {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var textProvider: any IncdOnboarding.AnimationKeypathTextProvider {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var fontProvider: any IncdOnboarding.AnimationFontProvider {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var maskAnimationToBounds: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var isAnimationPlaying: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var isAnimationQueued: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var loopMode: IncdOnboarding.LottieLoopMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var shouldRasterizeWhenIdle: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var currentProgress: IncdOnboarding.AnimationProgressTime {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var currentTime: Foundation.TimeInterval {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var currentFrame: IncdOnboarding.AnimationFrameTime {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var realtimeAnimationFrame: IncdOnboarding.AnimationFrameTime {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var realtimeAnimationProgress: IncdOnboarding.AnimationProgressTime {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var animationSpeed: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var respectAnimationFrameRate: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var viewportFrame: CoreFoundation.CGRect? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public var currentRenderingEngine: IncdOnboarding.RenderingEngine? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var currentPlaybackMode: IncdOnboarding.LottiePlaybackMode? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) public var mainThreadRenderingEngineShouldForceDisplayUpdateOnEachFrame: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public func loadAnimation(_ animationId: Swift.String? = nil, from dotLottieFile: IncdOnboarding.DotLottieFile)
+  @_Concurrency.MainActor(unsafe) public func loadAnimation(atIndex index: Swift.Int, from dotLottieFile: IncdOnboarding.DotLottieFile)
+  @_Concurrency.MainActor(unsafe) public func reloadImages()
+  @_Concurrency.MainActor(unsafe) public func forceDisplayUpdate()
+  @_Concurrency.MainActor(unsafe) public func setValueProvider(_ valueProvider: any IncdOnboarding.AnyValueProvider, keypath: IncdOnboarding.AnimationKeypath)
+  @_Concurrency.MainActor(unsafe) public func getValue(for keypath: IncdOnboarding.AnimationKeypath, atFrame: IncdOnboarding.AnimationFrameTime?) -> Any?
+  @_Concurrency.MainActor(unsafe) public func getOriginalValue(for keypath: IncdOnboarding.AnimationKeypath, atFrame: IncdOnboarding.AnimationFrameTime?) -> Any?
+  @_Concurrency.MainActor(unsafe) public func logHierarchyKeypaths()
+  @_Concurrency.MainActor(unsafe) public func allHierarchyKeypaths() -> [Swift.String]
+  @_Concurrency.MainActor(unsafe) public func addSubview(_ subview: IncdOnboarding.AnimationSubview, forLayerAt keypath: IncdOnboarding.AnimationKeypath)
+  @_Concurrency.MainActor(unsafe) public func convert(_ rect: CoreFoundation.CGRect, toLayerAt keypath: IncdOnboarding.AnimationKeypath?) -> CoreFoundation.CGRect?
+  @_Concurrency.MainActor(unsafe) public func convert(_ point: CoreFoundation.CGPoint, toLayerAt keypath: IncdOnboarding.AnimationKeypath?) -> CoreFoundation.CGPoint?
+  @_Concurrency.MainActor(unsafe) public func setNodeIsEnabled(isEnabled: Swift.Bool, keypath: IncdOnboarding.AnimationKeypath)
+  @_Concurrency.MainActor(unsafe) public func progressTime(forMarker named: Swift.String) -> IncdOnboarding.AnimationProgressTime?
+  @_Concurrency.MainActor(unsafe) public func frameTime(forMarker named: Swift.String) -> IncdOnboarding.AnimationFrameTime?
+  @_Concurrency.MainActor(unsafe) public func durationFrameTime(forMarker named: Swift.String) -> IncdOnboarding.AnimationFrameTime?
+  @objc deinit
+}
 @_documentation(visibility: internal) public struct IDCaptureHelpConfiguration : Swift.Decodable {
   public var commonIssueLayoutOrientation: UIKit.NSLayoutConstraint.Axis
   public init(from decoder: any Swift.Decoder) throws
@@ -66,10 +222,43 @@ public struct OmniLogin1toNConfirmResponse : Swift.Decodable {
   public let transactionId: Swift.String?
   public init(from decoder: any Swift.Decoder) throws
 }
-extension CoreFoundation.CGRect : Swift.Comparable {
-  public static func < (left: CoreFoundation.CGRect, right: CoreFoundation.CGRect) -> Swift.Bool
+public protocol AnimationImageProvider {
+  var cacheEligible: Swift.Bool { get }
+  func imageForAsset(asset: IncdOnboarding.ImageAsset) -> CoreGraphics.CGImage?
+  func contentsGravity(for asset: IncdOnboarding.ImageAsset) -> QuartzCore.CALayerContentsGravity
 }
-public typealias LottieCompletionBlock = (Swift.Bool) -> Swift.Void
+extension IncdOnboarding.AnimationImageProvider {
+  public var cacheEligible: Swift.Bool {
+    get
+  }
+  public func contentsGravity(for _: IncdOnboarding.ImageAsset) -> QuartzCore.CALayerContentsGravity
+}
+@_documentation(visibility: internal) public struct SignatureConfiguration : Swift.Decodable {
+  public var signatureColor: UIKit.UIColor
+  public var canvasBorderColor: UIKit.UIColor
+  public var canvasBackgroundColor: UIKit.UIColor
+  public init(from decoder: any Swift.Decoder) throws
+  public init(signatureColor: UIKit.UIColor = .incdPrimary, canvasBorderColor: UIKit.UIColor = .incdPrimary, canvasBackgroundColor: UIKit.UIColor = .clear)
+}
+extension IncdOnboarding.SignatureConfiguration {
+  public static let defaultSignatureConfiguration: IncdOnboarding.SignatureConfiguration
+}
+public enum DotLottieError : Swift.Error {
+  case noDataLoaded
+  case assetNotFound(name: Swift.String, bundle: Foundation.Bundle?)
+  case loadingFromAssetNotSupported
+  @available(*, deprecated, message: "Unused")
+  case invalidFileFormat
+  @available(*, deprecated, message: "Unused")
+  case invalidData
+  @available(*, deprecated, message: "Unused")
+  case animationNotAvailable
+}
+extension Swift.Array {
+  public subscript(safeIndex index: Swift.Int) -> Element? {
+    get
+  }
+}
 public enum LocalFlowModuleBuilder {
   public static var idModuleTypes: [IncdOnboarding.FlowModule] {
     get
@@ -95,15 +284,6 @@ public struct DynamicFormQuestion : Swift.Equatable, Swift.Codable {
   public static func == (a: IncdOnboarding.DynamicFormQuestion, b: IncdOnboarding.DynamicFormQuestion) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
-}
-@_documentation(visibility: internal) public struct SignatureConfiguration : Swift.Decodable {
-  public var signatureColor: UIKit.UIColor
-  public var canvasBorderColor: UIKit.UIColor
-  public init(from decoder: any Swift.Decoder) throws
-  public init(signatureColor: UIKit.UIColor = .incdPrimary, canvasBorderColor: UIKit.UIColor = .incdPrimary)
-}
-extension IncdOnboarding.SignatureConfiguration {
-  public static let defaultSignatureConfiguration: IncdOnboarding.SignatureConfiguration
 }
 @_hasMissingDesignatedInitializers @_documentation(visibility: internal) public class IncdLocalization {
   public static var current: [Swift.String : Swift.String]
@@ -147,24 +327,82 @@ public struct MockInitResponse : Swift.Decodable {
   public let uuid: Swift.String?
   public init(from decoder: any Swift.Decoder) throws
 }
-public struct LottieVector2D : Swift.Codable, Swift.Hashable {
-  public init(from decoder: any Swift.Decoder) throws
-  public func encode(to encoder: any Swift.Encoder) throws
-  public func hash(into hasher: inout Swift.Hasher)
-  public static func == (a: IncdOnboarding.LottieVector2D, b: IncdOnboarding.LottieVector2D) -> Swift.Bool
-  public var hashValue: Swift.Int {
-    get
-  }
-}
 public enum FaceAuthMode : Swift.String, Swift.Codable {
   case server
-  case hybrid
   case local
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
+}
+extension CoreFoundation.CGRect : Swift.Comparable {
+  public static func < (left: CoreFoundation.CGRect, right: CoreFoundation.CGRect) -> Swift.Bool
+}
+public struct LottieView<Placeholder> where Placeholder : SwiftUI.View {
+  public init(animation: IncdOnboarding.LottieAnimation?) where Placeholder == SwiftUI.EmptyView
+  public init(dotLottieFile: IncdOnboarding.DotLottieFile?) where Placeholder == SwiftUI.EmptyView
+  #if compiler(>=5.3) && $AsyncAwait
+  public init(_ loadAnimation: @escaping () async throws -> IncdOnboarding.LottieAnimation?) where Placeholder == SwiftUI.EmptyView
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public init(_ loadAnimation: @escaping () async throws -> IncdOnboarding.LottieAnimation?, @SwiftUI.ViewBuilder placeholder: @escaping (() -> Placeholder))
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public init(_ loadDotLottieFile: @escaping () async throws -> IncdOnboarding.DotLottieFile?) where Placeholder == SwiftUI.EmptyView
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public init(_ loadDotLottieFile: @escaping () async throws -> IncdOnboarding.DotLottieFile?, @SwiftUI.ViewBuilder placeholder: @escaping (() -> Placeholder))
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public init(_ loadAnimation: @escaping () async throws -> IncdOnboarding.LottieAnimationSource?) where Placeholder == SwiftUI.EmptyView
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  public init(_ loadAnimation: @escaping () async throws -> IncdOnboarding.LottieAnimationSource?, @SwiftUI.ViewBuilder placeholder: @escaping () -> Placeholder)
+  #endif
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public func configure<Property>(_ property: Swift.ReferenceWritableKeyPath<IncdOnboarding.LottieAnimationView, Property>, to value: Property) -> IncdOnboarding.LottieView<Placeholder>
+  public func configure<Property>(_ property: Swift.ReferenceWritableKeyPath<IncdOnboarding.LottieAnimationView, Property>, to value: Property) -> IncdOnboarding.LottieView<Placeholder> where Property : Swift.Equatable
+  public func configure(_ configure: @escaping (IncdOnboarding.LottieAnimationView) -> Swift.Void) -> IncdOnboarding.LottieView<Placeholder>
+  public func resizable() -> IncdOnboarding.LottieView<Placeholder>
+  public func intrinsicSize() -> IncdOnboarding.LottieView<Placeholder>
+  @available(*, deprecated, renamed: "playing()", message: "Will be removed in a future major release.")
+  public func play() -> IncdOnboarding.LottieView<Placeholder>
+  public func looping() -> IncdOnboarding.LottieView<Placeholder>
+  @available(*, deprecated, renamed: "playing(_:)", message: "Will be removed in a future major release.")
+  public func play(loopMode: IncdOnboarding.LottieLoopMode = .playOnce) -> IncdOnboarding.LottieView<Placeholder>
+  @available(*, deprecated, renamed: "playbackMode(_:)", message: "Will be removed in a future major release.")
+  public func play(_ playbackMode: IncdOnboarding.LottiePlaybackMode) -> IncdOnboarding.LottieView<Placeholder>
+  public func playing(_ mode: IncdOnboarding.LottiePlaybackMode.PlaybackMode) -> IncdOnboarding.LottieView<Placeholder>
+  public func playing(loopMode: IncdOnboarding.LottieLoopMode) -> IncdOnboarding.LottieView<Placeholder>
+  public func playing() -> IncdOnboarding.LottieView<Placeholder>
+  public func paused(at state: IncdOnboarding.LottiePlaybackMode.PausedState = .currentFrame) -> IncdOnboarding.LottieView<Placeholder>
+  public func playbackMode(_ playbackMode: IncdOnboarding.LottiePlaybackMode) -> IncdOnboarding.LottieView<Placeholder>
+  public func animationSpeed(_ animationSpeed: Swift.Double) -> IncdOnboarding.LottieView<Placeholder>
+  public func animationDidLoad(_ animationDidLoad: @escaping (IncdOnboarding.LottieAnimationSource) -> Swift.Void) -> IncdOnboarding.LottieView<Placeholder>
+  public func animationDidFinish(_ animationCompletionHandler: IncdOnboarding.LottieCompletionBlock?) -> IncdOnboarding.LottieView<Placeholder>
+  public func backgroundBehavior(_ value: IncdOnboarding.LottieBackgroundBehavior) -> IncdOnboarding.LottieView<Placeholder>
+  public func accessibilityLabel(_ accessibilityLabel: Swift.String?) -> IncdOnboarding.LottieView<Placeholder>
+  public func configuration(_ configuration: IncdOnboarding.LottieConfiguration) -> IncdOnboarding.LottieView<Placeholder>
+  public func logger(_ logger: IncdOnboarding.LottieLogger) -> IncdOnboarding.LottieView<Placeholder>
+  public func imageProvider<ImageProvider>(_ imageProvider: ImageProvider) -> IncdOnboarding.LottieView<Placeholder> where ImageProvider : IncdOnboarding.AnimationImageProvider, ImageProvider : Swift.Equatable
+  public func textProvider<TextProvider>(_ textProvider: TextProvider) -> IncdOnboarding.LottieView<Placeholder> where TextProvider : IncdOnboarding.AnimationKeypathTextProvider, TextProvider : Swift.Equatable
+  public func fontProvider<FontProvider>(_ fontProvider: FontProvider) -> IncdOnboarding.LottieView<Placeholder> where FontProvider : IncdOnboarding.AnimationFontProvider, FontProvider : Swift.Equatable
+  public func valueProvider<ValueProvider>(_ valueProvider: ValueProvider, for keypath: IncdOnboarding.AnimationKeypath) -> IncdOnboarding.LottieView<Placeholder> where ValueProvider : IncdOnboarding.AnyValueProvider, ValueProvider : Swift.Equatable
+  public func currentProgress(_ currentProgress: IncdOnboarding.AnimationProgressTime?) -> IncdOnboarding.LottieView<Placeholder>
+  public func currentFrame(_ currentFrame: IncdOnboarding.AnimationFrameTime?) -> IncdOnboarding.LottieView<Placeholder>
+  public func currentTime(_ currentTime: Foundation.TimeInterval?) -> IncdOnboarding.LottieView<Placeholder>
+  public func reloadAnimationTrigger(_ value: some Equatable, showPlaceholder: Swift.Bool = true) -> IncdOnboarding.LottieView<Placeholder>
+  @available(iOS 15.0, tvOS 15.0, macOS 12.0, *)
+  public func getRealtimeAnimationProgress(_ realtimeAnimationProgress: SwiftUI.Binding<IncdOnboarding.AnimationProgressTime>?) -> some SwiftUI.View
+  
+  @available(iOS 15.0, tvOS 15.0, macOS 12.0, *)
+  public func getRealtimeAnimationFrame(_ realtimeAnimationFrame: SwiftUI.Binding<IncdOnboarding.AnimationFrameTime>?) -> some SwiftUI.View
+  
+  public func dotLottieConfigurationComponents(_ dotLottieConfigurationComponents: IncdOnboarding.DotLottieConfigurationComponents) -> IncdOnboarding.LottieView<Placeholder>
+  public typealias Body = @_opaqueReturnTypeOf("$s14IncdOnboarding10LottieViewV4bodyQrvp", 0) __<Placeholder>
 }
 public struct AntifraudResponse : Swift.Decodable {
   public let result: IncdOnboarding.AntifraudStatus
@@ -194,6 +432,60 @@ public enum AntifraudStepName : Swift.String, Swift.Decodable {
   public var rawValue: Swift.String {
     get
   }
+}
+public enum LayerType : Swift.Int, Swift.Codable {
+  case precomp
+  case solid
+  case image
+  case null
+  case shape
+  case text
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum MatteType : Swift.Int, Swift.Codable {
+  case none
+  case add
+  case invert
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum BlendMode : Swift.Int, Swift.Codable {
+  case normal
+  case multiply
+  case screen
+  case overlay
+  case darken
+  case lighten
+  case colorDodge
+  case colorBurn
+  case hardLight
+  case softLight
+  case difference
+  case exclusion
+  case hue
+  case saturation
+  case color
+  case luminosity
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public protocol DotLottieCacheProvider : Swift.Sendable {
+  func file(forKey: Swift.String) -> IncdOnboarding.DotLottieFile?
+  func setFile(_ lottie: IncdOnboarding.DotLottieFile, forKey: Swift.String)
+  func clearCache()
 }
 public struct OmniFlow : Swift.Codable, Swift.Equatable {
   public let id: Swift.String?
@@ -292,6 +584,132 @@ public struct UserConsentResult {
   public var error: IncdOnboarding.IncdError?
   public init(_ success: Swift.Bool? = nil, error: IncdOnboarding.IncdError? = nil)
 }
+@objc @_hasMissingDesignatedInitializers public class LottieAnimationLayer : QuartzCore.CALayer {
+  public init(animation: IncdOnboarding.LottieAnimation?, imageProvider: (any IncdOnboarding.AnimationImageProvider)? = nil, textProvider: any IncdOnboarding.AnimationKeypathTextProvider = DefaultTextProvider(), fontProvider: any IncdOnboarding.AnimationFontProvider = DefaultFontProvider(), configuration: IncdOnboarding.LottieConfiguration = .shared, logger: IncdOnboarding.LottieLogger = .shared)
+  public init(dotLottie: IncdOnboarding.DotLottieFile?, animationId: Swift.String? = nil, textProvider: any IncdOnboarding.AnimationKeypathTextProvider = DefaultTextProvider(), fontProvider: any IncdOnboarding.AnimationFontProvider = DefaultFontProvider(), configuration: IncdOnboarding.LottieConfiguration = .shared, logger: IncdOnboarding.LottieLogger = .shared)
+  public init(configuration: IncdOnboarding.LottieConfiguration = .shared, logger: IncdOnboarding.LottieLogger = .shared)
+  open func play(completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  open func play(fromProgress: IncdOnboarding.AnimationProgressTime? = nil, toProgress: IncdOnboarding.AnimationProgressTime, loopMode: IncdOnboarding.LottieLoopMode? = nil, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  open func play(fromFrame: IncdOnboarding.AnimationFrameTime? = nil, toFrame: IncdOnboarding.AnimationFrameTime, loopMode: IncdOnboarding.LottieLoopMode? = nil, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  open func play(fromMarker: Swift.String? = nil, toMarker: Swift.String, playEndMarkerFrame: Swift.Bool = true, loopMode: IncdOnboarding.LottieLoopMode? = nil, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  open func play(marker: Swift.String, loopMode: IncdOnboarding.LottieLoopMode? = nil, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  open func play(markers: [Swift.String], completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  open func stop()
+  open func pause()
+  open func pause(at state: IncdOnboarding.LottiePlaybackMode.PausedState)
+  @available(*, deprecated, renamed: "setPlaybackMode(_:completion:)", message: "Will be removed in a future major release.")
+  open func play(_ playbackMode: IncdOnboarding.LottiePlaybackMode, animationCompletionHandler: IncdOnboarding.LottieCompletionBlock? = nil)
+  open func setPlaybackMode(_ playbackMode: IncdOnboarding.LottiePlaybackMode, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  open func play(_ playbackMode: IncdOnboarding.LottiePlaybackMode.PlaybackMode, completion: IncdOnboarding.LottieCompletionBlock? = nil)
+  public var currentPlaybackMode: IncdOnboarding.LottiePlaybackMode? {
+    get
+  }
+  public var valueProviders: [IncdOnboarding.AnimationKeypath : any IncdOnboarding.AnyValueProvider] {
+    get
+  }
+  public var animationLayerDidLoad: ((_ animationLayer: IncdOnboarding.LottieAnimationLayer, _ renderingEngine: IncdOnboarding.RenderingEngineOption) -> Swift.Void)?
+  public var configuration: IncdOnboarding.LottieConfiguration {
+    get
+    set
+  }
+  public var animationLayer: QuartzCore.CALayer? {
+    get
+  }
+  public var screenScale: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  public var backgroundBehavior: IncdOnboarding.LottieBackgroundBehavior {
+    get
+    set
+  }
+  public var animation: IncdOnboarding.LottieAnimation? {
+    get
+    set
+  }
+  public var animationLoaded: ((_ animationLayer: IncdOnboarding.LottieAnimationLayer, _ animation: IncdOnboarding.LottieAnimation) -> Swift.Void)? {
+    get
+    set
+  }
+  public var imageProvider: any IncdOnboarding.AnimationImageProvider {
+    get
+    set
+  }
+  public var textProvider: any IncdOnboarding.AnimationKeypathTextProvider {
+    get
+    set
+  }
+  public var fontProvider: any IncdOnboarding.AnimationFontProvider {
+    get
+    set
+  }
+  public var maskAnimationToBounds: Swift.Bool {
+    get
+    set
+  }
+  public var isAnimationPlaying: Swift.Bool {
+    get
+  }
+  public var loopMode: IncdOnboarding.LottieLoopMode {
+    get
+    set
+  }
+  public var shouldRasterizeWhenIdle: Swift.Bool {
+    get
+    set
+  }
+  public var currentProgress: IncdOnboarding.AnimationProgressTime {
+    get
+    set
+  }
+  public var currentTime: Foundation.TimeInterval {
+    get
+    set
+  }
+  public var currentFrame: IncdOnboarding.AnimationFrameTime {
+    get
+    set
+  }
+  public var realtimeAnimationFrame: IncdOnboarding.AnimationFrameTime {
+    get
+  }
+  public var realtimeAnimationProgress: IncdOnboarding.AnimationProgressTime {
+    get
+  }
+  public var animationSpeed: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  public var respectAnimationFrameRate: Swift.Bool {
+    get
+    set
+  }
+  public var currentRenderingEngine: IncdOnboarding.RenderingEngine? {
+    get
+  }
+  public var mainThreadRenderingEngineShouldForceDisplayUpdateOnEachFrame: Swift.Bool {
+    get
+    set
+  }
+  public func loadAnimation(_ animationId: Swift.String? = nil, from dotLottieFile: IncdOnboarding.DotLottieFile)
+  public func loadAnimation(atIndex index: Swift.Int, from dotLottieFile: IncdOnboarding.DotLottieFile)
+  public func reloadImages()
+  public func forceDisplayUpdate()
+  public func setValueProvider(_ valueProvider: any IncdOnboarding.AnyValueProvider, keypath: IncdOnboarding.AnimationKeypath)
+  public func getValue(for keypath: IncdOnboarding.AnimationKeypath, atFrame: IncdOnboarding.AnimationFrameTime?) -> Any?
+  public func getOriginalValue(for keypath: IncdOnboarding.AnimationKeypath, atFrame: IncdOnboarding.AnimationFrameTime?) -> Any?
+  public func logHierarchyKeypaths()
+  public func allHierarchyKeypaths() -> [Swift.String]
+  public func convert(_ rect: CoreFoundation.CGRect, toLayerAt keypath: IncdOnboarding.AnimationKeypath?) -> CoreFoundation.CGRect?
+  public func convert(_ point: CoreFoundation.CGPoint, toLayerAt keypath: IncdOnboarding.AnimationKeypath?) -> CoreFoundation.CGPoint?
+  public func setNodeIsEnabled(isEnabled: Swift.Bool, keypath: IncdOnboarding.AnimationKeypath)
+  public func progressTime(forMarker named: Swift.String) -> IncdOnboarding.AnimationProgressTime?
+  public func frameTime(forMarker named: Swift.String) -> IncdOnboarding.AnimationFrameTime?
+  public func durationFrameTime(forMarker named: Swift.String) -> IncdOnboarding.AnimationFrameTime?
+  public func updateAnimationForBackgroundState()
+  public func updateAnimationForForegroundState(wasWaitingToPlayAnimation: Swift.Bool)
+  @objc deinit
+}
 public struct OmniGetOCRDataResult {
   public var ocrData: IncdOnboarding.OmniGetOCRDataResponse?
   public var extendedJsonData: Foundation.Data?
@@ -332,6 +750,155 @@ public struct GlobalWatchlistModuleResult {
   public var success: Swift.Bool
   public var error: IncdOnboarding.IncdError?
 }
+final public class GradientValueProvider {
+  public init(block: @escaping IncdOnboarding.GradientValueProvider.ColorsValueBlock, locations: IncdOnboarding.GradientValueProvider.ColorLocationsBlock? = nil)
+  public init(_ colors: [IncdOnboarding.LottieColor], locations: [Swift.Double] = [])
+  public typealias ColorsValueBlock = (CoreFoundation.CGFloat) -> [IncdOnboarding.LottieColor]
+  public typealias ColorLocationsBlock = (CoreFoundation.CGFloat) -> [Swift.Double]
+  final public var colors: [IncdOnboarding.LottieColor] {
+    get
+    set
+  }
+  final public var locations: [Swift.Double] {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: IncdOnboarding.ValueProviderStorage<[Swift.Double]> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+extension IncdOnboarding.GradientValueProvider : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.GradientValueProvider, rhs: IncdOnboarding.GradientValueProvider) -> Swift.Bool
+}
+public struct CombinedConsentsConfiguration : Swift.Equatable, Swift.Codable {
+  public init(combinedConsents: Swift.String, language: Swift.String? = nil)
+  public static func == (a: IncdOnboarding.CombinedConsentsConfiguration, b: IncdOnboarding.CombinedConsentsConfiguration) -> Swift.Bool
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CombinedConsentResult {
+  public let success: Swift.Bool?
+  public let error: IncdOnboarding.IncdError?
+  public init(_ success: Swift.Bool? = nil, error: IncdOnboarding.IncdError? = nil)
+}
+@_hasMissingDesignatedInitializers final public class DotLottieFile {
+  public struct Animation {
+    public let animation: IncdOnboarding.LottieAnimation
+    public let configuration: IncdOnboarding.DotLottieConfiguration
+  }
+  final public var animations: [IncdOnboarding.DotLottieFile.Animation] {
+    get
+  }
+  @objc deinit
+}
+extension IncdOnboarding.DotLottieFile : @unchecked Swift.Sendable {
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class AnimationSubview : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+final public class FloatValueProvider {
+  public init(block: @escaping IncdOnboarding.FloatValueProvider.CGFloatValueBlock)
+  public init(_ float: CoreFoundation.CGFloat)
+  public typealias CGFloatValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  final public var float: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: IncdOnboarding.ValueProviderStorage<IncdOnboarding.LottieVector1D> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+extension IncdOnboarding.FloatValueProvider : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.FloatValueProvider, rhs: IncdOnboarding.FloatValueProvider) -> Swift.Bool
+}
+public enum LottiePlaybackMode : Swift.Hashable {
+  case paused(at: IncdOnboarding.LottiePlaybackMode.PausedState)
+  case playing(_: IncdOnboarding.LottiePlaybackMode.PlaybackMode)
+  @available(*, deprecated, renamed: "LottiePlaybackMode.paused(at:)", message: "Will be removed in a future major release.")
+  case progress(_: IncdOnboarding.AnimationProgressTime)
+  @available(*, deprecated, renamed: "LottiePlaybackMode.paused(at:)", message: "Will be removed in a future major release.")
+  case frame(_: IncdOnboarding.AnimationFrameTime)
+  @available(*, deprecated, renamed: "LottiePlaybackMode.paused(at:)", message: "Will be removed in a future major release.")
+  case time(_: Foundation.TimeInterval)
+  @available(*, deprecated, renamed: "LottiePlaybackMode.paused(at:)", message: "Will be removed in a future major release.")
+  case pause
+  @available(*, deprecated, renamed: "LottiePlaybackMode.playing(_:)", message: "Will be removed in a future major release.")
+  case fromProgress(_: IncdOnboarding.AnimationProgressTime?, toProgress: IncdOnboarding.AnimationProgressTime, loopMode: IncdOnboarding.LottieLoopMode)
+  @available(*, deprecated, renamed: "LottiePlaybackMode.playing(_:)", message: "Will be removed in a future major release.")
+  case fromFrame(_: IncdOnboarding.AnimationFrameTime?, toFrame: IncdOnboarding.AnimationFrameTime, loopMode: IncdOnboarding.LottieLoopMode)
+  @available(*, deprecated, renamed: "LottiePlaybackMode.playing(_:)", message: "Will be removed in a future major release.")
+  case fromMarker(_: Swift.String?, toMarker: Swift.String, playEndMarkerFrame: Swift.Bool = true, loopMode: IncdOnboarding.LottieLoopMode)
+  @available(*, deprecated, renamed: "LottiePlaybackMode.playing(_:)", message: "Will be removed in a future major release.")
+  case marker(_: Swift.String, loopMode: IncdOnboarding.LottieLoopMode)
+  @available(*, deprecated, renamed: "LottiePlaybackMode.playing(_:)", message: "Will be removed in a future major release.")
+  case markers(_: [Swift.String])
+  public enum PausedState : Swift.Hashable {
+    case currentFrame
+    case progress(_: IncdOnboarding.AnimationProgressTime)
+    case frame(_: IncdOnboarding.AnimationFrameTime)
+    case time(_: Foundation.TimeInterval)
+    case marker(_: Swift.String, position: IncdOnboarding.LottieMarkerPosition = .start)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: IncdOnboarding.LottiePlaybackMode.PausedState, b: IncdOnboarding.LottiePlaybackMode.PausedState) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum PlaybackMode : Swift.Hashable {
+    case fromProgress(_: IncdOnboarding.AnimationProgressTime?, toProgress: IncdOnboarding.AnimationProgressTime, loopMode: IncdOnboarding.LottieLoopMode)
+    case fromFrame(_: IncdOnboarding.AnimationFrameTime?, toFrame: IncdOnboarding.AnimationFrameTime, loopMode: IncdOnboarding.LottieLoopMode)
+    case fromMarker(_: Swift.String?, toMarker: Swift.String, playEndMarkerFrame: Swift.Bool = true, loopMode: IncdOnboarding.LottieLoopMode)
+    case marker(_: Swift.String, loopMode: IncdOnboarding.LottieLoopMode)
+    case markers(_: [Swift.String])
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: IncdOnboarding.LottiePlaybackMode.PlaybackMode, b: IncdOnboarding.LottiePlaybackMode.PlaybackMode) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: IncdOnboarding.LottiePlaybackMode, b: IncdOnboarding.LottiePlaybackMode) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension IncdOnboarding.LottiePlaybackMode {
+  public static var paused: IncdOnboarding.LottiePlaybackMode {
+    get
+  }
+  @available(*, deprecated, renamed: "LottiePlaybackMode.playing(_:)", message: "Will be removed in a future major release.")
+  public static func toProgress(_ toProgress: IncdOnboarding.AnimationProgressTime, loopMode: IncdOnboarding.LottieLoopMode) -> IncdOnboarding.LottiePlaybackMode
+  @available(*, deprecated, renamed: "LottiePlaybackMode.playing(_:)", message: "Will be removed in a future major release.")
+  public static func toFrame(_ toFrame: IncdOnboarding.AnimationFrameTime, loopMode: IncdOnboarding.LottieLoopMode) -> IncdOnboarding.LottiePlaybackMode
+  @available(*, deprecated, renamed: "LottiePlaybackMode.playing(_:)", message: "Will be removed in a future major release.")
+  public static func toMarker(_ toMarker: Swift.String, playEndMarkerFrame: Swift.Bool = true, loopMode: IncdOnboarding.LottieLoopMode) -> IncdOnboarding.LottiePlaybackMode
+}
+extension IncdOnboarding.LottiePlaybackMode.PlaybackMode {
+  public static func toProgress(_ toProgress: IncdOnboarding.AnimationProgressTime, loopMode: IncdOnboarding.LottieLoopMode) -> IncdOnboarding.LottiePlaybackMode.PlaybackMode
+  public static func toFrame(_ toFrame: IncdOnboarding.AnimationFrameTime, loopMode: IncdOnboarding.LottieLoopMode) -> IncdOnboarding.LottiePlaybackMode.PlaybackMode
+  public static func toMarker(_ toMarker: Swift.String, playEndMarkerFrame: Swift.Bool = true, loopMode: IncdOnboarding.LottieLoopMode) -> IncdOnboarding.LottiePlaybackMode.PlaybackMode
+}
+public enum LottieMarkerPosition : Swift.Hashable {
+  case start
+  case end
+  public static func == (a: IncdOnboarding.LottieMarkerPosition, b: IncdOnboarding.LottieMarkerPosition) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct OmniGetFaceTemplateResponse : Swift.Decodable {
   public let template: Swift.String?
   public let templateId: Swift.String?
@@ -356,6 +923,138 @@ public enum OmniOrigin : Swift.String, Swift.Decodable {
     get
   }
 }
+@objc final public class CompatibleAnimation : ObjectiveC.NSObject {
+  @objc public init(name: Swift.String, subdirectory: Swift.String? = nil, bundle: Foundation.Bundle = Bundle.main)
+  @objc deinit
+}
+@objc public enum CompatibleRenderingEngineOption : Swift.Int {
+  case shared
+  case defaultEngine
+  case automatic
+  case mainThread
+  case coreAnimation
+  public static func generateLottieConfiguration(_ configuration: IncdOnboarding.CompatibleRenderingEngineOption) -> IncdOnboarding.LottieConfiguration
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum CompatibleBackgroundBehavior : Swift.Int {
+  case stop
+  case pause
+  case pauseAndRestore
+  case forceFinish
+  case continuePlaying
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) final public class CompatibleAnimationView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(compatibleAnimation: IncdOnboarding.CompatibleAnimation)
+  @objc @_Concurrency.MainActor(unsafe) public init(compatibleAnimation: IncdOnboarding.CompatibleAnimation, compatibleRenderingEngineOption: IncdOnboarding.CompatibleRenderingEngineOption)
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(url: Foundation.URL)
+  @objc @_Concurrency.MainActor(unsafe) public init(url: Foundation.URL, compatibleRenderingEngineOption: IncdOnboarding.CompatibleRenderingEngineOption)
+  @objc @_Concurrency.MainActor(unsafe) convenience public init(data: Foundation.Data)
+  @objc @_Concurrency.MainActor(unsafe) public init(data: Foundation.Data, compatibleRenderingEngineOption: IncdOnboarding.CompatibleRenderingEngineOption)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @objc @_Concurrency.MainActor(unsafe) final public var compatibleAnimation: IncdOnboarding.CompatibleAnimation? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var loopAnimationCount: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var compatibleDictionaryTextProvider: IncdOnboarding.CompatibleDictionaryTextProvider? {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var contentMode: UIKit.UIView.ContentMode {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var shouldRasterizeWhenIdle: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var currentProgress: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var duration: CoreFoundation.CGFloat {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var currentTime: Foundation.TimeInterval {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var currentFrame: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var realtimeAnimationFrame: CoreFoundation.CGFloat {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var realtimeAnimationProgress: CoreFoundation.CGFloat {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var animationSpeed: CoreFoundation.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var respectAnimationFrameRate: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var isAnimationPlaying: Swift.Bool {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var backgroundMode: IncdOnboarding.CompatibleBackgroundBehavior {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public func play()
+  @objc @_Concurrency.MainActor(unsafe) final public func play(completion: ((Swift.Bool) -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) final public func play(fromProgress: CoreFoundation.CGFloat, toProgress: CoreFoundation.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func play(fromFrame: CoreFoundation.CGFloat, toFrame: CoreFoundation.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func play(fromMarker: Swift.String, toMarker: Swift.String, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func play(marker: Swift.String, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func stop()
+  @objc @_Concurrency.MainActor(unsafe) final public func pause()
+  @objc @_Concurrency.MainActor(unsafe) final public func reloadImages()
+  @objc @_Concurrency.MainActor(unsafe) final public func forceDisplayUpdate()
+  @objc @_Concurrency.MainActor(unsafe) final public func getValue(for keypath: IncdOnboarding.CompatibleAnimationKeypath, atFrame: CoreFoundation.CGFloat) -> Any?
+  @objc @_Concurrency.MainActor(unsafe) final public func logHierarchyKeypaths()
+  @objc @_Concurrency.MainActor(unsafe) final public func setColorValue(_ color: UIKit.UIColor, forKeypath keypath: IncdOnboarding.CompatibleAnimationKeypath)
+  @objc @_Concurrency.MainActor(unsafe) final public func getColorValue(for keypath: IncdOnboarding.CompatibleAnimationKeypath, atFrame: CoreFoundation.CGFloat) -> UIKit.UIColor?
+  @objc @_Concurrency.MainActor(unsafe) final public func addSubview(_ subview: IncdOnboarding.AnimationSubview, forLayerAt keypath: IncdOnboarding.CompatibleAnimationKeypath)
+  @objc @_Concurrency.MainActor(unsafe) final public func convert(rect: CoreFoundation.CGRect, toLayerAt keypath: IncdOnboarding.CompatibleAnimationKeypath?) -> CoreFoundation.CGRect
+  @objc @_Concurrency.MainActor(unsafe) final public func convert(point: CoreFoundation.CGPoint, toLayerAt keypath: IncdOnboarding.CompatibleAnimationKeypath?) -> CoreFoundation.CGPoint
+  @objc @_Concurrency.MainActor(unsafe) final public func progressTime(forMarker named: Swift.String) -> CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) final public func frameTime(forMarker named: Swift.String) -> CoreFoundation.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) final public func durationFrameTime(forMarker named: Swift.String) -> CoreFoundation.CGFloat
+  @objc deinit
+}
+@objc final public class CompatibleDictionaryTextProvider : ObjectiveC.NSObject {
+  @objc public init(values: [Swift.String : Swift.String])
+  @objc deinit
+}
+public struct LottieConfiguration : Swift.Hashable {
+  public init(renderingEngine: IncdOnboarding.RenderingEngineOption = .automatic, decodingStrategy: IncdOnboarding.DecodingStrategy = .dictionaryBased, colorSpace: CoreGraphics.CGColorSpace = CGColorSpaceCreateDeviceRGB(), reducedMotionOption: IncdOnboarding.ReducedMotionOption = .systemReducedMotionToggle)
+  public static var shared: IncdOnboarding.LottieConfiguration
+  public var renderingEngine: IncdOnboarding.RenderingEngineOption
+  public var decodingStrategy: IncdOnboarding.DecodingStrategy
+  public var reducedMotionOption: IncdOnboarding.ReducedMotionOption
+  public var colorSpace: CoreGraphics.CGColorSpace
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: IncdOnboarding.LottieConfiguration, b: IncdOnboarding.LottieConfiguration) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public enum FaceMatchType : Swift.String, Swift.Codable {
   case idSelfie
   case nfcSelfie
@@ -375,6 +1074,14 @@ public struct IdValidationConfiguration : Swift.Equatable, Swift.Codable {
   public static func == (a: IncdOnboarding.IdValidationConfiguration, b: IncdOnboarding.IdValidationConfiguration) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ImageAsset : IncdOnboarding.Asset {
+  final public let name: Swift.String
+  final public let directory: Swift.String
+  final public let width: Swift.Double
+  final public let height: Swift.Double
+  override final public func encode(to encoder: any Swift.Encoder) throws
+  @objc deinit
 }
 public struct Result : Swift.Decodable {
   public let value: Swift.String?
@@ -442,9 +1149,187 @@ public struct OmniRegion : Swift.Codable, Swift.Equatable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public enum ColorFormatDenominator : Swift.Hashable {
+  case One
+  case OneHundred
+  case TwoFiftyFive
+  public static func == (a: IncdOnboarding.ColorFormatDenominator, b: IncdOnboarding.ColorFormatDenominator) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct LottieColor : Swift.Hashable {
+  public var r: Swift.Double
+  public var g: Swift.Double
+  public var b: Swift.Double
+  public var a: Swift.Double
+  public init(r: Swift.Double, g: Swift.Double, b: Swift.Double, a: Swift.Double, denominator: IncdOnboarding.ColorFormatDenominator = .One)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: IncdOnboarding.LottieColor, b: IncdOnboarding.LottieColor) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public typealias LottieCompletionBlock = (_ completed: Swift.Bool) -> Swift.Void
 @_hasMissingDesignatedInitializers public class FlowModuleMapping {
   public static func createOnboardingFlow(omniFlow: IncdOnboarding.OmniFlow) -> IncdOnboarding.IncdOnboardingFlowConfiguration
   @objc deinit
+}
+extension IncdOnboarding.PhoneNumberResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.OnboardingSessionResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.EmailAddressResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.BarcodeScanResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.UserNameInfoResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.IdScanResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.NFCScanResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.IdProcessResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.QRScanResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.DocumentScanResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.CreditCardCCVResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.GeolocationResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.SelfieScanResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.FaceMatchResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.GovernmentValidationResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.CURPValidationResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.SignatureFormResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.UserConsentResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.CombinedConsentResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.ApprovalResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.UserScore : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.EKYCResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.GlobalWatchlistModuleResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.CaptchaResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.VideoSelfieResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.CustomWatchlistResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.MachineLearningConsentResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.EkybResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.DynamicFormsResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.AESResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.AntifraudResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
 }
 public enum IDCategory : Swift.String {
   case primary
@@ -455,10 +1340,16 @@ public enum IDCategory : Swift.String {
     get
   }
 }
+public typealias LottieControlType = UIKit.UIControl
+public typealias LottieControlState = UIKit.UIControl.State
+public typealias LottieControlEvent = UIKit.UIControl.Event
 extension IncdOnboarding.IncdOnboardingManager {
   public static var version: Swift.String {
     get
   }
+}
+extension QuartzCore.CALayer {
+  @nonobjc public func logLayerTree(withIndent: Swift.Int = 0)
 }
 @_documentation(visibility: internal) public struct IDCaptureFrameConfiguration {
   public var overlayColor: UIKit.UIColor
@@ -483,6 +1374,40 @@ public enum ConferenceQueue : Swift.String, Swift.Codable, Swift.CaseIterable {
   public var rawValue: Swift.String {
     get
   }
+}
+public enum RenderingEngineOption : Swift.Hashable {
+  case automatic
+  case specific(IncdOnboarding.RenderingEngine)
+  public static var mainThread: IncdOnboarding.RenderingEngineOption {
+    get
+  }
+  public static var coreAnimation: IncdOnboarding.RenderingEngineOption {
+    get
+  }
+}
+public enum RenderingEngine : Swift.Hashable {
+  case mainThread
+  case coreAnimation
+}
+extension IncdOnboarding.RenderingEngineOption : Swift.RawRepresentable, Swift.CustomStringConvertible {
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.String
+}
+extension IncdOnboarding.RenderingEngine : Swift.RawRepresentable, Swift.CustomStringConvertible {
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.String
 }
 public enum FlowModule : Swift.Equatable {
   case idCapture(IncdOnboarding.IdCaptureConfiguration)
@@ -516,6 +1441,7 @@ public enum FlowModule : Swift.Equatable {
   case approval
   case intro
   case qrScan
+  case combinedConsents(IncdOnboarding.CombinedConsentsConfiguration)
   public static var titles: [Swift.String] {
     get
   }
@@ -660,16 +1586,10 @@ extension IncdOnboarding.ThemeConfiguration {
   }
   @objc deinit
 }
-public enum ConfigurationIdentifier : Swift.Equatable {
-  case flowID(Swift.String)
-  case workflowID(Swift.String)
-  case none
-  public static func == (a: IncdOnboarding.ConfigurationIdentifier, b: IncdOnboarding.ConfigurationIdentifier) -> Swift.Bool
-}
 public class IncdOnboardingSessionConfiguration {
   @available(*, deprecated, message: "Regions and their settings will be automatically detected and applied once ID is being processed. Use the initializer without the regionCode parameter.")
-  convenience public init(regionCode: Swift.String? = nil, queue: IncdOnboarding.ConferenceQueue? = nil, configurationId: Swift.String? = nil, validationModules: [IncdOnboarding.OnboardingValidationModule]? = nil, customFields: [Swift.String : Swift.String]? = nil, interviewId: Swift.String? = nil, token: Swift.String? = nil, externalId: Swift.String? = nil, externalCustomerId: Swift.String? = nil, downloadImagesEnabled: Swift.Bool? = nil, e2eEncryptionEnabled: Swift.Bool? = nil)
-  public init(queue: IncdOnboarding.ConferenceQueue? = nil, configurationId: Swift.String? = nil, validationModules: [IncdOnboarding.OnboardingValidationModule]? = nil, customFields: [Swift.String : Swift.String]? = nil, interviewId: Swift.String? = nil, token: Swift.String? = nil, externalId: Swift.String? = nil, externalCustomerId: Swift.String? = nil, downloadImagesEnabled: Swift.Bool? = nil, e2eEncryptionEnabled: Swift.Bool? = nil)
+  convenience public init(regionCode: Swift.String? = nil, queue: IncdOnboarding.ConferenceQueue? = nil, configurationId: Swift.String? = nil, validationModules: [IncdOnboarding.OnboardingValidationModule]? = nil, customFields: [Swift.String : Swift.String]? = nil, interviewId: Swift.String? = nil, token: Swift.String? = nil, externalId: Swift.String? = nil, externalCustomerId: Swift.String? = nil, downloadImagesEnabled: Swift.Bool? = nil, e2eEncryptionEnabled: Swift.Bool? = nil, mergeSessionRecordings: Swift.Bool? = nil)
+  public init(queue: IncdOnboarding.ConferenceQueue? = nil, configurationId: Swift.String? = nil, validationModules: [IncdOnboarding.OnboardingValidationModule]? = nil, customFields: [Swift.String : Swift.String]? = nil, interviewId: Swift.String? = nil, token: Swift.String? = nil, externalId: Swift.String? = nil, externalCustomerId: Swift.String? = nil, downloadImagesEnabled: Swift.Bool? = nil, e2eEncryptionEnabled: Swift.Bool? = nil, mergeSessionRecordings: Swift.Bool? = nil)
   @objc deinit
 }
 public enum Event : Swift.String, Swift.Encodable {
@@ -696,6 +1616,7 @@ public enum Event : Swift.String, Swift.Encodable {
   case cameraFrontSecondId
   case cameraBackSecondId
   case cameraSecondPassport
+  case captureAttemptFinished
   case cameraSelfie
   case switchToManualCaptureSelfie
   case userFirstInQueue
@@ -785,19 +1706,20 @@ public class IncdOnboardingFlowConfiguration {
   public func addBarcodeScan(showTutorials: Swift.Bool = false)
   public func addFullName()
   public func addEmail(otpVerification: Swift.Bool? = nil)
-  public func addIdScan(idType: IncdOnboarding.IdType? = nil, scanStep: IncdOnboarding.ScanStep = .both, idCategory: IncdOnboarding.IDCategory = .primary, showTutorials: Swift.Bool? = nil, showRetakeScreen: Swift.Bool? = nil, showAutoCaptureRetakeScreen: Swift.Bool? = nil, enableRotationOnRetakeScreen: Swift.Bool? = nil, autocaptureUxMode: IncdOnboarding.AutocaptureUxMode? = nil, showIDOverlay: Swift.Bool? = nil, streamFrames: Swift.Bool? = nil, initialOrientation: IncdOnboarding.IDOrientation = .vertical)
+  public func addIdScan(idType: IncdOnboarding.IdType? = nil, scanStep: IncdOnboarding.ScanStep = .both, idCategory: IncdOnboarding.IDCategory = .primary, showTutorials: Swift.Bool? = nil, showRetakeScreen: Swift.Bool? = nil, showAutoCaptureRetakeScreen: Swift.Bool? = nil, enableRotationOnRetakeScreen: Swift.Bool? = nil, autocaptureUxMode: IncdOnboarding.AutocaptureUxMode? = nil, showIDOverlay: Swift.Bool? = nil, streamFrames: Swift.Bool? = nil, initialOrientation: IncdOnboarding.IDOrientation = .vertical, enableAudioStream: Swift.Bool? = nil, ageAssurance: Swift.Bool? = nil)
+  public func addNfcScan(idType: IncdOnboarding.IdType? = nil, showNFCSymbolConfirmationScreen: Swift.Bool? = nil, showInitialDataConfirmationScreen: Swift.Bool? = nil, processNFCData: Swift.Bool? = nil)
   public func addIdProcess(idCategory: IncdOnboarding.IDCategory = .primary, enableIdSummaryScreen: Swift.Bool? = nil)
   public func addQRScan(showTutorials: Swift.Bool? = nil)
   public func addDocumentScan(showTutorials: Swift.Bool? = nil, showDocumentProviderOptions: Swift.Bool? = nil, documentType: IncdOnboarding.DocumentType, showRetakeScreen: Swift.Bool? = nil)
   public func addCreditCardCCV()
   public func addGeolocation()
-  public func addSelfieScan(showTutorials: Swift.Bool? = nil, lensesCheck: Swift.Bool? = nil, faceMaskCheck: Swift.Bool? = nil, brightnessThreshold: Swift.Float? = nil, cameraFacing: IncdOnboarding.CameraFacing? = nil, streamFrames: Swift.Bool? = nil, customLogo: UIKit.UIImage? = nil)
-  public func addSelfieScan(showTutorials: Swift.Bool? = nil, performLocalLiveness: Swift.Bool? = nil, lensesCheck: Swift.Bool? = nil, faceMaskCheck: Swift.Bool? = nil, brightnessThreshold: Swift.Float? = nil, cameraFacing: IncdOnboarding.CameraFacing? = nil, streamFrames: Swift.Bool? = nil, customLogo: UIKit.UIImage? = nil)
+  public func addSelfieScan(showTutorials: Swift.Bool? = nil, lensesCheck: Swift.Bool? = nil, faceMaskCheck: Swift.Bool? = nil, closedEyesCheck: Swift.Bool? = nil, headCoverCheck: Swift.Bool? = nil, brightnessThreshold: Swift.Float? = nil, cameraFacing: IncdOnboarding.CameraFacing? = nil, streamFrames: Swift.Bool? = nil, customLogo: UIKit.UIImage? = nil, enableAudioStream: Swift.Bool? = nil, isAgeAssurance: Swift.Bool? = nil)
   public func addFaceMatch(matchType: IncdOnboarding.FaceMatchType? = nil, uiFlavor: IncdOnboarding.UIFlavor? = nil, idCategory: IncdOnboarding.IDCategory..., showUserExists: Swift.Bool? = nil)
   public func addGovernmentValidation(isBackgroundExecuted: Swift.Bool = false)
   public func addCURPValidation(validationEnabled: Swift.Bool? = nil)
   public func addSignature(title: Swift.String? = nil, description: Swift.String? = nil, descriptionMaxLines: Swift.Int? = nil, documents: [IncdOnboarding.SignDocument] = [])
   public func addUserConsent(title: Swift.String? = nil, content: Swift.String? = nil)
+  public func addCombinedConsents(configuration: IncdOnboarding.CombinedConsentsConfiguration)
   public func addApproval(forceApproval: Swift.Bool? = nil)
   public func addUserScore(userScoreFetchMode resultsMode: IncdOnboarding.UserScoreFetchMode? = nil)
   public func addCaptcha()
@@ -877,31 +1799,6 @@ public struct GovernmentValidationResult {
   public var error: IncdOnboarding.IncdError?
   public init(success: Swift.Bool, error: IncdOnboarding.IncdError? = nil)
 }
-public enum SelfieScanMode : Swift.Int, Swift.CaseIterable {
-  case enroll
-  case login
-  public var localizedName: Swift.String {
-    get
-  }
-  public init?(rawValue: Swift.Int)
-  public typealias AllCases = [IncdOnboarding.SelfieScanMode]
-  public typealias RawValue = Swift.Int
-  public static var allCases: [IncdOnboarding.SelfieScanMode] {
-    get
-  }
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-public struct SelfieScanResult {
-  public var spoofAttempt: Swift.Bool?
-  public var faceLoginResult: IncdOnboarding.FaceLoginResult?
-  public var image: UIKit.UIImage?
-  public var selfieEncryptedBase64: Swift.String?
-  public var selfieBase64: Swift.String?
-  public var error: IncdOnboarding.SelfieScanError?
-  public init(spoofAttempt: Swift.Bool? = nil, faceLoginResult: IncdOnboarding.FaceLoginResult? = nil, image: UIKit.UIImage? = nil, selfieBase64: Swift.String? = nil, selfieEncryptedBase64: Swift.String? = nil, error: IncdOnboarding.SelfieScanError? = nil)
-}
 public struct FaceLoginResult {
   public var success: Swift.Bool?
   public var customerUUID: Swift.String?
@@ -912,23 +1809,6 @@ public struct FaceLoginResult {
   public var hasFaceMask: Swift.Bool?
   public var hasLenses: Swift.Bool?
   public init(success: Swift.Bool? = nil, customerUUID: Swift.String? = nil, interviewId: Swift.String? = nil, interviewToken: Swift.String? = nil, token: Swift.String? = nil, transactionId: Swift.String? = nil, hasFaceMask: Swift.Bool? = nil, hasLenses: Swift.Bool? = nil)
-}
-public enum SelfieScanError {
-  case error(_: IncdOnboarding.IncdError)
-  case permissionsDenied
-  case spoofDetected
-  case lensesDetected
-  case faceMaskDetected
-  case tooDark
-  case userNotFound
-  case noFaceTemplateStored
-  case userCancelled
-  case secondFactorAuthorizationFailed
-  case manualFaceNotFound
-  case userBlacklisted
-  public var rawValue: Swift.String {
-    get
-  }
 }
 public enum IntroCheck : Swift.String {
   case id
@@ -967,6 +1847,25 @@ public struct CaptchaResult {
   public var error: IncdOnboarding.CaptchaError?
   public init(captcha: Swift.String? = nil, error: IncdOnboarding.CaptchaError? = nil)
 }
+public struct AnimationKeypath : Swift.Hashable, Swift.ExpressibleByStringLiteral {
+  public init(keypath: Swift.String)
+  public init(stringLiteral: Swift.String)
+  public init(keys: [Swift.String])
+  public var keys: [Swift.String] {
+    get
+  }
+  public var string: Swift.String {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: IncdOnboarding.AnimationKeypath, b: IncdOnboarding.AnimationKeypath) -> Swift.Bool
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public struct GeolocationResult {
   public var addressFields: IncdOnboarding.OCRDataAddress?
   public var error: IncdOnboarding.GeolocationError?
@@ -994,6 +1893,14 @@ public enum SignatureError {
   public var rawValue: Swift.String {
     get
   }
+}
+@_hasMissingDesignatedInitializers public class Asset : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
+  final public let id: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension IncdOnboarding.Asset : @unchecked Swift.Sendable {
 }
 public struct UserScore {
   public let idValidation: IncdOnboarding.IDValidation?
@@ -1061,6 +1968,7 @@ public struct IdScanResult {
   public var issueYear: Swift.Int?
   public var countryCode: Swift.String?
   public var error: IncdOnboarding.IncdIdScanError?
+  public var idealCaptureEnvironmentTestResult: Swift.Int?
 }
 @frozen public enum IdType {
   case id
@@ -1091,6 +1999,7 @@ public enum IncdIdScanStatus : Swift.String {
   case errorReadability
   case errorInCapture
   case errorUnacceptableID
+  case wrongSide
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -1102,7 +2011,33 @@ public enum IncdIdScanError {
   case cameraSetupFailed
   case permissionsDenied
   case skipped
+  case streamAudioPermissionsDenied
   public var rawValue: Swift.String {
+    get
+  }
+}
+extension IncdOnboarding.LottieVector1D : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+public struct LottieVector2D : Swift.Codable, Swift.Hashable, Swift.Sendable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: IncdOnboarding.LottieVector2D, b: IncdOnboarding.LottieVector2D) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension IncdOnboarding.LottieVector3D : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
+extension IncdOnboarding.LottieVector3D {
+  public var pointValue: CoreFoundation.CGPoint {
+    get
+  }
+  public var sizeValue: CoreFoundation.CGSize {
     get
   }
 }
@@ -1148,7 +2083,6 @@ extension IncdOnboarding.ThemedStates where T == IncdOnboarding.ButtonThemedStat
 }
 public enum VideoConferenceError {
   case error(_: IncdOnboarding.IncdError)
-  case videoConferenceModuleNotIncluded
   public var rawValue: Swift.String {
     get
   }
@@ -1158,6 +2092,17 @@ public protocol IncdOnboardingVideoConferenceDelegate {
   func onEstimatedWaitingTime(_ waitingTimeInSeconds: Swift.Int)
   func onQueuePositionChanged(_ newQueuePosition: Swift.Int)
   func onCaptchaCompleted(_ result: IncdOnboarding.CaptchaResult)
+}
+public protocol AnimationFontProvider {
+  func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
+}
+final public class DefaultFontProvider : IncdOnboarding.AnimationFontProvider {
+  public init()
+  final public func fontFor(family: Swift.String, size: CoreFoundation.CGFloat) -> CoreText.CTFont?
+  @objc deinit
+}
+extension IncdOnboarding.DefaultFontProvider : Swift.Equatable {
+  public static func == (_: IncdOnboarding.DefaultFontProvider, _: IncdOnboarding.DefaultFontProvider) -> Swift.Bool
 }
 public class VideoSelfieConfiguration {
   public enum SelfieMode : Swift.String, Swift.CaseIterable {
@@ -1203,11 +2148,15 @@ public class VideoSelfieConfiguration {
   public var disableAudio: Swift.Bool
   public func tutorials(enabled: Swift.Bool)
   public func authorizationDialog(enabled: Swift.Bool, companyTitle: Swift.String)
-  public func selfieScan(performLivenessCheck: Swift.Bool, mode: IncdOnboarding.VideoSelfieConfiguration.SelfieMode = .selfieMatch, lensesCheck: Swift.Bool? = nil, faceMaskCheck: Swift.Bool? = nil)
+  public func selfieScan(enabled: Swift.Bool = true, performLivenessCheck: Swift.Bool = false, mode: IncdOnboarding.VideoSelfieConfiguration.SelfieMode = .selfieMatch, lensesCheck: Swift.Bool? = nil, faceMaskCheck: Swift.Bool? = nil)
   public func setLogo(_ logo: UIKit.UIImage?)
   public func idScan(enabled: Swift.Bool, validateId: Swift.Bool? = nil, compareIdEnabled: Swift.Bool? = nil, compareOcrEnabled: Swift.Bool? = nil, compareBackIdEnabled: Swift.Bool? = nil, compareBackOcrEnabled: Swift.Bool? = nil)
+  @available(*, deprecated, message: "Document scan step will be removed in a future version.")
   public func documentScan(enabled: Swift.Bool)
-  public func voiceConsent(enabled: Swift.Bool, questionsCount: Swift.Int? = nil, randomQuestions: [Swift.String : Swift.String]? = nil, consent: Swift.String? = nil)
+  public func randomQuestions(enabled: Swift.Bool, questionsCount: Swift.Int? = nil, questions: [Swift.String : Swift.String]? = nil)
+  public func voiceConsent(enabled: Swift.Bool, consent: Swift.String? = nil, faceRecognition: Swift.Bool = false)
+  @available(*, deprecated, message: "Use separate methods for `voiceConsent` and `randomQuestions` settings.")
+  public func voiceConsent(enabled: Swift.Bool, questionsCount: Swift.Int?, randomQuestions: [Swift.String : Swift.String]? = nil, consent: Swift.String? = nil, faceRecognition: Swift.Bool = false)
   public func maxVideoLength(_ maxVideoLength: Swift.Int)
   public init()
   @objc deinit
@@ -1224,8 +2173,9 @@ public struct VideoSelfieResult {
   public var document: UIKit.UIImage?
   public var audioData: Foundation.Data?
   public var videoData: Foundation.Data?
+  public var voiceConsentSelfie: UIKit.UIImage?
   public var error: IncdOnboarding.VideoSelfieError?
-  public init(selfie: UIKit.UIImage? = nil, idFront: UIKit.UIImage? = nil, idBack: UIKit.UIImage? = nil, passport: UIKit.UIImage? = nil, document: UIKit.UIImage? = nil, audioData: Foundation.Data? = nil, videoData: Foundation.Data? = nil, error: IncdOnboarding.VideoSelfieError? = nil)
+  public init(selfie: UIKit.UIImage? = nil, idFront: UIKit.UIImage? = nil, idBack: UIKit.UIImage? = nil, passport: UIKit.UIImage? = nil, document: UIKit.UIImage? = nil, audioData: Foundation.Data? = nil, videoData: Foundation.Data? = nil, voiceConsentSelfie: UIKit.UIImage? = nil, error: IncdOnboarding.VideoSelfieError? = nil)
 }
 public enum VideoSelfieError {
   case error(_: IncdOnboarding.IncdError)
@@ -1274,6 +2224,74 @@ extension IncdOnboarding.ButtonConfiguration {
   public static let defaultTextButtonConfiguration: IncdOnboarding.ButtonConfiguration
   public static let defaultHelpButtonConfiguration: IncdOnboarding.ButtonConfiguration
   public static let defaultChooserButtonConfiguration: IncdOnboarding.ButtonConfiguration
+}
+public protocol AnyValueProvider {
+  var valueType: any Any.Type { get }
+  var typeErasedStorage: IncdOnboarding.AnyValueProviderStorage { get }
+  func hasUpdate(frame: IncdOnboarding.AnimationFrameTime) -> Swift.Bool
+}
+extension IncdOnboarding.AnyValueProvider {
+  public func value(frame: IncdOnboarding.AnimationFrameTime) -> Any
+}
+public enum ValueProviderStorage<T> where T : IncdOnboarding.AnyInterpolatable {
+  case singleValue(T)
+  case keyframes([IncdOnboarding.Keyframe<T>])
+  case closure((IncdOnboarding.AnimationFrameTime) -> T)
+}
+public enum AnyValueProviderStorage {
+  case singleValue(Any)
+  case keyframes([IncdOnboarding.Keyframe<Any>], interpolate: (IncdOnboarding.AnimationFrameTime) -> Any)
+  case closure((IncdOnboarding.AnimationFrameTime) -> Any)
+}
+extension IncdOnboarding.LottieAnimationView {
+  @_Concurrency.MainActor(unsafe) convenience public init(name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, imageProvider: (any IncdOnboarding.AnimationImageProvider)? = nil, animationCache: (any IncdOnboarding.AnimationCacheProvider)? = LottieAnimationCache.shared, configuration: IncdOnboarding.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) convenience public init(filePath: Swift.String, imageProvider: (any IncdOnboarding.AnimationImageProvider)? = nil, animationCache: (any IncdOnboarding.AnimationCacheProvider)? = LottieAnimationCache.shared, configuration: IncdOnboarding.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) convenience public init(url: Foundation.URL, imageProvider: (any IncdOnboarding.AnimationImageProvider)? = nil, session: Foundation.URLSession = .shared, closure: @escaping IncdOnboarding.LottieAnimationView.DownloadClosure, animationCache: (any IncdOnboarding.AnimationCacheProvider)? = LottieAnimationCache.shared, configuration: IncdOnboarding.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) convenience public init(asset name: Swift.String, bundle: Foundation.Bundle = Bundle.main, imageProvider: (any IncdOnboarding.AnimationImageProvider)? = nil, animationCache: (any IncdOnboarding.AnimationCacheProvider)? = LottieAnimationCache.shared, configuration: IncdOnboarding.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) convenience public init(dotLottieName name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationId: Swift.String? = nil, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache, configuration: IncdOnboarding.LottieConfiguration = .shared, completion: ((IncdOnboarding.LottieAnimationView, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(dotLottieFilePath filePath: Swift.String, animationId: Swift.String? = nil, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache, configuration: IncdOnboarding.LottieConfiguration = .shared, completion: ((IncdOnboarding.LottieAnimationView, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(dotLottieUrl url: Foundation.URL, animationId: Swift.String? = nil, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache, configuration: IncdOnboarding.LottieConfiguration = .shared, session: Foundation.URLSession = .shared, completion: ((IncdOnboarding.LottieAnimationView, (any Swift.Error)?) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor(unsafe) convenience public init(dotLottieAsset name: Swift.String, bundle: Foundation.Bundle = Bundle.main, animationId: Swift.String? = nil, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache, configuration: IncdOnboarding.LottieConfiguration = .shared, completion: ((IncdOnboarding.LottieAnimationView, (any Swift.Error)?) -> Swift.Void)? = nil)
+  public typealias DownloadClosure = ((any Swift.Error)?) -> Swift.Void
+}
+public class DotLottieCache : IncdOnboarding.DotLottieCacheProvider {
+  public init()
+  public static let sharedCache: IncdOnboarding.DotLottieCache
+  public var cacheSize: Swift.Int {
+    get
+    set
+  }
+  public func clearCache()
+  public func file(forKey key: Swift.String) -> IncdOnboarding.DotLottieFile?
+  public func setFile(_ lottie: IncdOnboarding.DotLottieFile, forKey key: Swift.String)
+  @objc deinit
+}
+extension IncdOnboarding.DotLottieCache : @unchecked Swift.Sendable {
+}
+public protocol AnimationCacheProvider : AnyObject, Swift.Sendable {
+  func animation(forKey: Swift.String) -> IncdOnboarding.LottieAnimation?
+  func setAnimation(_ animation: IncdOnboarding.LottieAnimation, forKey: Swift.String)
+  func clearCache()
+}
+final public class PointValueProvider {
+  public init(block: @escaping IncdOnboarding.PointValueProvider.PointValueBlock)
+  public init(_ point: CoreFoundation.CGPoint)
+  public typealias PointValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGPoint
+  final public var point: CoreFoundation.CGPoint {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: IncdOnboarding.ValueProviderStorage<IncdOnboarding.LottieVector3D> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+extension IncdOnboarding.PointValueProvider : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.PointValueProvider, rhs: IncdOnboarding.PointValueProvider) -> Swift.Bool
 }
 public enum MLConsentType : Swift.String, Swift.Codable, Swift.Equatable {
   case us
@@ -1326,6 +2344,10 @@ public enum UserScoreFetchMode : Swift.Int, Swift.CaseIterable {
     get
   }
 }
+extension IncdOnboarding.LottieColor : Swift.Codable {
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+}
 public struct OcrResult {
   public var photo: UIKit.UIImage?
   public var documentNumber: Swift.String?
@@ -1333,6 +2355,124 @@ public struct OcrResult {
   public var dateOfBirth: Foundation.Date?
   public var error: IncdOnboarding.IncdError?
   public init(photo: UIKit.UIImage? = nil, documentNumber: Swift.String? = nil, expiryDate: Foundation.Date? = nil, dateOfBirth: Foundation.Date? = nil, error: IncdOnboarding.IncdError? = nil)
+}
+public enum ReducedMotionOption {
+  case specific(IncdOnboarding.ReducedMotionMode)
+  case dynamic(any IncdOnboarding.ReducedMotionOptionProvider, dataID: Swift.AnyHashable)
+}
+extension IncdOnboarding.ReducedMotionOption {
+  public static var standardMotion: IncdOnboarding.ReducedMotionOption {
+    get
+  }
+  public static var reducedMotion: IncdOnboarding.ReducedMotionOption {
+    get
+  }
+  public static var systemReducedMotionToggle: IncdOnboarding.ReducedMotionOption {
+    get
+  }
+}
+extension IncdOnboarding.ReducedMotionOption {
+  public var currentReducedMotionMode: IncdOnboarding.ReducedMotionMode {
+    get
+  }
+}
+extension IncdOnboarding.ReducedMotionOption : Swift.Hashable {
+  public static func == (lhs: IncdOnboarding.ReducedMotionOption, rhs: IncdOnboarding.ReducedMotionOption) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ReducedMotionMode : Swift.Hashable {
+  case standardMotion
+  case reducedMotion
+  public static func == (a: IncdOnboarding.ReducedMotionMode, b: IncdOnboarding.ReducedMotionMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol ReducedMotionOptionProvider {
+  var currentReducedMotionMode: IncdOnboarding.ReducedMotionMode { get }
+}
+public struct SystemReducedMotionOptionProvider : IncdOnboarding.ReducedMotionOptionProvider {
+  public init()
+  public var currentReducedMotionMode: IncdOnboarding.ReducedMotionMode {
+    get
+  }
+}
+public protocol Interpolatable : IncdOnboarding.AnyInterpolatable {
+  func interpolate(to: Self, amount: CoreFoundation.CGFloat) -> Self
+}
+public protocol SpatialInterpolatable : IncdOnboarding.AnyInterpolatable {
+  func interpolate(to: Self, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> Self
+}
+public protocol AnyInterpolatable {
+  func _interpolate(to: Self, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> Self
+}
+extension IncdOnboarding.Interpolatable {
+  public func _interpolate(to: Self, amount: CoreFoundation.CGFloat, spatialOutTangent _: CoreFoundation.CGPoint?, spatialInTangent _: CoreFoundation.CGPoint?) -> Self
+}
+extension IncdOnboarding.SpatialInterpolatable {
+  public func interpolate(to: Self, amount: CoreFoundation.CGFloat) -> Self
+  public func _interpolate(to: Self, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> Self
+}
+extension Swift.Double : IncdOnboarding.Interpolatable {
+}
+extension CoreFoundation.CGFloat : IncdOnboarding.Interpolatable {
+}
+extension Swift.Float : IncdOnboarding.Interpolatable {
+}
+extension IncdOnboarding.Interpolatable where Self : Swift.BinaryFloatingPoint {
+  public func interpolate(to: Self, amount: CoreFoundation.CGFloat) -> Self
+}
+extension CoreFoundation.CGRect : IncdOnboarding.Interpolatable {
+  public func interpolate(to: CoreFoundation.CGRect, amount: CoreFoundation.CGFloat) -> CoreFoundation.CGRect
+}
+extension CoreFoundation.CGSize : IncdOnboarding.Interpolatable {
+  public func interpolate(to: CoreFoundation.CGSize, amount: CoreFoundation.CGFloat) -> CoreFoundation.CGSize
+}
+extension CoreFoundation.CGPoint : IncdOnboarding.SpatialInterpolatable {
+  public func interpolate(to: CoreFoundation.CGPoint, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> CoreFoundation.CGPoint
+}
+extension IncdOnboarding.LottieColor : IncdOnboarding.Interpolatable {
+  public func interpolate(to: IncdOnboarding.LottieColor, amount: CoreFoundation.CGFloat) -> IncdOnboarding.LottieColor
+}
+extension IncdOnboarding.LottieVector1D : IncdOnboarding.Interpolatable {
+  public func interpolate(to: IncdOnboarding.LottieVector1D, amount: CoreFoundation.CGFloat) -> IncdOnboarding.LottieVector1D
+}
+extension IncdOnboarding.LottieVector2D : IncdOnboarding.SpatialInterpolatable {
+  public func interpolate(to: IncdOnboarding.LottieVector2D, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> IncdOnboarding.LottieVector2D
+}
+extension IncdOnboarding.LottieVector3D : IncdOnboarding.SpatialInterpolatable {
+  public func interpolate(to: IncdOnboarding.LottieVector3D, amount: CoreFoundation.CGFloat, spatialOutTangent: CoreFoundation.CGPoint?, spatialInTangent: CoreFoundation.CGPoint?) -> IncdOnboarding.LottieVector3D
+}
+extension Swift.Array : IncdOnboarding.Interpolatable, IncdOnboarding.AnyInterpolatable where Element : IncdOnboarding.Interpolatable {
+  public func interpolate(to: [Element], amount: CoreFoundation.CGFloat) -> [Element]
+}
+extension Swift.Optional : IncdOnboarding.Interpolatable, IncdOnboarding.AnyInterpolatable where Wrapped : IncdOnboarding.Interpolatable {
+  public func interpolate(to: Wrapped?, amount: CoreFoundation.CGFloat) -> Wrapped?
+}
+public enum CoordinateSpace : Swift.Int, Swift.Codable, Swift.Sendable {
+  case type2d
+  case type3d
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+final public class LottieAnimation : Swift.Codable, Swift.Sendable {
+  required public init(from decoder: any Swift.Decoder) throws
+  public init(dictionary: [Swift.String : Any]) throws
+  final public let startFrame: IncdOnboarding.AnimationFrameTime
+  final public let endFrame: IncdOnboarding.AnimationFrameTime
+  final public let framerate: Swift.Double
+  final public var markerNames: [Swift.String] {
+    get
+  }
+  @objc deinit
+  final public func encode(to encoder: any Swift.Encoder) throws
 }
 @_documentation(visibility: internal) public struct LabelConfiguration : Swift.Decodable {
   public var textAlignment: UIKit.NSTextAlignment
@@ -1353,6 +2493,26 @@ extension IncdOnboarding.LabelConfiguration {
   public static let defaultSecondaryBody: IncdOnboarding.LabelConfiguration
   public static let defaultCode: IncdOnboarding.LabelConfiguration
 }
+public struct DotLottieConfiguration {
+  public var id: Swift.String
+  public var loopMode: IncdOnboarding.LottieLoopMode
+  public var speed: Swift.Double
+  public var imageProvider: (any IncdOnboarding.AnimationImageProvider)? {
+    get
+  }
+}
+public struct DotLottieConfigurationComponents : Swift.OptionSet {
+  public init(rawValue: Swift.Int)
+  public static let imageProvider: IncdOnboarding.DotLottieConfigurationComponents
+  public static let loopMode: IncdOnboarding.DotLottieConfigurationComponents
+  public static let animationSpeed: IncdOnboarding.DotLottieConfigurationComponents
+  public static let all: IncdOnboarding.DotLottieConfigurationComponents
+  public static let none: IncdOnboarding.DotLottieConfigurationComponents
+  public let rawValue: Swift.Int
+  public typealias ArrayLiteralElement = IncdOnboarding.DotLottieConfigurationComponents
+  public typealias Element = IncdOnboarding.DotLottieConfigurationComponents
+  public typealias RawValue = Swift.Int
+}
 public struct IdCaptureConfiguration : Swift.Equatable, Swift.Codable {
   public let showTutorial: Swift.Bool?
   public let secondId: Swift.Bool?
@@ -1368,6 +2528,53 @@ public struct IdCaptureConfiguration : Swift.Equatable, Swift.Codable {
   public var name: Swift.String?
   public var error: IncdOnboarding.IncdError?
   public init(name: Swift.String? = nil, error: IncdOnboarding.IncdError? = nil)
+}
+public enum SelfieScanMode : Swift.Int, Swift.CaseIterable {
+  case enroll
+  case login
+  public var localizedName: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias AllCases = [IncdOnboarding.SelfieScanMode]
+  public typealias RawValue = Swift.Int
+  public static var allCases: [IncdOnboarding.SelfieScanMode] {
+    get
+  }
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public struct SelfieScanResult {
+  public var spoofAttempt: Swift.Bool?
+  public var faceLoginResult: IncdOnboarding.FaceLoginResult?
+  public var image: UIKit.UIImage?
+  public var selfieEncryptedBase64: Swift.String?
+  public var selfieBase64: Swift.String?
+  public var error: IncdOnboarding.SelfieScanError?
+  public var idealCaptureEnvironmentTestResult: Swift.Int?
+  public init(spoofAttempt: Swift.Bool? = nil, faceLoginResult: IncdOnboarding.FaceLoginResult? = nil, image: UIKit.UIImage? = nil, selfieBase64: Swift.String? = nil, selfieEncryptedBase64: Swift.String? = nil, error: IncdOnboarding.SelfieScanError? = nil, idealCaptureEnvironmentTestResult: Swift.Int? = nil)
+}
+public enum SelfieScanError {
+  case error(_: IncdOnboarding.IncdError)
+  case permissionsDenied
+  case spoofDetected
+  case lensesDetected
+  case faceMaskDetected
+  case tooDark
+  case userNotFound
+  case noFaceTemplateStored
+  case userCancelled
+  case secondFactorAuthorizationFailed
+  case manualFaceNotFound
+  case userBlacklisted
+  case streamAudioPermissionsDenied
+  case closedEyesDetected
+  case headCoverDetected
+  case faceNotAligned
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public struct EkybResult {
   public let error: IncdOnboarding.IncdError?
@@ -1413,7 +2620,7 @@ public enum FaceMaskCheckMode : Swift.Int {
     get
   }
 }
-public enum IncdInitError {
+public enum IncdInitError : Swift.Error {
   case invalidInitParams(url: Swift.String?, apiKey: Swift.String?)
   case simulatorDetected
   case testModeEnabled
@@ -1447,7 +2654,6 @@ public enum IncdFlowError {
   case initError(_: IncdOnboarding.IncdInitError)
   case error(_: IncdOnboarding.IncdError)
   case sessionCreationFailed(_: Swift.String)
-  case moduleNotIncluded
   case permissionsDenied
   case declinedToSignDocument
   case captchaNotVerified(_: Swift.String)
@@ -1458,6 +2664,7 @@ public enum IncdFlowError {
   case biometricConsentNotGiven
   case biometricConsentNotReceived
   case flowNotFetched
+  case audioPermissionsDenied
   public var description: Swift.String {
     get
   }
@@ -1486,6 +2693,26 @@ public struct InterviewEventSingleResponse : Swift.Decodable {
   public let id: Swift.String
   public init(from decoder: any Swift.Decoder) throws
 }
+public enum DecodingStrategy : Swift.Hashable {
+  case legacyCodable
+  case dictionaryBased
+  public static func == (a: IncdOnboarding.DecodingStrategy, b: IncdOnboarding.DecodingStrategy) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct NFCScanResult {
+  public var facePhoto: UIKit.UIImage?
+  public var dg1: IncdOnboarding.NFCDataModel.DG1?
+  public var error: IncdOnboarding.NFCScanError?
+}
+public enum NFCScanError {
+  case error(_: IncdOnboarding.IncdError)
+  case notAvailable
+  case userDocumentHasNoChip
+  case noScanAttemptsRemaining
+}
 @_documentation(visibility: internal) public struct ButtonSizeVariant : Swift.Decodable {
   public var height: CoreFoundation.CGFloat
   public var minWidth: CoreFoundation.CGFloat
@@ -1500,8 +2727,10 @@ extension IncdOnboarding.ButtonSizeVariant {
   public static let defaultTextBigSizeVariant: IncdOnboarding.ButtonSizeVariant
   public static let defaultTextMediumSizeVariant: IncdOnboarding.ButtonSizeVariant
 }
+public typealias AnimationFrameTime = CoreFoundation.CGFloat
+public typealias AnimationProgressTime = CoreFoundation.CGFloat
 public protocol IncdOnboardingManagerAPI {
-  func initIncdOnboarding(url: Swift.String?, apiKey: Swift.String?, loggingEnabled: Swift.Bool, testMode: Swift.Bool, _ completion: ((_ success: Swift.Bool?, _ error: IncdOnboarding.IncdInitError?) -> Swift.Void)?)
+  func initIncdOnboarding(url: Swift.String?, e2eeURL: Swift.String?, apiKey: Swift.String?, loggingEnabled: Swift.Bool, testMode: Swift.Bool, _ completion: ((_ success: Swift.Bool?, _ error: IncdOnboarding.IncdInitError?) -> Swift.Void)?)
   func checkOnDemandResourcesAvailablity(completion: @escaping (_ available: Swift.Bool) -> Swift.Void)
   func downloadOnDemandResources(showUI: Swift.Bool?, vc: UIKit.UIViewController?, onProgress: ((Swift.Double) -> Swift.Void)?, onCompleted: (() -> Swift.Void)?, onError: ((any Swift.Error) -> Swift.Void)?)
   @available(*, deprecated, message: "Regions and their settings will be automatically detected and applied once ID is being processed. This method will be removed in a future version.")
@@ -1515,7 +2744,6 @@ public protocol IncdOnboardingManagerAPI {
   func dismiss(forceInterrupt: Swift.Bool)
   func forceInterrupt(tryFinishingFlow: Swift.Bool, interviewId: Swift.String?, completion: ((_ success: Swift.Bool, _ error: IncdOnboarding.IncdError?) -> Swift.Void)?)
   func finishFlow(interviewId: Swift.String?, completion: @escaping (_ success: Swift.Bool, _ error: IncdOnboarding.IncdError?) -> Swift.Void)
-  func startFaceLogin(showTutorials: Swift.Bool?, customerUUID: Swift.String?, lensesCheck: Swift.Bool?, faceMaskCheck: Swift.Bool?, brightnessThreshold: Swift.Float?, forceThemeBackground: Swift.Bool, logAuthenticationEnabled: Swift.Bool?, customLogo: UIKit.UIImage?, completion: @escaping (_ result: IncdOnboarding.SelfieScanResult) -> Swift.Void)
   func loadModels(completion: (() -> Swift.Void)?)
   func loadModelsSynchronously()
   func deleteLocalUserData()
@@ -1535,7 +2763,7 @@ public protocol IncdOnboardingManagerAPI {
   func configureSSLPinning(enabled: Swift.Bool?, forced: Swift.Bool?)
 }
 extension IncdOnboarding.IncdOnboardingManagerAPI {
-  public func initIncdOnboarding(url: Swift.String?, apiKey: Swift.String?, loggingEnabled: Swift.Bool, testMode: Swift.Bool, _ completion: ((_ success: Swift.Bool?, _ error: IncdOnboarding.IncdInitError?) -> Swift.Void)?)
+  public func initIncdOnboarding(url: Swift.String?, e2eeURL: Swift.String?, apiKey: Swift.String?, loggingEnabled: Swift.Bool, testMode: Swift.Bool, _ completion: ((_ success: Swift.Bool?, _ error: IncdOnboarding.IncdInitError?) -> Swift.Void)?)
   public func checkOnDemandResourcesAvailablity(completion: @escaping (_ available: Swift.Bool) -> Swift.Void)
   public func downloadOnDemandResources(showUI: Swift.Bool?, vc: UIKit.UIViewController?, onProgress: ((Swift.Double) -> Swift.Void)?, onCompleted: (() -> Swift.Void)?, onError: ((any Swift.Error) -> Swift.Void)?)
   @available(*, deprecated, message: "Regions and their settings will be automatically detected and applied once ID is being processed. This method will be removed in a future version.")
@@ -1549,7 +2777,6 @@ extension IncdOnboarding.IncdOnboardingManagerAPI {
   public func dismiss(forceInterrupt: Swift.Bool)
   public func forceInterrupt(tryFinishingFlow: Swift.Bool, interviewId: Swift.String?, completion: ((_ success: Swift.Bool, _ error: IncdOnboarding.IncdError?) -> Swift.Void)?)
   public func finishFlow(interviewId: Swift.String?, completion: @escaping (_ success: Swift.Bool, _ error: IncdOnboarding.IncdError?) -> Swift.Void)
-  public func startFaceLogin(showTutorials: Swift.Bool?, customerUUID: Swift.String?, lensesCheck: Swift.Bool?, faceMaskCheck: Swift.Bool?, brightnessThreshold: Swift.Float?, forceThemeBackground: Swift.Bool, logAuthenticationEnabled: Swift.Bool?, customLogo: UIKit.UIImage?, completion: @escaping (_ result: IncdOnboarding.SelfieScanResult) -> Swift.Void)
   public func loadModels(completion: (() -> Swift.Void)?)
   public func loadModelsSynchronously()
   public func deleteLocalUserData()
@@ -1565,8 +2792,6 @@ extension IncdOnboarding.IncdOnboardingManagerAPI {
   public func processCustomWatchlist(interviewId: Swift.String?, completion: @escaping (_ result: IncdOnboarding.CustomWatchlistResult) -> Swift.Void)
   public func addNOM151Archive(interviewId: Swift.String?, completion: @escaping (_ result: IncdOnboarding.AddNOM151Result) -> Swift.Void)
   public func getUserOCRData(_ token: Swift.String?, completion: @escaping (_ result: IncdOnboarding.OmniGetOCRDataResult) -> Swift.Void)
-}
-extension Foundation.Bundle : @unchecked Swift.Sendable {
 }
 public struct AESConfiguration : Swift.Equatable, Swift.Codable {
   public init(uploadDocument: Swift.Bool?, downloadDocument: Swift.Bool?)
@@ -1585,6 +2810,7 @@ public protocol IncdOnboardingDelegate : AnyObject {
   func onAddFullNameCompleted(_ result: IncdOnboarding.UserNameInfoResult)
   func onIdFrontCompleted(_ result: IncdOnboarding.IdScanResult)
   func onIdBackCompleted(_ result: IncdOnboarding.IdScanResult)
+  func onNFCScanCompleted(_ result: IncdOnboarding.NFCScanResult)
   func onIdProcessed(_ result: IncdOnboarding.IdProcessResult)
   func onOcrCompleted()
   func onQRScanCompleted(_ result: IncdOnboarding.QRScanResult)
@@ -1598,6 +2824,7 @@ public protocol IncdOnboardingDelegate : AnyObject {
   func onCURPValidationCompleted(_ result: IncdOnboarding.CURPValidationResult)
   func onSignatureCollected(_ result: IncdOnboarding.SignatureFormResult)
   func onUserConsentGiven(_ result: IncdOnboarding.UserConsentResult)
+  func onCombinedConsentsGiven(_ result: IncdOnboarding.CombinedConsentResult)
   func onApproveCompleted(_ result: IncdOnboarding.ApprovalResult)
   func onCaptchaCompleted(_ result: IncdOnboarding.CaptchaResult)
   func onVideoConferenceCompleted(_ success: Swift.Bool, _ error: IncdOnboarding.VideoConferenceError?)
@@ -1627,6 +2854,7 @@ extension IncdOnboarding.IncdOnboardingDelegate {
   public func onAddFullNameCompleted(_ result: IncdOnboarding.UserNameInfoResult)
   public func onIdFrontCompleted(_ result: IncdOnboarding.IdScanResult)
   public func onIdBackCompleted(_ result: IncdOnboarding.IdScanResult)
+  public func onNFCScanCompleted(_ result: IncdOnboarding.NFCScanResult)
   public func onIdProcessed(_ result: IncdOnboarding.IdProcessResult)
   public func onOcrCompleted()
   public func onQRScanCompleted(_ result: IncdOnboarding.QRScanResult)
@@ -1639,6 +2867,7 @@ extension IncdOnboarding.IncdOnboardingDelegate {
   public func onCURPValidationCompleted(_ result: IncdOnboarding.CURPValidationResult)
   public func onSignatureCollected(_ result: IncdOnboarding.SignatureFormResult)
   public func onUserConsentGiven(_ result: IncdOnboarding.UserConsentResult)
+  public func onCombinedConsentsGiven(_ result: IncdOnboarding.CombinedConsentResult)
   public func onApproveCompleted(_ result: IncdOnboarding.ApprovalResult)
   public func onUserScoreFetched(_ result: IncdOnboarding.UserScore)
   public func onEKYCCompleted(_ result: IncdOnboarding.EKYCResult)
@@ -1658,13 +2887,31 @@ extension IncdOnboarding.IncdOnboardingDelegate {
   public func onAntifraudCompleted(_ result: IncdOnboarding.AntifraudResult)
   public func onSSLPinningFailed()
 }
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ImageAsset : IncdOnboarding.Asset {
-  final public let name: Swift.String
-  final public let directory: Swift.String
-  final public let width: Swift.Double
-  final public let height: Swift.Double
-  override final public func encode(to encoder: any Swift.Encoder) throws
+final public class SizeValueProvider {
+  public init(block: @escaping IncdOnboarding.SizeValueProvider.SizeValueBlock)
+  public init(_ size: CoreFoundation.CGSize)
+  public typealias SizeValueBlock = (CoreFoundation.CGFloat) -> CoreFoundation.CGSize
+  final public var size: CoreFoundation.CGSize {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: IncdOnboarding.ValueProviderStorage<IncdOnboarding.LottieVector3D> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
   @objc deinit
+}
+extension IncdOnboarding.SizeValueProvider : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.SizeValueProvider, rhs: IncdOnboarding.SizeValueProvider) -> Swift.Bool
+}
+extension IncdOnboarding.IncdOnboardingManager {
+  public func addFace(_ faceInfo: IncdOnboarding.FaceInfo)
+  public func removeFace(customerUUID: Swift.String)
+  public func setFaces(_ faceInfoList: [IncdOnboarding.FaceInfo])
+  public func getFaces() -> [IncdOnboarding.FaceInfo]
 }
 @_documentation(visibility: internal) public struct IDSideLabelConfiguration : Swift.Decodable {
   public var alpha: CoreFoundation.CGFloat
@@ -1726,6 +2973,16 @@ extension IncdOnboarding.ButtonThemedState {
   public static let highlightedIdChooserButtonThemedState: IncdOnboarding.ButtonThemedState
   public static let disabledIdChooserButtonThemedState: IncdOnboarding.ButtonThemedState
 }
+public class FilepathImageProvider : IncdOnboarding.AnimationImageProvider {
+  public init(filepath: Swift.String, contentsGravity: QuartzCore.CALayerContentsGravity = .resize)
+  public init(filepath: Foundation.URL, contentsGravity: QuartzCore.CALayerContentsGravity = .resize)
+  public func imageForAsset(asset: IncdOnboarding.ImageAsset) -> CoreGraphics.CGImage?
+  public func contentsGravity(for _: IncdOnboarding.ImageAsset) -> QuartzCore.CALayerContentsGravity
+  @objc deinit
+}
+extension IncdOnboarding.FilepathImageProvider : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.FilepathImageProvider, rhs: IncdOnboarding.FilepathImageProvider) -> Swift.Bool
+}
 public struct OTPConfiguration : Swift.Equatable, Swift.Codable {
   public let otpExpirationInMinutes: Swift.Int?
   public let otpVerification: Swift.Bool?
@@ -1741,13 +2998,27 @@ public struct OTPConfiguration : Swift.Equatable, Swift.Codable {
 extension IncdOnboarding.IDAutocaptureCountdownConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
+public enum LottieAnimationSource : Swift.Sendable {
+  case lottieAnimation(IncdOnboarding.LottieAnimation)
+  case dotLottieFile(IncdOnboarding.DotLottieFile)
+}
+extension IncdOnboarding.LottieAnimation {
+  final public var animationSource: IncdOnboarding.LottieAnimationSource {
+    get
+  }
+}
+extension IncdOnboarding.DotLottieFile {
+  final public var animationSource: IncdOnboarding.LottieAnimationSource {
+    get
+  }
+}
 public struct EmailAddressResult {
   public var email: Swift.String?
   public var error: IncdOnboarding.IncdError?
   public init(email: Swift.String? = nil, error: IncdOnboarding.IncdError? = nil)
 }
 extension IncdOnboarding.IncdOnboardingManager : IncdOnboarding.IncdOnboardingManagerAPI {
-  public func initIncdOnboarding(url: Swift.String? = nil, apiKey: Swift.String? = nil, loggingEnabled: Swift.Bool = true, testMode: Swift.Bool = false, _ completion: ((_ success: Swift.Bool?, _ error: IncdOnboarding.IncdInitError?) -> Swift.Void)? = nil)
+  public func initIncdOnboarding(url: Swift.String? = nil, e2eeURL: Swift.String? = nil, apiKey: Swift.String? = nil, loggingEnabled: Swift.Bool = true, testMode: Swift.Bool = false, _ completion: ((_ success: Swift.Bool?, _ error: IncdOnboarding.IncdInitError?) -> Swift.Void)? = nil)
   public func checkOnDemandResourcesAvailablity(completion: @escaping (_ available: Swift.Bool) -> Swift.Void)
   public func removeOnDemandResources()
   public func downloadOnDemandResources(showUI: Swift.Bool? = nil, vc: UIKit.UIViewController? = nil, onProgress: ((Swift.Double) -> Swift.Void)? = nil, onCompleted: (() -> Swift.Void)? = nil, onError: ((any Swift.Error) -> Swift.Void)? = nil)
@@ -1762,9 +3033,8 @@ extension IncdOnboarding.IncdOnboardingManager : IncdOnboarding.IncdOnboardingMa
   public func dismiss(forceInterrupt: Swift.Bool = false)
   public func forceInterrupt(tryFinishingFlow: Swift.Bool = false, interviewId: Swift.String? = nil, completion: ((_ success: Swift.Bool, _ error: IncdOnboarding.IncdError?) -> Swift.Void)? = nil)
   public func finishFlow(interviewId: Swift.String? = nil, completion: @escaping (_ success: Swift.Bool, _ error: IncdOnboarding.IncdError?) -> Swift.Void)
-  public func startFaceLogin(showTutorials: Swift.Bool? = nil, customerUUID: Swift.String? = nil, lensesCheck: Swift.Bool? = nil, faceMaskCheck: Swift.Bool? = nil, brightnessThreshold: Swift.Float? = nil, forceThemeBackground: Swift.Bool = false, logAuthenticationEnabled: Swift.Bool? = nil, customLogo: UIKit.UIImage? = nil, completion: @escaping (_ result: IncdOnboarding.SelfieScanResult) -> Swift.Void)
-  public func deleteLocalUserData()
   public func startFaceLogin(showTutorials: Swift.Bool? = nil, customerUUID: Swift.String? = nil, faceAuthMode: IncdOnboarding.FaceAuthMode? = nil, faceAuthModeFallback: Swift.Bool? = nil, lensesCheck: Swift.Bool? = nil, faceMaskCheck: Swift.Bool? = nil, brightnessThreshold: Swift.Float? = nil, forceThemeBackground: Swift.Bool = false, logAuthenticationEnabled: Swift.Bool? = nil, customLogo: UIKit.UIImage? = nil, completion: @escaping (_ result: IncdOnboarding.SelfieScanResult) -> Swift.Void)
+  public func deleteLocalUserData()
   public func getUserScore(userScoreFetchMode: IncdOnboarding.UserScoreFetchMode?, interviewId: Swift.String? = nil, completion: @escaping (_ result: IncdOnboarding.UserScore) -> Swift.Void)
   public func getUserOCRData(_ token: Swift.String? = nil, completion: @escaping (_ result: IncdOnboarding.OmniGetOCRDataResult) -> Swift.Void)
 }
@@ -1780,54 +3050,6 @@ extension IncdOnboarding.IncdOnboardingManager {
   public func loadModels(completion: (() -> Swift.Void)? = nil)
   public func loadModelsSynchronously()
   public func configureSSLPinning(enabled: Swift.Bool?, forced: Swift.Bool?)
-}
-public enum LayerType : Swift.Int, Swift.Codable {
-  case precomp
-  case solid
-  case image
-  case null
-  case shape
-  case text
-  public init(from decoder: any Swift.Decoder) throws
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-public enum MatteType : Swift.Int, Swift.Codable {
-  case none
-  case add
-  case invert
-  case unknown
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-public enum BlendMode : Swift.Int, Swift.Codable {
-  case normal
-  case multiply
-  case screen
-  case overlay
-  case darken
-  case lighten
-  case colorDodge
-  case colorBurn
-  case hardLight
-  case softLight
-  case difference
-  case exclusion
-  case hue
-  case saturation
-  case color
-  case luminosity
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
 }
 public class IncdDefaults {
   public init()
@@ -1873,11 +3095,44 @@ extension IncdOnboarding.LabelsConfiguration {
   public var textFieldBig: UIKit.UIFont
   public var textFieldMedium: UIKit.UIFont
   public var additionalTextHeight: [UIKit.UIFont : CoreFoundation.CGFloat]?
+  public var feedbackSmall: UIKit.UIFont
+  public var feedbackLarge: UIKit.UIFont
   public init(from decoder: any Swift.Decoder) throws
-  public init(title: UIKit.UIFont = .incdHeadline2, bigTitle: UIKit.UIFont = .incdHeadline1, hugeTitle: UIKit.UIFont = .incdBigSpecial, subtitle: UIKit.UIFont = .incdHeadline3, boldedSubtitle: UIKit.UIFont = .incdHeadline3Bold, smallSubtitle: UIKit.UIFont = .incdHeadline4, smallBoldedSubtitle: UIKit.UIFont = .incdHeadline4Bold, info: UIKit.UIFont = .incdInfo, body: UIKit.UIFont = .incdBody, boldedBody: UIKit.UIFont = .incdBoldedBody, buttonBig: UIKit.UIFont = .incdBigButton, buttonMedium: UIKit.UIFont = .incdMediumButton, buttonSmall: UIKit.UIFont = .incdSmallButton, textFieldBig: UIKit.UIFont = .incdBigInput, textFieldMedium: UIKit.UIFont = .incdMediumInput, additionalTextHeight: [UIKit.UIFont : CoreFoundation.CGFloat]? = nil)
+  public init(title: UIKit.UIFont = .incdHeadline2, bigTitle: UIKit.UIFont = .incdHeadline1, hugeTitle: UIKit.UIFont = .incdBigSpecial, subtitle: UIKit.UIFont = .incdHeadline3, boldedSubtitle: UIKit.UIFont = .incdHeadline3Bold, smallSubtitle: UIKit.UIFont = .incdHeadline4, smallBoldedSubtitle: UIKit.UIFont = .incdHeadline4Bold, info: UIKit.UIFont = .incdInfo, body: UIKit.UIFont = .incdBody, boldedBody: UIKit.UIFont = .incdBoldedBody, buttonBig: UIKit.UIFont = .incdBigButton, buttonMedium: UIKit.UIFont = .incdMediumButton, buttonSmall: UIKit.UIFont = .incdSmallButton, textFieldBig: UIKit.UIFont = .incdBigInput, textFieldMedium: UIKit.UIFont = .incdMediumInput, feedbackSmall: UIKit.UIFont = .incdFeedbackSmall, feedbackLarge: UIKit.UIFont = .incdFeedbackLarge, additionalTextHeight: [UIKit.UIFont : CoreFoundation.CGFloat]? = nil)
 }
 extension IncdOnboarding.FontsConfiguration {
   public static let defaultFontsConfiguration: IncdOnboarding.FontsConfiguration
+}
+final public class LottieLogger {
+  public init(assert: @escaping IncdOnboarding.LottieLogger.Assert = { condition, message, file, line in
+      // If we default to `Swift.assert` directly with `assert: Assert = Swift.assert`,
+      // the call will unexpectedly not respect the -O flag and will crash in release
+      // https://github.com/apple/swift/issues/60249
+      Swift.assert(condition(), message(), file: file, line: line)
+    }, assertionFailure: @escaping IncdOnboarding.LottieLogger.AssertionFailure = { message, file, line in
+      // If we default to `Swift.assertionFailure` directly with
+      // `assertionFailure: AssertionFailure = Swift.assertionFailure`,
+      // the call will unexpectedly not respect the -O flag and will crash in release
+      // https://github.com/apple/swift/issues/60249
+      Swift.assertionFailure(message(), file: file, line: line)
+    }, warn: @escaping IncdOnboarding.LottieLogger.Warn = { message, _, _ in
+    }, info: @escaping IncdOnboarding.LottieLogger.Info = { message in
+    })
+  public typealias Assert = (_ condition: @autoclosure () -> Swift.Bool, _ message: @autoclosure () -> Swift.String, _ fileID: Swift.StaticString, _ line: Swift.UInt) -> Swift.Void
+  public typealias AssertionFailure = (_ message: @autoclosure () -> Swift.String, _ fileID: Swift.StaticString, _ line: Swift.UInt) -> Swift.Void
+  public typealias Warn = (_ message: @autoclosure () -> Swift.String, _ fileID: Swift.StaticString, _ line: Swift.UInt) -> Swift.Void
+  public typealias Info = (_ message: @autoclosure () -> Swift.String) -> Swift.Void
+  public static var shared: IncdOnboarding.LottieLogger
+  final public func assert(_ condition: @autoclosure () -> Swift.Bool, _ message: @autoclosure () -> Swift.String = String(), fileID: Swift.StaticString = #fileID, line: Swift.UInt = #line)
+  final public func assertionFailure(_ message: @autoclosure () -> Swift.String = String(), fileID: Swift.StaticString = #fileID, line: Swift.UInt = #line)
+  final public func warn(_ message: @autoclosure () -> Swift.String = String(), fileID: Swift.StaticString = #fileID, line: Swift.UInt = #line)
+  final public func info(_ message: @autoclosure () -> Swift.String = String())
+  @objc deinit
+}
+extension IncdOnboarding.LottieLogger {
+  public static var printToConsole: IncdOnboarding.LottieLogger {
+    get
+  }
 }
 public struct SignaturePosition : Swift.Codable {
   public let x: Swift.Int
@@ -1888,8 +3143,27 @@ public struct SignaturePosition : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension QuartzCore.CALayer {
-  @nonobjc public func logLayerTree(withIndent: Swift.Int = 0)
+infix operator +| : DefaultPrecedence
+infix operator +- : DefaultPrecedence
+extension UIKit.UIColor {
+  public var lottieColorValue: IncdOnboarding.LottieColor {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AnimatedButton : IncdOnboarding.AnimatedControl {
+  @_Concurrency.MainActor(unsafe) override public init(animation: IncdOnboarding.LottieAnimation?, configuration: IncdOnboarding.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func beginTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) public var performAction: (() -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var accessibilityTraits: UIKit.UIAccessibilityTraits {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public func setPlayRange(fromProgress: IncdOnboarding.AnimationProgressTime, toProgress: IncdOnboarding.AnimationProgressTime, event: IncdOnboarding.LottieControlEvent)
+  @_Concurrency.MainActor(unsafe) public func setPlayRange(fromMarker fromName: Swift.String, toMarker toName: Swift.String, event: IncdOnboarding.LottieControlEvent)
+  @objc deinit
 }
 extension IncdOnboarding.IncdOnboardingManager {
   public var forceApproval: Swift.Bool {
@@ -2173,6 +3447,8 @@ public struct SelfieConfiguration : Swift.Equatable, Swift.Codable {
   public let enableFaceRecording: Swift.Bool?
   public let validateLenses: Swift.Bool?
   public let validateFaceMask: Swift.Bool?
+  public let validateClosedEyes: Swift.Bool?
+  public let validateHeadCover: Swift.Bool?
   public static func == (a: IncdOnboarding.SelfieConfiguration, b: IncdOnboarding.SelfieConfiguration) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
@@ -2189,6 +3465,35 @@ public enum IDCaptureMode : Swift.Int {
     get
   }
 }
+extension IncdOnboarding.LottieAnimation {
+  public typealias DownloadClosure = (IncdOnboarding.LottieAnimation?) -> Swift.Void
+  final public var duration: Foundation.TimeInterval {
+    get
+  }
+  final public var bounds: CoreFoundation.CGRect {
+    get
+  }
+  final public var size: CoreFoundation.CGSize {
+    get
+  }
+  public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationCache: (any IncdOnboarding.AnimationCacheProvider)? = LottieAnimationCache.shared) -> IncdOnboarding.LottieAnimation?
+  public static func filepath(_ filepath: Swift.String, animationCache: (any IncdOnboarding.AnimationCacheProvider)? = LottieAnimationCache.shared) -> IncdOnboarding.LottieAnimation?
+  public static func asset(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, animationCache: (any IncdOnboarding.AnimationCacheProvider)? = LottieAnimationCache.shared) -> IncdOnboarding.LottieAnimation?
+  public static func from(data: Foundation.Data, strategy: IncdOnboarding.DecodingStrategy = LottieConfiguration.shared.decodingStrategy) throws -> IncdOnboarding.LottieAnimation
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func loadedFrom(url: Foundation.URL, session: Foundation.URLSession = .shared, animationCache: (any IncdOnboarding.AnimationCacheProvider)? = LottieAnimationCache.shared) async -> IncdOnboarding.LottieAnimation?
+  #endif
+  public static func loadedFrom(url: Foundation.URL, session: Foundation.URLSession = .shared, closure: @escaping IncdOnboarding.LottieAnimation.DownloadClosure, animationCache: (any IncdOnboarding.AnimationCacheProvider)? = LottieAnimationCache.shared)
+  final public func progressTime(forMarker named: Swift.String) -> IncdOnboarding.AnimationProgressTime?
+  final public func frameTime(forMarker named: Swift.String) -> IncdOnboarding.AnimationFrameTime?
+  final public func durationFrameTime(forMarker named: Swift.String) -> IncdOnboarding.AnimationFrameTime?
+  final public func progressTime(forFrame frameTime: IncdOnboarding.AnimationFrameTime, clamped: Swift.Bool = true) -> IncdOnboarding.AnimationProgressTime
+  final public func frameTime(forProgress progressTime: IncdOnboarding.AnimationProgressTime) -> IncdOnboarding.AnimationFrameTime
+  final public func time(forFrame frameTime: IncdOnboarding.AnimationFrameTime) -> Foundation.TimeInterval
+  final public func frameTime(forTime time: Foundation.TimeInterval) -> IncdOnboarding.AnimationFrameTime
+}
+extension Foundation.Bundle : @unchecked Swift.Sendable {
+}
 public struct DocumentCaptureConfiguration : Swift.Equatable, Swift.Codable {
   public static func == (a: IncdOnboarding.DocumentCaptureConfiguration, b: IncdOnboarding.DocumentCaptureConfiguration) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
@@ -2198,6 +3503,36 @@ public struct AntifraudConfiguration : Swift.Equatable, Swift.Codable {
   public static func == (a: IncdOnboarding.AntifraudConfiguration, b: IncdOnboarding.AntifraudConfiguration) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AnimatedSwitch : IncdOnboarding.AnimatedControl {
+  @_Concurrency.MainActor(unsafe) override public init(animation: IncdOnboarding.LottieAnimation?, configuration: IncdOnboarding.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) override open func animationDidSet()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  public enum CancelBehavior {
+    case reverse
+    case none
+    public static func == (a: IncdOnboarding.AnimatedSwitch.CancelBehavior, b: IncdOnboarding.AnimatedSwitch.CancelBehavior) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public var cancelBehavior: IncdOnboarding.AnimatedSwitch.CancelBehavior
+  @_Concurrency.MainActor(unsafe) public var animateUpdateWhenChangingAnimation: Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var accessibilityTraits: UIKit.UIAccessibilityTraits {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public var stateUpdated: ((_ isOn: Swift.Bool) -> Swift.Void)?
+  @_Concurrency.MainActor(unsafe) public var isOn: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public func setIsOn(_ isOn: Swift.Bool, animated: Swift.Bool, shouldFireHaptics: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public func setProgressForState(fromProgress: IncdOnboarding.AnimationProgressTime, toProgress: IncdOnboarding.AnimationProgressTime, forOnState: Swift.Bool)
+  @objc deinit
 }
 public struct DynamicFormsResult {
   public var answers: [IncdOnboarding.DynamicFormQuestionnaireModel]
@@ -2215,16 +3550,36 @@ public struct DynamicFormsResult {
 extension IncdOnboarding.ButtonsConfiguration {
   public static let defaultButtonsConfiguration: IncdOnboarding.ButtonsConfiguration
 }
-public enum DotLottieError : Swift.Error {
-  case noDataLoaded
-  case assetNotFound(name: Swift.String, bundle: Foundation.Bundle?)
-  case loadingFromAssetNotSupported
-  @available(*, deprecated, message: "Unused")
-  case invalidFileFormat
-  @available(*, deprecated, message: "Unused")
-  case invalidData
-  @available(*, deprecated, message: "Unused")
-  case animationNotAvailable
+@objc final public class CompatibleAnimationKeypath : ObjectiveC.NSObject {
+  @objc public init(keypath: Swift.String)
+  @objc public init(keys: [Swift.String])
+  final public let animationKeypath: IncdOnboarding.AnimationKeypath
+  @objc deinit
+}
+public struct LottieSwitch {
+  public init(animation: IncdOnboarding.LottieAnimation?)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public func configure(_ configure: @escaping (IncdOnboarding.AnimatedSwitch) -> Swift.Void) -> IncdOnboarding.LottieSwitch
+  public func configuration(_ configuration: IncdOnboarding.LottieConfiguration) -> IncdOnboarding.LottieSwitch
+  public func isOn(_ binding: SwiftUI.Binding<Swift.Bool>) -> IncdOnboarding.LottieSwitch
+  public func onAnimation(fromProgress onStartProgress: IncdOnboarding.AnimationProgressTime, toProgress onEndProgress: IncdOnboarding.AnimationProgressTime) -> IncdOnboarding.LottieSwitch
+  public func offAnimation(fromProgress offStartProgress: IncdOnboarding.AnimationProgressTime, toProgress offEndProgress: IncdOnboarding.AnimationProgressTime) -> IncdOnboarding.LottieSwitch
+  public func valueProvider<ValueProvider>(_ valueProvider: ValueProvider, for keypath: IncdOnboarding.AnimationKeypath) -> IncdOnboarding.LottieSwitch where ValueProvider : IncdOnboarding.AnyValueProvider, ValueProvider : Swift.Equatable
+  public typealias Body = @_opaqueReturnTypeOf("$s14IncdOnboarding12LottieSwitchV4bodyQrvp", 0) __
+}
+public struct LottieButton {
+  public init(animation: IncdOnboarding.LottieAnimation?, action: @escaping () -> Swift.Void)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public func configure(_ configure: @escaping (IncdOnboarding.AnimatedButton) -> Swift.Void) -> IncdOnboarding.LottieButton
+  public func configuration(_ configuration: IncdOnboarding.LottieConfiguration) -> IncdOnboarding.LottieButton
+  public func animate(fromProgress: IncdOnboarding.AnimationProgressTime, toProgress: IncdOnboarding.AnimationProgressTime, on event: IncdOnboarding.LottieControlEvent) -> IncdOnboarding.LottieButton
+  public func animate(fromMarker: Swift.String, toMarker: Swift.String, on event: IncdOnboarding.LottieControlEvent) -> IncdOnboarding.LottieButton
+  public func valueProvider<ValueProvider>(_ valueProvider: ValueProvider, for keypath: IncdOnboarding.AnimationKeypath) -> IncdOnboarding.LottieButton where ValueProvider : IncdOnboarding.AnyValueProvider, ValueProvider : Swift.Equatable
+  public typealias Body = @_opaqueReturnTypeOf("$s14IncdOnboarding12LottieButtonV4bodyQrvp", 0) __
 }
 public struct POACaptureConfiguration : Swift.Equatable, Swift.Codable {
   public static func == (a: IncdOnboarding.POACaptureConfiguration, b: IncdOnboarding.POACaptureConfiguration) -> Swift.Bool
@@ -2235,6 +3590,7 @@ public struct ExternalVerificationConfiguration : Swift.Equatable, Swift.Codable
   public enum DataInputSource : Swift.String, Swift.Codable {
     case userInput
     case document
+    case poa
     public init?(rawValue: Swift.String)
     public typealias RawValue = Swift.String
     public var rawValue: Swift.String {
@@ -2246,10 +3602,45 @@ public struct ExternalVerificationConfiguration : Swift.Equatable, Swift.Codable
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+final public class ColorValueProvider {
+  public init(block: @escaping IncdOnboarding.ColorValueProvider.ColorValueBlock)
+  public init(_ color: IncdOnboarding.LottieColor)
+  public init(_ keyframes: [IncdOnboarding.Keyframe<IncdOnboarding.LottieColor>])
+  public typealias ColorValueBlock = (CoreFoundation.CGFloat) -> IncdOnboarding.LottieColor
+  final public var color: IncdOnboarding.LottieColor {
+    get
+    set
+  }
+  final public var valueType: any Any.Type {
+    get
+  }
+  final public var storage: IncdOnboarding.ValueProviderStorage<IncdOnboarding.LottieColor> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreFoundation.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+extension IncdOnboarding.ColorValueProvider : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.ColorValueProvider, rhs: IncdOnboarding.ColorValueProvider) -> Swift.Bool
+}
 public struct BarcodeScanResult {
   public var barcodeContent: Swift.String?
   public var error: IncdOnboarding.IncdError?
   public init(barcodeContent: Swift.String? = nil, error: IncdOnboarding.IncdError? = nil)
+}
+public class DefaultAnimationCache : IncdOnboarding.AnimationCacheProvider {
+  public init()
+  public static let sharedCache: IncdOnboarding.DefaultAnimationCache
+  public var cacheSize: Swift.Int {
+    get
+    set
+  }
+  public func clearCache()
+  public func animation(forKey key: Swift.String) -> IncdOnboarding.LottieAnimation?
+  public func setAnimation(_ animation: IncdOnboarding.LottieAnimation, forKey key: Swift.String)
+  @objc deinit
+}
+extension IncdOnboarding.DefaultAnimationCache : @unchecked Swift.Sendable {
 }
 public enum DocumentType {
   case addressStatement
@@ -2290,11 +3681,6 @@ public struct NFCDataModel : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-extension Swift.Array {
-  public subscript(safeIndex index: Swift.Int) -> Element? {
-    get
-  }
-}
 public struct AESResult {
   public let success: Swift.Bool
   public let error: IncdOnboarding.AESResult.AESError?
@@ -2315,6 +3701,15 @@ public struct FaceMatchConfiguration : Swift.Equatable, Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+public class BundleImageProvider : IncdOnboarding.AnimationImageProvider {
+  public init(bundle: Foundation.Bundle, searchPath: Swift.String?, contentsGravity: QuartzCore.CALayerContentsGravity = .resize)
+  public func imageForAsset(asset: IncdOnboarding.ImageAsset) -> CoreGraphics.CGImage?
+  public func contentsGravity(for _: IncdOnboarding.ImageAsset) -> QuartzCore.CALayerContentsGravity
+  @objc deinit
+}
+extension IncdOnboarding.BundleImageProvider : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.BundleImageProvider, rhs: IncdOnboarding.BundleImageProvider) -> Swift.Bool
+}
 public struct VideoOnboardingConfiguration : Swift.Equatable, Swift.Codable {
   public let useAsSelfie: Swift.Bool?
   public let checkIdScan: Swift.Bool?
@@ -2333,16 +3728,96 @@ public struct VideoOnboardingConfiguration : Swift.Equatable, Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class Asset : Swift.Codable {
-  required public init(from decoder: any Swift.Decoder) throws
-  final public let id: Swift.String
+@objc @_Concurrency.MainActor(unsafe) open class AnimatedControl : IncdOnboarding.LottieControlType {
+  @_Concurrency.MainActor(unsafe) public init(animation: IncdOnboarding.LottieAnimation?, configuration: IncdOnboarding.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func beginTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func continueTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func cancelTracking(with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) open func animationDidSet()
+  @_Concurrency.MainActor(unsafe) final public let animationView: IncdOnboarding.LottieAnimationView
+  @_Concurrency.MainActor(unsafe) public var animation: IncdOnboarding.LottieAnimation? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var animationSpeed: CoreFoundation.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public func setLayer(named: Swift.String, forState: IncdOnboarding.LottieControlState)
+  @_Concurrency.MainActor(unsafe) public func setValueProvider(_ valueProvider: any IncdOnboarding.AnyValueProvider, keypath: IncdOnboarding.AnimationKeypath)
   @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
+}
+public protocol AnimationKeypathTextProvider : AnyObject {
+  func text(for keypath: IncdOnboarding.AnimationKeypath, sourceText: Swift.String) -> Swift.String?
+}
+@available(*, deprecated, message: "`AnimationKeypathTextProvider` has been deprecated and renamed to `LegacyAnimationTextProvider`. Instead, conform to `AnimationKeypathTextProvider` instead or conform to `LegacyAnimationTextProvider` explicitly.")
+public typealias AnimationTextProvider = IncdOnboarding.LegacyAnimationTextProvider
+public protocol LegacyAnimationTextProvider : IncdOnboarding.AnimationKeypathTextProvider {
+  func textFor(keypathName: Swift.String, sourceText: Swift.String) -> Swift.String
+}
+extension IncdOnboarding.LegacyAnimationTextProvider {
+  public func text(for _: IncdOnboarding.AnimationKeypath, sourceText _: Swift.String) -> Swift.String?
+}
+final public class DictionaryTextProvider : IncdOnboarding.AnimationKeypathTextProvider, IncdOnboarding.LegacyAnimationTextProvider {
+  public init(_ values: [Swift.String : Swift.String])
+  final public func text(for keypath: IncdOnboarding.AnimationKeypath, sourceText: Swift.String) -> Swift.String?
+  final public func textFor(keypathName: Swift.String, sourceText: Swift.String) -> Swift.String
+  @objc deinit
+}
+extension IncdOnboarding.DictionaryTextProvider : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.DictionaryTextProvider, rhs: IncdOnboarding.DictionaryTextProvider) -> Swift.Bool
+}
+final public class DefaultTextProvider : IncdOnboarding.AnimationKeypathTextProvider, IncdOnboarding.LegacyAnimationTextProvider {
+  public init()
+  final public func textFor(keypathName _: Swift.String, sourceText: Swift.String) -> Swift.String
+  final public func text(for _: IncdOnboarding.AnimationKeypath, sourceText: Swift.String) -> Swift.String
+  @objc deinit
+}
+extension IncdOnboarding.DefaultTextProvider : Swift.Equatable {
+  public static func == (_: IncdOnboarding.DefaultTextProvider, _: IncdOnboarding.DefaultTextProvider) -> Swift.Bool
 }
 public struct CreditCardCCVResult {
   public var ccv: Swift.String?
   public var error: IncdOnboarding.IncdError?
   public init(ccv: Swift.String? = nil, error: IncdOnboarding.IncdError? = nil)
+}
+public struct LottieVector1D : Swift.Hashable, Swift.Sendable {
+  public init(_ value: Swift.Double)
+  public let value: Swift.Double
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: IncdOnboarding.LottieVector1D, b: IncdOnboarding.LottieVector1D) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct LottieVector3D : Swift.Hashable, Swift.Sendable {
+  public let x: Swift.Double
+  public let y: Swift.Double
+  public let z: Swift.Double
+  public init(x: Swift.Double, y: Swift.Double, z: Swift.Double)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: IncdOnboarding.LottieVector3D, b: IncdOnboarding.LottieVector3D) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 public struct UserConsentConfiguration : Swift.Equatable, Swift.Codable {
   public let title: Swift.String?, text: Swift.String?
@@ -2356,8 +3831,6 @@ public struct VideoConferenceConfiguration : Swift.Codable, Swift.Equatable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
-infix operator +| : DefaultPrecedence
-infix operator +- : DefaultPrecedence
 public class SignDocument {
   final public let title: Swift.String
   final public let fileURL: Foundation.URL
@@ -2412,10 +3885,42 @@ public struct OmniWorkflow : Swift.Codable, Swift.Equatable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+extension IncdOnboarding.DotLottieFile {
+  public enum SynchronouslyBlockingCurrentThread {
+    public static func loadedFrom(filepath: Swift.String, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache) -> Swift.Result<IncdOnboarding.DotLottieFile, any Swift.Error>
+    public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache) -> Swift.Result<IncdOnboarding.DotLottieFile, any Swift.Error>
+    public static func loadedFrom(data: Foundation.Data, filename: Swift.String) -> Swift.Result<IncdOnboarding.DotLottieFile, any Swift.Error>
+  }
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache) async throws -> IncdOnboarding.DotLottieFile
+  #endif
+  public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache, dispatchQueue: Dispatch.DispatchQueue = .dotLottie, handleResult: @escaping (Swift.Result<IncdOnboarding.DotLottieFile, any Swift.Error>) -> Swift.Void)
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func loadedFrom(filepath: Swift.String, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache) async throws -> IncdOnboarding.DotLottieFile
+  #endif
+  public static func loadedFrom(filepath: Swift.String, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache, dispatchQueue: Dispatch.DispatchQueue = .dotLottie, handleResult: @escaping (Swift.Result<IncdOnboarding.DotLottieFile, any Swift.Error>) -> Swift.Void)
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func asset(named name: Swift.String, bundle: Foundation.Bundle = Bundle.main, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache) async throws -> IncdOnboarding.DotLottieFile
+  #endif
+  public static func asset(named name: Swift.String, bundle: Foundation.Bundle = Bundle.main, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache, dispatchQueue: Dispatch.DispatchQueue = .dotLottie, handleResult: @escaping (Swift.Result<IncdOnboarding.DotLottieFile, any Swift.Error>) -> Swift.Void)
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func loadedFrom(url: Foundation.URL, session: Foundation.URLSession = .shared, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache) async throws -> IncdOnboarding.DotLottieFile
+  #endif
+  public static func loadedFrom(url: Foundation.URL, session: Foundation.URLSession = .shared, dotLottieCache: (any IncdOnboarding.DotLottieCacheProvider)? = DotLottieCache.sharedCache, handleResult: @escaping (Swift.Result<IncdOnboarding.DotLottieFile, any Swift.Error>) -> Swift.Void)
+  public static func loadedFrom(data: Foundation.Data, filename: Swift.String, dispatchQueue: Dispatch.DispatchQueue = .dotLottie, handleResult: @escaping (Swift.Result<IncdOnboarding.DotLottieFile, any Swift.Error>) -> Swift.Void)
+  #if compiler(>=5.3) && $AsyncAwait
+  public static func loadedFrom(data: Foundation.Data, filename: Swift.String, dispatchQueue: Dispatch.DispatchQueue = .dotLottie) async throws -> IncdOnboarding.DotLottieFile
+  #endif
+}
+extension Dispatch.DispatchQueue {
+  public static let dotLottie: Dispatch.DispatchQueue
+}
 @_documentation(visibility: internal) public struct VideoSelfieThemeConfiguration {
   public var overlayColor: UIKit.UIColor
   public var overlayAlpha: Swift.Float
-  public init(overlayColor: UIKit.UIColor = .black, overlayAlpha: Swift.Float = 0.44)
+  public var progressBarColor: UIKit.UIColor
+  public var progressBarSelectedColor: UIKit.UIColor
+  public init(overlayColor: UIKit.UIColor = .black, overlayAlpha: Swift.Float = 0.44, progressBarColor: UIKit.UIColor = .white.withAlphaComponent(0.5), progressBarSelectedColor: UIKit.UIColor = .white)
 }
 extension IncdOnboarding.VideoSelfieThemeConfiguration : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
@@ -2515,6 +4020,12 @@ extension UIKit.UIFont {
   public class var incdMediumInput: UIKit.UIFont {
     get
   }
+  public class var incdFeedbackSmall: UIKit.UIFont {
+    get
+  }
+  public class var incdFeedbackLarge: UIKit.UIFont {
+    get
+  }
 }
 public enum Severity : Swift.String, Swift.Codable {
   case low
@@ -2525,6 +4036,20 @@ public enum Severity : Swift.String, Swift.Codable {
   public var rawValue: Swift.String {
     get
   }
+}
+public enum LottieAnimationCache {
+  public static var shared: (any IncdOnboarding.AnimationCacheProvider)?
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class LottieAnimationViewBase : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var contentMode: UIKit.UIView.ContentMode {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
 }
 @_documentation(visibility: internal) public struct CustomComponentsConfiguration : Swift.Decodable {
   public var cameraFeedback: IncdOnboarding.CameraFeedbackConfiguration
@@ -2541,6 +4066,8 @@ public enum Severity : Swift.String, Swift.Codable {
 extension IncdOnboarding.CustomComponentsConfiguration {
   public static let defaultCustomComponentsConfiguration: IncdOnboarding.CustomComponentsConfiguration
 }
+@available(*, deprecated, message: "Use DefaultAnimationCache instead, which is thread-safe and automatically responds to memory pressure.")
+public typealias LRUAnimationCache = IncdOnboarding.DefaultAnimationCache
 public struct CustomWatchlistResult {
   public var success: Swift.Bool?
   public var error: IncdOnboarding.IncdError?
@@ -2552,15 +4079,32 @@ public struct FaceInfo {
   public var templateId: Swift.String
   public init(faceTemplate: Swift.String, customerUUID: Swift.String, templateId: Swift.String)
 }
-extension IncdOnboarding.IncdOnboardingManager {
-  public func addFace(_ faceInfo: IncdOnboarding.FaceInfo)
-  public func removeFace(customerUUID: Swift.String)
-  public func setFaces(_ faceInfoList: [IncdOnboarding.FaceInfo])
-  public func getFaces() -> [IncdOnboarding.FaceInfo]
-}
 extension IncdOnboarding.FaceInfoMO {
   public struct Constants {
   }
+}
+final public class Keyframe<T> {
+  public init(_ value: T, spatialInTangent: IncdOnboarding.LottieVector3D? = nil, spatialOutTangent: IncdOnboarding.LottieVector3D? = nil)
+  public init(value: T, time: IncdOnboarding.AnimationFrameTime, isHold: Swift.Bool = false, inTangent: IncdOnboarding.LottieVector2D? = nil, outTangent: IncdOnboarding.LottieVector2D? = nil, spatialInTangent: IncdOnboarding.LottieVector3D? = nil, spatialOutTangent: IncdOnboarding.LottieVector3D? = nil)
+  final public let value: T
+  final public let time: IncdOnboarding.AnimationFrameTime
+  final public let isHold: Swift.Bool
+  final public let inTangent: IncdOnboarding.LottieVector2D?
+  final public let outTangent: IncdOnboarding.LottieVector2D?
+  final public let spatialInTangent: IncdOnboarding.LottieVector3D?
+  final public let spatialOutTangent: IncdOnboarding.LottieVector3D?
+  @objc deinit
+}
+extension IncdOnboarding.Keyframe : Swift.Equatable where T : Swift.Equatable {
+  public static func == (lhs: IncdOnboarding.Keyframe<T>, rhs: IncdOnboarding.Keyframe<T>) -> Swift.Bool
+}
+extension IncdOnboarding.Keyframe : Swift.Hashable where T : Swift.Hashable {
+  final public func hash(into hasher: inout Swift.Hasher)
+  final public var hashValue: Swift.Int {
+    get
+  }
+}
+extension IncdOnboarding.Keyframe : Swift.Sendable where T : Swift.Sendable {
 }
 public struct MachineLearningConsentResult {
   public var status: Swift.Bool?
@@ -2606,18 +4150,30 @@ extension IncdOnboarding.FaceInfoMO : Swift.Identifiable {
 extension IncdOnboarding.UIFlavor : Swift.Equatable {}
 extension IncdOnboarding.UIFlavor : Swift.Hashable {}
 extension IncdOnboarding.UIFlavor : Swift.RawRepresentable {}
-extension IncdOnboarding.IDRank : Swift.Equatable {}
-extension IncdOnboarding.IDRank : Swift.Hashable {}
-extension IncdOnboarding.IDRank : Swift.RawRepresentable {}
+extension IncdOnboarding.LottieBackgroundBehavior : Swift.Equatable {}
+extension IncdOnboarding.LottieBackgroundBehavior : Swift.Hashable {}
 extension IncdOnboarding.FaceAuthMode : Swift.Equatable {}
 extension IncdOnboarding.FaceAuthMode : Swift.Hashable {}
 extension IncdOnboarding.FaceAuthMode : Swift.RawRepresentable {}
+extension IncdOnboarding.IDRank : Swift.Equatable {}
+extension IncdOnboarding.IDRank : Swift.Hashable {}
+extension IncdOnboarding.IDRank : Swift.RawRepresentable {}
+extension IncdOnboarding.LottieView : SwiftUI.View {}
 extension IncdOnboarding.AntifraudStatus : Swift.Equatable {}
 extension IncdOnboarding.AntifraudStatus : Swift.Hashable {}
 extension IncdOnboarding.AntifraudStatus : Swift.RawRepresentable {}
 extension IncdOnboarding.AntifraudStepName : Swift.Equatable {}
 extension IncdOnboarding.AntifraudStepName : Swift.Hashable {}
 extension IncdOnboarding.AntifraudStepName : Swift.RawRepresentable {}
+extension IncdOnboarding.LayerType : Swift.Equatable {}
+extension IncdOnboarding.LayerType : Swift.Hashable {}
+extension IncdOnboarding.LayerType : Swift.RawRepresentable {}
+extension IncdOnboarding.MatteType : Swift.Equatable {}
+extension IncdOnboarding.MatteType : Swift.Hashable {}
+extension IncdOnboarding.MatteType : Swift.RawRepresentable {}
+extension IncdOnboarding.BlendMode : Swift.Equatable {}
+extension IncdOnboarding.BlendMode : Swift.Hashable {}
+extension IncdOnboarding.BlendMode : Swift.RawRepresentable {}
 extension IncdOnboarding.OmniLivenessSeverity : Swift.Equatable {}
 extension IncdOnboarding.OmniLivenessSeverity : Swift.Hashable {}
 extension IncdOnboarding.OmniLivenessSeverity : Swift.RawRepresentable {}
@@ -2631,12 +4187,20 @@ extension IncdOnboarding.RegulationType : Swift.Equatable {}
 extension IncdOnboarding.RegulationType : Swift.Hashable {}
 extension IncdOnboarding.ConsentType : Swift.Equatable {}
 extension IncdOnboarding.ConsentType : Swift.Hashable {}
+extension IncdOnboarding.GradientValueProvider : IncdOnboarding.AnyValueProvider {}
+extension IncdOnboarding.FloatValueProvider : IncdOnboarding.AnyValueProvider {}
 extension IncdOnboarding.OmniTemplateType : Swift.Equatable {}
 extension IncdOnboarding.OmniTemplateType : Swift.Hashable {}
 extension IncdOnboarding.OmniTemplateType : Swift.RawRepresentable {}
 extension IncdOnboarding.OmniOrigin : Swift.Equatable {}
 extension IncdOnboarding.OmniOrigin : Swift.Hashable {}
 extension IncdOnboarding.OmniOrigin : Swift.RawRepresentable {}
+extension IncdOnboarding.CompatibleRenderingEngineOption : Swift.Equatable {}
+extension IncdOnboarding.CompatibleRenderingEngineOption : Swift.Hashable {}
+extension IncdOnboarding.CompatibleRenderingEngineOption : Swift.RawRepresentable {}
+extension IncdOnboarding.CompatibleBackgroundBehavior : Swift.Equatable {}
+extension IncdOnboarding.CompatibleBackgroundBehavior : Swift.Hashable {}
+extension IncdOnboarding.CompatibleBackgroundBehavior : Swift.RawRepresentable {}
 extension IncdOnboarding.Status : Swift.Equatable {}
 extension IncdOnboarding.Status : Swift.Hashable {}
 extension IncdOnboarding.Status : Swift.RawRepresentable {}
@@ -2654,9 +4218,6 @@ extension IncdOnboarding.Event : Swift.Hashable {}
 extension IncdOnboarding.Event : Swift.RawRepresentable {}
 extension IncdOnboarding.OnboardingValidationModule : Swift.Equatable {}
 extension IncdOnboarding.OnboardingValidationModule : Swift.Hashable {}
-extension IncdOnboarding.SelfieScanMode : Swift.Equatable {}
-extension IncdOnboarding.SelfieScanMode : Swift.Hashable {}
-extension IncdOnboarding.SelfieScanMode : Swift.RawRepresentable {}
 extension IncdOnboarding.IntroCheck : Swift.Equatable {}
 extension IncdOnboarding.IntroCheck : Swift.Hashable {}
 extension IncdOnboarding.IntroCheck : Swift.RawRepresentable {}
@@ -2680,6 +4241,7 @@ extension IncdOnboarding.VideoSelfieConfiguration.VideoSelfieCodecType : Swift.R
 extension IncdOnboarding.CameraFacing : Swift.Equatable {}
 extension IncdOnboarding.CameraFacing : Swift.Hashable {}
 extension IncdOnboarding.CameraFacing : Swift.RawRepresentable {}
+extension IncdOnboarding.PointValueProvider : IncdOnboarding.AnyValueProvider {}
 extension IncdOnboarding.MLConsentType : Swift.Hashable {}
 extension IncdOnboarding.MLConsentType : Swift.RawRepresentable {}
 extension IncdOnboarding.DynamicFormInputType : Swift.Equatable {}
@@ -2688,6 +4250,12 @@ extension IncdOnboarding.DynamicFormInputType : Swift.RawRepresentable {}
 extension IncdOnboarding.UserScoreFetchMode : Swift.Equatable {}
 extension IncdOnboarding.UserScoreFetchMode : Swift.Hashable {}
 extension IncdOnboarding.UserScoreFetchMode : Swift.RawRepresentable {}
+extension IncdOnboarding.CoordinateSpace : Swift.Equatable {}
+extension IncdOnboarding.CoordinateSpace : Swift.Hashable {}
+extension IncdOnboarding.CoordinateSpace : Swift.RawRepresentable {}
+extension IncdOnboarding.SelfieScanMode : Swift.Equatable {}
+extension IncdOnboarding.SelfieScanMode : Swift.Hashable {}
+extension IncdOnboarding.SelfieScanMode : Swift.RawRepresentable {}
 extension IncdOnboarding.SDKMode : Swift.Equatable {}
 extension IncdOnboarding.SDKMode : Swift.Hashable {}
 extension IncdOnboarding.SDKMode : Swift.RawRepresentable {}
@@ -2696,21 +4264,18 @@ extension IncdOnboarding.OnboardingDeviceType : Swift.Hashable {}
 extension IncdOnboarding.FaceMaskCheckMode : Swift.Equatable {}
 extension IncdOnboarding.FaceMaskCheckMode : Swift.Hashable {}
 extension IncdOnboarding.FaceMaskCheckMode : Swift.RawRepresentable {}
-extension IncdOnboarding.LayerType : Swift.Equatable {}
-extension IncdOnboarding.LayerType : Swift.Hashable {}
-extension IncdOnboarding.LayerType : Swift.RawRepresentable {}
-extension IncdOnboarding.MatteType : Swift.Equatable {}
-extension IncdOnboarding.MatteType : Swift.Hashable {}
-extension IncdOnboarding.MatteType : Swift.RawRepresentable {}
-extension IncdOnboarding.BlendMode : Swift.Equatable {}
-extension IncdOnboarding.BlendMode : Swift.Hashable {}
-extension IncdOnboarding.BlendMode : Swift.RawRepresentable {}
+extension IncdOnboarding.SizeValueProvider : IncdOnboarding.AnyValueProvider {}
 extension IncdOnboarding.IDCaptureMode : Swift.Equatable {}
 extension IncdOnboarding.IDCaptureMode : Swift.Hashable {}
 extension IncdOnboarding.IDCaptureMode : Swift.RawRepresentable {}
+extension IncdOnboarding.AnimatedSwitch.CancelBehavior : Swift.Equatable {}
+extension IncdOnboarding.AnimatedSwitch.CancelBehavior : Swift.Hashable {}
+extension IncdOnboarding.LottieSwitch : SwiftUI.View {}
+extension IncdOnboarding.LottieButton : SwiftUI.View {}
 extension IncdOnboarding.ExternalVerificationConfiguration.DataInputSource : Swift.Equatable {}
 extension IncdOnboarding.ExternalVerificationConfiguration.DataInputSource : Swift.Hashable {}
 extension IncdOnboarding.ExternalVerificationConfiguration.DataInputSource : Swift.RawRepresentable {}
+extension IncdOnboarding.ColorValueProvider : IncdOnboarding.AnyValueProvider {}
 extension IncdOnboarding.DocumentType : Swift.Equatable {}
 extension IncdOnboarding.DocumentType : Swift.Hashable {}
 extension IncdOnboarding.AESResult.AESError : Swift.Hashable {}
