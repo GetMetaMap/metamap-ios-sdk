@@ -3,4 +3,4 @@
 The MetaMap for iOS usage guide can be found in the following location:
 
 
-* [MetaMap for iOS](docs/metaMap-ios.md)
+* [Metamap iOS SDK Documentation](https://dash.readme.com/project/mati/v1.4/docs/ios-quick-start))
