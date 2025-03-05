@@ -155,10 +155,17 @@ class RequestManager {
     func createVerification(flowId: String,
                             completion: @escaping (Bool) -> Void,
                             statusCompletion: @escaping (CreateVerificationStatus?) -> Void) {
-        if  let verificationId = MetaDataHandler.shared.data.verificationId, let identityId = MetaDataHandler.shared.data.identityId {
-            self.socketconnection(flowId: flowId, verificationId: verificationId, identityId: identityId, inputs: [], completion: completion)
-        } else {
-            apiManager.createVerificationRequest(flowId: flowId) { model, _, errorMode in
+        let identityId = MetaDataHandler.shared.data.identityId
+        let verificationId = MetaDataHandler.shared.data.verificationId
+        let configurationId = MetaMapGlobalManager.instance.configurationId
+        let encryptionConfigurationId = MetaMapGlobalManager.instance.encryptionConfigurationId
+        guard identityId != nil && verificationId != nil else {
+            apiManager.createVerificationRequest(flowId: flowId,
+                                                 identityId: identityId,
+                                                 verificationId: verificationId,
+                                                 configurationId: configurationId,
+                                                 encryptionConfigurationId: encryptionConfigurationId
+            ) { model, _, errorMode in
                 switch errorMode {
                 case .blocked(let data):
                     statusCompletion(.blocked(data))
@@ -170,7 +177,9 @@ class RequestManager {
                     self.socketconnection(flowId: flowId, verificationId: model?.id, identityId: model?.identity, inputs: model?.inputs, completion: completion)
                 }
             }
+            return
         }
+        self.socketconnection(flowId: flowId, verificationId: verificationId, identityId: identityId, inputs: [], completion: completion)
     }
     
     func checkStatus(inputId: String, group: Int?, completion: @escaping (ResponseStatus) -> Void) {
