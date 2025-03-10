@@ -393,7 +393,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) MetaMapButto
 SWIFT_PROTOCOL("_TtP10MetaMapSDK27MetaMapButtonResultDelegate_")
 @protocol MetaMapButtonResultDelegate
 - (void)verificationSuccessWithIdentityId:(NSString * _Nullable)identityId verificationID:(NSString * _Nullable)verificationID;
-- (void)verificationCancelled;
+- (void)verificationCancelledWithIdentityId:(NSString * _Nullable)identityId verificationID:(NSString * _Nullable)verificationID;
 @end
 
 
