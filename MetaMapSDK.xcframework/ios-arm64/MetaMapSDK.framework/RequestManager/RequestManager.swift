@@ -183,10 +183,10 @@ class RequestManager {
     }
     
     func checkStatus(inputId: String, group: Int?, completion: @escaping (ResponseStatus) -> Void) {
-        let apiRequest = MetaMapRequest()
-        let targetType = MetaMapTargetType.verificationStatus(inputId: inputId, group: group)
-        apiRequest.makeRequest(targetType: targetType) { status, _ in
-            completion(status)
-        }
+//        let apiRequest = MetaMapRequest()
+//        let targetType = MetaMapTargetType.verificationStatus(inputId: inputId, group: group)
+//        apiRequest.makeRequest(targetType: targetType) { status, _ in
+//            completion(status)
+//        }
     }
 }
