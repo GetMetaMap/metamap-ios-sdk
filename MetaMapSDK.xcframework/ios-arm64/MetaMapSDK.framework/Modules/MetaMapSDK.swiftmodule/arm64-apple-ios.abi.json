@@ -101,17 +101,45 @@
           {
             "kind": "Function",
             "name": "verificationCancelled",
-            "printedName": "verificationCancelled()",
+            "printedName": "verificationCancelled(identityId:verificationID:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@MetaMapSDK@objc(pl)MetaMapButtonResultDelegate(im)verificationCancelled",
-            "mangledName": "$s10MetaMapSDK0aB20ButtonResultDelegateP21verificationCancelledyyF",
+            "usr": "c:@M@MetaMapSDK@objc(pl)MetaMapButtonResultDelegate(im)verificationCancelledWithIdentityId:verificationID:",
+            "mangledName": "$s10MetaMapSDK0aB20ButtonResultDelegateP21verificationCancelled10identityId0G2IDySSSg_AGtF",
             "moduleName": "MetaMapSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : MetaMapSDK.MetaMapButtonResultDelegate>",
             "sugared_genericSig": "<Self where Self : MetaMapSDK.MetaMapButtonResultDelegate>",
@@ -62992,7 +63020,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.22.6\""
+      "value": "\"3.22.7\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
