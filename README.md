@@ -1,3 +1,3 @@
 # MetaMap for iOS Usage Guide
 
-* [Metamap iOS SDK Documentation](https://dash.readme.com/project/mati/v1.4/docs/ios-quick-start))
+* [Metamap iOS SDK Documentation](https://docs.metamap.com/docs/ios-quick-start)
