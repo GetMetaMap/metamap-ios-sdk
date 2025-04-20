@@ -42,6 +42,7 @@ import zlib
 @objc public protocol MetaMapButtonResultDelegate {
   @objc func verificationSuccess(identityId: Swift.String?, verificationID: Swift.String?)
   @objc func verificationCancelled(identityId: Swift.String?, verificationID: Swift.String?)
+  @objc func verificationCreated(identityId: Swift.String?, verificationID: Swift.String?)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MetaMapButtonResult : ObjectiveC.NSObject {
   @objc weak public var delegate: (any MetaMapSDK.MetaMapButtonResultDelegate)?

@@ -394,6 +394,7 @@ SWIFT_PROTOCOL("_TtP10MetaMapSDK27MetaMapButtonResultDelegate_")
 @protocol MetaMapButtonResultDelegate
 - (void)verificationSuccessWithIdentityId:(NSString * _Nullable)identityId verificationID:(NSString * _Nullable)verificationID;
 - (void)verificationCancelledWithIdentityId:(NSString * _Nullable)identityId verificationID:(NSString * _Nullable)verificationID;
+- (void)verificationCreatedWithIdentityId:(NSString * _Nullable)identityId verificationID:(NSString * _Nullable)verificationID;
 @end
 
 
