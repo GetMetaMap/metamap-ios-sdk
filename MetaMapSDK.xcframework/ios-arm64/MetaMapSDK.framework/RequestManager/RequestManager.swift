@@ -141,8 +141,12 @@ class RequestManager {
         socketManager.sendSignalData(body: body)
     }
     
-    func socketconnection(flowId: String?, verificationId: String?, identityId: String?, inputs: [Input]?, completion: @escaping (Bool) -> Void ) {
-        if let flowId = flowId {
+    func socketconnection(flowId: String?,
+                          verificationId: String?,
+                          identityId: String?,
+                          inputs: [Input]?,
+                          completion: @escaping (Bool) -> Void ) {
+    if let flowId = flowId {
             MetaMapGlobalManager.instance.verificationId = verificationId
             MetaMapGlobalManager.instance.identity = identityId
             MetaMapGlobalManager.instance.checkCreditCard(inputs: inputs)
@@ -162,7 +166,6 @@ class RequestManager {
         guard identityId != nil && verificationId != nil else {
             apiManager.createVerificationRequest(flowId: flowId,
                                                  identityId: identityId,
-                                                 verificationId: verificationId,
                                                  configurationId: configurationId,
                                                  encryptionConfigurationId: encryptionConfigurationId
             ) { model, _, errorMode in
@@ -174,7 +177,12 @@ class RequestManager {
                 case .error:
                     completion(false)
                 case .successed:
-                    self.socketconnection(flowId: flowId, verificationId: model?.id, identityId: model?.identity, inputs: model?.inputs, completion: completion)
+                    MetaMapGlobalManager.instance.verificationCreated(identityid: model?.identity, verificationid: model?.id)
+                    self.socketconnection(flowId: flowId,
+                                          verificationId: model?.id,
+                                          identityId: model?.identity,
+                                          inputs: model?.inputs,
+                                          completion: completion)
                 }
             }
             return

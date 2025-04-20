@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		84pQ4+FzuKrVmjn9h0elv1J6jWk=
+		QWvbTPM9D/7OBg27qbQcVxf71SA=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/coremldata.bin</key>
 		<data>
-		41934MMSWIIcpJT/P9iwL5RO6js=
+		u7dTcT6EHvDCn+nLcuHHimfhAaU=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<data>
-		//ReNRkHJkyy3fCCbjtSW9KZrqI=
+		wGQ3Hp8Q1TIIWFC52BdprRnR3Pc=
 		</data>
 		<key>Headers/MetaMapSDK.h</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UsouBpbrTUb5P2/z9Of1DtQ+dP4=
+		6qDo8TI8Jw+chzpVnqGVcFS2ZMU=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>MFCountriesListViewController.nib</key>
 		<data>
-		3y3nEQZHRtZu36BMX3Fb3D4kGLk=
+		8izb1EqLyxXzYVcGvzHK7NZ9eLw=
 		</data>
 		<key>MFCountryTableViewCell.nib</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<data>
-		IIBy3R4gR7BZ+5pAOhBmSu8GFRg=
+		JOLHmHCzr/RVKMSNDZkYx58tOQw=
 		</data>
 		<key>MFErrorViewController.nib</key>
 		<data>
-		53ZfZmvl+ru+SKnLPQTZhlu4fhU=
+		RMAhKAGRNkJYYxZpvc+5JazKNl8=
 		</data>
 		<key>MFLocationPermissionViewController.nib</key>
 		<data>
@@ -170,11 +170,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		SI7D4d6mVCclk7+s/JFnD6xDEnI=
+		I3ClQKF21W4vSXMNJ1V6i87t25E=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		351Q71wcBtJeAZ2vOETTM7oT5LA=
+		PrjWwsPcNu1cWCfKeCa+NNmrVO4=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -182,19 +182,19 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		351Q71wcBtJeAZ2vOETTM7oT5LA=
+		PrjWwsPcNu1cWCfKeCa+NNmrVO4=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		helJESqnw9XyRZN5Tv+C3nj3QUE=
+		OK0YWEjHcYQf3Ua/Kg5sDMQaeoE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		SI7D4d6mVCclk7+s/JFnD6xDEnI=
+		I3ClQKF21W4vSXMNJ1V6i87t25E=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		zJIdpWrLGpVTg7s5yBK5xDw7Lds=
+		FY+H+aYP/kucMKgPTOdarLsCngQ=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -202,11 +202,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		zJIdpWrLGpVTg7s5yBK5xDw7Lds=
+		FY+H+aYP/kucMKgPTOdarLsCngQ=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		+c22VxAzBvax/uTHiBE3Cg/iMkk=
+		G2Ga9yK4IaMpFQ5SMUq1hiNix3k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -426,7 +426,7 @@
 		</data>
 		<key>RequestManager/RequestManager.swift</key>
 		<data>
-		hrIB8s3MnRC47rHstk1OaxdTxvY=
+		SD9Q7M92vH314CkxCzRkv4Hyk1Y=
 		</data>
 		<key>SDK.xcconfig</key>
 		<data>
@@ -581,7 +581,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fhvpqI/JXMMq4uEXQXlc+rSunLLs7Q+3V3loNW+0/c8=
+			NTRv4wtbPwIDCf5xL4tkuOGqzAiX3lafJTfsTGrIL8E=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -595,7 +595,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6LdgjD1+hejeOqowb/uS1ubJI/Z/Y6uLQaXQf6po//c=
+			6U43GYQWOI9fw7ya31RwpX8N4Z2P/hwAvZfMlVYsrZc=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
@@ -658,7 +658,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DgqweIIS+Ng6WuQqVvK9agQyeCZ7+Tw9dnjh526Ef2E=
+			WLLdFZg7a/MA7/ET9AIE8THzOkdp6D4xDf58G3B+VhQ=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK.h</key>
@@ -707,7 +707,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hlSRjtH5rSjXEbGH7zOdEOGvKv0xW7f4csASSnFwloc=
+			wl0fKi0s5hQTYMwRW6GBHfw6KRfC7jhjqUHkT2EILVU=
 			</data>
 		</dict>
 		<key>MFCountryTableViewCell.nib</key>
@@ -749,14 +749,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XJ2yzY4lW/89JiQ7/lfte+q2LgIungtiEVUNFXLeJEo=
+			y0jJThfJv5L7UHb7EG0t+ybmqxdY8xTtPFwhkwAlRgw=
 			</data>
 		</dict>
 		<key>MFErrorViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UNGlIBNXAv2+d5p5P2LpPAFDKAemF3lTMhNeAv9hht8=
+			a8bvm9isCGmGe9JNdErA9bl/QG4uKhbcgHQecEYtZ+Q=
 			</data>
 		</dict>
 		<key>MFLocationPermissionViewController.nib</key>
@@ -861,14 +861,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eqJzFFr//uchnMbHvfoEr+6KjXQkXFVm3PTEgwgRmBQ=
+			vfBdgnBp3+++BVbjNHl5IfozXFmoIYccQlH6HJVbg08=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ltwBjic11nOY9/v49KqjMxZ8vNu1u1J8Jq/B9r9RsN8=
+			W67jIkUn7EK9L/Q5ksiyrUiGS12LuqUPHynhI9xlm1g=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -882,28 +882,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ltwBjic11nOY9/v49KqjMxZ8vNu1u1J8Jq/B9r9RsN8=
+			W67jIkUn7EK9L/Q5ksiyrUiGS12LuqUPHynhI9xlm1g=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IlRjFX8nm/V88tjfolfFpQjuVemGWAI4Dx1rJkApFA0=
+			ZhGH4lyWnEvBF537sy9nDPijrs17CxHsAnh+N2Zfo+0=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eqJzFFr//uchnMbHvfoEr+6KjXQkXFVm3PTEgwgRmBQ=
+			vfBdgnBp3+++BVbjNHl5IfozXFmoIYccQlH6HJVbg08=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MVdnfY9TT2gmexJyac4smd2HeNLAGdrjWWgCZTyCoyY=
+			jFQXg9u0F17q7eLxwdZcWhNrMt2aZXmv6y60U18m1B0=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -917,14 +917,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MVdnfY9TT2gmexJyac4smd2HeNLAGdrjWWgCZTyCoyY=
+			jFQXg9u0F17q7eLxwdZcWhNrMt2aZXmv6y60U18m1B0=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aEsObNx+H+LnHjEl9aqhvPR2Mvk9WJEwEJuq1ku+3gI=
+			RT9e4kQ52vAWxnh+ZyVjXM0vKfpzBjgJMS0F/wIcHHY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1309,7 +1309,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qa5FIeBbNvm2UuXugfZao6/1Z5ibG+q9Auds6IMtWt4=
+			4uog9WSVUw5yJkxBXvCHUSlq/WDweCSnOWHmDmbiUWI=
 			</data>
 		</dict>
 		<key>SDK.xcconfig</key>
