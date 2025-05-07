@@ -37389,6 +37389,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -59549,63 +59556,63 @@
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 20948,
+      "offset": 21428,
       "length": 55,
       "value": "\"phoneNumberWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 21052,
+      "offset": 21532,
       "length": 56,
       "value": "\"emailAddressWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 21146,
+      "offset": 21626,
       "length": 30,
       "value": "\"verification.input.processed\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 21215,
+      "offset": 21695,
       "length": 50,
       "value": "\"emailAddressWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 21304,
+      "offset": 21784,
       "length": 49,
       "value": "\"phoneNumberWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 21390,
+      "offset": 21870,
       "length": 47,
       "value": "\"emailAddressWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 21474,
+      "offset": 21954,
       "length": 46,
       "value": "\"phoneNumberWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 21548,
+      "offset": 22028,
       "length": 28,
       "value": "\"connectionData.vpnDetected\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 21606,
+      "offset": 22086,
       "length": 27,
       "value": "\"connectionData.restricted\""
     },
@@ -62942,6 +62949,13 @@
       "value": "\"***.***.***-**\""
     },
     {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/Incode\/Verifications\/Passport_Id\/IncodePassportVerificationViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 674,
+      "length": 13,
+      "value": "\"newMatiLogo\""
+    },
+    {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/VideoKYCVerification\/PreviewScreen\/VideoKYCPreviewViewController.swift",
       "kind": "StringLiteral",
       "offset": 899,
@@ -63072,7 +63086,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.22.8\""
+      "value": "\"3.22.9\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
@@ -63759,6 +63773,48 @@
       "offset": 766,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/helpers\/NetworkLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 269,
+      "length": 13,
+      "value": "\"\u001B[0m\""
+    },
+    {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/helpers\/NetworkLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 14,
+      "value": "\"\u001B[32m\""
+    },
+    {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/helpers\/NetworkLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 14,
+      "value": "\"\u001B[33m\""
+    },
+    {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/helpers\/NetworkLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 385,
+      "length": 14,
+      "value": "\"\u001B[31m\""
+    },
+    {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/helpers\/NetworkLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 14,
+      "value": "\"\u001B[36m\""
+    },
+    {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/helpers\/NetworkLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 463,
+      "length": 14,
+      "value": "\"\u001B[90m\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/SelfieVerificationTutorialViewController.swift",
@@ -64893,6 +64949,13 @@
       "offset": 1711,
       "length": 1,
       "value": "5"
+    },
+    {
+      "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/Incode\/Verifications\/Selfie\/IncodeSelfieViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 551,
+      "length": 13,
+      "value": "\"newMatiLogo\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewViewController.swift",
