@@ -59605,63 +59605,63 @@
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19225,
+      "offset": 19224,
       "length": 55,
       "value": "\"phoneNumberWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19329,
+      "offset": 19328,
       "length": 56,
       "value": "\"emailAddressWithConfirmationCode.wrongConfirmationCode\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19433,
+      "offset": 19432,
       "length": 30,
       "value": "\"verification.input.processed\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19511,
+      "offset": 19510,
       "length": 50,
       "value": "\"emailAddressWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19609,
+      "offset": 19608,
       "length": 49,
       "value": "\"phoneNumberWithConfirmationCode.tooManyAttempts\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19706,
+      "offset": 19705,
       "length": 47,
       "value": "\"emailAddressWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19801,
+      "offset": 19800,
       "length": 46,
       "value": "\"phoneNumberWithConfirmationCode.resendLocked\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19895,
+      "offset": 19894,
       "length": 28,
       "value": "\"connectionData.vpnDetected\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/managers\/MetaMapSocketManager\/MetaMapSocketManager.swift",
       "kind": "StringLiteral",
-      "offset": 19971,
+      "offset": 19970,
       "length": 27,
       "value": "\"connectionData.restricted\""
     },
@@ -63261,7 +63261,7 @@
       "kind": "StringLiteral",
       "offset": 191,
       "length": 8,
-      "value": "\"3.23.4\""
+      "value": "\"3.23.5\""
     },
     {
       "filePath": "\/Users\/avo\/Documents\/ios-framework\/mati-kyc-sdk\/supportFiles\/configs\/MatiConfig.swift",
