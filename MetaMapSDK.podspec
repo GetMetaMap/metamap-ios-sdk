@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name                = "MetaMapSDK"
-s.version             = "3.23.5"
+s.version             = "3.23.6"
 s.summary             = "MetaMap SDK"
 s.description         = "MetaMap SDK for iOS"
 s.homepage            = "https://github.com/GetMati/mati-ios-sdk"
