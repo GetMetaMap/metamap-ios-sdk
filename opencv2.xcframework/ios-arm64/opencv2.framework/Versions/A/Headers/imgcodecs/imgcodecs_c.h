@@ -1,1 +1,3 @@
-#error "This header with legacy C API declarations has been removed from OpenCV. Legacy constants are available from legacy/constants_c.h file."
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf95c0b78a6f2468638b85f213b097ab4dda05ac5d9ca4de34ee8e0a618846dc
+size 145

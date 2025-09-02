@@ -1,18 +1,3 @@
-// This file is part of OpenCV project.
-// It is subject to the license terms in the LICENSE file found in the top-level directory
-// of this distribution and at http://opencv.org/license.html.
-//
-// Copyright (C) 2018 Intel Corporation
-
-
-#ifndef OPENCV_GAPI_GGPUKERNEL_HPP
-#define OPENCV_GAPI_GGPUKERNEL_HPP
-/** @file
-* @deprecated Use <opencv2/gapi/ocl/goclkernel.hpp> instead.
-*/
-
-#include <opencv2/gapi/ocl/goclkernel.hpp>
-#define GAPI_GPU_KERNEL GAPI_OCL_KERNEL
-
-
-#endif // OPENCV_GAPI_GGPUKERNEL_HPP
+version https://git-lfs.github.com/spec/v1
+oid sha256:d23683d9b2bdca6f3b7f7f94303b3ffacb8263a11745bd4daf385d948b3c5dfa
+size 506

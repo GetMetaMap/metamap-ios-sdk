@@ -10,6 +10,7 @@ s.homepage	      = "https://getmati.com"
 s.platform            = :ios, "13.0"
 s.source              = { :git => "https://github.com/GetMetaMap/metamap-ios-sdk.git",  :tag => "3.23.11"}
 s.vendored_frameworks = ["MetaMapSDK.xcframework", "IncdOnboarding.xcframework", "opencv2.xcframework"]
+s.libraries = 'z', 'c++'
 end
 
 

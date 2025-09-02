@@ -1,20 +1,3 @@
-// This file is part of OpenCV project.
-// It is subject to the license terms in the LICENSE file found in the top-level directory
-// of this distribution and at http://opencv.org/license.html.
-//
-// Copyright (C) 2018 Intel Corporation
-
-
-#ifndef OPENCV_GAPI_FLUID_CORE_HPP
-#define OPENCV_GAPI_FLUID_CORE_HPP
-
-#include <opencv2/gapi/gkernel.hpp> // GKernelPackage
-#include <opencv2/gapi/own/exports.hpp> // GAPI_EXPORTS
-
-namespace cv { namespace gapi { namespace core { namespace fluid {
-
-GAPI_EXPORTS_W cv::GKernelPackage kernels();
-
-}}}}
-
-#endif // OPENCV_GAPI_FLUID_CORE_HPP
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6eea260a4153cbb1f4455e15e11e9bb17ceb2e6d1521f6838b2dfdb7e93a80f
+size 578

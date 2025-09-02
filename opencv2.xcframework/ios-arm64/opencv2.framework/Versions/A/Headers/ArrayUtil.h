@@ -1,16 +1,3 @@
-//
-//  ArrayUtil.h
-//
-//  Created by Giles Payne on 2020/02/09.
-//
-
-#pragma once
-
-#import <Foundation/Foundation.h>
-
-/**
-* Utility function to create and populate an NSMutableArray with a specific size
-* @param size Size of array to create
-* @param val Value with which to initialize array elements
-*/
-NSMutableArray* createArrayWithSize(int size, NSObject* val);
+version https://git-lfs.github.com/spec/v1
+oid sha256:3e72c586b27ca302216251060a742fa047138eba4ddceeee8de209ec3648afe5
+size 364

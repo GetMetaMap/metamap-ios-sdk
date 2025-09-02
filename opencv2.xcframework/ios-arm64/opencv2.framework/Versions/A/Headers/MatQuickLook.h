@@ -1,27 +1,3 @@
-//
-//  MatQuickLook.h
-//
-//  Created by Giles Payne on 2021/07/18.
-//
-
-#pragma once
-
-#ifdef __cplusplus
-#import "opencv2/core.hpp"
-#else
-#define CV_EXPORTS
-#endif
-
-#import "Mat.h"
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
-
-CV_EXPORTS @interface MatQuickLook : NSObject
-
-+ (id)matDebugQuickLookObject:(Mat*)mat;
-
-@end
-
-NS_ASSUME_NONNULL_END
+version https://git-lfs.github.com/spec/v1
+oid sha256:82db198090b569a0d13d6678d43841600aaaf6f546e17b47b8494270aaeb3d02
+size 381
