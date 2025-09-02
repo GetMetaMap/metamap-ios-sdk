@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		iVlt76Q252Tb4TCH6X/ImE8SdNQ=
+		iHJJSfuVCxCqD1XYuvY8yih92WA=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hzq3vyBRFhu719O36aZvkThOqyM=
+		MWnfbCMUrrGG1nsP7hwVTXZhdx8=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>MFBRDLDocumentVerifyViewController.nib</key>
 		<data>
-		LZZCIObE5M67kOsFI8A2x9MDDHc=
+		Ci7+bwh0ySQPOynphQoFGpWfZ+A=
 		</data>
 		<key>MFCancelAlertViewController.nib</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>MFDocumentTutorialViewController.nib</key>
 		<data>
-		eJvTJ3enrRtBog2u5jzcDO1IF4g=
+		+i9XTIlBjPcR9Ecd5roOAbYkS/g=
 		</data>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>MFLocationPermissionViewController.nib</key>
 		<data>
-		sc2DeFfkmN7cLbgzyKZG5U69xhY=
+		8ke1tgwUjQPBWz6w3SzR8KhxBq4=
 		</data>
 		<key>MFSelfieCameraViewController.nib</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>MatiPoRTutorialViewController.nib</key>
 		<data>
-		5vcoI9bT23Z1URespD2PnU9emwM=
+		SGTQyiFwqVy3BJeZEWr75SateJc=
 		</data>
 		<key>MatiPoRViewController.nib</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bo0XAf4PU4QWXQOX7C2G4nd3FH4=
+		/gxBuuO2WO+W4h1M4A3InoocoEM=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -182,11 +182,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		m2/N0EzipEeMzx3p92BAyxx1oAY=
+		D+eibF09Zt7qIdHP9E+SnTkOvQE=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bo0XAf4PU4QWXQOX7C2G4nd3FH4=
+		/gxBuuO2WO+W4h1M4A3InoocoEM=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AGqR+6GPCoKI+Pk7risHJgFb5e0=
+		ND04+VqsZo3QuoWmGf1hZNXE1Qc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>OTPVerificationViewController.nib</key>
 		<data>
-		wN3mNwE6VthFG1C2HqxIcVNPjxY=
+		xbASjnj4URoXAaYcjaIGzYFYrdY=
 		</data>
 		<key>PhoneEmailVerificationViewController.nib</key>
 		<data>
@@ -442,7 +442,7 @@
 		</data>
 		<key>VideoKYCInstructionsViewController.nib</key>
 		<data>
-		krasNohsSD1kE593Dln3yWUSkGo=
+		JXBBU4yxzZvs/t3VnsuhV4S3IJM=
 		</data>
 		<key>VideoKYCPreviewViewController.nib</key>
 		<data>
@@ -454,7 +454,7 @@
 		</data>
 		<key>VideoKYCTutorialView.nib</key>
 		<data>
-		27cts+gPr1dH17UGzBPnlut0rA8=
+		yclp9lZSJ4ekOzM6o+CQ+v6Td00=
 		</data>
 		<key>VoiceLivenessScreen.nib</key>
 		<data>
@@ -581,7 +581,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BQzlktkxP1UmbGtT6J+F2L4Hb784hjLHkzA1L/IjoMk=
+			bkKBdyViYRGiHMi6v216yoyP9s1yVpCUWt4zomRa0o0=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -693,7 +693,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ylwQyAR0NOQ02kBuIfGDDR+XqVCVgvkpa0U1MvBX2/w=
+			zU9SBF9Eow7jfxR8CfxkvO9RIZGQTOEuYIY+aRmk4VA=
 			</data>
 		</dict>
 		<key>MFCancelAlertViewController.nib</key>
@@ -742,7 +742,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GVRVzI1jNm/a5fBuVRbaI/R/gUo5ronAgdQ9BbByjRE=
+			SOrZcHlzA10f+t0J9DAvLiPl9vK8CHpt0XtoJx+6sRE=
 			</data>
 		</dict>
 		<key>MFDocumentVerifyViewController.nib</key>
@@ -756,7 +756,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dBQJhRR66qmnlCmzK9LM7D3bGjjZ0WILwTBm/SMwF/A=
+			sHcuiPYXCwd5twZ0OJ0oAlMzV5K/spzGdWSl/8B15PE=
 			</data>
 		</dict>
 		<key>MFSelfieCameraViewController.nib</key>
@@ -819,7 +819,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v4KU7Z4KXG/340/xE9Z1zqnNpU5AagUgDocVkU03Xn4=
+			AggXAMBfuTCwOcOKkrAnq+RaCQcCGF++OhdWLvzKGhI=
 			</data>
 		</dict>
 		<key>MatiPoRViewController.nib</key>
@@ -854,7 +854,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			N13fkXhLVf+lDmCLn16aCgO+UlO9KVHv9U9GtniQaJY=
+			KvCOuh30QRy6hxYAl7c2BODprsdM8nVwv4ypKJ/rT+w=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -882,14 +882,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			okyS/9ehwE8/vHqSV48d+U+/buQqGUJxgo/JhYUCAxM=
+			e529F7fZlVW8A9d6/1qJHMMRMWxRP6R1n5LOkBS1gZk=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N13fkXhLVf+lDmCLn16aCgO+UlO9KVHv9U9GtniQaJY=
+			KvCOuh30QRy6hxYAl7c2BODprsdM8nVwv4ypKJ/rT+w=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -917,7 +917,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			86V68eQQ2mHIA2/wrQX3ls+XRu6anhEeX7TLSJGPDBM=
+			/R6xJ3RNMQH96SalsUeVL/LrXGqRNStfUIYHzxFzU1Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -931,7 +931,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VMixdi+VjUtzITOOUFLAW+XEfRaHvryNGnATbqd4HvQ=
+			ogAwL0U0BOBLGnpMK4XouHU+5OcDOPKn4TEmCJngr2o=
 			</data>
 		</dict>
 		<key>PhoneEmailVerificationViewController.nib</key>
@@ -1337,7 +1337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			egCO9inWB6Ej3fPiLj5sW3MBXSnyotW0qNV2jxcO72E=
+			VDhFfW5xFM3TFNc+1X1AZ+NBKIGz/fcMdzDCnu+mY8M=
 			</data>
 		</dict>
 		<key>VideoKYCPreviewViewController.nib</key>
@@ -1358,7 +1358,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LRiZZSrAb2RIbHyLMefu1Wjc47q+m4XfP8QxLLiymvs=
+			NjKFnVWaxon8art11CvL9I2G9TlfLJWK/kSkgdj0ac4=
 			</data>
 		</dict>
 		<key>VoiceLivenessScreen.nib</key>
