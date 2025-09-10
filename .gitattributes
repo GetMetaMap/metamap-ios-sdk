@@ -3,3 +3,6 @@ opencv2.xcframework/ios-arm64/opencv2.framework/opencv2 filter=lfs diff=lfs merg
 
 *.DS_Store -filter -merge -diff
 opencv2.xcframework/** -filter -merge -diff
+
+*.DS_Store -filter -merge -diff
+opencv2.xcframework/** -filter -merge -diff
