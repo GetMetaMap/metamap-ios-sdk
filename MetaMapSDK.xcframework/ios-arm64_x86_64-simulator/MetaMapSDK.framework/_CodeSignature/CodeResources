@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		D2fx7c2ziq4e/8dqU1Pj9sgjBqY=
+		iVlt76Q252Tb4TCH6X/ImE8SdNQ=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/coremldata.bin</key>
 		<data>
-		u7dTcT6EHvDCn+nLcuHHimfhAaU=
+		41934MMSWIIcpJT/P9iwL5RO6js=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>MFBRDLDocumentVerifyViewController.nib</key>
 		<data>
-		Ci7+bwh0ySQPOynphQoFGpWfZ+A=
+		LZZCIObE5M67kOsFI8A2x9MDDHc=
 		</data>
 		<key>MFCancelAlertViewController.nib</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>MFDocumentTutorialViewController.nib</key>
 		<data>
-		eJvTJ3enrRtBog2u5jzcDO1IF4g=
+		+i9XTIlBjPcR9Ecd5roOAbYkS/g=
 		</data>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bsc0vh8TEs6qtUqR2dkUn+ABZ5E=
+		EKFSlDcMpx5QFJvtOKQOOX0VPhI=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -182,11 +182,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		7aSCtdWXC6LNKPnBlZjqH9CfK2M=
+		khY+dwdJr9d+6k8pYtVG1jPWaxw=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bsc0vh8TEs6qtUqR2dkUn+ABZ5E=
+		EKFSlDcMpx5QFJvtOKQOOX0VPhI=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -202,7 +202,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o+fsUUYwR5Vh9S1Ff5cP3Z9fimE=
+		11vI2bzj/dU0VQpuoB+1Bj2MVdM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -581,7 +581,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ik1Z/7YLRtOB8Ts7TO6c/QE7fcEs7JhJWNSSA5oIilU=
+			BQzlktkxP1UmbGtT6J+F2L4Hb784hjLHkzA1L/IjoMk=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -595,7 +595,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6U43GYQWOI9fw7ya31RwpX8N4Z2P/hwAvZfMlVYsrZc=
+			6LdgjD1+hejeOqowb/uS1ubJI/Z/Y6uLQaXQf6po//c=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
@@ -693,7 +693,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zU9SBF9Eow7jfxR8CfxkvO9RIZGQTOEuYIY+aRmk4VA=
+			ylwQyAR0NOQ02kBuIfGDDR+XqVCVgvkpa0U1MvBX2/w=
 			</data>
 		</dict>
 		<key>MFCancelAlertViewController.nib</key>
@@ -742,7 +742,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GVRVzI1jNm/a5fBuVRbaI/R/gUo5ronAgdQ9BbByjRE=
+			SOrZcHlzA10f+t0J9DAvLiPl9vK8CHpt0XtoJx+6sRE=
 			</data>
 		</dict>
 		<key>MFDocumentVerifyViewController.nib</key>
@@ -854,7 +854,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/b+xXyUwk+GUI0ZiU+WiCtvk2ikGj0mExyOMWtHlQZw=
+			fKnodDneu3EUN13yrAwQaaaHR2JlSFbz2vUMS9W7VG0=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -882,14 +882,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ba+7ttfBSYe9z8yme8iIcwDWLiNuRaY4wDtCvJo8VZk=
+			sycAeLto/EvshZ1KL2ZiMlL2Q6mmp54+ZUyXscrYM1Y=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/b+xXyUwk+GUI0ZiU+WiCtvk2ikGj0mExyOMWtHlQZw=
+			fKnodDneu3EUN13yrAwQaaaHR2JlSFbz2vUMS9W7VG0=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -917,7 +917,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			216SnMLn1dX0PYGRhxuDYHwy5XNeF4+hJvu60cBea+A=
+			sIRqraUVjtxc9LnwTvaPUAuEw5W4nKgS+t6MM22UeZc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
