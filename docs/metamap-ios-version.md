@@ -10,6 +10,32 @@ category: 61ae8e8dba577a0010791480
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
 
+# Version 3.23.14
+
+### Bug Fixes
+* fixed issue related to opencv.xcframework
+
+
+# Version 3.23.12
+
+### Bug Fixes
+* the issue in the document verification step has been fixed, and the subtype of the document has been added to the logs.
+
+
+# Version 3.23.10
+
+### Bug Fixes
+* fixed for a UI issue related to the company name in the privacy‑policy text.
+* updated of opencv2.xcframework to the latest version 4.12.0
+* fixed a crash that occurred when a user chose ‘Driver ID’ as the document type but scanned an NID instead.
+
+
+# Version 3.23.9
+
+### Bug Fixes
+* fixed an issue related to the error page message and code type.
+
+
 # Version 3.22.8
 
 ### New Features

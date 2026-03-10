@@ -59,8 +59,16 @@ class RequestManager {
         })
     }
 
-    func uploadFile(fileData: FileUploadModelProtocol, completion: @escaping (ResponseStatus) -> Void, progressHandler: ((_ progress: CGFloat) -> Void)? = nil) {
-        apiManager.uploadFileRequest(fileData: fileData, completion: completion, progressHandler: progressHandler)
+    func uploadFile(fileData: FileUploadModelProtocol,
+                    completion: @escaping (ResponseStatus) -> Void,
+                    progressHandler: ((_ progress: CGFloat) -> Void)? = nil) {
+        var file = fileData
+        if (fileData.inputId == "document-photo") && MetaMapGlobalManager.instance.isIncodeTemplateMatchingEnabled {
+            file.country = MetaMapGlobalManager.instance.country
+            file.documentType = nil
+            file.region = nil
+        }
+        apiManager.uploadFileRequest(fileData: file, completion: completion, progressHandler: progressHandler)
     }
 
     func creditCheckSubmit(data: CreditCheck, completion: @escaping (ResponseStatus) -> Void) {
@@ -177,6 +185,7 @@ class RequestManager {
                 case .error:
                     completion(false)
                 case .successed:
+                    MetaMapGlobalManager.instance.isIncodeTemplateMatchingEnabled = model?.isIncodeTemplateMatchingEnabled ?? false
                     MetaMapGlobalManager.instance.verificationCreated(identityid: model?.identity, verificationid: model?.id)
                     self.socketconnection(flowId: flowId,
                                           verificationId: model?.id,
@@ -189,6 +198,45 @@ class RequestManager {
         }
         self.socketconnection(flowId: flowId, verificationId: verificationId, identityId: identityId, inputs: [], completion: completion)
     }
+    
+    func checkStatus(groupId: Int,
+                     completion: @escaping (ResponseStatus,
+                                            DocumentPhotoStatusResponse) -> Void) {
+        
+        let apiRequest = MetaMapRequest()
+        let targetType = MetaMapTargetType.verificationStatus(groupId: groupId)
+        apiRequest.makeRequest(targetType: targetType) { [weak self] status, data in
+            guard status == .success,
+                  let rawData = data as? Data else {
+                return
+            }
+            
+            do {
+                let decoded = try JSONDecoder().decode(
+                    DocumentPhotoStatusResponse.self,
+                    from: rawData
+                )
+                
+                DispatchQueue.main.async {
+                    completion(.success, decoded)
+                }
+            }
+            catch {
+                print("❌ DocumentPhotoStatusResponse decode error:", error)
+            }
+        }
+    }
+    
+//    RequestManager.shared.checkStatus(groupId: self?.viewModel.data.groupIndex ?? 0) { status, data in
+//        if status == .success {
+//            MetaMapGlobalManager.instance.country = data.data?.country
+//            if data.status == 200 {
+//                self?.coordinator?.nextScreen()
+//            } else {
+//                self?.openDocumentTutorialBackSideScreen()
+//            }
+//        }
+//    }
     
     func checkStatus(inputId: String, group: Int?, completion: @escaping (ResponseStatus) -> Void) {
 //        let apiRequest = MetaMapRequest()

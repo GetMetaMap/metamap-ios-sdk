@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name MetaMapSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name MetaMapSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFAudio
 import AVFoundation
 import AVKit
@@ -20,7 +20,6 @@ import ExternalAccessory
 import Foundation
 import IncdOnboarding
 @_exported import MetaMapSDK
-import MetricKit
 import MobileCoreServices
 import Network
 import NotificationCenter
@@ -40,9 +39,15 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 import zlib
 @objc public protocol MetaMapButtonResultDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func verificationSuccess(identityId: Swift.String?, verificationID: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func verificationCancelled(identityId: Swift.String?, verificationID: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc func verificationCreated(identityId: Swift.String?, verificationID: Swift.String?)
+  #endif
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MetaMapButtonResult : ObjectiveC.NSObject {
   @objc weak public var delegate: (any MetaMapSDK.MetaMapButtonResultDelegate)?
@@ -68,7 +73,9 @@ extension MetaMapSDK.AVDocumentScanner : AVFoundation.AVCaptureVideoDataOutputSa
   @objc final public func captureOutput(_: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from _: AVFoundation.AVCaptureConnection)
 }
 extension MetaMapSDK.AVDocumentScanner : MetaMapSDK.DocumentScanner {
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func captureImage(in bounds: MetaMapSDK.RectangleFeature?, completion: @escaping (UIKit.UIImage) -> Swift.Void)
+  #endif
   final public func start()
   final public func pause()
   final public func stop()
@@ -82,7 +89,9 @@ public enum CloseCode : Swift.UInt16 {
   case encoding
   case policyViolated
   case messageTooBig
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt16)
+  #endif
   public typealias RawValue = Swift.UInt16
   public var rawValue: Swift.UInt16 {
     get
@@ -96,7 +105,9 @@ public enum FrameOpCode : Swift.UInt8 {
   case ping
   case pong
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt8)
+  #endif
   public typealias RawValue = Swift.UInt8
   public var rawValue: Swift.UInt8 {
     get
@@ -160,9 +171,11 @@ public struct SocketIOClientConfiguration : Swift.ExpressibleByArrayLiteral, Swi
   public var count: MetaMapSDK.SocketIOClientConfiguration.Index.Stride {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public var first: MetaMapSDK.SocketIOClientConfiguration.Element? {
     get
   }
+  #endif
   public subscript(position: MetaMapSDK.SocketIOClientConfiguration.Index) -> MetaMapSDK.SocketIOClientConfiguration.Element {
     get
     set
@@ -182,7 +195,9 @@ public protocol ConfigSettable {
   mutating func setConfigs(_ config: MetaMapSDK.SocketIOClientConfiguration)
 }
 @objc public class MetaMapUIConfig : ObjectiveC.NSObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(buttonColor: Swift.String? = nil, buttonTextColor: Swift.String? = nil, fixedLanguage: MetaMapSDK.MFLanguage? = nil, enableLog: Swift.Bool = false, regularFont: Swift.String? = nil, boldFont: Swift.String? = nil, shimmerBackgroundColor: Swift.String? = nil, gradientStartColor: Swift.String? = nil, gradientEndColor: Swift.String? = nil, verificationId: Swift.String? = nil, identityId: Swift.String? = nil)
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class MetaMapMetadata : ObjectiveC.NSObject {
@@ -201,17 +216,25 @@ public protocol ConfigSettable {
 }
 public class WSEngine : MetaMapSDK.Engine, MetaMapSDK.TransportEventClient, MetaMapSDK.FramerEventClient, MetaMapSDK.FrameCollectorDelegate, MetaMapSDK.HTTPHandlerDelegate {
   public var respondToPingWithPong: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(transport: any MetaMapSDK.Transport, certPinner: (any MetaMapSDK.CertificatePinning)? = nil, headerValidator: any MetaMapSDK.HeaderValidator = FoundationSecurity(), httpHandler: any MetaMapSDK.HTTPHandler = FoundationHTTPHandler(), framer: any MetaMapSDK.Framer = WSFramer(), compressionHandler: (any MetaMapSDK.CompressionHandler)? = nil)
+  #endif
   public func register(delegate: any MetaMapSDK.EngineDelegate)
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, opcode: MetaMapSDK.FrameOpCode, completion: (() -> Swift.Void)?)
+  #endif
   public func connectionChanged(state: MetaMapSDK.ConnectionState)
   public func didReceiveHTTP(event: MetaMapSDK.HTTPEvent)
   public func frameProcessed(event: MetaMapSDK.FrameEvent)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
   public func didForm(event: MetaMapSDK.FrameCollector.Event)
   @objc deinit
 }
@@ -228,7 +251,9 @@ public class WSEngine : MetaMapSDK.Engine, MetaMapSDK.TransportEventClient, Meta
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var intrinsicContentSize: CoreFoundation.CGSize {
@@ -276,11 +301,21 @@ public struct WSError : Swift.Error {
 public protocol WebSocketClient : AnyObject {
   func connect()
   func disconnect(closeCode: Swift.UInt16)
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(string: Swift.String, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(stringData: Foundation.Data, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(ping: Foundation.Data, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(pong: Foundation.Data, completion: (() -> Swift.Void)?)
+  #endif
 }
 extension MetaMapSDK.WebSocketClient {
   public func write(string: Swift.String)
@@ -314,22 +349,36 @@ open class WebSocket : MetaMapSDK.WebSocketClient, MetaMapSDK.EngineDelegate {
     set
   }
   public init(request: Foundation.URLRequest, engine: any MetaMapSDK.Engine)
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(request: Foundation.URLRequest, certPinner: (any MetaMapSDK.CertificatePinning)? = FoundationSecurity(), compressionHandler: (any MetaMapSDK.CompressionHandler)? = nil, useCustomEngine: Swift.Bool = true)
+  #endif
   public func connect()
   public func disconnect(closeCode: Swift.UInt16 = CloseCode.normal.rawValue)
   public func forceDisconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(stringData: Foundation.Data, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(ping: Foundation.Data, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(pong: Foundation.Data, completion: (() -> Swift.Void)?)
+  #endif
   public func didReceive(event: MetaMapSDK.WebSocketEvent)
   @objc deinit
 }
-public func unown<T, U, V>(_ owner: T, _ method: @escaping (T) -> ((U) -> V)) -> (U) -> V where T : AnyObject
+public func unown<T, U, V>(_ owner: T, _ method: @escaping (T) -> (U) -> V) -> (U) -> V where T : AnyObject
 public protocol SocketManagerSpec : MetaMapSDK.SocketEngineClient {
   var defaultSocket: MetaMapSDK.SocketIOClient { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var engine: (any MetaMapSDK.SocketEngineSpec)? { get set }
+  #endif
   var forceNew: Swift.Bool { get set }
   var handleQueue: Dispatch.DispatchQueue { get set }
   var nsps: [Swift.String : MetaMapSDK.SocketIOClient] { get set }
@@ -341,22 +390,28 @@ public protocol SocketManagerSpec : MetaMapSDK.SocketEngineClient {
   var status: MetaMapSDK.SocketIOStatus { get }
   var version: MetaMapSDK.SocketIOVersion { get }
   func connect()
+  #if compiler(>=5.3) && $NonescapableTypes
   func connectSocket(_ socket: MetaMapSDK.SocketIOClient, withPayload: [Swift.String : Any]?)
+  #endif
   func didDisconnect(reason: Swift.String)
   func disconnect()
   func disconnectSocket(_ socket: MetaMapSDK.SocketIOClient)
   func disconnectSocket(forNamespace nsp: Swift.String)
   func emitAll(_ event: Swift.String, _ items: any MetaMapSDK.SocketData...)
   func reconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   func removeSocket(_ socket: MetaMapSDK.SocketIOClient) -> MetaMapSDK.SocketIOClient?
+  #endif
   func socket(forNamespace nsp: Swift.String) -> MetaMapSDK.SocketIOClient
 }
 public enum SocketAckStatus : Swift.String {
   case noAck
   public static func == (lhs: Swift.String, rhs: MetaMapSDK.SocketAckStatus) -> Swift.Bool
   public static func == (lhs: MetaMapSDK.SocketAckStatus, rhs: Swift.String) -> Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -418,10 +473,14 @@ public class FoundationHTTPHandler : MetaMapSDK.HTTPHandler {
 }
 public protocol SocketEngineWebsocket : MetaMapSDK.SocketEngineSpec {
   var wsConnected: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func sendWebSocketMessage(_ str: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> Swift.Void)?)
+  #endif
 }
 extension MetaMapSDK.SocketEngineWebsocket {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendWebSocketMessage(_ str: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> Swift.Void)?)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class TransparentNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor @preconcurrency public var statusBarStyle: UIKit.UIStatusBarStyle
@@ -436,11 +495,17 @@ extension MetaMapSDK.SocketEngineWebsocket {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
     @objc get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 5.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(navigationBarClass: Swift.AnyClass?, toolbarClass: Swift.AnyClass?)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(rootViewController: UIKit.UIViewController)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public enum ConnectionState {
@@ -457,9 +522,13 @@ public protocol TransportEventClient : AnyObject {
 }
 public protocol Transport : AnyObject {
   func register(delegate: any MetaMapSDK.TransportEventClient)
+  #if compiler(>=5.3) && $NonescapableTypes
   func connect(url: Foundation.URL, timeout: Swift.Double, certificatePinning: (any MetaMapSDK.CertificatePinning)?)
+  #endif
   func disconnect()
-  func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> Swift.Void))
+  #if compiler(>=5.3) && $NonescapableTypes
+  func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
   var usingTLS: Swift.Bool { get }
 }
 public enum ProgressBarState {
@@ -485,10 +554,14 @@ public enum ProgressBarState {
   @_Concurrency.MainActor @preconcurrency open var indeterminateAnimationDuration: Swift.Double
   @_Concurrency.MainActor @preconcurrency open var determinateAnimationDuration: Swift.Double
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func didMoveToSuperview()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func didMoveToWindow()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func transition(to state: MetaMapSDK.ProgressBarState, delay: Foundation.TimeInterval = 0, animateDeterminate: Swift.Bool = true, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  #endif
   @objc deinit
 }
 public protocol DelaysApplyingAttributes {
@@ -508,29 +581,37 @@ extension MetaMapSDK.SVGLayerType where Self : QuartzCore.CALayer {
   public var boundingBox: CoreFoundation.CGRect
   @objc override dynamic public init()
   @objc override dynamic public init(layer: Any)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension MetaMapSDK.SVGLayer {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var svgLayerCopy: MetaMapSDK.SVGLayer? {
     get
   }
+  #endif
 }
 extension MetaMapSDK.SVGLayer {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic open var fillColor: CoreGraphics.CGColor? {
     @objc get
     @objc set
   }
+  #endif
 }
 extension MetaMapSDK.SVGLayer {
   @objc override dynamic open var lineWidth: CoreFoundation.CGFloat {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc override dynamic open var strokeColor: CoreGraphics.CGColor? {
     @objc get
     @objc set
   }
+  #endif
 }
 public struct SVGParserSupportedElements {
   public typealias ElementGenerator = () -> any MetaMapSDK.SVGElement
@@ -551,18 +632,30 @@ public struct SVGParserSupportedElements {
 }
 public protocol CompressionHandler {
   func load(headers: [Swift.String : Swift.String])
+  #if compiler(>=5.3) && $NonescapableTypes
   func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func compress(data: Foundation.Data) -> Foundation.Data?
+  #endif
 }
 public protocol SocketEngineSpec : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var client: (any MetaMapSDK.SocketEngineClient)? { get set }
+  #endif
   var closed: Swift.Bool { get }
   var compress: Swift.Bool { get }
   var connected: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var connectParams: [Swift.String : Any]? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var cookies: [Foundation.HTTPCookie]? { get }
+  #endif
   var engineQueue: Dispatch.DispatchQueue { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var extraHeaders: [Swift.String : Swift.String]? { get set }
+  #endif
   var fastUpgrade: Swift.Bool { get }
   var forcePolling: Swift.Bool { get }
   var forceWebsockets: Swift.Bool { get }
@@ -575,8 +668,12 @@ public protocol SocketEngineSpec : AnyObject {
   var version: MetaMapSDK.SocketIOVersion { get }
   @available(*, deprecated, message: "No longer needed, if we're not polling, then we must be doing websockets")
   var websocket: Swift.Bool { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var ws: MetaMapSDK.WebSocket? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   init(client: any MetaMapSDK.SocketEngineClient, url: Foundation.URL, options: [Swift.String : Any]?)
+  #endif
   func connect()
   func didError(reason: Swift.String)
   func disconnect(reason: Swift.String)
@@ -584,7 +681,9 @@ public protocol SocketEngineSpec : AnyObject {
   func flushWaitingForPostToWebSocket()
   func parseEngineData(_ data: Foundation.Data)
   func parseEngineMessage(_ message: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(_ msg: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> Swift.Void)?)
+  #endif
 }
 extension Swift.FloatingPoint {
   public var toRadians: Self {
@@ -605,49 +704,13 @@ extension Swift.FloatingPoint {
   public var description: Swift.String {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
-}
-@objc @objcMembers public class MetaMapSentryMXCallStackTree : ObjectiveC.NSObject, Swift.Codable {
-  @objc final public let callStacks: [MetaMapSDK.MetaMapSentryMXCallStack]
-  @objc final public let callStackPerThread: Swift.Bool
-  @objc public init(callStacks: [MetaMapSDK.MetaMapSentryMXCallStack], callStackPerThread: Swift.Bool)
-  @objc public static func from(data: Foundation.Data) throws -> MetaMapSDK.MetaMapSentryMXCallStackTree
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@objc @objcMembers public class MetaMapSentryMXCallStack : ObjectiveC.NSObject, Swift.Codable {
-  public var threadAttributed: Swift.Bool?
-  @objc public var callStackRootFrames: [MetaMapSDK.MetaMapSentryMXFrame]
-  @objc public var flattenedRootFrames: [MetaMapSDK.MetaMapSentryMXFrame] {
-    @objc get
-  }
-  @objc public init(threadAttributed: Swift.Bool, rootFrames: [MetaMapSDK.MetaMapSentryMXFrame])
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
-}
-@objc @objcMembers public class MetaMapSentryMXFrame : ObjectiveC.NSObject, Swift.Codable {
-  @objc public var binaryUUID: Foundation.UUID
-  @objc public var offsetIntoBinaryTextSegment: Swift.Int
-  @objc public var binaryName: Swift.String?
-  @objc public var address: Swift.UInt64
-  @objc public var subFrames: [MetaMapSDK.MetaMapSentryMXFrame]?
-  public var sampleCount: Swift.Int?
-  public init(binaryUUID: Foundation.UUID, offsetIntoBinaryTextSegment: Swift.Int, sampleCount: Swift.Int? = nil, binaryName: Swift.String? = nil, address: Swift.UInt64, subFrames: [MetaMapSDK.MetaMapSentryMXFrame]?)
-  @objc public var frames: [MetaMapSDK.MetaMapSentryMXFrame] {
-    @objc get
-  }
-  @objc public var framesIncludingSelf: [MetaMapSDK.MetaMapSentryMXFrame] {
-    @objc get
-  }
-  @objc deinit
-  public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 public protocol Fillable {
 }
@@ -656,15 +719,27 @@ extension UIKit.UIView {
 }
 extension UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency convenience public init(pathString: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency convenience public init(svgNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "init(svgNamed:parser:completion:)")
   @_Concurrency.MainActor @preconcurrency convenience public init(SVGNamed: Swift.String, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency convenience public init(svgURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "init(svgURL:parser:completion:)")
   @_Concurrency.MainActor @preconcurrency convenience public init(SVGURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency convenience public init(svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "init(svgData:parser:completion:)")
   @_Concurrency.MainActor @preconcurrency convenience public init(SVGData svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
 }
 @objc public protocol SocketEngineClient {
   @objc func engineDidError(reason: Swift.String)
@@ -694,10 +769,14 @@ public class FoundationSecurity {
   @objc deinit
 }
 extension MetaMapSDK.FoundationSecurity : MetaMapSDK.CertificatePinning {
-  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((MetaMapSDK.PinningState) -> Swift.Void))
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (MetaMapSDK.PinningState) -> Swift.Void)
+  #endif
 }
 extension MetaMapSDK.FoundationSecurity : MetaMapSDK.HeaderValidator {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
+  #endif
 }
 public protocol SocketLogger : AnyObject {
   var log: Swift.Bool { get set }
@@ -711,26 +790,6 @@ extension MetaMapSDK.SocketLogger {
 extension QuartzCore.CAShapeLayer {
   convenience public init(pathString: Swift.String)
 }
-@available(iOS 15.0, macOS 12.0, macCatalyst 15.0, *)
-@available(tvOS, unavailable)
-@available(watchOS, unavailable)
-@objc public protocol MetaMapSentryMXManagerDelegate {
-  @objc func didReceiveCrashDiagnostic(_ diagnostic: MetricKit.MXCrashDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
-  @objc func didReceiveDiskWriteExceptionDiagnostic(_ diagnostic: MetricKit.MXDiskWriteExceptionDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
-  @objc func didReceiveCpuExceptionDiagnostic(_ diagnostic: MetricKit.MXCPUExceptionDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
-  @objc func didReceiveHangDiagnostic(_ diagnostic: MetricKit.MXHangDiagnostic, callStackTree: MetaMapSDK.MetaMapSentryMXCallStackTree, timeStampBegin: Foundation.Date, timeStampEnd: Foundation.Date)
-}
-@objc @available(iOS 15.0, macOS 12.0, macCatalyst 15.0, *)
-@available(tvOS, unavailable)
-@available(watchOS, unavailable)
-@objcMembers public class MetaMapSentryMXManager : ObjectiveC.NSObject, MetricKit.MXMetricManagerSubscriber {
-  @objc public init(disableCrashDiagnostics: Swift.Bool = true)
-  @objc weak public var delegate: (any MetaMapSDK.MetaMapSentryMXManagerDelegate)?
-  @objc public func receiveReports()
-  @objc public func pauseReports()
-  @objc public func didReceive(_ payloads: [MetricKit.MXDiagnosticPayload])
-  @objc deinit
-}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class SVGView : UIKit.UIView {
   @objc @IBInspectable @_Concurrency.MainActor @preconcurrency open var svgName: Swift.String? {
     @objc get
@@ -739,9 +798,12 @@ extension QuartzCore.CAShapeLayer {
   @available(*, deprecated, renamed: "svgName")
   @_Concurrency.MainActor @preconcurrency open var SVGName: Swift.String?
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
+
 public protocol Identifiable {
 }
 public struct RectangleFeature {
@@ -758,8 +820,12 @@ extension MetaMapSDK.RectangleFeature : Swift.Comparable {
 public class WSCompression : MetaMapSDK.CompressionHandler {
   public init()
   public func load(headers: [Swift.String : Swift.String])
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func compress(data: Foundation.Data) -> Foundation.Data?
+  #endif
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers final public class SocketRawView : ObjectiveC.NSObject {
@@ -777,16 +843,22 @@ public class WSCompression : MetaMapSDK.CompressionHandler {
 public protocol SocketEnginePollable : MetaMapSDK.SocketEngineSpec {
   var invalidated: Swift.Bool { get }
   var postWait: [MetaMapSDK.Post] { get set }
+  #if compiler(>=5.3) && $NonescapableTypes
   var session: Foundation.URLSession? { get }
+  #endif
   var waitingForPoll: Swift.Bool { get set }
   var waitingForPost: Swift.Bool { get set }
   func doPoll()
+  #if compiler(>=5.3) && $NonescapableTypes
   func sendPollMessage(_ message: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> Swift.Void)?)
+  #endif
   func stopPolling()
 }
 extension MetaMapSDK.SocketEnginePollable {
   public func doPoll()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendPollMessage(_ message: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData datas: [Foundation.Data], completion: (() -> Swift.Void)? = nil)
+  #endif
   public func stopPolling()
 }
 @objc open class SocketEngine : ObjectiveC.NSObject, MetaMapSDK.WebSocketDelegate, Foundation.URLSessionDelegate, MetaMapSDK.SocketEnginePollable, MetaMapSDK.SocketEngineWebsocket, MetaMapSDK.ConfigSettable {
@@ -862,7 +934,9 @@ extension MetaMapSDK.SocketEnginePollable {
   }
   weak public var client: (any MetaMapSDK.SocketEngineClient)?
   public init(client: any MetaMapSDK.SocketEngineClient, url: Foundation.URL, config: MetaMapSDK.SocketIOClientConfiguration)
+  #if compiler(>=5.3) && $NonescapableTypes
   required convenience public init(client: any MetaMapSDK.SocketEngineClient, url: Foundation.URL, options: [Swift.String : Any]?)
+  #endif
   @objc deinit
   open func connect()
   open func didError(reason: Swift.String)
@@ -872,25 +946,35 @@ extension MetaMapSDK.SocketEnginePollable {
   open func parseEngineData(_ data: Foundation.Data)
   open func parseEngineMessage(_ message: Swift.String)
   open func setConfigs(_ config: MetaMapSDK.SocketIOClientConfiguration)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func write(_ msg: Swift.String, withType type: MetaMapSDK.SocketEnginePacketType, withData data: [Foundation.Data], completion: (() -> Swift.Void)? = nil)
+  #endif
 }
 extension MetaMapSDK.SocketEngine {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func URLSession(session: Foundation.URLSession, didBecomeInvalidWithError error: Foundation.NSError?)
+  #endif
 }
 extension MetaMapSDK.SocketEngine {
   public func didReceive(event: MetaMapSDK.WebSocketEvent, client _: MetaMapSDK.WebSocket)
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class MetaMap : ObjectiveC.NSObject {
   @objc public static let shared: MetaMapSDK.MetaMap
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func showMetaMapFlow(clientId: Swift.String, flowId: Swift.String?, configurationId: Swift.String? = nil, encryptionConfigurationId: Swift.String? = nil, metadata: [Swift.String : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func showMetaMapFlow(clientId: Swift.String, flowId: Swift.String?, configurationId: Swift.String? = nil, encryptionConfigurationId: Swift.String? = nil, metaMapMetadata: MetaMapSDK.MetaMapMetadata? = nil)
+  #endif
   @objc deinit
 }
 public func IOU(_ a: Swift.SIMD16<Swift.Float32>, _ b: Swift.SIMD16<Swift.Float32>) -> Swift.Float
 public enum SocketIOVersion : Swift.Int {
   case two
   case three
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -926,7 +1010,9 @@ public enum SocketIOClientOption {
 }
 public protocol FrameCollectorDelegate : AnyObject {
   func didForm(event: MetaMapSDK.FrameCollector.Event)
+  #if compiler(>=5.3) && $NonescapableTypes
   func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
 }
 @_hasMissingDesignatedInitializers public class FrameCollector {
   public enum Event {
@@ -975,7 +1061,9 @@ extension MetaMapSDK.SocketPacket {
     public var isBinary: Swift.Bool {
       get
     }
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -987,7 +1075,9 @@ public protocol DocumentScanner {
   var featuresRequired: Swift.Int { get set }
   var previewLayer: QuartzCore.CALayer { get }
   var progress: Foundation.Progress { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func captureImage(in bounds: MetaMapSDK.RectangleFeature?, completion: @escaping (UIKit.UIImage) -> Swift.Void)
+  #endif
   init(sessionPreset: AVFoundation.AVCaptureSession.Preset, delegate: any MetaMapSDK.DocumentScannerDelegate)
   func start()
   func pause()
@@ -999,23 +1089,41 @@ extension MetaMapSDK.NSXMLSVGParser : MetaMapSDK.SVGParser {
   public var completionBlock: ((MetaMapSDK.SVGLayer) -> Swift.Void)?
   public var supportedElements: MetaMapSDK.SVGParserSupportedElements?
   open var containerLayer: MetaMapSDK.SVGLayer
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(svgURL: Foundation.URL, supportedElements: MetaMapSDK.SVGParserSupportedElements? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "init(svgURL:supportedElements:completion:)")
   convenience public init(SVGURL: Foundation.URL, supportedElements: MetaMapSDK.SVGParserSupportedElements? = nil, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(svgData: Foundation.Data, supportedElements: MetaMapSDK.SVGParserSupportedElements? = SVGParserSupportedElements.allSupportedElements, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "init(svgData:supportedElements:completion:)")
   convenience public init(SVGData: Foundation.Data, supportedElements: MetaMapSDK.SVGParserSupportedElements? = SVGParserSupportedElements.allSupportedElements, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)? = nil)
+  #endif
   public func startParsing()
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func parser(_ parser: Foundation.XMLParser, didStartElement elementName: Swift.String, namespaceURI: Swift.String?, qualifiedName qName: Swift.String?, attributes attributeDict: [Swift.String : Swift.String])
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc open func parser(_ parser: Foundation.XMLParser, didEndElement elementName: Swift.String, namespaceURI: Swift.String?, qualifiedName qName: Swift.String?)
+  #endif
   @objc public func parserDidEndDocument(_ parser: Foundation.XMLParser)
   @objc public func parser(_ parser: Foundation.XMLParser, parseErrorOccurred parseError: any Swift.Error)
   @objc deinit
 }
 public protocol SVGParser {
+  #if compiler(>=5.3) && $NonescapableTypes
   init(svgData: Foundation.Data, supportedElements: MetaMapSDK.SVGParserSupportedElements?, completion: ((MetaMapSDK.SVGLayer) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var completionBlock: ((MetaMapSDK.SVGLayer) -> Swift.Void)? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var supportedElements: MetaMapSDK.SVGParserSupportedElements? { get }
+  #endif
   var containerLayer: MetaMapSDK.SVGLayer { get }
   func startParsing()
 }
@@ -1046,10 +1154,14 @@ public protocol Stylable {
   }
   public var waitingPackets: [MetaMapSDK.SocketPacket]
   public init(socketURL: Foundation.URL, config: MetaMapSDK.SocketIOClientConfiguration = [])
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc convenience public init(socketURL: Foundation.URL, config: [Swift.String : Any]?)
+  #endif
   @objc deinit
   open func connect()
+  #if compiler(>=5.3) && $NonescapableTypes
   open func connectSocket(_ socket: MetaMapSDK.SocketIOClient, withPayload payload: [Swift.String : Any]? = nil)
+  #endif
   open func didDisconnect(reason: Swift.String)
   open func disconnect()
   open func disconnectSocket(_ socket: MetaMapSDK.SocketIOClient)
@@ -1067,8 +1179,10 @@ public protocol Stylable {
   @objc open func parseEngineMessage(_ msg: Swift.String)
   @objc open func parseEngineBinaryData(_ data: Foundation.Data)
   open func reconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   open func removeSocket(_ socket: MetaMapSDK.SocketIOClient) -> MetaMapSDK.SocketIOClient?
+  #endif
   open func setConfigs(_ config: MetaMapSDK.SocketIOClientConfiguration)
   open func socket(forNamespace nsp: Swift.String) -> MetaMapSDK.SocketIOClient
 }
@@ -1086,12 +1200,18 @@ public enum FoundationTransportError : Swift.Error {
   public var usingTLS: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(streamConfiguration: ((Foundation.InputStream, Foundation.OutputStream) -> Swift.Void)? = nil)
+  #endif
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any MetaMapSDK.CertificatePinning)? = nil)
+  #endif
   public func disconnect()
   public func register(delegate: any MetaMapSDK.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> Swift.Void))
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
   @objc open func stream(_ aStream: Foundation.Stream, handle eventCode: Foundation.Stream.Event)
 }
 @objc public enum SocketEnginePacketType : Swift.Int {
@@ -1102,7 +1222,9 @@ public enum FoundationTransportError : Swift.Error {
   case message
   case upgrade
   case noop
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
+  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -1110,8 +1232,10 @@ public enum FoundationTransportError : Swift.Error {
 }
 extension UIKit.UIBezierPath {
   convenience public init(pathString: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "This method is deprecated. If you want to parse a single path, instantiate a new instance of SVGPath using the SVGPath(singlePathString:) initializer and pass the path string.")
   public class func pathWithSVGURL(_ SVGURL: Foundation.URL) -> UIKit.UIBezierPath?
+  #endif
 }
 public enum HTTPUpgradeError : Swift.Error {
   case notAnUpgrade(Swift.Int)
@@ -1147,7 +1271,9 @@ extension Foundation.URL {
   public var isTLSScheme: Swift.Bool {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getParts() -> MetaMapSDK.URLParts?
+  #endif
 }
 extension QuartzCore.CALayer {
   open func applyOnSublayers<T>(ofType: T.Type, closure: (T) -> Swift.Void) where T : QuartzCore.CALayer
@@ -1179,14 +1305,18 @@ public enum ServerEvent {
   case ping(any MetaMapSDK.Connection, Foundation.Data?)
 }
 public protocol Server {
+  #if compiler(>=5.3) && $NonescapableTypes
   func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
+  #endif
 }
 @available(macOS 10.14, iOS 12.0, watchOS 5.0, tvOS 12.0, *)
 @available(watchOS, unavailable)
 public class WebSocketServer : MetaMapSDK.Server, MetaMapSDK.ConnectionDelegate {
   public var onEvent: ((MetaMapSDK.ServerEvent) -> Swift.Void)?
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func start(address: Swift.String, port: Swift.UInt16) -> (any Swift.Error)?
+  #endif
   public func didReceive(event: MetaMapSDK.ServerEvent)
   @objc deinit
 }
@@ -1199,7 +1329,9 @@ public class ServerConnection : MetaMapSDK.Connection, MetaMapSDK.HTTPServerDele
   public func didReceive(event: MetaMapSDK.HTTPEvent)
   public func frameProcessed(event: MetaMapSDK.FrameEvent)
   public func didForm(event: MetaMapSDK.FrameCollector.Event)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func decompress(data: Foundation.Data, isFinal: Swift.Bool) -> Foundation.Data?
+  #endif
   @objc deinit
 }
 @objc open class SocketIOClient : ObjectiveC.NSObject, MetaMapSDK.SocketIOClientSpec {
@@ -1224,13 +1356,23 @@ public class ServerConnection : MetaMapSDK.Connection, MetaMapSDK.HTTPServerDele
   }
   public init(manager: any MetaMapSDK.SocketManagerSpec, nsp: Swift.String)
   @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
   open func connect(withPayload payload: [Swift.String : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func connect(withPayload payload: [Swift.String : Any]? = nil, timeoutAfter: Swift.Double, withHandler handler: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func didConnect(toNamespace namespace: Swift.String, payload: [Swift.String : Any]?)
+  #endif
   open func didDisconnect(reason: Swift.String)
   open func disconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   open func emit(_ event: Swift.String, _ items: any MetaMapSDK.SocketData..., completion: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   open func emit(_ event: Swift.String, with items: [any MetaMapSDK.SocketData], completion: (() -> Swift.Void)?)
+  #endif
   open func emitWithAck(_ event: Swift.String, _ items: any MetaMapSDK.SocketData...) -> MetaMapSDK.OnAckCallback
   open func emitWithAck(_ event: Swift.String, with items: [any MetaMapSDK.SocketData]) -> MetaMapSDK.OnAckCallback
   open func emitAck(_ ack: Swift.Int, with items: [Any])
@@ -1239,7 +1381,9 @@ public class ServerConnection : MetaMapSDK.Connection, MetaMapSDK.HTTPServerDele
   open func handleEvent(_ event: Swift.String, data: [Any], isInternalMessage: Swift.Bool, withAck ack: Swift.Int = -1)
   open func handlePacket(_ packet: MetaMapSDK.SocketPacket)
   open func leaveNamespace()
+  #if compiler(>=5.3) && $NonescapableTypes
   open func joinNamespace(withPayload payload: [Swift.String : Any]? = nil)
+  #endif
   open func off(clientEvent event: MetaMapSDK.SocketClientEvent)
   open func off(_ event: Swift.String)
   open func off(id: Foundation.UUID)
@@ -1272,10 +1416,14 @@ public class TCPTransport : MetaMapSDK.Transport {
   }
   public init(connection: Network.NWConnection)
   public init()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func connect(url: Foundation.URL, timeout: Swift.Double = 10, certificatePinning: (any MetaMapSDK.CertificatePinning)? = nil)
+  #endif
   public func disconnect()
   public func register(delegate: any MetaMapSDK.TransportEventClient)
-  public func write(data: Foundation.Data, completion: @escaping (((any Swift.Error)?) -> Swift.Void))
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func write(data: Foundation.Data, completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
@@ -1284,10 +1432,18 @@ public class NativeEngine : ObjectiveC.NSObject, MetaMapSDK.Engine, Foundation.U
   public func start(request: Foundation.URLRequest)
   public func stop(closeCode: Swift.UInt16)
   public func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(string: Swift.String, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func write(data: Foundation.Data, opcode: MetaMapSDK.FrameOpCode, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didOpenWithProtocol protocol: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc public func urlSession(_ session: Foundation.URLSession, webSocketTask: Foundation.URLSessionWebSocketTask, didCloseWith closeCode: Foundation.URLSessionWebSocketTask.CloseCode, reason: Foundation.Data?)
+  #endif
   @objc override dynamic public init()
   @objc deinit
 }
@@ -1307,19 +1463,29 @@ extension Swift.String {
 public protocol SVGElement {
   static var elementName: Swift.String { get }
   var supportedAttributes: [Swift.String : (Swift.String) -> Swift.Void] { get set }
+  #if compiler(>=5.3) && $NonescapableTypes
   func didProcessElement(in container: (any MetaMapSDK.SVGContainerElement)?)
+  #endif
 }
 extension QuartzCore.CALayer {
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   convenience public init(svgURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "init(svgURL:parser:completion:)")
   @discardableResult
   convenience public init(SVGURL: Foundation.URL, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @discardableResult
   convenience public init(svgData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> Swift.Void)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, renamed: "init(svgData:parser:completion:)")
   @discardableResult
   convenience public init(SVGData: Foundation.Data, parser: (any MetaMapSDK.SVGParser)? = nil, completion: @escaping (MetaMapSDK.SVGLayer) -> Swift.Void)
+  #endif
 }
 public protocol EngineDelegate : AnyObject {
   func didReceive(event: MetaMapSDK.WebSocketEvent)
@@ -1329,8 +1495,12 @@ public protocol Engine {
   func start(request: Foundation.URLRequest)
   func stop(closeCode: Swift.UInt16)
   func forceStop()
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(data: Foundation.Data, opcode: MetaMapSDK.FrameOpCode, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func write(string: Swift.String, completion: (() -> Swift.Void)?)
+  #endif
 }
 extension Foundation.NSMutableAttributedString {
   public func setAsLink(textToFind: Swift.String, linkURL: Swift.String) -> Swift.Bool
@@ -1368,32 +1538,44 @@ extension Swift.String : MetaMapSDK.SocketData {
 public typealias AckCallback = ([Any]) -> Swift.Void
 public typealias NormalCallback = ([Any], MetaMapSDK.SocketAckEmitter) -> Swift.Void
 public typealias Post = (msg: Swift.String, completion: (() -> Swift.Void)?)
-@_inheritsConvenienceInitializers @objc public class SwiftDescriptor : ObjectiveC.NSObject {
-  @objc public static func getObjectClassName(_ object: Swift.AnyObject) -> Swift.String
-  @objc public static func getSwiftErrorDescription(_ error: any Swift.Error) -> Swift.String?
-  @objc override dynamic public init()
-  @objc deinit
-}
 public protocol DocumentScannerDelegate : AnyObject {
   func didCapture(image: UIKit.UIImage)
+  #if compiler(>=5.3) && $NonescapableTypes
   func didRecognize(feature: MetaMapSDK.RectangleFeature?, in image: CoreImage.CIImage)
+  #endif
 }
 public protocol SocketIOClientSpec : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   var anyHandler: ((MetaMapSDK.SocketAnyEvent) -> Swift.Void)? { get }
+  #endif
   var handlers: [MetaMapSDK.SocketEventHandler] { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var manager: (any MetaMapSDK.SocketManagerSpec)? { get }
+  #endif
   var nsp: Swift.String { get }
   var rawEmitView: MetaMapSDK.SocketRawView { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   var sid: Swift.String? { get }
+  #endif
   var status: MetaMapSDK.SocketIOStatus { get }
+  #if compiler(>=5.3) && $NonescapableTypes
   func connect(withPayload payload: [Swift.String : Any]?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func connect(withPayload payload: [Swift.String : Any]?, timeoutAfter: Swift.Double, withHandler handler: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func didConnect(toNamespace namespace: Swift.String, payload: [Swift.String : Any]?)
+  #endif
   func didDisconnect(reason: Swift.String)
   func didError(reason: Swift.String)
   func disconnect()
+  #if compiler(>=5.3) && $NonescapableTypes
   func emit(_ event: Swift.String, _ items: any MetaMapSDK.SocketData..., completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func emit(_ event: Swift.String, with items: [any MetaMapSDK.SocketData], completion: (() -> Swift.Void)?)
+  #endif
   func emitAck(_ ack: Swift.Int, with items: [Any])
   func emitWithAck(_ event: Swift.String, _ items: any MetaMapSDK.SocketData...) -> MetaMapSDK.OnAckCallback
   func emitWithAck(_ event: Swift.String, with items: [any MetaMapSDK.SocketData]) -> MetaMapSDK.OnAckCallback
@@ -1402,7 +1584,9 @@ public protocol SocketIOClientSpec : AnyObject {
   func handleEvent(_ event: Swift.String, data: [Any], isInternalMessage: Swift.Bool, withAck ack: Swift.Int)
   func handlePacket(_ packet: MetaMapSDK.SocketPacket)
   func leaveNamespace()
+  #if compiler(>=5.3) && $NonescapableTypes
   func joinNamespace(withPayload payload: [Swift.String : Any]?)
+  #endif
   func off(clientEvent event: MetaMapSDK.SocketClientEvent)
   func off(_ event: Swift.String)
   func off(id: Foundation.UUID)
@@ -1427,7 +1611,9 @@ public enum SocketClientEvent : Swift.String {
   case reconnectAttempt
   case statusChange
   case websocketUpgrade
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -1437,8 +1623,12 @@ public enum SocketClientEvent : Swift.String {
   @objc deinit
 }
 public protocol SocketParsable : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func parseBinaryData(_ data: Foundation.Data) -> MetaMapSDK.SocketPacket?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func parseSocketMessage(_ message: Swift.String) -> MetaMapSDK.SocketPacket?
+  #endif
 }
 public enum SocketParsableError : Swift.Error {
   case invalidDataArray
@@ -1454,13 +1644,19 @@ public protocol SocketDataBufferable : AnyObject {
   var waitingPackets: [MetaMapSDK.SocketPacket] { get set }
 }
 extension MetaMapSDK.SocketParsable where Self : MetaMapSDK.SocketDataBufferable, Self : MetaMapSDK.SocketManagerSpec {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func parseSocketMessage(_ message: Swift.String) -> MetaMapSDK.SocketPacket?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func parseBinaryData(_ data: Foundation.Data) -> MetaMapSDK.SocketPacket?
+  #endif
 }
 public enum SecurityErrorCode : Swift.UInt16 {
   case acceptFailed
   case pinningFailed
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.UInt16)
+  #endif
   public typealias RawValue = Swift.UInt16
   public var rawValue: Swift.UInt16 {
     get
@@ -1471,10 +1667,14 @@ public enum PinningState {
   case failed(CoreFoundation.CFError?)
 }
 public protocol CertificatePinning : AnyObject {
-  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: ((MetaMapSDK.PinningState) -> Swift.Void))
+  #if compiler(>=5.3) && $NonescapableTypes
+  func evaluateTrust(trust: Security.SecTrust, domain: Swift.String?, completion: (MetaMapSDK.PinningState) -> Swift.Void)
+  #endif
 }
 public protocol HeaderValidator : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func validate(headers: [Swift.String : Swift.String], key: Swift.String) -> (any Swift.Error)?
+  #endif
 }
 public enum MFLanguage : Swift.String, Swift.Codable {
   case english
@@ -1487,7 +1687,9 @@ public enum MFLanguage : Swift.String, Swift.Codable {
   case italian
   case polish
   case thai
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
