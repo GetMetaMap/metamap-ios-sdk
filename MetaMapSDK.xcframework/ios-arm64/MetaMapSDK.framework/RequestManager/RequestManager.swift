@@ -18,7 +18,7 @@ class RequestManager {
           }
           return sharedInstance
       }
-
+    
     private let socketManager = MetaMapSocketManager()
     private let apiManager = MetaMapApiManager()
 
@@ -83,7 +83,7 @@ class RequestManager {
         apiManager.skipStepsRequest(data: data, type: .documentSkip, completion: completion)
     }
 
-    func skipInput(input: InputId, completion: @escaping (ResponseStatus) -> Void) {
+    func skipInput(input: MetaMapInputId, completion: @escaping (ResponseStatus) -> Void) {
         apiManager.skipStepsRequest(data: nil, type: .skip(subType: input.rawValue), completion: completion)
     }
     
@@ -225,24 +225,5 @@ class RequestManager {
                 print("❌ DocumentPhotoStatusResponse decode error:", error)
             }
         }
-    }
-    
-//    RequestManager.shared.checkStatus(groupId: self?.viewModel.data.groupIndex ?? 0) { status, data in
-//        if status == .success {
-//            MetaMapGlobalManager.instance.country = data.data?.country
-//            if data.status == 200 {
-//                self?.coordinator?.nextScreen()
-//            } else {
-//                self?.openDocumentTutorialBackSideScreen()
-//            }
-//        }
-//    }
-    
-    func checkStatus(inputId: String, group: Int?, completion: @escaping (ResponseStatus) -> Void) {
-//        let apiRequest = MetaMapRequest()
-//        let targetType = MetaMapTargetType.verificationStatus(inputId: inputId, group: group)
-//        apiRequest.makeRequest(targetType: targetType) { status, _ in
-//            completion(status)
-//        }
     }
 }
