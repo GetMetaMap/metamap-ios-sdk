@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ilQfhAHU2Hq9GyW0lF/T0XJIGJs=
+		WMSjdmFOymWhU3xGHzZ+tpkXa2E=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/coremldata.bin</key>
 		<data>
-		41934MMSWIIcpJT/P9iwL5RO6js=
+		u7dTcT6EHvDCn+nLcuHHimfhAaU=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		VUGvdvVULd0NY5cDpdrt+yFj2Bc=
+		LJKQtMmDUCbuB/7sWFBNokW9Plk=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -66,11 +66,11 @@
 		</data>
 		<key>MFBRDLDocumentVerifyViewController.nib</key>
 		<data>
-		LZZCIObE5M67kOsFI8A2x9MDDHc=
+		Ci7+bwh0ySQPOynphQoFGpWfZ+A=
 		</data>
 		<key>MFCountriesListViewController.nib</key>
 		<data>
-		JQCKFj0NjwzlwN9ZZ9jITR12/Io=
+		miRasI7GJLRN8dHKOBA3qsPmCaI=
 		</data>
 		<key>MFCountryTableViewCell.nib</key>
 		<data>
@@ -94,15 +94,7 @@
 		</data>
 		<key>MFDocumentVerifyViewController.nib</key>
 		<data>
-		IIBy3R4gR7BZ+5pAOhBmSu8GFRg=
-		</data>
-		<key>MFLocationPermissionViewController.nib</key>
-		<data>
-		xQHWkIpeOJ3pOK02wsuovzolu2g=
-		</data>
-		<key>MFSelfieCameraViewController.nib</key>
-		<data>
-		P+24N0s/uqqsfw0WllpqchRDh5o=
+		JOLHmHCzr/RVKMSNDZkYx58tOQw=
 		</data>
 		<key>MatiBRDLCameraViewController.nib</key>
 		<data>
@@ -130,7 +122,7 @@
 		</data>
 		<key>MatiPoRTutorialViewController.nib</key>
 		<data>
-		EkY5NNS4+f4ShmW7SB4mCr9SBzI=
+		ftIQnDWpU1zvA3CjigLUnkZ+uFo=
 		</data>
 		<key>MatiPoRViewController.nib</key>
 		<data>
@@ -150,7 +142,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FlLIWxKdqMeT8jVg5G6OeAO8HmI=
+		G86dmvza3VExCjbtweLadMpwIq8=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -166,11 +158,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wMb9tHbVDAhy6jC30XAjrvlIbV4=
+		dnOWGHAs1hl1IKpNa06mtIkEvEM=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FlLIWxKdqMeT8jVg5G6OeAO8HmI=
+		G86dmvza3VExCjbtweLadMpwIq8=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -186,7 +178,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		BS31lX7gSoSvtA2OM98JSsMieYo=
+		2q+xVLMNoSZmcR/s2vaxndYBS/8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -206,7 +198,7 @@
 		</data>
 		<key>VideoKYCInstructionsViewController.nib</key>
 		<data>
-		krasNohsSD1kE593Dln3yWUSkGo=
+		JXBBU4yxzZvs/t3VnsuhV4S3IJM=
 		</data>
 		<key>VideoKYCPreviewViewController.nib</key>
 		<data>
@@ -341,7 +333,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n2gEjc0bexLl0puqDu3Kv18vcyPHvMan+n6u5rQeRT0=
+			xhGKoIXCFCp54KHCxlBJaZHGXtrvQa/nQBSZ+KGn+Io=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -355,7 +347,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6LdgjD1+hejeOqowb/uS1ubJI/Z/Y6uLQaXQf6po//c=
+			6U43GYQWOI9fw7ya31RwpX8N4Z2P/hwAvZfMlVYsrZc=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
@@ -439,14 +431,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ylwQyAR0NOQ02kBuIfGDDR+XqVCVgvkpa0U1MvBX2/w=
+			zU9SBF9Eow7jfxR8CfxkvO9RIZGQTOEuYIY+aRmk4VA=
 			</data>
 		</dict>
 		<key>MFCountriesListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hhrEw2Pt3cjMLW0yjEdhbVOFa7qjGgZJaZ9dQXtSWE0=
+			wxm5kOV6NIlaO1pM59ircO24Ix5RuLEU3f8FhDxOs2k=
 			</data>
 		</dict>
 		<key>MFCountryTableViewCell.nib</key>
@@ -488,21 +480,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XJ2yzY4lW/89JiQ7/lfte+q2LgIungtiEVUNFXLeJEo=
-			</data>
-		</dict>
-		<key>MFLocationPermissionViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gaZNQ+UqJAyOh33CoKBuQKPUJXc1mDyy+511tSVxvzs=
-			</data>
-		</dict>
-		<key>MFSelfieCameraViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jAzlNLhGCpj+M5zOjon9Nji44NvSjOXsI1o9DaldA1k=
+			y0jJThfJv5L7UHb7EG0t+ybmqxdY8xTtPFwhkwAlRgw=
 			</data>
 		</dict>
 		<key>MatiBRDLCameraViewController.nib</key>
@@ -551,7 +529,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S43qHq1mZvAQI0ZU6BneZtC89IwXf8WT3eiqqVzRC+c=
+			Gg3TdHcRgoECJOgnl9G5JrTbuw0/TU8hwC7BmDOGJR8=
 			</data>
 		</dict>
 		<key>MatiPoRViewController.nib</key>
@@ -586,7 +564,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sv5+dXjp2okaJ5uIu/l/Pr/tevBTAfl/6utRZZ+36OA=
+			kfli/sV/G8g756w4bzvYaClspx8gappIqJFzBzDxgSA=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -614,14 +592,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uurVBjHnH6Z0b5LPTGs/eCzV4G39F4acRf7uOrWgMqg=
+			tV+34Hf147KktTsvRHLBw+xlEHDkCfvZdNZ2tIw2ovk=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sv5+dXjp2okaJ5uIu/l/Pr/tevBTAfl/6utRZZ+36OA=
+			kfli/sV/G8g756w4bzvYaClspx8gappIqJFzBzDxgSA=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -649,7 +627,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cO4L8ZGzhRP5v8kcPu+k9EI7DW9a1pizrIgJJ0hgJog=
+			TheOWtV5e8FJwOqIbn9vQTMVKWg+QwO/EUCXPt68aLY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -684,7 +662,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			egCO9inWB6Ej3fPiLj5sW3MBXSnyotW0qNV2jxcO72E=
+			VDhFfW5xFM3TFNc+1X1AZ+NBKIGz/fcMdzDCnu+mY8M=
 			</data>
 		</dict>
 		<key>VideoKYCPreviewViewController.nib</key>
