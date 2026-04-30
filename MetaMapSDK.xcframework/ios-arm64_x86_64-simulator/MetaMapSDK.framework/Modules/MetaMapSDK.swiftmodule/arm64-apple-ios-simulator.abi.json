@@ -55665,7 +55665,7 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/SelfieCoordinator.swift",
       "kind": "Array",
-      "offset": 3880,
+      "offset": 10230,
       "length": 2,
       "value": "[]"
     },
@@ -60693,7 +60693,7 @@
       "kind": "StringLiteral",
       "offset": 293,
       "length": 9,
-      "value": "\"3.23.18\""
+      "value": "\"3.23.19\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/configuration\/metamap_config.swift",
@@ -60740,16 +60740,191 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1131,
+      "offset": 2562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2594,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2618,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2910,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3134,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3179,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3223,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3729,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3767,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4017,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4059,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4098,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4187,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4358,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4940,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 5191,
       "length": 24,
       "value": "\"metamap.kyc.videoQueue\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 23220,
+      "length": 4,
+      "value": "0.93"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 23233,
+      "length": 4,
+      "value": "0.93"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 23245,
+      "length": 4,
+      "value": "0.94"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27395,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 27444,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 27494,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 27544,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 27817,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 27866,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 28046,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/BiometricVerification\/MFSelfieCameraViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 28100,
+      "length": 3,
+      "value": "0.0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/DocumentVerification\/MFDocumentVerifyViewController\/MFDocumentVerifyViewController.swift",

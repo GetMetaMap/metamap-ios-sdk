@@ -9,6 +9,14 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.23.19
+
+### New Features
+* ddded passive liveness auto-capture feature
+
+### Bug Fixes
+* fixed “Try Again” issue on the selfie verification error screen
+
 # Version 3.23.18
 ### Updated Features
 * add Selfie verifications pre-checks 
