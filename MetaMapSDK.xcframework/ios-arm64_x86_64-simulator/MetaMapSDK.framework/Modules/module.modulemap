@@ -71,5 +71,4 @@ framework module MetaMapSDK {
 
 module MetaMapSDK.Swift {
   header "MetaMapSDK-Swift.h"
-  requires objc
 }
