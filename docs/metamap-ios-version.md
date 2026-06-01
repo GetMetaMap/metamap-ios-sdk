@@ -9,6 +9,15 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.23.23
+
+### Updated Features
+* improved Document auto capture feature
+* improved Active livnesse feature
+* fixed issue related document verification flow
+8 improved geo locations feautre 
+
+
 # Version 3.23.22
 
 ### Updated Features
