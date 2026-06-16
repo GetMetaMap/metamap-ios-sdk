@@ -9,6 +9,19 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.23.24
+### Updated Features
+* improved driver’s license auto-capture feature.
+* updated OpenCV XCFramework to version 4.13.0.
+* added handling for multiple-face detection errors.
+* added support for Liquid Glass UI.
+
+### Bug Fixes
+* fixed issues related to the active liveness feature.
+* fixed language translation issues.
+* fixed issue related to face detection error
+* fixed issues related to face detection errors.
+
 # Version 3.23.23
 
 ### Updated Features

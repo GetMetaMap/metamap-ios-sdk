@@ -426,6 +426,7 @@ extension MetaMapSDK.SocketEngineWebsocket {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class TransparentNavigationController : UIKit.UINavigationController {
   @_Concurrency.MainActor @preconcurrency public var statusBarStyle: UIKit.UIStatusBarStyle
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency public static func applyMetaMapBarAppearance(to controller: UIKit.UINavigationController)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredStatusBarStyle: UIKit.UIStatusBarStyle {
     @objc get
