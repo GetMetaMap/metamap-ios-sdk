@@ -9,6 +9,10 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.23.25
+### Updated Features
+* updated Incode framework
+
 # Version 3.23.24
 ### Updated Features
 * improved driver’s license auto-capture feature.
