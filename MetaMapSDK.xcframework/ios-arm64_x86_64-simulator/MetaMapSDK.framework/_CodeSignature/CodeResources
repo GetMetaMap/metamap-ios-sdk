@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Wj+2NhquJSA6NXLL39vXn4NAlzI=
+		f1NxMDYCPVXP5/UTpgyQRb/7YNg=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/uU2AEQbieon8xVtyMqvELuwcwE=
+		gEakUS9vjYZQa/PRsP3keBh9pkk=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		2avuqZeJAgoXVl8VCa6DctsXxR0=
+		t30ukcbwZihpC6yEWR6TZ44jzSo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -337,7 +337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4gE52Ool520olygHGRq+x5TnLpwFTXNPY1R+hLrkyq8=
+			EwgT2Iiiwoo7vIWSAvNe4z/DsCMIbJYglasH9eL+ikE=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -603,7 +603,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4w+ndzweK3P/BjH0evYYnKfAIz5ApbnRU/hApsC88ss=
+			CeNZviZ9y7DXXWCdRcu9sZ1zwesY34ixmOLioAgLEmM=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -638,7 +638,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8ZL/QcxA478YZZR/DJ1IMEuXJg/Gdwg5ZgaOR934R9Q=
+			8/YgRJ3MDG/oadanyyUkXzg2fL4phY4uwqyhNsHAxjQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
