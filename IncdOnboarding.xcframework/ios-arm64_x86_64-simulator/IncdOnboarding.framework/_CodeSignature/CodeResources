@@ -22,7 +22,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		eWrWhX1d9kzVkkZVahQfweBy5gs=
+		Sbj0w4LfKWWUArwVTDRHCI0vY8U=
 		</data>
 		<key>BarcodeScan.storyboardc/BarcodeScanViewController.nib</key>
 		<data>
@@ -62,35 +62,7 @@
 		</data>
 		<key>BiometricConsent.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		i8ve5QjnGzbRfS3hi29iOq0xGJM=
-		</data>
-		<key>CURPValidation.storyboardc/8NT-qQ-xLz-view-XB8-wU-KEx.nib</key>
-		<data>
-		iXXYosXxrC95oinOQpKL6fnenuM=
-		</data>
-		<key>CURPValidation.storyboardc/CURPValidationViewController.nib</key>
-		<data>
-		V14EWBuao0G9OTNlh8Q4Q5o7dOw=
-		</data>
-		<key>CURPValidation.storyboardc/EnterCURPDataViewController.nib</key>
-		<data>
-		/jc2JUHK8hqcFqTKdV7I+eFEgBk=
-		</data>
-		<key>CURPValidation.storyboardc/EnterCURPViewController.nib</key>
-		<data>
-		/RJ8FCzI4f3WFkRk0M1vqy9kpYE=
-		</data>
-		<key>CURPValidation.storyboardc/Info.plist</key>
-		<data>
-		K3gbe+4UZKWeybGLgsP0/aoFl3Y=
-		</data>
-		<key>CURPValidation.storyboardc/q20-pl-ZAe-view-BOH-Ga-tXs.nib</key>
-		<data>
-		FqD2x8chFkmdbCrtu3prah2qHuw=
-		</data>
-		<key>CURPValidation.storyboardc/qrc-9y-oZ2-view-aEU-LV-t0b.nib</key>
-		<data>
-		gjcwvPPXKWppJ45V8BNCfpHYR8w=
+		NAcQGXp/E9Mc2dz6Yo0P4mh0GfU=
 		</data>
 		<key>CameraMessageView.nib</key>
 		<data>
@@ -110,7 +82,7 @@
 		</data>
 		<key>ChatAccessoryView.nib</key>
 		<data>
-		YEY5MWPWczojRZQ8lX4J84WpFAc=
+		Ca1v88acDu/ilesJLUd6ImSPgsI=
 		</data>
 		<key>CircularXXTT-Black.ttf</key>
 		<data>
@@ -138,11 +110,15 @@
 		</data>
 		<key>CombinedConsents.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		QI5JnzzG0T/KU7NYcaKAo3TvpoM=
+		La04LMZXAETyjSTON0HBuwTp5ag=
 		</data>
 		<key>ConsentCheckBox.nib</key>
 		<data>
-		40AkHu6XF6L969gpUeJ4KZLEAes=
+		PRQc4qRW6kNURzab9snG+QuZSyc=
+		</data>
+		<key>DMSans-VariableFont.ttf</key>
+		<data>
+		vZEoWMD4iHwBpWsJ5rHKHPgUGO4=
 		</data>
 		<key>DynamicForm.storyboardc/DynamicFormViewController.nib</key>
 		<data>
@@ -160,69 +136,9 @@
 		<data>
 		G2LJ2qHO8xtRMpBC5uFd1SymTpQ=
 		</data>
-		<key>EnvironmentView.nib</key>
+		<key>FaceEnrollmentController_Diagram.md</key>
 		<data>
-		p8fhe/I0yLDt3Ye5z48X7MDKgdY=
-		</data>
-		<key>FullscreenFeedback.storyboardc/AcD-a7-fjf-view-uaq-FO-tGv.nib</key>
-		<data>
-		y9ZpMaAI54leNIC9/ybXrRuIZF8=
-		</data>
-		<key>FullscreenFeedback.storyboardc/FullscreenFeedbackVC.nib</key>
-		<data>
-		Y9BFXvR7hRv8Lz8Ukr2b8EjRgxg=
-		</data>
-		<key>FullscreenFeedback.storyboardc/Info.plist</key>
-		<data>
-		uDCT2PupVjvYscpZrHXmMny+cpU=
-		</data>
-		<key>GDOLConsent.storyboardc/GDOLConsentViewController.nib</key>
-		<data>
-		jmwRfmJojarNBt7r80Psp0WEN4w=
-		</data>
-		<key>GDOLConsent.storyboardc/Info.plist</key>
-		<data>
-		0Nzq7z4mePLrnjHAYSr74n1cCv0=
-		</data>
-		<key>GDOLConsent.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<data>
-		QcjQdRCQ9gyOaAPPxwaCm1j1158=
-		</data>
-		<key>GDOLFaceMatchResult.storyboardc/Info.plist</key>
-		<data>
-		14xyfy9OKMFbaM6kRkHag8JB6Fk=
-		</data>
-		<key>GDOLFaceMatchResult.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<data>
-		MECUS1kWciJkjA00r2ZG/J3bY3I=
-		</data>
-		<key>GDOLFaceMatchResult.storyboardc/faceMatchResult.nib</key>
-		<data>
-		3hjeWCPSGiiH/iNqJhqLpRArHx8=
-		</data>
-		<key>GDOLOnboardingDeviceSelector.storyboardc/GDOLOnboardingDeviceSelectorViewController.nib</key>
-		<data>
-		Y1G22sIAHPr75TUFKWBmxJsO5c4=
-		</data>
-		<key>GDOLOnboardingDeviceSelector.storyboardc/Info.plist</key>
-		<data>
-		HIwk5NXyhb9fvtblkczSYPvNwJI=
-		</data>
-		<key>GDOLOnboardingDeviceSelector.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<data>
-		pKTZxTUOjgFs2szNy9Tn852kz8I=
-		</data>
-		<key>GDOLOnboardingPhone.storyboardc/GDOLOnboardingPhoneViewController.nib</key>
-		<data>
-		uJh7MlsJ080/XWsh9BYkRE71+gU=
-		</data>
-		<key>GDOLOnboardingPhone.storyboardc/Info.plist</key>
-		<data>
-		W69VKzVy843J+fubKdxXAgiB3Fs=
-		</data>
-		<key>GDOLOnboardingPhone.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<data>
-		mqZi4N0PzIWeLD2Cup9xKJxWMCs=
+		VfNSxoJKDem1OG8cI/JVZHrpou4=
 		</data>
 		<key>Geolocation.storyboardc/7zL-mF-hPG-view-8U0-p8-ZEx.nib</key>
 		<data>
@@ -262,11 +178,11 @@
 		</data>
 		<key>Headers/IncdOnboarding-Swift.h</key>
 		<data>
-		G4DBTivkpEI4WtcykaaosmyabvI=
+		cPGnV+bKwn+pGvuQ3Ndn1shsNAM=
 		</data>
 		<key>IDResults.storyboardc/2d5-ny-JCN-view-hUC-vS-qfh.nib</key>
 		<data>
-		dyhc8mIETjchV5vXik+mJyq3cfY=
+		RdhPfjhFeWs2PDpFnDzDYUecDfw=
 		</data>
 		<key>IDResults.storyboardc/IDResultTable.nib</key>
 		<data>
@@ -286,7 +202,7 @@
 		</data>
 		<key>IDResults.storyboardc/yOX-EL-OrE-view-PRZ-qY-4zU.nib</key>
 		<data>
-		c+yUge24iUe+ym5LOv9XTcF/xU8=
+		ErAh5U8aiFIbapFja3W3M5Tx9Zg=
 		</data>
 		<key>IDTutorialPage.nib</key>
 		<data>
@@ -306,11 +222,11 @@
 		</data>
 		<key>IdCapture.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		jZLchU04el9DqR2NIVGwKJ3cAS8=
+		4/Oj4QnRrzV1dH/0eFaYnk8u7Mg=
 		</data>
 		<key>IdCapture.storyboardc/ICa-h3-aPU-view-0qx-6d-D8N.nib</key>
 		<data>
-		Jfjuj+bzfoxNes7X04HIfBczApA=
+		B47BnXsgDiPD1+B0fmjSPQQWrWk=
 		</data>
 		<key>IdCapture.storyboardc/IDCaptureHelpViewController.nib</key>
 		<data>
@@ -338,7 +254,7 @@
 		</data>
 		<key>IdCapture.storyboardc/dRn-SH-Les-view-MXS-SR-VcD.nib</key>
 		<data>
-		uEtZhkX0wVZYu2Z8faS8DYlDBn4=
+		dVoX5KL4KJ3hT7VpY6O/BLN8Ofk=
 		</data>
 		<key>IdProcess.storyboardc/ER2-Ap-hFt-view-1M5-01-5t7.nib</key>
 		<data>
@@ -358,7 +274,7 @@
 		</data>
 		<key>IdProcess.storyboardc/RCs-iH-1FR-view-6PP-Np-bfd.nib</key>
 		<data>
-		V7P0X5riGiGliz4XOaHrLO0dvYY=
+		0f+EdI5Umqx2VqSXOrCE9yfP3Nw=
 		</data>
 		<key>IdTutorials.storyboardc/8SP-vy-zU4-view-eaR-6X-nNr.nib</key>
 		<data>
@@ -418,7 +334,7 @@
 		</data>
 		<key>IdTypeChooser.storyboardc/v1h-mg-Flg-view-Ksb-V2-hNB.nib</key>
 		<data>
-		buVyzTK5iFKYb/RvQGhEIAXmSKA=
+		+xTZumgpzq/VAgXtW6pxk74xZOo=
 		</data>
 		<key>IdUpload.storyboardc/DocumentUploadIssueViewController.nib</key>
 		<data>
@@ -442,7 +358,15 @@
 		</data>
 		<key>IncdCameraView.nib</key>
 		<data>
-		a8x0qVfZgJvE36lX9JyZvbnGgFY=
+		Sj4aMjybDMF9vZhLUvV840lNsks=
+		</data>
+		<key>IncdLoginStorage.momd/IncdLoginStorage.mom</key>
+		<data>
+		umYZAHBFEIdhiR3IBej4r6U5uK0=
+		</data>
+		<key>IncdLoginStorage.momd/VersionInfo.plist</key>
+		<data>
+		TSJhFTFs3yPna1Qu7fmbOsFrOoE=
 		</data>
 		<key>IncdNumericKeypad.nib</key>
 		<data>
@@ -450,11 +374,11 @@
 		</data>
 		<key>IncdOnboardingStorage.momd/IncdOnboardingStorage.mom</key>
 		<data>
-		aqdufqf7JUbapAVd6a3zK6puDpg=
+		SyskpcZPWZ0PZSWyGBnM28R/TNg=
 		</data>
 		<key>IncdOnboardingStorage.momd/IncdOnboardingStoragev2.mom</key>
 		<data>
-		xXU7v88lgxGj05rBihG6diBFOq0=
+		BKVwtVUckZqlpx3GzY5kDFeLE+k=
 		</data>
 		<key>IncdOnboardingStorage.momd/IncdOnboardingStoragev2.omo</key>
 		<data>
@@ -466,7 +390,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PUbAnc8eucpc+E5PsDId5hiEtNY=
+		tjbTTfBqEJDIWPWqdQBEplWWUT4=
 		</data>
 		<key>Interview.storyboardc/3Gj-zV-BeN-view-hoQ-1q-1Lr.nib</key>
 		<data>
@@ -508,49 +432,9 @@
 		<data>
 		tAo2WvcPhY9zQb/3g4LBvbgLBH4=
 		</data>
-		<key>KioskIDScan.storyboardc/7FG-9n-M1q-view-ziD-2w-0AI.nib</key>
+		<key>LICENSE</key>
 		<data>
-		ce2+SeWL2KvjQGIJ8kA/+v25xS8=
-		</data>
-		<key>KioskIDScan.storyboardc/7gw-op-ZtL-view-i5h-Oe-yOF.nib</key>
-		<data>
-		5/q93NZBQXRHxeEh/cn+S+++j7w=
-		</data>
-		<key>KioskIDScan.storyboardc/Info.plist</key>
-		<data>
-		5mHV/J37ODfHZmJn7iEuWDXPtiU=
-		</data>
-		<key>KioskIDScan.storyboardc/STGIDCameraViewController.nib</key>
-		<data>
-		CHM5Ig3ypVfFBq5vdyPcLCd6gos=
-		</data>
-		<key>KioskIDScan.storyboardc/STGIDCaptureViewController.nib</key>
-		<data>
-		/i7VaDuRbrTrv0YuFV4/h1qLHdY=
-		</data>
-		<key>KioskIDScan.storyboardc/UIViewController-7FG-9n-M1q.nib</key>
-		<data>
-		5Wgio0e1yW+9KCPXRofed1NPQCM=
-		</data>
-		<key>KioskIDScan.storyboardc/UKs-NO-bCH-view-ZLZ-dW-4Hf.nib</key>
-		<data>
-		7s/sv6cIKreUQPp9RfKO80ZeUKQ=
-		</data>
-		<key>KioskSelfie.storyboardc/Info.plist</key>
-		<data>
-		42HKl7ZdSuGdXTT4hVC7A53hVCg=
-		</data>
-		<key>KioskSelfie.storyboardc/KioskIdentifyFaceViewController.nib</key>
-		<data>
-		I76L/SvnTHIUi15pbgT48PaRhbg=
-		</data>
-		<key>KioskSelfie.storyboardc/UIViewController-hRu-pC-xQr.nib</key>
-		<data>
-		QbcFZxPtWcolTCMVHAcAcvVn0pc=
-		</data>
-		<key>KioskSelfie.storyboardc/dfh-KD-5Ye-view-SEp-rD-x5v.nib</key>
-		<data>
-		MxxfolXtob4xNnapfG5wZPvXQXk=
+		F6LTl+RBugQ3i5tHJ0u0h632bEQ=
 		</data>
 		<key>MLConsent.storyboardc/Info.plist</key>
 		<data>
@@ -562,7 +446,7 @@
 		</data>
 		<key>MLConsent.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		CjF54CQfl8MRfptutpDS6Nc7r+k=
+		cPhvUZTdCAE7EPaCuSPFyB2LPcQ=
 		</data>
 		<key>Match.storyboardc/81c-Ra-9tu-view-U9N-hq-vKd.nib</key>
 		<data>
@@ -586,51 +470,51 @@
 		</data>
 		<key>Match.storyboardc/W06-Zv-u1i-view-bRw-CB-0fM.nib</key>
 		<data>
-		w3GpsBJIbVtlFRm7tvCqF86e4kQ=
+		lwGZ3gx2qn1y8mB7NNq6PShTgUk=
 		</data>
 		<key>Match.storyboardc/jca-Zw-Pxm-view-b2E-H0-6Gz.nib</key>
 		<data>
-		vaL8KwTfVFv1kEmIdgOwCR3dZRU=
+		EW2dTnlhQv/zOVOH1Z2UrCW4H6Q=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		oZ41HmcS1uJstjoB+gkhoYeuPHk=
+		r1OmlWpah1CxLaiec5Tl0FZPZBY=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		HHHhB7hREChCFF/Vb7bcd3ZzYZI=
+		iw5rfI2EBIhB+1Vm9+dFFbJAP58=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		/k5piF40OqnAUo3RHb5q6+O9wjA=
+		yA9j5Msaz4zIagzi0Kd+lBndjBE=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		HHHhB7hREChCFF/Vb7bcd3ZzYZI=
+		iw5rfI2EBIhB+1Vm9+dFFbJAP58=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QCcNMObLcoJVvt3h49Jbs9Vg5Bg=
+		ym1xn9ryNf8eNDcbhgSSLfEEiX4=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		oZ41HmcS1uJstjoB+gkhoYeuPHk=
+		r1OmlWpah1CxLaiec5Tl0FZPZBY=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		FfT1gTAeBmWYVConXCSFzQ3yk3w=
+		kWodlj0inRFJggCsZm55FXxXDko=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		N57ccs5P6nrWPdXenaloe95SgkA=
+		cFS+h3l3CjglMgyBCtz7BlegT68=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		FfT1gTAeBmWYVConXCSFzQ3yk3w=
+		kWodlj0inRFJggCsZm55FXxXDko=
 		</data>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aXP+getTfNAoPyBMRRx9PjRhd6I=
+		YL4EeWVVfH2t0SouTA7QVNexZt8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -658,19 +542,19 @@
 		</data>
 		<key>OTPVerification.storyboardc/Info.plist</key>
 		<data>
-		VNNQJdsLVO2kuw18GCUYKn9cqRk=
+		6SdbW2u/5zvxHIkHaZcpTgys/M8=
 		</data>
-		<key>OTPVerification.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
+		<key>OTPVerification.storyboardc/OTPVerificationViewController.nib</key>
 		<data>
-		b43+R7qmw/9P49QjxezAnEba6n8=
+		e/YWE1vSGsJrw62eduGBm16oJkY=
 		</data>
 		<key>OTPVerification.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		ESgMbHGfYq0BAkH/+DPbLhVgZwQ=
+		u6cfFwHcoC19GDFFvjKy10TsmYk=
 		</data>
 		<key>Ocr.storyboardc/3cb-di-Ad2-view-FD7-J3-6wb.nib</key>
 		<data>
-		jz+qTWwavmaTfc5UOxG0i6QWNR8=
+		5uYu0nHkIBtMrafXL4LD28hbXT0=
 		</data>
 		<key>Ocr.storyboardc/EditOCRViewController.nib</key>
 		<data>
@@ -686,7 +570,7 @@
 		</data>
 		<key>PaperStatement.storyboardc/HS0-PD-ENY-view-4Tx-Yf-CFo.nib</key>
 		<data>
-		L3keCinqNgax3qz5zeDMtF6EEg0=
+		Dv+QbjJyFr4QO/Wukd/y11ffeX4=
 		</data>
 		<key>PaperStatement.storyboardc/Info.plist</key>
 		<data>
@@ -714,7 +598,7 @@
 		</data>
 		<key>PaperStatement.storyboardc/mnV-Fb-brJ-view-aHE-6g-qza.nib</key>
 		<data>
-		F88dO6J11/kchOutTIssuky1UYs=
+		z7bJWEUBYsCfIWVLg/sbluKML9g=
 		</data>
 		<key>Phone.storyboardc/EMV-FH-J8T-view-nQc-dL-t5E.nib</key>
 		<data>
@@ -734,7 +618,7 @@
 		</data>
 		<key>PhoneNumberMetadata.json</key>
 		<data>
-		/CMduWQJz6r6+wfKVz0YjU5HzMw=
+		I6U7yBDEUf2SIjXn5RWXx1iNX84=
 		</data>
 		<key>PrivacyInfo.xcprivacy</key>
 		<data>
@@ -754,7 +638,7 @@
 		</data>
 		<key>ProgressStepCell.nib</key>
 		<data>
-		0hP+8gXAs1X7shVICnB+at5cvJI=
+		z+NczztK7P3K7e5oFmyMYXpoIOk=
 		</data>
 		<key>QR.storyboardc/1pV-XG-NEc-view-d1T-q2-SRe.nib</key>
 		<data>
@@ -838,71 +722,7 @@
 		</data>
 		<key>UserConsent.storyboardc/Z7r-p8-3TW-view-tL2-DG-x0y.nib</key>
 		<data>
-		FvDcdVJZ3jhAfjrxiagFGK9XfvQ=
-		</data>
-		<key>UserInfo.storyboardc/Info.plist</key>
-		<data>
-		qwwM8+0X3t0BVs3kVqjpJrYcdgw=
-		</data>
-		<key>UserInfo.storyboardc/UIViewController-A0G-q5-3d4.nib</key>
-		<data>
-		S6KX0aFyEYLGFn6Dl/gYL5iRWBo=
-		</data>
-		<key>UserInfo.storyboardc/UserInfoViewController.nib</key>
-		<data>
-		0qRhvYKU+4T3U/77n/5z5bSLuOg=
-		</data>
-		<key>UserInfo.storyboardc/YFY-DV-g5g-view-hOe-Us-Utv.nib</key>
-		<data>
-		u53W4SyBq9G4UIJ63WXX0T/DYpU=
-		</data>
-		<key>UserNameInfo.storyboardc/Info.plist</key>
-		<data>
-		VNNQJdsLVO2kuw18GCUYKn9cqRk=
-		</data>
-		<key>UserNameInfo.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
-		<data>
-		7jN7CumbGgDnN5h7xrTINsJBM+Y=
-		</data>
-		<key>UserNameInfo.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<data>
-		uQ2dTI82AbBrNdas50J0Tm4Qcoc=
-		</data>
-		<key>VideoSelfie.storyboardc/Info.plist</key>
-		<data>
-		s2Ifvt/gjkCA/N4m+z2WnehkKrU=
-		</data>
-		<key>VideoSelfie.storyboardc/VideoSelfieAuthorizationViewController.nib</key>
-		<data>
-		iEnkktwOPJRczoMkY1GW90LZJW0=
-		</data>
-		<key>VideoSelfie.storyboardc/VideoSelfieTutorialViewController.nib</key>
-		<data>
-		2rkkES2bcKjHzMpDzsAGLNinetw=
-		</data>
-		<key>VideoSelfie.storyboardc/VideoSelfieUploadViewController.nib</key>
-		<data>
-		OjFAAhJf3/685n7QtZI9Cz+UBbQ=
-		</data>
-		<key>VideoSelfie.storyboardc/VideoSelfieViewController.nib</key>
-		<data>
-		3pm50l3mgDGoDWyJOafT2ZDc1+c=
-		</data>
-		<key>VideoSelfie.storyboardc/kay-qO-yk5-view-kaK-AR-gDh.nib</key>
-		<data>
-		MqqAvsqh9QZ6J8C1ZIVzvKIp+W4=
-		</data>
-		<key>VideoSelfie.storyboardc/pN2-go-plt-view-eCD-LL-PF4.nib</key>
-		<data>
-		Te+fXKcMJHWt7RcJD9H9kVJyCdM=
-		</data>
-		<key>VideoSelfie.storyboardc/pUv-c8-pug-view-Ivp-xI-FW7.nib</key>
-		<data>
-		DD7VRlRqR7P6chsTb0zfLdnJ0AE=
-		</data>
-		<key>VideoSelfie.storyboardc/xte-aQ-jMs-view-2Ll-la-WWl.nib</key>
-		<data>
-		wOYSMSRk3brv09PmokouPVy60lM=
+		8oRVYKYjeLwzq3N88jktCO1gS5g=
 		</data>
 		<key>VideoSelfieDocumentScan.storyboardc/Info.plist</key>
 		<data>
@@ -950,7 +770,7 @@
 		</data>
 		<key>VideoSelfieMain.storyboardc/kay-qO-yk5-view-kaK-AR-gDh.nib</key>
 		<data>
-		TArP4+AlDxeEtKtPnxaORpV/rbQ=
+		qJrHgBKktM9DZ8+TYNw1SmumUxQ=
 		</data>
 		<key>VideoSelfieMicrophonePermissionAsk.nib</key>
 		<data>
@@ -974,7 +794,7 @@
 		</data>
 		<key>VideoSelfieProcessing.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		GVlz4SdIO6bdBI8ZUj26AuIWbc4=
+		SZyfIhX0gQogTZnULWqioM4iV+o=
 		</data>
 		<key>VideoSelfieQuestions.storyboardc/IncdVideoSelfieQuestionsViewController.nib</key>
 		<data>
@@ -990,23 +810,11 @@
 		</data>
 		<key>VideoSelfieQuestionsAsk.nib</key>
 		<data>
-		c694AsR/HO801Q1/qETSCyKsI+U=
+		YzaRavezM1OPAKCrMSIUPqai8zo=
 		</data>
 		<key>VideoSelfieQuestionsError.nib</key>
 		<data>
 		6k8xND6R+UHdURB6trvwU+ZxRms=
-		</data>
-		<key>VideoSelfieQuestionsOld.storyboardc/Info.plist</key>
-		<data>
-		XQG18Of2e/Xze1EMomgi8Rv/XjA=
-		</data>
-		<key>VideoSelfieQuestionsOld.storyboardc/UIViewController-eud-q1-GFb.nib</key>
-		<data>
-		17zY21p8C+tukMy99Bw6npeCCEo=
-		</data>
-		<key>VideoSelfieQuestionsOld.storyboardc/eud-q1-GFb-view-8tn-ol-pxB.nib</key>
-		<data>
-		gQD3eFwucWUOne1lZWMdw8R1AbI=
 		</data>
 		<key>VideoSelfieQuestionsStart.nib</key>
 		<data>
@@ -1050,7 +858,7 @@
 		</data>
 		<key>VideoSelfieVoiceConsent.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		ovlEt+g+gOSGVFUM35UU3eXZbAQ=
+		ka1qXlkQ+yOvagBI4JPAppdQSlM=
 		</data>
 		<key>WatchlistValidation.storyboardc/2Fr-NB-OKD-view-1zh-FT-kru.nib</key>
 		<data>
@@ -1066,21 +874,38 @@
 		</data>
 		<key>all_countries_with_flags.json</key>
 		<data>
-		FA9ZsQdynuq4ClKG2OiJ4qwHzpY=
-		</data>
-		<key>bf_attrib_31b8f9d92fb345c2b4bbdd222792562c_0.zmlmodelv2</key>
-		<data>
-		n5KxoMicwlO15B7DtlUyDvoJKdo=
+		Y0Voc/c/V42kTAQkIDuvAacxzDM=
 		</data>
 		<key>brasil_state_codes.json</key>
 		<data>
 		om97mws5S3zdVQzzAFSxaAe330Y=
 		</data>
+		<key>chooserDigitalId.lottie</key>
+		<data>
+		1H/oiD86/LPuesQ7LbvVVNWmDFc=
+		</data>
+		<key>chooserId2.lottie</key>
+		<data>
+		ERniFtnUqVjWjWLhZNURKmE5iUE=
+		</data>
+		<key>chooserPass2.lottie</key>
+		<data>
+		Hmk7A3k9UilF/M+hvCwQQLccLU4=
+		</data>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xKUyTt8IDBhXiRa4GSkRhKuPZYI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			PmCNZf70zEs1cLd4IbtzjpqPUQE=
+			9KmzluRG5ej677AIRGigU5NSlXA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -1089,71 +914,160 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g+iHvn/YaTB+bosj85aOKP1ETAg=
+			fZqyceuIRCoFxFtI5kWa7PqdeQk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>id-processing.mp4</key>
+		<key>face_attributes_v1_3_f16.zmlmodelv2</key>
 		<data>
-		sOvFsc6bXkLOTdjvYNZlEdcE+xw=
+		sZ7TQshLMcqheKKXFuzR8Rub57Y=
 		</data>
-		<key>id_processing.json</key>
+		<key>face_occlusion_v0_2_f16.zmlmodelv2</key>
 		<data>
-		lyLBYWih8iYyk+aHMLnuNuDi/m0=
+		REOVSqugxncLBIvrVLTEo9zewio=
+		</data>
+		<key>he.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EZBD+6rKH+gdaUBWK1FR5EoMXjM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>id-processing.lottie</key>
+		<data>
+		cms79apcvIAPk5ZWprLykx8CQhI=
+		</data>
+		<key>id_back_scan_tutorial.lottie</key>
+		<data>
+		j01Es6CCoX2LtmZ1FVbuTKDVUZw=
+		</data>
+		<key>id_flip_to_back.lottie</key>
+		<data>
+		ip9SoKSXAcR+qjSCBt0lohl4Nao=
+		</data>
+		<key>id_processing.lottie</key>
+		<data>
+		YNesrTAK6tB/7k2BnvJWJYVsJqI=
+		</data>
+		<key>id_scan_tutorial.lottie</key>
+		<data>
+		rjyPfuCIUgxxmwexJ5Pn+0xZ3Qk=
 		</data>
 		<key>id_segmentation_v1_1_0_f16.zmlmodelv2</key>
 		<data>
 		/3og613NXr3dbiI1ec/XmggycAk=
 		</data>
+		<key>incdOnboarding.IDCapture.feedback.align.lottie</key>
+		<data>
+		xxvIWfrj+nd0vxvYNK5ODfeVkgo=
+		</data>
+		<key>incdOnboarding.IDCapture.feedback.blur.lottie</key>
+		<data>
+		sNYe5xIOvxEKkM1YdWBLrmsEFFc=
+		</data>
+		<key>incdOnboarding.IDCapture.feedback.glare.lottie</key>
+		<data>
+		PwIZ3zZZk/UEymtOikEvaJ/SCOs=
+		</data>
+		<key>incdOnboarding.IDCapture.feedback.showBack.lottie</key>
+		<data>
+		bCOCAFisO5C4sCgb0dXn7BsxV0c=
+		</data>
+		<key>incdOnboarding.IDCapture.feedback.showFront.lottie</key>
+		<data>
+		TEjcOJWvCwFp4yPJSqBsEX2YgRs=
+		</data>
+		<key>incdOnboarding.IDCapture.feedback.tooDark.lottie</key>
+		<data>
+		elplXRC0dmPoUWctV1eQb+j73p0=
+		</data>
+		<key>onboard_sdk_id_capture_laser_id.lottie</key>
+		<data>
+		SW5Q0SgbxzCaHwmK1mW6Z1BxB7w=
+		</data>
+		<key>onboard_sdk_id_capture_laser_id_vertical.lottie</key>
+		<data>
+		S6++dBd6BiIfWwY+UbRsagF0CF8=
+		</data>
+		<key>onboard_sdk_id_capture_laser_passport.lottie</key>
+		<data>
+		zclwKSpLX//xGQ/8Hga4vHPo9ec=
+		</data>
+		<key>onboard_sdk_id_capture_laser_passport_vertical.lottie</key>
+		<data>
+		pEMeBHvEiX51t0qo/ZYfxRUzrpU=
+		</data>
+		<key>passport_scan_tutorial.lottie</key>
+		<data>
+		bYn8Wj2H5/hSqIX4wgSGsOn/05s=
+		</data>
+		<key>proposed-controller-change.png</key>
+		<data>
+		HtyHGj1V/FUeBFawQ0oYKvrFGD0=
+		</data>
 		<key>pt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xj0I4VjhZdD/kE9NZ3bTaqjdcQY=
+			6XLCNCZqKL4yjHa1283+pgFDsCs=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>speaking_animation.json</key>
+		<key>selfieAlignmentTutorial.lottie</key>
 		<data>
-		iylv36yfDRfH2zbJhoLLlcgHp5Q=
+		8euWaZgI0z62ev4l1r3dDi6CpBY=
 		</data>
-		<key>spinner.json</key>
+		<key>selfie_quality_model_v1_0_fp16.zmlmodelv2</key>
 		<data>
-		ovDjhC6QEA6DDGDFXDcXOV4SaXM=
+		h1gtkfgluZxmMsiFqhcHEvCbfDY=
 		</data>
-		<key>tutorial_back.json</key>
+		<key>speaking_animation.lottie</key>
 		<data>
-		Wb4i2iAfKE2K3sZ3ty4KOh5E/no=
+		PObZi+GdX7zycV2neL77GvgF7Ss=
 		</data>
-		<key>tutorial_front.json</key>
+		<key>spinner.lottie</key>
 		<data>
-		ZHi+OKyfZ06qegs8iCXq+Hh7+m4=
+		i64dZ/ZJ5hjQiRlvLRj2Y3afs0Y=
 		</data>
-		<key>tutorial_front_id_camera_back.json</key>
+		<key>spinner_white.lottie</key>
 		<data>
-		fs4YV1EBz0ztP5fbqdcgfv7ZXdA=
+		8yeeDimWO8/O0Vv8zMlNfDsNnPY=
 		</data>
-		<key>tutorial_front_id_camera_front.json</key>
+		<key>tutorial_back.lottie</key>
 		<data>
-		NqRJzydPvYPLHqzjM8F34cN2vos=
+		o1RFptdzXWFEz0p1sDkTKLLj8OU=
 		</data>
-		<key>tutorial_passport.json</key>
+		<key>tutorial_front.lottie</key>
 		<data>
-		Phifg7gKfDupw5RsBPwv+My/gJw=
+		7IFa9skShrK1wnwOXkHEnvoP/9s=
 		</data>
-		<key>tutorial_qr.json</key>
+		<key>tutorial_front_id_camera_back.lottie</key>
 		<data>
-		SPsNZbIO4Wsux7q3yEVGXhB3Wqs=
+		OQoRGPxKEk/VV3spSRXnzexfFLE=
 		</data>
-		<key>tutorial_selfie.json</key>
+		<key>tutorial_front_id_camera_front.lottie</key>
 		<data>
-		fm+PMWVKJTuCSZag9Lway8uVkOk=
+		QwekONAq8j146kTVGUHHfXGH8Zs=
 		</data>
-		<key>tutorial_videoSelfie.json</key>
+		<key>tutorial_passport.lottie</key>
 		<data>
-		aqKY63EcgRIXSFATbu1epSnQsjs=
+		KZGqDO5L81eVKwOn82xwMiN41mI=
+		</data>
+		<key>tutorial_qr.lottie</key>
+		<data>
+		xObQtHFEAUO/ChGK1F4Li6B88bk=
+		</data>
+		<key>tutorial_selfie.lottie</key>
+		<data>
+		GwBSw6IKdJ3KaSL2q/bMx/pZt3E=
+		</data>
+		<key>tutorial_selfie_v2.lottie</key>
+		<data>
+		xdoXW/ynahFKpgG3NyqA2kSYLJE=
 		</data>
 		<key>us_state_codes.json</key>
 		<data>
@@ -1194,7 +1108,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pAJitWP9FMe+vVGxOB3n01i0z/Df2Fi5aF8RkBDpS80=
+			44zNOQwgK8FG97ycSR0eCs9dUuF4wUZbOnJZpH0t0vE=
 			</data>
 		</dict>
 		<key>BarcodeScan.storyboardc/BarcodeScanViewController.nib</key>
@@ -1264,56 +1178,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y1s+1FWYRfprmLXFZYlRbBXrGgk6rFeXIZf5zPU6bTo=
-			</data>
-		</dict>
-		<key>CURPValidation.storyboardc/8NT-qQ-xLz-view-XB8-wU-KEx.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yBJgtZNeBy7wnOeHnuaJH8w3fEsWld4WxnrPs+36u/E=
-			</data>
-		</dict>
-		<key>CURPValidation.storyboardc/CURPValidationViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			vnrCeVHK01SBJ0oln9eB2aRGaF1kg1cL6eqX1NM/6ok=
-			</data>
-		</dict>
-		<key>CURPValidation.storyboardc/EnterCURPDataViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MpIAEXQf/Fpl9AGQBUfBbvNRlnQ1+YyzUyedv667+OU=
-			</data>
-		</dict>
-		<key>CURPValidation.storyboardc/EnterCURPViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Om6fBGdKX3sioRHBKiofv5/sBnxKbrmVhCjbB2DEUdo=
-			</data>
-		</dict>
-		<key>CURPValidation.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Z4yiyTP6FuuzQGtm+iGmoE2qhI1dWAGWL/ukwAaInLk=
-			</data>
-		</dict>
-		<key>CURPValidation.storyboardc/q20-pl-ZAe-view-BOH-Ga-tXs.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lytw1FdM2jW7LFB2NSH8ORmPXpRSjEqP8mnJmJehjmk=
-			</data>
-		</dict>
-		<key>CURPValidation.storyboardc/qrc-9y-oZ2-view-aEU-LV-t0b.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			t9fk2/W5Eu1Xols2y92kDNydv4DQDgbecqeYq+/+KBo=
+			v/ztopUDIVNCgOBFY3j7f29zIFLnVjY/3IonEoJNeC4=
 			</data>
 		</dict>
 		<key>CameraMessageView.nib</key>
@@ -1348,7 +1213,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ga9fbgxlTFfTv4V2KTLHg4JPIPmY7YFbxz4xY6G+MIY=
+			zoj67PUiu+oynrvKEXaFQloyChJ6et2BiXA3roYUV/M=
 			</data>
 		</dict>
 		<key>CircularXXTT-Black.ttf</key>
@@ -1397,14 +1262,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J9PFZiDxSEeyhK92CcWnDevkBQnaUp8+f+rqd9huL7E=
+			G5MP+2aRmKbxd1+T8gvomrUd2qAd5mtCsVtm2Ul0xms=
 			</data>
 		</dict>
 		<key>ConsentCheckBox.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e8BAqVun59ubZ7sPHwnTMAAkRqgu60wNBciNkb59lB8=
+			aJHEicp4Fws1G72ttjDRXaJNLSdpMAOXc9D6Yp4l+t0=
+			</data>
+		</dict>
+		<key>DMSans-VariableFont.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ibsE3+I95g+V05JRpLY2j0Ea1DbSD9SLP9P6KKMBV64=
 			</data>
 		</dict>
 		<key>DynamicForm.storyboardc/DynamicFormViewController.nib</key>
@@ -1435,116 +1307,11 @@
 			BjH28EL5Xj8AOqMEXeba5rmLA57dTOX4odnxHubeDx8=
 			</data>
 		</dict>
-		<key>EnvironmentView.nib</key>
+		<key>FaceEnrollmentController_Diagram.md</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pGYYC9r83pfbuwIdhbzjOlHfZgik5+C+5FAMUZnFmpo=
-			</data>
-		</dict>
-		<key>FullscreenFeedback.storyboardc/AcD-a7-fjf-view-uaq-FO-tGv.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			X8+4J3YAKSf9IibM4WgYHC9RMZNCEpIUoZMnHiBl1dA=
-			</data>
-		</dict>
-		<key>FullscreenFeedback.storyboardc/FullscreenFeedbackVC.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6Z0BhfDUG+wNw+llL1XKH4XkA57FFiI6MPwUrV1CUfM=
-			</data>
-		</dict>
-		<key>FullscreenFeedback.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VHsBReER74vHRAlwwr2cRtEtRc46hAD/vpKD4f/1tkc=
-			</data>
-		</dict>
-		<key>GDOLConsent.storyboardc/GDOLConsentViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			saEHov/NVVr8qzcEUCayrG3w7ZKtEyiOP93GWZLFWks=
-			</data>
-		</dict>
-		<key>GDOLConsent.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NmJumbUreJdOZyoTiOtO5+bgTPmn6D6B408hqlBEm58=
-			</data>
-		</dict>
-		<key>GDOLConsent.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+3uVM16mT+9Yb+AUEbejOwJf95wjpCUZljYYKI7cJTQ=
-			</data>
-		</dict>
-		<key>GDOLFaceMatchResult.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D2Jogrt4EWEJM+6crcCqBy6gfDu5mvMRhIqugYes6YI=
-			</data>
-		</dict>
-		<key>GDOLFaceMatchResult.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cn6tQp3HUQ+5/MwW7bXy09JGjd0gxy8ap9mk5oTu4dw=
-			</data>
-		</dict>
-		<key>GDOLFaceMatchResult.storyboardc/faceMatchResult.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3MGsVp2NbVdp0IgIpFjF9DbKTp25PfJmzzE1zafttmM=
-			</data>
-		</dict>
-		<key>GDOLOnboardingDeviceSelector.storyboardc/GDOLOnboardingDeviceSelectorViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VlsIP6VUfT3sQ/++iR7aA7C3RdrYll+l/XOOSQUUltM=
-			</data>
-		</dict>
-		<key>GDOLOnboardingDeviceSelector.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fy1NrWHJMTl40WZaoNdbI3I/Md7DGW1DSbJeO/ukJjQ=
-			</data>
-		</dict>
-		<key>GDOLOnboardingDeviceSelector.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			If6engDA74XkZPNGrv9Bph1FxahXOvhMNlplDCCXz9k=
-			</data>
-		</dict>
-		<key>GDOLOnboardingPhone.storyboardc/GDOLOnboardingPhoneViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			erg+KHxZ/YPHEEYK9M2Qk8L85XmzHcIU2chqtHWtM3M=
-			</data>
-		</dict>
-		<key>GDOLOnboardingPhone.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			m4/3akjOm9Ap0xRmw1wnf3qlFQ1A8VhM82Et5cwjFo4=
-			</data>
-		</dict>
-		<key>GDOLOnboardingPhone.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			H8vbmMp7f8XC/4EvLtaANFtNh68xptQ+6I82ywyoWuo=
+			Hdsk8qynq8NXH+4AArAno8iBlL7WpiYN57iG8K84BV4=
 			</data>
 		</dict>
 		<key>Geolocation.storyboardc/7zL-mF-hPG-view-8U0-p8-ZEx.nib</key>
@@ -1614,14 +1381,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YU2PdjLHPcP6Srfv9J8v6ZJkoehpc7nPTKGvc0ShoxA=
+			sgjWiscCKyjbmAgfU98+st1Il3pEkRRFHfJnIZplgJ8=
 			</data>
 		</dict>
 		<key>IDResults.storyboardc/2d5-ny-JCN-view-hUC-vS-qfh.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			knmt8ngwO+VdRpsjvxlGiFmE5CeoMiza8y9g+i57FOU=
+			E0cbosqsmIc9Hb6PpFJjaKOYvUI5ORavSjoI2KenX4k=
 			</data>
 		</dict>
 		<key>IDResults.storyboardc/IDResultTable.nib</key>
@@ -1656,7 +1423,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a/tX0s3djnuQ2arVPexeC6Vpx35xE76hoF131sctEXo=
+			ggRibTXuwTD3rGE2H9FFOPrVLAj2I3LV8F8873pySWY=
 			</data>
 		</dict>
 		<key>IDTutorialPage.nib</key>
@@ -1691,14 +1458,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8WiQBiSoljdhHRd8wtPDvWz2HSXVPVpw+F0LuWwuWtY=
+			KA9hmF6J/IH1jvQNlkIwfgQ2KwBV1K5/Mlil82W823w=
 			</data>
 		</dict>
 		<key>IdCapture.storyboardc/ICa-h3-aPU-view-0qx-6d-D8N.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9AZwdQzP6LpcxRNUVu58HPEm7ZILa0rSizcAb9jaeeY=
+			7a6wD0lST5IlC4W//3pCaiP+jYxtDr1CGZEfyvPZ4Hs=
 			</data>
 		</dict>
 		<key>IdCapture.storyboardc/IDCaptureHelpViewController.nib</key>
@@ -1747,7 +1514,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tBEJ7cqZEOrjNLKEO5IYA2Y2HUxJvnocurhW/BefD8Q=
+			gDNn5dYjsRgLmwfHfcZXhPoJgiuBBmu+uryI1d2SX2U=
 			</data>
 		</dict>
 		<key>IdProcess.storyboardc/ER2-Ap-hFt-view-1M5-01-5t7.nib</key>
@@ -1782,7 +1549,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oMr/VZ8vKcO+wotvco7HZcgZoQey/2CANIfW6ojLYXM=
+			kfCiEmGMwf/UmeYXYBBLFbOG8+5bkOYiuTtWIQNvvEY=
 			</data>
 		</dict>
 		<key>IdTutorials.storyboardc/8SP-vy-zU4-view-eaR-6X-nNr.nib</key>
@@ -1887,7 +1654,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pQeLsnhEjOBc+tS3r7fZ027L8c/UGc+8wrATfmlUMjY=
+			AHXsDVCJXmNxRkcmHLecatga87EcoJ6YLvrB56nD4o8=
 			</data>
 		</dict>
 		<key>IdUpload.storyboardc/DocumentUploadIssueViewController.nib</key>
@@ -1929,7 +1696,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2NZRjOZBjtTT59Yaq7IQ9IGQi8wGLyFdqt0TRczX2s8=
+			QjUmU1dHWCL/c13J1T9ISQUSORaCse2IXaGLtxiXh6k=
+			</data>
+		</dict>
+		<key>IncdLoginStorage.momd/IncdLoginStorage.mom</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			imk4ZgXEg5Inpa0DvRZp5nUJlt7PXEkXtfiJsl6mRyU=
+			</data>
+		</dict>
+		<key>IncdLoginStorage.momd/VersionInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			22aQh45o68mlbjZ6HtQjFM8Qnf4IZJXRmK6dtt1N5AY=
 			</data>
 		</dict>
 		<key>IncdNumericKeypad.nib</key>
@@ -1943,14 +1724,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jF6qME6N3zJs71Pjo9SXKONu67m8GRxp0ZGKDMOC3kI=
+			gtiGaauAyR50wAvSQv0cbcZxFZWBpxGtm6NVQm7EDZI=
 			</data>
 		</dict>
 		<key>IncdOnboardingStorage.momd/IncdOnboardingStoragev2.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			odYcndgXQC4zHApMJo8t7nCycuOHXayiEeVQjeRjrfY=
+			CnGj2BcRuZS9AR9fFrqmcVDCi+VSO8fe7lIa3gi/Lhc=
 			</data>
 		</dict>
 		<key>IncdOnboardingStorage.momd/IncdOnboardingStoragev2.omo</key>
@@ -2037,81 +1818,11 @@
 			cuGk64/ZfFjvz7w/DidCp+hIPA9k3K2p80wrh7PRrh8=
 			</data>
 		</dict>
-		<key>KioskIDScan.storyboardc/7FG-9n-M1q-view-ziD-2w-0AI.nib</key>
+		<key>LICENSE</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			77frNH+BDUjDZrI61N6r3cHHEZXXtUOGOno+/M/ajFw=
-			</data>
-		</dict>
-		<key>KioskIDScan.storyboardc/7gw-op-ZtL-view-i5h-Oe-yOF.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KXGP1A0gMJl/vO1qS3NqFBLORobHJzsZA/ac/bT3P9E=
-			</data>
-		</dict>
-		<key>KioskIDScan.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eUSFsaleG0L2YW+kOCGFypeQb/p1PciCz0IDyLodMT8=
-			</data>
-		</dict>
-		<key>KioskIDScan.storyboardc/STGIDCameraViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			2IYIYuj5z0wfdoEQhN0Y+w1fCRY9xp1cVjxfJtLCkJo=
-			</data>
-		</dict>
-		<key>KioskIDScan.storyboardc/STGIDCaptureViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AvDHxteFAGt56yyKXFri1HZwAkbG/DeOuZb4mIl/oZ4=
-			</data>
-		</dict>
-		<key>KioskIDScan.storyboardc/UIViewController-7FG-9n-M1q.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hcWtxwrAY5Y47QgGMYqJSNPNxst1VpnkQOp/fw1ZpS4=
-			</data>
-		</dict>
-		<key>KioskIDScan.storyboardc/UKs-NO-bCH-view-ZLZ-dW-4Hf.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jUQVlGM/yMvbGHKhl5LemFWf6lE0DDxTkIXzKRKXD18=
-			</data>
-		</dict>
-		<key>KioskSelfie.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ommi7mBSNzcSKca1wB/VVE2VbIuuz9T+6QysE6eOEko=
-			</data>
-		</dict>
-		<key>KioskSelfie.storyboardc/KioskIdentifyFaceViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YiXncUg7Piq9Zo9cDsD4pZKl5zgGfCF3qE25MBsLreA=
-			</data>
-		</dict>
-		<key>KioskSelfie.storyboardc/UIViewController-hRu-pC-xQr.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tXErHa/r7mb1BMqBShivKRX1jUf7jm1qjvRB0rKxG9s=
-			</data>
-		</dict>
-		<key>KioskSelfie.storyboardc/dfh-KD-5Ye-view-SEp-rD-x5v.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BMB2qPezWiPl+u3ELSgwhoD+X3nLzqgS+Zs+UOVP6Ro=
+			Z1GBwD/BMCochVTAD3vpu0IMXbydzCATQzzsFEQT3gM=
 			</data>
 		</dict>
 		<key>MLConsent.storyboardc/Info.plist</key>
@@ -2132,7 +1843,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ONHJiDkFbxfE5Sibn9wgkCJrhin9Bv1FQzjY1lPbX2k=
+			HzlF2T4Z7FyCDkaFmfbCaco4gdVBUWfI9hZ0ieCnXkQ=
 			</data>
 		</dict>
 		<key>Match.storyboardc/81c-Ra-9tu-view-U9N-hq-vKd.nib</key>
@@ -2174,84 +1885,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dXQLBHlsNdRkc+7CX5Q2OHOxjH6Uef50aorjBetO6/I=
+			nBidDWUaHeTkVzIbYPwf+Kf+rN1ARXM9SgCjyZjkMD8=
 			</data>
 		</dict>
 		<key>Match.storyboardc/jca-Zw-Pxm-view-b2E-H0-6Gz.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PJ2LYdTApKexSPLanajWscR30MmnKTN5mda1AofWZz4=
+			ik/ZN8H+5OghAsTFJ+MGIx8zThQCa8YR3PDZGdtrRJk=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JvENO+5nw7iGRZeCpIpEg+SAsEKQ2ZyTwSIp2sV7h3A=
+			YiWvg8yDYXsMLf7eMpuL5DSXLhYyP8zbNiC4nldnBig=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xK0g28mUulVKDrhGHjniE4T8navcvpnOWb6z0O3q3c4=
+			aZxSY6aGLm6uAVK6N/+zm7/po/x5/IlxgOL0XdT2o0o=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2BoEyTt9Kjvns1/v6l+L1dKX3rndmbNALwwDR3fU3eg=
+			+tfg8E3PiUt8vH31h/oV6mGdU5TTWCtDHQqiJz38dmw=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xK0g28mUulVKDrhGHjniE4T8navcvpnOWb6z0O3q3c4=
+			aZxSY6aGLm6uAVK6N/+zm7/po/x5/IlxgOL0XdT2o0o=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JztrzwVGCRnNCcaFkCRGsbgudhPiDxJ4yLmlDm0erpA=
+			evTU9XucE6D5Vm8ODHDsTXAyPATct/dfKzltIardP3I=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JvENO+5nw7iGRZeCpIpEg+SAsEKQ2ZyTwSIp2sV7h3A=
+			YiWvg8yDYXsMLf7eMpuL5DSXLhYyP8zbNiC4nldnBig=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ovw3VckC2Olud0VzwoqERzITbiy+T4f/uKL5KZO9RLA=
+			m/OAXMQdczf3wNzDMKAW1satnaY85J2QvFR3bgmIWdE=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HE5c0yr0xfQSkaNyFJ67l4U9wbVDG7fDjyxMSdqgNms=
+			QQu9ohsiPypWW2IXPZAF3MQXn70HdRZP16e6iE0tD40=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ovw3VckC2Olud0VzwoqERzITbiy+T4f/uKL5KZO9RLA=
+			m/OAXMQdczf3wNzDMKAW1satnaY85J2QvFR3bgmIWdE=
 			</data>
 		</dict>
 		<key>Modules/IncdOnboarding.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			he3M41rcuxOWqmjYkLv/O/NsspWS4UL1ruWWhQwsGdg=
+			ZO2g8Jd7kwsM3UR7hkw8ysx8+x+qlCqVhYQcILt0wr4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2300,28 +2011,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T4UDtGUXhEjznR+mec/r4oAF7OaHbt1BoF21vWt8YUE=
+			+2dPGpOtxnNGULauwF6vZU6vx1KlucOlMFAcitAFefw=
 			</data>
 		</dict>
-		<key>OTPVerification.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
+		<key>OTPVerification.storyboardc/OTPVerificationViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nrxGxcR24MPuuTIxajEIr9CH+QJKtshoM9+DLhB2DOo=
+			pgRxascZvqeyPraxvuPbGsJ7fp/v62FEIsmcupIHP2o=
 			</data>
 		</dict>
 		<key>OTPVerification.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			96OFI9EMJRwtd9nFnIhX5Nh80xcu5VAsxq2R7jWMCDg=
+			rUWIH8Io5BjgjRoUbYV+JFdUcU4y0oUtPsYm7jl3QI0=
 			</data>
 		</dict>
 		<key>Ocr.storyboardc/3cb-di-Ad2-view-FD7-J3-6wb.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rhVONVfyFpDp2/yLUj4Fuq3Mzfvj78dPgDuTMEqe3is=
+			iGKVrxILDfruWNFR+HXk2uNvVvyMm0JravRhZNgUQPg=
 			</data>
 		</dict>
 		<key>Ocr.storyboardc/EditOCRViewController.nib</key>
@@ -2349,7 +2060,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VVrXRaOQOeIQlmJQbDYK0M1CCt5LlGedMK69FZ6IIOI=
+			E127r/bJTJjiqpmIm7ZdekmhR90oRSrLlXzkOv/yWck=
 			</data>
 		</dict>
 		<key>PaperStatement.storyboardc/Info.plist</key>
@@ -2398,7 +2109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p6+50vsiWoylvduOyCJ0K+kAIhVzL6B5XO9F7WoGKYk=
+			a4KoGyeRqoB6Qtq9io68L+j6eVXY835NkClECyy8gx4=
 			</data>
 		</dict>
 		<key>Phone.storyboardc/EMV-FH-J8T-view-nQc-dL-t5E.nib</key>
@@ -2433,7 +2144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9wVF6dsl2kO0TjgwWHvYgg0BeVU9oF68qMFCQgFWqsE=
+			kfRif9L0tSLtbVV5WajbRcR4Fa4/yOi3FJIUJlNcp00=
 			</data>
 		</dict>
 		<key>PrivacyInfo.xcprivacy</key>
@@ -2468,7 +2179,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xC+7f8ml+JQKCeStbt/rczm8gAZnK/lhbrOeV7ly/fc=
+			/D5KGJr/5gu/fnpIa0HWk9PY2UnpXybGD20O52NRfl4=
 			</data>
 		</dict>
 		<key>QR.storyboardc/1pV-XG-NEc-view-d1T-q2-SRe.nib</key>
@@ -2615,119 +2326,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QxAQIYrS35hwBNrG16uL8zteJEb+kooxJ6ymYM7+FyQ=
-			</data>
-		</dict>
-		<key>UserInfo.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TeD+f4y1lWyPy02tsJysBYzlwNqR9K1cgx/e5tsy2pw=
-			</data>
-		</dict>
-		<key>UserInfo.storyboardc/UIViewController-A0G-q5-3d4.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			W+a3zW07GREHIcSZVhWLF1ltlVWO7w7YXwelG0994No=
-			</data>
-		</dict>
-		<key>UserInfo.storyboardc/UserInfoViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			QbVoZ8nCOZxAdThJpPl2WYIiyoS7XA4eMRmdRGUWlv0=
-			</data>
-		</dict>
-		<key>UserInfo.storyboardc/YFY-DV-g5g-view-hOe-Us-Utv.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			D8DUkZWbzPZacjVAOuKJ6EVp701KclHJHSaEa3WaYjM=
-			</data>
-		</dict>
-		<key>UserNameInfo.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T4UDtGUXhEjznR+mec/r4oAF7OaHbt1BoF21vWt8YUE=
-			</data>
-		</dict>
-		<key>UserNameInfo.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fy0HNOTULKuwdvFX70Xs/tR7vMr67OFml/43N47MIos=
-			</data>
-		</dict>
-		<key>UserNameInfo.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GBxZ5OC0SsRlEYnKvhuylIQ2yMaUYj+r4CSKgvsLAwg=
-			</data>
-		</dict>
-		<key>VideoSelfie.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nZURtf0mVnyViAcCGGT87CShu7M1UlFO5qt1JNwE++w=
-			</data>
-		</dict>
-		<key>VideoSelfie.storyboardc/VideoSelfieAuthorizationViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			705cFT4jZF5HmvgsK6MhMT9UdvwPrepC8sszpNe/Ht8=
-			</data>
-		</dict>
-		<key>VideoSelfie.storyboardc/VideoSelfieTutorialViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G14aEvehK/I53ErZcgW6gUiC7QHrlF6bzR2VkF1OZ5c=
-			</data>
-		</dict>
-		<key>VideoSelfie.storyboardc/VideoSelfieUploadViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ybNzvi6bUOXbWpZvTAJP/XTWLNzQSRryNyIRq4g/jMs=
-			</data>
-		</dict>
-		<key>VideoSelfie.storyboardc/VideoSelfieViewController.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			io5bxIcDmAe8i2ofi5aporua/jnssxGOzqL9bxPqEOg=
-			</data>
-		</dict>
-		<key>VideoSelfie.storyboardc/kay-qO-yk5-view-kaK-AR-gDh.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gTSezSXpmkN97svMlZGaF5FIB/7zFvyTNHjY3+v3ncM=
-			</data>
-		</dict>
-		<key>VideoSelfie.storyboardc/pN2-go-plt-view-eCD-LL-PF4.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9m3j/Uxs140iFRW1y3SPHt/J4MPDuJYQBCtNgr2uMIc=
-			</data>
-		</dict>
-		<key>VideoSelfie.storyboardc/pUv-c8-pug-view-Ivp-xI-FW7.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BP9UL6Q5ncdprmO0/9faWTRWRUxYujcuI1goahDNaq0=
-			</data>
-		</dict>
-		<key>VideoSelfie.storyboardc/xte-aQ-jMs-view-2Ll-la-WWl.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0Ew9MSwTaXoBtumuuu+xEW5255xYoH3Dg6ZtJ92ZFis=
+			WEYAgGMB0uSAocwmX5AxtZd2Lqxyi0TLZ503cllBh/g=
 			</data>
 		</dict>
 		<key>VideoSelfieDocumentScan.storyboardc/Info.plist</key>
@@ -2811,7 +2410,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VRvZEafefUVvgdPA7o4m3BqRqn6wUV79PI5yoQ+FLco=
+			r3JMbqAlmuDnO0ABrWGZC9I+tE2C7ExO3hmZw+3ylrA=
 			</data>
 		</dict>
 		<key>VideoSelfieMicrophonePermissionAsk.nib</key>
@@ -2853,7 +2452,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/h44PFGcuDityUzqI2zXrDH+PIWZ6UGZpUM4LNGgzoI=
+			PEoi+W6wXfID03+bMN0/yfslYGnhxylCwouj5Yz2T+U=
 			</data>
 		</dict>
 		<key>VideoSelfieQuestions.storyboardc/IncdVideoSelfieQuestionsViewController.nib</key>
@@ -2881,7 +2480,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yXL/4VCkW2RcEl2rQmUhG8MIcbozuDPo4cXIh0qflT8=
+			aqEbtiNpvVB2lQ1xG97ayJeY+06Hokfk+XpbJe7+2p4=
 			</data>
 		</dict>
 		<key>VideoSelfieQuestionsError.nib</key>
@@ -2889,27 +2488,6 @@
 			<key>hash2</key>
 			<data>
 			+tTy26mI23cNZdxSjdcoY3gndk+swNySxR84asJ48yo=
-			</data>
-		</dict>
-		<key>VideoSelfieQuestionsOld.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			zoijPzV7s6o0H3/1sOgN+mF+Pv+7dkUq1Gxdf7C6EAQ=
-			</data>
-		</dict>
-		<key>VideoSelfieQuestionsOld.storyboardc/UIViewController-eud-q1-GFb.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kKyyl1veuP29e8Lew1hvhY2gJZx6aZc4rrIyPi10gRw=
-			</data>
-		</dict>
-		<key>VideoSelfieQuestionsOld.storyboardc/eud-q1-GFb-view-8tn-ol-pxB.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4Wv/MCBDG0DlWWIIGcCrNDLiYYdSOtsXiapCImn27fQ=
 			</data>
 		</dict>
 		<key>VideoSelfieQuestionsStart.nib</key>
@@ -2986,7 +2564,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UWdMMeRJNE1f7ST7Ku1gTsswih/TIZTujSo83xczaeM=
+			Wt13U03pBPvDD4sMPPwB20qWKKyFUG+mM9pK2ABCf4o=
 			</data>
 		</dict>
 		<key>WatchlistValidation.storyboardc/2Fr-NB-OKD-view-1zh-FT-kru.nib</key>
@@ -3014,14 +2592,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RKB0v4dCQOLQ1zwULYV7mubbrKxJ0/QtkE54tzzG+Bc=
-			</data>
-		</dict>
-		<key>bf_attrib_31b8f9d92fb345c2b4bbdd222792562c_0.zmlmodelv2</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jbldFmpm9o4nBRzurxJLEe3me0rGJFTSY5CR/WU27I0=
+			29ERBMmj8p0UEDeVS4iuhqUwzBxzck6Vmdqn+/QTWrU=
 			</data>
 		</dict>
 		<key>brasil_state_codes.json</key>
@@ -3031,11 +2602,41 @@
 			ilzJV/5D+vAERjDWFsQfntIYj0FeedvW4JgUpC+nF7c=
 			</data>
 		</dict>
+		<key>chooserDigitalId.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lLGv6tc+fgAlW4rPxZPBwBD6pV0T3gm/BNJw46hew+Q=
+			</data>
+		</dict>
+		<key>chooserId2.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GKpsBN7qMG9eVvDwpq+FIZE7LNAuP7m9TLE1/fZ07ig=
+			</data>
+		</dict>
+		<key>chooserPass2.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6T0eWVfmKUnLnT0s1b/+Vp1uBz7Y5IUA3OLeldvdRVY=
+			</data>
+		</dict>
+		<key>de.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sPCC+b4s1p3GecZ4Ne0WsTAw8qIRTzh4GTIQLZn68B8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Syn50lWrFK2SWbzZusinsRpFBSBUR86GxuqYTZpz0kw=
+			NfpNU49GIcx4/bjuNYzkCGmvLeF/kvPeZXkyxgcsMxQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -3044,23 +2645,67 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ku3YbhdFXqkFX0VbzQOssF4HtrEqOD8mT4CFBV5i9VE=
+			EbkCDcUdgJinUCDvIkFtyLsS2WeUVnoqsC0Av9/6M68=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>id-processing.mp4</key>
+		<key>face_attributes_v1_3_f16.zmlmodelv2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mtid4AA9RoU8OtAv0RtBQXFgM2QYinwFv5cMgtp+Y1A=
+			tS7MnxFeq1l1C+EyGAzBOhGRhNsr+2ZSdi11mugLG/k=
 			</data>
 		</dict>
-		<key>id_processing.json</key>
+		<key>face_occlusion_v0_2_f16.zmlmodelv2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			87Boo5SED5yS5VuLU9x/0L2uIre1qJAdpYQA0Wg7Pzg=
+			x3Q23LXgqzBhK3AhUoPQ7ID3oBMGDa0rBq+bbZQwAlQ=
+			</data>
+		</dict>
+		<key>he.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jiAoWbrz1RbWyD3pesqLU/VSqpLJC6wzFingZ0gjzi0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>id-processing.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OnaxR63UeCCo9KZAJRht/mB3+2Gx7/7DpiluH3Ist/A=
+			</data>
+		</dict>
+		<key>id_back_scan_tutorial.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GZbWTT7dFFJKVnQpaR7r00WNUR4p+jazPwhi6U0GmlE=
+			</data>
+		</dict>
+		<key>id_flip_to_back.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QFLiyREyxgQlQ1ObQtx56geADbB8Ef7XoTzNPpi361A=
+			</data>
+		</dict>
+		<key>id_processing.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			plcAXDHZbTaNvGA1gF6tLCvQqlNtxa3UmRjO3yrB95I=
+			</data>
+		</dict>
+		<key>id_scan_tutorial.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+ATvJKt2zIK/9DIOg2k2S4xRUTvm0qxcmQzVbQ/5qCk=
 			</data>
 		</dict>
 		<key>id_segmentation_v1_1_0_f16.zmlmodelv2</key>
@@ -3070,83 +2715,188 @@
 			MBZmT+BOtI72WQXEJHKCGhkwVuvjSvXTQT83bYeVsyw=
 			</data>
 		</dict>
+		<key>incdOnboarding.IDCapture.feedback.align.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TZ0nj1e5YdvXZxBJmdXITuq39NkrfAk7Gew2ckslRvY=
+			</data>
+		</dict>
+		<key>incdOnboarding.IDCapture.feedback.blur.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7C/DkbbNIHtVvagYj7dkYlz7/bQQzvuZCWXzQEC0GMc=
+			</data>
+		</dict>
+		<key>incdOnboarding.IDCapture.feedback.glare.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			efKzYbXOGTVjV0HQtkNSZzSV1FPxxkpZeH42mgK7UkM=
+			</data>
+		</dict>
+		<key>incdOnboarding.IDCapture.feedback.showBack.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QyMVDZHmajY2o2geW9LXA5jyMc8Dl6Xpd4rBGQ6DsZY=
+			</data>
+		</dict>
+		<key>incdOnboarding.IDCapture.feedback.showFront.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1UL4euR84sLtm2N/nXJzIFD4B1u0u/UAr5DN/1D/5Qw=
+			</data>
+		</dict>
+		<key>incdOnboarding.IDCapture.feedback.tooDark.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Yr3ej1+tmYuA4lB4y3jZJfeCWdgp9DRY8I5cpeOg0DM=
+			</data>
+		</dict>
+		<key>onboard_sdk_id_capture_laser_id.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D2YRWpuN9kyhOJwmPRL0qKfYWIHpMPc4QCXHtZrAZWA=
+			</data>
+		</dict>
+		<key>onboard_sdk_id_capture_laser_id_vertical.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sY6GCDYiB7wlWh1OPVVou8DFSnU4Yjbrj+Bs6UK9dDM=
+			</data>
+		</dict>
+		<key>onboard_sdk_id_capture_laser_passport.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2NT8Xul/pX9/F6AXkxP6NSk4YPLCjpZidWBuVCRU/54=
+			</data>
+		</dict>
+		<key>onboard_sdk_id_capture_laser_passport_vertical.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oXPHpVDAX2KlGdkS3FCuJ+5LepAHRLlchtrExmiPp2Q=
+			</data>
+		</dict>
+		<key>passport_scan_tutorial.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9Lgh9LSxWXl19FSirsJikm4MkrGInLMRHLMwT30wKNM=
+			</data>
+		</dict>
+		<key>proposed-controller-change.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xgs2ZMdejvQfw838KbOwdG2/7DL9xF5+WgpnDnH9cuo=
+			</data>
+		</dict>
 		<key>pt.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LsrZa5x7+XqygPKQT25YDvmmiVme/Vbr/2hiB+NSAwg=
+			ItMAh30etJlcBkTXk8OWVRMeCtGCfgL7xLDaymXoSC4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>speaking_animation.json</key>
+		<key>selfieAlignmentTutorial.lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KJANJfcVdgqAQkwaTzkf5Uk17DZdOnpkTkaz716o2ok=
+			bzkH5wyisXzlY2BaUk4ZAtzP1zyLOVDNNKjN3jYsIuY=
 			</data>
 		</dict>
-		<key>spinner.json</key>
+		<key>selfie_quality_model_v1_0_fp16.zmlmodelv2</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k9QDlkbiZ3upO0vLuSwqXmTjg8hhxTBGdLHF08tI/LA=
+			L3dlDTufPTl8G5o5AXwbI6YlmZNMKtU1UHscXZL+dmc=
 			</data>
 		</dict>
-		<key>tutorial_back.json</key>
+		<key>speaking_animation.lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wyl8NKU2Qtj3o1LwgOzIzLz0QB0Of8FQd7mCcv+rF2I=
+			MpTT7Eqttb7vGXFroHoLqzQ4PRbrry16VogfkC6N+iA=
 			</data>
 		</dict>
-		<key>tutorial_front.json</key>
+		<key>spinner.lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n6kAjPAQkKQHtOVKM8h2hriPKviZE2GL8gDyfK1CRkA=
+			IOJU726ATL3tbtLvpm67yVJH+qD1XxbH/TmC6oaZZ4o=
 			</data>
 		</dict>
-		<key>tutorial_front_id_camera_back.json</key>
+		<key>spinner_white.lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6eWynJ/or/H0UYaT6A/MyYaFbNCjxc5no1NuKZhauY4=
+			tlxpQJz0igwQMN5QOr7SouUEvyUcqTBO6Wx2uzSellQ=
 			</data>
 		</dict>
-		<key>tutorial_front_id_camera_front.json</key>
+		<key>tutorial_back.lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pnCU6uXVevxrYDi5Uih8ITvLmwmSZx3U2StZ1HPAnLE=
+			uYNNp3WGTWQqJBMuEGjDnoVCN8tqKaOb3SSslOb+qDs=
 			</data>
 		</dict>
-		<key>tutorial_passport.json</key>
+		<key>tutorial_front.lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nwm4fwwHfPK0jwgN+0ytzPRAE0fly247jABERW1ABb0=
+			aCbgP5FBQHNlTPjKxpEQbnFz0phMFb+MjeBd9ueKePw=
 			</data>
 		</dict>
-		<key>tutorial_qr.json</key>
+		<key>tutorial_front_id_camera_back.lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cjyBDH/Wk8g7sdHlp/gd8F5PBUXNMBob915GgEmOcvg=
+			j7BmnGbln0CTymisRLoUtqUolPcFemlfn694JHH1QYg=
 			</data>
 		</dict>
-		<key>tutorial_selfie.json</key>
+		<key>tutorial_front_id_camera_front.lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			S4Hq4+9nyNJydpvi3RIri9NiFqGyIbEP5Kpu37Suu/M=
+			l89lR+eYWLE1vOXkIFwB5XLIWedURQ/h19jtCbAZ/Ns=
 			</data>
 		</dict>
-		<key>tutorial_videoSelfie.json</key>
+		<key>tutorial_passport.lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zrq5ZaVkfFH1TmHuGgLqoC3H4sMPRn8sDrXTbICorAo=
+			jfU2RV3Q/L2SulDnquqaOWfQLRLAR4gNFki3PCIhZYc=
+			</data>
+		</dict>
+		<key>tutorial_qr.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			oqX0q2UOinGEgYlkTpzPccG/e9JwVdym/N7yBYlmZcs=
+			</data>
+		</dict>
+		<key>tutorial_selfie.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V1OFaSYIm7MdK8FAM33z0zrEoXSRwuwz8hteHJllMvk=
+			</data>
+		</dict>
+		<key>tutorial_selfie_v2.lottie</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JUb1KoQR59jGX+cRG6Wx/ytlXWdXgtWC4OPDUh5nfzw=
 			</data>
 		</dict>
 		<key>us_state_codes.json</key>

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "IncdOnboarding"
-  spec.version      = "5.30.1-d-l"
+  spec.version      = "5.44.0-d"
   spec.summary      = "IncdOnboarding SDK"
   spec.homepage     = "https://github.com/IncodeTechnologies/"
   spec.license      = { :type => "CDDL-1.0", :text => <<-LICENSE

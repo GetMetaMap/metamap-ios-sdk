@@ -1,4 +1,5 @@
 [
+  {"code": "AC", "displayValue": "Ascension Island", "phonePrefix": "+247", "flagEmoji": "🇦🇨"  , "code3": "ASC"},
 {"code": "AF", "displayValue": "Afghanistan", "phonePrefix": "+93", "flagEmoji": "🇦🇫"  , "code3": "AFG"},
   {"code": "AX", "displayValue": "Åland Islands", "phonePrefix": "+358", "flagEmoji": "🇦🇽"  , "code3": "ALA"},
   {"code": "AL", "displayValue": "Albania", "phonePrefix": "+355", "flagEmoji": "🇦🇱"  , "code3": "ALB"},

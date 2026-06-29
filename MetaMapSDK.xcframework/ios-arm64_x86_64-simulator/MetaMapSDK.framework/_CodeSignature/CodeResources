@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		f1NxMDYCPVXP5/UTpgyQRb/7YNg=
+		p0oEClT/+8BDNQ29Hn6me/iDy80=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vPp/OLsOr8NyicmyKVMEvjYIBU8=
+		0eGMrF3FfR7PegXWMW68pVp8W94=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		9F/braNLaHzExCj9TSzrFvjulYA=
+		OOxPGCD4nsNkUBcCCCvyEab9EHo=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gEakUS9vjYZQa/PRsP3keBh9pkk=
+		paE3mdasbGa/dgc4z7gjX6I5QMU=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		9F/braNLaHzExCj9TSzrFvjulYA=
+		OOxPGCD4nsNkUBcCCCvyEab9EHo=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		t30ukcbwZihpC6yEWR6TZ44jzSo=
+		Q+EXaFlpCUcX7zxmxrlZjWwxIPE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -337,7 +337,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EwgT2Iiiwoo7vIWSAvNe4z/DsCMIbJYglasH9eL+ikE=
+			HK8LRj+2Pz8zU5CRoWnlTYc5mi5Zb/n9CbtLAey1MR4=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -575,7 +575,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			390MoxVAlBIaRpiIBDPR7CmpwQAt6SXddYoRzQGzE1w=
+			UX40VuBflJ9iPAfuWkD1UU634AFe7kN0xP5Z1bYHtNI=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -603,14 +603,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CeNZviZ9y7DXXWCdRcu9sZ1zwesY34ixmOLioAgLEmM=
+			FVzlxYpQ7IumXSXYQzNeVCI9V0y1NoSEJTyLgAhNXH4=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			390MoxVAlBIaRpiIBDPR7CmpwQAt6SXddYoRzQGzE1w=
+			UX40VuBflJ9iPAfuWkD1UU634AFe7kN0xP5Z1bYHtNI=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -638,7 +638,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8/YgRJ3MDG/oadanyyUkXzg2fL4phY4uwqyhNsHAxjQ=
+			ktwebXPKBGXxC6eI2cSaVD/Wg3xwOxqA/xI+9H/WQ1s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
