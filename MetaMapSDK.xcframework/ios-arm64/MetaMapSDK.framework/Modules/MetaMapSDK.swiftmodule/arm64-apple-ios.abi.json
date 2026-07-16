@@ -38319,6 +38319,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -42300,13 +42307,20 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "MetaMapSDK",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK"
       },
       {
         "kind": "Import",
@@ -60976,7 +60990,7 @@
       "kind": "StringLiteral",
       "offset": 293,
       "length": 9,
-      "value": "\"3.23.26\""
+      "value": "\"3.23.27\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/configuration\/metamap_config.swift",
@@ -62639,31 +62653,10 @@
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 641,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 711,
-      "length": 28,
-      "value": "\"metamap_button_open_camera\""
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewViewController.swift",
       "kind": "StringLiteral",
       "offset": 833,
-      "length": 8,
-      "value": "\"Record\""
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 942,
-      "length": 2,
-      "value": "12"
+      "length": 30,
+      "value": "\"metamap_button_record_selfie\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/coordinators\/coordinator.swift",
@@ -63221,42 +63214,56 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/LivenessCameraView.swift",
       "kind": "StringLiteral",
-      "offset": 44093,
+      "offset": 44162,
+      "length": 21,
+      "value": "\"livenessDemoAfrican\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/LivenessCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 44193,
+      "length": 5,
+      "value": "\"mp4\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/LivenessCameraView.swift",
+      "kind": "StringLiteral",
+      "offset": 44365,
       "length": 18,
       "value": "\"newLivenessVideo\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/LivenessCameraView.swift",
       "kind": "StringLiteral",
-      "offset": 44121,
+      "offset": 44393,
       "length": 5,
       "value": "\"mp4\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/LivenessCameraView.swift",
       "kind": "FloatLiteral",
-      "offset": 49950,
+      "offset": 50244,
       "length": 4,
       "value": "0.22"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/LivenessCameraView.swift",
       "kind": "FloatLiteral",
-      "offset": 49963,
+      "offset": 50257,
       "length": 4,
       "value": "0.70"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/LivenessCameraView.swift",
       "kind": "FloatLiteral",
-      "offset": 49975,
+      "offset": 50269,
       "length": 4,
       "value": "0.40"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/LivenessCameraView.swift",
       "kind": "IntegerLiteral",
-      "offset": 53074,
+      "offset": 53368,
       "length": 1,
       "value": "0"
     },
@@ -63717,87 +63724,17 @@
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 289,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 344,
-      "length": 9,
-      "value": "\"#FCC0B3\""
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 412,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "FloatLiteral",
-      "offset": 439,
-      "length": 3,
-      "value": "0.8"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 699,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
       "kind": "IntegerLiteral",
-      "offset": 733,
+      "offset": 6209,
       "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 920,
-      "length": 9,
-      "value": "\"#731805\""
+      "value": "30"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
       "kind": "IntegerLiteral",
-      "offset": 992,
+      "offset": 6238,
       "length": 2,
-      "value": "17"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1062,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1193,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "StringLiteral",
-      "offset": 1240,
-      "length": 9,
-      "value": "\"#731805\""
-    },
-    {
-      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/VoiceLivenessVerification\/PreviewScreen\/LivenessPreviewView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1315,
-      "length": 2,
-      "value": "17"
+      "value": "14"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
@@ -64082,70 +64019,77 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1456,
+      "offset": 1162,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1487,
+      "offset": 1500,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1568,
+      "offset": 1531,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1611,
+      "offset": 1612,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1642,
+      "offset": 1655,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1686,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1759,
+      "offset": 1803,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "StringLiteral",
-      "offset": 16666,
+      "offset": 16710,
       "length": 33,
       "value": "\"com.metamap.security.clientGate\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "StringLiteral",
-      "offset": 16736,
+      "offset": 16780,
       "length": 25,
       "value": "\"metamap.clientErrorCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "Array",
-      "offset": 23924,
+      "offset": 24068,
       "length": 351,
       "value": "[\"\/Applications\/Cydia.app\", \"\/Applications\/blackra1n.app\", \"\/Applications\/FakeCarrier.app\", \"\/Applications\/Icy.app\", \"\/Applications\/IntelliScreen.app\", \"\/Applications\/MxTube.app\", \"\/Applications\/RockApp.app\", \"\/Applications\/SBSettings.app\", \"\/Applications\/WinterBoard.app\"]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "Array",
-      "offset": 24334,
+      "offset": 24478,
       "length": 684,
       "value": "[\"\/Library\/MobileSubstrate\/DynamicLibraries\/LiveClock.plist\", \"\/Library\/MobileSubstrate\/DynamicLibraries\/Veency.plist\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/private\/var\/lib\/apt\", \"\/private\/var\/lib\/apt\/\", \"\/private\/var\/lib\/cydia\", \"\/private\/var\/mobile\/Library\/SBSettings\/Themes\", \"\/private\/var\/stash\", \"\/private\/var\/tmp\/cydia.log\", \"\/System\/Library\/LaunchDaemons\/com.ikey.bbot.plist\", \"\/System\/Library\/LaunchDaemons\/com.saurik.Cydia.Startup.plist\", \"\/usr\/bin\/sshd\", \"\/usr\/libexec\/sftp-server\", \"\/usr\/sbin\/sshd\", \"\/etc\/apt\", \"\/bin\/bash\"]"
     },

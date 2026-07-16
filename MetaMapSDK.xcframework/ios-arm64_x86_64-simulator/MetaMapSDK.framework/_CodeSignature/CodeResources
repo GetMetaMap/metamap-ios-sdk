@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		p0oEClT/+8BDNQ29Hn6me/iDy80=
+		n2JBoo67FvPFbdRInXVUL9ZrAQI=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/coremldata.bin</key>
 		<data>
-		u7dTcT6EHvDCn+nLcuHHimfhAaU=
+		41934MMSWIIcpJT/P9iwL5RO6js=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0eGMrF3FfR7PegXWMW68pVp8W94=
+		mP6jSmcBOv2fP7/FYb+75gFa1sw=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		OOxPGCD4nsNkUBcCCCvyEab9EHo=
+		0l2tEmBLUk2xHJ1NXYzu8RHYaxk=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -162,11 +162,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		paE3mdasbGa/dgc4z7gjX6I5QMU=
+		YfJGJMWAUMrRhQJLbnTNAtEl5+E=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		OOxPGCD4nsNkUBcCCCvyEab9EHo=
+		0l2tEmBLUk2xHJ1NXYzu8RHYaxk=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Q+EXaFlpCUcX7zxmxrlZjWwxIPE=
+		/QR6Hg+zAo9i/VzeNDGFjjXMKhM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -228,7 +228,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KNWxsYDy74ZxFuJ7jlttDA5PYg4=
+			x1+p23gp+/vxIFX2DKCwK5Dq114=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -237,7 +237,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QT+ZToXoN76rHL4pp7SpXP3po24=
+			EYzGVH3gc25hmtz84lYeu2P0TOk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -246,7 +246,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			e4nthx5ZfOU799Xs1a9T0HJ9CIQ=
+			/IeTv4lnyEikhoylVBw4QQbcorQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -255,7 +255,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IHaftZeg+oX94QjY76JY7e1hM8o=
+			dUe2rRifZqX5tXqsrDCEiJkcNaI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -264,11 +264,15 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			JaQl7Vd1NHgS/HXTZm2rW0l8qDQ=
+			zLfbLnoTrq2KvntrNZR5qKe9pLs=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>livenessDemoAfrican.mp4</key>
+		<data>
+		l5XBNmXO7/BbFMJc0jOWQkpORH8=
+		</data>
 		<key>loaderV0.9.gif</key>
 		<data>
 		sLJH48Fc1JUNDqYEAw1PwSkTQQY=
@@ -281,7 +285,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jh+eY0/qVZikq5Ytj8VCM51CioY=
+			1xygHa61YbxC9xJBBWeOdH9byj4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -290,7 +294,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rIMVA8Q5dKohRQORmQIFNaLAsQc=
+			eyqu34o2z+Idb41Qn1mAeznEmyI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -303,7 +307,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UmzdILzcbDmcuoPAdxTu7Nn6UYU=
+			jcZX3Sn7JDoFyJvNBtXl4ELQKMg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -312,7 +316,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rrwYE5ozB+OzFDnaX5aXrN3DRi4=
+			nlMI6S9iza4jJlnR7gR0Xv09BLQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -325,7 +329,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FF30OuMyExzof1TLtjovrt9ilMY=
+			iHMiHgdnxiQXd3Xpyt/1Ag60HQA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -337,7 +341,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HK8LRj+2Pz8zU5CRoWnlTYc5mi5Zb/n9CbtLAey1MR4=
+			deyeyBpCxIb9/7S/X6DiPzNsqaEdK4bwrh3msgNGlwE=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -351,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6U43GYQWOI9fw7ya31RwpX8N4Z2P/hwAvZfMlVYsrZc=
+			6LdgjD1+hejeOqowb/uS1ubJI/Z/Y6uLQaXQf6po//c=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
@@ -575,7 +579,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UX40VuBflJ9iPAfuWkD1UU634AFe7kN0xP5Z1bYHtNI=
+			VcFgyWbO22ACejFc9Ns4qZSV63fpII73oAFRo2efkIE=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -603,14 +607,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FVzlxYpQ7IumXSXYQzNeVCI9V0y1NoSEJTyLgAhNXH4=
+			k4CeffD4Q03FZ5Z57DKVjjevPVJ3pA+9D31Gss4FZnI=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UX40VuBflJ9iPAfuWkD1UU634AFe7kN0xP5Z1bYHtNI=
+			VcFgyWbO22ACejFc9Ns4qZSV63fpII73oAFRo2efkIE=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -638,7 +642,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ktwebXPKBGXxC6eI2cSaVD/Wg3xwOxqA/xI+9H/WQ1s=
+			7dzfJs2C6uQTHEyirJ/WL8kSMPgMUhuQu/9pNJhntVs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -715,7 +719,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MlctDsf4iBk+H4xswOaZsqlW007pVOc//AxowIWtoX4=
+			T9nryRmWx0n7nhKtxILLkOZYhRPgeTv2siXo9P0vOgM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -724,7 +728,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X9Din82YyynaMT/z2SJOHoCExcGM1Pzw93ZZFrJ6kW0=
+			I/UThQlcfRG7N5GN5aZvMsz+aUGBlP1lgRnKL4TYNGE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -733,7 +737,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MF00N2DR6FK2rIlG3sfEAknCKz0feexB9O+U+CW07TU=
+			PWRj3dyOHTetzKwKDOKzM2l77REzx4cY1H6JJPKZzGQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -742,7 +746,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			14qqDNyxcFoYbcqP22ROSxaXPlLmtHqfwhKL41GLU5A=
+			ZWNXndFAa2KiOqVGKgtlsmDAgy9dDOLg6Mf3/gw6T68=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -751,10 +755,17 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4flfNXuh84Jw39LdohndyI+Q50wpNb9xze1HV4c074=
+			9T98nEihp1kHEPKqu4ZxULKGlussRLbgFEDAKbq0qL4=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>livenessDemoAfrican.mp4</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Inq1o2A9K1pb5ky83I1+esmUdLQySF+vgNpRgvACSUw=
+			</data>
 		</dict>
 		<key>loaderV0.9.gif</key>
 		<dict>
@@ -774,7 +785,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KxCpgHVyXJM5F8ALVJBr1sCsjQTn3mAZWnNxqaavgbk=
+			ChuyGWxOrxNeStaeEZz4Emlu6kznh1G40CJydf13Hcs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -783,7 +794,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wXhhv86dHtTMYZN4sdNzkduiSAt3SKxA4/lIs33EHfI=
+			1THgZk2I0oO8viwogUUGNWiyIPVib4r8XvjH4hwwx8E=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -799,7 +810,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zx36wFoBtprjHuJHc7Yof2cnQPajQEZM+PgIx2lg4Q0=
+			edquqJF7mulkCjHyykL8xqQcTRcwFl+sFqAWUKjiRaw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -808,7 +819,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LPxYMX5D171Og1CPL6U5HYIDihGXSGW/gKXaMpS3ki0=
+			lHv5SpZbE44hP/CGbsV98bAYPpCiO5TZGQxlhlp+dO8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -824,7 +835,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TewmvUMwqW9/tzA2B/d5+SwZF4nha01rgGiyKtWfxis=
+			encWMHz+hK12ZJwmI3FS24KBDkECatw1ngvqsK/KrX8=
 			</data>
 			<key>optional</key>
 			<true/>
