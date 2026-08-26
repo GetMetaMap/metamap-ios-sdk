@@ -21,6 +21,7 @@ class RequestManager {
     
     private let socketManager = MetaMapSocketManager()
     private let apiManager = MetaMapApiManager()
+    private let apiRequest = MetaMapRequest()
 
     func subscribeReusage(event: @escaping () -> Void) {
         socketManager.reusageManager.subscribe {
@@ -196,15 +197,49 @@ class RequestManager {
             }
             return
         }
-        self.socketconnection(flowId: flowId, verificationId: verificationId, identityId: identityId, inputs: [], completion: completion)
+        reconnectVerification { [weak self] in
+            self?.socketconnection(flowId: flowId, verificationId: verificationId, identityId: identityId, inputs: [], completion: completion)
+        }
     }
     
-    func checkStatus(groupId: Int,
+    /// Ensures the `connection-data` input is present before (re)connecting the
+    /// verification socket. `onReady` is the "connect now" action:
+    /// - if the input is already accepted (status 200) it's called immediately;
+    /// - otherwise the input is (re)uploaded and `onReady` fires 2s after a
+    ///   successful upload.
+    func reconnectVerification(onReady: @escaping () -> Void) {
+        checkStatus(groupId: nil, inputId: "connection-data") { [weak self] _, response in
+            guard let self else { return }
+
+            // Connection-data already accepted — connect right away.
+            if response.status == 200  {
+                onReady()
+                return
+            }
+
+            // Otherwise (re)send the connection-data input, then connect after
+            // a short delay once the upload succeeds.
+            let inputData = SignatureUploadDataModel(inputType: "connection-data", signatureData: nil)
+            let targetType = MetaMapTargetType.uploadInput(type: inputData, data: nil)
+            self.apiRequest.makeRequest(targetType: targetType) { status, _ in
+                switch status {
+                case .success, .completed:
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                        onReady()
+                    }
+                case .error:
+                    break
+                }
+            }
+        }
+    }
+    
+    func checkStatus(groupId: Int?, inputId: String,
                      completion: @escaping (ResponseStatus,
                                             DocumentPhotoStatusResponse) -> Void) {
         
-        let apiRequest = MetaMapRequest()
-        let targetType = MetaMapTargetType.verificationStatus(groupId: groupId)
+
+        let targetType = MetaMapTargetType.verificationStatus(groupId: groupId, inputId: inputId)
         apiRequest.makeRequest(targetType: targetType) { [weak self] status, data in
             guard status == .success,
                   let rawData = data as? Data else {
