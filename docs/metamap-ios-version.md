@@ -9,6 +9,10 @@ category: 61ae8e8dba577a0010791480
 
 If you have an issue or ideas to improve MetaMap's iOS SDK, please look at our [issues](https://github.com/GetMetaMap/metamap-ios-sdk/issues) page to see if your issue has been reported or to add your own.
 
+# Version 3.23.29
+### Bug Fixes
+* fixed issue on the custom document verification flow
+
 # Version 3.23.28
 ### Updated Features
 * added default Phone Country Code & Phone Number via Metadata

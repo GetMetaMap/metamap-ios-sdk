@@ -241,8 +241,12 @@ class RequestManager {
 
         let targetType = MetaMapTargetType.verificationStatus(groupId: groupId, inputId: inputId)
         apiRequest.makeRequest(targetType: targetType) { [weak self] status, data in
+            let empty = DocumentPhotoStatusResponse(group: groupId, id: inputId, status: nil, retries: nil, data: nil)
             guard status == .success,
                   let rawData = data as? Data else {
+                DispatchQueue.main.async {
+                    completion(.error(error: nil), empty)
+                }
                 return
             }
             
@@ -258,6 +262,9 @@ class RequestManager {
             }
             catch {
                 print("❌ DocumentPhotoStatusResponse decode error:", error)
+                DispatchQueue.main.async {
+                    completion(.error(error: nil), empty)
+                }
             }
         }
     }
