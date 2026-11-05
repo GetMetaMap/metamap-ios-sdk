@@ -60,6 +60,11 @@ class RequestManager {
         })
     }
 
+    /// One automatic retry per upload: the media endpoint fails intermittently
+    /// and re-sending the same file usually succeeds.
+    private static let uploadRetryCount = 1
+    private static let uploadRetryDelay: TimeInterval = 1.5
+
     func uploadFile(fileData: FileUploadModelProtocol,
                     completion: @escaping (ResponseStatus) -> Void,
                     progressHandler: ((_ progress: CGFloat) -> Void)? = nil) {
@@ -69,7 +74,57 @@ class RequestManager {
             file.documentType = nil
             file.region = nil
         }
-        apiManager.uploadFileRequest(fileData: file, completion: completion, progressHandler: progressHandler)
+        uploadFile(fileData: file,
+                   remainingRetries: Self.uploadRetryCount,
+                   completion: completion,
+                   progressHandler: progressHandler)
+    }
+
+    private func uploadFile(fileData: FileUploadModelProtocol,
+                            remainingRetries: Int,
+                            completion: @escaping (ResponseStatus) -> Void,
+                            progressHandler: ((_ progress: CGFloat) -> Void)?) {
+        apiManager.uploadFileRequest(fileData: fileData, completion: { [weak self] status in
+            guard case .error(let error) = status,
+                  remainingRetries > 0,
+                  Self.isWorthRetrying(error) else {
+                // `MetaMapRequest` broadcasts `.uploadFailed` straight after
+                // this completion, so the flag has to be cleared first for the
+                // final failure to reach the screens.
+                MetaMapGlobalManager.instance.isRetryingUpload = false
+                completion(status)
+                return
+            }
+
+            MetaMapGlobalManager.instance.isRetryingUpload = true
+            MetaMapLogger.log("Upload of \(fileData.inputId ?? "input") failed – retrying automatically",
+                              tag: "MetaMapRequest",
+                              level: .warning)
+            DispatchQueue.main.asyncAfter(deadline: .now() + Self.uploadRetryDelay) {
+                self?.uploadFile(fileData: fileData,
+                                 remainingRetries: remainingRetries - 1,
+                                 completion: completion,
+                                 progressHandler: progressHandler)
+            }
+        }, progressHandler: progressHandler)
+    }
+
+    /// Only transient failures are retried. A rejected request (validation,
+    /// auth, an unusable document) fails identically on a second attempt, so
+    /// resending it would just delay the error the user needs to see.
+    private static func isWorthRetrying(_ error: NSError?) -> Bool {
+        guard let error else { return true }
+        // A chain the device refuses to trust is refused identically every
+        // time, so retrying only delays the screen that tells the user to
+        // switch off the intercepting network.
+        if MetaMapTLSDiagnostics.interception(from: error) != nil { return false }
+        if error.domain == NSURLErrorDomain { return true }
+        switch error.code {
+        case 408, 429, 500 ..< 600:
+            return true
+        default:
+            return false
+        }
     }
 
     func creditCheckSubmit(data: CreditCheck, completion: @escaping (ResponseStatus) -> Void) {
@@ -163,6 +218,25 @@ class RequestManager {
                                                 method: API.Path.wsVerificationFlow.value,
                                                 completion: completion)
         }
+    }
+
+    /// Re-opens the verification-flow socket for a verification that has
+    /// already been created. The loading screen's automatic retry uses this
+    /// instead of running the whole sequence again, because
+    /// `createVerification` only reconnects when the host app supplied the ids
+    /// in metadata and would otherwise create a second verification.
+    func retryVerificationSocket(completion: @escaping (Bool) -> Void) {
+        guard let flowId = MetaMapGlobalManager.instance.flowId,
+              let verificationId = MetaMapGlobalManager.instance.verificationId else {
+            completion(false)
+            return
+        }
+        socketManager.closewWsConnection()
+        socketconnection(flowId: flowId,
+                         verificationId: verificationId,
+                         identityId: MetaMapGlobalManager.instance.identity,
+                         inputs: [],
+                         completion: completion)
     }
 
     func createVerification(flowId: String,

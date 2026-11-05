@@ -35202,6 +35202,23 @@
       },
       {
         "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MetaMapSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -54987,197 +55004,204 @@
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 497,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 905,
+      "offset": 1107,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 950,
+      "offset": 1152,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1086,
+      "offset": 1288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1265,
+      "offset": 1467,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1299,
+      "offset": 1501,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "StringLiteral",
-      "offset": 1496,
+      "offset": 1698,
       "length": 37,
       "value": "\"metamap_label_touch_signature_title\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1606,
+      "offset": 1808,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1676,
+      "offset": 1878,
       "length": 2,
       "value": "25"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1800,
+      "offset": 2002,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "StringLiteral",
-      "offset": 1918,
+      "offset": 2120,
       "length": 39,
       "value": "\"metamap_label_touch_signature_message\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2036,
+      "offset": 2238,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2070,
+      "offset": 2272,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2130,
+      "offset": 2332,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2392,
+      "offset": 2594,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "FloatLiteral",
-      "offset": 2500,
+      "offset": 2702,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2628,
+      "offset": 2830,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "StringLiteral",
-      "offset": 2757,
+      "offset": 2959,
       "length": 11,
       "value": "\"clearIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2840,
+      "offset": 3042,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2849,
+      "offset": 3051,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2860,
+      "offset": 3062,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2870,
+      "offset": 3072,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2893,
+      "offset": 3095,
       "length": 1,
       "value": "7"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "StringLiteral",
-      "offset": 2920,
+      "offset": 3122,
       "length": 37,
       "value": "\"metamap_label_touch_signature_clear\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3013,
+      "offset": 3215,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3207,
+      "offset": 3409,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "StringLiteral",
-      "offset": 3265,
+      "offset": 3467,
       "length": 10,
       "value": "\"signIcon\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3456,
+      "offset": 3658,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/E-SignVerification\/DrawingSignature\/ESignDrawerController.swift",
       "kind": "StringLiteral",
-      "offset": 3526,
+      "offset": 3728,
       "length": 36,
       "value": "\"metamap_label_touch_signature_sign\""
     },
@@ -57977,294 +58001,301 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19361,
+      "offset": 19874,
       "length": 31,
       "value": "\"documentPhoto.countryMismatch\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19420,
+      "offset": 19933,
       "length": 26,
       "value": "\"documentPhoto.blurryText\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19474,
+      "offset": 19987,
       "length": 22,
       "value": "\"documentPhoto.noFace\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19524,
+      "offset": 20037,
       "length": 23,
       "value": "\"documentPhoto.cropped\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19575,
+      "offset": 20088,
       "length": 31,
       "value": "\"documentPhoto.croppedDocument\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19634,
+      "offset": 20147,
       "length": 29,
       "value": "\"documentPhoto.imageTooLarge\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19691,
+      "offset": 20204,
       "length": 29,
       "value": "\"documentPhoto.imageTooSmall\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19748,
+      "offset": 20261,
       "length": 30,
       "value": "\"documentPhoto.smallImageSize\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19806,
+      "offset": 20319,
       "length": 30,
       "value": "\"documentPhoto.unexpectedData\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19864,
+      "offset": 20377,
       "length": 26,
       "value": "\"documentPhoto.noDocument\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19918,
+      "offset": 20431,
       "length": 31,
       "value": "\"documentPhoto.identicalImages\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 19977,
+      "offset": 20490,
       "length": 29,
       "value": "\"documentPhoto.similarImages\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20035,
+      "offset": 20548,
       "length": 28,
       "value": "\"documentPhoto.sideMismatch\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20091,
+      "offset": 20604,
       "length": 27,
       "value": "\"documentPhoto.screenPhoto\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20146,
+      "offset": 20659,
       "length": 30,
       "value": "\"documentPhoto.grayscaleImage\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20204,
+      "offset": 20717,
       "length": 28,
       "value": "\"documentPhoto.typeMismatch\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20612,
+      "offset": 21125,
       "length": 29,
       "value": "\"documentPhoto.notClassified\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20669,
+      "offset": 21182,
       "length": 23,
       "value": "\"documentPhoto.badText\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20720,
+      "offset": 21233,
       "length": 22,
       "value": "\"documentPhoto.noText\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20770,
+      "offset": 21283,
       "length": 29,
       "value": "\"documentPhoto.missingFields\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20827,
+      "offset": 21340,
       "length": 24,
       "value": "\"documentPhoto.noPdf417\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20879,
+      "offset": 21392,
       "length": 25,
       "value": "\"documentPhoto.badPdf417\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20932,
+      "offset": 21445,
       "length": 21,
       "value": "\"documentPhoto.noMrz\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 20981,
+      "offset": 21494,
       "length": 22,
       "value": "\"documentPhoto.badMrz\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21031,
+      "offset": 21544,
       "length": 30,
       "value": "\"overriddenFields.wrongFormat\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21096,
+      "offset": 21609,
       "length": 30,
       "value": "\"documentPhoto.duplicateInput\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21155,
+      "offset": 21668,
       "length": 32,
       "value": "\"documentPhoto.occludedDocument\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21220,
+      "offset": 21733,
       "length": 30,
       "value": "\"documentPhoto.noTextDetected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21312,
+      "offset": 21825,
       "length": 20,
       "value": "\"selfiePhoto.noFace\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21364,
+      "offset": 21877,
       "length": 26,
       "value": "\"selfiePhoto.maskDetected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21422,
+      "offset": 21935,
       "length": 27,
       "value": "\"selfieVideo.multipleFaces\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21818,
+      "offset": 22331,
       "length": 25,
       "value": "\"selfiePhoto.doublefaces\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21875,
+      "offset": 22388,
       "length": 29,
       "value": "\"selfiePhoto.validationError\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21936,
+      "offset": 22449,
       "length": 28,
       "value": "\"selfiePhoto.duplicateInput\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 21999,
+      "offset": 22512,
       "length": 25,
       "value": "\"selfiePhoto.hatDetected\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 22047,
+      "offset": 22560,
       "length": 24,
       "value": "\"selfiePhoto.sunGlasses\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 22325,
+      "offset": 22838,
       "length": 20,
       "value": "\"selfieVideo.noFace\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 22391,
+      "offset": 22904,
       "length": 32,
       "value": "\"liveness.decision.result.retry\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 22475,
+      "offset": 22988,
       "length": 20,
       "value": "\"network.noInternet\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 22523,
+      "offset": 23036,
       "length": 17,
       "value": "\"network.timeout\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 22568,
+      "offset": 23081,
       "length": 14,
       "value": "\"server.error\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
       "kind": "StringLiteral",
-      "offset": 23033,
+      "offset": 23590,
+      "length": 33,
+      "value": "\"network.secureConnectionBlocked\""
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/error_pages \/metamap_errro_view_controller.swift",
+      "kind": "StringLiteral",
+      "offset": 24074,
       "length": 19,
       "value": "\"device.jailbroken\""
     },
@@ -61115,7 +61146,7 @@
       "kind": "StringLiteral",
       "offset": 293,
       "length": 9,
-      "value": "\"3.23.30\""
+      "value": "\"3.23.31\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/configuration\/metamap_config.swift",
@@ -61704,6 +61735,13 @@
       "offset": 468,
       "length": 2,
       "value": "50"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/metaMap_request\/metamap_tls_diagnostics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4193,
+      "length": 2,
+      "value": "30"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/supportFiles\/extensions\/notification_name.swift",
@@ -62996,77 +63034,105 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "StringLiteral",
-      "offset": 4224,
+      "offset": 4265,
       "length": 41,
       "value": "\"metamap_label_loading_your_verification\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "StringLiteral",
-      "offset": 4307,
+      "offset": 4348,
       "length": 31,
       "value": "\"metamap_label_connection_slow\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "IntegerLiteral",
-      "offset": 4387,
+      "offset": 4428,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "BooleanLiteral",
-      "offset": 4424,
+      "offset": 4465,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "IntegerLiteral",
-      "offset": 4476,
+      "offset": 4517,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "IntegerLiteral",
-      "offset": 4525,
+      "offset": 4566,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10023,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
+      "kind": "FloatLiteral",
+      "offset": 10075,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10289,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10326,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "StringLiteral",
-      "offset": 14853,
+      "offset": 18297,
       "length": 31,
       "value": "\"metamap_label_connection_slow\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "IntegerLiteral",
-      "offset": 14981,
+      "offset": 18425,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "IntegerLiteral",
-      "offset": 15030,
+      "offset": 18474,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "IntegerLiteral",
-      "offset": 15079,
+      "offset": 18523,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/loading_page\/metamap_loading_screen.swift",
       "kind": "BooleanLiteral",
-      "offset": 15116,
+      "offset": 18560,
       "length": 4,
       "value": "true"
     },
@@ -63869,6 +63935,20 @@
       "value": "14"
     },
     {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/requestManager\/requestManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2300,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/requestManager\/requestManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 2358,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/UI\/verifications\/screens\/StartScreen\/StartScreen.swift",
       "kind": "Array",
       "offset": 231,
@@ -64172,56 +64252,63 @@
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1612,
+      "offset": 1783,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1655,
+      "offset": 1864,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1686,
+      "offset": 1907,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1938,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1803,
+      "offset": 2055,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "StringLiteral",
-      "offset": 16988,
+      "offset": 17278,
       "length": 33,
       "value": "\"com.metamap.security.clientGate\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "StringLiteral",
-      "offset": 17058,
+      "offset": 17348,
       "length": 25,
       "value": "\"metamap.clientErrorCode\""
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "Array",
-      "offset": 24346,
+      "offset": 25398,
       "length": 351,
       "value": "[\"\/Applications\/Cydia.app\", \"\/Applications\/blackra1n.app\", \"\/Applications\/FakeCarrier.app\", \"\/Applications\/Icy.app\", \"\/Applications\/IntelliScreen.app\", \"\/Applications\/MxTube.app\", \"\/Applications\/RockApp.app\", \"\/Applications\/SBSettings.app\", \"\/Applications\/WinterBoard.app\"]"
     },
     {
       "filePath": "\/Users\/avosukiasyan\/Documents\/MetaMap\/iOSsdk\/ios-sdk\/mati-kyc-sdk\/managers\/MetaMapGlobalManagers\/metamap_global_manager.swift",
       "kind": "Array",
-      "offset": 24756,
+      "offset": 25808,
       "length": 684,
       "value": "[\"\/Library\/MobileSubstrate\/DynamicLibraries\/LiveClock.plist\", \"\/Library\/MobileSubstrate\/DynamicLibraries\/Veency.plist\", \"\/Library\/MobileSubstrate\/MobileSubstrate.dylib\", \"\/private\/var\/lib\/apt\", \"\/private\/var\/lib\/apt\/\", \"\/private\/var\/lib\/cydia\", \"\/private\/var\/mobile\/Library\/SBSettings\/Themes\", \"\/private\/var\/stash\", \"\/private\/var\/tmp\/cydia.log\", \"\/System\/Library\/LaunchDaemons\/com.ikey.bbot.plist\", \"\/System\/Library\/LaunchDaemons\/com.saurik.Cydia.Startup.plist\", \"\/usr\/bin\/sshd\", \"\/usr\/libexec\/sftp-server\", \"\/usr\/sbin\/sshd\", \"\/etc\/apt\", \"\/bin\/bash\"]"
     },

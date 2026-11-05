@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		Slx/M0NUitow6XimpgKUtOvceig=
+		TiPtT6dfJPGbi/aSqcIa5bpeZ0M=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		z0KWfaEn38ejKCPSTIhb40reOfQ=
+		fI1qj6rscvj89mzzDf3ryoyq9Uc=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3vKUoVbXYwv07t7hTn830CKrSxk=
+		Ny0dlI+lp9+YkirwKK0FVrMalKA=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		gSFuIRERsEgzfERJM6pKM5DV9To=
+		qEqH79fVEDHmyYJAYWsTn4/eo1Q=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -158,19 +158,19 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		gSFuIRERsEgzfERJM6pKM5DV9To=
+		qEqH79fVEDHmyYJAYWsTn4/eo1Q=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ARIFDykKPlKkPwDSwladC86prz8=
+		if6B99qnJ/lmkGeXcujBuvFJ7S8=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3vKUoVbXYwv07t7hTn830CKrSxk=
+		Ny0dlI+lp9+YkirwKK0FVrMalKA=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qoekds1GFKJwvKN1vrndZ9IuBcY=
+		OzYAaQphXA7cw6ib1E71f7205IA=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -178,11 +178,11 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qoekds1GFKJwvKN1vrndZ9IuBcY=
+		OzYAaQphXA7cw6ib1E71f7205IA=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		p+phm+TLBkMDSKE+3DyDVbTLtpg=
+		SVHCKYMV00G+qx6Zax8X8eA+13k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -228,7 +228,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x1+p23gp+/vxIFX2DKCwK5Dq114=
+			1BZ/uOwUL40bDRtyWyxZgX2PsaA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -237,7 +237,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EYzGVH3gc25hmtz84lYeu2P0TOk=
+			o3MSc1HjbHysAltHUc8e2HEDlcE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -246,7 +246,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/IeTv4lnyEikhoylVBw4QQbcorQ=
+			iNjRuwFn7P3VE5ZY8164NfqeTfI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -255,7 +255,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dUe2rRifZqX5tXqsrDCEiJkcNaI=
+			WuGygJtJJWJyoAA+4LtlsGL+9JQ=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -264,7 +264,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zLfbLnoTrq2KvntrNZR5qKe9pLs=
+			7wVVb3PJ45wSIFk7aLGBE/m8dF8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -285,7 +285,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1xygHa61YbxC9xJBBWeOdH9byj4=
+			WO+Om9Qdc6F/4pOGKDwL+18teS8=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -294,20 +294,20 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eyqu34o2z+Idb41Qn1mAeznEmyI=
+			C3JI3Sk0GQGuSOkK1mHrEa3zpiY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>requestManager/requestManager.swift</key>
 		<data>
-		QmeOtNKkLQ//bsmcO8lTnQUDykI=
+		Pkr+oH3e4DkX4m5bJwkz7rVJD90=
 		</data>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			jcZX3Sn7JDoFyJvNBtXl4ELQKMg=
+			VVMyaYNxtyEnNT0IM7tBLU3yV/c=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -316,7 +316,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nlMI6S9iza4jJlnR7gR0Xv09BLQ=
+			sqYrizmUqHR68IYM3Ilwe8DZRj0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -329,7 +329,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			iHMiHgdnxiQXd3Xpyt/1Ag60HQA=
+			5LRAkthCBc5bmFKB1HMjCpfKr3M=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -341,7 +341,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TQAB7PxM4L0ZuM8YfJVoBYC3rbONs4R2rYtv6cymWg8=
+			f1XtZ/51M+5GxxUzOOLA8Fl/ZWu6d4NY10dDiCyVBGE=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -579,14 +579,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sBrPzUPs9mC5sOmvz6R+A0IN2QBiLJ3oh2kKcO8uAH0=
+			iIW3tUE9dMRofngTo03TpD/WggCxLMED+cNV6Nm5Trs=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4065R5daTLaqygmh3gJXBZOkQ52HJ4mP2lM9Bzibq0s=
+			31sfGvkTVSg7x5K5WBzT7Zzzrg6JwWE+83TAeJzNa3I=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -600,28 +600,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4065R5daTLaqygmh3gJXBZOkQ52HJ4mP2lM9Bzibq0s=
+			31sfGvkTVSg7x5K5WBzT7Zzzrg6JwWE+83TAeJzNa3I=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GAUrxqH+S6xUkbhJXTzwR/QE8wtTAWRHOwPlTHoxg88=
+			ZET4t82CDLXEd6DiEVCoZC+9IekDhEB42w1kOh22Mm4=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sBrPzUPs9mC5sOmvz6R+A0IN2QBiLJ3oh2kKcO8uAH0=
+			iIW3tUE9dMRofngTo03TpD/WggCxLMED+cNV6Nm5Trs=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iz9wx6uQlrvZwG4BBefV+4JnZjeODCGX4A4faf2pmDs=
+			s3S4fSFL2EGQdtZjQY/E/c4Qa/jzpJA19gdHjProhb4=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -635,14 +635,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Iz9wx6uQlrvZwG4BBefV+4JnZjeODCGX4A4faf2pmDs=
+			s3S4fSFL2EGQdtZjQY/E/c4Qa/jzpJA19gdHjProhb4=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aEtr0K4lzsrW5KMwxpZIaOc2m2v1ifRrpdHd4jMDd9M=
+			yzEqRMO5cJqfbyErhRHU/8c+R8ho3IPWpw71q3o/1hI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -719,7 +719,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T9nryRmWx0n7nhKtxILLkOZYhRPgeTv2siXo9P0vOgM=
+			ghL8A1qyMb2gB0xfumf6uWTNpDyNUxzp7tkNoYm5ANk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -728,7 +728,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I/UThQlcfRG7N5GN5aZvMsz+aUGBlP1lgRnKL4TYNGE=
+			8p3XEFjV1KjHgtCUdsv3zPCwa/oMbIbr5ssbeHb10Ik=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -737,7 +737,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PWRj3dyOHTetzKwKDOKzM2l77REzx4cY1H6JJPKZzGQ=
+			vk4nxCR0YfadXax8JDHHRzuizFLIa+KedPtNyw3L+Xg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -746,7 +746,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZWNXndFAa2KiOqVGKgtlsmDAgy9dDOLg6Mf3/gw6T68=
+			ebRJciocYBHuzR9NLfQoYkmb1An05n7BMhODRc6waVA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -755,7 +755,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9T98nEihp1kHEPKqu4ZxULKGlussRLbgFEDAKbq0qL4=
+			Ii1oRD/glW/HSWse96K9yqDs/yG3PdWzXwc3qdjDpzI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -785,7 +785,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ChuyGWxOrxNeStaeEZz4Emlu6kznh1G40CJydf13Hcs=
+			qgBOMk24DZcOfY1XOu5cwY3lIqtvALhGXDC6fZmsZe0=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -794,7 +794,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1THgZk2I0oO8viwogUUGNWiyIPVib4r8XvjH4hwwx8E=
+			0zBbd28W4sM6HZNYiKgKXlgs56WKxvPCY3Unmh3U8g4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -803,14 +803,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vSRVsxOwx/R7AuEhlNgRCHQ1RLd/onHzfm5x7GZttwo=
+			jYn36heAIwp/6IoENsV6OGiN5o3PNgEX923zKsoJBQY=
 			</data>
 		</dict>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			edquqJF7mulkCjHyykL8xqQcTRcwFl+sFqAWUKjiRaw=
+			/s948kbhztmjJbnc2HoYzy0PN6V8ulAfpSLW/B10yzg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -819,7 +819,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lHv5SpZbE44hP/CGbsV98bAYPpCiO5TZGQxlhlp+dO8=
+			pZDIzae4I4YjhOLwMoZGNfxVH4OXeX5UAgzNRMARB3g=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -835,7 +835,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			encWMHz+hK12ZJwmI3FS24KBDkECatw1ngvqsK/KrX8=
+			angZLFPRtmHFcYmJVHqm5RRTaqLhUXrYzK9pfSOz8Ns=
 			</data>
 			<key>optional</key>
 			<true/>

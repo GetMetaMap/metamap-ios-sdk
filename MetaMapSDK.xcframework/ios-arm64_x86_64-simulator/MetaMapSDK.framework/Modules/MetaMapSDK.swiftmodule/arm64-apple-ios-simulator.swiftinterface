@@ -27,6 +27,7 @@ import NotificationCenter
 import PDFKit
 import PencilKit
 import SafariServices
+import Security
 import Swift
 import SwiftUI
 import SystemConfiguration
