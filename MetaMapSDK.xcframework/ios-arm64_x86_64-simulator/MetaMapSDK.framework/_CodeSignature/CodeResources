@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		TiPtT6dfJPGbi/aSqcIa5bpeZ0M=
+		O5Gx49A9ru5TTzpFeSzn1LxrO5M=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/coremldata.bin</key>
 		<data>
-		41934MMSWIIcpJT/P9iwL5RO6js=
+		u7dTcT6EHvDCn+nLcuHHimfhAaU=
 		</data>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/MetaMapSDK-Swift.h</key>
 		<data>
-		lQj9/Y1kaA6Q7NJkV185BWjEXdI=
+		tKkor+P9jTEywAZrnSjFtc5ZF5w=
 		</data>
 		<key>Headers/MetaMapSDK.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fI1qj6rscvj89mzzDf3ryoyq9Uc=
+		Xu6b+COjdTk1CU+JzIO5Nj4MiNo=
 		</data>
 		<key>Lato-Bold.ttf</key>
 		<data>
@@ -146,43 +146,43 @@
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ny0dlI+lp9+YkirwKK0FVrMalKA=
+		MCrx2WsQfe+lDJDvgVIUoRGkc34=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qEqH79fVEDHmyYJAYWsTn4/eo1Q=
+		IaCGyOgVae8j2zeTDQ/N+AF3Qdc=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JJ2kDRRICAT93wSUynQ2xh8QqhI=
+		NsCF1C7KOEycElTqYNsxUDlrWtg=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qEqH79fVEDHmyYJAYWsTn4/eo1Q=
+		IaCGyOgVae8j2zeTDQ/N+AF3Qdc=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		if6B99qnJ/lmkGeXcujBuvFJ7S8=
+		8L8YP2DQBW/rSkg6+Lk+7Ytev1c=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Ny0dlI+lp9+YkirwKK0FVrMalKA=
+		MCrx2WsQfe+lDJDvgVIUoRGkc34=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OzYAaQphXA7cw6ib1E71f7205IA=
+		gMfxL/syouSaQXfqFziV6TK8v1s=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		AL77FytTiqwr7HnUfeMVEYJd4Kk=
+		fx7uEFvYqn0xaQF5AqngEsaFsg8=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OzYAaQphXA7cw6ib1E71f7205IA=
+		gMfxL/syouSaQXfqFziV6TK8v1s=
 		</data>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SVHCKYMV00G+qx6Zax8X8eA+13k=
+		F/3sPYIlBrfp3XFkvIt+HB4Abb4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -301,7 +301,7 @@
 		</dict>
 		<key>requestManager/requestManager.swift</key>
 		<data>
-		Pkr+oH3e4DkX4m5bJwkz7rVJD90=
+		Oo1lSjaAc/xQLeJr58Ee81ihXSc=
 		</data>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
@@ -341,7 +341,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f1XtZ/51M+5GxxUzOOLA8Fl/ZWu6d4NY10dDiCyVBGE=
+			q5qg2BZE5BSLtv05XZX75HxEXi5TmTTgEszShfgmxno=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/analytics/coremldata.bin</key>
@@ -355,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6LdgjD1+hejeOqowb/uS1ubJI/Z/Y6uLQaXQf6po//c=
+			6U43GYQWOI9fw7ya31RwpX8N4Z2P/hwAvZfMlVYsrZc=
 			</data>
 		</dict>
 		<key>BlazeFaceScaled.mlmodelc/metadata.json</key>
@@ -404,7 +404,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H5EPGI+99Fog4UX8lLENvkRKcq8QxJW0Qsb7U1WZn/M=
+			v/0/J1C335IFvemwcyie4vllkmT0YdCS+04S1cd2VAQ=
 			</data>
 		</dict>
 		<key>Headers/MetaMapSDK.h</key>
@@ -579,70 +579,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iIW3tUE9dMRofngTo03TpD/WggCxLMED+cNV6Nm5Trs=
+			FMt1NDGeNW5LIphAXJDfEf0/qT0V6jKSarUmk/WvZso=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			31sfGvkTVSg7x5K5WBzT7Zzzrg6JwWE+83TAeJzNa3I=
+			XHeKJ0e7ERIpUDHE/lhOxAPPBvTBEBnWIwyyU5sr2PI=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TtFeEascXP8GC/1rHy8z4PhpRUwz6ZcpDZwfi657rOY=
+			HuhniLHxsjImlXlIv2kI8Clxig9wQfM551WwBZGA8nU=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			31sfGvkTVSg7x5K5WBzT7Zzzrg6JwWE+83TAeJzNa3I=
+			XHeKJ0e7ERIpUDHE/lhOxAPPBvTBEBnWIwyyU5sr2PI=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZET4t82CDLXEd6DiEVCoZC+9IekDhEB42w1kOh22Mm4=
+			xFY8LqGbzfojtm2/3dzG8UP6uiYn/11jEWhwmgV8sP0=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iIW3tUE9dMRofngTo03TpD/WggCxLMED+cNV6Nm5Trs=
+			FMt1NDGeNW5LIphAXJDfEf0/qT0V6jKSarUmk/WvZso=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s3S4fSFL2EGQdtZjQY/E/c4Qa/jzpJA19gdHjProhb4=
+			bamq6cdWk7HHxgN2SFPkGp/pNW0iL+TsD7XnhuZXmac=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XbpTWfxeVfk0tzc15FgSw49SX3ZRxFCcsP9ODIjyQYU=
+			O7rINeLj33Ex1F/53sxmxFWaQY7dZTPb7zIySuHVE0g=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s3S4fSFL2EGQdtZjQY/E/c4Qa/jzpJA19gdHjProhb4=
+			bamq6cdWk7HHxgN2SFPkGp/pNW0iL+TsD7XnhuZXmac=
 			</data>
 		</dict>
 		<key>Modules/MetaMapSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yzEqRMO5cJqfbyErhRHU/8c+R8ho3IPWpw71q3o/1hI=
+			x5uVPPYEQSCmBXk9SVPc9+P2Byj3dQBDBOm373gS0ME=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -803,7 +803,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jYn36heAIwp/6IoENsV6OGiN5o3PNgEX923zKsoJBQY=
+			lVfzhfdpOCu+1oQt3in6PKbR1xQNtEK8GXnvVGkhV5k=
 			</data>
 		</dict>
 		<key>ru.lproj/Localizable.strings</key>

@@ -9,15 +9,12 @@
 import Foundation
 
 class RequestManager {
-    private static var sharedInstance: RequestManager?
-      class var shared: RequestManager {
-          guard let sharedInstance = self.sharedInstance else {
-              let sharedInstance = RequestManager()
-              self.sharedInstance = sharedInstance
-              return sharedInstance
-          }
-          return sharedInstance
-      }
+    /// `static let` is initialised exactly once even under contention. The
+    /// previous check-then-create accessor could hand out two managers when
+    /// reached from a socket callback and the UI at the same time — and each
+    /// one owns its own socket connection.
+    static let shared = RequestManager()
+
     
     private let socketManager = MetaMapSocketManager()
     private let apiManager = MetaMapApiManager()
@@ -37,23 +34,17 @@ class RequestManager {
                 if let token = oauth.accessToken {
                     StorageManager.shared.set(token, for: .accessToken)
                 }
-                if let idToken = oauth.idToken?.components(separatedBy: ".") {
-                    if idToken.count > 1 {
-                        let payloadEncoded = idToken[1]
-                        if let payloadFix = payloadEncoded.base64JwtDecode() {
-                            let jsonData = Data(payloadFix.utf8)
-                            if let idTokenModel = try? IdTokenResponseModel.decode(from: jsonData) {
-                                completion(idTokenModel)
-                            } else {
-                                completion(nil)
-                            }
-                        } else {
-                            completion(nil)
-                        }
-                    }
-                } else { // idtoken slice from whole
+                // A JWT without a payload segment is as unusable as a missing
+                // one, so it has to report failure rather than drop the
+                // completion and leave the loading screen spinning.
+                guard let idToken = oauth.idToken?.components(separatedBy: "."),
+                      idToken.count > 1,
+                      let payloadFix = idToken[1].base64JwtDecode(),
+                      let idTokenModel = try? IdTokenResponseModel.decode(from: Data(payloadFix.utf8)) else {
                     completion(nil)
+                    return
                 }
+                completion(idTokenModel)
             } else { // oauth
                 completion(nil)
             }
@@ -302,7 +293,14 @@ class RequestManager {
                         onReady()
                     }
                 case .error:
-                    break
+                    // The verification already exists, so a failed
+                    // connection-data refresh must not stop the reconnect:
+                    // dropping `onReady` here leaves the loading screen
+                    // waiting forever instead of retrying the socket.
+                    MetaMapLogger.log("connection-data refresh failed – reconnecting socket anyway",
+                                      tag: "RequestManager",
+                                      level: .warning)
+                    onReady()
                 }
             }
         }
